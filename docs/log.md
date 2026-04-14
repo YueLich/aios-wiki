@@ -228,3 +228,15 @@ format: reverse-chronological
 - 本轮核心收获：IMEC 团队首次量化端侧 LLM 推理对 HBS/芯粒的带宽延迟需求
 - 关键洞察：HBS 带宽需 > 40% LPDDR6 才能摆脱瓶颈；小模型应优先缓存 MLP 权重而非 Q/K/V
 
+
+### 2026-04-15 01:00 — 增量更新
+
+**新增 4 个页面：**
+
+1. **[[llamacpp-b8793]]** (entity) — llama.cpp b8793 发布：Vulkan 后端 RoundingModeRTE 支持
+2. **[[rl-asic-exploration]]** (concept) — RL 驱动的 ASIC 架构探索，让 Llama 3.1 8B 在 3nm 跑出 29809 tok/s
+3. **[[comllm-mec-offloading]]** (concept) — 用多轮推理 LLM 做 MEC 任务卸载，零样本拓扑泛化
+4. **[[emommas-edge-negotiation]]** (concept) — 贝叶斯多 Agent 情感协商系统，端侧可部署
+
+**来源扫描：** arXiv (6 queries)、RSS (10 feeds)、GitHub (7 repos)
+**去重后新内容：** 8 条 → 4 条写入 wiki
