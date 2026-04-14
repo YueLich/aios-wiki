@@ -57,3 +57,25 @@ format: reverse-chronological
 3. **开发者工具链成熟**：AnyLanguageModel 和 React Native llama.rn 说明端侧推理正从 ML 工程师走向普通开发者
 4. **Agent vs Agent 对抗**：MANA 用 Agent 检测广告，显示 Agent 在安全领域的应用潜力
 
+## 2026-04-14 12:07 Wiki 更新
+
+扫描来源：arXiv (6 queries)、RSS (5 feeds)、GitHub (6 repos)
+收集原始标题：48 → 去重后新内容：10 → 创建页面：8
+
+### 新增实体页面
+- `entities/gemma-4-google.md` — Gemma 4：端侧前沿多模态模型
+- `entities/coremltools-9.md` — Apple coremltools 9.0 模型转换工具链
+- `entities/minicpm-242.md` — MiniCPM 2.4.2：端侧模型 Intel 显卡加速
+- `entities/google-translate-ios-live.md` — Google Translate iOS 实时耳机翻译
+
+### 新增概念页面
+- `concepts/gemma4-audio-mlx.md` — Gemma 4 端侧音频处理（MLX + Apple Silicon）
+- `concepts/melotune-ondevice-music.md` — MeloTune：端侧 Agent 情感感知音乐推荐
+- `concepts/fastshade-mobile-denoising.md` — FastSHADE：移动端实时图像去噪
+- `concepts/facelivtv2-mobile-face.md` — FaceLiVTv2：移动端高效人脸识别
+
+### 关键趋势
+1. **端侧多模态模型成熟**：Gemma 4 支持视觉+音频，MiniCPM-V 支持图文，端侧多模态进入实用阶段
+2. **Agent 进入端侧**：MeloTune 展示了完整的端侧 Agent 协作系统（P2P 情感耦合）
+3. **Apple 生态 ML 工具链更新**：coremltools 9.0 支持 Python 3.13，端侧部署工具持续迭代
+4. **端侧 CV 模型专业化**：FastSHADE（去噪）和 FaceLiVTv2（人脸识别）展示端侧视觉模型的垂直深耕
