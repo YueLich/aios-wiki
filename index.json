@@ -60,7 +60,9 @@
     "Qwen 3.5 Small 9B",
     "Qwen 3.5 Small 35B-A3B",
     "Qwen3.5",
-    "Zuver 10MB agents"
+    "Zuver 10MB agents",
+    "MNN 3.5.0",
+    "alibaba/MNN 3.5.0"
   ],
   "known_topics": [
     "gui-agent-benchmark",
@@ -94,6 +96,6 @@
     "multimodal-pruning"
   ],
   "last_update": "2026-04-14 16:05",
-  "last_updated": "2026-04-14T00:00:00Z",
+  "last_updated": "2026-04-14T20:05:09.459211",
   "total_pages": 10
 }

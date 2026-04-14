@@ -188,3 +188,22 @@ format: reverse-chronological
 - HN Qwen 3.5 Small 来自 ai-tldr.dev（SPA）和 HuggingFace API
 - Zuver 社区关注度低（HN 3 points），需后续跟踪验证
 
+
+
+## 更新 2026-04-14 20:05
+
+### 新增
+- **MNN 3.5.0** — 阿里端侧推理引擎重大更新
+  - Vulkan LLM 推理、TurboQuant KV Cache 量化、异步 Token2Wav 语音流水线
+  - Tokenizer 20x 加速、Qwen3.5 Smooth/Omni 支持、RISC-V RVV 落地
+
+### 跳过（已处理/不相关）
+- llama.cpp b8792 — 仅 CI 修复，非功能性更新
+- TensorRT-LLM v1.2.0 — 主要面向服务端/云端，移动端相关性有限
+- gemma.cpp v0.1.4 — 小版本更新（Gemma ctor 重构 + NUMA）
+- Manex Hub — macOS 研究工具，非移动 AIOS
+
+### 备注
+- arXiv RSS 新论文均已被去重过滤（无新移动端相关论文）
+- HN 无高质量移动端 AI 新闻
+
