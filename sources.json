@@ -1,0 +1,15 @@
+{
+  "arxiv": {"tier": 1, "queries": ["ti:on-device AND all:language model", "all:mobile AND all:agent AND all:smartphone", "all:quantization AND all:mobile AND all:LLM", "all:edge AND all:inference AND all:language model", "all:on-device AND all:multimodal", "all:efficient AND all:transformer AND all:mobile"], "max_results": 5},
+  "rss_feeds": {"tier": 2, "feeds": [
+    {"name": "Google AI Blog", "url": "https://blog.google/technology/ai/rss/"},
+    {"name": "Android Dev", "url": "https://android-developers.googleblog.com/feeds/posts/default?alt=rss"},
+    {"name": "HuggingFace", "url": "https://huggingface.co/blog/feed.xml"},
+    {"name": "The Decoder", "url": "https://the-decoder.com/feed/"},
+    {"name": "VentureBeat AI", "url": "https://venturebeat.com/category/ai/feed/"},
+    {"name": "arXiv cs.AI", "url": "http://export.arxiv.org/rss/cs.AI"},
+    {"name": "arXiv cs.CL", "url": "http://export.arxiv.org/rss/cs.CL"},
+    {"name": "Simon Willison", "url": "https://simonwillison.net/atom/everything/"}
+  ]},
+  "github_releases": {"tier": 3, "repos": ["ggml-org/llama.cpp", "alibaba/MNN", "mlc-ai/mlc-llm", "OpenBMB/MiniCPM", "apple/coremltools", "NVIDIA/TensorRT-LLM"]},
+  "keywords_filter": ["on-device", "edge ai", "mobile", "smartphone", "apple intelligence", "hyperai", "harmonyos", "gemini", "gemma", "llm", "ai agent", "npu", "inference", "quantization", "端侧", "小米", "华为", "三星", "samsung", "xiaomi", "qualcomm", "coreml", "tensorrt", "mnn", "llama", "minicpm", "multimodal"]
+}
