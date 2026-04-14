@@ -168,3 +168,23 @@ format: reverse-chronological
 ### 备注
 - llama.cpp b8790 仅为单次 vendor 更新（BoringSSL），无功能性变更
 - 本轮更新量极小，主要来源未产出新的端侧 AI 相关内容
+
+## 2026-04-14_19:05 — 增量更新
+
+**统计**：扫描 arXiv RSS (3 feeds) + RSS (6 feeds) + GitHub (7 repos) + HN = 132 条原始 → 48 Stage1 → 29 去重 → 7 Stage2 → 3 最终新增
+
+### 新增页面
+- `entities/llamacpp-b8791.md` — llama.cpp b8791：Metal XIELU 激活函数 + ARM NEON nvfp4 修复，端侧推理效率提升
+- `concepts/qwen35-small.md` — Qwen 3.5 Small 系列：0.8B-9B 端侧多模态模型（image-text-to-text），Apache 2.0
+- `entities/zuver.md` — Zuver：10MB 内存的开源 Agentic AI 框架，Go 实现
+
+### 跳过（已处理）
+- MiniCPM 2.4.2, coremltools 9.0 — 旧版本，已在 index 中
+- Meta Muse Spark — 云端托管模型，非端侧
+- Manex Hub — macOS 研究工具，非移动 AIOS
+
+### 备注
+- arXiv RSS 新论文均已被去重过滤（与已知标题重叠）
+- HN Qwen 3.5 Small 来自 ai-tldr.dev（SPA）和 HuggingFace API
+- Zuver 社区关注度低（HN 3 points），需后续跟踪验证
+
