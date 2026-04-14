@@ -1,8 +1,7 @@
-site_name: Mobile AIOS Wiki
+site_name: 📱 Mobile AIOS Wiki
 site_description: 手机端 AI 操作系统知识库
 site_url: https://yuelich.github.io/aios-wiki/
 repo_url: https://github.com/YueLich/aios-wiki
-repo_name: YueLich/aios-wiki
 
 theme:
   name: material
@@ -14,14 +13,14 @@ theme:
       accent: amber
       toggle:
         icon: material/brightness-7
-        name: 切换至暗色
+        name: 暗色模式
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: indigo
       accent: amber
       toggle:
         icon: material/brightness-4
-        name: 切换至亮色
+        name: 亮色模式
   features:
     - navigation.instant
     - navigation.tabs
@@ -32,8 +31,6 @@ theme:
     - search.highlight
     - content.code.copy
     - toc.follow
-  icon:
-    repo: fontawesome/brands/github
 
 plugins:
   - search
