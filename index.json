@@ -40,7 +40,11 @@
     "MeloTune: On-Device Arousal Learning and Peer-to-Peer Mood Coupling for Proactive Music Curation",
     "FastSHADE: Fast Self-augmented Hierarchical Asymmetric Denoising for Efficient inference on mobile devices",
     "FaceLiVTv2: An Improved Hybrid Architecture for Efficient Mobile Face Recognition",
-    "Google Translate: Live translate with headphones on iOS"
+    "Google Translate: Live translate with headphones on iOS",
+    "Transform your headphones into a live personal translator on iOS.",
+    "Increase Guidance and Control over Agent Mode with Android Studio Panda 3",
+    "Test Multi-Device Interactions with the Android Emulator",
+    "Redefining Location Privacy: New Tools and Improvements for Android 17"
   ],
   "known_topics": [
     "cold-start-optimization",
@@ -68,6 +72,6 @@
     "edge-medical-agentic-transformer"
   ],
   "last_update": "2026-04-14 14:00",
-  "last_updated": "2026-04-14T12:07:33.096559+00:00",
+  "last_updated": "2026-04-14T13:06:43+00:00",
   "total_pages": 8
 }

@@ -79,3 +79,13 @@ format: reverse-chronological
 2. **Agent 进入端侧**：MeloTune 展示了完整的端侧 Agent 协作系统（P2P 情感耦合）
 3. **Apple 生态 ML 工具链更新**：coremltools 9.0 支持 Python 3.13，端侧部署工具持续迭代
 4. **端侧 CV 模型专业化**：FastSHADE（去噪）和 FaceLiVTv2（人脸识别）展示端侧视觉模型的垂直深耕
+
+## 2026-04-14 13:06
+- 新增页面：3 个
+  - entities/melotune-ondevice-music.md — MeloTune: 端侧音乐 AI Agent
+  - entities/google-translate-ios-live2.md — Google Translate Live for iOS
+  - entities/android-studio-agent-mode.md — Android Studio Agent Mode (Panda 3)
+- 已存在跳过：4 个（FastSHADE, MANA, Sense Less Infer More, FaceLiVTv2）
+- 扫描来源：arXiv × 6 queries, RSS × 10 feeds, GitHub × 7 repos
+- 去重后新增标题：13 → 创建页面 3
+
