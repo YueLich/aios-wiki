@@ -23,7 +23,6 @@ theme:
         name: 亮色模式
   features:
     - navigation.instant
-    - navigation.tabs
     - navigation.sections
     - navigation.expand
     - navigation.top
@@ -47,10 +46,3 @@ markdown_extensions:
   - tables
   - toc:
       permalink: true
-
-nav:
-  - 首页: index.md
-  - 实体: entities/index.md
-  - 概念: concepts/index.md
-  - 对比: comparisons/index.md
-  - 速查: queries/index.md
