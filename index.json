@@ -26,7 +26,14 @@
     "Elevating AI-assisted Android development and improving LLMs with Android Bench",
     "ggml-org/llama.cpp: b8783",
     "alibaba/MNN: 3.5.0",
-    "NVIDIA/TensorRT-LLM: v1.2.0"
+    "NVIDIA/TensorRT-LLM: v1.2.0",
+    "Turing Test on Screen: A Benchmark for Mobile GUI Agent Humanization",
+    "MobiFlow: Real-World Mobile Agent Benchmarking through Trajectory Fusion",
+    "MGA: Memory-Driven GUI Agent for Observation-Centric Interaction",
+    "Introducing AnyLanguageModel: One API for Local and Remote LLMs on Apple Platforms",
+    "LLM Inference on Edge: A Fun and Easy Guide to run LLMs via React Native on your Phone!",
+    "MANA: Towards Efficient Mobile Ad Detection via Multimodal Agentic UI Navigation",
+    "Sense Less, Infer More: Agentic Multimodal Transformers for Edge Medical Intelligence"
   ],
   "known_topics": [
     "cold-start-optimization",
@@ -44,7 +51,14 @@
     "gemma4",
     "ggml-hf-merger",
     "gemini-live",
-    "personal-intelligence"
+    "personal-intelligence",
+    "gui-agent-humanization-benchmark",
+    "mobile-agent-trajectory-benchmark",
+    "memory-driven-gui-agent",
+    "apple-unified-llm-api",
+    "react-native-edge-llm",
+    "mobile-ad-detection-agent",
+    "edge-medical-agentic-transformer"
   ],
-  "last_update": "2026-04-14 10:51"
+  "last_update": "2026-04-14 14:00"
 }
