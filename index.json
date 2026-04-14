@@ -46,7 +46,9 @@
     "Test Multi-Device Interactions with the Android Emulator",
     "Redefining Location Privacy: New Tools and Improvements for Android 17",
     "Apple introduces iPhone 17e",
-    "Google AI Edge Gallery"
+    "Google AI Edge Gallery",
+    "ggml-org/llama.cpp: b8786",
+    "google/gemma.cpp: v0.1.4"
   ],
   "known_topics": [
     "cold-start-optimization",
@@ -72,9 +74,11 @@
     "react-native-edge-llm",
     "mobile-ad-detection-agent",
     "edge-medical-agentic-transformer",
-    "google-ai-edge-gallery"
+    "google-ai-edge-gallery",
+    "llamacpp-b8786",
+    "gemma-cpp"
   ],
-  "last_update": "2026-04-14 18:00",
-  "last_updated": "2026-04-14T13:06:43+00:00",
-  "total_pages": 9
+  "last_update": "2026-04-14 16:05",
+  "last_updated": "2026-04-14T16:05:00+00:00",
+  "total_pages": 10
 }

@@ -24,8 +24,16 @@ GGML 和 llama.cpp 正式加入 HuggingFace，以确保本地 AI 推理工具的
 
 对 [[mobile-aios-overview]] 的影响：llama.cpp 是 [[on-device-inference]] 的核心技术栈之一，其稳定性直接关系到整个端侧 AI 生态。
 
+## 版本追踪
+
+### b8786（2026-04-14）
+- **修复推理预算采样器性能回归**：当未设置 reasoning budget 时，跳过采样器创建，恢复 backend sampling（GPU 直接选择 token），避免每 token 的 CPU logits 传输
+- 此前 gemma4、kimi_k2、lfm2 等模型会无条件创建采样器，导致 Vulkan 场景下 ~30% 速度回退
+- lazy grammar 场景下保留采样器以维持 thinking-block 语法抑制功能
+
 ## 关联
 
+- [[gemma-cpp-inference]] — Google 官方的 Gemma 专用 C++ 推理引擎
 - [[mnn]] — 竞争/互补的推理框架
 - [[gemma4-ondevice]] — 可用 llama.cpp 推理的模型
 - [[edgeflow-cold-start]] — 推理优化技术

@@ -127,3 +127,14 @@ format: reverse-chronological
 - arXiv API 仍全部失败（code=0），仅通过 RSS 获取论文
 - 本次更新量较小，主要新内容为 Google AI Edge Gallery
 - 该应用首次将模型厂商的端侧体验从「模型发布」推进到「官方应用」阶段
+
+## wiki update: 2026-04-14_16:05 UTC
+
+**新增页面：**
+- `concepts/gemma-cpp-inference.md` — gemma.cpp v0.1.4，Google Gemma 轻量级 C++ 推理引擎
+
+**更新页面：**
+- `entities/ggml-llamacpp-hf.md` — 追加 llama.cpp b8786 版本信息（修复推理预算采样器性能回归）
+
+**去重统计：** 扫描 126 条来源条目，2 条通过去重和过滤进入 wiki。
+
