@@ -1,6 +1,6 @@
 ---
 type: concept
-tags: [audio, mlx, on-device, speech-to-text, macos, apple-silicon]
+tags: [audio, mlx, on-device, speech-to-text, macos, apple-silicon, 其他]
 related: [[gemma-4-google]], [[mlx-framework]], [[whisper]], [[apple-silicon]]
 sources:
   - https://simonwillison.net/2026/Apr/13/gemma-4-audio-with-mlx/
@@ -36,3 +36,17 @@ uv run --python 3.13 --with mlx_vlm --with torchvision --with gradio \
 4. **开发者友好**：一条 uv 命令即可运行，降低端侧 AI 使用门槛
 
 对 [[mobile-aios]] 而言，这展示了端侧多模态模型已从"实验室演示"进入"开发者可用"阶段。
+
+## 核心问题
+
+Computer use agents automate digital tasks by directly interacting with graphical user interfaces (GUIs) on computers and mobile devices, offering significant potential to enhance human productivity by completing an open-ended space of user queries. However, current agents face significant challenges: imprecise grounding of GUI elements, difficulties with long-horizon task planning, and performance bottlenecks from relying on single generalist models for diverse cognitive tasks. To this end, we introduce Agent S2, a novel compositional framework that delegates cognitive responsibilities across various generalist and specialist models. We propose a novel Mixture-of-Grounding technique to achieve precise GUI localization and introduce Proactive Hierarchical Planning, dynamically refining act
+
+## 为什么重要
+
+本研究/产品对手机端 AIOS 生态有重要参考价值。推动端侧 AI 从概念走向实际部署。
+
+## 关联
+
+- [[clawmobile-agentic]] — Agent 系统架构
+- [[mnn-350]] — 推理引擎
+- [[kv-cache-quantization-ondevice]] — 内存优化

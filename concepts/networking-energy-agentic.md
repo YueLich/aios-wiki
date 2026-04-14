@@ -26,6 +26,15 @@ Agent 系统的能耗不仅是模型推理本身：
 
 这是 [[sustainability-ondevice-intelligence]] 的重要延伸。现有能效研究主要关注模型推理本身，但 Agent 系统的特殊性在于其频繁的外部交互。对于 [[mobile-aios-overview]] 中 Agent 层的设计，需要从整体系统角度考虑能效。
 
+
+## 核心问题
+
+This paper presents a comprehensive framework for transaction posting and pricing in Layer 2 (L2) blockchain systems, focusing on challenges stemming from fluctuating Layer 1 (L1) gas fees and the congestion issues within L2 networks. Existing methods have focused on the problem of optimal posting strategies to L1 in isolation, without simultaneously considering the L2 fee mechanism. In contrast, our work offers a unified approach that addresses the complex interplay between transaction queue dynamics, L1 cost variability, and user responses to L2 fees. We contribute by (1) formulating a dynamic model that integrates both posting and pricing strategies, capturing the interplay between L1 gas price fluctuations and L2 queue management, (2) deriving an optimal threshold-based posting policy 
+
+## 为什么重要
+
+本研究/产品对手机端 AIOS 生态有重要参考价值。推动端侧 AI 从概念走向实际部署。
+
 ## 关联
 
 - [[edge-cloud-collaboration]] — 端云协同架构

@@ -39,3 +39,17 @@ AnyLanguageModel 是一个面向 Apple 平台的统一 LLM API 框架，由社�
 - [[personal-intelligence-google]] — Google 的端侧智能策略
 - [[gemma4-ondevice]] — 端侧多模态模型
 - [[gemini-flash-live]] — 轻量级实时 AI
+
+## 核心问题
+
+A novel class of Runge-Kutta discontinuous Galerkin schemes for coupled systems of conservation laws in multiple space dimensions that are separated by a fixed sharp interface is introduced. The schemes are derived from a relaxation approach and a local projection and do not require expensive solutions of nonlinear half-Riemann problems. The underlying Jin-Xin relaxation involves a problem specific modification of the coupling condition at the interface, for which a simple construction algorithm is presented. The schemes are endowed with higher order time discretization by means of strong stability preserving Runge-Kutta methods. These are derived from an asymptotic preserving implicit-explicit treatment of the coupled relaxation system taken to the discrete relaxation limit. In a case stu
+
+## 为什么重要
+
+本研究/产品对手机端 AIOS 生态有重要参考价值。推动端侧 AI 从概念走向实际部署。
+
+## 关联
+
+- [[clawmobile-agentic]] — Agent 系统架构
+- [[mnn-350]] — 推理引擎
+- [[kv-cache-quantization-ondevice]] — 内存优化

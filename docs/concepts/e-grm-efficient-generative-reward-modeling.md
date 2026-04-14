@@ -41,3 +41,17 @@ E-GRM 通过监控模型内部的收敛行为来判断何时需要 CoT 推理：
 - [[llm-inference]] — 推理优化
 - [[quantization]] — 模型压缩
 - [[on-device-llm]] — 端侧部署
+
+## 核心问题
+
+We describe KVLink, an approach for efficient key-value (KV) cache reuse in large language models (LLMs). In many LLM applications, different inputs can share overlapping context, such as the same retrieved document appearing in multiple queries. However, the LLMs still need to encode the entire context for each query, leading to redundant computation. In this paper, we investigate a new strategy to eliminate such inefficiency, where the KV cache of each document is precomputed independently. During inference, the KV caches of retrieved documents are concatenated, allowing the model to reuse cached representations instead of recomputing them. To mitigate the performance degradation when using KV caches computed independently for each document, KVLink introduces two key techniques: adjustin
+
+## 为什么重要
+
+本研究/产品对手机端 AIOS 生态有重要参考价值。推动端侧 AI 从概念走向实际部署。
+
+## 关联
+
+- [[clawmobile-agentic]] — Agent 系统架构
+- [[mnn-350]] — 推理引擎
+- [[kv-cache-quantization-ondevice]] — 内存优化

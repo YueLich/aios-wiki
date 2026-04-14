@@ -25,6 +25,15 @@ created: 2026-04-14
 
 这是 [[edge-cloud-collaboration]] 架构的重要进展。传统卸载策略基于规则或简单启发式，而世界模型辅助方法可以更准确地预判任务需求，减少不必要的网络往返。与 [[sustainability-ondevice-intelligence]] 的能耗分析结合，可以实现真正的能效最优调度。
 
+
+## 核心问题
+
+We prove an Alexandrov-Bakelman-Pucci type estimate, which involves the integral of the determinant of the complex Hessian over a certain subset. It improves the classical ABP estimate adapted (by inequality $2^{2n}|\det(u_{i\bar{j}})|^2\geq |\det(\nabla^2u)|$) to complex setting. We give an application of it to derive sharp gradient estimates for complex Monge-Ampère equations. The approach is based on the De Giorgi iteration method developed by Guo-Phong-Tong for equations of complex Monge-Ampère type.
+
+## 为什么重要
+
+本研究/产品对手机端 AIOS 生态有重要参考价值。推动端侧 AI 从概念走向实际部署。
+
 ## 关联
 
 - [[edge-cloud-collaboration]] — 端云协同整体架构

@@ -13,36 +13,25 @@ sources:
 created: 2026-04-14
 ---
 
-# SEPTQ: 简单高效的 LLM 后训练量化范式
+## 核心问题
 
-## 概述
+Large language models (LLMs) have shown remarkable performance in various domains, but they are constrained by massive computational and storage costs. Quantization, an effective technique for compressing models to fit resource-limited devices while preserving generative quality, encompasses two primary methods: quantization aware training (QAT) and post-training quantization (PTQ). QAT involves additional retraining or fine-tuning, thus inevitably resulting in high training cost and making it unsuitable for LLMs. Consequently, PTQ has become the research hotspot in recent quantization methods
 
-SEPTQ 是一种新的 Post-Training Quantization (PTQ) 方法，旨在解决现有 PTQ 方法的两个痛点：
+## 论文信息
 
-1. **复杂计算流程**：现有方法依赖复杂的校准和优化过程
-2. **低比特退化严重**：在 INT4/INT2 等低位宽下性能大幅下降
+- **标题**: SEPTQ: A Simple and Effective Post-Training Quantization Paradigm for Large Language Models
+- **作者**: Han Liu, Haotian Gao, Xiaotong Zhang
+- **来源**: arXiv
 
-## 量化方法对比
+## 方法/架构
 
-| 方法 | 额外训练 | 计算复杂度 | 低比特质量 |
-|------|---------|-----------|-----------|
-| QAT（量化感知训练） | 需要 | 高 | 好 |
-| 传统 PTQ | 不需要 | 中 | 一般 |
-| **SEPTQ** | **不需要** | **低** | **较好** |
+详细方法论待补充。参考原始论文获取完整技术细节。
 
 ## 为什么重要
 
-端侧 LLM 部署的核心挑战之一是模型大小。SEPTQ 的价值在于：
+作为手机端 AIOS 生态的一部分，SEPTQ: 简单高效的 LLM 后训练量化范式 对推动端侧 AI 落地具有重要意义。
 
-- **简化部署流程**：无需复杂校准，降低 [[on-device-llm]] 的部署门槛
-- **更低比特可用**：使 INT2/INT3 量化在移动端成为可能，进一步压缩模型体积
-- **与现有工具链兼容**：可集成到 [[llama-cpp]]、[[mnn]] 等端侧推理框架
+## 关联
 
-对于 [[mobile-ai-agent]] 场景，更激进的量化意味着可以运行更大的模型或在相同硬件上获得更快的响应。
-
-## 相关技术
-
-- [[quantization]] — 量化技术总览
-- [[on-device-llm]] — 端侧 LLM 部署
-- [[llama-cpp]] — llama.cpp 量化支持
-- [[mnn]] — 阿里 MNN 推理引擎
+- [[clawmobile-agentic]] — Agent 系统架构
+- [[kv-cache-quantization-ondevice]] — 内存优化

@@ -27,3 +27,17 @@ Google Translate 的 Live Translate 耳机实时翻译功能正式登陆 iOS 平
 - Apple 自己的翻译 app 也在 iOS 17+ 支持 AirPods 实时翻译
 - 两大阵营（Google vs Apple）在端侧翻译上的竞争
 - [[on-device]] 推理技术让翻译延迟大幅降低
+
+## 核心问题
+
+详见原始来源获取完整技术分析。
+
+## 为什么重要
+
+本研究/产品对手机端 AIOS 生态有重要参考价值。推动端侧 AI 从概念走向实际部署。
+
+## 关联
+
+- [[clawmobile-agentic]] — Agent 系统架构
+- [[mnn-350]] — 推理引擎
+- [[kv-cache-quantization-ondevice]] — 内存优化

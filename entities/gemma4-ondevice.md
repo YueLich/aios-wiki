@@ -29,6 +29,15 @@ Gemma 4 代表了 Google 在端侧 AI 战略上的重要一步。与 [[apple-int
 
 Gemma 4 可能成为 Android 生态中 [[on-device-inference]] 的默认选择之一，特别是在 [[xiaomi-hyperai]] 和三星 Galaxy AI 中。
 
+
+## 核心问题
+
+Quantization has been widely used to compress and accelerate inference of large language models (LLMs). Existing methods focus on exploring the per-token dynamic calibration to ensure both inference acceleration and model accuracy under 4-bit quantization. However, in autoregressive generation inference of long sequences, the overhead of repeated dynamic quantization and dequantization steps becomes considerably expensive. In this work, we propose MergeQuant, an accurate and efficient per-channel static quantization framework. MergeQuant integrates the per-channel quantization steps with the corresponding scalings and linear mappings through a Quantization Step Migration (QSM) method, thereby eliminating the quantization overheads before and after matrix multiplication. Furthermore, in vie
+
+## 为什么重要
+
+本研究/产品对手机端 AIOS 生态有重要参考价值。推动端侧 AI 从概念走向实际部署。
+
 ## 关联
 
 - [[gemma]] — Gemma 模型家族

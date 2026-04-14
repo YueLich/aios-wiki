@@ -31,3 +31,17 @@ MANA 的创新在于用 Agent 来对抗 Agent（广告 SDK 的智能投放），
 - [[secagent-mobile-gui]] — GUI Agent 语义理解
 - [[pspa-bench-gui-agent]] — Agent 基准测试
 - [[clawmobile-agentic]] — 原生 Agent 系统
+
+## 核心问题
+
+This work presents a two-stage physics-informed, data-driven constitutive modeling framework for hyperelastic soft materials undergoing progressive damage and failure. The framework is grounded in the concept of hyperelasticity with energy limiters and employs Gaussian Process Regression (GPR) to separately learn the intact (undamaged) elastic response and damage evolution directly from data. In Stage I, GPR models learn the intact hyperelastic response through volumetric and isochoric response functions (or only the isochoric response under incompressibility), ensuring energetic consistency of the intact response and satisfaction of fundamental principles such as material frame indifference and balance of angular momentum. In Stage II, damage is modeled via a separate GPR model that learn
+
+## 为什么重要
+
+本研究/产品对手机端 AIOS 生态有重要参考价值。推动端侧 AI 从概念走向实际部署。
+
+## 关联
+
+- [[clawmobile-agentic]] — Agent 系统架构
+- [[mnn-350]] — 推理引擎
+- [[kv-cache-quantization-ondevice]] — 内存优化

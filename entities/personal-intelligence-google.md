@@ -1,6 +1,6 @@
 ---
 type: entity
-tags: [google, personal-intelligence, gemini, on-device, privacy]
+tags: [google, personal-intelligence, gemini, on-device, privacy, 平台]
 related: [[mobile-aios-overview]], [[apple-intelligence]], [[gui-agent-privacy]]
 sources:
   - url: https://blog.google/technology/ai/
@@ -29,6 +29,15 @@ Google 正在扩大其「个人智能」（Personal Intelligence）功能的覆�
 ## 隐私挑战
 
 个人智能与隐私的平衡是关键（参见 [[gui-agent-privacy]]）。Google 的方案需要在个性化深度和用户信任之间找到平衡点。
+
+
+## 核心问题
+
+详见原始来源获取完整技术分析。
+
+## 为什么重要
+
+本研究/产品对手机端 AIOS 生态有重要参考价值。推动端侧 AI 从概念走向实际部署。
 
 ## 关联
 

@@ -7,25 +7,25 @@ sources:
 created: 2026-04-14
 ---
 
-# FaceLiVTv2：移动端高效人脸识别
+## 核心问题
 
-面向边缘和移动设备的轻量级混合 CNN-Transformer 人脸识别架构。
+This paper introduces FaceLiVT, a lightweight yet powerful face recognition model that integrates a hybrid Convolution Neural Network (CNN)-Transformer architecture with an innovative and lightweight Multi-Head Linear Attention (MHLA) mechanism. By combining MHLA alongside a reparameterized token mixer, FaceLiVT effectively reduces computational complexity while preserving competitive accuracy. Extensive evaluations on challenging benchmarks; including LFW, CFP-FP, AgeDB-30, IJB-B, and IJB-C; highlight its superior performance compared to state-of-the-art lightweight models. MHLA notably impro
 
-## 架构改进
-- **FaceLiVT** 的改进版本
-- **全局-局部特征交互**：CNN 提取局部特征，Transformer 建模全局上下文
-- **性能-效率平衡**：在识别精度和计算效率之间寻求更优的平衡点
+## 论文信息
 
-## 约束条件
-- 延迟限制
-- 内存限制
-- 能耗限制
+- **标题**: FaceLiVT: Face Recognition using Linear Vision Transformer with Structural Reparameterization For Mobile Device
+- **作者**: Novendra Setyawan, Chi-Chia Sun, Mao-Hsiu Hsu
+- **来源**: arXiv
+
+## 方法/架构
+
+详细方法论待补充。参考原始论文获取完整技术细节。
 
 ## 为什么重要
-人脸识别是手机解锁、支付认证的核心技术。FaceLiVTv2 的意义：
-1. **混合架构趋势**：CNN + Transformer 的融合在端侧模型中越来越普遍
-2. **端侧安全需求**：人脸识别必须在设备上本地运行（隐私要求）
-3. **效率创新**：在严格约束下提升精度，直接影响用户体验
-4. **与 [[coremltools-9]] 配合**：可转换为 Core ML 格式部署到 iOS
 
-这类端侧 CV 模型是 [[mobile-aios]] 安全认证和摄像头功能的基础。
+作为手机端 AIOS 生态的一部分，FaceLiVTv2：移动端高效人脸识别 对推动端侧 AI 落地具有重要意义。
+
+## 关联
+
+- [[clawmobile-agentic]] — Agent 系统架构
+- [[kv-cache-quantization-ondevice]] — 内存优化

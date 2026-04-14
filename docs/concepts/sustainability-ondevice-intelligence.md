@@ -25,6 +25,15 @@ created: 2026-04-14
 
 这对 [[mobile-aios-overview]] 的系统设计有深远影响。AIOS 不应只追求「更强的 AI」，而需要在三者间找到最优平衡点。不同厂商的策略（[[apple-intelligence]] 偏隐私、[[xiaomi-hyperai]] 偏性能）本质上是对这一权衡的不同取向。
 
+
+## 核心问题
+
+In this paper, we consider the problem of determining the density of monic polynomials over $\mathbb{Z}_p$ with squarefree discriminant over various subsets of the set of monic polynomials over $\mathbb{Z}_p$ of fixed degree. We compute the density of polynomials in each subset whose discriminant is squarefree, and we compute the density of polynomials $f$ in each subset such that $\mathbb{Z}_p[x]/(f(x))$ is the maximal order of $\mathbb{Q}_p[x]/(f(x))$.
+
+## 为什么重要
+
+本研究/产品对手机端 AIOS 生态有重要参考价值。推动端侧 AI 从概念走向实际部署。
+
 ## 关联
 
 - [[edge-cloud-collaboration]] — 云端协同的能耗权衡

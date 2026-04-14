@@ -7,26 +7,25 @@ sources:
 created: 2026-04-14
 ---
 
-# FastSHADE：移动端实时图像去噪
+## 核心问题
 
-针对移动 GPU 优化的轻量级实时图像去噪网络。
+Real-time image denoising is essential for modern mobile photography but remains challenging due to the strict latency and power constraints of edge devices. This paper presents FastSHADE (Fast Self-augmented Hierarchical Asymmetric Denoising), a lightweight U-Net-style network tailored for real-time, high-fidelity restoration on mobile GPUs. Our method features a multi-stage architecture incorporating a novel Asymmetric Frequency Denoising Block (AFDB) that decouples spatial structure extraction from high-frequency noise suppression to maximize efficiency, and a Spatially Gated Upsampler (SGU
 
-## 技术架构
-- **基础架构**：轻量级 U-Net 变体
-- **Asymmetric Frequency Denoising Block (AFDB)**：解耦空间结构提取与高频噪声抑制
-- **Spatially Gated Upsampler (SGU)**：空间门控上采样
-- **多阶段架构**：分层处理不同频率噪声
+## 论文信息
 
-## 优化目标
-- 移动 GPU 上的**实时推理**
-- 严格的**延迟和功耗**约束
-- **高保真度**图像恢复
+- **标题**: FastSHADE: Fast Self-augmented Hierarchical Asymmetric Denoising for Efficient inference on mobile devices
+- **作者**: Nikolay Falaleev
+- **来源**: arXiv
+
+## 方法/架构
+
+详细方法论待补充。参考原始论文获取完整技术细节。
 
 ## 为什么重要
-手机摄影是端侧 AI 最成熟的应用场景之一。FastSHADE 的价值在于：
-1. **专为移动 GPU 设计**：不是桌面模型的压缩版，而是从架构层面针对移动端优化
-2. **频率域解耦**：AFDB 的设计思路可以推广到其他端侧视觉任务
-3. **实时性能**：满足拍照应用的即时反馈需求
-4. **功耗敏感**：在电池供电设备上可持续运行
 
-这类专业端侧视觉模型是 [[mobile-aios]] 相机功能的底层技术支撑。
+作为手机端 AIOS 生态的一部分，FastSHADE：移动端实时图像去噪 对推动端侧 AI 落地具有重要意义。
+
+## 关联
+
+- [[clawmobile-agentic]] — Agent 系统架构
+- [[kv-cache-quantization-ondevice]] — 内存优化

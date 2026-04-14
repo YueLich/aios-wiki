@@ -30,6 +30,15 @@ Google 正在扩大其「个人智能」（Personal Intelligence）功能的覆�
 
 个人智能与隐私的平衡是关键（参见 [[gui-agent-privacy]]）。Google 的方案需要在个性化深度和用户信任之间找到平衡点。
 
+
+## 核心问题
+
+详见原始来源获取完整技术分析。
+
+## 为什么重要
+
+本研究/产品对手机端 AIOS 生态有重要参考价值。推动端侧 AI 从概念走向实际部署。
+
 ## 关联
 
 - [[sustainability-ondevice-intelligence]] — 隐私-性能权衡

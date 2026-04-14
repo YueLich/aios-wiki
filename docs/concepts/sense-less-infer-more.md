@@ -35,3 +35,17 @@ created: 2026-04-14
 - [[multimodal-edge-pruning]] — 多模态边缘推理剪枝
 - [[networking-energy-agentic]] — Agent 推理能耗优化
 - [[sustainability-ondevice-intelligence]] — 端侧智能可持续性
+
+## 核心问题
+
+Smart Voice Assistants (SVAs) are deeply embedded in the lives of youth, yet the mechanisms driving the privacy-protective behaviors among young users remain poorly understood. This study investigates how Canadian youth (aged 16-24) negotiate privacy with SVAs by developing and testing a structural model grounded in five key constructs: perceived privacy risks (PPR), perceived benefits (PPBf), algorithmic transparency and trust (ATT), privacy self-efficacy (PSE), and privacy-protective behaviors (PPB). A cross-sectional survey of N=469 youth was analyzed using partial least squares structural equation modeling. Results reveal that PSE is the strongest predictor of PPB, while the effect of ATT on PPB is fully mediated by PSE. This identifies a critical efficacy gap, where youth's confidence
+
+## 为什么重要
+
+本研究/产品对手机端 AIOS 生态有重要参考价值。推动端侧 AI 从概念走向实际部署。
+
+## 关联
+
+- [[clawmobile-agentic]] — Agent 系统架构
+- [[mnn-350]] — 推理引擎
+- [[kv-cache-quantization-ondevice]] — 内存优化

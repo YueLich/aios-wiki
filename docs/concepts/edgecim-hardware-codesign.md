@@ -9,24 +9,25 @@ sources:
 created: 2026-04-14
 ---
 
-# EdgeCIM：基于 CIM 的小语言模型硬件-软件协同设计
+## 核心问题
 
-## 概述
+The growing demand for deploying Small Language Models (SLMs) on edge devices, including laptops, smartphones, and embedded platforms, has exposed fundamental inefficiencies in existing accelerators. While GPUs handle prefill workloads efficiently, the autoregressive decoding phase is dominated by GEMV operations that are inherently memory-bound, resulting in poor utilization and prohibitive energy costs at the edge. In this work, we present EdgeCIM, a hardware-software co-design framework that rethinks accelerator design for end-to-end decoder-only inference. At its core is a CIM macro, imple
 
-EdgeCIM 提出了一种用于加速小语言模型（SLM）的存内计算（CIM, Computing-In-Memory）硬件-软件协同设计方案。
+## 论文信息
 
-## 核心概念
+- **标题**: EdgeCIM: A Hardware-Software Co-Design for CIM-Based Acceleration of Small Language Models
+- **作者**: Jinane Bazzi, Mariam Rakka, Fadi Kurdahi
+- **来源**: arXiv
 
-- **存内计算（CIM）**：直接在存储单元中执行矩阵运算，消除数据搬运开销
-- **小语言模型（SLM）**：1-3B 参数量的模型，适合边缘部署
-- **协同设计**：硬件架构和模型结构同步优化
+## 方法/架构
+
+详细方法论待补充。参考原始论文获取完整技术细节。
 
 ## 为什么重要
 
-这是 [[mobile-aios-overview]] 中「芯片层」的重要方向。当前端侧推理依赖通用 NPU（如 [[qualcomm]] 骁龙的 Hexagon），但 CIM 有潜力实现数量级的能效提升。长远来看，这可能改变手机芯片的设计范式。
+作为手机端 AIOS 生态的一部分，EdgeCIM：基于 CIM 的小语言模型硬件-软件协同设计 对推动端侧 AI 落地具有重要意义。
 
 ## 关联
 
-- [[on-device-inference]] — 端侧推理的硬件需求
-- [[sustainability-ondevice-intelligence]] — 能效权衡
-- [[edge-cloud-collaboration]] — 本地 vs 云端的硬件考量
+- [[clawmobile-agentic]] — Agent 系统架构
+- [[kv-cache-quantization-ondevice]] — 内存优化

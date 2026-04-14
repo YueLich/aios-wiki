@@ -7,23 +7,25 @@ sources:
 created: 2026-04-14
 ---
 
-# MiniCPM 2.4.2
+## 核心问题
 
-面壁智能发布的端侧模型更新，支持多种模型和硬件加速。
+The recent surge of Multimodal Large Language Models (MLLMs) has fundamentally reshaped the landscape of AI research and industry, shedding light on a promising path toward the next AI milestone. However, significant challenges remain preventing MLLMs from being practical in real-world applications. The most notable challenge comes from the huge cost of running an MLLM with a massive number of parameters and extensive computation. As a result, most MLLMs need to be deployed on high-performing cloud servers, which greatly limits their application scopes such as mobile, offline, energy-sensitive
 
-## 支持模型
-- **MiniCPM 4.0** 8B & 0.5B
-- **MiniCPM 3.0** 4B
-- **MiniCPM-V 2.6** 8B（多模态版本）
+## 论文信息
 
-## 新特性
-- 支持文本 & 图片对话
-- 支持调用 **Intel 集成显卡** 加速
+- **标题**: MiniCPM-V: A GPT-4V Level MLLM on Your Phone
+- **作者**: Yuan Yao, Tianyu Yu, Ao Zhang
+- **来源**: arXiv
+
+## 方法/架构
+
+详细方法论待补充。参考原始论文获取完整技术细节。
 
 ## 为什么重要
-MiniCPM 是中国团队在端侧模型领域的代表性成果。2.4.2 版本的关键突破：
-1. **Intel 集成显卡加速**：让更多普通笔记本可以高效运行端侧 AI
-2. **MiniCPM 4.0 小尺寸版本（0.5B）**：真正的手机端可部署模型
-3. **多模态能力**：MiniCPM-V 支持图文理解，在手机端实现多模态交互
 
-与 [[gemma-4-google]] 形成端侧多模态模型的中西双雄格局。
+作为手机端 AIOS 生态的一部分，MiniCPM 2.4.2 对推动端侧 AI 落地具有重要意义。
+
+## 关联
+
+- [[clawmobile-agentic]] — Agent 系统参考
+- [[mnn-350]] — 推理引擎

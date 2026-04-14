@@ -39,3 +39,17 @@ Zuver 是一个开源的 Agentic AI 框架，声称整个 Agent 系统只需 **1
 - [[native-agent-systems]] — 端侧 Agent 系统总览
 - [[mobile-ad-detection-agent]] — 移动端 Agent 检测方案
 - [[secagent-mobile-gui]] — 移动端 GUI Agent 安全框架
+
+## 核心问题
+
+The dynamical content of equations resulting from rank-two covariant derivatives in $B_2$ Coxeter theory in $AdS_4$ are analyzed in terms of $σ_-$-complexes. Primary fields and gauge-invariant differential operators on primary fields are classified for $(adj \otimes adj)$ one-form fields $ω$ and $(tw\otimes adj)$ zero-form fields $C$. It is shown that one-forms $ω$ in the $(adj \otimes adj)$ sector encode symmetric massless fields and partially massless fields of all spins and depth of masslessness. Gluing of the one-form module to the zero-form modules at the linear vertices is studied.
+
+## 为什么重要
+
+本研究/产品对手机端 AIOS 生态有重要参考价值。推动端侧 AI 从概念走向实际部署。
+
+## 关联
+
+- [[clawmobile-agentic]] — Agent 系统架构
+- [[mnn-350]] — 推理引擎
+- [[kv-cache-quantization-ondevice]] — 内存优化
