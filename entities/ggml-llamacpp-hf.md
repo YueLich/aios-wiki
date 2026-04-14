@@ -31,6 +31,12 @@ GGML 和 llama.cpp 正式加入 HuggingFace，以确保本地 AI 推理工具的
 - 此前 gemma4、kimi_k2、lfm2 等模型会无条件创建采样器，导致 Vulkan 场景下 ~30% 速度回退
 - lazy grammar 场景下保留采样器以维持 thinking-block 语法抑制功能
 
+
+### b8794 (2026-04-14)
+- `mtmd: add mtmd_image_tokens_get_decoder_pos() API` — 新增多模态 tokenizer 的 decoder position 查询 API，为端侧视觉语言模型集成提供更精确的 token 位置管理
+- 发布时间：2026-04-14T22:27:09Z
+- 本次更新为小幅 API 扩展，无功能性变更
+
 ## 关联
 
 - [[gemma-cpp-inference]] — Google 官方的 Gemma 专用 C++ 推理引擎

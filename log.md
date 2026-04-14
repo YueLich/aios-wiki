@@ -228,3 +228,21 @@ format: reverse-chronological
 - 本轮核心收获：IMEC 团队首次量化端侧 LLM 推理对 HBS/芯粒的带宽延迟需求
 - 关键洞察：HBS 带宽需 > 40% LPDDR6 才能摆脱瓶颈；小模型应优先缓存 MLP 权重而非 Q/K/V
 
+
+## 2026-04-15 02:00 — 增量更新
+
+**统计**：扫描 arXiv API (6 queries)、RSS (8 feeds)、GitHub (7 repos)、HN (5 queries)
+**原始收集**：114 条 → 关键词过滤 39 条 → 去重后 27 条 → 最终更新 1 页
+
+### 更新页面
+- `entities/ggml-llamacpp-hf.md` — 追加 b8794 版本信息（mtmd_image_tokens_get_decoder_pos API，多模态 tokenizer 增强）
+
+### 跳过（已处理/不相关）
+- Gemma 4 Welcome（HuggingFace）— 已有页面，重复内容
+- MiniCPM 2.4.2、coremltools 9.0 — 旧版本，已处理
+- Meta Muse Spark — 云端托管模型，非端侧
+
+### 备注
+- arXiv API 查询全部失败（code=0），仅通过 RSS 获取论文
+- 本轮 RSS 新论文均已被去重过滤
+- llama.cpp b8794 为小幅 API 扩展（mtmd decoder position），无功能性变更
