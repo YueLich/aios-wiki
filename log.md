@@ -89,3 +89,21 @@ format: reverse-chronological
 - 扫描来源：arXiv × 6 queries, RSS × 10 feeds, GitHub × 7 repos
 - 去重后新增标题：13 → 创建页面 3
 
+
+## [2026-04-14 14:06] 增量更新
+
+**扫描来源**: arXiv API (6 queries), RSS (10 feeds), GitHub (7 repos)
+**原始收集**: 143 条 → 去重后 130 条 → 过滤后 9 条 → 最终新增 1 条
+
+### 新增页面
+- `entities/iphone-17e.md` — iPhone 17e: A19 芯片 16 核 Neural Engine，$599 价位端侧 AI 平民化
+
+### 跳过（已处理）
+- Gemma 4 系列（AICore Developer Preview、Welcome Gemma 4）— 已有页面
+- ggml-org/llama.cpp: b8784 — b8783 已处理
+- MacBook Neo 产品页面 — 非 AI 核心内容，无端侧 AI 相关信息
+- OpenBMB/MiniCPM: 2.4.2, apple/coremltools: 9.0, google/gemma.cpp: v0.1.4 — 均为旧发布
+
+### 备注
+- arXiv API 查询全部失败（code=0），仅通过 RSS 获取 arXiv 论文
+- RSS arXiv cs.AI/CL/LG 中新论文均已被去重过滤
