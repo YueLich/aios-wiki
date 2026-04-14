@@ -7,27 +7,41 @@ sources:
 created: 2026-04-14
 ---
 
-# 图灵测试屏幕版：移动 GUI Agent 拟人化基准
+# Turing Test on Screen: A Benchmark for Mobile GUI Agent Humanization
 
-## 概念定义
+## 核心问题
 
-"Turing Test on Screen" 是一个专门评估移动 GUI Agent 拟人程度的基准测试框架。它不仅仅评估任务完成率，更关注 Agent 的操作行为是否"像人"——包括点击精度、滚动节奏、界面停留时间等行为层面的相似性。
+The rise of autonomous GUI agents has triggered adversarial countermeasures from digital platforms, yet existing research prioritizes utility and robustness over the critical dimension of anti-detection.
+
+## 方法/架构
+
+基于论文摘要，该方法包含以下关键创新点：
+
+- We argue that for agents to survive in human-centric ecosystems, they must evolve Humanization capabilities.
+- We introduce the ``Turing Test on Screen,'' formally modeling the interaction as a MinMax optimization problem between a detector and an agent aiming to minimize behavioral divergence.
+- We then collect a new high-fidelity dataset of mobile touch dynamics, and conduct our analysis that vanilla LMM-based agents are easily detectable due to unnatural kinematics.
+
+## 实验结果
+
+论文报告了以下主要实验结果：
+
+- Consequently, we establish the Agent Humanization Benchmark (AHB) and detection metrics to quantify the trade-off between imitability and utility.
+- Finally, we propose methods ranging from heuristic noise to data-driven behavioral matching, demonstrating that agents can achieve high imitability theoretically and empirically without sacrificing performance.
+- This work shifts the paradigm from whether an agent can perform a task to how it performs it within a human-centric ecosystem, laying the groundwork for seamless coexistence in adversarial digital environments.
 
 ## 为什么重要
 
-现有 GUI Agent 评估（如 [[pspa-bench-gui-agent]]）主要关注任务成功率，但忽略了用户体验维度。一个在技术上"完成任务"但操作方式令人不适的 Agent，实际部署价值有限。这个基准将评估维度从"能不能做"扩展到"做得像不像人"。
+该研究的重要性体现在：
 
-**关键发现**：
-- 当前 SOTA Agent 在操作节奏上与人类有显著差异
-- 过度精确的点击反而降低了用户信任度
-- 拟人化的滚动和等待模式显著提升用户满意度
+- 提供了高质量的数据集，为相关研究提供宝贵资源
+- 建立了标准化的评估基准，推动领域发展
 
-## 与手机端 AIOS 的关联
+## 关联
 
-手机是高度个人化的设备，用户对 AI 助手的行为模式非常敏感。拟人化的 GUI Agent 能建立更好的用户信任，这是 [[clawmobile-agentic]] 等系统需要关注的新维度。未来手机 AIOS 的 Agent 框架需要在效率和拟人化之间找到平衡。
+基于论文内容和研究领域，该工作与以下概念相关：
 
-## 相关概念
+- [pspa-bench-gui-agent
 
-- [[pspa-bench-gui-agent]] — 个性化基准，关注个性化适配
-- [[secagent-mobile-gui]] — 语义上下文理解
-- [[clawmobile-agentic]] — 原生 Agent 系统设计
+## 参考资源
+
+- 论文原文：https://arxiv.org/abs/2604.09574

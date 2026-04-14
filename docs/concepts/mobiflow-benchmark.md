@@ -7,27 +7,40 @@ sources:
 created: 2026-04-14
 ---
 
-# MobiFlow：真实世界移动 Agent 轨迹融合基准
+# MobiFlow: Real-World Mobile Agent Benchmarking through Trajectory Fusion
 
-## 概念定义
+## 核心问题
 
-MobiFlow 是一个通过轨迹融合（Trajectory Fusion）进行真实世界移动 Agent 评估的基准框架。它收集真实用户的操作轨迹，构建多任务、跨应用的评估场景，使测试更贴近实际使用模式。
+Mobile agents can autonomously complete user-assigned tasks through GUI interactions.
+
+## 方法/架构
+
+基于论文摘要，该方法包含以下关键创新点：
+
+- In real-world mobile-agent scenarios, however, many third-party applications do not expose system-level APIs to determine whether a task has succeeded, leading to a mismatch between benchmarks and real-world usage and making it difficult to evaluate model performance accurately.
+- To address these issues, we propose MobiFlow, an evaluation framework built on tasks drawn from arbitrary third-party applications.
+
+## 实验结果
+
+论文报告了以下主要实验结果：
+
+- Using an efficient graph-construction algorithm based on multi-trajectory fusion, MobiFlow can effectively compress the state space, support dynamic interaction, and better align with real-world third-party application scenarios.
+- MobiFlow covers 20 widely used third-party applications and comprises 240 diverse real-world tasks, with enriched evaluation metrics.
+- Compared with AndroidWorld, MobiFlow's evaluation results show higher alignment with human assessments and can guide the training of future GUI-based models under real workloads.
 
 ## 为什么重要
 
-现有基准多在模拟环境中测试，与真实手机使用场景存在较大差距。MobiFlow 的创新在于：
-1. **轨迹驱动**：基于真实用户操作数据构建测试用例
-2. **跨应用流程**：真实任务往往需要跨越多个 App
-3. **融合技术**：将多个简单轨迹组合成复杂任务流
+该研究的重要性体现在：
 
-这对评估 Agent 在真实手机环境下的表现至关重要——不再是孤立的单 App 测试，而是端到端的真实工作流。
+- 建立了标准化的评估基准，推动领域发展
+- 提升了计算效率，使实际部署更加可行
 
-## 与手机端 AIOS 的关联
+## 关联
 
-手机 AIOS 的 Agent 需要在真实、复杂的多任务场景下工作。MobiFlow 这类基于真实轨迹的基准，对于验证 Agent 在实际手机环境中的可靠性具有指导意义。与 [[gui-agent-privacy]] 结合，轨迹数据的收集也需要考虑隐私保护。
+基于论文内容和研究领域，该工作与以下概念相关：
 
-## 相关概念
+- [turing-test-mobile-gui
 
-- [[turing-test-mobile-gui]] — 拟人化评估维度
-- [[pspa-bench-gui-agent]] — 个性化基准测试
-- [[gui-agent-privacy]] — Agent 操作中的隐私保护
+## 参考资源
+
+- 论文原文：https://arxiv.org/abs/2604.09587

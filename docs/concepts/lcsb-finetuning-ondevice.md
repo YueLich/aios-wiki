@@ -9,25 +9,39 @@ sources:
 created: 2026-04-14
 ---
 
-# LCSB：层循环选择性反向传播的端侧 LLM 内存高效微调
+# LCSB: Layer-Cyclic Selective Backpropagation for Memory-Efficient On-Device LLM Fine-Tuning
 
-## 概述
+## 核心问题
 
-LCSB 提出了一种内存高效的端侧 LLM 微调方法，通过层循环选择性反向传播来减少训练时的内存占用。
+Memory-efficient backpropagation (MeBP) has enabled first-order fine-tuning of large language models (LLMs) on mobile devices with less than 1GB memory.
 
-## 核心方法
+## 方法/架构
 
-传统微调需要存储所有层的激活值（用于反向传播），内存开销与层数成正比。LCSB 的创新：
-- **层循环**：分批处理不同层的梯度计算
-- **选择性反向传播**：只对关键层进行完整梯度计算
-- **内存复用**：在不同层之间复用激活存储
+基于论文摘要，该方法包含以下关键创新点：
+
+- We propose Layer-Cyclic Selective Backpropagation (LCSB), which computes gradients for only a subset of layers per step.
+- Our key insight is that residual connections guarantee gradient flow through identity paths, while AdamW momentum provides implicit updates for non-selected layers.
+
+## 实验结果
+
+论文报告了以下主要实验结果：
+
+- We interpret LCSB as Block Coordinate Descent on the LoRA parameter space, providing theoretical justification for convergence.
+- LCSB achieves up to 1.40$\times$ speedup with less than 2\% quality degradation across five models and three tasks.
+- Surprisingly, in 4-bit quantized settings, LCSB exhibits superior stability: a 3B model that completely diverges under full backpropagation converges smoothly with LCSB, suggesting an implicit regularization effect from selective gradient computation.
 
 ## 为什么重要
 
-端侧微调是 [[mobile-aios-overview]] 中「个性化 AI」的关键技术。用户希望模型能学习自己的使用习惯（参见 [[pspa-bench-gui-agent]] 的个性化评测），但微调的高内存需求一直是个障碍。LCSB 让在手机上进行增量微调成为可能。
+该研究的重要性体现在：
+
+- 提升了计算效率，使实际部署更加可行
 
 ## 关联
 
-- [[kv-cache-quantization-ondevice]] — 推理阶段的内存优化
-- [[on-device-inference]] — 端侧推理基础
-- [[gui-agent-privacy]] — 本地微调保护隐私
+基于论文内容和研究领域，该工作与以下概念相关：
+
+- [on-device-inference
+
+## 参考资源
+
+- 论文原文：https://arxiv.org/abs/2602.13073

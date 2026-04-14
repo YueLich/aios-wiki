@@ -9,24 +9,41 @@ sources:
 created: 2026-04-14
 ---
 
-# SecAgent: 语义增强的高效移动 GUI Agent
+# SecAgent: Efficient Mobile GUI Agent with Semantic Context
 
-## 概述
+## 核心问题
 
-SecAgent 提出了一种利用语义上下文来提升移动 GUI Agent 效率的方法。传统 GUI Agent 主要依赖屏幕截图和坐标信息，而 SecAgent 引入了界面元素的语义理解。
+Mobile Graphical User Interface (GUI) agents powered by multimodal large language models have demonstrated promising capabilities in automating complex smartphone tasks.
 
-## 核心方法
+## 方法/架构
 
-- **语义上下文提取**：理解 UI 元素的功能含义而非仅视觉位置
-- **高效决策**：减少不必要的探索步骤
-- **上下文感知**：结合 App 状态和用户意图进行推理
+基于论文摘要，该方法包含以下关键创新点：
+
+- To address these challenges, we present SecAgent, an efficient mobile GUI agent at 3B scale.
+- We first construct a human-verified Chinese mobile GUI dataset with 18k grounding samples and 121k navigation steps across 44 applications, along with a Chinese navigation benchmark featuring multi-choice action annotations.
+
+## 实验结果
+
+论文报告了以下主要实验结果：
+
+- Building upon this dataset, we propose a semantic context mechanism that distills history screenshots and actions into concise, natural language summaries, significantly reducing computational costs while preserving task-relevant information.
+- Through supervised and reinforcement fine-tuning, SecAgent outperforms similar-scale baselines and achieves performance comparable to 7B-8B models on our and public navigation benchmarks.
+- Our dataset is available at https://huggingface.co/datasets/alibabagroup/CMGUI.
 
 ## 为什么重要
 
-当前 [[mobile-agent-framework]] 面临的主要挑战之一是「盲目操作」——Agent 不理解 UI 的语义，只能通过大量试错来完成任务。SecAgent 的方向有望显著降低 Agent 完成任务所需的步骤数和推理开销，这对端侧部署尤为关键（参见 [[on-device-inference]]）。
+该研究的重要性体现在：
+
+- 提供了高质量的数据集，为相关研究提供宝贵资源
+- 建立了标准化的评估基准，推动领域发展
+- 提升了计算效率，使实际部署更加可行
 
 ## 关联
 
-- [[pspa-bench-gui-agent]] — Agent 评测基准
-- [[clawmobile-agentic]] — 原生 Agent 系统设计
-- [[gui-agent-privacy]] — 语义处理中的隐私考量
+基于论文内容和研究领域，该工作与以下概念相关：
+
+- [mobile-agent-framework
+
+## 参考资源
+
+- 论文原文：https://arxiv.org/abs/2603.08533

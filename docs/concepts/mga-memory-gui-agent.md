@@ -7,27 +7,39 @@ sources:
 created: 2026-04-14
 ---
 
-# MGA：记忆驱动的 GUI Agent
+# MGA: Memory-Driven GUI Agent for Observation-Centric Interaction
 
-## 概念定义
+## 核心问题
 
-MGA（Memory-Driven GUI Agent）提出了一种以观察为中心（Observation-Centric）的交互范式。不同于传统 Agent 依赖预定义的 action space，MGA 通过维护屏幕观察的记忆来理解界面状态变化，从而做出更灵活的交互决策。
+Multimodal Large Language Models (MLLMs) have significantly advanced GUI agents, yet long-horizon automation remains constrained by two critical bottlenecks: context overload from raw sequential trajectory dependence and architectural redundancy from over-engineered expert modules.
+
+## 方法/架构
+
+基于论文摘要，该方法包含以下关键创新点：
+
+- Prevailing End-to-End and Multi-Agent paradigms struggle with error cascades caused by concatenated visual-textual histories and incur high inference latency due to redundant expert components, limiting their practical deployment.
+- To address these issues, we propose the Memory-Driven GUI Agent (MGA), a minimalist framework that decouples long-horizon trajectories into independent decision steps linked by a structured state memory.
+- MGA operates on an ``Observe First and Memory Enhancement'' principle, powered by two tightly coupled core mechanisms: (1) an Observer module that acts as a task-agnostic, intent-free screen state reader to eliminate confirmation bias, visual hallucinations, and perception bias at the root; and (2) a Structured Memory mechanism that distills, validates, and compresses each interaction step into verified state deltas, constructing a lightweight state transition chain to avoid irrelevant historical interference and system redundancy.
+
+## 实验结果
+
+论文报告了以下主要实验结果：
+
+- By replacing raw historical aggregation with compact, fact-based memory transitions, MGA drastically reduces cognitive overhead and system complexity.
+- Extensive experiments on OSWorld and real-world applications demonstrate that MGA achieves highly competitive performance in open-ended GUI tasks while maintaining architectural simplicity, offering a scalable and efficient blueprint for next-generation GUI automation {https://github.com/MintyCo0kie/MGA4OSWorld}.
 
 ## 为什么重要
 
-当前移动 GUI Agent 面临的核心挑战之一是界面状态的动态性——同一个 App 在不同时间、不同账户下的界面可能完全不同。MGA 的创新在于：
-1. **观察驱动**：不假设固定的界面结构，而是实时理解当前屏幕
-2. **记忆增强**：跨步骤维持上下文，避免重复探索
-3. **泛化能力**：对未见过的界面变化有更强的适应力
+该研究的重要性体现在：
 
-这解决了 [[secagent-mobile-gui]] 关注的语义理解问题的一个关键子问题：如何在不预知界面布局的情况下有效交互。
+- 提升了计算效率，使实际部署更加可行
 
-## 与手机端 AIOS 的关联
+## 关联
 
-手机是动态性最强的计算平台——App 频繁更新，个性化设置差异巨大。记忆驱动的 Agent 能更好地适应这种变化。与 [[edgeflow-cold-start]] 中的冷启动优化结合，可以实现"首次使用-快速学习-持续优化"的 Agent 体验。
+基于论文内容和研究领域，该工作与以下概念相关：
 
-## 相关概念
+- [secagent-mobile-gui
 
-- [[secagent-mobile-gui]] — 语义上下文理解
-- [[clawmobile-agentic]] — 原生 Agent 系统
-- [[edgeflow-cold-start]] — 冷启动优化
+## 参考资源
+
+- 论文原文：https://arxiv.org/abs/2510.24168

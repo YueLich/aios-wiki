@@ -9,31 +9,41 @@ sources:
 created: 2026-04-14
 ---
 
-# 移动 GUI Agent 的隐私保护个性化
-
-## 概述
-
-这篇论文提出了一种在保护隐私的前提下实现移动 GUI Agent 个性化的方法，使用轨迹诱导的偏好优化（Trajectory Induced Preference Optimization）。
+# Mobile GUI Agent Privacy Personalization with Trajectory Induced Preference Optimization
 
 ## 核心问题
 
-Agent 个性化需要学习用户行为，但这涉及隐私敏感数据：
-- 操作序列暴露用户的 App 使用习惯
-- 偏好数据可能泄露个人兴趣
-- 云端学习带来数据外泄风险
+Mobile GUI agents powered by Multimodal Large Language Models (MLLMs) can execute complex tasks on mobile devices.
 
-## 技术方向
+## 方法/架构
 
-- **轨迹诱导**：从操作轨迹中提取抽象偏好模式
-- **本地优化**：所有学习在端侧完成
-- **偏好优化**：DPO 类方法适配 Agent 场景
+基于论文摘要，该方法包含以下关键创新点：
+
+- Despite this progress, most existing systems still optimize task success or efficiency, neglecting users' privacy personalization.
+- In this paper, we study the often-overlooked problem of agent personalization.
+- We observe that personalization can induce systematic structural heterogeneity in execution trajectories.
+
+## 实验结果
+
+论文报告了以下主要实验结果：
+
+- For example, privacy-first users often prefer protective actions, e.g., refusing permissions, logging out, and minimizing exposure, leading to logically different execution trajectories from utility-first users.
+- Such variable-length and structurally different trajectories make standard preference optimization unstable and less informative.
+- To address this issue, we propose Trajectory Induced Preference Optimization (TIPO), which uses preference-intensity weighting to emphasize key privacy-related steps and padding gating to suppress alignment noise.
 
 ## 为什么重要
 
-这是 [[mobile-agent-framework]] 落地的关键瓶颈。[[apple-intelligence]] 的「隐私优先」理念需要这类技术支撑——Agent 越智能，收集的数据越敏感。与 [[sustainability-ondevice-intelligence]] 的隐私-性能权衡分析相呼应。
+该研究的重要性体现在：
+
+- Results on our Privacy Preference Dataset show that TIPO improves persona alignment and distinction while preserving strong task executability, achieving 65.60% SR, 46.22 Compliance, and 66.67% PD, outperforming existing optimization methods across various GUI tasks.
+- The code and dataset will be publicly released at https://github.com/Zhixin-L/TIPO.
 
 ## 关联
 
-- [[pspa-bench-gui-agent]] — 个性化评测基准
-- [[secagent-mobile-gui]] — 语义上下文理解
-- [[lcsb-finetuning-ondevice]] — 端侧学习技术
+基于论文内容和研究领域，该工作与以下概念相关：
+
+- [mobile-agent-framework
+
+## 参考资源
+
+- 论文原文：https://arxiv.org/abs/2604.11259
