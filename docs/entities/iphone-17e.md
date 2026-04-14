@@ -1,6 +1,6 @@
 ---
 type: entity
-tags: [apple, iphone, smartphone, on-device-ai, neural-engine, apple-intelligence, a19, mobile-soc]
+tags: [apple, iphone, smartphone, on-device-ai, neural-engine, apple-intelligence, a19, mobile-soc, 平台]
 related:
   - "[[apple-intelligence]]"
   - "[[neural-engine]]"

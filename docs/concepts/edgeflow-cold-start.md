@@ -1,6 +1,6 @@
 ---
 type: concept
-tags: [inference, mobile, optimization, cold-start, llm]
+tags: [inference, mobile, optimization, cold-start, llm, 优化技术]
 related: [[on-device-inference]], [[edge-cloud-collaboration]], [[kv-cache-quantization-ondevice]]
 sources:
   - url: https://arxiv.org/abs/2604.09083v1

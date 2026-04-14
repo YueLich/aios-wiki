@@ -1,6 +1,6 @@
 ---
 type: concept
-tags: [sustainability, energy, privacy, on-device, trade-offs, system-design]
+tags: [sustainability, energy, privacy, on-device, trade-offs, system-design, 其他]
 related: [[on-device-inference]], [[mobile-aios-overview]], [[edge-cloud-collaboration]]
 sources:
   - url: https://arxiv.org/abs/2603.26603v1

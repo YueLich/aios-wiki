@@ -1,6 +1,6 @@
 ---
 type: entity
-tags: [android, agent, developer-tools, on-device, ai-assistant]
+tags: [android, agent, developer-tools, on-device, ai-assistant, 平台]
 related: [[clawmobile-agentic]], [[secagent-mobile-gui]]
 sources:
   - https://android-developers.googleblog.com/2026/04/Increase-Guidance-and-Control-over-Agent-Mode-with-Android-Studio-Pand

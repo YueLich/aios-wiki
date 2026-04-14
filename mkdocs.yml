@@ -33,6 +33,7 @@ theme:
 
 plugins:
   - search
+  - tags
 
 markdown_extensions:
   - pymdownx.highlight
@@ -46,3 +47,14 @@ markdown_extensions:
   - tables
   - toc:
       permalink: true
+
+nav:
+  - 首页: index.md
+  - 实体:
+    - 实体总览: entities/index.md
+  - 概念:
+    - 概念总览: concepts/index.md
+  - 对比:
+    - 对比总览: comparisons/index.md
+  - 速查:
+    - 速查总览: queries/index.md

@@ -1,6 +1,6 @@
 ---
 type: concept
-tags: [multimodal, pruning, edge, inference, optimization, zero-shot]
+tags: [multimodal, pruning, edge, inference, optimization, zero-shot, 优化技术]
 related: [[on-device-inference]], [[kv-cache-quantization-ondevice]], [[edgecim-hardware-codesign]]
 sources:
   - url: https://arxiv.org/abs/2604.08971v1

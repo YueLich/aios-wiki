@@ -1,6 +1,6 @@
 ---
 type: entity
-tags: [gemini, google, audio, live, multimodal, streaming]
+tags: [gemini, google, audio, live, multimodal, streaming, 模型]
 related: [[mobile-aios-overview]], [[apple-intelligence]], [[edge-cloud-collaboration]]
 sources:
   - url: https://blog.google/technology/ai/

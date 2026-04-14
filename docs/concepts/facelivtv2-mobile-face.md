@@ -1,6 +1,6 @@
 ---
 type: concept
-tags: [mobile, face-recognition, hybrid-architecture, cnn-transformer, edge]
+tags: [mobile, face-recognition, hybrid-architecture, cnn-transformer, edge, 其他]
 related: [[fastshade-mobile-denoising]], [[edge-inference]], [[coremltools-9]]
 sources:
   - http://arxiv.org/abs/2604.09127v1

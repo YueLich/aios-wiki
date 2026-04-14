@@ -1,6 +1,6 @@
 ---
 type: concept
-tags: [edge-ai, medical, multimodal, transformer, agentic, energy-efficient]
+tags: [edge-ai, medical, multimodal, transformer, agentic, energy-efficient, 模型]
 related: [[multimodal-edge-pruning]], [[networking-energy-agentic]], [[sustainability-ondevice-intelligence]]
 sources:
   - "[arXiv] Sense Less, Infer More: Agentic Multimodal Transformers for Edge Medical Intelligence"

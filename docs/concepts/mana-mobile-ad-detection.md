@@ -1,6 +1,6 @@
 ---
 type: concept
-tags: [mobile, ad-detection, multimodal, agent, ui-navigation, security]
+tags: [mobile, ad-detection, multimodal, agent, ui-navigation, security, 模型]
 related: [[secagent-mobile-gui]], [[pspa-bench-gui-agent]], [[clawmobile-agentic]]
 sources:
   - "[arXiv] MANA: Towards Efficient Mobile Ad Detection via Multimodal Agentic UI Navigation"

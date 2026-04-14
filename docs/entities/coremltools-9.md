@@ -1,6 +1,6 @@
 ---
 type: entity
-tags: [toolchain, apple, coreml, model-conversion, inference]
+tags: [toolchain, apple, coreml, model-conversion, inference, 平台]
 related: [[apple-intelligence]], [[gemma-4-google]], [[minicpm]]
 sources:
   - https://github.com/apple/coremltools/releases/tag/9.0

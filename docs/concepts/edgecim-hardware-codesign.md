@@ -1,6 +1,6 @@
 ---
 type: concept
-tags: [hardware, cim, accelerator, edge, slm, co-design]
+tags: [hardware, cim, accelerator, edge, slm, co-design, 其他]
 related: [[on-device-inference]], [[mobile-aios-overview]], [[edge-cloud-collaboration]]
 sources:
   - url: https://arxiv.org/abs/2604.11512v1

@@ -1,6 +1,6 @@
 ---
 type: entity
-tags: [llama.cpp, metal, inference, ios, macos, ggml, xielu, activation]
+tags: [llama.cpp, metal, inference, ios, macos, ggml, xielu, activation, 推理框架]
 related:
   - "[[llamacpp-b8786]]"
   - "[[mnn-inference-engine]]"

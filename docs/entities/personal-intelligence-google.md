@@ -1,6 +1,6 @@
 ---
 type: entity
-tags: [google, personal-intelligence, gemini, on-device, privacy]
+tags: [google, personal-intelligence, gemini, on-device, privacy, 平台]
 related: [[mobile-aios-overview]], [[apple-intelligence]], [[gui-agent-privacy]]
 sources:
   - url: https://blog.google/technology/ai/

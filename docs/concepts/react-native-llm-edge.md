@@ -1,6 +1,6 @@
 ---
 type: concept
-tags: [react-native, cross-platform, on-device, llm, llama.cpp, gguf]
+tags: [react-native, cross-platform, on-device, llm, llama.cpp, gguf, 推理框架]
 related: [[anylanguagemodel-apple]], [[gemma4-ondevice]], [[kv-cache-quantization-ondevice]]
 sources:
   - "[HuggingFace Blog] LLM Inference on Edge: A Fun and Easy Guide to run LLMs via React Native on your Phone!"

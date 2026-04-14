@@ -1,6 +1,6 @@
 ---
 type: concept
-tags: [quantization, llm, post-training, on-device, model-compression]
+tags: [quantization, llm, post-training, on-device, model-compression, 优化技术]
 related:
   - "[[quantization]]"
   - "[[on-device-llm]]"

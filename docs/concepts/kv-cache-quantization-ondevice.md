@@ -1,6 +1,6 @@
 ---
 type: concept
-tags: [quantization, kv-cache, on-device, llm, memory, optimization]
+tags: [quantization, kv-cache, on-device, llm, memory, optimization, 优化技术]
 related: [[on-device-inference]], [[lcsb-finetuning-ondevice]], [[edgeflow-cold-start]]
 sources:
   - url: https://arxiv.org/abs/2604.04722v1

@@ -1,6 +1,6 @@
 ---
 type: concept
-tags: [audio, mlx, on-device, speech-to-text, macos, apple-silicon]
+tags: [audio, mlx, on-device, speech-to-text, macos, apple-silicon, 其他]
 related: [[gemma-4-google]], [[mlx-framework]], [[whisper]], [[apple-silicon]]
 sources:
   - https://simonwillison.net/2026/Apr/13/gemma-4-audio-with-mlx/
