@@ -37,3 +37,11 @@ GGML 和 llama.cpp 正式加入 HuggingFace，以确保本地 AI 推理工具的
 - [[mnn]] — 竞争/互补的推理框架
 - [[gemma4-ondevice]] — 可用 llama.cpp 推理的模型
 - [[edgeflow-cold-start]] — 推理优化技术
+
+## 版本历史
+
+### b8789 (2026-04-14)
+- 修复 ARM NEON nvfp4 dot product 在 non-dotprod 目标上的问题
+- 继续完善 macOS/iOS/Android 多平台预编译包
+- 发布地址：https://github.com/ggml-org/llama.cpp/releases/tag/b8789
+

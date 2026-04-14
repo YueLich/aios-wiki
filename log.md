@@ -138,3 +138,16 @@ format: reverse-chronological
 
 **去重统计：** 扫描 126 条来源条目，2 条通过去重和过滤进入 wiki。
 
+
+## wiki update: 2026-04-14 UTC
+
+**新增页面：**
+- `concepts/e-grm-efficient-generative-reward-modeling.md` — E-GRM 高效生成式奖励建模，按需推理减少端侧 LLM 开销
+- `concepts/septq-post-training-quantization.md` — SEPTQ 简单高效后训练量化，降低端侧部署门槛
+
+**更新页面：**
+- `entities/ggml-llamacpp-hf.md` — 追加 b8789 版本信息（ARM NEON nvfp4 dot product 修复）
+
+**去重统计：** 扫描 59 条来源条目，3 条通过去重和过滤进入 wiki。
+
+---

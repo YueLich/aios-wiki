@@ -1,5 +1,8 @@
 {
   "recently_processed_titles": [
+    "E-GRM: Efficient Generative Reward Modeling via Model-Internal Uncertainty",
+    "SEPTQ: A Simple and Effective Post-Training Quantization Paradigm for LLMs",
+    "ggml-org/llama.cpp: b8789",
     "EdgeFlow: Fast Cold Starts for LLMs on Mobile Devices",
     "PSPA-Bench: A Personalized Benchmark for Smartphone GUI Agent",
     "SecAgent: Efficient Mobile GUI Agent with Semantic Context",
@@ -79,6 +82,6 @@
     "gemma-cpp"
   ],
   "last_update": "2026-04-14 16:05",
-  "last_updated": "2026-04-14T16:05:00+00:00",
+  "last_updated": "2026-04-14T00:00:00Z",
   "total_pages": 10
 }
