@@ -151,3 +151,20 @@ format: reverse-chronological
 **去重统计：** 扫描 59 条来源条目，3 条通过去重和过滤进入 wiki。
 
 ---
+
+## wiki update: 2026-04-14 21:00 UTC
+
+**统计**：扫描 arXiv RSS (3 feeds)、RSS (6 feeds)、GitHub (7 repos)
+**原始收集**: 143 条 → 去重后 30 条 → 二次过滤后 4 条 → 最终更新 1 页
+
+### 更新页面
+- `entities/ggml-llamacpp-hf.md` — 追加 b8790 版本信息（BoringSSL vendor 更新，安全维护）
+
+### 跳过（已处理）
+- OpenBMB/MiniCPM: 2.4.2、apple/coremltools: 9.0 — 旧发布，已处理
+- Android Dev "Get inspired and take your apps to desktop" — 非 AI 核心内容（桌面设计资源）
+- arXiv RSS 中本轮新论文均不匹配端侧 AI 关键词
+
+### 备注
+- llama.cpp b8790 仅为单次 vendor 更新（BoringSSL），无功能性变更
+- 本轮更新量极小，主要来源未产出新的端侧 AI 相关内容

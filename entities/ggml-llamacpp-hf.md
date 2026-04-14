@@ -45,3 +45,8 @@ GGML 和 llama.cpp 正式加入 HuggingFace，以确保本地 AI 推理工具的
 - 继续完善 macOS/iOS/Android 多平台预编译包
 - 发布地址：https://github.com/ggml-org/llama.cpp/releases/tag/b8789
 
+### b8790 (2026-04-14)
+- 例行 vendor 更新：BoringSSL 升级至 0.20260413.0（安全维护）
+- 单次提交，无功能性变更
+- 发布地址：https://github.com/ggml-org/llama.cpp/releases/tag/b8790
+
