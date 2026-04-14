@@ -107,3 +107,23 @@ format: reverse-chronological
 ### 备注
 - arXiv API 查询全部失败（code=0），仅通过 RSS 获取 arXiv 论文
 - RSS arXiv cs.AI/CL/LG 中新论文均已被去重过滤
+
+## 2026-04-14 18:00 — 增量更新
+
+**统计**：扫描 arXiv RSS/API (9 组)、RSS (6 feeds)、GitHub (7 repos)
+**原始收集**：41 条 → 去重后 17 条 → 二次过滤后 13 条 → 最终新增 1 条
+
+### 新增页面
+- `entities/google-ai-edge-gallery.md` — Google AI Edge Gallery：Google 官方 iPhone 端侧 AI 应用，支持 Gemma 4 E2B/E4B 多模态推理 + tool calling
+
+### 跳过（已处理）
+- Gemma 4 AICore Developer Preview / Welcome Gemma 4 — 已有页面
+- OpenBMB/MiniCPM 2.4.2、apple/coremltools 9.0 — 旧发布
+- google/gemma.cpp v0.1.4 — 2025年3月发布，旧版本
+- Android 17 Beta 3 — 平台稳定性里程碑，无新增 AI 特性
+- Android Dev 其他文章（Room 3.0、Contact Picker、TikTok 代码优化等）— 非 AI 核心内容
+
+### 备注
+- arXiv API 仍全部失败（code=0），仅通过 RSS 获取论文
+- 本次更新量较小，主要新内容为 Google AI Edge Gallery
+- 该应用首次将模型厂商的端侧体验从「模型发布」推进到「官方应用」阶段
