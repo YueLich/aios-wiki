@@ -1,5 +1,7 @@
 {
   "recently_processed_titles": [
+    "Get your Wear OS apps ready for the 64-bit requirement",
+    "ggml-org/llama.cpp: b8797",
     "ggml-org/llama.cpp: b8796",
     "AHC: Meta-Learned Adaptive Compression for Continual Object Detection on Memory-Constrained Microcontrollers",
     "ggml-org/llama.cpp: b8795",
@@ -80,6 +82,8 @@
     "Sova AI - Android Agent Assistant Operating Your Apps"
   ],
   "known_topics": [
+    "wearos-64bit",
+    "llamacpp-b8797",
     "llamacpp-b8796",
     "ahc-mcu-continual-detection",
     "gui-agent-benchmark",
@@ -118,7 +122,7 @@
     "comllm-mec-offloading",
     "emommas-edge-negotiation"
   ],
-  "last_update": "2026-04-15 06:00",
+  "last_update": "2026-04-15 08:00",
   "last_updated": "2026-04-15",
-  "total_pages": 16
+  "total_pages": 18
 }

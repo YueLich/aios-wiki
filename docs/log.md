@@ -240,3 +240,17 @@ format: reverse-chronological
 
 **来源扫描：** arXiv (6 queries)、RSS (10 feeds)、GitHub (7 repos)
 **去重后新内容：** 8 条 → 4 条写入 wiki
+
+## 2026-04-15 08:00
+
+**新增页面**: 2
+- `entities/llamacpp-b8797.md` — llama.cpp b8797 Qualcomm Hexagon HMX 矩阵乘法异步优化
+- `concepts/wearos-64bit.md` — Wear OS 64-bit 架构要求（2026-09-15 生效）
+
+**来源统计**:
+- arXiv RSS (cs.AI/CL/LG): 扫描 60 篇，2 篇相关但非移动 AIOS 核心
+- RSS Feeds (Google AI/Android Dev/HF/Decoder/VB/SW): 扫描 ~87 篇
+- GitHub Releases: 7 个仓库，1 个新版本 (llama.cpp b8797)
+- Hacker News: API 超时
+
+**新增去重索引**: ggml-org/llama.cpp: b8797, Wear OS 64-bit
