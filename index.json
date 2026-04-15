@@ -79,7 +79,11 @@
     "EmoMAS: Emotion-Aware Multi-Agent System for High-Stakes Edge-Deployable Negotiation with Bayesian Orchestration",
     "ggml-org/llama.cpp: b8794",
     "On-Device vs Cloud LLMs for Agentic Tool Calling in a Real iOS App",
-    "Sova AI - Android Agent Assistant Operating Your Apps"
+    "Sova AI - Android Agent Assistant Operating Your Apps",
+    "RPRA: Predicting an LLM-Judge for Efficient but Performant Inference",
+    "DeFakeQ: Enabling Real-Time Deepfake Detection on Edge Devices via Adaptive Bidirectional Quantization",
+    "Follow My Eyes: Backdoor Attacks on VLM-based Scanpath Prediction",
+    "ARM-software/ComputeLibrary: v53.0.0"
   ],
   "known_topics": [
     "wearos-64bit",
@@ -123,6 +127,6 @@
     "emommas-edge-negotiation"
   ],
   "last_update": "2026-04-15 08:00",
-  "last_updated": "2026-04-15",
+  "last_updated": "2026-04-16T01:00:00",
   "total_pages": 18
 }

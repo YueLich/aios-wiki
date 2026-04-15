@@ -289,3 +289,18 @@ format: reverse-chronological
 
 **Sources Scanned:** 17 (6 arXiv queries, 5 RSS feeds, 6 GitHub repos)
 **Raw Items:** 143 → **After Filter:** 55 → **After High-Relevance:** 28 → **After Dedup:** 13 → **Wiki Pages:** 4
+
+## 2026-04-16 01:00
+
+### 新增页面 (4)
+- concepts/rpra-self-assessment-inference.md — RPRA: LLM 自评推理路由，端云协同优化
+- concepts/defakeq-edge-deepfake.md — DeFakeQ: 端侧实时 Deepfake 检测量化框架
+- concepts/followmyeyes-vlm-backdoor.md — Follow My Eyes: VLM 视线预测后门攻击研究
+- entities/arm-computelibrary-v53.md — ARM Compute Library v53.0.0
+
+### 来源
+- arXiv: 2604.12634 (RPRA), 2604.08847 (DeFakeQ), 2604.08766 (Follow My Eyes)
+- GitHub: ARM-software/ComputeLibrary v53.0.0
+- 扫描: arXiv RSS (cs.AI/CL/LG), Google AI, Android Dev, HuggingFace, GitHub releases
+- 过滤: 113 raw → 60 stage1 → 18 stage2 → 4 new after dedup
+
