@@ -1,4 +1,11 @@
 ---
+
+## 2026-04-15 03:00
+- 新增 2 个页面
+- 概念: on-device-vs-cloud-agentic-tool-calling.md — 端侧3B vs 云端20B Agentic工具调用实战对比（SubraLabs iOS案例）
+- 实体: sova-ai-android-agent.md — Android原生应用操控Agent，通过Accessibility API实现无需root的手机操控
+- 来源: SubraLabs Lab Paper, Hacker News (Sova AI Show HN)
+
 format: reverse-chronological
 ---
 # Wiki 操作日志

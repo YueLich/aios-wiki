@@ -69,7 +69,9 @@
     "From LLM to Silicon: RL-Driven ASIC Architecture Exploration for On-Device AI Inference",
     "Multi-Turn Reasoning LLMs for Task Offloading in Mobile Edge Computing",
     "EmoMAS: Emotion-Aware Multi-Agent System for High-Stakes Edge-Deployable Negotiation with Bayesian Orchestration",
-    "ggml-org/llama.cpp: b8794"
+    "ggml-org/llama.cpp: b8794",
+    "On-Device vs Cloud LLMs for Agentic Tool Calling in a Real iOS App",
+    "Sova AI - Android Agent Assistant Operating Your Apps"
   ],
   "known_topics": [
     "gui-agent-benchmark",
@@ -109,6 +111,6 @@
     "emommas-edge-negotiation"
   ],
   "last_update": "2026-04-15 02:00",
-  "last_updated": "2026-04-14T23:03:49.675520",
+  "last_updated": "2026-04-15T03:00:00Z",
   "total_pages": 15
 }
