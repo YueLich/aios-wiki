@@ -4,6 +4,16 @@ format: reverse-chronological
 # Wiki 操作日志
 - 2026-04-14 初始化 wiki 仓库 (github.com/YueLich/aios-wiki)
 
+## 2026-04-16 02:00 — 增量更新
+
+**统计**：扫描 arXiv RSS (3 feed) + GitHub releases (7 repos) + arXiv API (4 queries)，共 73 条 → 2 新增（去重后）
+**新增**：3 个 Wiki 页面（1 概念 + 2 实体）
+
+### 新增页面
+- `concepts/synergy-open-agentic-web.md` — 开放代理网络的下一代通用 Agent（arXiv 2603.28428），提出 Agentic Citizen 概念
+- `entities/llamacpp-b8807.md` — llama.cpp b8807，Vulkan 后端 im2col 优化
+- `entities/paddle-lite-v214.md` — 百度飞桨端侧推理引擎 v2.14-rc
+
 ## 2026-04-14 10:51 — 首次运行：GitHub-backed Wiki 初始化
 
 **统计**：扫描 6 个 arXiv 查询 + 5 个 RSS Feed + 6 个 GitHub 仓库

@@ -83,7 +83,10 @@
     "RPRA: Predicting an LLM-Judge for Efficient but Performant Inference",
     "DeFakeQ: Enabling Real-Time Deepfake Detection on Edge Devices via Adaptive Bidirectional Quantization",
     "Follow My Eyes: Backdoor Attacks on VLM-based Scanpath Prediction",
-    "ARM-software/ComputeLibrary: v53.0.0"
+    "ARM-software/ComputeLibrary: v53.0.0",
+    "ggml-org/llama.cpp: b8807",
+    "Synergy: A Next-Generation General-Purpose Agent for Open Agentic Web",
+    "PaddlePaddle/Paddle-Lite: v2.14-rc"
   ],
   "known_topics": [
     "wearos-64bit",
@@ -124,9 +127,12 @@
     "llamacpp-b8793",
     "rl-asic-exploration",
     "comllm-mec-offloading",
-    "emommas-edge-negotiation"
+    "emommas-edge-negotiation",
+    "llamacpp-b8807",
+    "synergy-open-agentic-web",
+    "paddle-lite-v214"
   ],
   "last_update": "2026-04-15 08:00",
-  "last_updated": "2026-04-16T01:00:00",
-  "total_pages": 18
+  "last_updated": "2026-04-15T23:06:39",
+  "total_pages": 21
 }

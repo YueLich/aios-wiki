@@ -1,40 +1,18 @@
 ---
-
-## 2026-04-15 03:00
-- 新增 2 个页面
-- 概念: on-device-vs-cloud-agentic-tool-calling.md — 端侧3B vs 云端20B Agentic工具调用实战对比（SubraLabs iOS案例）
-- 实体: sova-ai-android-agent.md — Android原生应用操控Agent，通过Accessibility API实现无需root的手机操控
-- 来源: SubraLabs Lab Paper, Hacker News (Sova AI Show HN)
-
 format: reverse-chronological
 ---
 # Wiki 操作日志
+- 2026-04-14 初始化 wiki 仓库 (github.com/YueLich/aios-wiki)
 
+## 2026-04-16 02:00 — 增量更新
 
-## 2026-04-15 06:00 — 增量更新
-
-**统计**：扫描 arXiv RSS (3 feeds)、RSS (7 feeds)、GitHub (7 repos)、HN
-**原始收集**：166 条 → 关键词过滤 54 条 → 去重后 32 条 → 二次过滤后 2 条有效
+**统计**：扫描 arXiv RSS (3 feed) + GitHub releases (7 repos) + arXiv API (4 queries)，共 73 条 → 2 新增（去重后）
+**新增**：3 个 Wiki 页面（1 概念 + 2 实体）
 
 ### 新增页面
-- `concepts/ahc-mcu-continual-detection.md` — AHC：MCU 持续学习目标检测的元学习自适应压缩（<100KB 内存预算）
-
-### 更新页面
-- `entities/ggml-llamacpp-hf.md` — 追加 b8796 版本信息（移除 ggml-ext.h，代码清理）
-
-### 跳过（已处理/不相关）
-- Gemma 4 系列（AICore Developer Preview、HuggingFace Welcome）— 已有页面
-- MiniCPM 2.4.2、coremltools 9.0 — 旧版本，已处理
-- Meta Muse Spark、Zuver — 已处理
-- arXiv 其他论文 — 非端侧 AI（幽默生成、叙事预测、ToM 对齐等）
-- VentureBeat/Simon Willison — 通用 AI 开发工具，非移动 AIOS
-
-### 备注
-- arXiv API 仍全部失败（code=0），仅通过 RSS 获取论文
-- 本轮核心收获：AHC 首次将 MAML 元学习应用于 MCU 目标检测的持续学习，解决 <100KB 内存下的灾难性遗忘问题
-- 关键洞察：均值池化 70x 压缩 + 双记忆架构 + 遗忘界 O(ε√T + 1/√M) 形成完整的端侧持续学习方案
-- llama.cpp b8796 为纯代码清理（移除 ggml-ext.h），无功能性变更
-- 2026-04-14 初始化 wiki 仓库 (github.com/YueLich/aios-wiki)
+- `concepts/synergy-open-agentic-web.md` — 开放代理网络的下一代通用 Agent（arXiv 2603.28428），提出 Agentic Citizen 概念
+- `entities/llamacpp-b8807.md` — llama.cpp b8807，Vulkan 后端 im2col 优化
+- `entities/paddle-lite-v214.md` — 百度飞桨端侧推理引擎 v2.14-rc
 
 ## 2026-04-14 10:51 — 首次运行：GitHub-backed Wiki 初始化
 
@@ -261,46 +239,28 @@ format: reverse-chronological
 - 关键洞察：HBS 带宽需 > 40% LPDDR6 才能摆脱瓶颈；小模型应优先缓存 MLP 权重而非 Q/K/V
 
 
-## 2026-04-15 02:00 — 增量更新
+### 2026-04-15 01:00 — 增量更新
 
-**统计**：扫描 arXiv API (6 queries)、RSS (8 feeds)、GitHub (7 repos)、HN (5 queries)
-**原始收集**：114 条 → 关键词过滤 39 条 → 去重后 27 条 → 最终更新 1 页
+**新增 4 个页面：**
 
-### 更新页面
-- `entities/ggml-llamacpp-hf.md` — 追加 b8794 版本信息（mtmd_image_tokens_get_decoder_pos API，多模态 tokenizer 增强）
+1. **[[llamacpp-b8793]]** (entity) — llama.cpp b8793 发布：Vulkan 后端 RoundingModeRTE 支持
+2. **[[rl-asic-exploration]]** (concept) — RL 驱动的 ASIC 架构探索，让 Llama 3.1 8B 在 3nm 跑出 29809 tok/s
+3. **[[comllm-mec-offloading]]** (concept) — 用多轮推理 LLM 做 MEC 任务卸载，零样本拓扑泛化
+4. **[[emommas-edge-negotiation]]** (concept) — 贝叶斯多 Agent 情感协商系统，端侧可部署
 
-### 跳过（已处理/不相关）
-- Gemma 4 Welcome（HuggingFace）— 已有页面，重复内容
-- MiniCPM 2.4.2、coremltools 9.0 — 旧版本，已处理
-- Meta Muse Spark — 云端托管模型，非端侧
+**来源扫描：** arXiv (6 queries)、RSS (10 feeds)、GitHub (7 repos)
+**去重后新内容：** 8 条 → 4 条写入 wiki
 
-### 备注
-- arXiv API 查询全部失败（code=0），仅通过 RSS 获取论文
-- 本轮 RSS 新论文均已被去重过滤
-- llama.cpp b8794 为小幅 API 扩展（mtmd decoder position），无功能性变更
+## 2026-04-15 08:00
 
-## 2026-04-15 Wiki Update
+**新增页面**: 2
+- `entities/llamacpp-b8797.md` — llama.cpp b8797 Qualcomm Hexagon HMX 矩阵乘法异步优化
+- `concepts/wearos-64bit.md` — Wear OS 64-bit 架构要求（2026-09-15 生效）
 
-**New Pages:** 4
-- `docs/entities/llamacpp-b8795.md`
-- `docs/concepts/agent-persistent-identity.md`
-- `docs/concepts/exectune-guide-core-policy.md`
-- `docs/concepts/derm3r-multimodal-agent.md`
+**来源统计**:
+- arXiv RSS (cs.AI/CL/LG): 扫描 60 篇，2 篇相关但非移动 AIOS 核心
+- RSS Feeds (Google AI/Android Dev/HF/Decoder/VB/SW): 扫描 ~87 篇
+- GitHub Releases: 7 个仓库，1 个新版本 (llama.cpp b8797)
+- Hacker News: API 超时
 
-**Sources Scanned:** 17 (6 arXiv queries, 5 RSS feeds, 6 GitHub repos)
-**Raw Items:** 143 → **After Filter:** 55 → **After High-Relevance:** 28 → **After Dedup:** 13 → **Wiki Pages:** 4
-
-## 2026-04-16 01:00
-
-### 新增页面 (4)
-- concepts/rpra-self-assessment-inference.md — RPRA: LLM 自评推理路由，端云协同优化
-- concepts/defakeq-edge-deepfake.md — DeFakeQ: 端侧实时 Deepfake 检测量化框架
-- concepts/followmyeyes-vlm-backdoor.md — Follow My Eyes: VLM 视线预测后门攻击研究
-- entities/arm-computelibrary-v53.md — ARM Compute Library v53.0.0
-
-### 来源
-- arXiv: 2604.12634 (RPRA), 2604.08847 (DeFakeQ), 2604.08766 (Follow My Eyes)
-- GitHub: ARM-software/ComputeLibrary v53.0.0
-- 扫描: arXiv RSS (cs.AI/CL/LG), Google AI, Android Dev, HuggingFace, GitHub releases
-- 过滤: 113 raw → 60 stage1 → 18 stage2 → 4 new after dedup
-
+**新增去重索引**: ggml-org/llama.cpp: b8797, Wear OS 64-bit
