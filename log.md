@@ -253,3 +253,14 @@ format: reverse-chronological
 - arXiv API 查询全部失败（code=0），仅通过 RSS 获取论文
 - 本轮 RSS 新论文均已被去重过滤
 - llama.cpp b8794 为小幅 API 扩展（mtmd decoder position），无功能性变更
+
+## 2026-04-15 Wiki Update
+
+**New Pages:** 4
+- `docs/entities/llamacpp-b8795.md`
+- `docs/concepts/agent-persistent-identity.md`
+- `docs/concepts/exectune-guide-core-policy.md`
+- `docs/concepts/derm3r-multimodal-agent.md`
+
+**Sources Scanned:** 17 (6 arXiv queries, 5 RSS feeds, 6 GitHub repos)
+**Raw Items:** 143 → **After Filter:** 55 → **After High-Relevance:** 28 → **After Dedup:** 13 → **Wiki Pages:** 4

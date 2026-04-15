@@ -1,5 +1,9 @@
 {
   "recently_processed_titles": [
+    "ggml-org/llama.cpp: b8795",
+    "Persistent Identity in AI Agents: A Multi-Anchor Architecture for Resilient Memory and Continuity",
+    "ExecTune: Effective Steering of Black-Box LLMs with Guide Models",
+    "DERM-3R: A Resource-Efficient Multimodal Agents Framework for Dermatologic Diagnosis",
     "ggml-org/llama.cpp: b8790",
     "E-GRM: Efficient Generative Reward Modeling via Model-Internal Uncertainty",
     "SEPTQ: A Simple and Effective Post-Training Quantization Paradigm for LLMs",
@@ -111,6 +115,6 @@
     "emommas-edge-negotiation"
   ],
   "last_update": "2026-04-15 02:00",
-  "last_updated": "2026-04-15T03:00:00Z",
+  "last_updated": "2026-04-15",
   "total_pages": 15
 }
