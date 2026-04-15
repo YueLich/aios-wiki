@@ -55,6 +55,9 @@ nav:
     - 🔧 推理框架与工具链:
       - GGML 与 llama.cpp: entities/ggml-llamacpp-hf.md
       - llama.cpp b8791: entities/llamacpp-b8791.md
+      - llama.cpp b8793: entities/llamacpp-b8793.md
+      - llama.cpp b8795: entities/llamacpp-b8795.md
+      - llama.cpp b8797: entities/llamacpp-b8797.md
       - MNN 3.5.0: entities/mnn-350.md
       - coremltools 9.0: entities/coremltools-9.md
       - AnyLanguageModel: entities/anylanguagemodel-apple.md
@@ -68,39 +71,55 @@ nav:
       - Google Translate iOS: entities/google-translate-ios-live2.md
       - Android Studio Agent Mode: entities/android-studio-agent-mode.md
       - Zuver Agent 框架: entities/zuver.md
+      - Sova AI Android Agent: entities/sova-ai-android-agent.md
       - Google 个人智能: entities/personal-intelligence-google.md
   - 概念:
     - 概念总览: concepts/index.md
-    - 🤖 Agent 系统:
-      - ClawMobile: concepts/clawmobile-agentic.md
-      - SecAgent: concepts/secagent-mobile-gui.md
-      - MGA 记忆驱动 GUI Agent: concepts/mga-memory-gui-agent.md
-      - PSPA-Bench: concepts/pspa-bench-gui-agent.md
-      - MobiFlow 基准: concepts/mobiflow-benchmark.md
-      - 图灵测试 GUI Agent: concepts/turing-test-mobile-gui.md
-      - GUI Agent 隐私保护: concepts/gui-agent-privacy.md
-      - MANA 广告检测: concepts/mana-mobile-ad-detection.md
-      - Sense Less Infer More: concepts/sense-less-infer-more.md
-      - 网络感知能效综述: concepts/networking-energy-agentic.md
-      - MeloTune 音乐推荐: concepts/melotune-ondevice-music.md
-    - ⚡ 优化与推理:
+    - 🧠 Agent 核心系统:
+      - 📷 感知与编码:
+        - SecAgent 语义上下文 GUI: concepts/secagent-mobile-gui.md
+        - PSPA-Bench 个性化 GUI 基准: concepts/pspa-bench-gui-agent.md
+        - 图灵测试 GUI Agent: concepts/turing-test-mobile-gui.md
+        - Sense Less Infer More 边缘感知: concepts/sense-less-infer-more.md
+        - FaceLiVTv2 人脸识别: concepts/facelivtv2-mobile-face.md
+        - FastSHADE 图像去噪: concepts/fastshade-mobile-denoising.md
+      - 🔀 规划与推理:
+        - ClawMobile 原生 Agent 系统: concepts/clawmobile-agentic.md
+        - ExecTune Guide 模型引导: concepts/exectune-guide-core-policy.md
+        - Agent 持久化身份架构: concepts/agent-persistent-identity.md
+        - DERM-3R 多模态诊断 Agent: concepts/derm3r-multimodal-agent.md
+      - 💾 记忆与状态管理:
+        - MGA 记忆驱动 GUI Agent: concepts/mga-memory-gui-agent.md
+        - MobiFlow 轨迹融合基准: concepts/mobiflow-benchmark.md
+        - GUI Agent 隐私保护: concepts/gui-agent-privacy.md
+      - 🔧 工具使用与执行:
+        - 端侧 vs 云端工具调用: concepts/on-device-vs-cloud-agentic-tool-calling.md
+        - MANA 多模态广告检测: concepts/mana-mobile-ad-detection.md
+        - COMLLM 边缘卸载决策: concepts/comllm-mec-offloading.md
+        - 网络感知能效综述: concepts/networking-energy-agentic.md
+      - 🤝 多 Agent 系统:
+        - EmoMAS 情感感知多 Agent: concepts/emommas-edge-negotiation.md
+    - ⚡ 优化与推理引擎:
       - KV-Cache 量化: concepts/kv-cache-quantization-ondevice.md
       - SEPTQ 后训练量化: concepts/septq-post-training-quantization.md
       - LCSB 内存高效微调: concepts/lcsb-finetuning-ondevice.md
       - EdgeFlow 冷启动: concepts/edgeflow-cold-start.md
       - 多模态零样本剪枝: concepts/multimodal-edge-pruning.md
       - gemma.cpp 推理引擎: concepts/gemma-cpp-inference.md
-      - E-GRM 奖励建模: concepts/e-grm-efficient-generative-reward-modeling.md
+      - E-GRM 高效奖励建模: concepts/e-grm-efficient-generative-reward-modeling.md
+      - AHC MCU 持续学习检测: concepts/ahc-mcu-continual-detection.md
+    - 🏭 边缘硬件与平台:
+      - EdgeCIM 硬件协同设计: concepts/edgecim-hardware-codesign.md
+      - RL 驱动 ASIC 架构探索: concepts/rl-asic-exploration.md
+      - Wear OS 64-bit 要求: concepts/wearos-64bit.md
+      - 端侧推理内存压力: concepts/on-device-inference-memory-pressure.md
+      - 可持续性权衡: concepts/sustainability-ondevice-intelligence.md
     - 🎯 应用场景:
       - Gemma 4 音频 MLX: concepts/gemma4-audio-mlx.md
       - Qwen 3.5 Small: concepts/qwen35-small.md
-      - React Native LLM: concepts/react-native-llm-edge.md
-      - FaceLiVTv2 人脸识别: concepts/facelivtv2-mobile-face.md
-      - FastSHADE 图像去噪: concepts/fastshade-mobile-denoising.md
-      - EdgeCIM 硬件协同设计: concepts/edgecim-hardware-codesign.md
-      - 边缘卸载: concepts/edge-cloud-offloading.md
-      - 可持续性权衡: concepts/sustainability-ondevice-intelligence.md
+      - React Native 端侧 LLM: concepts/react-native-llm-edge.md
+      - MeloTune 音乐推荐: concepts/melotune-ondevice-music.md
+      - 边缘卸载 LLM 部署: concepts/edge-cloud-offloading.md
   - 对比: comparisons/index.md
   - 速查: queries/index.md
-  - 知识图谱: knowledge-graph.md
   - 知识图谱: knowledge-graph.md
