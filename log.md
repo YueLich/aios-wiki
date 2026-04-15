@@ -9,6 +9,31 @@
 format: reverse-chronological
 ---
 # Wiki 操作日志
+
+
+## 2026-04-15 06:00 — 增量更新
+
+**统计**：扫描 arXiv RSS (3 feeds)、RSS (7 feeds)、GitHub (7 repos)、HN
+**原始收集**：166 条 → 关键词过滤 54 条 → 去重后 32 条 → 二次过滤后 2 条有效
+
+### 新增页面
+- `concepts/ahc-mcu-continual-detection.md` — AHC：MCU 持续学习目标检测的元学习自适应压缩（<100KB 内存预算）
+
+### 更新页面
+- `entities/ggml-llamacpp-hf.md` — 追加 b8796 版本信息（移除 ggml-ext.h，代码清理）
+
+### 跳过（已处理/不相关）
+- Gemma 4 系列（AICore Developer Preview、HuggingFace Welcome）— 已有页面
+- MiniCPM 2.4.2、coremltools 9.0 — 旧版本，已处理
+- Meta Muse Spark、Zuver — 已处理
+- arXiv 其他论文 — 非端侧 AI（幽默生成、叙事预测、ToM 对齐等）
+- VentureBeat/Simon Willison — 通用 AI 开发工具，非移动 AIOS
+
+### 备注
+- arXiv API 仍全部失败（code=0），仅通过 RSS 获取论文
+- 本轮核心收获：AHC 首次将 MAML 元学习应用于 MCU 目标检测的持续学习，解决 <100KB 内存下的灾难性遗忘问题
+- 关键洞察：均值池化 70x 压缩 + 双记忆架构 + 遗忘界 O(ε√T + 1/√M) 形成完整的端侧持续学习方案
+- llama.cpp b8796 为纯代码清理（移除 ggml-ext.h），无功能性变更
 - 2026-04-14 初始化 wiki 仓库 (github.com/YueLich/aios-wiki)
 
 ## 2026-04-14 10:51 — 首次运行：GitHub-backed Wiki 初始化

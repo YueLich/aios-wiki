@@ -37,6 +37,13 @@ GGML 和 llama.cpp 正式加入 HuggingFace，以确保本地 AI 推理工具的
 - 发布时间：2026-04-14T22:27:09Z
 - 本次更新为小幅 API 扩展，无功能性变更
 
+
+
+### b8796 (2026-04-15)
+- **变更**：移除 ggml-ext.h（`ggml: remove ggml-ext.h #21869`）
+- **性质**：代码整理，清理不再使用的头文件
+- **平台支持**：macOS ARM64（含 KleidiAI）、iOS XCFramework、Linux（CPU/Vulkan/ROCm/OpenVINO）、Windows
+
 ## 关联
 
 - [[gemma-cpp-inference]] — Google 官方的 Gemma 专用 C++ 推理引擎
