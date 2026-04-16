@@ -416,3 +416,8 @@ format: reverse-chronological
 - New after dedup: 0 genuinely relevant
 - Action: No wiki pages created (low yield run, dedup working correctly)
 - Checked: English-Bangla sentiment (not mobile AIOS), Apple acoustic embeddings (SPA/no content), Gemini for Mac (thin headline), 3 GitHub releases (all known)
+
+## 2026-04-16 - Wiki Update
+- 新增 3 个页面：LAMO (轻量 GUI Agent 多角色编排), ClawGUI (GUI Agent 全栈开源框架), llama.cpp b8816
+- 来源：arXiv (cs.AI), GitHub releases
+- 去重：跳过已知的 114+ 标题
