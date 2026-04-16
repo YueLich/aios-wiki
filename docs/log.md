@@ -268,3 +268,8 @@ format: reverse-chronological
 - Hacker News: API 超时
 
 **新增去重索引**: ggml-org/llama.cpp: b8797, Wear OS 64-bit
+
+## 2026-04-16 14:00
+- 新增: [[memory-worth-governance]] — Memory Worth 记忆治理原语 (arXiv:2604.12007)
+- 新增: [[llamacpp-b8809]] — llama.cpp b8809 SYCL Q8_0 重排序修复
+- 来源: arXiv cs.AI RSS, GitHub releases
