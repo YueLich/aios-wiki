@@ -108,6 +108,7 @@ nav:
       - gemma.cpp 推理引擎: concepts/gemma-cpp-inference.md
       - E-GRM 高效奖励建模: concepts/e-grm-efficient-generative-reward-modeling.md
       - AHC MCU 持续学习检测: concepts/ahc-mcu-continual-detection.md
+      - DanceMoE 分布式 MoE 边缘推理: concepts/dancemoe-distributed-moe-edge.md
     - 🏭 边缘硬件与平台:
       - EdgeCIM 硬件协同设计: concepts/edgecim-hardware-codesign.md
       - RL 驱动 ASIC 架构探索: concepts/rl-asic-exploration.md
