@@ -1,5 +1,11 @@
 # Wiki 更新日志
 
+## 2026-04-16 — 增量更新
+
+- 新增 4 个页面
+- 来源：arXiv RSS (cs.AI/CL/LG/CV/MA) + GitHub releases
+- 新页面：dronescan-yolo, lossless-prompt-compression, mcp-deployment-patterns, llamacpp-b8815
+
 ## 2026-04-16 15:08 Wiki 更新
 
 **新增/更新页面：**
