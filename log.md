@@ -2,6 +2,10 @@
 ## 2026-04-16 Wiki Update
 
 **新增页面 (6):**
+## 2026-04-16 03:05 — 增量更新（无新增）
+
+**统计**：扫描 arXiv RSS (3 feed) + RSS feeds (10) + GitHub releases (7 repos) + arXiv API (5 queries)，共 134 条原始 → 65 关键词过滤 → 19 严格过滤 → 0 新增（全部去重）
+**结果**：Wiki 已是最新，无新内容需要添加
 - concepts/kl-quantization-ssm-transformer.md — KL 散度量化透镜：混合精度 SSM-Transformer 快速敏感度分析
 - concepts/trispirit-cognitive-architecture.md — Tri-Spirit 三层认知架构驱动的Agent硬件协同设计
 - concepts/ati-physical-ai.md — ATI 仿生传感器优先的具身AI三层架构
