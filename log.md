@@ -337,3 +337,13 @@ format: reverse-chronological
 - Hacker News: 12 items
 
 **去重：** 221 → 183 (dedup) → 97 (stage-1) → 17 (stage-2) → 1 新增
+
+## 2026-04-16 自动更新
+- 新增 7 个概念页面
+- DanceMoE: 分布式 MoE 边缘推理框架
+- GenAI 智能手机隐私感知研究
+- DRIFT: 移动端 ISP 流水线
+- Synergy: 开放 Agentic Web Agent 架构
+- LSTM 步态分析 ASIC 加速器
+- 可穿戴 LLM 压力对话支持
+- BadgeX: IoT 可穿戴 × LLM 协作学习

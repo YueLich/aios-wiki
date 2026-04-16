@@ -86,7 +86,14 @@
     "DeFakeQ: Enabling Real-Time Deepfake Detection on Edge Devices via Adaptive Bidirectional Quantization",
     "RePAIR: Interactive Machine Unlearning through Prompt-Aware Model Repair",
     "KV Packet: Recomputation-Free Context-Independent KV Caching for LLMs",
-    "AgentComm: Semantic Communication for Embodied Agents"
+    "AgentComm: Semantic Communication for Embodied Agents",
+    "DanceMoE: Distributed MoE Inference in Edge Systems via Activation-Aware Expert Placement",
+    "Understanding User Privacy Perceptions of GenAI Smartphones",
+    "DRIFT: Deep Restoration, ISP Fusion, and Tone-mapping",
+    "Synergy: A Next-Generation General-Purpose Agent for Open Agentic Web",
+    "Cross-Layer Co-Optimized LSTM Accelerator for Real-Time Gait Analysis",
+    "Exploring Expert Perspectives on Wearable-Triggered LLM Conversational Support for Daily Stress",
+    "BadgeX: IoT-Enhanced Wearable Analytics Meets LLMs for Collaborative Learning"
   ],
   "known_topics": [
     "biotrain-ondevice-finetuning-mcu",
