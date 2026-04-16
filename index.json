@@ -93,7 +93,10 @@
     "Synergy: A Next-Generation General-Purpose Agent for Open Agentic Web",
     "Cross-Layer Co-Optimized LSTM Accelerator for Real-Time Gait Analysis",
     "Exploring Expert Perspectives on Wearable-Triggered LLM Conversational Support for Daily Stress",
-    "BadgeX: IoT-Enhanced Wearable Analytics Meets LLMs for Collaborative Learning"
+    "BadgeX: IoT-Enhanced Wearable Analytics Meets LLMs for Collaborative Learning",
+    "Memory as Metabolism: A Design for Companion Knowledge Systems",
+    "Adaptive Memory Crystallization for Autonomous AI Agent Learning in Dynamic Environments",
+    "Memp: Exploring Agent Procedural Memory"
   ],
   "known_topics": [
     "biotrain-ondevice-finetuning-mcu",
@@ -141,6 +144,6 @@
     "paddle-lite-v214"
   ],
   "last_update": "2026-04-16",
-  "last_updated": "2026-04-16",
-  "total_pages": 28
+  "last_updated": "2026-04-16T12:00:00",
+  "total_pages": 31
 }

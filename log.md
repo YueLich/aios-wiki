@@ -1,4 +1,15 @@
 
+
+## 2026-04-16 12:00 (cron)
+
+**新增页面**: 3 个概念页面
+- `concepts/memory-as-metabolism-companion-ks.md` — 伴侣知识系统记忆治理框架
+- `concepts/amc-adaptive-memory-crystallization.md` — 自适应记忆结晶化（62% 内存降低）
+- `concepts/memp-agent-procedural-memory.md` — Agent 过程性记忆探索
+
+**来源**: arXiv RSS (cs.AI/CL/LG/CV/MA), arXiv API, GitHub releases, HuggingFace blog
+**统计**: 扫描 112 项，去重后 107 新，关键词过滤后 7 项，最终新增 3 页
+
 ## 2026-04-16 增量更新
 
 新增页面 (2):
