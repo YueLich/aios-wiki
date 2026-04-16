@@ -1,5 +1,6 @@
 {
   "recently_processed_titles": [
+    "BioTrain: Sub-MB, Sub-50mW On-Device Fine-Tuning for Edge-AI on Biosignals",
     "Granite 4.0 3B Vision: Compact Multimodal Intelligence for Enterprise Documents",
     "ggml-org/llama.cpp: b8808",
     "LaCy: What Small Language Models Can and Should Learn is Not Just a Question of Loss",
@@ -82,6 +83,7 @@
     "ggml-org/llama.cpp: b8793"
   ],
   "known_topics": [
+    "biotrain-ondevice-finetuning-mcu",
     "wearos-64bit",
     "llamacpp-b8797",
     "llamacpp-b8796",
@@ -125,7 +127,7 @@
     "synergy-open-agentic-web",
     "paddle-lite-v214"
   ],
-  "last_update": "2026-04-16T03:05:04.857075",
-  "last_updated": "2026-04-16T03:05:04.857075",
-  "total_pages": 23
+  "last_update": "2026-04-16T04:06:43.683672",
+  "last_updated": "2026-04-16T04:06:43.683678",
+  "total_pages": 24
 }

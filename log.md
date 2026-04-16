@@ -295,3 +295,19 @@ format: reverse-chronological
 
 **统计:** 扫描 ~50 来源，2 条新增，0 条更新
 
+
+## 2026-04-16 04:06
+
+**新增页面：**
+- `concepts/biotrain-ondevice-finetuning-mcu.md` — BioTrain: MCU 上的全网络反向传播训练框架
+  - 来源: arXiv 2604.13359
+  - 关键数据: 8× 内存压缩, EEG 86.4% 准确率, 43.8mW 功耗, 320mAh 电池支持 211 次训练
+
+**来源统计：**
+- arXiv RSS: 45 items (cs.AI/CL/LG)
+- arXiv API: 15 items (5 targeted queries)
+- RSS Feeds: ~137 items (11 sources)
+- GitHub Releases: 7 repos checked
+- Hacker News: 12 items
+
+**去重：** 221 → 183 (dedup) → 97 (stage-1) → 17 (stage-2) → 1 新增
