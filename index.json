@@ -110,7 +110,10 @@
     "DroneScan-YOLO: Redundancy-Aware Lightweight Detection for Tiny Objects in UAV Imagery",
     "Lossless Prompt Compression via Dictionary-Encoding and In-Context Learning: Enabling Cost-Effective LLM Analysis of Repetitive Data",
     "Bridging Protocol and Production: Design Patterns for Deploying AI Agents with Model Context Protocol",
-    "ggml-org/llama.cpp: b8815"
+    "ggml-org/llama.cpp: b8815",
+    "A Multi-Model Approach to English-Bangla Sentiment Classification of Government Mobile Banking App Reviews",
+    "A Theoretical Framework for Acoustic Neighbor Embeddings",
+    "Google launches native Gemini app for Mac"
   ],
   "known_topics": [
     "memory-worth-governance",

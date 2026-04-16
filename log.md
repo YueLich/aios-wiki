@@ -407,3 +407,12 @@ format: reverse-chronological
 - 来源：Apple ML RSS, The Decoder, arXiv RSS
 - 去重结果：159 raw → 23 stage-1 → 9 after dedup → 2 genuinely new
 - 注意：Apple ML RSS解析问题已解决（需用RSS格式而非Atom）
+
+## 2026-04-16_18:06
+- Sources: arXiv RSS (cs.AI/CL/LG/CV/MA), Google AI Blog, Android Dev, Apple ML, HuggingFace, The Decoder, VentureBeat, GitHub releases
+- Items scanned: 147 RSS + 6 GitHub
+- Stage-1 filtered: 64
+- Stage-2 filtered: 12
+- New after dedup: 0 genuinely relevant
+- Action: No wiki pages created (low yield run, dedup working correctly)
+- Checked: English-Bangla sentiment (not mobile AIOS), Apple acoustic embeddings (SPA/no content), Gemini for Mac (thin headline), 3 GitHub releases (all known)
