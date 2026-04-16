@@ -76,6 +76,7 @@ nav:
       - Zuver Agent 框架: entities/zuver.md
       - Sova AI Android Agent: entities/sova-ai-android-agent.md
       - Google 个人智能: entities/personal-intelligence-google.md
+      - Gemini Robotics-ER 1.6: entities/gemini-robotics-er-16.md
 
   # ═══════ 概念：按 Agent 系统架构组织 ═══════
   - 概念:
@@ -119,6 +120,7 @@ nav:
       - GUI Agent 隐私保护: 轨迹偏好优化: concepts/gui-agent-privacy.md
       - MobiFlow: 轨迹融合的真实世界基准: concepts/mobiflow-benchmark.md
       - RePAIR: 交互式机器遗忘修复: concepts/repair-interactive-unlearning.md
+      - SUMMER 多模态记忆: concepts/summer-multimodal-memory.md
 
     - 🔧 工具调用与执行:
       - 端侧 vs 云端: Agentic 工具调用实战: concepts/on-device-vs-cloud-agentic-tool-calling.md

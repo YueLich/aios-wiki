@@ -421,3 +421,8 @@ format: reverse-chronological
 - 新增 3 个页面：LAMO (轻量 GUI Agent 多角色编排), ClawGUI (GUI Agent 全栈开源框架), llama.cpp b8816
 - 来源：arXiv (cs.AI), GitHub releases
 - 去重：跳过已知的 114+ 标题
+
+## 2026-04-16 增量更新
+- 新增概念页: summer-multimodal-memory (SUMMER 多模态记忆框架)
+- 新增实体页: gemini-robotics-er-16 (Gemini Robotics-ER 1.6)
+- 来源: arXiv 2604.12081, DeepMind Blog
