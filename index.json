@@ -84,7 +84,9 @@
     "Three Birds, One Stone: Solving the Communication-Memory-Privacy Trilemma in LLM Fine-tuning Over Wireless Networks with Zeroth-Order Optimization",
     "RPRA: Predicting an LLM-Judge for Efficient but Performant Inference",
     "DeFakeQ: Enabling Real-Time Deepfake Detection on Edge Devices via Adaptive Bidirectional Quantization",
-    "RePAIR: Interactive Machine Unlearning through Prompt-Aware Model Repair"
+    "RePAIR: Interactive Machine Unlearning through Prompt-Aware Model Repair",
+    "KV Packet: Recomputation-Free Context-Independent KV Caching for LLMs",
+    "AgentComm: Semantic Communication for Embodied Agents"
   ],
   "known_topics": [
     "biotrain-ondevice-finetuning-mcu",
@@ -132,6 +134,6 @@
     "paddle-lite-v214"
   ],
   "last_update": "2026-04-16",
-  "last_updated": "2026-04-16T16:00:00+08:00",
+  "last_updated": "2026-04-16",
   "total_pages": 28
 }

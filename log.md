@@ -1,4 +1,17 @@
 
+## 2026-04-16 增量更新
+
+新增页面 (2):
+- concepts/kv-packet-kv-caching.md
+- concepts/agentcomm-semantic-communication.md
+
+新增标题:
+- KV Packet: Recomputation-Free Context-Independent KV Caching for LLMs
+- AgentComm: Semantic Communication for Embodied Agents
+
+来源统计: arXiv RSS (cs.AI/CL/LG/CV/MA/eess.SP) + Google/Android/Apple/DeepMind RSS + GitHub releases
+过滤后候选: 42 条 → 深度研究 2 篇论文
+
 ## 2026-04-16 16:00 增量更新
 
 **新增 4 个概念页面：**
