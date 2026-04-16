@@ -264,3 +264,16 @@ format: reverse-chronological
 - Hacker News: API 超时
 
 **新增去重索引**: ggml-org/llama.cpp: b8797, Wear OS 64-bit
+
+## 2026-04-16 01:07 — 增量更新
+
+**新增页面:**
+- `concepts/pairzero-wireless-llm-fl.md` — pAirZero: 无线联邦LLM微调 (通信-内存-隐私三难)
+- `concepts/memory-worth-governance.md` — Memory Worth: Agent记忆治理轻量级原语
+
+**来源:**
+- arXiv API: 2604.12401 (pAirZero), 2604.12007 (Memory Worth)
+- GitHub: llama.cpp b8808 (minor, skipped — 已有页面)
+
+**统计:** 扫描 ~50 来源，2 条新增，0 条更新
+

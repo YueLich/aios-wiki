@@ -86,7 +86,11 @@
     "ARM-software/ComputeLibrary: v53.0.0",
     "ggml-org/llama.cpp: b8807",
     "Synergy: A Next-Generation General-Purpose Agent for Open Agentic Web",
-    "PaddlePaddle/Paddle-Lite: v2.14-rc"
+    "PaddlePaddle/Paddle-Lite: v2.14-rc",
+    "Three Birds, One Stone: Solving the Communication-Memory-Privacy Trilemma in LLM Fine-tuning Over Wireless Networks with Zeroth-Order Optimization",
+    "When to Forget: A Memory Governance Primitive",
+    "pAirZero: 无线网络上 LLM 微调的通信-内存-隐私三难问题",
+    "Memory Worth: Agent 记忆治理的轻量级原语"
   ],
   "known_topics": [
     "wearos-64bit",
@@ -132,7 +136,7 @@
     "synergy-open-agentic-web",
     "paddle-lite-v214"
   ],
-  "last_update": "2026-04-15 08:00",
-  "last_updated": "2026-04-15T23:06:39",
-  "total_pages": 21
+  "last_update": "2026-04-16T01:07:10.726920",
+  "last_updated": "2026-04-16T01:07:10.726926",
+  "total_pages": 23
 }
