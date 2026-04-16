@@ -1,3 +1,13 @@
+
+## 2026-04-17 Wiki Update
+
+**新增 3 个页面：**
+1. **litertlm-swift-ios.md** (entity) — LiteRTLM-Swift: 社区项目将 Google LiteRT-LM C API 封装为 Swift 接口，在 iOS 上运行 Gemma 4 多模态推理。支持文本/视觉/音频/多模态，KV Cache 复用实现 1-2s TTFT。
+2. **transformers-to-mlx.md** (concept) — HuggingFace 发布 Skill + 测试框架自动移植 transformers 模型到 MLX，加速 Apple Silicon 端侧 AI 生态。核心洞察：AI Agent 在开源中的正确协作模式。
+3. **nanowakeword-wake-word.md** (entity) — 下一代唤醒词检测框架，< 1 MB 模型，支持 ONNX/TFLite/Core ML 输出，适用于 MCU 到手机全设备。
+
+**来源：** Hacker News, HuggingFace Blog, Simon Willison
+**统计：** 扫描 171 条来源，过滤后 3 条新增
 # Wiki 更新日志
 
 ## 2026-04-16 — 增量更新
