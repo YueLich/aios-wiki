@@ -44,6 +44,14 @@ GGML 和 llama.cpp 正式加入 HuggingFace，以确保本地 AI 推理工具的
 - **性质**：代码整理，清理不再使用的头文件
 - **平台支持**：macOS ARM64（含 KleidiAI）、iOS XCFramework、Linux（CPU/Vulkan/ROCm/OpenVINO）、Windows
 
+### b8811 (2026-04-16)
+- **ggml-webgpu: compute pass batching and profiling overhead removal** (#21873)
+  - 更新 register tiling matmul 使用 f32 累积，修复 Chrome/Dawn 兼容性
+  - 合并 compute pass 批处理（非 profiling 模式下），移除 iOS 节流限制
+  - **iOS 意义**：WebGPU 推理在 iOS Safari 上性能显著提升，为浏览器端侧推理开辟新路径
+- 发布时间：2026-04-16T15:03:22Z
+- 平台支持：macOS ARM64（含 KleidiAI）、iOS XCFramework、Linux（CPU/Vulkan/ROCm/OpenVINO）、Windows
+
 ## 关联
 
 - [[gemma-cpp-inference]] — Google 官方的 Gemma 专用 C++ 推理引擎

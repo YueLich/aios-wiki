@@ -1,3 +1,17 @@
+# Wiki 更新日志
+
+## 2026-04-16 15:08 Wiki 更新
+
+**新增/更新页面：**
+- `docs/entities/gemma4-ondevice.md` — Gemma 4 多模态端侧模型全面更新（架构、基准、部署支持）
+- `docs/entities/ggml-llamacpp-hf.md` — 新增 b8811 版本记录（WebGPU iOS 优化）
+
+**数据来源：**
+- HuggingFace Blog: Gemma 4 详解
+- GitHub API: llama.cpp b8811
+
+**统计：** 扫描 123 个来源，2 个新内容（1 页面丰富化 + 1 版本更新）
+
 
 ## 2026-04-16 — 增量更新
 

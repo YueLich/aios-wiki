@@ -102,7 +102,9 @@
     "Mobile-MCP: Letting LLMs autonomously discover Android app capabilities",
     "Google banned our mobile AI agent app for doing what Gemini should do, but doesn't",
     "NavixMind – open-source Android agent that runs Python locally",
-    "Small Language Models (SLMs) vs. Large Language Models (LLMs)"
+    "Small Language Models (SLMs) vs. Large Language Models (LLMs)",
+    "Welcome Gemma 4: Frontier multimodal intelligence on device",
+    "ggml-org/llama.cpp: b8811"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -152,6 +154,6 @@
     "paddle-lite-v214"
   ],
   "last_update": "2026-04-16",
-  "last_updated": "2026-04-16T14:00:00",
-  "total_pages": 33
+  "last_updated": "2026-04-16 15:08",
+  "total_pages": 105
 }
