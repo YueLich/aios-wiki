@@ -98,7 +98,11 @@
     "BadgeX: IoT-Enhanced Wearable Analytics Meets LLMs for Collaborative Learning",
     "Memory as Metabolism: A Design for Companion Knowledge Systems",
     "Adaptive Memory Crystallization for Autonomous AI Agent Learning in Dynamic Environments",
-    "Memp: Exploring Agent Procedural Memory"
+    "Memp: Exploring Agent Procedural Memory",
+    "Mobile-MCP: Letting LLMs autonomously discover Android app capabilities",
+    "Google banned our mobile AI agent app for doing what Gemini should do, but doesn't",
+    "NavixMind – open-source Android agent that runs Python locally",
+    "Small Language Models (SLMs) vs. Large Language Models (LLMs)"
   ],
   "known_topics": [
     "memory-worth-governance",

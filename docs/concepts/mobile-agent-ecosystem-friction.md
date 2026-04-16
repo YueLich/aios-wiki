@@ -11,7 +11,7 @@ created: 2026-04-16
 updated: 2026-04-16
 ---
 
-# Sova AI：Google Play 政策与第三方助手
+# 移动 Agent 生态系统摩擦：Google Play 政策与第三方助手
 
 > Sova AI 被 Google Play 下架事件揭示了第三方移动 AI Agent 面临的根本性政策与平台困境。
 

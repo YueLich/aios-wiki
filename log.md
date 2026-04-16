@@ -1,4 +1,25 @@
 
+## 2026-04-16 — 增量更新
+
+新增 4 个 wiki 页面：
+
+### 概念页
+- **Mobile-MCP** (`concepts/mobile-mcp.md`) — 基于 Android Intent 框架的 MCP 实现，运行时动态工具发现
+- **移动 Agent 生态系统摩擦** (`concepts/mobile-agent-ecosystem-friction.md`) — Sova AI 被 Google Play 下架事件分析
+- **SLMs vs LLMs** (`concepts/slms-vs-llms.md`) — 小模型 vs 大模型系统性对比
+
+### 实体页
+- **NavixMind** (`entities/navixmind.md`) — 开源 Android 本地优先 AI Agent
+- **Sova AI** (`entities/sova-ai-android-agent.md`) — Accessibility-based 移动 Agent
+
+### 数据源
+- arXiv RSS (cs.AI/CL/LG/CV/MA): 75 items → 0 relevant after filter
+- arXiv API: 15 items → 1 picked (wrong paper on lookup)
+- GitHub releases: b8809 (已知), ComputeLibrary v53.0.0 (已知)
+- HackerNews: 8 items → 4 relevant
+- Google AI Blog, HuggingFace, The Decoder, VentureBeat, Simon Willison: ~52 items → 0 mobile AI relevant
+
+
 
 ## 2026-04-16 12:00 (cron)
 
