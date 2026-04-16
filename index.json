@@ -121,7 +121,9 @@
     "AHC: Meta-Learned Adaptive Compression for Continual Object Detection on Memory-Constrained Microcontrollers",
     "MiniCPM 2.4.2",
     "Turing Test on Screen: A Benchmark for Mobile GUI Agent Humanization",
-    "Google Translate: Live translate with headphones on iOS"
+    "Google Translate: Live translate with headphones on iOS",
+    "Multimodal Embedding & Reranker Models with Sentence Transformers",
+    "Training and Finetuning Multimodal Embedding & Reranker Models with Sentence Transformers"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -174,8 +176,8 @@
     "mcp-deployment-patterns",
     "llamacpp-b8815"
   ],
-  "last_update": "2026-04-16T21:10:39.870269",
+  "last_update": "2026-04-16T22:05:18.559380",
   "last_updated": "2026-04-16",
-  "total_pages": 109,
-  "page_count": 3
+  "total_pages": 110,
+  "page_count": 4
 }

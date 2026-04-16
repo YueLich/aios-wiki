@@ -197,6 +197,7 @@ nav:
       - GUI Agent 隐私保护: concepts/gui-agent-privacy.md
       - GAAT: Agent 治理遥测: concepts/gaat-agent-governance.md
       - RePAIR: 交互式遗忘修复: concepts/repair-interactive-unlearning.md
+      - 多模态嵌入与重排: concepts/multimodal-sentence-transformers.md
 
   - 对比: comparisons/index.md
   - 速查: queries/index.md

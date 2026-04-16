@@ -436,3 +436,8 @@ format: reverse-chronological
 - 新增概念页: summer-multimodal-memory (SUMMER 多模态记忆框架)
 - 新增实体页: gemini-robotics-er-16 (Gemini Robotics-ER 1.6)
 - 来源: arXiv 2604.12081, DeepMind Blog
+
+## 2026-04-17 - Wiki Update
+- 新增: multimodal-sentence-transformers.md (概念页)
+- 来源: HuggingFace Blog (Sentence Transformers v5.4 多模态支持)
+- 扫描: arXiv, Google AI, DeepMind, HuggingFace, Simon Willison, Apple ML, VentureBeat, The Decoder, GitHub
