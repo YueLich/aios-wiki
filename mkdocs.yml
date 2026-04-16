@@ -88,6 +88,7 @@ nav:
         - ExecTune Guide 模型引导: concepts/exectune-guide-core-policy.md
         - Agent 持久化身份架构: concepts/agent-persistent-identity.md
         - DERM-3R 多模态诊断 Agent: concepts/derm3r-multimodal-agent.md
+        - TriSpirit 认知架构: concepts/trispirit-cognitive-architecture.md
       - 💾 记忆与状态管理:
         - MGA 记忆驱动 GUI Agent: concepts/mga-memory-gui-agent.md
         - MobiFlow 轨迹融合基准: concepts/mobiflow-benchmark.md
@@ -99,6 +100,11 @@ nav:
         - 网络感知能效综述: concepts/networking-energy-agentic.md
       - 🤝 多 Agent 系统:
         - EmoMAS 情感感知多 Agent: concepts/emommas-edge-negotiation.md
+        - 开放 Agent 网络: concepts/synergy-open-agentic-web.md
+        - Agent 身份管理: concepts/synergy-agentic-web-agent.md
+        - Agent 语义通信: concepts/agentcomm-semantic-communication.md
+        - 无线联邦学习: concepts/pairzero-wireless-llm-fl.md
+        - 联邦微调框架: concepts/pAirZero-federated-finetuning.md
     - ⚡ 优化与推理引擎:
       - KV-Cache 量化: concepts/kv-cache-quantization-ondevice.md
       - SEPTQ 后训练量化: concepts/septq-post-training-quantization.md
@@ -109,18 +115,36 @@ nav:
       - E-GRM 高效奖励建模: concepts/e-grm-efficient-generative-reward-modeling.md
       - AHC MCU 持续学习检测: concepts/ahc-mcu-continual-detection.md
       - DanceMoE 分布式 MoE 边缘推理: concepts/dancemoe-distributed-moe-edge.md
+      - 自我评估推理优化: concepts/rpra-self-assessment-inference.md
+      - LLM 裁判推理: concepts/rpra-llm-judge-inference.md
+      - KV 包缓存: concepts/kv-packet-kv-caching.md
+      - KL 量化 SSM 转换器: concepts/kl-quantization-ssm-transformer.md
+      - 小模型 token 选择: concepts/lacy-small-model-token-selection.md
+      - 交互式遗忘修复: concepts/repair-interactive-unlearning.md
     - 🏭 边缘硬件与平台:
       - EdgeCIM 硬件协同设计: concepts/edgecim-hardware-codesign.md
       - RL 驱动 ASIC 架构探索: concepts/rl-asic-exploration.md
       - Wear OS 64-bit 要求: concepts/wearos-64bit.md
       - 端侧推理内存压力: concepts/on-device-inference-memory-pressure.md
       - 可持续性权衡: concepts/sustainability-ondevice-intelligence.md
+      - LSTM 步态 ASIC 加速器: concepts/lstm-gait-asic-accelerator.md
+      - MCU 端侧微调: concepts/biotrain-ondevice-finetuning-mcu.md
+      - 物理 AI 硬件: concepts/ati-physical-ai.md
     - 🎯 应用场景:
       - Gemma 4 音频 MLX: concepts/gemma4-audio-mlx.md
       - Qwen 3.5 Small: concepts/qwen35-small.md
       - React Native 端侧 LLM: concepts/react-native-llm-edge.md
       - MeloTune 音乐推荐: concepts/melotune-ondevice-music.md
       - 边缘卸载 LLM 部署: concepts/edge-cloud-offloading.md
+      - 穿戴设备心理健康助手: concepts/wearable-llm-stress-support.md
+      - 记忆价值治理: concepts/memory-worth-governance.md
+      - 穿戴设备学习框架: concepts/badgex-wearable-llm-learning.md
+      - 移动 ISP 流水线: concepts/drift-mobile-isp-pipeline.md
+      - 边缘深度伪造检测: concepts/defakeq-edge-deepfake.md
+      - 深度伪造检测系统: concepts/defakeq-edge-deepfake-detection.md
+    - 🛡️ 安全与隐私:
+      - VLM 后门攻击: concepts/followmyeyes-vlm-backdoor.md
+      - 智能手机隐私感知: concepts/genai-smartphone-privacy-perception.md
   - 对比: comparisons/index.md
   - 速查: queries/index.md
   - 知识图谱: knowledge-graph.md
