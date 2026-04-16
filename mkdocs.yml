@@ -64,7 +64,8 @@ nav:
     - 🧠 模型:
       - Gemma 4: entities/gemma4-ondevice.md
       - Gemini Flash Live: entities/gemini-flash-live.md
-      - MiniCPM 2.4.2: entities/minicpm-242.md      - Gemini 3.1 Flash TTS: entities/gemini-31-flash-tts.md
+      - MiniCPM 2.4.2: entities/minicpm-242.md
+      - Gemini 3.1 Flash TTS: entities/gemini-31-flash-tts.md
 
     - 📱 设备与平台:
       - iPhone 17e: entities/iphone-17e.md
@@ -105,7 +106,8 @@ nav:
         - Agent 身份管理: concepts/synergy-agentic-web-agent.md
         - Agent 语义通信: concepts/agentcomm-semantic-communication.md
         - 无线联邦学习: concepts/pairzero-wireless-llm-fl.md
-        - 联邦微调框架: concepts/pAirZero-federated-finetuning.md        - GAAT Agent治理遥测: concepts/gaat-agent-governance.md
+        - 联邦微调框架: concepts/pAirZero-federated-finetuning.md
+        - GAAT Agent治理遥测: concepts/gaat-agent-governance.md
 
     - ⚡ 优化与推理引擎:
       - KV-Cache 量化: concepts/kv-cache-quantization-ondevice.md
