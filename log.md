@@ -393,3 +393,11 @@ format: reverse-chronological
 - LSTM 步态分析 ASIC 加速器
 - 可穿戴 LLM 压力对话支持
 - BadgeX: IoT 可穿戴 × LLM 协作学习
+
+## 2026-04-16 Wiki Update
+- 新增页面：2个
+  - `concepts/gaat-agent-governance.md` — GAAT治理感知Agent遥测架构（Apple ML Research）
+  - `entities/gemini-31-flash-tts.md` — Gemini 3.1 Flash TTS（Google）
+- 来源：Apple ML RSS, The Decoder, arXiv RSS
+- 去重结果：159 raw → 23 stage-1 → 9 after dedup → 2 genuinely new
+- 注意：Apple ML RSS解析问题已解决（需用RSS格式而非Atom）

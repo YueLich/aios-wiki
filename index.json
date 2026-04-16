@@ -104,7 +104,9 @@
     "NavixMind – open-source Android agent that runs Python locally",
     "Small Language Models (SLMs) vs. Large Language Models (LLMs)",
     "Welcome Gemma 4: Frontier multimodal intelligence on device",
-    "ggml-org/llama.cpp: b8811"
+    "ggml-org/llama.cpp: b8811",
+    "Governance-Aware Agent Telemetry for Closed-Loop Enforcement in Multi-Agent AI Systems",
+    "Google ships its most expressive Gemini 3.1 text-to-speech model yet with 70+ language support"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -154,6 +156,6 @@
     "paddle-lite-v214"
   ],
   "last_update": "2026-04-16",
-  "last_updated": "2026-04-16 15:08",
+  "last_updated": "2026-04-16",
   "total_pages": 105
 }
