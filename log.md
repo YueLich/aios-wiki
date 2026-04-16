@@ -1,4 +1,17 @@
 
+## 2026-04-16 16:00 增量更新
+
+**新增 4 个概念页面：**
+
+1. **pAirZero 联邦微调** (`pAirZero-federated-finetuning.md`) — 解决端侧 LLM 联邦微调的通信-内存-隐私三难题，通过零阶优化+OTA实现75%内存缩减、位级通信、内嵌DP保护
+2. **RPRA LLM-Judge 推理优化** (`rpra-llm-judge-inference.md`) — 让小模型预测 LLM-Judge 评分实现智能推理路由，报告卡+事后训练两种方案
+3. **DeFakeQ 边缘 Deepfake 检测** (`defakeq-edge-deepfake-detection.md`) — 首个 Deepfake 检测器专用量化框架，10-20%模型大小保留90%精度，已验证移动端实时部署
+4. **RePAIR 交互式机器遗忘** (`repair-interactive-unlearning.md`) — 用户通过自然语言让LLM遗忘特定知识，STAMP算法实现训练无关的推理时模型修复
+
+**来源：** arXiv API 搜索 (cs.AI/cs.CL/cs.LG RSS + targeted queries)
+**去重：** index.json 81 标题 + existing pages 70 页
+
+
 ## 2026-04-16 Wiki Update
 
 **新增页面 (6):**

@@ -80,7 +80,11 @@
     "alibaba/MNN 3.5.0",
     "Technology solutions targeting the performance of gen-AI inference in resource constrained platforms",
     "ggml-org/llama.cpp: b8792",
-    "ggml-org/llama.cpp: b8793"
+    "ggml-org/llama.cpp: b8793",
+    "Three Birds, One Stone: Solving the Communication-Memory-Privacy Trilemma in LLM Fine-tuning Over Wireless Networks with Zeroth-Order Optimization",
+    "RPRA: Predicting an LLM-Judge for Efficient but Performant Inference",
+    "DeFakeQ: Enabling Real-Time Deepfake Detection on Edge Devices via Adaptive Bidirectional Quantization",
+    "RePAIR: Interactive Machine Unlearning through Prompt-Aware Model Repair"
   ],
   "known_topics": [
     "biotrain-ondevice-finetuning-mcu",
@@ -127,7 +131,7 @@
     "synergy-open-agentic-web",
     "paddle-lite-v214"
   ],
-  "last_update": "2026-04-16T04:06:43.683672",
-  "last_updated": "2026-04-16T04:06:43.683678",
-  "total_pages": 24
+  "last_update": "2026-04-16",
+  "last_updated": "2026-04-16T16:00:00+08:00",
+  "total_pages": 28
 }
