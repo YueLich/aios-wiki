@@ -1,5 +1,11 @@
 {
   "recently_processed_titles": [
+    "Granite 4.0 3B Vision: Compact Multimodal Intelligence for Enterprise Documents",
+    "ggml-org/llama.cpp: b8808",
+    "LaCy: What Small Language Models Can and Should Learn is Not Just a Question of Loss",
+    "[Emerging Ideas] Artificial Tripartite Intelligence: A Bio-Inspired, Sensor-First Architecture for Physical AI",
+    "Rethinking AI Hardware: A Three-Layer Cognitive Architecture for Autonomous Agents",
+    "A KL Lens on Quantization: Fast, Forward-Only Sensitivity for Mixed-Precision SSM-Transformer Models",
     "Get your Wear OS apps ready for the 64-bit requirement",
     "ggml-org/llama.cpp: b8797",
     "ggml-org/llama.cpp: b8796",
@@ -73,24 +79,7 @@
     "alibaba/MNN 3.5.0",
     "Technology solutions targeting the performance of gen-AI inference in resource constrained platforms",
     "ggml-org/llama.cpp: b8792",
-    "ggml-org/llama.cpp: b8793",
-    "From LLM to Silicon: RL-Driven ASIC Architecture Exploration for On-Device AI Inference",
-    "Multi-Turn Reasoning LLMs for Task Offloading in Mobile Edge Computing",
-    "EmoMAS: Emotion-Aware Multi-Agent System for High-Stakes Edge-Deployable Negotiation with Bayesian Orchestration",
-    "ggml-org/llama.cpp: b8794",
-    "On-Device vs Cloud LLMs for Agentic Tool Calling in a Real iOS App",
-    "Sova AI - Android Agent Assistant Operating Your Apps",
-    "RPRA: Predicting an LLM-Judge for Efficient but Performant Inference",
-    "DeFakeQ: Enabling Real-Time Deepfake Detection on Edge Devices via Adaptive Bidirectional Quantization",
-    "Follow My Eyes: Backdoor Attacks on VLM-based Scanpath Prediction",
-    "ARM-software/ComputeLibrary: v53.0.0",
-    "ggml-org/llama.cpp: b8807",
-    "Synergy: A Next-Generation General-Purpose Agent for Open Agentic Web",
-    "PaddlePaddle/Paddle-Lite: v2.14-rc",
-    "Three Birds, One Stone: Solving the Communication-Memory-Privacy Trilemma in LLM Fine-tuning Over Wireless Networks with Zeroth-Order Optimization",
-    "When to Forget: A Memory Governance Primitive",
-    "pAirZero: 无线网络上 LLM 微调的通信-内存-隐私三难问题",
-    "Memory Worth: Agent 记忆治理的轻量级原语"
+    "ggml-org/llama.cpp: b8793"
   ],
   "known_topics": [
     "wearos-64bit",

@@ -1,3 +1,17 @@
+
+## 2026-04-16 Wiki Update
+
+**新增页面 (6):**
+- concepts/kl-quantization-ssm-transformer.md — KL 散度量化透镜：混合精度 SSM-Transformer 快速敏感度分析
+- concepts/trispirit-cognitive-architecture.md — Tri-Spirit 三层认知架构驱动的Agent硬件协同设计
+- concepts/ati-physical-ai.md — ATI 仿生传感器优先的具身AI三层架构
+- concepts/lacy-small-model-token-selection.md — LaCy 小语言模型 Token 选择哲学 (Apple)
+- concepts/synergy-open-agentic-web.md — Synergy 开放Agent网络的下一代通用Agent
+- entities/llamacpp-b8808.md — llama.cpp b8808 最新推理引擎版本
+
+**数据源:** arXiv RSS/API, Apple ML Research, GitHub Releases, HuggingFace Blog, Google AI Blog, Android Dev Blog, Simon Willison, MIT Tech Review, IEEE Spectrum, Wired, VentureBeat, Google DeepMind
+**统计:** 187 raw → 91 keyword filtered → 64 deduped → 6 pages created
+
 ---
 format: reverse-chronological
 ---
