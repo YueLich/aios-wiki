@@ -1,4 +1,21 @@
 
+## 2026-04-17 02:00
+
+### 新增页面 (5)
+- **entities/vllm-mlx-apple-silicon.md** — vllm-mlx: Apple Silicon 原生 LLM/MLLM 推理框架 (arXiv:2601.19139)
+- **concepts/cora-mobile-gui-safety.md** — CORA: 共形风险控制移动 GUI Agent 安全框架 (arXiv:2604.09155)
+- **concepts/knowu-bench-personalized-agent.md** — KnowU-Bench: 个性化移动 Agent 评测基准 (arXiv:2604.08455)
+- **concepts/lifedialbench-lifelog-memory.md** — LifeDialBench: 连续 Lifelog 记忆评估 (arXiv:2604.11182)
+- **concepts/profinfer-llm-profiling.md** — ProfInfer: eBPF 推理性能分析器 (arXiv:2601.20755)
+
+### 来源
+- arXiv RSS (cs.AI/CL/LG/CV/MA) + targeted API queries
+- Simon Willison, Sebastian Raschka, DeepMind blogs
+- GitHub releases (llama.cpp b8816, ARM ComputeLibrary v53)
+
+### 去重统计
+- 扫描: 246 raw → 137 relevant → 104 new → 16 strict → 5 written
+
 ## 2026-04-17 Wiki Update
 
 **新增 3 个页面：**

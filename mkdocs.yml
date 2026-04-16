@@ -63,6 +63,7 @@ nav:
       - MNN 3.5.0: entities/mnn-350.md
       - coremltools 9.0: entities/coremltools-9.md
       - AnyLanguageModel: entities/anylanguagemodel-apple.md
+      - vllm-mlx: Apple Silicon 原生推理: entities/vllm-mlx-apple-silicon.md
     - 端侧模型:
       - Gemma 4: entities/gemma4-ondevice.md
       - Gemini Flash Live: entities/gemini-flash-live.md
@@ -101,6 +102,8 @@ nav:
         - PSPA-Bench: 个性化 GUI 能力评估: concepts/pspa-bench-gui-agent.md
         - 图灵测试: GUI Agent 人机化评估: concepts/turing-test-mobile-gui.md
         - MGA: 记忆驱动的 GUI 观察交互: concepts/mga-memory-gui-agent.md
+        - KnowU-Bench: 个性化移动 Agent 评测: concepts/knowu-bench-personalized-agent.md
+        - CORA: 共形风险控制 GUI Agent 安全: concepts/cora-mobile-gui-safety.md
       - 视觉感知:
         - FaceLiVTv2: 移动端轻量人脸识别: concepts/facelivtv2-mobile-face.md
         - FastSHADE: 移动端实时图像去噪: concepts/fastshade-mobile-denoising.md
@@ -121,6 +124,7 @@ nav:
       - MobiFlow: 轨迹融合的真实世界基准: concepts/mobiflow-benchmark.md
       - RePAIR: 交互式机器遗忘修复: concepts/repair-interactive-unlearning.md
       - SUMMER 多模态记忆: concepts/summer-multimodal-memory.md
+      - LifeDialBench: Lifelog 记忆评估: concepts/lifedialbench-lifelog-memory.md
 
     - 🔧 工具调用与执行:
       - 端侧 vs 云端: Agentic 工具调用实战: concepts/on-device-vs-cloud-agentic-tool-calling.md
@@ -149,6 +153,7 @@ nav:
         - EdgeFlow: 移动端冷启动优化: concepts/edgeflow-cold-start.md
         - KV Packet: 免重计算 KV 缓存: concepts/kv-packet-kv-caching.md
         - 无损提示词压缩: 字典编码与 ICL: concepts/lossless-prompt-compression.md
+        - ProfInfer: eBPF 推理性能分析: concepts/profinfer-llm-profiling.md
       - 模型路由与自评估:
         - RPRA: LLM-Judge 预测高效推理: concepts/rpra-self-assessment-inference.md
         - RPRA: 自评估推理路由: concepts/rpra-llm-judge-inference.md

@@ -123,7 +123,12 @@
     "Turing Test on Screen: A Benchmark for Mobile GUI Agent Humanization",
     "Google Translate: Live translate with headphones on iOS",
     "Multimodal Embedding & Reranker Models with Sentence Transformers",
-    "Training and Finetuning Multimodal Embedding & Reranker Models with Sentence Transformers"
+    "Training and Finetuning Multimodal Embedding & Reranker Models with Sentence Transformers",
+    "vllm-mlx: Native LLM and MLLM Inference at Scale on Apple Silicon",
+    "CORA: Conformal Risk-Controlled Agents for Safeguarded Mobile GUI Automation",
+    "KnowU-Bench: Towards Interactive, Proactive, and Personalized Mobile Agent Evaluation",
+    "LifeDialBench: Evaluating Memory Capability in Continuous Lifelog Scenario",
+    "ProfInfer: An eBPF-based Fine-Grained LLM Inference Profiler"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -177,7 +182,7 @@
     "llamacpp-b8815"
   ],
   "last_update": "2026-04-16T22:05:18.559380",
-  "last_updated": "2026-04-16",
-  "total_pages": 110,
+  "last_updated": "2026-04-17T02:00:00Z",
+  "total_pages": 129,
   "page_count": 4
 }
