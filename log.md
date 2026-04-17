@@ -612,3 +612,15 @@ format: reverse-chronological
 - 新增 2 个页面：qwen36-35b-a3b（Qwen3.6 MoE 模型），llamacpp-b8833（llama.cpp WebGPU 修复）
 - 来源：The Decoder, GitHub Releases
 - 总计扫描 206 条目，Stage 1 过滤 95，Stage 2 过滤 36，去重后 2 个新页面
+
+## 2026-04-17 Wiki 更新
+
+**新增页面**: 6
+- concepts/dharmaocr-specialized-slm-ocr.md — DharmaOCR: 面向结构化 OCR 的专用小型语言模型
+- concepts/corpus2skill-agent-knowledge-navigation.md — Corpus2Skill: Agent 知识库导航式检索
+- entities/android-17-beta4.md — Android 17 Beta 4
+- entities/chrome-ai-mode-2026.md — Chrome AI Mode: 浏览器端 AI 搜索体验升级
+- concepts/agent-exploration-exploitation-errors.md — Agent 探索-利用误差度量框架
+- concepts/topcell-llm-hardware-topology.md — TOPCELL: LLM 驱动的标准单元拓扑优化
+
+**来源**: arXiv (cs.AI, cs.CL, cs.LG, cs.CV, cs.MA), Google AI Blog, Android Developers Blog

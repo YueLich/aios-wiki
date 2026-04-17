@@ -199,7 +199,13 @@
     "ECG Foundation Models and Medical LLMs for Agentic Cardiovascular Intelligence at the Edge: A Review and Outlook",
     "ARM-software/ComputeLibrary: v53.0.0",
     "Qwen3.6-35B-A3B: Alibaba's open model leads Gemma 4 on agentic coding",
-    "ggml-org/llama.cpp: b8833"
+    "ggml-org/llama.cpp: b8833",
+    "DharmaOCR: Specialized Small Language Models for Structured OCR",
+    "Don't Retrieve, Navigate: Distilling Enterprise Knowledge into Navigable Agent Skills",
+    "The Fourth Beta of Android 17",
+    "A new way to explore the web with AI Mode in Chrome",
+    "Exploration and Exploitation Errors Are Measurable for Language Model Agents",
+    "TOPCELL: Topology Optimization of Standard Cell via LLMs"
   ],
   "known_topics": [
     "memory-worth-governance",

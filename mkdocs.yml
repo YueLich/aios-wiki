@@ -89,6 +89,8 @@ nav:
       - Google 个人智能: entities/personal-intelligence-google.md
       - Gemini Robotics-ER 1.6: entities/gemini-robotics-er-16.md
       - "Memorable: 端侧 AI 照片搜索 (iPhone)": entities/memorable-ondevice-photo-search.md
+      - "Chrome AI Mode: 浏览器端 AI 搜索体验升级": entities/chrome-ai-mode-2026.md
+      - Android 17 Beta 4: entities/android-17-beta4.md
 
   # ═══════ 概念：按 Agent 系统架构组织 ═══════
   - 概念:
@@ -166,6 +168,7 @@ nav:
 
     # ── 维度二：推理与优化技术栈 ──
     - ⚡ 推理优化:
+      - "DharmaOCR: 面向结构化 OCR 的专用 SLM": concepts/dharmaocr-specialized-slm-ocr.md
       - 模型量化:
         - KV-Cache 自适应量化: concepts/kv-cache-quantization-ondevice.md
         - SEPTQ 后训练量化: concepts/septq-post-training-quantization.md
@@ -240,6 +243,9 @@ nav:
       - "RePAIR: 交互式遗忘修复": concepts/repair-interactive-unlearning.md
       - 多模态嵌入与重排: concepts/multimodal-sentence-transformers.md
     - ECG 基础模型: 边缘心血管智能: concepts/ecg-foundation-models-edge.md
+      - "TOPCELL: LLM 驱动的拓扑优化": concepts/topcell-llm-hardware-topology.md
+      - Agent 探索-利用误差度量框架: concepts/agent-exploration-exploitation-errors.md
+      - "Corpus2Skill: Agent 知识库导航式检索": concepts/corpus2skill-agent-knowledge-navigation.md
 
   - 对比: comparisons/index.md
   - 速查: queries/index.md
