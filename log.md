@@ -568,3 +568,12 @@ format: reverse-chronological
 ## 2026-04-17 18:00
 - 新增: OpenMobile (arXiv 2604.15093) — 移动Agent数据合成框架
 - 新增: llama.cpp b8831 — Android arm64官方构建
+
+## 2026-04-17 19:30 Wiki Update
+- Sources: arXiv API (7 queries), arXiv RSS (5 feeds), GitHub (6 repos), HN, RSS (12 feeds)
+- Collected: 188 raw → 84 stage-1 → 5 new after dedup
+- New pages: 4 concept pages
+  - wearable-large-sensor-models.md: 穿戴式AI与大传感器模型
+  - codas-wearable-biomarker.md: CoDaS穿戴传感器生物标志物发现
+  - mllm-multi-robot-networks.md: MLLM驱动的多机器人网络
+  - navinote-spatial-annotation.md: NaviNote空间无障碍标注

@@ -185,7 +185,11 @@
     "llama.cpp b8827",
     "llama.cpp b8828",
     "llama.cpp b8829",
-    "llama.cpp b8831"
+    "llama.cpp b8831",
+    "Wearable AI in the Era of Large Sensor Models",
+    "CoDaS: AI Co-Data-Scientist for Biomarker Discovery via Wearable Sensors",
+    "Advancing Multi-Robot Networks via MLLM-Driven Sensing, Communication, and Computation",
+    "NaviNote: Enabling In-situ Spatial Annotation Authoring to Support Exploration and Navigation for Blind and Low Vision People"
   ],
   "known_topics": [
     "memory-worth-governance",
