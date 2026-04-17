@@ -1,4 +1,24 @@
 
+## 2026-04-17 — Wiki Update
+
+**新增 3 个页面：**
+- 📝 [[skilldroid-skill-compilation]] — SkillDroid: 将成功的 GUI 轨迹编译为可复用技能模板（概念）
+- 📱 [[ondevice-streaming-asr]] — 微软端侧流式 ASR：0.67GB, 8.20% WER, CPU 推理（实体）
+- ☁️ [[cloudflare-agent-cloud-openai]] — Cloudflare Agent Cloud + OpenAI 企业级 Agentic 工作流（概念）
+
+**来源统计：**
+- arXiv RSS: cs.AI/CL/LG/CV/MA (75 entries)
+- Expert blogs: Chip Huyen, Simon Willison, Lilian Weng 等 13 个 RSS
+- GitHub releases: 9 repos checked
+- arXiv API: 2 targeted queries
+- 合计采集: 249 条 → 96 stage-1 → 19 stage-2 → 3 新页面
+
+**关键发现：**
+- SkillDroid 解决了移动 GUI Agent 的根本性无状态问题，85.3% 成功率，49% 更少 LLM 调用
+- 微软 CoreAI 在端侧 ASR 领域建立新帕累托前沿：0.67GB + CPU + 8.20% WER
+- Cloudflare + OpenAI 为企业级 Agentic 工作流提供边缘基础设施
+
+
 ## 2026-04-17 08:00 Wiki Update
 
 **新增页面**: 1

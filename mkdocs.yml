@@ -64,6 +64,7 @@ nav:
       - coremltools 9.0: entities/coremltools-9.md
       - AnyLanguageModel: entities/anylanguagemodel-apple.md
       - vllm-mlx: Apple Silicon 原生推理: entities/vllm-mlx-apple-silicon.md
+      - 端侧流式 ASR (Microsoft): entities/ondevice-streaming-asr.md
     - 端侧模型:
       - Gemma 4: entities/gemma4-ondevice.md
       - Gemini Flash Live: entities/gemini-flash-live.md
@@ -126,6 +127,7 @@ nav:
       - RePAIR: 交互式机器遗忘修复: concepts/repair-interactive-unlearning.md
       - SUMMER 多模态记忆: concepts/summer-multimodal-memory.md
       - LifeDialBench: Lifelog 记忆评估: concepts/lifedialbench-lifelog-memory.md
+      - SkillDroid: GUI 技能编译与重放: concepts/skilldroid-skill-compilation.md
 
     - 🔧 工具调用与执行:
       - 端侧 vs 云端: Agentic 工具调用实战: concepts/on-device-vs-cloud-agentic-tool-calling.md
@@ -134,6 +136,7 @@ nav:
       - COMLLM: 多轮推理的边缘卸载决策: concepts/comllm-mec-offloading.md
       - 网络感知能效: Agent 推理能效综述: concepts/networking-energy-agentic.md
       - GAAT: 治理感知的 Agent 遥测架构: concepts/gaat-agent-governance.md
+      - Cloudflare Agent Cloud + OpenAI: concepts/cloudflare-agent-cloud-openai.md
 
     - 🤝 多 Agent 协作:
       - EmoMAS: 情感感知的边缘协商: concepts/emommas-edge-negotiation.md
