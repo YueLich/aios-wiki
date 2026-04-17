@@ -56,6 +56,7 @@ nav:
     - 实体总览: entities/index.md
     - 推理框架与工具链:
       - GGML 与 llama.cpp: entities/ggml-llamacpp-hf.md
+      - "llama.cpp b8833": entities/llamacpp-b8833.md
       - llama.cpp b8791: entities/llamacpp-b8791.md
       - llama.cpp b8793: entities/llamacpp-b8793.md
       - llama.cpp b8795: entities/llamacpp-b8795.md
@@ -71,6 +72,7 @@ nav:
       - 端侧流式 ASR (Microsoft): entities/ondevice-streaming-asr.md
     - 端侧模型:
       - Gemma 4: entities/gemma4-ondevice.md
+      - "Qwen3.6-35B-A3B: MoE 端侧模型": entities/qwen36-35b-a3b.md
       - Gemini Flash Live: entities/gemini-flash-live.md
       - Gemini 3.1 Flash TTS: entities/gemini-31-flash-tts.md
       - MiniCPM 2.4.2: entities/minicpm-242.md

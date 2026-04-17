@@ -607,3 +607,8 @@ format: reverse-chronological
 - New pages: 6
 - Entities: on-device-streaming-asr-microsoft, arm-computelibrary-v53
 - Concepts: aipc-qualcomm-deployment-agent, cnn-optimization-edge-ai-early-exits, onestep-marl-ride-sharing, ecg-foundation-models-edge
+
+## 2026-04-17 Wiki Update
+- 新增 2 个页面：qwen36-35b-a3b（Qwen3.6 MoE 模型），llamacpp-b8833（llama.cpp WebGPU 修复）
+- 来源：The Decoder, GitHub Releases
+- 总计扫描 206 条目，Stage 1 过滤 95，Stage 2 过滤 36，去重后 2 个新页面

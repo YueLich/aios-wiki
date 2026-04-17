@@ -197,7 +197,9 @@
     "A Comparative Study of CNN Optimization Methods for Edge AI: Exploring the Role of Early Exits",
     "One Step is Enough: Multi-Agent Reinforcement Learning based on One-Step Policy Optimization for Order Dispatch on Ride-Sharing Platforms",
     "ECG Foundation Models and Medical LLMs for Agentic Cardiovascular Intelligence at the Edge: A Review and Outlook",
-    "ARM-software/ComputeLibrary: v53.0.0"
+    "ARM-software/ComputeLibrary: v53.0.0",
+    "Qwen3.6-35B-A3B: Alibaba's open model leads Gemma 4 on agentic coding",
+    "ggml-org/llama.cpp: b8833"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -251,7 +253,7 @@
     "llamacpp-b8815"
   ],
   "last_update": "2026-04-17",
-  "last_updated": "2026-04-17T17:14:41",
+  "last_updated": "2026-04-17",
   "total_pages": 119,
   "page_count": 121,
   "pages": [
