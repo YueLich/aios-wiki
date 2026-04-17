@@ -592,3 +592,8 @@ format: reverse-chronological
 
 ### Stats
 - Total pages: 193
+
+## 2026-04-17 Wiki Update
+- New pages: 6
+- Entities: on-device-streaming-asr-microsoft, arm-computelibrary-v53
+- Concepts: aipc-qualcomm-deployment-agent, cnn-optimization-edge-ai-early-exits, onestep-marl-ride-sharing, ecg-foundation-models-edge

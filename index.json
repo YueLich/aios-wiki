@@ -192,7 +192,12 @@
     "NaviNote: Enabling In-situ Spatial Annotation Authoring to Support Exploration and Navigation for Blind and Low Vision People",
     "Theory of Mind in Action: The Instruction Inference Task in Dynamic Human-Agent Collaboration",
     "Calibrate-Then-Delegate: Safety Monitoring with Risk and Budget Guarantees via Model Cascades",
-    "Revisiting Token Compression for Accelerating ViT-based Sparse Multi-View 3D Object Detectors"
+    "Revisiting Token Compression for Accelerating ViT-based Sparse Multi-View 3D Object Detectors",
+    "AIPC: Agent-Based Automation for AI Model Deployment with Qualcomm AI Runtime",
+    "A Comparative Study of CNN Optimization Methods for Edge AI: Exploring the Role of Early Exits",
+    "One Step is Enough: Multi-Agent Reinforcement Learning based on One-Step Policy Optimization for Order Dispatch on Ride-Sharing Platforms",
+    "ECG Foundation Models and Medical LLMs for Agentic Cardiovascular Intelligence at the Edge: A Review and Outlook",
+    "ARM-software/ComputeLibrary: v53.0.0"
   ],
   "known_topics": [
     "memory-worth-governance",

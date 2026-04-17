@@ -60,6 +60,7 @@ nav:
       - llama.cpp b8793: entities/llamacpp-b8793.md
       - llama.cpp b8795: entities/llamacpp-b8795.md
       - llama.cpp b8797: entities/llamacpp-b8797.md
+    - "ARM ComputeLibrary v53.0.0": entities/arm-computelibrary-v53.md
       - "llama.cpp b8827: OpenCL Adreno 重构": entities/llamacpp-b8827.md
       - llama.cpp b8829: entities/llamacpp-b8829.md
       - "llama.cpp b8831: Android arm64 官方构建": entities/llamacpp-b8831.md
@@ -169,6 +170,7 @@ nav:
         - "KL 散度量化: SSM-Transformer 混合精度": concepts/kl-quantization-ssm-transformer.md
         - "DeFakeQ: 双向量化边缘 Deepfake 检测": concepts/defakeq-edge-deepfake.md
         - "DeFakeQ: 端侧 Deepfake 检测部署": concepts/defakeq-edge-deepfake-detection.md
+    - "AIPC: Qualcomm 部署 Agent 自动化": concepts/aipc-qualcomm-deployment-agent.md
       - 内存与效率:
         - "压缩感知动态缩减: 推理感知结构化剪枝": concepts/compressed-sensing-dynamic-reduction.md
         - "LCSB: 循环反传的端侧微调": concepts/lcsb-finetuning-ondevice.md
@@ -177,6 +179,7 @@ nav:
         - "无损提示词压缩: 字典编码与 ICL": concepts/lossless-prompt-compression.md
         - "Token Compression for ViT: 视觉加速策略": concepts/token-compression-vit-acceleration.md
         - "ProfInfer: eBPF 推理性能分析": concepts/profinfer-llm-profiling.md
+    - OSPO 单步多智能体优化: concepts/onestep-marl-ride-sharing.md
       - 模型路由与自评估:
         - "RPRA: LLM-Judge 预测高效推理": concepts/rpra-self-assessment-inference.md
         - "RPRA: 自评估推理路由": concepts/rpra-llm-judge-inference.md
@@ -192,6 +195,7 @@ nav:
         - "AHC: MCU 元学习自适应压缩": concepts/ahc-mcu-continual-detection.md
         - "gemma.cpp: Google Gemma C++ 推理引擎": concepts/gemma-cpp-inference.md
         - "LLMOrbit: LLM 圆形分类体系": concepts/llmorbit-llm-taxonomy.md
+    - CNN 边缘优化: Early-Exit vs 静态压缩: concepts/cnn-optimization-edge-ai-early-exits.md
 
     # ── 维度三：硬件与平台 ──
     - 🏭 硬件与平台:
@@ -233,6 +237,7 @@ nav:
       - "GAAT: Agent 治理遥测": concepts/gaat-agent-governance.md
       - "RePAIR: 交互式遗忘修复": concepts/repair-interactive-unlearning.md
       - 多模态嵌入与重排: concepts/multimodal-sentence-transformers.md
+    - ECG 基础模型: 边缘心血管智能: concepts/ecg-foundation-models-edge.md
 
   - 对比: comparisons/index.md
   - 速查: queries/index.md
