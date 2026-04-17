@@ -1,4 +1,14 @@
 
+## 2026-04-17 21:30 Wiki Update
+- Scanned: 212 items from arXiv (5 feeds + 5 API queries), 8 RSS feeds, 6 GitHub repos
+- Stage 1 filter: 106 relevant
+- Stage 2 filter: 44 high-relevance
+- After 4-layer dedup: 0 genuinely new items
+- Skipped: 35 (all duplicates in index.json)
+- False positives filtered: EviSearch (clinical), AromaGen (olfactory), Simon Willison (quote), CSI paper (wireless networking)
+- llama.cpp b8832 tracked but minor CUDA-only release — no mobile-specific changes
+- Index size: 198 titles, 149 pages
+
 ## 2026-04-17 14:11 (cron)
 - 扫描 16 个来源，217 条内容
 - 去重后仅 1 条真正新增（HuoziIME）—— 其余 17 条均已在知识库中
