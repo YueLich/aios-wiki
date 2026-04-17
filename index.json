@@ -152,7 +152,9 @@
     "transformers-to-MLX: The PR you would have opened yourself",
     "vllm-mlx: Native LLM and MLLM Inference at Scale on Apple Silicon",
     "AgentOpt v0.1 Technical Report: Client-Side Optimization for LLM-Based Agent",
-    "ggml-org/llama.cpp: b8827"
+    "ggml-org/llama.cpp: b8827",
+    "Chain of Modality: From Static Fusion to Dynamic Orchestration in Omni-MLLMs",
+    "The AI Data Centers That Fit on a Truck (Modular Edge Data Centers)"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -205,10 +207,10 @@
     "mcp-deployment-patterns",
     "llamacpp-b8815"
   ],
-  "last_update": "2026-04-17T04:07:59.853378",
+  "last_update": "2026-04-17",
   "last_updated": "2026-04-17 04:07",
   "total_pages": 119,
-  "page_count": 119,
+  "page_count": 121,
   "pages": [
     {
       "title": "SkillDroid: Compile Once, Reuse Forever",

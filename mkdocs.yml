@@ -115,6 +115,7 @@ nav:
       - 多模态感知:
         - "DERM-3R: 多模态皮肤病诊断 Agent": concepts/derm3r-multimodal-agent.md
         - "Sense Less Infer More: Agent 驱动边缘医疗": concepts/sense-less-infer-more.md
+        - "Chain of Modality: 动态多模态融合编排": concepts/chain-of-modality.md
 
     - 💾 记忆与状态:
       - "MGA: 记忆驱动 GUI Agent 交互": concepts/mga-memory-gui-agent.md
@@ -182,6 +183,7 @@ nav:
         - 端侧推理内存压力与硬件方案: concepts/on-device-inference-memory-pressure.md
         - "可持续性权衡: 性能-能耗-隐私": concepts/sustainability-ondevice-intelligence.md
         - MCU 端侧全网络训练: concepts/biotrain-ondevice-finetuning-mcu.md
+        - 模块化边缘数据中心: concepts/modular-edge-datacenters.md
       - 芯片与加速器:
         - "EdgeCIM: 边缘存算一体协同设计": concepts/edgecim-hardware-codesign.md
         - RL 驱动 ASIC 架构探索: concepts/rl-asic-exploration.md
