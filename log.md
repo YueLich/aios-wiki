@@ -1,6 +1,16 @@
 
 ## 2026-04-17 02:00
 
+## 2026-04-17 04:07 — Wiki Update
+
+**新增 3 个页面：**
+- `entities/huoziime-ondevice-ime.md` — HUOZIIME 端侧 LLM 输入法（arXiv 2604.14159）
+- `entities/gemma4-ondevice.md` — Gemma 4 端侧模型家族（DeepMind Blog）
+- `concepts/llm-numerical-instability.md` — LLM 数值不稳定性（arXiv 2604.13206）
+
+**来源：** arXiv RSS (cs.AI/CL/LG/CV/MA), DeepMind Blog, 技术博客
+**状态：** ✅ 推送成功
+
 ### 新增页面 (5)
 - **entities/vllm-mlx-apple-silicon.md** — vllm-mlx: Apple Silicon 原生 LLM/MLLM 推理框架 (arXiv:2601.19139)
 - **concepts/cora-mobile-gui-safety.md** — CORA: 共形风险控制移动 GUI Agent 安全框架 (arXiv:2604.09155)
