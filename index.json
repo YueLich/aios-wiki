@@ -163,7 +163,9 @@
     "ggml-org/llama.cpp: b8828",
     "LLMOrbit: A Circular Taxonomy of Large Language Models -From Scaling Walls to Agentic AI Systems",
     "ggml-org/llama.cpp: b8829",
-    "HuoziIME: An On-Device LLM-enhanced Input Method for Deep Personalization"
+    "HuoziIME: An On-Device LLM-enhanced Input Method for Deep Personalization",
+    "OpenMobile: Building Open Mobile Agents with Task and Trajectory Synthesis",
+    "ggml-org/llama.cpp: b8831"
   ],
   "known_topics": [
     "memory-worth-governance",

@@ -564,3 +564,7 @@ format: reverse-chronological
 - New pages: memground-benchmark, interlat-latent-communication, compressed-sensing-dynamic-reduction, memento-skills-agent-design
 - Sources: arXiv RSS (cs.AI/CL/LG/CV/MA), targeted API queries
 - 241 raw items → 44 after dedup → 4 new pages after manual review
+
+## 2026-04-17 18:00
+- 新增: OpenMobile (arXiv 2604.15093) — 移动Agent数据合成框架
+- 新增: llama.cpp b8831 — Android arm64官方构建
