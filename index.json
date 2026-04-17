@@ -136,7 +136,18 @@
     "When Reasoning Models Hurt Behavioral Simulation: A Solver-Sampler Mismatch in Multi-Agent LLM Negotiation",
     "HUOZIIME: An On-Device LLM-enhanced Input Method for Deep Personalization",
     "Gemma 4: Byte for byte, the most capable open models",
-    "Numerical Instability and Chaos: Quantifying the Unpredictability of Large Language Models"
+    "Numerical Instability and Chaos: Quantifying the Unpredictability of Large Language Models",
+    "FedGUI: Benchmarking Federated GUI Agents across Heterogeneous Platforms, Devices, and Operating Systems",
+    "SciFi: A Safe, Lightweight, User-Friendly, and Fully Autonomous Agentic AI Workflow for Scientific Applications",
+    "WebXSkill: Skill Learning for Autonomous Web Agents",
+    "Design and Validation of a Low-Cost Smartphone Based Fluorescence Detection Platform Compared with Conventional Microplate Readers",
+    "VeriGraphi: A Multi-Agent Framework of Hierarchical RTL Generation for Large Hardware Designs",
+    "TopoDIM: One-shot Topology Generation of Diverse Interaction Modes for Multi-Agent Systems",
+    "Nous Research's NousCoder-14B is an open-source coding model landing right in the Claude Code moment",
+    "This Beanie Is Designed to Read Your Thoughts",
+    "Building News Agents for Daily News Recaps with MCP, Q, and tmux",
+    "LLM Powered Autonomous Agents",
+    "Agents"
   ],
   "known_topics": [
     "memory-worth-governance",

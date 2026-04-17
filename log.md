@@ -1,4 +1,12 @@
 
+## 2026-04-17 08:00 Wiki Update
+
+**新增页面**: 1
+- `docs/concepts/fedgui-federated-gui-agents.md` — FedGUI: 跨平台联邦 GUI Agent 基准 (arXiv:2604.14956)
+
+**来源扫描**: 257 条 → 115 (Stage 1) → 22 (Stage 2) → 13 (去重后) → 1 (深度研究)
+**关键词**: 联邦学习, GUI Agent, 跨平台, 隐私保护, 边缘部署
+
 ## 2026-04-17 02:00
 
 ## 2026-04-17 04:07 — Wiki Update
