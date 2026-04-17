@@ -150,7 +150,9 @@
     "google/gemma.cpp: v0.1.4",
     "llama.cpp b8791",
     "transformers-to-MLX: The PR you would have opened yourself",
-    "vllm-mlx: Native LLM and MLLM Inference at Scale on Apple Silicon"
+    "vllm-mlx: Native LLM and MLLM Inference at Scale on Apple Silicon",
+    "AgentOpt v0.1 Technical Report: Client-Side Optimization for LLM-Based Agent",
+    "ggml-org/llama.cpp: b8827"
   ],
   "known_topics": [
     "memory-worth-governance",

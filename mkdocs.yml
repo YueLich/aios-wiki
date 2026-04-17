@@ -60,6 +60,7 @@ nav:
       - llama.cpp b8793: entities/llamacpp-b8793.md
       - llama.cpp b8795: entities/llamacpp-b8795.md
       - llama.cpp b8797: entities/llamacpp-b8797.md
+      - "llama.cpp b8827: OpenCL Adreno 重构": entities/llamacpp-b8827.md
       - MNN 3.5.0: entities/mnn-350.md
       - coremltools 9.0: entities/coremltools-9.md
       - AnyLanguageModel: entities/anylanguagemodel-apple.md
@@ -166,6 +167,8 @@ nav:
         - "LaCy: 小模型 Token 选择哲学": concepts/lacy-small-model-token-selection.md
         - "E-GRM: 高效生成式奖励建模": concepts/e-grm-efficient-generative-reward-modeling.md
         - "小模型 vs 大模型: 端侧选型指南": concepts/slms-vs-llms.md
+      - Agent 优化:
+        - "AgentOpt v0.1: 客户端 Agent 优化框架": concepts/agentopt-client-side-optimization.md
       - 边缘分布式推理:
         - "DanceMoE: 激活感知分布式 MoE": concepts/dancemoe-distributed-moe-edge.md
         - 多模态零样本剪枝与稀疏注意力: concepts/multimodal-edge-pruning.md

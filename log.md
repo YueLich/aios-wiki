@@ -1,3 +1,9 @@
+## 2026-04-17 07:10
+- 新增: AgentOpt v0.1 客户端 Agent 优化框架 (概念页)
+- 新增: llama.cpp b8827 OpenCL Adreno 重构 (实体页)
+- 扫描来源: arXiv RSS (cs.AI/CL/LG/CV/MA) + API, 11 RSS feeds, 7 GitHub repos
+- 原始收集: 230 条 → 去重后 221 → 两阶段过滤 36 → 手动审核 2 个新增
+
 
 ## 2026-04-17 — Wiki Update
 
