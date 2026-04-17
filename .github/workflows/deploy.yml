@@ -11,18 +11,18 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v4
 
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v4
         with:
           python-version: '3.11'
 
       - name: Install dependencies
         run: pip install mkdocs-material
 
-      - name: Validate config
-        run: python -c "import yaml; c = yaml.safe_load(open('mkdocs.yml')); print(f'Nav entries: {len([p for s in c.get("nav",[]) for p in (s.values() if isinstance(s,dict) else [])])}')"
+      - name: Validate mkdocs.yml
+        run: python3 -c "import yaml; c = yaml.safe_load(open('mkdocs.yml')); print(f'Nav entries OK: {len(c.get("nav", []))} top-level items')"
 
       - name: Deploy
         run: mkdocs gh-deploy --force
