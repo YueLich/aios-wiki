@@ -462,3 +462,9 @@ format: reverse-chronological
 ## 2026-04-17 — 增量更新
 - 新增: `android-cli-agent-workflow.md` — Android CLI 面向 Agent 工作流的开发工具
 - 来源: Android Developers Blog (2026-04-16)
+
+## 2026-04-17 Wiki Update
+- **3 new pages**: long-horizon-task-mirage, mma2a-modality-native-routing, gemini-nano-chrome137
+- Sources: arXiv (cs.AI, cs.MA), Swyx blog
+- arXiv API rate-limited (429), relied on RSS for discovery
+- 293 raw items -> 120 stage-1 -> 91 after dedup -> 3 genuinely new after deep filtering

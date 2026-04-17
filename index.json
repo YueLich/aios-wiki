@@ -129,7 +129,10 @@
     "KnowU-Bench: Towards Interactive, Proactive, and Personalized Mobile Agent Evaluation",
     "LifeDialBench: Evaluating Memory Capability in Continuous Lifelog Scenario",
     "ProfInfer: An eBPF-based Fine-Grained LLM Inference Profiler",
-    "Android CLI: Build Android apps 3x faster using any agent"
+    "Android CLI: Build Android apps 3x faster using any agent",
+    "The Long-Horizon Task Mirage? Diagnosing Where and Why Agentic Systems Break",
+    "Modality-Native Routing in Agent-to-Agent Networks: A Multimodal A2A Protocol Extension",
+    "Gemini Nano in Chrome 137: notes for AI Engineers"
   ],
   "known_topics": [
     "memory-worth-governance",
