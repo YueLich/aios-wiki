@@ -161,7 +161,8 @@
     "MemGround: Long-Term Memory Evaluation Kit for Large Language Models in Gamified Scenarios",
     "Enabling Agents to Communicate Entirely in Latent Space",
     "Compressed-Sensing-Guided, Inference-Aware Structured Reduction for Large Language Models",
-    "Memento-Skills: Let Agents Design Agents"
+    "Memento-Skills: Let Agents Design Agents",
+    "ggml-org/llama.cpp: b8828"
   ],
   "known_topics": [
     "memory-worth-governance",
