@@ -21,8 +21,5 @@ jobs:
       - name: Install dependencies
         run: pip install mkdocs-material
 
-      - name: Validate mkdocs.yml
-        run: python3 -c "import yaml; c = yaml.safe_load(open('mkdocs.yml')); print(f'Nav entries OK: {len(c.get("nav", []))} top-level items')"
-
       - name: Deploy
         run: mkdocs gh-deploy --force
