@@ -162,7 +162,9 @@
     "Enabling Agents to Communicate Entirely in Latent Space",
     "Compressed-Sensing-Guided, Inference-Aware Structured Reduction for Large Language Models",
     "Memento-Skills: Let Agents Design Agents",
-    "ggml-org/llama.cpp: b8828"
+    "ggml-org/llama.cpp: b8828",
+    "LLMOrbit: A Circular Taxonomy of Large Language Models -From Scaling Walls to Agentic AI Systems",
+    "ggml-org/llama.cpp: b8829"
   ],
   "known_topics": [
     "memory-worth-governance",

@@ -1,3 +1,12 @@
+
+## 2026-04-17 12:34
+
+- 新增概念页: LLMOrbit LLM 分类体系 (llmorbit-llm-taxonomy.md)
+- 新增实体页: llama.cpp b8829 (llamacpp-b8829.md)
+- 扫描来源: arXiv RSS (cs.AI/CL/LG/CV/MA), arXiv API, GitHub releases, RSS feeds, HN
+- 跳过重复: MiniCPM 2.4.2, coremltools 9.0, ARM ComputeLibrary v53.0.0 (已知版本)
+- 跳过无关: Energy-Efficient Mobile (2017旧文), Simon Willison pelican (非实质性)
+
 ## 2026-04-17 07:10
 - 新增: AgentOpt v0.1 客户端 Agent 优化框架 (概念页)
 - 新增: llama.cpp b8827 OpenCL Adreno 重构 (实体页)

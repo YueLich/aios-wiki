@@ -61,6 +61,7 @@ nav:
       - llama.cpp b8795: entities/llamacpp-b8795.md
       - llama.cpp b8797: entities/llamacpp-b8797.md
       - "llama.cpp b8827: OpenCL Adreno 重构": entities/llamacpp-b8827.md
+      - llama.cpp b8829: entities/llamacpp-b8829.md
       - MNN 3.5.0: entities/mnn-350.md
       - coremltools 9.0: entities/coremltools-9.md
       - AnyLanguageModel: entities/anylanguagemodel-apple.md
@@ -181,6 +182,7 @@ nav:
         - 多模态零样本剪枝与稀疏注意力: concepts/multimodal-edge-pruning.md
         - "AHC: MCU 元学习自适应压缩": concepts/ahc-mcu-continual-detection.md
         - "gemma.cpp: Google Gemma C++ 推理引擎": concepts/gemma-cpp-inference.md
+        - "LLMOrbit: LLM 圆形分类体系": concepts/llmorbit-llm-taxonomy.md
 
     # ── 维度三：硬件与平台 ──
     - 🏭 硬件与平台:
