@@ -140,6 +140,7 @@ nav:
       - AgentComm: 具身 Agent 语义通信: concepts/agentcomm-semantic-communication.md
       - pAirZero: 无线联邦微调三难题: concepts/pairzero-wireless-llm-fl.md
       - pAirZero: 端侧联邦微调框架: concepts/pAirZero-federated-finetuning.md
+      - 求解器-采样器错配: 多Agent协商模拟保真度: concepts/solver-sampler-mismatch-negotiation.md
 
     # ── 维度二：推理与优化技术栈 ──
     - ⚡ 推理优化:

@@ -468,3 +468,12 @@ format: reverse-chronological
 - Sources: arXiv (cs.AI, cs.MA), Swyx blog
 - arXiv API rate-limited (429), relied on RSS for discovery
 - 293 raw items -> 120 stage-1 -> 91 after dedup -> 3 genuinely new after deep filtering
+
+## 2026-04-17 05:00
+
+**新增页面：**
+- `solver-sampler-mismatch-negotiation.md` — 当推理模型损害行为模拟：多Agent协商中的求解器-采样器错配 (arXiv 2604.11840)
+
+**来源：** arXiv cs.MA RSS, DeepMind blog
+
+**统计：** 扫描 247 条，Stage 1: 97，Stage 2: 34，去重后新增: 1
