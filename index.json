@@ -206,7 +206,10 @@
     "A new way to explore the web with AI Mode in Chrome",
     "Exploration and Exploitation Errors Are Measurable for Language Model Agents",
     "TOPCELL: Topology Optimization of Standard Cell via LLMs",
-    "Pushing the Limits of On-Device Streaming ASR: A Compact, High-Accuracy English Model"
+    "Pushing the Limits of On-Device Streaming ASR: A Compact, High-Accuracy English Model",
+    "NanoWakeWord: Open-source wake word training framework for edge devices",
+    "Sova AI: Android agent-assistant operating your apps via Accessibility API",
+    "Memorable: On-device AI search for iPhone photos using Apple Neural Engine"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -260,7 +263,7 @@
     "llamacpp-b8815"
   ],
   "last_update": "2026-04-17",
-  "last_updated": "2026-04-17T20:17:38.494809",
+  "last_updated": "2026-04-17",
   "total_pages": 119,
   "page_count": 121,
   "pages": [

@@ -624,3 +624,8 @@ format: reverse-chronological
 - concepts/topcell-llm-hardware-topology.md — TOPCELL: LLM 驱动的标准单元拓扑优化
 
 **来源**: arXiv (cs.AI, cs.CL, cs.LG, cs.CV, cs.MA), Google AI Blog, Android Developers Blog
+
+## 2026-04-17 Wiki Update
+- Added 3 new entity pages: NanoWakeWord, Sova AI, Memorable
+- Sources: HN (Show HN posts), GitHub, Apple App Store
+- All pages written to docs/ and root directories

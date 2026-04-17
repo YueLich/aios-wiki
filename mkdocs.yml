@@ -70,6 +70,7 @@ nav:
       - AnyLanguageModel: entities/anylanguagemodel-apple.md
       - "vllm-mlx: Apple Silicon 原生推理": entities/vllm-mlx-apple-silicon.md
       - 端侧流式 ASR (Microsoft): entities/ondevice-streaming-asr.md
+      - "NanoWakeWord: 唤醒词训练框架": entities/nanowakeword.md
     - 端侧模型:
       - Gemma 4: entities/gemma4-ondevice.md
       - "Qwen3.6-35B-A3B: MoE 端侧模型": entities/qwen36-35b-a3b.md

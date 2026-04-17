@@ -1,76 +1,82 @@
 ---
-type: concept
-tags: [android, agent, play-store, policy, accessibility, 生态摩擦, 商业化]
-related: [[mobile-mcp]], [[clawmobile-agentic]], [[gui-agent-privacy]], [[secagent-mobile-gui]]
+type: entity
+tags: [mobile-agent, android, accessibility-api, ai-assistant, app-automation, on-device]
+related: [[clawmobile-agentic]], [[openmobile-building-open-mobile-agents]], [[gui-agent-privacy]]
 sources:
-  - url: https://hn.algolia.com/api/v1/items/47613614
-    title: "Google banned our mobile AI agent app for doing what Gemini should do, but doesn't"
-    date: 2026-04-16
+  - url: https://hn.algolia.com/api/v1/items/47738583
+    title: "HN: Show HN: Android AI agent-assistant operating your apps"
+    date: 2026-04-17
     reliability: medium
-created: 2026-04-16
-updated: 2026-04-16
+  - url: https://ayconic.io/sova
+    title: "Sova AI - Android Agent Assistant"
+    date: 2026-04-17
+    reliability: high
+created: 2026-04-17
+updated: 2026-04-17
 ---
 
-# Sova AI：Google Play 政策与第三方助手
+# Sova AI: 无需 Root 的 Android 应用操控 Agent
 
-> Sova AI 被 Google Play 下架事件揭示了第三方移动 AI Agent 面临的根本性政策与平台困境。
+> 通过 Accessibility API 实现 Android 应用自动化操控的 AI Agent，无需 root、adb 或 PC，支持语音/文本交互。
 
 ## 核心问题
 
-Sova AI 是一款 Android Agent，通过 Accessibility API 实际操控手机——点击、滚动、输入文字，而非仅打开 App 或搜索网页。用户可以语音或文字下达指令如"叫车去机场"或"给朋友群发消息说我迟到了"。
+当前移动 AI 助手（如 Gemini）即使深度集成到 OS 中，面对 "叫个 Uber 去机场" 这样的指令，仍只是打开搜索结果或跳转到 App 界面，无法真正**执行操作**。手机端 Agent 需要从 "信息检索" 走向 "任务执行"。
 
-Google 从 Play Store 下架了该应用，理由涉及 Accessibility API 的使用。这暴露了一个根本矛盾：**平台级助手（Gemini）拥有 OS 级集成但功能有限，第三方 Agent 功能强大但面临政策风险**。
+## 方法/架构
 
-## 现状分析
+Sova AI 采用**虚拟人类**模拟策略：
 
-### Gemini 的局限性
+### 核心机制
 
-- 深度 OS 集成，但"叫 Uber"通常只会打开网页搜索
-- 无法真正操作第三方 App（未建立 API 合作关系）
-- 安全优先策略导致功能退化
+1. **Accessibility API 读取 UI 节点树**：不依赖任何官方 App API，直接读取屏幕的 UI 元素树结构，理解当前界面布局
+2. **虚拟操作执行**：像人类一样执行点击、滑动、输入等操作
+3. **语音 + 文本双模输入**：用户可通过语音或文字下达指令
+4. **可设为默认助手**：集成到系统级别，替代默认 AI 助手
 
-### Sova AI 的技术路线
+### 技术栈
 
-- **Accessibility API 读取 UI 节点树**，虚拟人类式操作（点击/滚动/输入）
-- **无需 root、adb、PC、USB**
-- BYOK 模式：用户自带 API Key（OpenAI、Claude、Deepseek 等）
-- 支持语音/文字输入，可设为默认助手
+- **前端交互**：语音/文本输入
+- **AI 引擎**：支持主流云端 LLM（OpenAI、Gemini、Anthropic、DeepSeek），正在开发本地模型支持（Ollama、LM Studio）
+- **执行层**：Android Accessibility API — 不需要 root、adb、PC、USB、Appium
+- **定价**：100% 免费 / BYOK（自带 API Key）
 
-### 安全专家视角
+### 与其他方案对比
 
-来自韩国银行安全 SDK 开发者的评论（200+ 安装量）：
+| 维度 | Gemini (内置助手) | Perplexity Assistant | Sova AI |
+|------|-----------------|---------------------|---------|
+| 核心能力 | 信息检索 + 跳转 | 浏览器 Agent | 真正的 App 操控 |
+| 操作方式 | 打开 App | 浏览器自动化 | Accessibility API 直接操控 |
+| 需要 Root/ADB | N/A | 不需要 | **不需要** |
+| 定价 | 免费 | 订阅制 | 免费 / BYOK |
+| 本地模型支持 | 有 (Nano) | 无 | 开发中 |
 
-> "Accessibility 滥用是我们最大的头疼问题。FakeCall 等恶意软件做的事情和合法自动化完全一样——读 UI 树、点击、输入。Android 没有好的方式区分两者。"
+## 实验结果/关键数据
 
-这揭示了**平台层面的两难**：限制 Accessibility API 会杀死合法的自动化工具，放宽则会增加安全风险。
-
-## 政策冲突矩阵
-
-| 场景 | Gemini 能做 | 第三方 Agent 能做 | 政策状态 |
-|------|------------|------------------|---------|
-| 搜索网页 | ✅ | ✅ | ✅ 合规 |
-| 打开 App | ✅ | ✅ | ✅ 合规 |
-| 操控第三方 App UI | ❌ | ✅ | ⚠️ 灰色地带 |
-| 读取屏幕内容 | 有限 | ✅ (Accessibility) | ⚠️ 策略审查 |
-| 代替用户执行操作 | ❌ | ✅ | ❌ 可能违规 |
+- 已在 Google Play 上线，支持真实 Android 设备
+- 支持主流云端 LLM API（OpenAI、Gemini、Claude、DeepSeek）
+- 无需 root/adb/PC/USB 等外部依赖
+- BYOK 模式：用户自带 API Key，不额外收费
 
 ## 关键洞察
 
-1. **Accessibility API 的双刃剑**：它是第三方 Agent 获得操控能力的唯一低门槛路径，但也是平台限制的首要目标。Mobile-MCP 式的声明式能力发现可能提供替代方案。
+**Accessibility API 是移动 Agent 的正确入口**：Sova AI 选择 Accessibility API 作为操控接口而非官方 App API，这是一个工程智慧——Accessibility API 在 Android 生态中广泛可用，覆盖几乎所有 App，而官方 API 只有少数 App 提供。
 
-2. **平台锁定 vs 创新空间**：Google 一方面无法让 Gemini 做到真正的 App 操控，另一方面又限制第三方做这件事。这创造了创新真空——好的 Agent 方案只能在 Play Store 之外分发。
+**从 "辅助" 到 "替代" 的关键一步**：当前的 AI 助手停留在 "告诉你怎么做" 的阶段，Sova AI 代表了从 "建议者" 到 "执行者" 的范式转变。这对手机端 AIOS 至关重要——OS 级别的 AI 应该是**主动代理**而非被动问答工具。
 
-3. **BYOK 模式的意义**：用户自带 API Key 意味着 Sova 不需要自建推理基础设施，成本几乎为零。这种模式可能成为移动端 Agent 商业化的主流——Engine 免费 + 用户自付推理成本。
-
-4. **安全与功能的天平**：银行安全 SDK 开发者的观点很重要——目前没有技术手段区分"好的自动化"和"坏的自动化"。未来的解决方案可能需要 OS 级别的 Agent 许可机制（类似 iOS 的 App Tracking Transparency）。
+**BYOK 模式的示范效应**：免费 + BYOK 降低了用户试用门槛，同时避免了 AI 助手高昂的推理成本由开发者承担的商业模式问题。
 
 ## 为什么重要
 
-Sova AI 被下架不是孤立事件，而是**第三方移动 AI Agent 面临的系统性挑战**。随着更多 Agent 产品涌现，Play Store 政策、Accessibility API 使用限制、平台安全审查将成为端侧 AI 生态的关键瓶颈。解决这一问题需要 OS 厂商、App 生态、安全社区的三方协调。
+对于手机端 AIOS 生态：
+- 验证了 **Accessibility API + LLM = App 自动化** 的可行路径
+- 对标了 "AI 助手应该做什么" 的核心问题——**执行而非仅仅搜索**
+- 本地模型支持（开发中）意味着未来可实现 **完全端侧运行**，无需云端 API
+- 为手机厂商提供了参考实现：如何在不 root 的前提下让 AI 真正操控 App
 
 ## 关联
-- [[mobile-mcp]] — 声明式工具发现可能替代 Accessibility 依赖
-- [[clawmobile-agentic]] — 智能手机原生 Agent 设计理念
-- [[gui-agent-privacy]] — GUI Agent 的隐私保护问题
-- [[secagent-mobile-gui]] — 语义上下文 vs 视觉抓取的权衡
-- [[on-device-vs-cloud-agentic-tool-calling]] — 端侧工具调用架构
+
+- [[clawmobile-agentic]] — Sova AI 是 ClawMobile 提出的原生 Agent 理念的开源实践验证
+- [[openmobile-building-open-mobile-agents]] — 两者都在探索如何构建真正能操控手机的 Agent
+- [[gui-agent-privacy]] — Sova AI 通过 Accessibility API 读取屏幕内容，涉及隐私边界问题
+- [[pspa-bench-gui-agent]] — 可作为 PSPA-Bench GUI Agent 评测的实际案例
