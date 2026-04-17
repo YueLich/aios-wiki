@@ -521,3 +521,13 @@ format: reverse-chronological
 **来源：** arXiv cs.MA RSS, DeepMind blog
 
 **统计：** 扫描 247 条，Stage 1: 97，Stage 2: 34，去重后新增: 1
+
+## 2026-04-17 13:00 - Wiki Update
+
+新增页面:
+- gemma4-android-studio-agent.md
+- memorable-ondevice-photo-search.md
+- gemini-personalized-images-nanobanana.md
+
+来源: arXiv RSS, Android Dev Blog, Google AI Blog, DeepMind Blog, Hacker News, GitHub Releases
+扫描: 288 raw → 115 stage1 → 70 stage2 → 3 new after dedup

@@ -71,6 +71,7 @@ nav:
       - Gemini Flash Live: entities/gemini-flash-live.md
       - Gemini 3.1 Flash TTS: entities/gemini-31-flash-tts.md
       - MiniCPM 2.4.2: entities/minicpm-242.md
+      - "Gemma 4 Android Studio Agent Mode": entities/gemma4-android-studio-agent.md
     - 设备与平台:
       - iPhone 17e: entities/iphone-17e.md
       - Google AI Edge Gallery: entities/google-ai-edge-gallery.md
@@ -81,6 +82,7 @@ nav:
       - Sova AI Android Agent: entities/sova-ai-android-agent.md
       - Google 个人智能: entities/personal-intelligence-google.md
       - Gemini Robotics-ER 1.6: entities/gemini-robotics-er-16.md
+      - "Memorable: 端侧 AI 照片搜索 (iPhone)": entities/memorable-ondevice-photo-search.md
 
   # ═══════ 概念：按 Agent 系统架构组织 ═══════
   - 概念:
@@ -205,6 +207,7 @@ nav:
         - "Qwen 3.5 Small: 端侧多模态模型": concepts/qwen35-small.md
         - React Native 端侧 LLM 推理: concepts/react-native-llm-edge.md
         - "边缘卸载: 紧凑 LLM 与世界模型": concepts/edge-cloud-offloading.md
+        - "Gemini 个性化图像生成 (Nano Banana 2)": concepts/gemini-personalized-images-nanobanana.md
 
     # ── 安全与隐私（跨领域）──
     - 🛡️ 安全与隐私:

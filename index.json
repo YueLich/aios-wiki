@@ -154,7 +154,10 @@
     "AgentOpt v0.1 Technical Report: Client-Side Optimization for LLM-Based Agent",
     "ggml-org/llama.cpp: b8827",
     "Chain of Modality: From Static Fusion to Dynamic Orchestration in Omni-MLLMs",
-    "The AI Data Centers That Fit on a Truck (Modular Edge Data Centers)"
+    "The AI Data Centers That Fit on a Truck (Modular Edge Data Centers)",
+    "Android Studio supports Gemma 4: our most capable local model for agentic coding",
+    "Memorable – On-device AI search for iPhone photos, videos, screenshots",
+    "New ways to create personalized images in the Gemini app"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -208,7 +211,7 @@
     "llamacpp-b8815"
   ],
   "last_update": "2026-04-17",
-  "last_updated": "2026-04-17 04:07",
+  "last_updated": "2026-04-17 13:00",
   "total_pages": 119,
   "page_count": 121,
   "pages": [
