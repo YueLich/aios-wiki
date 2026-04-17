@@ -205,7 +205,8 @@
     "The Fourth Beta of Android 17",
     "A new way to explore the web with AI Mode in Chrome",
     "Exploration and Exploitation Errors Are Measurable for Language Model Agents",
-    "TOPCELL: Topology Optimization of Standard Cell via LLMs"
+    "TOPCELL: Topology Optimization of Standard Cell via LLMs",
+    "Pushing the Limits of On-Device Streaming ASR: A Compact, High-Accuracy English Model"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -259,7 +260,7 @@
     "llamacpp-b8815"
   ],
   "last_update": "2026-04-17",
-  "last_updated": "2026-04-17",
+  "last_updated": "2026-04-17T20:17:38.494809",
   "total_pages": 119,
   "page_count": 121,
   "pages": [
