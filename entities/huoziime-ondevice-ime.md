@@ -1,105 +1,89 @@
 ---
 type: entity
-tags: [端侧推理, 输入法, LLM, 个性化, 内存优化, Qwen3, llama.cpp, 移动端部署]
-related: [[gemma4-ondevice]], [[edgeflow-cold-start]], [[kv-cache-quantization-ondevice]], [[agent-persistent-identity]], [[llama-cpp-b8799]]
+tags: [输入法, 端侧推理, LLM, 个性化, 记忆系统, 哈工大, Qwen3]
+related: [[agent-persistent-identity]], [[mga-memory-gui-agent]], [[kv-cache-quantization-ondevice]], [[llamacpp-b8831]]
 sources:
   - url: https://arxiv.org/abs/2604.14159
-    title: "HUOZIIME: An On-Device LLM-enhanced Input Method for Deep Personalization"
-    date: 2026-04-17
+    title: "HuoziIME: An On-Device LLM-enhanced Input Method for Deep Personalization"
+    date: 2026-03-23
+    reliability: high
+  - url: https://github.com/Shan-HIT/HuoziIME
+    title: "HuoziIME GitHub Repository"
+    date: 2026-03-23
     reliability: high
 created: 2026-04-17
 updated: 2026-04-17
 ---
 
-# HUOZIIME — 端侧 LLM 增强输入法
+# HuoziIME：端侧 LLM 增强的深度个性化输入法
 
-> 首个完全端侧部署、记忆增强的生成式中文输入法，基于 Qwen3-0.6B + 分层记忆 + GRPO 优化。来源：arXiv 2604.14159（2026-04-17）
+> 哈工大提出的首个完全端侧运行、带记忆系统的生成式中文输入法，基于 Qwen3-0.6B 微调，实现隐私保护的实时个性化文本生成。
 
 ## 核心问题
 
-现有主流 LLM 增强输入法（SwiftKey、百度、搜狗、讯飞等）存在三个根本缺陷：
+当前主流 AI 输入法（SwiftKey + GPT-4、百度 + ERNIE、搜狗 + 混元等）存在三大根本局限：
 
-1. **松耦合架构**：LLM 仅用于长文本改写或整句建议，未深入短语补全和交互式编辑流水线
-2. **浅层个性化**：局限于短上下文窗口或静态人设，无法积累长期用户知识或持续自适应
-3. **云端推理依赖**：不可预测的延迟 + 隐私风险
-
-| 输入法 | 模型 | 部署方式 | 核心 AI 功能 | 个性化 | 记忆 | 隐私 |
-|--------|------|---------|-------------|--------|------|------|
-| SwiftKey | GPT-4 Turbo | 云端 | 写作辅助、表情生成 | ✗ 弱 | ✗ 无 | ! 云端风险 |
-| 百度 IME | ERNIE Bot | 云端 | 写作辅助、情感对话 | ✗ 弱 | ✗ 无 | ! 云端风险 |
-| 讯飞 IME | Spark | 混合 | 人设预设、补全 | 中等 | ✗ 无 | ! 混合推理 |
-| **HuoziIME** | **IME 专用 LLM** | **端侧** | **记忆补全、人设自演化** | **✓ 强** | **✓ L1/L2/L3** | **✓ 端侧** |
+1. **云优先架构**：所有 AI 功能依赖云端推理，带来延迟、离线不可用和隐私风险
+2. **弱个性化**：仅有静态预设人设或基于 prompt 的浅层适配，无法学习用户真实写作习惯
+3. **无持久记忆**：每次会话从零开始，无法积累用户输入历史形成深层理解
 
 ## 方法/架构
 
-### 三组件架构
+HuoziIME 采用三层架构设计：
 
-**1. 端侧 LLM 推理引擎**
-- 基于 Qwen3-0.6B 系列，专为 IME 场景二次开发
-- 使用 llama.cpp 深度优化的 CPU 推理运行时
-- 支持多线程解码，Cursor-adjacent GhostText 渲染
-- 增量 Prefill + RadixTree 前缀复用，仅对修改的后缀段计算
+### 1. 端侧 LLM 微调
+- 基座模型：Qwen3-0.6B 系列
+- 通过在合成个性化数据上进行后训练（post-training），赋予模型类人的预测能力
+- 支持人设预设（persona presets）和自进化能力
 
-**2. GRPO 增强的分层记忆系统**
-- **L1 记忆（风格缓存）**：即时写作风格适应，实时更新
-- **L2 记忆（习惯模式）**：中期写作习惯积累
-- **L3 记忆（知识库）**：长期用户知识沉淀，支持向量检索
-- 使用 GRPO（Group Relative Policy Optimization）优化记忆策略
-- HNSW 向量索引支持本地记忆检索
+### 2. 分层记忆机制（核心创新）
+- **L1 短期记忆**：当前会话上下文
+- **L2 中期记忆**：近期输入历史的事实提取
+- **L3 长期记忆**：持久化的用户习惯和偏好
+- 使用 GRPO（Group Relative Policy Optimization）增强记忆操作
+- 基于 bge-small-zh-v1.5 量化模型的本地向量数据库进行检索
 
-**3. MCP 跨应用通信**
-- 基于 Anthropic Model Context Protocol 实现跨应用上下文同步
-- 当聊天会话变化时，授权宿主应用发出 SYNC 请求
-- 若 MCP 不可用，优雅降级为纯输入推理模式
-
-### 在线交互循环
-
-```
-用户输入 → MCP SYNC 信号
-    → 引擎选择 L1 风格缓存 + 格式化对话历史
-    → RadixTree 前缀复用增量 Prefill
-    → LLM 多线程解码生成候选
-    → 若需外部事实支撑 → <MEM_RETRIEVAL> 控制 token
-        → HNSW 向量检索本地记忆
-        → KV 注入融合检索结果
-    → Top 候选渲染为 GhostText
-    → 用户继续输入 → 增量解码复用前缀状态
-```
-
-### 关键技术细节
-
-- **KV 注入**：检索到的预计算 KV 段直接注入活跃解码状态，避免重新编码
-- **控制 Token 触发**：`<MEM_RETRIEVAL>` 触发向量搜索，而非始终检索
-- **Android 沙箱隔离突破**：通过 MCP 实现跨进程通信，解决 Android 应用沙箱限制
-- **近零延迟 CPU 推理**：严格小内存占用，适配移动端硬件约束
+### 3. 系统级端侧优化
+- 基于 llama.cpp 二次开发的 CPU 推理引擎
+- MCP（Model Context Protocol）实现跨应用通信
+- 近零延迟、严格小内存占用
 
 ## 实验结果
 
-- 与 Qwen3-0.6B 基线对比，在中文短语补全任务上有显著提升
-- 记忆增强的候选生成相比无记忆版本，用户接受率提升
-- CPU 推理在中端 Android 设备上保持近零延迟
-- 内存占用严格控制在小 footprint 范围内
+在联发科天玑 9000 SoC + 12GB RAM 的 Android 测试设备上：
+
+| 测试阶段 | 成功率 |
+|---------|-------|
+| 记忆触发（Memory Trigger） | 99.7%（342/343） |
+| 正常处理（Processing Normal） | 96.4%（163/169） |
+| 拒绝处理（Processing Refusal） | 71.3%（87/122） |
+| 检索 @4（Retrieval@4） | 89.5%（179/200） |
+| 有根据生成（Grounded Generation） | 87.2%（156/179） |
+
+**关键发现**：IME 的多候选特性天然补偿了轻量级嵌入模型的局限性——即使检索不完美，4 候选布局中只要命中一个就够用。
 
 ## 关键洞察
 
-1. **输入法是最高频的 AI 交互界面**：比 Chatbot、搜索等场景使用频率高出数个数量级，端侧部署的隐私收益在高频场景下尤为关键
-2. **记忆分层是端侧个性化的正确路径**：L1/L2/L3 三层记忆对应不同的时间尺度和计算成本，GRPO 优化策略让记忆系统能够自我演化
-3. **MCP 在移动端的创新应用**：Anthropic 的 MCP 协议最初为云端 Agent 设计，这里创新地用于解决 Android 沙箱隔离问题
-4. **控制 Token 作为检索门控**：不是每次推理都检索，而是模型自己决定何时需要外部记忆，节省计算资源
-5. **局限性**：轻量模型的推理能力有限，存在检索过度和检索 token 漂移等 Agent 不稳定性问题
+1. **输入法是端侧 LLM 最佳落地场景之一**：高频、高价值、隐私敏感，天然适合端侧部署
+2. **记忆系统是输入法 AI 化的核心**：不是简单的「下一个词预测」，而是理解用户是谁、怎么写、写什么
+3. **MCP 协议的实用价值**：通过标准化协议实现跨应用上下文获取，解决端侧生态碎片化问题
+4. **与商业方案的差异化**：表 1 对比了 6 款主流 AI 输入法，HuoziIME 是唯一实现完全端侧 + 持久记忆 + 强个性化的方案
+
+## 局限性
+
+- 轻量模型推理能力受限，偶发 over-retrieval 和 retrieval-token drift
+- 移动 OS 沙箱限制了实时外部应用上下文获取
+- 训练语料清洗后仍可能残留偏见
 
 ## 为什么重要
 
-- **证明了端侧 LLM 输入法的可行性**：从"云端 LLM 辅助"到"端侧 LLM 原生"的范式转变
-- **为端侧 Agent 个性化提供参考架构**：分层记忆 + GRPO 优化的模式可推广到其他端侧 Agent 场景
-- **隐私原生设计**：完全端侧部署消除了云端数据暴露风险
-- **基于开源工具链**：Qwen3 + llama.cpp + YuyanIME（GPL-3.0），可复现
+HuoziIME 证明了一个重要趋势：**端侧 AI 不仅仅是推理，更可以是深度个性化的智能助手**。它的分层记忆架构对移动 AIOS 中 Agent 持久化身份设计有直接参考价值。如果输入法都能做到端侧记忆驱动的个性化，那手机上的其他 AI 交互（助手、相机、搜索）同样可以。
 
 ## 关联
 
-- [[gemma4-ondevice]] — Gemma 4 的 E2B/E4B 同样面向端侧场景，但更通用化
-- [[edgeflow-cold-start]] — 端侧模型冷启动优化，与 HuoziIME 的近零延迟目标一致
-- [[kv-cache-quantization-ondevice]] — KV 缓存量化可进一步优化 HuoziIME 的内存占用
-- [[agent-persistent-identity]] — HuoziIME 的 L3 记忆与 Agent 持久化身份概念高度相关
-- [[llama-cpp-b8799]] — HuoziIME 基于 llama.cpp 推理运行时
-- [[on-device-vs-cloud-agentic-tool-calling]] — HuoziIME 的 MCP 跨应用通信是端侧工具调用的典型案例
+- [[agent-persistent-identity]] — HuoziIME 的分层记忆系统与 Agent 持久化身份的关联
+- [[mga-memory-gui-agent]] — 同样关注记忆驱动的移动 AI 交互
+- [[kv-cache-quantization-ondevice]] — 端侧推理优化技术
+- [[llamacpp-b8831]] — HuoziIME 基于 llama.cpp 二次开发
+- [[edgeflow-cold-start]] — 端侧模型启动优化
+- [[gemma4-ondevice]] — 同期发布的端侧 LLM 代表

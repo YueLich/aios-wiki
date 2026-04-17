@@ -74,6 +74,7 @@ nav:
       - Gemini 3.1 Flash TTS: entities/gemini-31-flash-tts.md
       - MiniCPM 2.4.2: entities/minicpm-242.md
       - "Gemma 4 Android Studio Agent Mode": entities/gemma4-android-studio-agent.md
+      - "HuoziIME: 端侧 LLM 增强输入法": entities/huoziime-ondevice-ime.md
     - 设备与平台:
       - iPhone 17e: entities/iphone-17e.md
       - Google AI Edge Gallery: entities/google-ai-edge-gallery.md

@@ -45,7 +45,6 @@
     "Gemini Robotics-ER 1.6: Powering real-world robotics tasks through enhanced embodied reasoning",
     "Gemma 4 audio with MLX",
     "Gemma 4 in the AICore Developer Preview",
-    "Gemma 4: Byte for byte, the most capable open models",
     "Gemma 4: Frontier Multimodal Intelligence on Device",
     "Gemma 4: The new standard for local agentic intelligence on Android",
     "Get your Wear OS apps ready for the 64-bit requirement",
@@ -66,7 +65,6 @@
     "LCSB: Layer-Cyclic Selective Backpropagation for Memory-Efficient On-Device LLM Fine-Tuning",
     "LLM Inference on Edge: A Fun and Easy Guide to run LLMs via React Native on your Phone!",
     "LLM Powered Autonomous Agents",
-    "LaCy: What Small Language Models Can and Should Learn is Not Just a Question of Loss",
     "LifeDialBench: Evaluating Memory Capability in Continuous Lifelog Scenario",
     "LiteRTLM-Swift: Running Gemma 4 on iPhone 13 Pro",
     "Lossless Prompt Compression via Dictionary-Encoding and In-Context Learning: Enabling Cost-Effective LLM Analysis of Repetitive Data",
@@ -165,7 +163,7 @@
     "ggml-org/llama.cpp: b8828",
     "LLMOrbit: A Circular Taxonomy of Large Language Models -From Scaling Walls to Agentic AI Systems",
     "ggml-org/llama.cpp: b8829",
-    "ggml-org/llama.cpp: b8831"
+    "HuoziIME: An On-Device LLM-enhanced Input Method for Deep Personalization"
   ],
   "known_topics": [
     "memory-worth-governance",

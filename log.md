@@ -1,4 +1,23 @@
 
+## 2026-04-17 14:11 (cron)
+- 扫描 16 个来源，217 条内容
+- 去重后仅 1 条真正新增（HuoziIME）—— 其余 17 条均已在知识库中
+- 新增页面：
+  - entities/huoziime-ondevice-ime.md — 端侧 LLM 增强输入法（哈工大 Qwen3-0.6B）
+- 已有页面确认最新：gemma4-ondevice.md, lacy-small-model-token-selection.md, google-translate-ios-live2.md, llamacpp-b8831.md
+- GitHub 状态确认：llama.cpp b8831, ARM ComputeLibrary v53.0.0 均已收录
+- 去重问题：Layer 2 slug 匹配未捕获 Gemma4/LaCy/Translate（slug 格式差异大），已手动清理
+
+## 2026-04-17 14:06 (cron)
+- 扫描 16 个来源，217 条内容
+- 去重后 18 条新内容，5 条通过相关性过滤
+- 新增 4 个页面：
+  - entities/huoziime-ondevice-ime.md — 端侧 LLM 输入法（哈工大）
+  - entities/gemma-4-google.md — Gemma 4 模型家族（Google）
+  - concepts/lacy-slm-token-delegation.md — SLM token 委托策略（Apple Research）
+  - entities/google-ios-live-translate.md — Google 实时翻译耳机 iOS 版
+- GitHub 更新：llama.cpp b8831, ARM ComputeLibrary v53.0.0
+
 ## 2026-04-17 12:34
 
 - 新增概念页: LLMOrbit LLM 分类体系 (llmorbit-llm-taxonomy.md)
