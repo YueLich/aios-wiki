@@ -159,6 +159,7 @@ nav:
       - "Interlat: Agent 隐空间通信": concepts/interlat-latent-communication.md
       - "CoDaS: 穿戴传感器生物标志物发现": concepts/codas-wearable-biomarker.md
       - "NaviNote: 视觉定位空间无障碍标注": concepts/navinote-spatial-annotation.md
+      - "Theory of Mind in Action: 指令推断与人机协作": concepts/theory-of-mind-action-instruction-inference.md
 
     # ── 维度二：推理与优化技术栈 ──
     - ⚡ 推理优化:
@@ -174,12 +175,14 @@ nav:
         - "EdgeFlow: 移动端冷启动优化": concepts/edgeflow-cold-start.md
         - "KV Packet: 免重计算 KV 缓存": concepts/kv-packet-kv-caching.md
         - "无损提示词压缩: 字典编码与 ICL": concepts/lossless-prompt-compression.md
+        - "Token Compression for ViT: 视觉加速策略": concepts/token-compression-vit-acceleration.md
         - "ProfInfer: eBPF 推理性能分析": concepts/profinfer-llm-profiling.md
       - 模型路由与自评估:
         - "RPRA: LLM-Judge 预测高效推理": concepts/rpra-self-assessment-inference.md
         - "RPRA: 自评估推理路由": concepts/rpra-llm-judge-inference.md
         - "LaCy: 小模型 Token 选择哲学": concepts/lacy-small-model-token-selection.md
         - "E-GRM: 高效生成式奖励建模": concepts/e-grm-efficient-generative-reward-modeling.md
+        - "Calibrate-Then-Delegate: 校准-委托安全监控": concepts/calibrate-then-delegate-safety-cascade.md
         - "小模型 vs 大模型: 端侧选型指南": concepts/slms-vs-llms.md
       - Agent 优化:
         - "AgentOpt v0.1: 客户端 Agent 优化框架": concepts/agentopt-client-side-optimization.md

@@ -577,3 +577,18 @@ format: reverse-chronological
   - codas-wearable-biomarker.md: CoDaS穿戴传感器生物标志物发现
   - mllm-multi-robot-networks.md: MLLM驱动的多机器人网络
   - navinote-spatial-annotation.md: NaviNote空间无障碍标注
+
+## 2026-04-17 - Wiki Update
+
+### New Pages
+- Theory of Mind in Action: The Instruction Inference Task in Dynamic Human-Agent Collaboration
+- Calibrate-Then-Delegate: Safety Monitoring with Risk and Budget Guarantees via Model Cascades
+- Revisiting Token Compression for Accelerating ViT-based Sparse Multi-View 3D Object Detectors
+
+### Sources
+- arXiv RSS (cs.CV, cs.LG, cs.MA)
+- arXiv API (targeted queries)
+- GitHub releases
+
+### Stats
+- Total pages: 193
