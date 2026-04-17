@@ -62,6 +62,7 @@ nav:
       - llama.cpp b8797: entities/llamacpp-b8797.md
       - "llama.cpp b8827: OpenCL Adreno 重构": entities/llamacpp-b8827.md
       - llama.cpp b8829: entities/llamacpp-b8829.md
+      - "llama.cpp b8831: Android arm64 官方构建": entities/llamacpp-b8831.md
       - MNN 3.5.0: entities/mnn-350.md
       - coremltools 9.0: entities/coremltools-9.md
       - AnyLanguageModel: entities/anylanguagemodel-apple.md
