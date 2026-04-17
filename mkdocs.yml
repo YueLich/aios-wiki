@@ -132,6 +132,8 @@ nav:
       - SUMMER 多模态记忆: concepts/summer-multimodal-memory.md
       - "LifeDialBench: Lifelog 记忆评估": concepts/lifedialbench-lifelog-memory.md
       - "SkillDroid: GUI 技能编译与重放": concepts/skilldroid-skill-compilation.md
+      - "MemGround: 游戏化 LLM 长期记忆评估": concepts/memground-benchmark.md
+      - "Memento-Skills: Agent 设计 Agent": concepts/memento-skills-agent-design.md
 
     - 🔧 工具调用与执行:
       - "端侧 vs 云端: Agentic 工具调用实战": concepts/on-device-vs-cloud-agentic-tool-calling.md
@@ -149,6 +151,7 @@ nav:
       - "pAirZero: 端侧联邦微调框架": concepts/pAirZero-federated-finetuning.md
       - "求解器-采样器错配: 多Agent协商模拟保真度": concepts/solver-sampler-mismatch-negotiation.md
       - "FedGUI: 跨平台联邦 GUI Agent 基准": concepts/fedgui-federated-gui-agents.md
+      - "Interlat: Agent 隐空间通信": concepts/interlat-latent-communication.md
 
     # ── 维度二：推理与优化技术栈 ──
     - ⚡ 推理优化:
@@ -159,6 +162,7 @@ nav:
         - "DeFakeQ: 双向量化边缘 Deepfake 检测": concepts/defakeq-edge-deepfake.md
         - "DeFakeQ: 端侧 Deepfake 检测部署": concepts/defakeq-edge-deepfake-detection.md
       - 内存与效率:
+        - "压缩感知动态缩减: 推理感知结构化剪枝": concepts/compressed-sensing-dynamic-reduction.md
         - "LCSB: 循环反传的端侧微调": concepts/lcsb-finetuning-ondevice.md
         - "EdgeFlow: 移动端冷启动优化": concepts/edgeflow-cold-start.md
         - "KV Packet: 免重计算 KV 缓存": concepts/kv-packet-kv-caching.md

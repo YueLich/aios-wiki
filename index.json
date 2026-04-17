@@ -157,7 +157,11 @@
     "The AI Data Centers That Fit on a Truck (Modular Edge Data Centers)",
     "Android Studio supports Gemma 4: our most capable local model for agentic coding",
     "Memorable – On-device AI search for iPhone photos, videos, screenshots",
-    "New ways to create personalized images in the Gemini app"
+    "New ways to create personalized images in the Gemini app",
+    "MemGround: Long-Term Memory Evaluation Kit for Large Language Models in Gamified Scenarios",
+    "Enabling Agents to Communicate Entirely in Latent Space",
+    "Compressed-Sensing-Guided, Inference-Aware Structured Reduction for Large Language Models",
+    "Memento-Skills: Let Agents Design Agents"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -211,7 +215,7 @@
     "llamacpp-b8815"
   ],
   "last_update": "2026-04-17",
-  "last_updated": "2026-04-17 13:00",
+  "last_updated": "2026-04-17",
   "total_pages": 119,
   "page_count": 121,
   "pages": [

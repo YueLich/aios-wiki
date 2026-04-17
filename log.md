@@ -531,3 +531,8 @@ format: reverse-chronological
 
 来源: arXiv RSS, Android Dev Blog, Google AI Blog, DeepMind Blog, Hacker News, GitHub Releases
 扫描: 288 raw → 115 stage1 → 70 stage2 → 3 new after dedup
+
+## 2026-04-17 Wiki Update
+- New pages: memground-benchmark, interlat-latent-communication, compressed-sensing-dynamic-reduction, memento-skills-agent-design
+- Sources: arXiv RSS (cs.AI/CL/LG/CV/MA), targeted API queries
+- 241 raw items → 44 after dedup → 4 new pages after manual review
