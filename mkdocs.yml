@@ -63,7 +63,7 @@ nav:
       - MNN 3.5.0: entities/mnn-350.md
       - coremltools 9.0: entities/coremltools-9.md
       - AnyLanguageModel: entities/anylanguagemodel-apple.md
-      - vllm-mlx: Apple Silicon 原生推理: entities/vllm-mlx-apple-silicon.md
+      - "vllm-mlx: Apple Silicon 原生推理": entities/vllm-mlx-apple-silicon.md
       - 端侧流式 ASR (Microsoft): entities/ondevice-streaming-asr.md
     - 端侧模型:
       - Gemma 4: entities/gemma4-ondevice.md
@@ -87,127 +87,127 @@ nav:
 
     # ── 维度一：Agent 核心子系统 ──
     - 🧠 Agent 架构与认知:
-      - ClawMobile: 原生 Agent 系统架构: concepts/clawmobile-agentic.md
-      - Tri-Spirit: 三层认知驱动的硬件协同设计: concepts/trispirit-cognitive-architecture.md
-      - Agent 持久化身份: 多锚点架构: concepts/agent-persistent-identity.md
-      - Synergy: 开放 Agent 网络的通用架构: concepts/synergy-agentic-web-agent.md
-      - Synergy: 开放 Agent 网络协作: concepts/synergy-open-agentic-web.md
-      - ExecTune: Guide 模型引导黑盒 LLM: concepts/exectune-guide-core-policy.md
-      - LAMO: 面向多角色编排的轻量 GUI Agent: concepts/lamo-scalable-gui-agents.md
+      - "ClawMobile: 原生 Agent 系统架构": concepts/clawmobile-agentic.md
+      - "Tri-Spirit: 三层认知驱动的硬件协同设计": concepts/trispirit-cognitive-architecture.md
+      - "Agent 持久化身份: 多锚点架构": concepts/agent-persistent-identity.md
+      - "Synergy: 开放 Agent 网络的通用架构": concepts/synergy-agentic-web-agent.md
+      - "Synergy: 开放 Agent 网络协作": concepts/synergy-open-agentic-web.md
+      - "ExecTune: Guide 模型引导黑盒 LLM": concepts/exectune-guide-core-policy.md
+      - "LAMO: 面向多角色编排的轻量 GUI Agent": concepts/lamo-scalable-gui-agents.md
       - MCP 生产部署模式: concepts/mcp-deployment-patterns.md
-      - ClawGUI: GUI Agent 全栈开源框架: concepts/clawgui-unified-framework.md
-      - 移动 Agent 生态摩擦: Play 政策与第三方助手: concepts/mobile-agent-ecosystem-friction.md
+      - "ClawGUI: GUI Agent 全栈开源框架": concepts/clawgui-unified-framework.md
+      - "移动 Agent 生态摩擦: Play 政策与第三方助手": concepts/mobile-agent-ecosystem-friction.md
 
     - 👁️ 感知与理解:
       - GUI 感知:
-        - SecAgent: 语义化上下文 GUI 理解: concepts/secagent-mobile-gui.md
-        - PSPA-Bench: 个性化 GUI 能力评估: concepts/pspa-bench-gui-agent.md
-        - 图灵测试: GUI Agent 人机化评估: concepts/turing-test-mobile-gui.md
-        - MGA: 记忆驱动的 GUI 观察交互: concepts/mga-memory-gui-agent.md
-        - KnowU-Bench: 个性化移动 Agent 评测: concepts/knowu-bench-personalized-agent.md
-        - CORA: 共形风险控制 GUI Agent 安全: concepts/cora-mobile-gui-safety.md
+        - "SecAgent: 语义化上下文 GUI 理解": concepts/secagent-mobile-gui.md
+        - "PSPA-Bench: 个性化 GUI 能力评估": concepts/pspa-bench-gui-agent.md
+        - "图灵测试: GUI Agent 人机化评估": concepts/turing-test-mobile-gui.md
+        - "MGA: 记忆驱动的 GUI 观察交互": concepts/mga-memory-gui-agent.md
+        - "KnowU-Bench: 个性化移动 Agent 评测": concepts/knowu-bench-personalized-agent.md
+        - "CORA: 共形风险控制 GUI Agent 安全": concepts/cora-mobile-gui-safety.md
       - 视觉感知:
-        - FaceLiVTv2: 移动端轻量人脸识别: concepts/facelivtv2-mobile-face.md
-        - FastSHADE: 移动端实时图像去噪: concepts/fastshade-mobile-denoising.md
-        - DRIFT: 移动深度恢复与 ISP 融合: concepts/drift-mobile-isp-pipeline.md
-        - DroneScan-YOLO: 无人机端目标检测: concepts/dronescan-yolo.md
+        - "FaceLiVTv2: 移动端轻量人脸识别": concepts/facelivtv2-mobile-face.md
+        - "FastSHADE: 移动端实时图像去噪": concepts/fastshade-mobile-denoising.md
+        - "DRIFT: 移动深度恢复与 ISP 融合": concepts/drift-mobile-isp-pipeline.md
+        - "DroneScan-YOLO: 无人机端目标检测": concepts/dronescan-yolo.md
       - 多模态感知:
-        - DERM-3R: 多模态皮肤病诊断 Agent: concepts/derm3r-multimodal-agent.md
-        - Sense Less Infer More: Agent 驱动边缘医疗: concepts/sense-less-infer-more.md
+        - "DERM-3R: 多模态皮肤病诊断 Agent": concepts/derm3r-multimodal-agent.md
+        - "Sense Less Infer More: Agent 驱动边缘医疗": concepts/sense-less-infer-more.md
 
     - 💾 记忆与状态:
-      - MGA: 记忆驱动 GUI Agent 交互: concepts/mga-memory-gui-agent.md
-      - Agent 持久化身份: 多锚点架构: concepts/agent-persistent-identity.md
-      - AMC: 自适应记忆结晶化与持续学习: concepts/amc-adaptive-memory-crystallization.md
-      - Memory as Metabolism: Companion 知识系统: concepts/memory-as-metabolism-companion-ks.md
-      - Memory Worth: 记忆治理原语: concepts/memory-worth-governance.md
-      - Memp: Agent 过程性记忆探索: concepts/memp-agent-procedural-memory.md
-      - GUI Agent 隐私保护: 轨迹偏好优化: concepts/gui-agent-privacy.md
-      - MobiFlow: 轨迹融合的真实世界基准: concepts/mobiflow-benchmark.md
-      - RePAIR: 交互式机器遗忘修复: concepts/repair-interactive-unlearning.md
+      - "MGA: 记忆驱动 GUI Agent 交互": concepts/mga-memory-gui-agent.md
+      - "Agent 持久化身份: 多锚点架构": concepts/agent-persistent-identity.md
+      - "AMC: 自适应记忆结晶化与持续学习": concepts/amc-adaptive-memory-crystallization.md
+      - "Memory as Metabolism: Companion 知识系统": concepts/memory-as-metabolism-companion-ks.md
+      - "Memory Worth: 记忆治理原语": concepts/memory-worth-governance.md
+      - "Memp: Agent 过程性记忆探索": concepts/memp-agent-procedural-memory.md
+      - "GUI Agent 隐私保护: 轨迹偏好优化": concepts/gui-agent-privacy.md
+      - "MobiFlow: 轨迹融合的真实世界基准": concepts/mobiflow-benchmark.md
+      - "RePAIR: 交互式机器遗忘修复": concepts/repair-interactive-unlearning.md
       - SUMMER 多模态记忆: concepts/summer-multimodal-memory.md
-      - LifeDialBench: Lifelog 记忆评估: concepts/lifedialbench-lifelog-memory.md
-      - SkillDroid: GUI 技能编译与重放: concepts/skilldroid-skill-compilation.md
+      - "LifeDialBench: Lifelog 记忆评估": concepts/lifedialbench-lifelog-memory.md
+      - "SkillDroid: GUI 技能编译与重放": concepts/skilldroid-skill-compilation.md
 
     - 🔧 工具调用与执行:
-      - 端侧 vs 云端: Agentic 工具调用实战: concepts/on-device-vs-cloud-agentic-tool-calling.md
-      - Mobile-MCP: Android 动态工具发现: concepts/mobile-mcp.md
-      - MANA: 多模态 Agent 广告检测: concepts/mana-mobile-ad-detection.md
-      - COMLLM: 多轮推理的边缘卸载决策: concepts/comllm-mec-offloading.md
-      - 网络感知能效: Agent 推理能效综述: concepts/networking-energy-agentic.md
-      - GAAT: 治理感知的 Agent 遥测架构: concepts/gaat-agent-governance.md
+      - "端侧 vs 云端: Agentic 工具调用实战": concepts/on-device-vs-cloud-agentic-tool-calling.md
+      - "Mobile-MCP: Android 动态工具发现": concepts/mobile-mcp.md
+      - "MANA: 多模态 Agent 广告检测": concepts/mana-mobile-ad-detection.md
+      - "COMLLM: 多轮推理的边缘卸载决策": concepts/comllm-mec-offloading.md
+      - "网络感知能效: Agent 推理能效综述": concepts/networking-energy-agentic.md
+      - "GAAT: 治理感知的 Agent 遥测架构": concepts/gaat-agent-governance.md
       - Cloudflare Agent Cloud + OpenAI: concepts/cloudflare-agent-cloud-openai.md
 
     - 🤝 多 Agent 协作:
-      - EmoMAS: 情感感知的边缘协商: concepts/emommas-edge-negotiation.md
-      - AgentComm: 具身 Agent 语义通信: concepts/agentcomm-semantic-communication.md
-      - pAirZero: 无线联邦微调三难题: concepts/pairzero-wireless-llm-fl.md
-      - pAirZero: 端侧联邦微调框架: concepts/pAirZero-federated-finetuning.md
-      - 求解器-采样器错配: 多Agent协商模拟保真度: concepts/solver-sampler-mismatch-negotiation.md
-      - FedGUI: 跨平台联邦 GUI Agent 基准: concepts/fedgui-federated-gui-agents.md
+      - "EmoMAS: 情感感知的边缘协商": concepts/emommas-edge-negotiation.md
+      - "AgentComm: 具身 Agent 语义通信": concepts/agentcomm-semantic-communication.md
+      - "pAirZero: 无线联邦微调三难题": concepts/pairzero-wireless-llm-fl.md
+      - "pAirZero: 端侧联邦微调框架": concepts/pAirZero-federated-finetuning.md
+      - "求解器-采样器错配: 多Agent协商模拟保真度": concepts/solver-sampler-mismatch-negotiation.md
+      - "FedGUI: 跨平台联邦 GUI Agent 基准": concepts/fedgui-federated-gui-agents.md
 
     # ── 维度二：推理与优化技术栈 ──
     - ⚡ 推理优化:
       - 模型量化:
         - KV-Cache 自适应量化: concepts/kv-cache-quantization-ondevice.md
         - SEPTQ 后训练量化: concepts/septq-post-training-quantization.md
-        - KL 散度量化: SSM-Transformer 混合精度: concepts/kl-quantization-ssm-transformer.md
-        - DeFakeQ: 双向量化边缘 Deepfake 检测: concepts/defakeq-edge-deepfake.md
-        - DeFakeQ: 端侧 Deepfake 检测部署: concepts/defakeq-edge-deepfake-detection.md
+        - "KL 散度量化: SSM-Transformer 混合精度": concepts/kl-quantization-ssm-transformer.md
+        - "DeFakeQ: 双向量化边缘 Deepfake 检测": concepts/defakeq-edge-deepfake.md
+        - "DeFakeQ: 端侧 Deepfake 检测部署": concepts/defakeq-edge-deepfake-detection.md
       - 内存与效率:
-        - LCSB: 循环反传的端侧微调: concepts/lcsb-finetuning-ondevice.md
-        - EdgeFlow: 移动端冷启动优化: concepts/edgeflow-cold-start.md
-        - KV Packet: 免重计算 KV 缓存: concepts/kv-packet-kv-caching.md
-        - 无损提示词压缩: 字典编码与 ICL: concepts/lossless-prompt-compression.md
-        - ProfInfer: eBPF 推理性能分析: concepts/profinfer-llm-profiling.md
+        - "LCSB: 循环反传的端侧微调": concepts/lcsb-finetuning-ondevice.md
+        - "EdgeFlow: 移动端冷启动优化": concepts/edgeflow-cold-start.md
+        - "KV Packet: 免重计算 KV 缓存": concepts/kv-packet-kv-caching.md
+        - "无损提示词压缩: 字典编码与 ICL": concepts/lossless-prompt-compression.md
+        - "ProfInfer: eBPF 推理性能分析": concepts/profinfer-llm-profiling.md
       - 模型路由与自评估:
-        - RPRA: LLM-Judge 预测高效推理: concepts/rpra-self-assessment-inference.md
-        - RPRA: 自评估推理路由: concepts/rpra-llm-judge-inference.md
-        - LaCy: 小模型 Token 选择哲学: concepts/lacy-small-model-token-selection.md
-        - E-GRM: 高效生成式奖励建模: concepts/e-grm-efficient-generative-reward-modeling.md
-        - 小模型 vs 大模型: 端侧选型指南: concepts/slms-vs-llms.md
+        - "RPRA: LLM-Judge 预测高效推理": concepts/rpra-self-assessment-inference.md
+        - "RPRA: 自评估推理路由": concepts/rpra-llm-judge-inference.md
+        - "LaCy: 小模型 Token 选择哲学": concepts/lacy-small-model-token-selection.md
+        - "E-GRM: 高效生成式奖励建模": concepts/e-grm-efficient-generative-reward-modeling.md
+        - "小模型 vs 大模型: 端侧选型指南": concepts/slms-vs-llms.md
       - 边缘分布式推理:
-        - DanceMoE: 激活感知分布式 MoE: concepts/dancemoe-distributed-moe-edge.md
+        - "DanceMoE: 激活感知分布式 MoE": concepts/dancemoe-distributed-moe-edge.md
         - 多模态零样本剪枝与稀疏注意力: concepts/multimodal-edge-pruning.md
-        - AHC: MCU 元学习自适应压缩: concepts/ahc-mcu-continual-detection.md
-        - gemma.cpp: Google Gemma C++ 推理引擎: concepts/gemma-cpp-inference.md
+        - "AHC: MCU 元学习自适应压缩": concepts/ahc-mcu-continual-detection.md
+        - "gemma.cpp: Google Gemma C++ 推理引擎": concepts/gemma-cpp-inference.md
 
     # ── 维度三：硬件与平台 ──
     - 🏭 硬件与平台:
       - 设备适配:
         - Wear OS 64-bit 架构要求: concepts/wearos-64bit.md
         - 端侧推理内存压力与硬件方案: concepts/on-device-inference-memory-pressure.md
-        - 可持续性权衡: 性能-能耗-隐私: concepts/sustainability-ondevice-intelligence.md
+        - "可持续性权衡: 性能-能耗-隐私": concepts/sustainability-ondevice-intelligence.md
         - MCU 端侧全网络训练: concepts/biotrain-ondevice-finetuning-mcu.md
       - 芯片与加速器:
-        - EdgeCIM: 边缘存算一体协同设计: concepts/edgecim-hardware-codesign.md
+        - "EdgeCIM: 边缘存算一体协同设计": concepts/edgecim-hardware-codesign.md
         - RL 驱动 ASIC 架构探索: concepts/rl-asic-exploration.md
         - LSTM 步态 ASIC 实时加速器: concepts/lstm-gait-asic-accelerator.md
-        - ATI: 仿生传感器优先具身 AI: concepts/ati-physical-ai.md
+        - "ATI: 仿生传感器优先具身 AI": concepts/ati-physical-ai.md
 
     # ── 维度四：应用场景 ──
     - 🎯 应用场景:
       - 音频与多媒体:
         - Gemma 4 音频处理 (MLX): concepts/gemma4-audio-mlx.md
-        - MeloTune: 端侧音乐推荐 Agent: concepts/melotune-ondevice-music.md
+        - "MeloTune: 端侧音乐推荐 Agent": concepts/melotune-ondevice-music.md
         - 移动 ISP 流水线 (DRIFT): concepts/drift-mobile-isp-pipeline.md
       - 穿戴与健康:
         - 穿戴 LLM 心理健康支持: concepts/wearable-llm-stress-support.md
-        - BadgeX: 可穿戴 × LLM 协作学习: concepts/badgex-wearable-llm-learning.md
+        - "BadgeX: 可穿戴 × LLM 协作学习": concepts/badgex-wearable-llm-learning.md
       - 安全检测:
-        - DeFakeQ: 端侧 Deepfake 实时检测: concepts/defakeq-edge-deepfake.md
+        - "DeFakeQ: 端侧 Deepfake 实时检测": concepts/defakeq-edge-deepfake.md
       - 框架与集成:
-        - Qwen 3.5 Small: 端侧多模态模型: concepts/qwen35-small.md
+        - "Qwen 3.5 Small: 端侧多模态模型": concepts/qwen35-small.md
         - React Native 端侧 LLM 推理: concepts/react-native-llm-edge.md
-        - 边缘卸载: 紧凑 LLM 与世界模型: concepts/edge-cloud-offloading.md
+        - "边缘卸载: 紧凑 LLM 与世界模型": concepts/edge-cloud-offloading.md
 
     # ── 安全与隐私（跨领域）──
     - 🛡️ 安全与隐私:
-      - Follow My Eyes: VLM 后门攻击: concepts/followmyeyes-vlm-backdoor.md
+      - "Follow My Eyes: VLM 后门攻击": concepts/followmyeyes-vlm-backdoor.md
       - GenAI 智能手机隐私感知: concepts/genai-smartphone-privacy-perception.md
       - GUI Agent 隐私保护: concepts/gui-agent-privacy.md
-      - GAAT: Agent 治理遥测: concepts/gaat-agent-governance.md
-      - RePAIR: 交互式遗忘修复: concepts/repair-interactive-unlearning.md
+      - "GAAT: Agent 治理遥测": concepts/gaat-agent-governance.md
+      - "RePAIR: 交互式遗忘修复": concepts/repair-interactive-unlearning.md
       - 多模态嵌入与重排: concepts/multimodal-sentence-transformers.md
 
   - 对比: comparisons/index.md
