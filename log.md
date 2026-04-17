@@ -458,3 +458,7 @@ format: reverse-chronological
 - 新增: multimodal-sentence-transformers.md (概念页)
 - 来源: HuggingFace Blog (Sentence Transformers v5.4 多模态支持)
 - 扫描: arXiv, Google AI, DeepMind, HuggingFace, Simon Willison, Apple ML, VentureBeat, The Decoder, GitHub
+
+## 2026-04-17 — 增量更新
+- 新增: `android-cli-agent-workflow.md` — Android CLI 面向 Agent 工作流的开发工具
+- 来源: Android Developers Blog (2026-04-16)

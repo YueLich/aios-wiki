@@ -74,6 +74,7 @@ nav:
       - Google AI Edge Gallery: entities/google-ai-edge-gallery.md
       - Google Translate iOS: entities/google-translate-ios-live2.md
       - Android Studio Agent Mode: entities/android-studio-agent-mode.md
+      - Android CLI Agent 工作流: entities/android-cli-agent-workflow.md
       - Zuver Agent 框架: entities/zuver.md
       - Sova AI Android Agent: entities/sova-ai-android-agent.md
       - Google 个人智能: entities/personal-intelligence-google.md
