@@ -691,3 +691,9 @@ format: reverse-chronological
 - arXiv RSS cs.AI/CL/CV/MA 返回 0 条（周末）
 - 修复: Paddle-Lite v2.14-rc 入 index.json（页面已在磁盘）
 - 收集来源: arXiv RSS + API, Google AI Blog, Android Dev, Apple ML, DeepMind, HuggingFace, The Decoder, VentureBeat, Simon Willison, MIT Tech Review, IEEE Spectrum, Wired AI, GitHub releases, HN
+
+## 2026-04-18 增量更新
+- 新增: llama.cpp b8839 (实体页, 推理框架)
+- 扫描来源: arXiv RSS/API, GitHub Releases, RSS Feeds
+- 去重: 233 known titles, 182 existing pages, 183 nav entries
+- 结果: 129 items → 69 stage1 → 21 after dedup → 1 genuinely new
