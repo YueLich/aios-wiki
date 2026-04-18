@@ -650,3 +650,25 @@ format: reverse-chronological
 ## 2026-04-18 — b8838
 - Added: entities/llamacpp-b8838.md (llama.cpp b8838 release)
 - Changes: Android build modularization, multi-segment tensor read
+
+## 2026-04-18 — Wiki Update
+
+### Added Pages
+- entities/gemma4-aicore.md — Gemma 4 端侧开源模型（DeepMind + AICore 集成）
+- entities/gemini-31-flash-lite.md — Gemini 3.1 Flash-Lite 轻量级云端模型
+- concepts/mixatlas-multimodal-data-mixture.md — MixAtlas 多模态数据混合优化（Apple Research）
+- concepts/personalized-grpo-alignment.md — P-GRPO 个性化偏好对齐（Apple Research）
+- concepts/vakra-agent-failure-modes.md — VAKRA Agent 失败模式分析（IBM Research）
+- concepts/android-cli-agentic-development.md — Android CLI Agent 开发工具
+
+### Sources
+- arXiv: 2604.14198 (MixAtlas)
+- DeepMind Blog: Gemma 4, Gemini 3.1 Flash-Lite
+- Android Dev Blog: Android CLI, Gemma 4 AICore
+- Apple ML Research: Personalized GRPO
+- HuggingFace Blog: VAKRA
+
+### Stats
+- Scanned: ~104 raw items → 59 keyword filtered → 21 passed dedup → 6 new pages
+- Dedup: 38 items skipped (index.json + existing pages)
+- Skipped known: MixAtlas arXiv+Apple duplicate, Gemma 4 HuggingFace duplicate

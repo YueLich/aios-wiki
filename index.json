@@ -215,7 +215,14 @@
     "ggml-org/llama.cpp: b8838",
     "TrigReason: Trigger-Based Collaboration between Small and Large Reasoning Models",
     "GUI-Perturbed: Domain Randomization Reveals Systematic Brittleness in GUI Grounding Models",
-    "Are GUI Agents Focused Enough? Automated Distraction via Semantic-level UI Element Injection"
+    "Are GUI Agents Focused Enough? Automated Distraction via Semantic-level UI Element Injection",
+    "Gemma 4: Byte for byte, the most capable open models",
+    "Gemini 3.1 Flash Lite: Our most cost-effective AI model yet",
+    "MixAtlas: Uncertainty-aware Data Mixture Optimization for Multimodal LLM Midtraining",
+    "Personalized Group Relative Policy Optimization for Heterogenous Preference Alignment",
+    "Inside VAKRA: Reasoning, Tool Use, and Failure Modes of Agents",
+    "Android CLI and skills: Build Android apps 3x faster using any agent",
+    "Announcing Gemma 4 in the AICore Developer Preview"
   ],
   "known_topics": [
     "memory-worth-governance",
