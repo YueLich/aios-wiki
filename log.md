@@ -1,3 +1,11 @@
+
+## 2026-04-18 增量更新
+
+新增 2 个页面：
+- 实体: Android 硬件推理优化 (`android-inference-hardware-optimization.md`) — YOLO/ResNet 在 NPU/GPU 上的量化加速实证研究
+- 概念: UI 到 Agent 界面效率优化 (`ui-to-agent-interface-efficiency.md`) — LLM Agent 的 UI 表示压缩方法
+
+来源：arXiv API 定向搜索
 ## 2026-04-18 16:44 - Wiki 增量更新
 
 **新增概念页面**：
@@ -57,7 +65,7 @@
 
 ## 2026-04-17 — Wiki Update
 
-**新增 3 个页面：**
+**新增 2 个页面：**
 - 📝 [[skilldroid-skill-compilation]] — SkillDroid: 将成功的 GUI 轨迹编译为可复用技能模板（概念）
 - 📱 [[ondevice-streaming-asr]] — 微软端侧流式 ASR：0.67GB, 8.20% WER, CPU 推理（实体）
 - ☁️ [[cloudflare-agent-cloud-openai]] — Cloudflare Agent Cloud + OpenAI 企业级 Agentic 工作流（概念）
@@ -87,7 +95,7 @@
 
 ## 2026-04-17 04:07 — Wiki Update
 
-**新增 3 个页面：**
+**新增 2 个页面：**
 - `entities/huoziime-ondevice-ime.md` — HUOZIIME 端侧 LLM 输入法（arXiv 2604.14159）
 - `entities/gemma4-ondevice.md` — Gemma 4 端侧模型家族（DeepMind Blog）
 - `concepts/llm-numerical-instability.md` — LLM 数值不稳定性（arXiv 2604.13206）
@@ -112,7 +120,7 @@
 
 ## 2026-04-17 Wiki Update
 
-**新增 3 个页面：**
+**新增 2 个页面：**
 1. **litertlm-swift-ios.md** (entity) — LiteRTLM-Swift: 社区项目将 Google LiteRT-LM C API 封装为 Swift 接口，在 iOS 上运行 Gemma 4 多模态推理。支持文本/视觉/音频/多模态，KV Cache 复用实现 1-2s TTFT。
 2. **transformers-to-mlx.md** (concept) — HuggingFace 发布 Skill + 测试框架自动移植 transformers 模型到 MLX，加速 Apple Silicon 端侧 AI 生态。核心洞察：AI Agent 在开源中的正确协作模式。
 3. **nanowakeword-wake-word.md** (entity) — 下一代唤醒词检测框架，< 1 MB 模型，支持 ONNX/TFLite/Core ML 输出，适用于 MCU 到手机全设备。
@@ -539,7 +547,7 @@ format: reverse-chronological
 - Checked: English-Bangla sentiment (not mobile AIOS), Apple acoustic embeddings (SPA/no content), Gemini for Mac (thin headline), 3 GitHub releases (all known)
 
 ## 2026-04-16 - Wiki Update
-- 新增 3 个页面：LAMO (轻量 GUI Agent 多角色编排), ClawGUI (GUI Agent 全栈开源框架), llama.cpp b8816
+- 新增 2 个页面：LAMO (轻量 GUI Agent 多角色编排), ClawGUI (GUI Agent 全栈开源框架), llama.cpp b8816
 - 来源：arXiv (cs.AI), GitHub releases
 - 去重：跳过已知的 114+ 标题
 

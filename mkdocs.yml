@@ -111,6 +111,7 @@ nav:
       - Android 17 Beta 4: entities/android-17-beta4.md
       - NaviMind: entities/navixmind.md
       - Paddle-Lite v2.14: entities/paddle-lite-v214.md
+      - "Android 硬件推理优化: YOLO/ResNet 异构加速": entities/android-inference-hardware-optimization.md
 
   # ═══════ 概念：按 Agent 系统架构组织 ═══════
   - 概念:
@@ -142,6 +143,7 @@ nav:
         - "MGA: 记忆驱动的 GUI 观察交互": concepts/mga-memory-gui-agent.md
         - "KnowU-Bench: 个性化移动 Agent 评测": concepts/knowu-bench-personalized-agent.md
         - "CORA: 共形风险控制 GUI Agent 安全": concepts/cora-mobile-gui-safety.md
+        - "UI 到 Agent 界面效率优化": concepts/ui-to-agent-interface-efficiency.md
       - 视觉感知:
         - "FaceLiVTv2: 移动端轻量人脸识别": concepts/facelivtv2-mobile-face.md
         - "FastSHADE: 移动端实时图像去噪": concepts/fastshade-mobile-denoising.md
