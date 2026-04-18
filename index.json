@@ -240,7 +240,8 @@
     "Fast-HaMeR: Boosting Hand Mesh Reconstruction using Knowledge Distillation",
     "SpecGuard: Verification-Aware Speculative Decoding for Efficient Multi-Step Reasoning",
     "K-Token Merging: Compressing Sequences in the Latent Embedding Space",
-    "ggml-org/llama.cpp: b8837"
+    "ggml-org/llama.cpp: b8837",
+    "Thermodynamic Diffusion Inference with Minimal Digital Conditioning"
   ],
   "known_topics": [
     "memory-worth-governance",

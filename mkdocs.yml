@@ -239,6 +239,7 @@ nav:
         - "CNN 边缘优化: Early-Exit vs 静态压缩": concepts/cnn-optimization-edge-ai-early-exits.md
       - "LLM Inference at the Edge: Mobile, NPU, GPU 性能权衡": concepts/llm-inference-edge-mobile-npu-gpu.md
       - "DAT: 双感知自适应传输优化多模态 LLM 推理": concepts/dat-adaptive-transmission-multimodal.md
+      - "热力学扩散推理: 模拟硬件 10000x 能效突破": concepts/thermodynamic-diffusion-inference.md
     - "Fast-HaMeR: 知识蒸馏加速手部重建": concepts/fast-hamer.md
 
     # ── 维度三：硬件与平台 ──

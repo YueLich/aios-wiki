@@ -716,3 +716,13 @@ format: reverse-chronological
 
 ## 2026-04-19
 - Added 3 new concept pages: GAAT: 治理感知Agent遥测, RoboPocket: 手机改进机器人策略, Fast-HaMeR: 知识蒸馏加速手部重建
+
+## 2026-04-19 Wiki Update
+- **Sources**: arXiv RSS (cs.AI/CL/LG/CV/MA), arXiv API, GitHub releases, Google AI Blog, Android Dev Blog, Apple ML Research, Google DeepMind, HuggingFace Blog, The Decoder, VentureBeat AI, MIT Tech Review, IEEE Spectrum, Wired AI
+- **Collected**: 35 arXiv RSS + 5 arXiv API + 6 GitHub + 122 RSS = ~168 total
+- **Stage-1 filtered**: 19 arXiv + 52 GitHub/RSS = 71
+- **After dedup**: 4 arXiv new + GitHub/RSS items
+- **New pages**: 1
+  - `thermodynamic-diffusion-inference.md` — 热力学扩散推理：模拟硬件实现 10,000× 能效突破
+- **Known titles**: 240 → 241
+- **Notes**: Most RSS items were already in index.json. Low yield is normal for incremental updates on a mature wiki (240+ titles). Thermodynamic inference paper is highly relevant — analog hardware for diffusion model inference with 10^7x energy savings vs GPU.
