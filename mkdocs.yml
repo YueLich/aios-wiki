@@ -260,6 +260,7 @@ nav:
         - React Native 端侧 LLM 推理: concepts/react-native-llm-edge.md
         - "边缘卸载: 紧凑 LLM 与世界模型": concepts/edge-cloud-offloading.md
         - "Gemini 个性化图像生成 (Nano Banana 2)": concepts/gemini-personalized-images-nanobanana.md
+  - "GUI-Perturbed: GUI Grounding 系统性脆弱性": concepts/gui-perturbed-grounding-brittleness.md
 
     # ── 安全与隐私（跨领域）──
     - 🛡️ 安全与隐私:
@@ -277,3 +278,4 @@ nav:
   - 对比: comparisons/index.md
   - 速查: queries/index.md
   - 知识图谱: knowledge-graph.md
+  - "GUI Agent 注意力分散攻击: 语义级 UI 注入": concepts/gui-agent-focused-distraction-attack.md

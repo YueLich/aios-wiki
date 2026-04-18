@@ -213,7 +213,9 @@
     "Experimental hybrid inference and new Gemini models for Android",
     "ggml-org/llama.cpp: b8836",
     "ggml-org/llama.cpp: b8838",
-    "TrigReason: Trigger-Based Collaboration between Small and Large Reasoning Models"
+    "TrigReason: Trigger-Based Collaboration between Small and Large Reasoning Models",
+    "GUI-Perturbed: Domain Randomization Reveals Systematic Brittleness in GUI Grounding Models",
+    "Are GUI Agents Focused Enough? Automated Distraction via Semantic-level UI Element Injection"
   ],
   "known_topics": [
     "memory-worth-governance",

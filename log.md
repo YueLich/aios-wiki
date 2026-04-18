@@ -1,3 +1,15 @@
+## 2026-04-18 16:44 - Wiki 增量更新
+
+**新增概念页面**：
+1. `gui-perturbed-grounding-brittleness.md` — GUI-Perturbed: GUI Grounding 系统性脆弱性
+   - 来源: arXiv 2604.14262 (2026-04-15)
+   - 核心发现: 空间推理准确率崩溃 27-56pp; 70% 缩放导致显著退化; LoRA 微调反而退化
+2. `gui-agent-focused-distraction-attack.md` — GUI Agent 注意力分散攻击: 语义级 UI 注入
+   - 来源: arXiv 2604.07831 (2026-04-09)
+   - 核心发现: 黑盒攻击 4.4x 优于随机; 漏洞模型无关; 战略图标是持久吸引子
+
+**去重统计**：扫描 65 条候选 → 2 条新增（去重率 97%）
+
 
 ## 2026-04-17 21:30 Wiki Update
 - Scanned: 212 items from arXiv (5 feeds + 5 API queries), 8 RSS feeds, 6 GitHub repos
