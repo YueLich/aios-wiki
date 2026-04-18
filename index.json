@@ -82,8 +82,8 @@
     "Modality-Native Routing in Agent-to-Agent Networks: A Multimodal A2A Protocol Extension",
     "Multimodal Embedding & Reranker Models with Sentence Transformers",
     "NVIDIA/TensorRT-LLM: v1.2.0",
-    "NanoWakeWord – Open-source wake word training for any device",
-    "NavixMind – open-source Android agent that runs Python locally",
+    "NanoWakeWord \u2013 Open-source wake word training for any device",
+    "NavixMind \u2013 open-source Android agent that runs Python locally",
     "Networking-Aware Energy Efficiency in Agentic AI Inference: A Survey",
     "New ways to balance cost and reliability in the Gemini API",
     "Nous Research's NousCoder-14B is an open-source coding model landing right in the Claude Code moment",
@@ -154,7 +154,7 @@
     "Chain of Modality: From Static Fusion to Dynamic Orchestration in Omni-MLLMs",
     "The AI Data Centers That Fit on a Truck (Modular Edge Data Centers)",
     "Android Studio supports Gemma 4: our most capable local model for agentic coding",
-    "Memorable – On-device AI search for iPhone photos, videos, screenshots",
+    "Memorable \u2013 On-device AI search for iPhone photos, videos, screenshots",
     "New ways to create personalized images in the Gemini app",
     "MemGround: Long-Term Memory Evaluation Kit for Large Language Models in Gamified Scenarios",
     "Enabling Agents to Communicate Entirely in Latent Space",
@@ -222,7 +222,8 @@
     "Personalized Group Relative Policy Optimization for Heterogenous Preference Alignment",
     "Inside VAKRA: Reasoning, Tool Use, and Failure Modes of Agents",
     "Android CLI and skills: Build Android apps 3x faster using any agent",
-    "Announcing Gemma 4 in the AICore Developer Preview"
+    "Announcing Gemma 4 in the AICore Developer Preview",
+    "PaddlePaddle/Paddle-Lite: v2.14-rc"
   ],
   "known_topics": [
     "memory-worth-governance",

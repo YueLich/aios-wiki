@@ -672,3 +672,9 @@ format: reverse-chronological
 - Scanned: ~104 raw items → 59 keyword filtered → 21 passed dedup → 6 new pages
 - Dedup: 38 items skipped (index.json + existing pages)
 - Skipped known: MixAtlas arXiv+Apple duplicate, Gemma 4 HuggingFace duplicate
+
+## 2026-04-18 18:37
+- 扫描 172 条内容，4 层去重后 0 条新增
+- arXiv RSS cs.AI/CL/CV/MA 返回 0 条（周末）
+- 修复: Paddle-Lite v2.14-rc 入 index.json（页面已在磁盘）
+- 收集来源: arXiv RSS + API, Google AI Blog, Android Dev, Apple ML, DeepMind, HuggingFace, The Decoder, VentureBeat, Simon Willison, MIT Tech Review, IEEE Spectrum, Wired AI, GitHub releases, HN
