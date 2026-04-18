@@ -2,6 +2,7 @@ site_name: 📱 Mobile AIOS Wiki
 site_description: 手机端 AI 操作系统知识库
 site_url: https://yuelich.github.io/aios-wiki/
 repo_url: https://github.com/YueLich/aios-wiki
+repo_name: YueLich/aios-wiki
 
 theme:
   name: material
@@ -26,9 +27,11 @@ theme:
     - navigation.sections
     - navigation.expand
     - navigation.top
+    - navigation.indexes
     - search.suggest
     - search.highlight
     - content.code.copy
+    - content.action.edit
     - toc.follow
 
 plugins:
@@ -62,24 +65,34 @@ nav:
       - llama.cpp b8793: entities/llamacpp-b8793.md
       - llama.cpp b8795: entities/llamacpp-b8795.md
       - llama.cpp b8797: entities/llamacpp-b8797.md
-    - "ARM ComputeLibrary v53.0.0": entities/arm-computelibrary-v53.md
+      - llama.cpp b8807: entities/llamacpp-b8807.md
+      - llama.cpp b8808: entities/llamacpp-b8808.md
+      - llama.cpp b8809: entities/llamacpp-b8809.md
+      - llama.cpp b8815: entities/llamacpp-b8815.md
+      - llama.cpp b8816: entities/llamacpp-b8816.md
       - "llama.cpp b8827: OpenCL Adreno 重构": entities/llamacpp-b8827.md
+      - llama.cpp b8828: entities/llamacpp-b8828.md
       - llama.cpp b8829: entities/llamacpp-b8829.md
       - "llama.cpp b8831: Android arm64 官方构建": entities/llamacpp-b8831.md
+      - "ARM ComputeLibrary v53.0.0": entities/arm-computelibrary-v53.md
       - MNN 3.5.0: entities/mnn-350.md
       - coremltools 9.0: entities/coremltools-9.md
       - AnyLanguageModel: entities/anylanguagemodel-apple.md
       - "vllm-mlx: Apple Silicon 原生推理": entities/vllm-mlx-apple-silicon.md
       - 端侧流式 ASR (Microsoft): entities/ondevice-streaming-asr.md
       - "NanoWakeWord: 唤醒词训练框架": entities/nanowakeword.md
+      - "NanoWakeWord 唤醒词训练": entities/nanowakeword-wake-word.md
+      - "Transformers → MLX 转换": concepts/transformers-to-mlx.md
     - 端侧模型:
       - Gemma 4: entities/gemma4-ondevice.md
       - "Qwen3.6-35B-A3B: MoE 端侧模型": entities/qwen36-35b-a3b.md
       - Gemini Flash Live: entities/gemini-flash-live.md
       - Gemini 3.1 Flash TTS: entities/gemini-31-flash-tts.md
+      - "Gemini Nano: Chrome 137 端侧 LLM": entities/gemini-nano-chrome137.md
       - MiniCPM 2.4.2: entities/minicpm-242.md
       - "Gemma 4 Android Studio Agent Mode": entities/gemma4-android-studio-agent.md
       - "HuoziIME: 端侧 LLM 增强输入法": entities/huoziime-ondevice-ime.md
+      - "LiteRT + Swift iOS": entities/litertlm-swift-ios.md
     - 设备与平台:
       - iPhone 17e: entities/iphone-17e.md
       - Google AI Edge Gallery: entities/google-ai-edge-gallery.md
@@ -93,6 +106,8 @@ nav:
       - "Memorable: 端侧 AI 照片搜索 (iPhone)": entities/memorable-ondevice-photo-search.md
       - "Chrome AI Mode: 浏览器端 AI 搜索体验升级": entities/chrome-ai-mode-2026.md
       - Android 17 Beta 4: entities/android-17-beta4.md
+      - NaviMind: entities/navixmind.md
+      - Paddle-Lite v2.14: entities/paddle-lite-v214.md
 
   # ═══════ 概念：按 Agent 系统架构组织 ═══════
   - 概念:
@@ -111,6 +126,7 @@ nav:
       - "ClawGUI: GUI Agent 全栈开源框架": concepts/clawgui-unified-framework.md
       - "移动 Agent 生态摩擦: Play 政策与第三方助手": concepts/mobile-agent-ecosystem-friction.md
       - "OpenMobile: 开放移动 Agent 数据合成": concepts/openmobile-agent-data-synthesis.md
+      - "Long-Horizon Task Mirage: 长程任务失败诊断": concepts/long-horizon-task-mirage.md
 
     - 👁️ 感知与理解:
       - GUI 感知:
@@ -167,17 +183,19 @@ nav:
       - "CoDaS: 穿戴传感器生物标志物发现": concepts/codas-wearable-biomarker.md
       - "NaviNote: 视觉定位空间无障碍标注": concepts/navinote-spatial-annotation.md
       - "Theory of Mind in Action: 指令推断与人机协作": concepts/theory-of-mind-action-instruction-inference.md
+      - "MMA2A: 模态原生 A2A 路由": concepts/mma2a-modality-native-routing.md
 
     # ── 维度二：推理与优化技术栈 ──
     - ⚡ 推理优化:
       - "DharmaOCR: 面向结构化 OCR 的专用 SLM": concepts/dharmaocr-specialized-slm-ocr.md
+      - "LLM 数值不稳定性与混沌性": concepts/llm-numerical-instability.md
       - 模型量化:
         - KV-Cache 自适应量化: concepts/kv-cache-quantization-ondevice.md
         - SEPTQ 后训练量化: concepts/septq-post-training-quantization.md
         - "KL 散度量化: SSM-Transformer 混合精度": concepts/kl-quantization-ssm-transformer.md
         - "DeFakeQ: 双向量化边缘 Deepfake 检测": concepts/defakeq-edge-deepfake.md
         - "DeFakeQ: 端侧 Deepfake 检测部署": concepts/defakeq-edge-deepfake-detection.md
-    - "AIPC: Qualcomm 部署 Agent 自动化": concepts/aipc-qualcomm-deployment-agent.md
+      - "AIPC: Qualcomm 部署 Agent 自动化": concepts/aipc-qualcomm-deployment-agent.md
       - 内存与效率:
         - "压缩感知动态缩减: 推理感知结构化剪枝": concepts/compressed-sensing-dynamic-reduction.md
         - "LCSB: 循环反传的端侧微调": concepts/lcsb-finetuning-ondevice.md
@@ -186,7 +204,7 @@ nav:
         - "无损提示词压缩: 字典编码与 ICL": concepts/lossless-prompt-compression.md
         - "Token Compression for ViT: 视觉加速策略": concepts/token-compression-vit-acceleration.md
         - "ProfInfer: eBPF 推理性能分析": concepts/profinfer-llm-profiling.md
-    - OSPO 单步多智能体优化: concepts/onestep-marl-ride-sharing.md
+        - OSPO 单步多智能体优化: concepts/onestep-marl-ride-sharing.md
       - 模型路由与自评估:
         - "RPRA: LLM-Judge 预测高效推理": concepts/rpra-self-assessment-inference.md
         - "RPRA: 自评估推理路由": concepts/rpra-llm-judge-inference.md
@@ -202,8 +220,8 @@ nav:
         - "AHC: MCU 元学习自适应压缩": concepts/ahc-mcu-continual-detection.md
         - "gemma.cpp: Google Gemma C++ 推理引擎": concepts/gemma-cpp-inference.md
         - "LLMOrbit: LLM 圆形分类体系": concepts/llmorbit-llm-taxonomy.md
-      - "Android Hybrid Inference: Firebase 端云协同 API": concepts/android-hybrid-inference.md
-    - CNN 边缘优化: Early-Exit vs 静态压缩: concepts/cnn-optimization-edge-ai-early-exits.md
+        - "Android Hybrid Inference: Firebase 端云协同 API": concepts/android-hybrid-inference.md
+        - "CNN 边缘优化: Early-Exit vs 静态压缩": concepts/cnn-optimization-edge-ai-early-exits.md
 
     # ── 维度三：硬件与平台 ──
     - 🏭 硬件与平台:
@@ -228,6 +246,7 @@ nav:
       - 穿戴与健康:
         - 穿戴 LLM 心理健康支持: concepts/wearable-llm-stress-support.md
         - "BadgeX: 可穿戴 × LLM 协作学习": concepts/badgex-wearable-llm-learning.md
+        - "穿戴式AI与大传感器模型": concepts/wearable-large-sensor-models.md
       - 安全检测:
         - "DeFakeQ: 端侧 Deepfake 实时检测": concepts/defakeq-edge-deepfake.md
       - 框架与集成:
@@ -235,7 +254,6 @@ nav:
         - React Native 端侧 LLM 推理: concepts/react-native-llm-edge.md
         - "边缘卸载: 紧凑 LLM 与世界模型": concepts/edge-cloud-offloading.md
         - "Gemini 个性化图像生成 (Nano Banana 2)": concepts/gemini-personalized-images-nanobanana.md
-      - "穿戴式AI与大传感器模型": concepts/wearable-large-sensor-models.md
 
     # ── 安全与隐私（跨领域）──
     - 🛡️ 安全与隐私:
@@ -245,7 +263,7 @@ nav:
       - "GAAT: Agent 治理遥测": concepts/gaat-agent-governance.md
       - "RePAIR: 交互式遗忘修复": concepts/repair-interactive-unlearning.md
       - 多模态嵌入与重排: concepts/multimodal-sentence-transformers.md
-    - ECG 基础模型: 边缘心血管智能: concepts/ecg-foundation-models-edge.md
+      - "ECG 基础模型: 边缘心血管智能": concepts/ecg-foundation-models-edge.md
       - "TOPCELL: LLM 驱动的拓扑优化": concepts/topcell-llm-hardware-topology.md
       - Agent 探索-利用误差度量框架: concepts/agent-exploration-exploitation-errors.md
       - "Corpus2Skill: Agent 知识库导航式检索": concepts/corpus2skill-agent-knowledge-navigation.md
