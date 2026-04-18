@@ -634,3 +634,7 @@ format: reverse-chronological
 - Added 2 new pages: android-hybrid-inference (concept), llamacpp-b8836 (entity)
 - Sources: Android Dev blog (Firebase hybrid inference), GitHub (llama.cpp b8836)
 - Skipped: arXiv Gearbox-PHY (telecom PHY, not AIOS relevant)
+
+## 2026-04-18 — b8838
+- Added: entities/llamacpp-b8838.md (llama.cpp b8838 release)
+- Changes: Android build modularization, multi-segment tensor read

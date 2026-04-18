@@ -211,7 +211,8 @@
     "Sova AI: Android agent-assistant operating your apps via Accessibility API",
     "Memorable: On-device AI search for iPhone photos using Apple Neural Engine",
     "Experimental hybrid inference and new Gemini models for Android",
-    "ggml-org/llama.cpp: b8836"
+    "ggml-org/llama.cpp: b8836",
+    "ggml-org/llama.cpp: b8838"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -286,6 +287,12 @@
       "slug": "cloudflare-agent-cloud-openai",
       "created": "2026-04-17",
       "type": "concept"
+    },
+    {
+      "title": "ggml-org/llama.cpp: b8838",
+      "file": "entities/llamacpp-b8838.md",
+      "type": "entity",
+      "created": "2026-04-18"
     }
   ]
 }

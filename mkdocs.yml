@@ -74,6 +74,7 @@ nav:
       - llama.cpp b8828: entities/llamacpp-b8828.md
       - llama.cpp b8829: entities/llamacpp-b8829.md
       - "llama.cpp b8831: Android arm64 官方构建": entities/llamacpp-b8831.md
+      - "llama.cpp b8838": entities/llamacpp-b8838.md
       - "ARM ComputeLibrary v53.0.0": entities/arm-computelibrary-v53.md
       - MNN 3.5.0: entities/mnn-350.md
       - coremltools 9.0: entities/coremltools-9.md
