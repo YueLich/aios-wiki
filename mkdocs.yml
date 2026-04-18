@@ -236,6 +236,7 @@ nav:
         - "CNN 边缘优化: Early-Exit vs 静态压缩": concepts/cnn-optimization-edge-ai-early-exits.md
       - "LLM Inference at the Edge: Mobile, NPU, GPU 性能权衡": concepts/llm-inference-edge-mobile-npu-gpu.md
       - "DAT: 双感知自适应传输优化多模态 LLM 推理": concepts/dat-adaptive-transmission-multimodal.md
+    - "Fast-HaMeR: 知识蒸馏加速手部重建": concepts/fast-hamer.md
 
     # ── 维度三：硬件与平台 ──
     - 🏭 硬件与平台:
@@ -270,6 +271,7 @@ nav:
         - "边缘卸载: 紧凑 LLM 与世界模型": concepts/edge-cloud-offloading.md
         - "Gemini 个性化图像生成 (Nano Banana 2)": concepts/gemini-personalized-images-nanobanana.md
       - "Edge AI 裂缝分割：能效优化案例研究": concepts/edge-ai-crack-segmentation.md
+    - "RoboPocket: 手机改进机器人策略": concepts/robopocket.md
   - "GUI-Perturbed: GUI Grounding 系统性脆弱性": concepts/gui-perturbed-grounding-brittleness.md
 
     # ── 安全与隐私（跨领域）──

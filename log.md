@@ -697,3 +697,6 @@ format: reverse-chronological
 - 扫描来源: arXiv RSS/API, GitHub Releases, RSS Feeds
 - 去重: 233 known titles, 182 existing pages, 183 nav entries
 - 结果: 129 items → 69 stage1 → 21 after dedup → 1 genuinely new
+
+## 2026-04-19
+- Added 3 new concept pages: GAAT: 治理感知Agent遥测, RoboPocket: 手机改进机器人策略, Fast-HaMeR: 知识蒸馏加速手部重建
