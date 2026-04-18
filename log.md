@@ -1,4 +1,9 @@
 
+## 2026-04-18 - Incremental Update
+- Added: Gearbox-PHY 能效优化移动通信 (concept)
+- Source: arXiv 2604.13917
+- Collected: 143 items, filtered: 26, new: 1
+
 ## 2026-04-18 增量更新
 
 新增 2 个页面：

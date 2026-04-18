@@ -249,6 +249,7 @@ nav:
         - RL 驱动 ASIC 架构探索: concepts/rl-asic-exploration.md
         - LSTM 步态 ASIC 实时加速器: concepts/lstm-gait-asic-accelerator.md
         - "ATI: 仿生传感器优先具身 AI": concepts/ati-physical-ai.md
+      - "Gearbox-PHY 能效优化移动通信": concepts/gearbox-phy-energy-mobile.md
 
     # ── 维度四：应用场景 ──
     - 🎯 应用场景:
