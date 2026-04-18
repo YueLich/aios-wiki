@@ -629,3 +629,8 @@ format: reverse-chronological
 - Added 3 new entity pages: NanoWakeWord, Sova AI, Memorable
 - Sources: HN (Show HN posts), GitHub, Apple App Store
 - All pages written to docs/ and root directories
+
+## 2026-04-18
+- Added 2 new pages: android-hybrid-inference (concept), llamacpp-b8836 (entity)
+- Sources: Android Dev blog (Firebase hybrid inference), GitHub (llama.cpp b8836)
+- Skipped: arXiv Gearbox-PHY (telecom PHY, not AIOS relevant)

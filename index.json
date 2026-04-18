@@ -209,7 +209,9 @@
     "Pushing the Limits of On-Device Streaming ASR: A Compact, High-Accuracy English Model",
     "NanoWakeWord: Open-source wake word training framework for edge devices",
     "Sova AI: Android agent-assistant operating your apps via Accessibility API",
-    "Memorable: On-device AI search for iPhone photos using Apple Neural Engine"
+    "Memorable: On-device AI search for iPhone photos using Apple Neural Engine",
+    "Experimental hybrid inference and new Gemini models for Android",
+    "ggml-org/llama.cpp: b8836"
   ],
   "known_topics": [
     "memory-worth-governance",
