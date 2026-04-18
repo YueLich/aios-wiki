@@ -178,6 +178,7 @@ nav:
       - "网络感知能效: Agent 推理能效综述": concepts/networking-energy-agentic.md
       - "GAAT: 治理感知的 Agent 遥测架构": concepts/gaat-agent-governance.md
       - Cloudflare Agent Cloud + OpenAI: concepts/cloudflare-agent-cloud-openai.md
+      - "Multi-Turn Reasoning LLMs for Task Offloading in MEC": concepts/multi-turn-reasoning-task-offloading.md
 
     - 🤝 多 Agent 协作:
       - "EmoMAS: 情感感知的边缘协商": concepts/emommas-edge-negotiation.md
@@ -232,8 +233,8 @@ nav:
         - "LLMOrbit: LLM 圆形分类体系": concepts/llmorbit-llm-taxonomy.md
         - "Android Hybrid Inference: Firebase 端云协同 API": concepts/android-hybrid-inference.md
         - "CNN 边缘优化: Early-Exit vs 静态压缩": concepts/cnn-optimization-edge-ai-early-exits.md
-    - "LLM Inference at the Edge: Mobile, NPU, GPU 性能权衡": concepts/llm-inference-edge-mobile-npu-gpu.md
-    - "DAT: 双感知自适应传输优化多模态 LLM 推理": concepts/dat-adaptive-transmission-multimodal.md
+      - "LLM Inference at the Edge: Mobile, NPU, GPU 性能权衡": concepts/llm-inference-edge-mobile-npu-gpu.md
+      - "DAT: 双感知自适应传输优化多模态 LLM 推理": concepts/dat-adaptive-transmission-multimodal.md
 
     # ── 维度三：硬件与平台 ──
     - 🏭 硬件与平台:
@@ -266,8 +267,8 @@ nav:
         - React Native 端侧 LLM 推理: concepts/react-native-llm-edge.md
         - "边缘卸载: 紧凑 LLM 与世界模型": concepts/edge-cloud-offloading.md
         - "Gemini 个性化图像生成 (Nano Banana 2)": concepts/gemini-personalized-images-nanobanana.md
+      - "Edge AI 裂缝分割：能效优化案例研究": concepts/edge-ai-crack-segmentation.md
   - "GUI-Perturbed: GUI Grounding 系统性脆弱性": concepts/gui-perturbed-grounding-brittleness.md
-    - "Edge AI 裂缝分割：能效优化案例研究": concepts/edge-ai-crack-segmentation.md
 
     # ── 安全与隐私（跨领域）──
     - 🛡️ 安全与隐私:
@@ -281,12 +282,12 @@ nav:
       - "TOPCELL: LLM 驱动的拓扑优化": concepts/topcell-llm-hardware-topology.md
       - Agent 探索-利用误差度量框架: concepts/agent-exploration-exploitation-errors.md
       - "Corpus2Skill: Agent 知识库导航式检索": concepts/corpus2skill-agent-knowledge-navigation.md
+      - "FedDetox: 联邦学习下的端侧 SLM 对齐": concepts/feddetox-federated-slm-alignment.md
 
   - 对比: comparisons/index.md
   - 速查: queries/index.md
   - 知识图谱: knowledge-graph.md
   - "GUI Agent 注意力分散攻击: 语义级 UI 注入": concepts/gui-agent-focused-distraction-attack.md
-    - "FedDetox: 联邦学习下的端侧 SLM 对齐": concepts/feddetox-federated-slm-alignment.md
 
       - "MixAtlas 多模态数据混合优化": concepts/mixatlas-multimodal-data-mixture.md
       - "P-GRPO 个性化偏好对齐": concepts/personalized-grpo-alignment.md
