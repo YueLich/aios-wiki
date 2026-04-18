@@ -56,8 +56,6 @@ nav:
 
   # ═══════ 实体：具体的产品/工具/模型 ═══════
   - 实体:
-      - "Gemma 4 AICore": entities/gemma4-aicore.md
-      - "Gemini 3.1 Flash-Lite": entities/gemini-31-flash-lite.md
     - 实体总览: entities/index.md
     - 推理框架与工具链:
       - GGML 与 llama.cpp: entities/ggml-llamacpp-hf.md
@@ -89,6 +87,8 @@ nav:
       - "NanoWakeWord 唤醒词训练": entities/nanowakeword-wake-word.md
       - "Transformers → MLX 转换": concepts/transformers-to-mlx.md
     - 端侧模型:
+      - "Gemma 4 AICore": entities/gemma4-aicore.md
+      - "Gemini 3.1 Flash-Lite": entities/gemini-31-flash-lite.md
       - Gemma 4: entities/gemma4-ondevice.md
       - "Qwen3.6-35B-A3B: MoE 端侧模型": entities/qwen36-35b-a3b.md
       - Gemini Flash Live: entities/gemini-flash-live.md
@@ -274,9 +274,9 @@ nav:
         - React Native 端侧 LLM 推理: concepts/react-native-llm-edge.md
         - "边缘卸载: 紧凑 LLM 与世界模型": concepts/edge-cloud-offloading.md
         - "Gemini 个性化图像生成 (Nano Banana 2)": concepts/gemini-personalized-images-nanobanana.md
-      - "Edge AI 裂缝分割：能效优化案例研究": concepts/edge-ai-crack-segmentation.md
-    - "RoboPocket: 手机改进机器人策略": concepts/robopocket.md
-  - "GUI-Perturbed: GUI Grounding 系统性脆弱性": concepts/gui-perturbed-grounding-brittleness.md
+        - "Edge AI 裂缝分割：能效优化案例研究": concepts/edge-ai-crack-segmentation.md
+      - "RoboPocket: 手机改进机器人策略": concepts/robopocket.md
+    - "GUI-Perturbed: GUI Grounding 系统性脆弱性": concepts/gui-perturbed-grounding-brittleness.md
 
     # ── 安全与隐私（跨领域）──
     - 🛡️ 安全与隐私:
@@ -291,13 +291,12 @@ nav:
       - Agent 探索-利用误差度量框架: concepts/agent-exploration-exploitation-errors.md
       - "Corpus2Skill: Agent 知识库导航式检索": concepts/corpus2skill-agent-knowledge-navigation.md
       - "FedDetox: 联邦学习下的端侧 SLM 对齐": concepts/feddetox-federated-slm-alignment.md
-
-  - 对比: comparisons/index.md
-  - 速查: queries/index.md
-  - 知识图谱: knowledge-graph.md
-  - "GUI Agent 注意力分散攻击: 语义级 UI 注入": concepts/gui-agent-focused-distraction-attack.md
-
+      - "GUI Agent 注意力分散攻击: 语义级 UI 注入": concepts/gui-agent-focused-distraction-attack.md
       - "MixAtlas 多模态数据混合优化": concepts/mixatlas-multimodal-data-mixture.md
       - "P-GRPO 个性化偏好对齐": concepts/personalized-grpo-alignment.md
       - "VAKRA Agent 失败模式分析": concepts/vakra-agent-failure-modes.md
       - "Android CLI Agent 开发工具": concepts/android-cli-agentic-development.md
+
+  - 对比: comparisons/index.md
+  - 速查: queries/index.md
+  - 知识图谱: knowledge-graph.md
