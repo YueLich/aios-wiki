@@ -1,4 +1,20 @@
 
+## 2026-04-19 - Incremental Update
+
+**新增 3 个页面**：
+- 概念: SpecGuard 验证感知投机解码 (`specguard-speculative-decoding.md`) — 步骤级验证的投机解码框架，无需外部奖励模型加速端侧 LLM 推理
+- 概念: K-Token Merging 潜在空间压缩 (`k-token-merging-latent-compression.md`) — 在嵌入空间合并连续 token，降低自注意力二次方复杂度
+- 实体: llama.cpp b8837 (`llamacpp-b8837.md`) — ggml-backend-meta 多段读取支持
+
+**去重统计**：扫描 75 arXiv + 15 GitHub releases → 3 条新增（去重率 96.7%）
+- Layer 1 (index.json 标题): 去重 ~70 条
+- Layer 2 (已存在 slug): 去重 ~8 条
+- Layer 3/4 (文件/nav): 已存在
+
+**跳过的候选**：
+- GitHub: MNN 3.4.0/3.4.1 (已有 3.5.0), coremltools 8.3 (已有 9.0), ARM ComputeLibrary v52.x (已有 v53)
+- arXiv: AdaSplash-2 (相关但偏理论), StreamCacheVGGT (3D视觉重建,非移动端焦点), 其他低相关度论文
+
 ## 2026-04-18 - Incremental Update
 - Added: Gearbox-PHY 能效优化移动通信 (concept)
 - Source: arXiv 2604.13917

@@ -237,7 +237,10 @@
     "llama.cpp b8839",
     "Governance-Aware Agent Telemetry for Closed-Loop Enforcement in Multi-Agent AI Systems",
     "RoboPocket: Improve Robot Policies Instantly with Your Phone",
-    "Fast-HaMeR: Boosting Hand Mesh Reconstruction using Knowledge Distillation"
+    "Fast-HaMeR: Boosting Hand Mesh Reconstruction using Knowledge Distillation",
+    "SpecGuard: Verification-Aware Speculative Decoding for Efficient Multi-Step Reasoning",
+    "K-Token Merging: Compressing Sequences in the Latent Embedding Space",
+    "ggml-org/llama.cpp: b8837"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -288,12 +291,15 @@
     "dronescan-yolo",
     "lossless-prompt-compression",
     "mcp-deployment-patterns",
-    "llamacpp-b8815"
+    "llamacpp-b8815",
+    "specguard-speculative-decoding",
+    "k-token-merging-latent-compression",
+    "llamacpp-b8837"
   ],
-  "last_update": "2026-04-17",
-  "last_updated": "2026-04-17",
-  "total_pages": 119,
-  "page_count": 121,
+  "last_update": "2026-04-19",
+  "last_updated": "2026-04-19",
+  "total_pages": 122,
+  "page_count": 124,
   "pages": [
     {
       "title": "SkillDroid: Compile Once, Reuse Forever",
@@ -318,6 +324,24 @@
       "file": "entities/llamacpp-b8838.md",
       "type": "entity",
       "created": "2026-04-18"
+    },
+    {
+      "title": "SpecGuard: 验证感知的投机解码框架",
+      "slug": "specguard-speculative-decoding",
+      "created": "2026-04-19",
+      "type": "concept"
+    },
+    {
+      "title": "K-Token Merging: 潜在空间 Token 压缩",
+      "slug": "k-token-merging-latent-compression",
+      "created": "2026-04-19",
+      "type": "concept"
+    },
+    {
+      "title": "ggml-org/llama.cpp: b8837",
+      "file": "entities/llamacpp-b8837.md",
+      "type": "entity",
+      "created": "2026-04-19"
     }
   ]
 }

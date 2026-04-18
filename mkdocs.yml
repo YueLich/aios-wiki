@@ -76,6 +76,7 @@ nav:
       - llama.cpp b8828: entities/llamacpp-b8828.md
       - llama.cpp b8829: entities/llamacpp-b8829.md
       - "llama.cpp b8831: Android arm64 官方构建": entities/llamacpp-b8831.md
+      - "llama.cpp b8837": entities/llamacpp-b8837.md
       - "llama.cpp b8838": entities/llamacpp-b8838.md
       - "llama.cpp b8839": entities/llamacpp-b8839.md
       - "ARM ComputeLibrary v53.0.0": entities/arm-computelibrary-v53.md
@@ -201,6 +202,7 @@ nav:
       - "DharmaOCR: 面向结构化 OCR 的专用 SLM": concepts/dharmaocr-specialized-slm-ocr.md
       - "LLM 数值不稳定性与混沌性": concepts/llm-numerical-instability.md
       - TrigReason 触发式推理协作: concepts/trigreason-trigger-collaboration.md
+      - "SpecGuard: 验证感知投机解码": concepts/specguard-speculative-decoding.md
       - 模型量化:
         - KV-Cache 自适应量化: concepts/kv-cache-quantization-ondevice.md
         - SEPTQ 后训练量化: concepts/septq-post-training-quantization.md
@@ -214,6 +216,7 @@ nav:
         - "EdgeFlow: 移动端冷启动优化": concepts/edgeflow-cold-start.md
         - "KV Packet: 免重计算 KV 缓存": concepts/kv-packet-kv-caching.md
         - "无损提示词压缩: 字典编码与 ICL": concepts/lossless-prompt-compression.md
+        - "K-Token Merging: 潜在空间 Token 压缩": concepts/k-token-merging-latent-compression.md
         - "Token Compression for ViT: 视觉加速策略": concepts/token-compression-vit-acceleration.md
         - "ProfInfer: eBPF 推理性能分析": concepts/profinfer-llm-profiling.md
         - OSPO 单步多智能体优化: concepts/onestep-marl-ride-sharing.md
