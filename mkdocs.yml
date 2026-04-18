@@ -77,6 +77,7 @@ nav:
       - "llama.cpp b8837": entities/llamacpp-b8837.md
       - "llama.cpp b8838": entities/llamacpp-b8838.md
       - "llama.cpp b8839": entities/llamacpp-b8839.md
+      - "llama.cpp b8840": entities/llamacpp-b8840.md
       - "ARM ComputeLibrary v53.0.0": entities/arm-computelibrary-v53.md
       - MNN 3.5.0: entities/mnn-350.md
       - coremltools 9.0: entities/coremltools-9.md
@@ -196,6 +197,7 @@ nav:
       - "NaviNote: 视觉定位空间无障碍标注": concepts/navinote-spatial-annotation.md
       - "Theory of Mind in Action: 指令推断与人机协作": concepts/theory-of-mind-action-instruction-inference.md
       - "MMA2A: 模态原生 A2A 路由": concepts/mma2a-modality-native-routing.md
+      - "GLP: 智能手机多 Agent 逻辑编程": concepts/grassroots-logic-programs-smartphone-multiagent.md
 
     # ── 维度二：推理与优化技术栈 ──
     - ⚡ 推理优化:
@@ -260,6 +262,7 @@ nav:
 
     # ── 维度四：应用场景 ──
     - 🎯 应用场景:
+      - "Google I/O 2026 开发者大会": entities/google-io-2026.md
       - 音频与多媒体:
         - Gemma 4 音频处理 (MLX): concepts/gemma4-audio-mlx.md
         - "MeloTune: 端侧音乐推荐 Agent": concepts/melotune-ondevice-music.md

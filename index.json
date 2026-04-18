@@ -244,7 +244,10 @@
     "Thermodynamic Diffusion Inference with Minimal Digital Conditioning",
     "SensorPersona: An LLM-Empowered System for Continual Persona Extraction from Longitudinal Mobile Sensor Streams",
     "Preserving Privacy, Increasing Accessibility, and Reducing Cost: An On-Device Artificial Intelligence Model for Medical Transcription and Note Generation",
-    "Enabling Intrinsic Reasoning over Dense Geospatial Embeddings with DFR-Gemma"
+    "Enabling Intrinsic Reasoning over Dense Geospatial Embeddings with DFR-Gemma",
+    "ggml-org/llama.cpp: b8840",
+    "Implementing Grassroots Logic Programs with Multiagent Transition Systems and AI",
+    "Google I/O 2026: Livestream Schedule Revealed"
   ],
   "known_topics": [
     "memory-worth-governance",

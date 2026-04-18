@@ -731,3 +731,11 @@ format: reverse-chronological
 - 新增 3 个概念页面：SensorPersona、端侧医疗AI、DFR-Gemma
 - 来源：arXiv API + RSS（共扫描 157 条，去重后 3 条新增）
 - 扫描来源：arXiv RSS (cs.AI/CL/LG/CV/MA), Google AI Blog, Android Dev, DeepMind, HuggingFace, The Decoder, VentureBeat, Wired, MIT Tech Review, IEEE Spectrum, Apple ML Research, GitHub releases
+
+## 2026-04-19 Wiki Update
+
+- **llama.cpp b8840**: 新版本发布 (2026-04-18)，服务器端暴露 media_tag 字段
+- **Grassroots Logic Programs**: 智能手机端无服务器多 Agent 逻辑编程语言
+- **Google I/O 2026**: 开发者大会日程发布，5月19-20日
+
+统计：扫描 113 条，过滤后 24 条，去重后 3 条新增
