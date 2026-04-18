@@ -2,10 +2,10 @@
 type: concept
 tags: [quantization, llm, post-training, on-device, model-compression, 优化技术]
 related:
-  - "[[quantization]]"
-  - "[[on-device-llm]]"
-  - "[[llama-cpp]]"
-  - "[[mnn]]"
+  - "[[septq-post-training-quantization]]"
+  - "[[septq-post-training-quantization]]"
+  - "[[ggml-llamacpp-hf]]"
+  - "[[mnn-350]]"
 sources:
   - url: https://arxiv.org/abs/2604.10091
     title: "SEPTQ: A Simple and Effective Post-Training Quantization Paradigm for Large Language Models"

@@ -26,7 +26,7 @@ Google Translate 的 Live Translate 耳机实时翻译功能正式登陆 iOS 平
 ## 与手机 AIOS 的关联
 - Apple 自己的翻译 app 也在 iOS 17+ 支持 AirPods 实时翻译
 - 两大阵营（Google vs Apple）在端侧翻译上的竞争
-- [[on-device]] 推理技术让翻译延迟大幅降低
+-  推理技术让翻译延迟大幅降低
 
 ## 核心问题
 

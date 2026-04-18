@@ -2,8 +2,8 @@
 type: entity
 tags: [zuver, agentic-ai, edge-computing, 10mb, go, open-source, lightweight-agent]
 related:
-  - "[[native-agent-systems]]"
-  - "[[mobile-ad-detection-agent]]"
+  - "[[zuver]]"
+  - "[[mana-mobile-ad-detection]]"
   - "[[secagent-mobile-gui]]"
 sources:
   - https://zuver.cc
@@ -24,7 +24,7 @@ Zuver 是一个开源的 Agentic AI 框架，声称整个 Agent 系统只需 **1
 
 ## 为什么重要
 
-在 [[native-agent-systems]] 和 [[secagent-mobile-gui]] 等方案中，Agent 系统通常需要 Python runtime + 大量依赖，内存占用动辄数百 MB。Zuver 的 10MB 方案如果性能可靠，将对端侧 Agent 部署产生重大影响：
+在 [[zuver]] 和 [[secagent-mobile-gui]] 等方案中，Agent 系统通常需要 Python runtime + 大量依赖，内存占用动辄数百 MB。Zuver 的 10MB 方案如果性能可靠，将对端侧 Agent 部署产生重大影响：
 
 1. **IoT/穿戴设备** — 10MB 意味着智能手表、TWS 耳机都能跑 Agent
 2. **后台驻留** — 手机上 10MB 的后台进程几乎不影响电池和内存
@@ -36,8 +36,8 @@ Zuver 是一个开源的 Agentic AI 框架，声称整个 Agent 系统只需 **1
 - 缺乏 benchmark 数据和生产案例
 
 ## 相关
-- [[native-agent-systems]] — 端侧 Agent 系统总览
-- [[mobile-ad-detection-agent]] — 移动端 Agent 检测方案
+- [[zuver]] — 端侧 Agent 系统总览
+- [[mana-mobile-ad-detection]] — 移动端 Agent 检测方案
 - [[secagent-mobile-gui]] — 移动端 GUI Agent 安全框架
 
 ## 核心问题

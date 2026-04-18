@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [wearable, foundation-model, large-sensor-model, multimodal, 穿戴设备, 端侧AI]
-related: [[codas-wearable-biomarker]], [[multimodal-fusion-ondevice]], [[edge-optimization]]
+related: [[codas-wearable-biomarker]], [[chain-of-modality]], [[edge-optimization]]
 sources:
   - url: https://arxiv.org/abs/2604.10172
     title: "Wearable AI in the Era of Large Sensor Models"
@@ -66,6 +66,6 @@ updated: 2026-04-17
 ## 关联
 
 - [[codas-wearable-biomarker]] — CoDaS 是 LSM 在健康领域的具体应用案例
-- [[multimodal-fusion-ondevice]] — LSM 的核心挑战是端侧多模态融合
+- [[chain-of-modality]] — LSM 的核心挑战是端侧多模态融合
 - [[edge-optimization]] — LSM 端侧部署需要模型压缩和推理优化
 - [[agent-persistent-identity]] — 穿戴 AI Agent 需要持久化的用户健康画像

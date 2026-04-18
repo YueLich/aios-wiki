@@ -2,9 +2,9 @@
 type: concept
 tags: [llm, reward-model, inference-efficiency, on-device, quantization]
 related:
-  - "[[llm-inference]]"
-  - "[[quantization]]"
-  - "[[on-device-llm]]"
+  - "[[on-device-inference-memory-pressure]]"
+  - "[[septq-post-training-quantization]]"
+  - "[[septq-post-training-quantization]]"
 sources:
   - url: https://arxiv.org/abs/2604.10072
     title: "Reason Only When Needed: Efficient Generative Reward Modeling via Model-Internal Uncertainty"
@@ -29,18 +29,18 @@ E-GRM 通过监控模型内部的收敛行为来判断何时需要 CoT 推理：
 
 ## 为什么重要
 
-对于 [[on-device-llm]] 和 [[edge-inference]] 场景，推理效率是核心瓶颈。E-GRM 的"按需推理"策略可以：
+对于 [[septq-post-training-quantization]] 和 [[on-device-inference-memory-pressure]] 场景，推理效率是核心瓶颈。E-GRM 的"按需推理"策略可以：
 - 减少端侧 LLM 的平均推理延迟
 - 降低移动端设备的能耗
-- 为 [[ai-agent]] 在手机上的实时交互提供更好的用户体验
+- 为  在手机上的实时交互提供更好的用户体验
 
-这与 [[quantization]] 等模型压缩技术形成互补——前者减少计算量，后者减少模型大小。
+这与 [[septq-post-training-quantization]] 等模型压缩技术形成互补——前者减少计算量，后者减少模型大小。
 
 ## 相关技术
 
-- [[llm-inference]] — 推理优化
-- [[quantization]] — 模型压缩
-- [[on-device-llm]] — 端侧部署
+- [[on-device-inference-memory-pressure]] — 推理优化
+- [[septq-post-training-quantization]] — 模型压缩
+- [[septq-post-training-quantization]] — 端侧部署
 
 ## 核心问题
 

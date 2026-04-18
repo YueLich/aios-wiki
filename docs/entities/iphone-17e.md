@@ -3,10 +3,10 @@ type: entity
 tags: [apple, iphone, smartphone, on-device-ai, neural-engine, apple-intelligence, a19, mobile-soc, 平台]
 related:
   - "[[apple-intelligence]]"
-  - "[[neural-engine]]"
-  - "[[a19-chip]]"
-  - "[[c1x-modem]]"
-  - "[[coreml]]"
+  - ""
+  - ""
+  - ""
+  - "[[coremltools-9]]"
 sources:
   - url: https://www.apple.com/newsroom/2026/03/apple-introduces-iphone-17e/
     title: Apple introduces iPhone 17e
@@ -50,6 +50,6 @@ iPhone 17e 将 Apple Intelligence 下沉到 $599 价位段，标志着：
 ## 相关页面
 
 - [[apple-intelligence]] — iPhone 17e 支持 Apple Intelligence 全功能
-- [[neural-engine]] — A19 的 16 核 Neural Engine 是端侧 AI 推理核心
-- [[c1x-modem]] — Apple 自研调制解调器第二代
-- [[coreml]] — Core ML 框架可利用 Neural Engine 进行模型推理
+-  — A19 的 16 核 Neural Engine 是端侧 AI 推理核心
+-  — Apple 自研调制解调器第二代
+- [[coremltools-9]] — Core ML 框架可利用 Neural Engine 进行模型推理

@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [multimodal, pruning, edge, inference, optimization, zero-shot, 优化技术]
-related: [[on-device-inference]], [[kv-cache-quantization-ondevice]], [[edgecim-hardware-codesign]]
+related: [[on-device-inference-memory-pressure]], [[kv-cache-quantization-ondevice]], [[edgecim-hardware-codesign]]
 sources:
   - url: https://arxiv.org/abs/2604.08971v1
     title: "Modality-Aware Zero-Shot Pruning and Sparse Attention for Efficient Multimodal Edge Inference"

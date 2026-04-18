@@ -1,8 +1,11 @@
 ---
+
 domain: 手机端 AI操作系统 (Mobile AIOS)
 owner: hermes-agent
 created: 2026-04-14
 version: 2.0
+type: page
+tags: []
 ---
 
 # Mobile AIOS Wiki — 知识图谱 Schema

@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [推理可靠性, LLM, 浮点精度, 多Agent, 确定性, 端侧推理]
-related: [[on-device-vs-cloud-agentic-tool-calling]], [[agent-persistent-identity]], [[the-long-horizon-task-mirage]]
+related: [[on-device-vs-cloud-agentic-tool-calling]], [[agent-persistent-identity]], [[long-horizon-task-mirage]]
 sources:
   - url: https://arxiv.org/abs/2604.13206
     title: "Numerical Instability and Chaos: Quantifying the Unpredictability of Large Language Models"
@@ -59,5 +59,5 @@ updated: 2026-04-17
 
 - [[on-device-vs-cloud-agentic-tool-calling]] — 端侧工具调用的可靠性受数值不稳定性影响
 - [[agent-persistent-identity]] — Agent 持久化身份的稳定性受浮点精度约束
-- [[the-long-horizon-task-mirage]] — 长程任务失败可能部分源自数值误差累积
+- [[long-horizon-task-mirage]] — 长程任务失败可能部分源自数值误差累积
 - [[kv-cache-quantization-ondevice]] — KV 缓存量化会加剧数值不稳定性

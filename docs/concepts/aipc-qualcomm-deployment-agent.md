@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [deployment-agent, qualcomm, automation, edge-ai, tool-chain, on-device]
-related: [[mnn-350]], [[coremltools-9]], [[on-device-streaming-asr-microsoft]], [[clawmobile-agentic]]
+related: [[mnn-350]], [[coremltools-9]], [[ondevice-streaming-asr]], [[clawmobile-agentic]]
 sources:
   - url: https://arxiv.org/abs/2604.14661
     title: "AIPC: Agent-Based Automation for AI Model Deployment with Qualcomm AI Runtime"
@@ -67,5 +67,5 @@ AIPC 代表了端侧 AI 部署的重要范式转变：从"需要专家手动调�
 ## 关联
 - [[mnn-350]] — 阿里 MNN 同样解决端侧推理部署，但走的是编译优化路线而非 Agent 自动化
 - [[coremltools-9]] — Apple CoreML 工具链是 iOS 端部署的核心，AIPC 对标 Qualcomm 端
-- [[on-device-streaming-asr-microsoft]] — ASR 模型的端侧部署正是 AIPC 可以处理的典型场景
+- [[ondevice-streaming-asr]] — ASR 模型的端侧部署正是 AIPC 可以处理的典型场景
 - [[clawmobile-agentic]] — Agent 架构设计与 AIPC 的 Agent Skills 理念相通

@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [on-device, ios, music, agent, affective-computing, privacy, 平台]
-related: [[gemma-4-google]], [[edge-ai-agents]], [[privacy-preserving-ml]]
+related: [[gemma4-ondevice]], , 
 sources:
   - http://arxiv.org/abs/2604.10815v1
 created: 2026-04-14

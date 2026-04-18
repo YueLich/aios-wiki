@@ -1,7 +1,7 @@
 ---
 type: entity
 tags: [mobile-agent, android, accessibility-api, ai-assistant, app-automation, on-device]
-related: [[clawmobile-agentic]], [[openmobile-building-open-mobile-agents]], [[gui-agent-privacy]]
+related: [[clawmobile-agentic]], [[openmobile-agent-data-synthesis]], [[gui-agent-privacy]]
 sources:
   - url: https://hn.algolia.com/api/v1/items/47738583
     title: "HN: Show HN: Android AI agent-assistant operating your apps"
@@ -77,6 +77,6 @@ Sova AI 采用**虚拟人类**模拟策略：
 ## 关联
 
 - [[clawmobile-agentic]] — Sova AI 是 ClawMobile 提出的原生 Agent 理念的开源实践验证
-- [[openmobile-building-open-mobile-agents]] — 两者都在探索如何构建真正能操控手机的 Agent
+- [[openmobile-agent-data-synthesis]] — 两者都在探索如何构建真正能操控手机的 Agent
 - [[gui-agent-privacy]] — Sova AI 通过 Accessibility API 读取屏幕内容，涉及隐私边界问题
 - [[pspa-bench-gui-agent]] — 可作为 PSPA-Bench GUI Agent 评测的实际案例

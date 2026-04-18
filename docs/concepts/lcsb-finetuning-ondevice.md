@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [fine-tuning, on-device, memory-efficient, llm, layer-cyclic, 优化技术]
-related: [[on-device-inference]], [[kv-cache-quantization-ondevice]], [[mobile-aios-overview]]
+related: [[on-device-inference-memory-pressure]], [[kv-cache-quantization-ondevice]], [[mobile-aios-overview]]
 sources:
   - url: https://arxiv.org/abs/2602.13073v1
     title: "LCSB: Layer-Cyclic Selective Backpropagation for Memory-Efficient On-Device LLM Fine-Tuning"

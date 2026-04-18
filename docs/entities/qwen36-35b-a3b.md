@@ -1,7 +1,7 @@
 ---
 type: entity
 tags: [模型, MoE, 端侧推理, agentic-coding, 阿里, 开源模型]
-related: [[gemma4-ondevice]], [[llamacpp-b8833]], [[minicpm-242]], [[qwen3]]
+related: [[gemma4-ondevice]], [[llamacpp-b8833]], [[minicpm-242]], [[qwen36-35b-a3b]]
 sources:
   - url: https://the-decoder.com/alibabas-open-model-qwen3-6-leads-googles-gemma-4-across-agentic-coding-benchmarks/
     title: "Alibaba's open model Qwen3.6 leads Google's Gemma 4 across agentic coding benchmarks"

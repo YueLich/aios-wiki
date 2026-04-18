@@ -112,9 +112,12 @@ nav:
   # ═══════ 概念：按 Agent 系统架构组织 ═══════
   - 概念:
     - 概念总览: concepts/index.md
+    - "Mobile AIOS 全景概述": concepts/mobile-aios-overview.md
+    - "Apple Intelligence": concepts/apple-intelligence.md
 
     # ── 维度一：Agent 核心子系统 ──
     - 🧠 Agent 架构与认知:
+      - "移动 Agent 框架": concepts/mobile-agent-framework.md
       - "ClawMobile: 原生 Agent 系统架构": concepts/clawmobile-agentic.md
       - "Tri-Spirit: 三层认知驱动的硬件协同设计": concepts/trispirit-cognitive-architecture.md
       - "Agent 持久化身份: 多锚点架构": concepts/agent-persistent-identity.md
@@ -187,6 +190,7 @@ nav:
 
     # ── 维度二：推理与优化技术栈 ──
     - ⚡ 推理优化:
+      - "端侧推理优化技术": concepts/edge-optimization.md
       - "DharmaOCR: 面向结构化 OCR 的专用 SLM": concepts/dharmaocr-specialized-slm-ocr.md
       - "LLM 数值不稳定性与混沌性": concepts/llm-numerical-instability.md
       - 模型量化:

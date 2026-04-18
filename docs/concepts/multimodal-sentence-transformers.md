@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [multimodal, embedding, reranker, sentence-transformers, huggingface, on-device, retrieval, search]
-related: [[gemma4-ondevice]], [[on-device-inference]], [[mobile-aios-overview]], [[apple-intelligence]]
+related: [[gemma4-ondevice]], [[on-device-inference-memory-pressure]], [[mobile-aios-overview]], [[apple-intelligence]]
 sources:
   - url: https://huggingface.co/blog/multimodal-sentence-transformers
     title: "Multimodal Embedding & Reranker Models with Sentence Transformers"
@@ -86,6 +86,6 @@ pip install -U "sentence-transformers[video]"   # 视频支持
 ## 关联
 
 - [[gemma4-ondevice]] — 端侧多模态理解模型，可与嵌入模型互补
-- [[on-device-inference]] — 端侧推理技术栈，嵌入计算需要推理框架支持
+- [[on-device-inference-memory-pressure]] — 端侧推理技术栈，嵌入计算需要推理框架支持
 - [[apple-intelligence]] — Apple 的端侧 AI 方案，Core ML 可能集成类似能力
 - [[mobile-aios-overview]] — 手机端 AIOS 总体架构

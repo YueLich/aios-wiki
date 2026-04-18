@@ -1,3 +1,10 @@
+---
+type: index
+tags: [首页, mobile-aios]
+created: 2026-04-14
+updated: 2026-04-18
+---
+
 # 📱 Mobile AIOS Wiki
 
 > **手机端 AI 操作系统的全景知识库** — 追踪端侧大模型、AI Agent、芯片适配、推理优化的最新进展

@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [optimization, edge-ai, cnn, early-exit, pruning, quantization, onnx, iot]
-related: [[on-device-streaming-asr-microsoft]], [[edgeflow-cold-start]], [[kv-cache-quantization-ondevice]]
+related: [[ondevice-streaming-asr]], [[edgeflow-cold-start]], [[kv-cache-quantization-ondevice]]
 sources:
   - url: https://arxiv.org/abs/2604.14789
     title: "A Comparative Study of CNN Optimization Methods for Edge AI: Exploring the Role of Early Exits"
@@ -64,6 +64,6 @@ AIoT（AI + IoT）场景中，边缘节点的处理能力、内存、存储和�
 - 最佳方案通常是两者的组合
 
 ## 关联
-- [[on-device-streaming-asr-microsoft]] — ASR 部署中使用的量化策略属于本文的"静态压缩"类别
+- [[ondevice-streaming-asr]] — ASR 部署中使用的量化策略属于本文的"静态压缩"类别
 - [[edgeflow-cold-start]] — 冷启动优化需要权衡模型大小与计算量
 - [[kv-cache-quantization-ondevice]] — KV-Cache 量化是 LLM 特有的压缩技术

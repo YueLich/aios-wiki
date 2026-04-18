@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [mobile, image-processing, denoising, gpu, photography, real-time]
-related: [[edge-inference]], [[mobile-computer-vision]], [[npu-acceleration]]
+related: [[on-device-inference-memory-pressure]], , 
 sources:
   - http://arxiv.org/abs/2604.10275v1
 created: 2026-04-14

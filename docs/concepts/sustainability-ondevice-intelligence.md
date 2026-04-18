@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [sustainability, energy, privacy, on-device, trade-offs, system-design, 其他]
-related: [[on-device-inference]], [[mobile-aios-overview]], [[edge-cloud-collaboration]]
+related: [[on-device-inference-memory-pressure]], [[mobile-aios-overview]], [[edge-cloud-offloading]]
 sources:
   - url: https://arxiv.org/abs/2603.26603v1
     title: "Sustainability Is Not Linear: Quantifying Performance, Energy, and Privacy Trade-offs in On-Device Intelligence"
@@ -23,7 +23,7 @@ created: 2026-04-14
 
 ## 为什么重要
 
-这对 [[mobile-aios-overview]] 的系统设计有深远影响。AIOS 不应只追求「更强的 AI」，而需要在三者间找到最优平衡点。不同厂商的策略（[[apple-intelligence]] 偏隐私、[[xiaomi-hyperai]] 偏性能）本质上是对这一权衡的不同取向。
+这对 [[mobile-aios-overview]] 的系统设计有深远影响。AIOS 不应只追求「更强的 AI」，而需要在三者间找到最优平衡点。不同厂商的策略（[[apple-intelligence]] 偏隐私、[[sustainability-ondevice-intelligence]] 偏性能）本质上是对这一权衡的不同取向。
 
 
 ## 核心问题
@@ -36,6 +36,6 @@ In this paper, we consider the problem of determining the density of monic polyn
 
 ## 关联
 
-- [[edge-cloud-collaboration]] — 云端协同的能耗权衡
-- [[on-device-inference]] — 端侧推理的能耗特点
+- [[edge-cloud-offloading]] — 云端协同的能耗权衡
+- [[on-device-inference-memory-pressure]] — 端侧推理的能耗特点
 - [[networking-energy-agentic]] — Agent 推理的网络能耗

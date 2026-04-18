@@ -1,3 +1,10 @@
+---
+type: index
+tags: [实体, 目录]
+created: 2026-04-14
+updated: 2026-04-18
+---
+
 # 🏢 实体 (Entities)
 
 具体的产品、工具、模型、公司。

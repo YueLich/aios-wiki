@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [energy, agent, inference, survey, networking, efficiency]
-related: [[sustainability-ondevice-intelligence]], [[edge-cloud-collaboration]], [[mobile-agent-framework]]
+related: [[sustainability-ondevice-intelligence]], [[edge-cloud-offloading]], [[mobile-agent-framework]]
 sources:
   - url: https://arxiv.org/abs/2604.07857v1
     title: "Networking-Aware Energy Efficiency in Agentic AI Inference: A Survey"
@@ -37,6 +37,6 @@ This paper presents a comprehensive framework for transaction posting and pricin
 
 ## 关联
 
-- [[edge-cloud-collaboration]] — 端云协同架构
+- [[edge-cloud-offloading]] — 端云协同架构
 - [[mobile-agent-framework]] — Agent 系统设计
 - [[sustainability-ondevice-intelligence]] — 能耗权衡分析

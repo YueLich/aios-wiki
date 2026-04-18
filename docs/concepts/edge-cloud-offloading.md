@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [edge-computing, offloading, llm, mobile, world-model]
-related: [[edge-cloud-collaboration]], [[on-device-inference]], [[edgeflow-cold-start]]
+related: [[edge-cloud-offloading]], [[on-device-inference-memory-pressure]], [[edgeflow-cold-start]]
 sources:
   - url: https://arxiv.org/abs/2602.13628v1
     title: "Compact LLM Deployment and World Model Assisted Offloading in Mobile Edge Computing"
@@ -23,7 +23,7 @@ created: 2026-04-14
 
 ## 为什么重要
 
-这是 [[edge-cloud-collaboration]] 架构的重要进展。传统卸载策略基于规则或简单启发式，而世界模型辅助方法可以更准确地预判任务需求，减少不必要的网络往返。与 [[sustainability-ondevice-intelligence]] 的能耗分析结合，可以实现真正的能效最优调度。
+这是 [[edge-cloud-offloading]] 架构的重要进展。传统卸载策略基于规则或简单启发式，而世界模型辅助方法可以更准确地预判任务需求，减少不必要的网络往返。与 [[sustainability-ondevice-intelligence]] 的能耗分析结合，可以实现真正的能效最优调度。
 
 
 ## 核心问题
@@ -36,6 +36,6 @@ We prove an Alexandrov-Bakelman-Pucci type estimate, which involves the integral
 
 ## 关联
 
-- [[edge-cloud-collaboration]] — 端云协同整体架构
-- [[mnn]] — 边缘推理框架
+- [[edge-cloud-offloading]] — 端云协同整体架构
+- [[mnn-350]] — 边缘推理框架
 - [[edgeflow-cold-start]] — 本地模型启动优化

@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [inference, mobile, optimization, cold-start, llm, 优化技术]
-related: [[on-device-inference]], [[edge-cloud-collaboration]], [[kv-cache-quantization-ondevice]]
+related: [[on-device-inference-memory-pressure]], [[edge-cloud-offloading]], [[kv-cache-quantization-ondevice]]
 sources:
   - url: https://arxiv.org/abs/2604.09083v1
     title: "EdgeFlow: Fast Cold Starts for LLMs on Mobile Devices"

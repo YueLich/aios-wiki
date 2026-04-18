@@ -1,3 +1,10 @@
+---
+type: index
+tags: [对比, 目录]
+created: 2026-04-14
+updated: 2026-04-18
+---
+
 # ⚖️ 对比 (Comparisons)
 
 产品、技术、框架之间的横向对比。

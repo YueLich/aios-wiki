@@ -1,3 +1,10 @@
+---
+type: index
+tags: [速查, 目录]
+created: 2026-04-14
+updated: 2026-04-18
+---
+
 # ❓ 速查 (Queries)
 
 常见问题快速参考。
