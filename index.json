@@ -212,7 +212,8 @@
     "Memorable: On-device AI search for iPhone photos using Apple Neural Engine",
     "Experimental hybrid inference and new Gemini models for Android",
     "ggml-org/llama.cpp: b8836",
-    "ggml-org/llama.cpp: b8838"
+    "ggml-org/llama.cpp: b8838",
+    "TrigReason: Trigger-Based Collaboration between Small and Large Reasoning Models"
   ],
   "known_topics": [
     "memory-worth-governance",

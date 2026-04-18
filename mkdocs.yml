@@ -194,6 +194,7 @@ nav:
       - "端侧推理优化技术": concepts/edge-optimization.md
       - "DharmaOCR: 面向结构化 OCR 的专用 SLM": concepts/dharmaocr-specialized-slm-ocr.md
       - "LLM 数值不稳定性与混沌性": concepts/llm-numerical-instability.md
+      - TrigReason 触发式推理协作: concepts/trigreason-trigger-collaboration.md
       - 模型量化:
         - KV-Cache 自适应量化: concepts/kv-cache-quantization-ondevice.md
         - SEPTQ 后训练量化: concepts/septq-post-training-quantization.md
