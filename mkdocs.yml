@@ -171,6 +171,7 @@ nav:
       - "SkillDroid: GUI 技能编译与重放": concepts/skilldroid-skill-compilation.md
       - "MemGround: 游戏化 LLM 长期记忆评估": concepts/memground-benchmark.md
       - "Memento-Skills: Agent 设计 Agent": concepts/memento-skills-agent-design.md
+      - "SensorPersona: 移动传感器持续人格提取": concepts/sensorpersona-mobile-sensor-persona.md
 
     - 🔧 工具调用与执行:
       - "端侧 vs 云端: Agentic 工具调用实战": concepts/on-device-vs-cloud-agentic-tool-calling.md
@@ -267,6 +268,7 @@ nav:
         - 穿戴 LLM 心理健康支持: concepts/wearable-llm-stress-support.md
         - "BadgeX: 可穿戴 × LLM 协作学习": concepts/badgex-wearable-llm-learning.md
         - "穿戴式AI与大传感器模型": concepts/wearable-large-sensor-models.md
+        - "端侧医疗AI: 隐私保护的医学转录": concepts/on-device-medical-transcription.md
       - 安全检测:
         - "DeFakeQ: 端侧 Deepfake 实时检测": concepts/defakeq-edge-deepfake.md
       - 框架与集成:
@@ -275,6 +277,7 @@ nav:
         - "边缘卸载: 紧凑 LLM 与世界模型": concepts/edge-cloud-offloading.md
         - "Gemini 个性化图像生成 (Nano Banana 2)": concepts/gemini-personalized-images-nanobanana.md
         - "Edge AI 裂缝分割：能效优化案例研究": concepts/edge-ai-crack-segmentation.md
+        - "DFR-Gemma: 端侧地理空间推理": concepts/dfr-gemma-geospatial-reasoning.md
       - "RoboPocket: 手机改进机器人策略": concepts/robopocket.md
     - "GUI-Perturbed: GUI Grounding 系统性脆弱性": concepts/gui-perturbed-grounding-brittleness.md
 

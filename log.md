@@ -726,3 +726,8 @@ format: reverse-chronological
   - `thermodynamic-diffusion-inference.md` — 热力学扩散推理：模拟硬件实现 10,000× 能效突破
 - **Known titles**: 240 → 241
 - **Notes**: Most RSS items were already in index.json. Low yield is normal for incremental updates on a mature wiki (240+ titles). Thermodynamic inference paper is highly relevant — analog hardware for diffusion model inference with 10^7x energy savings vs GPU.
+
+## 2026-04-18 23:11
+- 新增 3 个概念页面：SensorPersona、端侧医疗AI、DFR-Gemma
+- 来源：arXiv API + RSS（共扫描 157 条，去重后 3 条新增）
+- 扫描来源：arXiv RSS (cs.AI/CL/LG/CV/MA), Google AI Blog, Android Dev, DeepMind, HuggingFace, The Decoder, VentureBeat, Wired, MIT Tech Review, IEEE Spectrum, Apple ML Research, GitHub releases
