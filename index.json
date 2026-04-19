@@ -302,7 +302,10 @@
     "PropGen: LLM 驱动的移动端应用属性生成与测试",
     "A1gent: 面向 Open RAN 的可审计 Agent 控制框架",
     "From Exploration to Specification: LLM-Based Property Generation for Mobile App Testing",
-    "Agentic Open RAN: A Deterministic and Auditable Framework for Intent-Driven Radio Control"
+    "Agentic Open RAN: A Deterministic and Auditable Framework for Intent-Driven Radio Control",
+    "Gemini 3.1 Pro: A smarter model for your most complex tasks",
+    "Gemini 3 Deep Think: Advancing science, research and engineering",
+    "ggml-org/llama.cpp: b8849"
   ],
   "known_topics": [
     "memory-worth-governance",

@@ -944,3 +944,8 @@ format: reverse-chronological
 - 统计: 135 raw → 85 stage1 → 32 stage2 → 4 new → 2 genuine after dedup (arXiv RSS Sunday=0)
 - 去重跳过: VisionClaw, Google A2UI v0.9, On-Device vs Cloud LLMs, NanoWakeWord, RL-ASIC (existing rl-asic-exploration)
 - 总标题数: 303
+
+## 2026-04-19 Wiki Update
+- Sources scanned: arXiv (0 — Sunday), RSS feeds (12), GitHub releases (6)
+- New pages: 3 (Gemini 3.1 Pro, Gemini 3.1 Deep Think, llama.cpp b8849)
+- Skipped (duplicate): 16 items

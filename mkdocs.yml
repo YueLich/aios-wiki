@@ -131,6 +131,9 @@ nav:
 
   # ═══════ 概念：按 Agent 系统架构组织 ═══════
   - 概念:
+  - "Gemini 3.1 Pro: 旗舰智能模型": entities/gemini-31-pro.md
+  - "Gemini 3.1 Deep Think: 专业推理增强": entities/gemini-31-deep-think.md
+  - "llama.cpp b8849": entities/llamacpp-b8849.md
     - 概念总览: concepts/index.md
     - "Mobile AIOS 全景概述": concepts/mobile-aios-overview.md
     - "Apple Intelligence": concepts/apple-intelligence.md
