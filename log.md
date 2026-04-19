@@ -788,3 +788,9 @@ format: reverse-chronological
 **数据源：** arXiv RSS (cs.LG 15 条), arXiv API (15 条), 博客 RSS (67 条), GitHub releases (3)
 **过滤率：** 100 → 43 stage-1 → 19 stage-2 → 3 新增 (去重后)
 **已知标题：** 254 → 257
+
+## 2026-04-19 03:05
+- 增量更新：enriched LifeDialBench page with full paper analysis (arXiv 2604.11182)
+- Sources scanned: arXiv RSS (5 feeds) + arXiv API (5 queries) + GitHub (6 repos)
+- 41 items collected → 28 stage-1 → 19 stage-2 → 0 genuinely new (1 page enriched)
+- Note: dedup gap identified — title format mismatch between API (short title) and index.json (prefixed title) caused Layer 1 miss
