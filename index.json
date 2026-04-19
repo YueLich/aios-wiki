@@ -323,7 +323,8 @@
     "Trust Your Memory: Verifiable Control of Smart Homes through Reinforcement Learning with LLM-Augmented Memory",
     "Leveraging LLMs and Social Media to Understand User Perception of Smartphone-Based Earthquake Early Warnings",
     "Self-adaptive Multi-Access Edge Architectures: A Robotics Case",
-    "AoE: Always-on Egocentric Human Video Collection for Embodied AI"
+    "AoE: Always-on Egocentric Human Video Collection for Embodied AI",
+    "ggml-org/llama.cpp: b8850"
   ],
   "known_topics": [
     "memory-worth-governance",

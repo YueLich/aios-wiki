@@ -1,3 +1,12 @@
+## 2026-04-19 19:09 UTC
+
+- 新增: `llamacpp-b8850.md` — llama.cpp b8850，推测解码检查点、Adreno GPU 优化
+- 更新: `index.json` (325 titles)
+- 更新: `mkdocs.yml` nav
+- 来源: GitHub API, RSS (Google AI, DeepMind, HuggingFace, Wired, IEEE 等)
+- 去重: 跳过 15 个已知标题 (GitHub releases, RSS 噪音)
+- 备注: 周日 arXiv RSS/API 返回 0 条目，仅有 llama.cpp b8850 一个新版本
+
 
 ## 2026-04-19 12:30 Wiki Update
 - 新增 2 个页面（2 个新标题，去重跳过 27 个已知标题）
