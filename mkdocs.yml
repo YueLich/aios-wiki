@@ -93,6 +93,7 @@ nav:
       - "NanoWakeWord 唤醒词训练": entities/nanowakeword-wake-word.md
       - "Transformers → MLX 转换": concepts/transformers-to-mlx.md
       - "EdgeDiT: 硬件感知 DiT 端侧图像生成": entities/edgedit.md
+      - "SHIELD: 分层分段内存架构 LLM 推理": entities/shield-hierarchical-memory-llm.md
       - "Kampala: MITM 逆向工程代理": entities/kampala-reverse-engineering.md
     - 端侧模型:
       - "Gemma 4 AICore": entities/gemma4-aicore.md
@@ -193,6 +194,7 @@ nav:
       - "Memento-Skills: Agent 设计 Agent": concepts/memento-skills-agent-design.md
       - "SensorPersona: 移动传感器持续人格提取": concepts/sensorpersona-mobile-sensor-persona.md
       - "PlugMem: 任务无关插件记忆": concepts/plugmem-plugin-memory.md
+      - "Trust Your Memory: LLM 增强记忆智能家居控制": concepts/trust-your-memory-smart-home.md
 
     - 🔧 工具调用与执行:
       - "端侧 vs 云端: Agentic 工具调用实战": concepts/on-device-vs-cloud-agentic-tool-calling.md
@@ -206,6 +208,7 @@ nav:
       - "MoPHES: 端侧 LLM 移动心理健康 Agent": concepts/mophes-ondevice-mental-health.md
       - "端侧 vs 云端 Agent工具调用对比": concepts/ondevice-vs-cloud-agentic-tool-calling.md
       - "A1gent: 面向 Open RAN 的可审计 Agent 控制": concepts/a1gent-agentic-open-ran.md
+      - "Self-adaptive MEC: 自适应边缘架构机器人": concepts/self-adaptive-mec-robotics.md
 
     - 🤝 多 Agent 协作:
       - "EmoMAS: 情感感知的边缘协商": concepts/emommas-edge-negotiation.md
@@ -325,6 +328,8 @@ nav:
       - "Bouncer: 端侧 LLM 社交信息流治理": concepts/bouncer-ondevice-feed-curator.md
       - "MCU 端侧单目深度估计": concepts/ondevice-depth-mcu-learning.md
       - "RoboPocket: 手机改进机器人策略": concepts/robopocket.md
+      - "智能手机地震预警用户感知": concepts/smartphone-eew-user-perception.md
+      - "AoE: 始终在线第一人称视频具身AI": concepts/aoe-egocentric-video-embodied.md
       - "PropGen: LLM 驱动移动端应用属性测试": concepts/propgen-mobile-testing.md
       - "Google A2UI 生成式 UI 标准": concepts/google-a2ui-standard.md
     - "GUI-Perturbed: GUI Grounding 系统性脆弱性": concepts/gui-perturbed-grounding-brittleness.md

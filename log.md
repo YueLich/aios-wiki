@@ -978,3 +978,12 @@ format: reverse-chronological
   - `pairzero-edge-llm-finetuning.md` — pAirZero 边缘 LLM 联邦微调 (arXiv 2604.12401)
   - `google-a2ui-standard.md` — Google A2UI 生成式 UI 标准 (The Decoder)
 - **Note**: arXiv RSS returned 0 items (Sunday); relied on API queries
+
+## 2026-04-19 Wiki Update
+- Sources: arXiv API (10 queries), GitHub releases (5 repos)
+- New pages: 5
+  - shield-hierarchical-memory-llm
+  - trust-your-memory-smart-home
+  - smartphone-eew-user-perception
+  - self-adaptive-mec-robotics
+  - aoe-egocentric-video-embodied

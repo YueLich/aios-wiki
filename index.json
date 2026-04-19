@@ -318,7 +318,12 @@
     "On-Device AI Models Might Be the Next Reason to Upgrade Your iPhone",
     "From Characterization to Microarchitecture: Designing an Elegant and Reliable BFP-Based NPU",
     "pAirZero: Solving the Communication-Memory-Privacy Trilemma in LLM Fine-tuning Over Wireless Networks",
-    "Google A2UI: Generative UI Standard for AI Agents"
+    "Google A2UI: Generative UI Standard for AI Agents",
+    "SHIELD: A Segmented Hierarchical Memory Architecture for Energy-Efficient LLM Inference on Resource-Constrained Edge Devices",
+    "Trust Your Memory: Verifiable Control of Smart Homes through Reinforcement Learning with LLM-Augmented Memory",
+    "Leveraging LLMs and Social Media to Understand User Perception of Smartphone-Based Earthquake Early Warnings",
+    "Self-adaptive Multi-Access Edge Architectures: A Robotics Case",
+    "AoE: Always-on Egocentric Human Video Collection for Embodied AI"
   ],
   "known_topics": [
     "memory-worth-governance",
