@@ -213,6 +213,7 @@ nav:
         - "KL 散度量化: SSM-Transformer 混合精度": concepts/kl-quantization-ssm-transformer.md
         - "DeFakeQ: 双向量化边缘 Deepfake 检测": concepts/defakeq-edge-deepfake.md
         - "DeFakeQ: 端侧 Deepfake 检测部署": concepts/defakeq-edge-deepfake-detection.md
+        - "代码本初始化: 极低比特 LLM 量化优化": concepts/codebook-init-extreme-llm-quantization.md
       - "AIPC: Qualcomm 部署 Agent 自动化": concepts/aipc-qualcomm-deployment-agent.md
       - 内存与效率:
         - "压缩感知动态缩减: 推理感知结构化剪枝": concepts/compressed-sensing-dynamic-reduction.md
@@ -283,6 +284,7 @@ nav:
         - "Gemini 个性化图像生成 (Nano Banana 2)": concepts/gemini-personalized-images-nanobanana.md
         - "Edge AI 裂缝分割：能效优化案例研究": concepts/edge-ai-crack-segmentation.md
         - "DFR-Gemma: 端侧地理空间推理": concepts/dfr-gemma-geospatial-reasoning.md
+      - "T2T: 加密流量描述手机活动": concepts/t2t-captioning-smartphone-activities.md
       - "RoboPocket: 手机改进机器人策略": concepts/robopocket.md
     - "GUI-Perturbed: GUI Grounding 系统性脆弱性": concepts/gui-perturbed-grounding-brittleness.md
 

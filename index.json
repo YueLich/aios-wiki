@@ -250,7 +250,9 @@
     "Google I/O 2026: Livestream Schedule Revealed",
     "Pushing the Limits of On-Device Streaming ASR: A Compact, High-Accuracy English Model for Low-Latency CPU Inference",
     "Exploring Expert Perspectives on Wearable-Triggered LLM Conversational Support for Daily Stress Management",
-    "Gemini 3.1 Flash TTS: the next generation of expressive AI speech"
+    "Gemini 3.1 Flash TTS: the next generation of expressive AI speech",
+    "Initialisation Determines the Basin: Efficient Codebook Optimisation for Extreme LLM Quantization",
+    "T2T: Captioning Smartphone Activities Using Mobile Traffic"
   ],
   "known_topics": [
     "memory-worth-governance",

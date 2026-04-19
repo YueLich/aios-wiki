@@ -750,3 +750,10 @@ format: reverse-chronological
 - **Google I/O 2026**: 开发者大会日程发布，5月19-20日
 
 统计：扫描 113 条，过滤后 24 条，去重后 3 条新增
+
+## 2026-04-19_00:39
+- 新增 2 个概念页面：
+  - 代码本初始化对极低比特 LLM 量化的决定性影响 (codebook-init-extreme-llm-quantization)
+  - T2T：从加密移动流量描述智能手机用户活动 (t2t-captioning-smartphone-activities)
+- 更新 index.json (253 titles)
+- 更新 mkdocs.yml nav
