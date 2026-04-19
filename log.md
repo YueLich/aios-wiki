@@ -1,4 +1,15 @@
 
+## 2026-04-19 09:30 Wiki Update (定时增量)
+
+**新增页面（2）**:
+- `concepts/snn-quantization-beyond-accuracy.md` — SNN 量化超越准确率：脉冲发放分布作为量化效果的隐藏指标
+- `concepts/dash-q-ultralowbit-llm-quantization.md` — DASH-Q：对角 Hessian 近似 + 迭代加权最小二乘的鲁棒超低位 LLM PTQ
+
+**来源**: arXiv API (2), GitHub releases (4, 均已去重)
+**筛选**: 91 raw → 42 Stage-1 → 14 after dedup → 2 genuinely new
+**修复**: mkdocs.yml Fast-HaMeR 条目缩进错误
+
+
 ## 2026-04-19_03:39
 - 新增 5 个 wiki 页面:
   - KnowU-Bench: 个性化移动Agent评估基准 (concepts/knowu-bench-mobile-agent-eval.md)

@@ -224,6 +224,8 @@ nav:
         - "DeFakeQ: 端侧 Deepfake 检测部署": concepts/defakeq-edge-deepfake-detection.md
         - "代码本初始化: 极低比特 LLM 量化优化": concepts/codebook-init-extreme-llm-quantization.md
         - "INT4 量化崩溃: FP32 收敛后的量化失效": concepts/int4-quantization-collapse.md
+        - "SNN 量化：超越准确率的评估": concepts/snn-quantization-beyond-accuracy.md
+        - "DASH-Q：鲁棒超低位 LLM 量化": concepts/dash-q-ultralowbit-llm-quantization.md
       - "AIPC: Qualcomm 部署 Agent 自动化": concepts/aipc-qualcomm-deployment-agent.md
       - 内存与效率:
         - "压缩感知动态缩减: 推理感知结构化剪枝": concepts/compressed-sensing-dynamic-reduction.md
@@ -255,7 +257,7 @@ nav:
       - "LLM Inference at the Edge: Mobile, NPU, GPU 性能权衡": concepts/llm-inference-edge-mobile-npu-gpu.md
       - "DAT: 双感知自适应传输优化多模态 LLM 推理": concepts/dat-adaptive-transmission-multimodal.md
       - "热力学扩散推理: 模拟硬件 10000x 能效突破": concepts/thermodynamic-diffusion-inference.md
-    - "Fast-HaMeR: 知识蒸馏加速手部重建": concepts/fast-hamer.md
+      - "Fast-HaMeR: 知识蒸馏加速手部重建": concepts/fast-hamer.md
       - "移动端 NPU 测试时计算扩展": concepts/scaling-llm-npu-mobile.md
       - "ANVIL NPU 视频插帧": concepts/anvil-video-interpolation-npu.md
       - "轻量化 Transformer 边缘部署综述": concepts/lightweight-transformer-edge-deployment.md

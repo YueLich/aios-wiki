@@ -274,7 +274,11 @@
     "On-Device vs Cloud LLMs for Agentic Tool Calling in a Real iOS App",
     "Qiaohu: offline multimodal voice assistant on Snapdragon 8 Gen 2",
     "Sova AI: Android AI agent-assistant operating your apps",
-    "Bouncer: Control your X/Twitter feed using a small on-device LLM"
+    "Bouncer: Control your X/Twitter feed using a small on-device LLM",
+    "Quantization of Spiking Neural Networks Beyond Accuracy",
+    "Robust Ultra Low-Bit Post-Training Quantization via Stable Diagonal Curvature Estimate",
+    "DASH-Q: Robust Ultra Low-Bit PTQ",
+    "apple/coremltools: 9.0b1"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -335,8 +339,8 @@
   ],
   "last_update": "2026-04-19",
   "last_updated": "2026-04-19",
-  "total_pages": 125,
-  "page_count": 127,
+  "total_pages": 12,
+  "page_count": 12,
   "pages": [
     {
       "title": "SkillDroid: Compile Once, Reuse Forever",
@@ -395,6 +399,18 @@
     {
       "title": "Driftwood: Apple Silicon 零拷贝 GPU 推理",
       "slug": "driftwood-zero-copy-apple-silicon",
+      "created": "2026-04-19",
+      "type": "concept"
+    },
+    {
+      "title": "SNN 量化：超越准确率的评估",
+      "slug": "snn-quantization-beyond-accuracy",
+      "created": "2026-04-19",
+      "type": "concept"
+    },
+    {
+      "title": "DASH-Q：基于稳定对角曲率估计的鲁棒超低位后训练量化",
+      "slug": "dash-q-ultralowbit-llm-quantization",
       "created": "2026-04-19",
       "type": "concept"
     }
