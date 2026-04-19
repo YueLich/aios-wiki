@@ -258,6 +258,7 @@ nav:
       - "移动端 NPU 测试时计算扩展": concepts/scaling-llm-npu-mobile.md
       - "ANVIL NPU 视频插帧": concepts/anvil-video-interpolation-npu.md
       - "轻量化 Transformer 边缘部署综述": concepts/lightweight-transformer-edge-deployment.md
+      - "Orion: Apple Neural Engine LLM 训练推理": concepts/orion-apple-neural-engine-llm.md
 
     # ── 维度三：硬件与平台 ──
     - 🏭 硬件与平台:

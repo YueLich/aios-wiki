@@ -838,3 +838,11 @@ format: reverse-chronological
 - Stage 2 高相关性过滤后：28 项
 - 四层去重后新增：3 项
 - 噪声率：~97%（25/28 为已知/重复内容）
+
+## 2026-04-19 Wiki Update
+
+- **新增页面**: Orion: Apple Neural Engine LLM 训练推理 (concepts/orion-apple-neural-engine-llm)
+  - arXiv: 2603.06728
+  - 关键发现: 首个开源系统在 ANE 上实现 LLM 推理+训练，GPT-2 170+ tok/s
+- **来源**: arXiv API (coreml+llm, neural engine queries), 量子位, GitHub releases
+- **去重**: 跳过已处理的 270 个标题，1 个新页面

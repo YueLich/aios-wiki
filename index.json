@@ -269,7 +269,8 @@
     "Imp: Highly Capable Large Multimodal Models for Mobile Devices",
     "轻量化 Transformer 边缘部署综述",
     "ANVIL NPU 视频插帧",
-    "人工三元智能 ATI"
+    "人工三元智能 ATI",
+    "Orion: Characterizing and Programming Apple's Neural Engine for LLM Training and Inference"
   ],
   "known_topics": [
     "memory-worth-governance",
