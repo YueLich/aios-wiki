@@ -868,3 +868,12 @@ format: reverse-chronological
   - Bouncer 端侧 LLM 信息流治理 (concepts/bouncer-ondevice-feed-curator)
 - **去重**: 跳过 26 个已知标题
 - **GitHub 更新**: llama.cpp b8840, ComputeLibrary v53.0.0 (已有页面，跳过创建)
+
+## 2026-04-19 (cron)
+- **新增**: 3 个 wiki 页面
+  - `entities/phi4-reasoning-vision.md` — Phi-4-reasoning-vision-15B：微软 15B 多模态推理模型
+  - `concepts/plugmem-plugin-memory.md` — PlugMem：任务无关插件记忆模块
+  - `concepts/agentrx-debugging.md` — AgentRx：AI Agent 系统化调试框架
+- **来源**: arXiv API, Microsoft Research Blog, DeepMind Blog, Hacker News
+- **去重**: 110 raw → 48 stage-1 → 27 stage-2 → 3 new (after 4-layer dedup)
+- **注意**: 周日 arXiv RSS 返回 0 entries，主要依赖 API 查询 + 博客 RSS

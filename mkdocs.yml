@@ -102,6 +102,7 @@ nav:
       - "HuoziIME: 端侧 LLM 增强输入法": entities/huoziime-ondevice-ime.md
       - "LiteRT + Swift iOS": entities/litertlm-swift-ios.md
       - "Imp: 移动端高性能多模态模型": entities/imp-mobile-lmm.md
+      - "Phi-4-reasoning-vision-15B": entities/phi4-reasoning-vision.md
     - 设备与平台:
       - iPhone 17e: entities/iphone-17e.md
       - Google AI Edge Gallery: entities/google-ai-edge-gallery.md
@@ -143,6 +144,7 @@ nav:
       - "OpenMobile: 开放移动 Agent 数据合成": concepts/openmobile-agent-data-synthesis.md
       - "Long-Horizon Task Mirage: 长程任务失败诊断": concepts/long-horizon-task-mirage.md
       - "人工三元智能 ATI": concepts/artificial-tripartite-intelligence.md
+      - "AgentRx: Agent 系统化调试": concepts/agentrx-debugging.md
 
     - 👁️ 感知与理解:
       - GUI 感知:
@@ -180,6 +182,7 @@ nav:
       - "MemGround: 游戏化 LLM 长期记忆评估": concepts/memground-benchmark.md
       - "Memento-Skills: Agent 设计 Agent": concepts/memento-skills-agent-design.md
       - "SensorPersona: 移动传感器持续人格提取": concepts/sensorpersona-mobile-sensor-persona.md
+      - "PlugMem: 任务无关插件记忆": concepts/plugmem-plugin-memory.md
 
     - 🔧 工具调用与执行:
       - "端侧 vs 云端: Agentic 工具调用实战": concepts/on-device-vs-cloud-agentic-tool-calling.md

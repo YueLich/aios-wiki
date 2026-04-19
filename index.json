@@ -278,7 +278,10 @@
     "Quantization of Spiking Neural Networks Beyond Accuracy",
     "Robust Ultra Low-Bit Post-Training Quantization via Stable Diagonal Curvature Estimate",
     "DASH-Q: Robust Ultra Low-Bit PTQ",
-    "apple/coremltools: 9.0b1"
+    "apple/coremltools: 9.0b1",
+    "Phi-4-reasoning-vision-15B",
+    "PlugMem: A Task-Agnostic Plugin Memory Module for LLM Agents",
+    "AgentRx: Systematic debugging for AI agents"
   ],
   "known_topics": [
     "memory-worth-governance",
