@@ -1050,3 +1050,12 @@ format: reverse-chronological
 - Enriched visionclaw-wearable-agent.md with arXiv paper source (2604.03486v2)
 - Added bystander privacy insight from paper discussion section
 - No new pages (arXiv RSS returned 0 items — weekend; 3 filtered items were duplicates or irrelevant)
+
+## 2026-04-20 02:30 - Wiki Update
+- **新增**: 4 篇
+  - ggml-org/llama.cpp: b8851 (GitHub release)
+  - Lightweight Transformer Architectures for Edge Devices (arXiv 2601.03290)
+  - GreenFLag: Energy-Efficient FL (arXiv 2603.29933)
+  - LEAN-3D: Mobile Point Cloud Codec (arXiv 2604.04737)
+- **来源**: arXiv API, GitHub Releases, RSS Feeds
+- **去重**: 334 known → 4 new after dedup

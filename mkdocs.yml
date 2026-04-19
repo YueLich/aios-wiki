@@ -83,6 +83,7 @@ nav:
       - "llama.cpp b8846": entities/llamacpp-b8846.md
       - "llama.cpp b8849": entities/llamacpp-b8849.md
       - "llama.cpp b8850": entities/llamacpp-b8850.md
+      - "llama.cpp b8851": entities/llamacpp-b8851.md
       - "ARM ComputeLibrary v53.0.0": entities/arm-computelibrary-v53.md
       - MNN 3.5.0: entities/mnn-350.md
       - coremltools 9.0: entities/coremltools-9.md
@@ -287,6 +288,7 @@ nav:
       - "轻量化 Transformer 边缘部署综述": concepts/lightweight-transformer-edge-deployment.md
       - "Orion: Apple Neural Engine LLM 训练推理": concepts/orion-apple-neural-engine-llm.md
       - "pAirZero: 边缘 LLM 联邦微调": concepts/pairzero-edge-llm-finetuning.md
+      - "轻量级 Transformer 边缘部署综述": concepts/lightweight-transformer-edge-survey.md
 
     # ── 维度三：硬件与平台 ──
     - 🏭 硬件与平台:
@@ -296,6 +298,7 @@ nav:
         - "可持续性权衡: 性能-能耗-隐私": concepts/sustainability-ondevice-intelligence.md
         - MCU 端侧全网络训练: concepts/biotrain-ondevice-finetuning-mcu.md
         - 模块化边缘数据中心: concepts/modular-edge-datacenters.md
+        - "GreenFLag: 绿色 Agent 节能联邦学习": concepts/greenflag-energy-efficient-fl.md
       - 芯片与加速器:
         - "EdgeCIM: 边缘存算一体协同设计": concepts/edgecim-hardware-codesign.md
         - RL 驱动 ASIC 架构探索: concepts/rl-asic-exploration.md
@@ -328,6 +331,7 @@ nav:
         - "Gemini 个性化图像生成 (Nano Banana 2)": concepts/gemini-personalized-images-nanobanana.md
         - "Edge AI 裂缝分割：能效优化案例研究": concepts/edge-ai-crack-segmentation.md
         - "DFR-Gemma: 端侧地理空间推理": concepts/dfr-gemma-geospatial-reasoning.md
+        - "LEAN-3D: 移动端低延迟点云编解码器": concepts/lean-3d-mobile-point-cloud.md
         - "Google A2UI: Agent 驱动生成式 UI 标准": concepts/google-a2ui-generative-ui.md
       - "T2T: 加密流量描述手机活动": concepts/t2t-captioning-smartphone-activities.md
       - "Bouncer: 端侧 LLM 社交信息流治理": concepts/bouncer-ondevice-feed-curator.md

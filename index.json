@@ -333,7 +333,11 @@
     "Google launches generative UI standard for AI agents",
     "A-IO: Adaptive Inference Orchestration for Memory-Bound NPUs",
     "MUXQ: Mixed-to-Uniform Precision MatriX Quantization via Low-Rank Outlier Decomposition",
-    "VisionClaw: Always-On AI Agents through Smart Glasses"
+    "VisionClaw: Always-On AI Agents through Smart Glasses",
+    "ggml-org/llama.cpp: b8851",
+    "Lightweight Transformer Architectures for Edge Devices in Real-Time Applications",
+    "GreenFLag: A Green Agentic Approach for Energy-Efficient Federated Learning",
+    "LEAN-3D: Low-latency Hierarchical Point Cloud Codec for Mobile 3D Streaming"
   ],
   "known_topics": [
     "memory-worth-governance",
