@@ -987,3 +987,9 @@ format: reverse-chronological
   - smartphone-eew-user-perception
   - self-adaptive-mec-robotics
   - aoe-egocentric-video-embodied
+
+## 2026-04-19 17:34
+- 扫描: arXiv API (5 queries), GitHub releases (5 repos), Tech RSS (5 feeds), HN
+- 收集: 77 items → 36 stage-1 → 24 stage-2 → 0 new after dedup
+- 原因: 所有标题均已存在于 index.json 或已有对应 wiki 页面
+- Sunday arXiv RSS: 0 entries (周末跳过)
