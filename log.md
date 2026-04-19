@@ -1,4 +1,15 @@
 
+## 2026-04-19 Wiki Update
+
+**新增页面（3）**:
+- `concepts/on-device-streaming-asr-compact.md` — 端侧流式 ASR 系统化评估，int4 量化 0.67GB + CPU 8.20% WER
+- `concepts/wearable-triggered-llm-stress.md` — 穿戴设备触发 LLM 心理支持设计研究，15 位专家访谈
+- `entities/gemini-31-flash-tts.md` — Gemini 3.1 Flash TTS，音频标签控制语音风格，70+ 语言
+
+**来源**: arXiv API (2), Google AI Blog (1)
+**去重**: 109 items → 3 new after 4-layer dedup + keyword filter
+
+
 ## 2026-04-19 - Incremental Update
 
 **新增 3 个页面**：

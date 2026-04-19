@@ -247,7 +247,10 @@
     "Enabling Intrinsic Reasoning over Dense Geospatial Embeddings with DFR-Gemma",
     "ggml-org/llama.cpp: b8840",
     "Implementing Grassroots Logic Programs with Multiagent Transition Systems and AI",
-    "Google I/O 2026: Livestream Schedule Revealed"
+    "Google I/O 2026: Livestream Schedule Revealed",
+    "Pushing the Limits of On-Device Streaming ASR: A Compact, High-Accuracy English Model for Low-Latency CPU Inference",
+    "Exploring Expert Perspectives on Wearable-Triggered LLM Conversational Support for Daily Stress Management",
+    "Gemini 3.1 Flash TTS: the next generation of expressive AI speech"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -304,7 +307,7 @@
     "llamacpp-b8837"
   ],
   "last_update": "2026-04-19",
-  "last_updated": "2026-04-18",
+  "last_updated": "2026-04-19",
   "total_pages": 122,
   "page_count": 124,
   "pages": [

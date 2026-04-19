@@ -202,6 +202,7 @@ nav:
     # ── 维度二：推理与优化技术栈 ──
     - ⚡ 推理优化:
       - "端侧推理优化技术": concepts/edge-optimization.md
+      - "Pushing the Limits of On-Device Streaming ASR": concepts/on-device-streaming-asr-compact.md
       - "DharmaOCR: 面向结构化 OCR 的专用 SLM": concepts/dharmaocr-specialized-slm-ocr.md
       - "LLM 数值不稳定性与混沌性": concepts/llm-numerical-instability.md
       - TrigReason 触发式推理协作: concepts/trigreason-trigger-collaboration.md
@@ -263,6 +264,7 @@ nav:
     # ── 维度四：应用场景 ──
     - 🎯 应用场景:
       - "Google I/O 2026 开发者大会": entities/google-io-2026.md
+      - "Wearable-Triggered LLM 心理支持": concepts/wearable-triggered-llm-stress.md
       - 音频与多媒体:
         - Gemma 4 音频处理 (MLX): concepts/gemma4-audio-mlx.md
         - "MeloTune: 端侧音乐推荐 Agent": concepts/melotune-ondevice-music.md
