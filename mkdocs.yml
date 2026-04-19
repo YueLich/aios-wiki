@@ -119,6 +119,7 @@ nav:
       - Paddle-Lite v2.14: entities/paddle-lite-v214.md
       - "Android 硬件推理优化: YOLO/ResNet 异构加速": entities/android-inference-hardware-optimization.md
       - "EdgeDetect: 联邦入侵检测梯度压缩": entities/edgedetect-federated-intrusion-detection.md
+      - "Qiaohu: 离线多模态语音助手 (Snapdragon 8 Gen 2)": entities/qiaohu-offline-multimodal-assistant.md
 
   # ═══════ 概念：按 Agent 系统架构组织 ═══════
   - 概念:
@@ -298,6 +299,7 @@ nav:
         - "Edge AI 裂缝分割：能效优化案例研究": concepts/edge-ai-crack-segmentation.md
         - "DFR-Gemma: 端侧地理空间推理": concepts/dfr-gemma-geospatial-reasoning.md
       - "T2T: 加密流量描述手机活动": concepts/t2t-captioning-smartphone-activities.md
+      - "Bouncer: 端侧 LLM 社交信息流治理": concepts/bouncer-ondevice-feed-curator.md
       - "RoboPocket: 手机改进机器人策略": concepts/robopocket.md
     - "GUI-Perturbed: GUI Grounding 系统性脆弱性": concepts/gui-perturbed-grounding-brittleness.md
 

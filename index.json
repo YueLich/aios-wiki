@@ -270,7 +270,11 @@
     "轻量化 Transformer 边缘部署综述",
     "ANVIL NPU 视频插帧",
     "人工三元智能 ATI",
-    "Orion: Characterizing and Programming Apple's Neural Engine for LLM Training and Inference"
+    "Orion: Characterizing and Programming Apple's Neural Engine for LLM Training and Inference",
+    "On-Device vs Cloud LLMs for Agentic Tool Calling in a Real iOS App",
+    "Qiaohu: offline multimodal voice assistant on Snapdragon 8 Gen 2",
+    "Sova AI: Android AI agent-assistant operating your apps",
+    "Bouncer: Control your X/Twitter feed using a small on-device LLM"
   ],
   "known_topics": [
     "memory-worth-governance",

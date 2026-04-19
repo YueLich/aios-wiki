@@ -846,3 +846,14 @@ format: reverse-chronological
   - 关键发现: 首个开源系统在 ANE 上实现 LLM 推理+训练，GPT-2 170+ tok/s
 - **来源**: arXiv API (coreml+llm, neural engine queries), 量子位, GitHub releases
 - **去重**: 跳过已处理的 270 个标题，1 个新页面
+
+## 2026-04-19 Wiki Update
+
+- **来源**: Hacker News, SubraLabs, GitHub, RSS feeds
+- **新增页面**: 4 个
+  - On-Device vs Cloud LLMs for Agentic Tool Calling (concepts/on-device-vs-cloud-agentic-tool-calling)
+  - Qiaohu 离线多模态语音助手 (entities/qiaohu-offline-multimodal-assistant)
+  - Sova AI Android App 操控 Agent (concepts/sova-ai-android-app-agent)
+  - Bouncer 端侧 LLM 信息流治理 (concepts/bouncer-ondevice-feed-curator)
+- **去重**: 跳过 26 个已知标题
+- **GitHub 更新**: llama.cpp b8840, ComputeLibrary v53.0.0 (已有页面，跳过创建)
