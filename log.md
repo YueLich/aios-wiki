@@ -804,3 +804,8 @@ format: reverse-chronological
 - Sources scanned: arXiv RSS (5 feeds) + arXiv API (5 queries) + GitHub (6 repos)
 - 41 items collected → 28 stage-1 → 19 stage-2 → 0 genuinely new (1 page enriched)
 - Note: dedup gap identified — title format mismatch between API (short title) and index.json (prefixed title) caused Layer 1 miss
+
+## 2026-04-19 Wiki Update
+- Added: Anonymization-Enhanced Privacy Protection for Mobile GUI Agents: Available but Invisible
+  - Source: arXiv:2602.10139
+  - Type: concept (GUI Agent privacy)

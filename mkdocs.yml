@@ -167,6 +167,7 @@ nav:
       - "Memory Worth: 记忆治理原语": concepts/memory-worth-governance.md
       - "Memp: Agent 过程性记忆探索": concepts/memp-agent-procedural-memory.md
       - "GUI Agent 隐私保护: 轨迹偏好优化": concepts/gui-agent-privacy.md
+      - "Anonymization-Enhanced GUI Agent 隐私保护": concepts/anonymization-gui-agent-privacy.md
       - "MobiFlow: 轨迹融合的真实世界基准": concepts/mobiflow-benchmark.md
       - "RePAIR: 交互式机器遗忘修复": concepts/repair-interactive-unlearning.md
       - SUMMER 多模态记忆: concepts/summer-multimodal-memory.md

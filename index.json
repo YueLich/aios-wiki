@@ -82,8 +82,8 @@
     "Modality-Native Routing in Agent-to-Agent Networks: A Multimodal A2A Protocol Extension",
     "Multimodal Embedding & Reranker Models with Sentence Transformers",
     "NVIDIA/TensorRT-LLM: v1.2.0",
-    "NanoWakeWord – Open-source wake word training for any device",
-    "NavixMind – open-source Android agent that runs Python locally",
+    "NanoWakeWord \u2013 Open-source wake word training for any device",
+    "NavixMind \u2013 open-source Android agent that runs Python locally",
     "Networking-Aware Energy Efficiency in Agentic AI Inference: A Survey",
     "New ways to balance cost and reliability in the Gemini API",
     "Nous Research's NousCoder-14B is an open-source coding model landing right in the Claude Code moment",
@@ -154,7 +154,7 @@
     "Chain of Modality: From Static Fusion to Dynamic Orchestration in Omni-MLLMs",
     "The AI Data Centers That Fit on a Truck (Modular Edge Data Centers)",
     "Android Studio supports Gemma 4: our most capable local model for agentic coding",
-    "Memorable – On-device AI search for iPhone photos, videos, screenshots",
+    "Memorable \u2013 On-device AI search for iPhone photos, videos, screenshots",
     "New ways to create personalized images in the Gemini app",
     "MemGround: Long-Term Memory Evaluation Kit for Large Language Models in Gamified Scenarios",
     "Enabling Agents to Communicate Entirely in Latent Space",
@@ -262,7 +262,8 @@
     "LiteRTLM-Swift: Swift package for running LiteRT-LM models on iOS",
     "Sova AI - AI Assistant for Your Phone",
     "Xybrid: Run LLMs, ASR, and TTS natively in apps and games",
-    "NanoWakeWord: Open-source wake word training for any device"
+    "NanoWakeWord: Open-source wake word training for any device",
+    "Anonymization-Enhanced Privacy Protection for Mobile GUI Agents: Available but Invisible"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -351,13 +352,13 @@
       "created": "2026-04-18"
     },
     {
-      "title": "SpecGuard: 验证感知的投机解码框架",
+      "title": "SpecGuard: \u9a8c\u8bc1\u611f\u77e5\u7684\u6295\u673a\u89e3\u7801\u6846\u67b6",
       "slug": "specguard-speculative-decoding",
       "created": "2026-04-19",
       "type": "concept"
     },
     {
-      "title": "K-Token Merging: 潜在空间 Token 压缩",
+      "title": "K-Token Merging: \u6f5c\u5728\u7a7a\u95f4 Token \u538b\u7f29",
       "slug": "k-token-merging-latent-compression",
       "created": "2026-04-19",
       "type": "concept"
@@ -369,19 +370,19 @@
       "created": "2026-04-19"
     },
     {
-      "title": "MoPHES: 端侧 LLM 驱动的移动心理健康评估与支持",
+      "title": "MoPHES: \u7aef\u4fa7 LLM \u9a71\u52a8\u7684\u79fb\u52a8\u5fc3\u7406\u5065\u5eb7\u8bc4\u4f30\u4e0e\u652f\u6301",
       "slug": "mophes-ondevice-mental-health",
       "created": "2026-04-19",
       "type": "concept"
     },
     {
-      "title": "INT4 量化崩溃：FP32 收敛后的量化失效机制",
+      "title": "INT4 \u91cf\u5316\u5d29\u6e83\uff1aFP32 \u6536\u655b\u540e\u7684\u91cf\u5316\u5931\u6548\u673a\u5236",
       "slug": "int4-quantization-collapse",
       "created": "2026-04-19",
       "type": "concept"
     },
     {
-      "title": "Driftwood: Apple Silicon 零拷贝 GPU 推理",
+      "title": "Driftwood: Apple Silicon \u96f6\u62f7\u8d1d GPU \u63a8\u7406",
       "slug": "driftwood-zero-copy-apple-silicon",
       "created": "2026-04-19",
       "type": "concept"
