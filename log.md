@@ -884,3 +884,9 @@ format: reverse-chronological
 - **来源**: arXiv API, Microsoft Research Blog, DeepMind Blog, Hacker News
 - **去重**: 110 raw → 48 stage-1 → 27 stage-2 → 3 new (after 4-layer dedup)
 - **注意**: 周日 arXiv RSS 返回 0 entries，主要依赖 API 查询 + 博客 RSS
+
+## 2026-04-19 08:14
+- 新增: VisionClaw 可穿戴 Agent（概念页）
+- 来源: The Decoder, arXiv API, RSS (149 items scanned)
+- 去重: 142 items skipped (282 known titles + 225 existing pages)
+- 新页面: 1

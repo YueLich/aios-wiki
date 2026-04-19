@@ -283,7 +283,8 @@
     "PlugMem: A Task-Agnostic Plugin Memory Module for LLM Agents",
     "AgentRx: Systematic debugging for AI agents",
     "Google A2UI: Agent-driven generative UI standard",
-    "Kampala (YC W26): Reverse-engineer apps into APIs"
+    "Kampala (YC W26): Reverse-engineer apps into APIs",
+    "VisionClaw: 始终在线的可穿戴 AI Agent (Ray-Ban Meta + OpenClaw)"
   ],
   "known_topics": [
     "memory-worth-governance",

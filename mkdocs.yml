@@ -330,6 +330,7 @@ nav:
       - "Android CLI Agent 开发工具": concepts/android-cli-agentic-development.md
       - AromaGen 可穿戴嗅觉 LLM: concepts/aromagen-wearable-olfactory-llm.md
       - LLM 健康数据理解老年患者: concepts/llm-health-data-sensemaking-older-adults.md
+      - VisionClaw 可穿戴 Agent: concepts/visionclaw-wearable-agent.md
 
   - 对比: comparisons/index.md
   - 速查: queries/index.md
