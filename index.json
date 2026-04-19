@@ -294,7 +294,9 @@
     "ggml-org/llama.cpp: b8841",
     "ggml-org/llama.cpp: b8843",
     "Google A2UI 0.9 — AI Agent 生成式 UI 标准",
-    "iPhone 17e — Apple 新一代入门旗舰"
+    "iPhone 17e — Apple 新一代入门旗舰",
+    "Strix: Re-thinking NPU Reliability from a System Perspective",
+    "Multi-modal On-Device Learning for Monocular Depth Estimation on Ultra-low-power MCUs"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -354,8 +356,8 @@
     "driftwood-zero-copy-apple-silicon"
   ],
   "last_update": "2026-04-19",
-  "last_updated": "2026-04-19T14:30:00Z",
-  "total_pages": 12,
+  "last_updated": "2026-04-19",
+  "total_pages": 14,
   "page_count": 12,
   "pages": [
     {
@@ -427,6 +429,18 @@
     {
       "title": "DASH-Q：基于稳定对角曲率估计的鲁棒超低位后训练量化",
       "slug": "dash-q-ultralowbit-llm-quantization",
+      "created": "2026-04-19",
+      "type": "concept"
+    },
+    {
+      "title": "Strix: Re-thinking NPU Reliability from a System Perspective",
+      "slug": "strix-npu-reliability",
+      "created": "2026-04-19",
+      "type": "concept"
+    },
+    {
+      "title": "Multi-modal On-Device Learning for Monocular Depth Estimation on Ultra-low-power MCUs",
+      "slug": "ondevice-depth-mcu-learning",
       "created": "2026-04-19",
       "type": "concept"
     }

@@ -7,6 +7,21 @@
 - 注意：arXiv RSS 0 entries（周日），主要依赖 API 查询
 
 
+## 2026-04-19 - 增量更新
+
+### 新增页面
+- concepts/strix-npu-reliability.md — Strix: NPU 可靠性全栈框架（微架构+ISA+编程方法三层保护，性能损失仅1.07×）
+- concepts/ondevice-depth-mcu-learning.md — MCU 端侧单目深度估计（多模态端侧学习，超低功耗IoT设备）
+
+### 来源
+- arXiv API: Strix (2604.10484), OnDeviceDepth (2512.00086)
+- arXiv RSS: 周日无内容（预期行为）
+- GitHub: llama.cpp b8843 已追踪（cmake 修复，非功能更新）
+
+### 统计
+- 扫描: ~133 raw items → 2 new after dedup
+- 已知标题: 297
+
 ## 2026-04-19 Wiki Update
 - **New pages**: 2
   - `concepts/google-a2ui-generative-ui.md` — Google A2UI v0.9 generative UI standard for AI agents

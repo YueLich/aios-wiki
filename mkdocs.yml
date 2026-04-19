@@ -285,6 +285,7 @@ nav:
         - "EdgeCIM: 边缘存算一体协同设计": concepts/edgecim-hardware-codesign.md
         - RL 驱动 ASIC 架构探索: concepts/rl-asic-exploration.md
         - LSTM 步态 ASIC 实时加速器: concepts/lstm-gait-asic-accelerator.md
+        - "Strix: NPU 可靠性全栈框架": concepts/strix-npu-reliability.md
         - "ATI: 仿生传感器优先具身 AI": concepts/ati-physical-ai.md
       - "Gearbox-PHY 能效优化移动通信": concepts/gearbox-phy-energy-mobile.md
 
@@ -314,6 +315,7 @@ nav:
         - "Google A2UI: Agent 驱动生成式 UI 标准": concepts/google-a2ui-generative-ui.md
       - "T2T: 加密流量描述手机活动": concepts/t2t-captioning-smartphone-activities.md
       - "Bouncer: 端侧 LLM 社交信息流治理": concepts/bouncer-ondevice-feed-curator.md
+      - "MCU 端侧单目深度估计": concepts/ondevice-depth-mcu-learning.md
       - "RoboPocket: 手机改进机器人策略": concepts/robopocket.md
     - "GUI-Perturbed: GUI Grounding 系统性脆弱性": concepts/gui-perturbed-grounding-brittleness.md
 
