@@ -966,3 +966,15 @@ format: reverse-chronological
 - GitHub: 7 repos checked, all releases already known
 - **Result: 0 genuinely new pages created** (dedup working correctly)
 - 现有页面 VisionClaw 已在之前运行中创建
+
+## 2026-04-19 16:37 - Wiki Update
+
+- **Sources scanned**: arXiv API (10 queries), RSS feeds (8), GitHub releases (6), HN (4 queries)
+- **Raw items collected**: 135
+- **After keyword filter**: 53 → 28 (two-stage)
+- **After dedup**: 3 genuinely new (114 stage-1 items, 4-layer dedup)
+- **New pages**:
+  - `bfp-npu-reliability.md` — BFP NPU 可靠性协同设计 (arXiv 2604.10494)
+  - `pairzero-edge-llm-finetuning.md` — pAirZero 边缘 LLM 联邦微调 (arXiv 2604.12401)
+  - `google-a2ui-standard.md` — Google A2UI 生成式 UI 标准 (The Decoder)
+- **Note**: arXiv RSS returned 0 items (Sunday); relied on API queries

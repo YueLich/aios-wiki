@@ -278,6 +278,7 @@ nav:
       - "ANVIL NPU 视频插帧": concepts/anvil-video-interpolation-npu.md
       - "轻量化 Transformer 边缘部署综述": concepts/lightweight-transformer-edge-deployment.md
       - "Orion: Apple Neural Engine LLM 训练推理": concepts/orion-apple-neural-engine-llm.md
+      - "pAirZero: 边缘 LLM 联邦微调": concepts/pairzero-edge-llm-finetuning.md
 
     # ── 维度三：硬件与平台 ──
     - 🏭 硬件与平台:
@@ -294,6 +295,7 @@ nav:
         - "Strix: NPU 可靠性全栈框架": concepts/strix-npu-reliability.md
         - "ATI: 仿生传感器优先具身 AI": concepts/ati-physical-ai.md
       - "Gearbox-PHY 能效优化移动通信": concepts/gearbox-phy-energy-mobile.md
+      - "BFP NPU 可靠性协同设计": entities/bfp-npu-reliability.md
 
     # ── 维度四：应用场景 ──
     - 🎯 应用场景:
@@ -324,6 +326,7 @@ nav:
       - "MCU 端侧单目深度估计": concepts/ondevice-depth-mcu-learning.md
       - "RoboPocket: 手机改进机器人策略": concepts/robopocket.md
       - "PropGen: LLM 驱动移动端应用属性测试": concepts/propgen-mobile-testing.md
+      - "Google A2UI 生成式 UI 标准": concepts/google-a2ui-standard.md
     - "GUI-Perturbed: GUI Grounding 系统性脆弱性": concepts/gui-perturbed-grounding-brittleness.md
 
     # ── 安全与隐私（跨领域）──
