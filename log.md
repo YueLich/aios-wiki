@@ -1,4 +1,11 @@
 
+## 2026-04-19 Wiki Update
+- **New pages**: 2
+  - `concepts/google-a2ui-generative-ui.md` — Google A2UI v0.9 generative UI standard for AI agents
+  - `entities/kampala-reverse-engineering.md` — Kampala MITM proxy for reverse engineering apps into APIs
+- **Sources**: arXiv API, Google AI, The Decoder, HN
+- **Dedup**: 280 known titles, 18 skipped
+
 ## 2026-04-19 09:30 Wiki Update (定时增量)
 
 **新增页面（2）**:

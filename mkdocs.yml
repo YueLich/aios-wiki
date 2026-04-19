@@ -89,6 +89,7 @@ nav:
       - "NanoWakeWord 唤醒词训练": entities/nanowakeword-wake-word.md
       - "Transformers → MLX 转换": concepts/transformers-to-mlx.md
       - "EdgeDiT: 硬件感知 DiT 端侧图像生成": entities/edgedit.md
+      - "Kampala: MITM 逆向工程代理": entities/kampala-reverse-engineering.md
     - 端侧模型:
       - "Gemma 4 AICore": entities/gemma4-aicore.md
       - "Gemini 3.1 Flash-Lite": entities/gemini-31-flash-lite.md
@@ -303,6 +304,7 @@ nav:
         - "Gemini 个性化图像生成 (Nano Banana 2)": concepts/gemini-personalized-images-nanobanana.md
         - "Edge AI 裂缝分割：能效优化案例研究": concepts/edge-ai-crack-segmentation.md
         - "DFR-Gemma: 端侧地理空间推理": concepts/dfr-gemma-geospatial-reasoning.md
+        - "Google A2UI: Agent 驱动生成式 UI 标准": concepts/google-a2ui-generative-ui.md
       - "T2T: 加密流量描述手机活动": concepts/t2t-captioning-smartphone-activities.md
       - "Bouncer: 端侧 LLM 社交信息流治理": concepts/bouncer-ondevice-feed-curator.md
       - "RoboPocket: 手机改进机器人策略": concepts/robopocket.md

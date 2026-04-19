@@ -281,7 +281,9 @@
     "apple/coremltools: 9.0b1",
     "Phi-4-reasoning-vision-15B",
     "PlugMem: A Task-Agnostic Plugin Memory Module for LLM Agents",
-    "AgentRx: Systematic debugging for AI agents"
+    "AgentRx: Systematic debugging for AI agents",
+    "Google A2UI: Agent-driven generative UI standard",
+    "Kampala (YC W26): Reverse-engineer apps into APIs"
   ],
   "known_topics": [
     "memory-worth-governance",
