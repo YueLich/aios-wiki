@@ -183,6 +183,7 @@ nav:
       - "GAAT: 治理感知的 Agent 遥测架构": concepts/gaat-agent-governance.md
       - Cloudflare Agent Cloud + OpenAI: concepts/cloudflare-agent-cloud-openai.md
       - "Multi-Turn Reasoning LLMs for Task Offloading in MEC": concepts/multi-turn-reasoning-task-offloading.md
+      - "MoPHES: 端侧 LLM 移动心理健康 Agent": concepts/mophes-ondevice-mental-health.md
 
     - 🤝 多 Agent 协作:
       - "EmoMAS: 情感感知的边缘协商": concepts/emommas-edge-negotiation.md
@@ -207,6 +208,7 @@ nav:
       - "LLM 数值不稳定性与混沌性": concepts/llm-numerical-instability.md
       - TrigReason 触发式推理协作: concepts/trigreason-trigger-collaboration.md
       - "SpecGuard: 验证感知投机解码": concepts/specguard-speculative-decoding.md
+      - "Driftwood: Apple Silicon 零拷贝 GPU 推理": concepts/driftwood-zero-copy-apple-silicon.md
       - 模型量化:
         - KV-Cache 自适应量化: concepts/kv-cache-quantization-ondevice.md
         - SEPTQ 后训练量化: concepts/septq-post-training-quantization.md
@@ -214,6 +216,7 @@ nav:
         - "DeFakeQ: 双向量化边缘 Deepfake 检测": concepts/defakeq-edge-deepfake.md
         - "DeFakeQ: 端侧 Deepfake 检测部署": concepts/defakeq-edge-deepfake-detection.md
         - "代码本初始化: 极低比特 LLM 量化优化": concepts/codebook-init-extreme-llm-quantization.md
+        - "INT4 量化崩溃: FP32 收敛后的量化失效": concepts/int4-quantization-collapse.md
       - "AIPC: Qualcomm 部署 Agent 自动化": concepts/aipc-qualcomm-deployment-agent.md
       - 内存与效率:
         - "压缩感知动态缩减: 推理感知结构化剪枝": concepts/compressed-sensing-dynamic-reduction.md

@@ -1,4 +1,20 @@
 
+## 2026-04-19 Wiki Update (增量更新)
+
+**新增页面（3）**:
+- `concepts/mophes-ondevice-mental-health.md` — MoPHES: 端侧 MiniCPM4-0.5B 移动心理健康 Agent，LoRA 微调 + 双模型评估/对话架构
+- `concepts/int4-quantization-collapse.md` — INT4 量化崩溃：FP32 收敛后 INT4 困惑度差距可达 517%，INT8 始终 <1%——端侧量化部署警示
+- `concepts/driftwood-zero-copy-apple-silicon.md` — Driftwood: Apple Silicon Wasm→Metal 零拷贝 GPU 推理，UMA 架构下指针同一性验证
+
+**来源**: Semantic Scholar API (1), arXiv API (1), HackerNews (1)
+**去重**: 92 items → 4-layer dedup → 24 Stage-1 → 3 new after Stage-2 high-relevance filter
+**关键洞察**:
+- MoPHES 验证 0.5B 端侧模型可做心理健康多轮对话，隐私刚需驱动端侧部署
+- INT4 量化崩溃研究提示端侧 INT4 部署需关注模型训练阶段，SGDR 重启反而恶化
+- Driftwood 验证 Apple Silicon UMA 下 Wasm 沙箱零拷贝推理可行，对有状态 KV-Cache 推理有价值
+
+---
+
 ## 2026-04-19 Wiki Update
 
 **新增页面（3）**:

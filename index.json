@@ -252,7 +252,10 @@
     "Exploring Expert Perspectives on Wearable-Triggered LLM Conversational Support for Daily Stress Management",
     "Gemini 3.1 Flash TTS: the next generation of expressive AI speech",
     "Initialisation Determines the Basin: Efficient Codebook Optimisation for Extreme LLM Quantization",
-    "T2T: Captioning Smartphone Activities Using Mobile Traffic"
+    "T2T: Captioning Smartphone Activities Using Mobile Traffic",
+    "MoPHES: Leveraging on-device LLMs as Agent for Mobile Psychological Health Evaluation and Support",
+    "When Flat Minima Fail: Characterizing INT4 Quantization Collapse After FP32 Convergence",
+    "Zero-Copy GPU Inference from WebAssembly on Apple Silicon"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -306,12 +309,15 @@
     "llamacpp-b8815",
     "specguard-speculative-decoding",
     "k-token-merging-latent-compression",
-    "llamacpp-b8837"
+    "llamacpp-b8837",
+    "mophes-ondevice-mental-health",
+    "int4-quantization-collapse",
+    "driftwood-zero-copy-apple-silicon"
   ],
   "last_update": "2026-04-19",
   "last_updated": "2026-04-19",
-  "total_pages": 122,
-  "page_count": 124,
+  "total_pages": 125,
+  "page_count": 127,
   "pages": [
     {
       "title": "SkillDroid: Compile Once, Reuse Forever",
@@ -354,6 +360,24 @@
       "file": "entities/llamacpp-b8837.md",
       "type": "entity",
       "created": "2026-04-19"
+    },
+    {
+      "title": "MoPHES: 端侧 LLM 驱动的移动心理健康评估与支持",
+      "slug": "mophes-ondevice-mental-health",
+      "created": "2026-04-19",
+      "type": "concept"
+    },
+    {
+      "title": "INT4 量化崩溃：FP32 收敛后的量化失效机制",
+      "slug": "int4-quantization-collapse",
+      "created": "2026-04-19",
+      "type": "concept"
+    },
+    {
+      "title": "Driftwood: Apple Silicon 零拷贝 GPU 推理",
+      "slug": "driftwood-zero-copy-apple-silicon",
+      "created": "2026-04-19",
+      "type": "concept"
     }
   ]
 }
