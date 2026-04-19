@@ -809,3 +809,13 @@ format: reverse-chronological
 - Added: Anonymization-Enhanced Privacy Protection for Mobile GUI Agents: Available but Invisible
   - Source: arXiv:2602.10139
   - Type: concept (GUI Agent privacy)
+
+## 2026-04-19 Wiki Update
+
+**新增页面 (3):**
+- `entities/edgedit.md` — EdgeDiT: 硬件感知 DiT 端侧图像生成 (arXiv 2603.28405)
+- `entities/imp-mobile-lmm.md` — Imp: 移动端高性能多模态模型 (arXiv 2405.12107)
+- `concepts/scaling-llm-npu-mobile.md` — 移动端 NPU 测试时计算扩展 (arXiv 2509.23324)
+
+**来源:** arXiv API targeted queries
+**索引:** 267 titles (+3)

@@ -88,6 +88,7 @@ nav:
       - "NanoWakeWord: 唤醒词训练框架": entities/nanowakeword.md
       - "NanoWakeWord 唤醒词训练": entities/nanowakeword-wake-word.md
       - "Transformers → MLX 转换": concepts/transformers-to-mlx.md
+      - "EdgeDiT: 硬件感知 DiT 端侧图像生成": entities/edgedit.md
     - 端侧模型:
       - "Gemma 4 AICore": entities/gemma4-aicore.md
       - "Gemini 3.1 Flash-Lite": entities/gemini-31-flash-lite.md
@@ -100,6 +101,7 @@ nav:
       - "Gemma 4 Android Studio Agent Mode": entities/gemma4-android-studio-agent.md
       - "HuoziIME: 端侧 LLM 增强输入法": entities/huoziime-ondevice-ime.md
       - "LiteRT + Swift iOS": entities/litertlm-swift-ios.md
+      - "Imp: 移动端高性能多模态模型": entities/imp-mobile-lmm.md
     - 设备与平台:
       - iPhone 17e: entities/iphone-17e.md
       - Google AI Edge Gallery: entities/google-ai-edge-gallery.md
@@ -252,6 +254,7 @@ nav:
       - "DAT: 双感知自适应传输优化多模态 LLM 推理": concepts/dat-adaptive-transmission-multimodal.md
       - "热力学扩散推理: 模拟硬件 10000x 能效突破": concepts/thermodynamic-diffusion-inference.md
     - "Fast-HaMeR: 知识蒸馏加速手部重建": concepts/fast-hamer.md
+      - "移动端 NPU 测试时计算扩展": concepts/scaling-llm-npu-mobile.md
 
     # ── 维度三：硬件与平台 ──
     - 🏭 硬件与平台:
