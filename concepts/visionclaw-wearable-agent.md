@@ -7,8 +7,12 @@ sources:
     title: "Always-on Ray-Ban Meta glasses powered by OpenClaw speed up everyday tasks in new study"
     date: 2026-04-19
     reliability: high
+  - url: http://arxiv.org/abs/2604.03486v2
+    title: "VisionClaw: Always-On AI Agents through Smart Glasses"
+    date: 2026-04-03
+    reliability: high
 created: 2026-04-19
-updated: 2026-04-19
+updated: 2026-04-20
 ---
 
 # VisionClaw: 始终在线的可穿戴 AI Agent
@@ -90,6 +94,8 @@ VisionClaw 由三个核心组件构成：
 **感知-执行耦合的乘法效应**：单独的感知或单独的 Agent 执行都不能产生显著的用户体验提升。只有当两者耦合时（VisionClaw），才出现 13-37% 的速度提升。这说明**感知能力和行动能力之间存在非线性的协同效应**。
 
 **硬件限制是当前最大瓶颈**：眼镜摄像头对小物体/文件的识别准确率不足，导致笔记任务成功率仅 58%。这与 [[secagent-mobile-gui]] 在手机 GUI 理解中面临的挑战类似——视觉感知精度直接影响 Agent 执行质量。
+
+**旁观者隐私的特殊挑战**：论文讨论部分指出，与被动的生命记录摄像头不同，VisionClaw 能对所见内容进行行动——"那个人可能在录我"和"那个人的 AI 可能正在识别并搜索我"之间存在质的区别。研究者预判社会适应可能从始终在线的音频开始（而非视频），因为音频在电池续航和形态上更优。
 
 **隐私与持续感知的张力**：始终在线的摄像头和麦克风引发了隐私担忧。系统需要在持续感知的效用和用户隐私之间找到平衡——这与 [[agent-persistent-identity]] 中讨论的 Agent 数据持久化问题相呼应。
 

@@ -1045,3 +1045,8 @@ format: reverse-chronological
 - entities/shield-hierarchical-memory-llm.md — SHIELD 内存架构 (2604.07396) — 已有覆盖
 
 来源: arXiv API 定向查询 (周日 RSS 0 条)
+
+## 2026-04-20 02:00
+- Enriched visionclaw-wearable-agent.md with arXiv paper source (2604.03486v2)
+- Added bystander privacy insight from paper discussion section
+- No new pages (arXiv RSS returned 0 items — weekend; 3 filtered items were duplicates or irrelevant)
