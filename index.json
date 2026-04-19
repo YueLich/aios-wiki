@@ -266,7 +266,10 @@
     "Anonymization-Enhanced Privacy Protection for Mobile GUI Agents: Available but Invisible",
     "EdgeDiT: Hardware-Aware Diffusion Transformers for Efficient On-Device Image Generation",
     "Scaling LLM Test-Time Compute with Mobile NPU on Smartphones",
-    "Imp: Highly Capable Large Multimodal Models for Mobile Devices"
+    "Imp: Highly Capable Large Multimodal Models for Mobile Devices",
+    "轻量化 Transformer 边缘部署综述",
+    "ANVIL NPU 视频插帧",
+    "人工三元智能 ATI"
   ],
   "known_topics": [
     "memory-worth-governance",

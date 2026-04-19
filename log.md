@@ -819,3 +819,22 @@ format: reverse-chronological
 
 **来源:** arXiv API targeted queries
 **索引:** 267 titles (+3)
+
+## 2026-04-19 — Wiki 增量更新
+
+**新增页面（3 个）**：
+- `concepts/lightweight-transformer-edge-deployment.md` — 轻量化 Transformer 边缘部署综述（arXiv 2601.03290）
+- `concepts/anvil-video-interpolation-npu.md` — ANVIL NPU 视频插帧（arXiv 2603.26835）
+- `concepts/artificial-tripartite-intelligence.md` — 人工三元智能 ATI（arXiv 2604.13959）
+
+**来源**：
+- arXiv API targeted queries (5 standard + 5 round 2)
+- RSS feeds (Google AI, The Decoder, HuggingFace, Simon Willison, Wired, VentureBeat, Apple ML, DeepMind)
+- GitHub releases (llama.cpp b8840, MNN 3.5.0, etc.)
+
+**去重统计**：
+- 总采集：92 项（RSS 77 + API 15）
+- Stage 1 关键词过滤后：47 项
+- Stage 2 高相关性过滤后：28 项
+- 四层去重后新增：3 项
+- 噪声率：~97%（25/28 为已知/重复内容）

@@ -141,6 +141,7 @@ nav:
       - "移动 Agent 生态摩擦: Play 政策与第三方助手": concepts/mobile-agent-ecosystem-friction.md
       - "OpenMobile: 开放移动 Agent 数据合成": concepts/openmobile-agent-data-synthesis.md
       - "Long-Horizon Task Mirage: 长程任务失败诊断": concepts/long-horizon-task-mirage.md
+      - "人工三元智能 ATI": concepts/artificial-tripartite-intelligence.md
 
     - 👁️ 感知与理解:
       - GUI 感知:
@@ -255,6 +256,8 @@ nav:
       - "热力学扩散推理: 模拟硬件 10000x 能效突破": concepts/thermodynamic-diffusion-inference.md
     - "Fast-HaMeR: 知识蒸馏加速手部重建": concepts/fast-hamer.md
       - "移动端 NPU 测试时计算扩展": concepts/scaling-llm-npu-mobile.md
+      - "ANVIL NPU 视频插帧": concepts/anvil-video-interpolation-npu.md
+      - "轻量化 Transformer 边缘部署综述": concepts/lightweight-transformer-edge-deployment.md
 
     # ── 维度三：硬件与平台 ──
     - 🏭 硬件与平台:
