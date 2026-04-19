@@ -248,6 +248,7 @@ nav:
         - "INT4 量化崩溃: FP32 收敛后的量化失效": concepts/int4-quantization-collapse.md
         - "SNN 量化：超越准确率的评估": concepts/snn-quantization-beyond-accuracy.md
         - "DASH-Q：鲁棒超低位 LLM 量化": concepts/dash-q-ultralowbit-llm-quantization.md
+        - "MUXQ: 低秩离群值分解 INT8 均匀量化": concepts/muxq-quantization.md
       - "AIPC: Qualcomm 部署 Agent 自动化": concepts/aipc-qualcomm-deployment-agent.md
       - 内存与效率:
         - "压缩感知动态缩减: 推理感知结构化剪枝": concepts/compressed-sensing-dynamic-reduction.md
@@ -281,6 +282,7 @@ nav:
       - "热力学扩散推理: 模拟硬件 10000x 能效突破": concepts/thermodynamic-diffusion-inference.md
       - "Fast-HaMeR: 知识蒸馏加速手部重建": concepts/fast-hamer.md
       - "移动端 NPU 测试时计算扩展": concepts/scaling-llm-npu-mobile.md
+      - "A-IO: 内存受限 NPU 自适应推理编排": concepts/a-io-adaptive-inference.md
       - "ANVIL NPU 视频插帧": concepts/anvil-video-interpolation-npu.md
       - "轻量化 Transformer 边缘部署综述": concepts/lightweight-transformer-edge-deployment.md
       - "Orion: Apple Neural Engine LLM 训练推理": concepts/orion-apple-neural-engine-llm.md

@@ -1033,3 +1033,15 @@ format: reverse-chronological
 - 来源: The Decoder, a2ui.org
 - arXiv RSS 0 条（周日休刊）, API 15 条, RSS 87 条, GitHub 5 条
 - 去重后新增 1 页
+
+## 2026-04-20 Wiki Update
+
+新增页面:
+- concepts/a-io-adaptive-inference.md — A-IO: 面向内存受限 NPU 的自适应推理编排 (arXiv 2604.09752)
+- concepts/muxq-quantization.md — MUXQ: 低秩离群值分解的混合到均匀精度矩阵量化 (arXiv 2604.04701)
+
+已有页面确认（无需更新）:
+- entities/ondevice-streaming-asr.md — 端侧流式 ASR (2604.14493) — 已有完整覆盖
+- entities/shield-hierarchical-memory-llm.md — SHIELD 内存架构 (2604.07396) — 已有覆盖
+
+来源: arXiv API 定向查询 (周日 RSS 0 条)

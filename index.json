@@ -330,7 +330,9 @@
     "Challenges and Future Directions in Agentic Reverse Engineering Systems",
     "A new way to express yourself: Gemini can now create music",
     "Accelerating Mathematical and Scientific Discovery with Gemini Deep Think",
-    "Google launches generative UI standard for AI agents"
+    "Google launches generative UI standard for AI agents",
+    "A-IO: Adaptive Inference Orchestration for Memory-Bound NPUs",
+    "MUXQ: Mixed-to-Uniform Precision MatriX Quantization via Low-Rank Outlier Decomposition"
   ],
   "known_topics": [
     "memory-worth-governance",
