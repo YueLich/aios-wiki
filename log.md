@@ -1002,3 +1002,28 @@ format: reverse-chronological
 - 收集: 77 items → 36 stage-1 → 24 stage-2 → 0 new after dedup
 - 原因: 所有标题均已存在于 index.json 或已有对应 wiki 页面
 - Sunday arXiv RSS: 0 entries (周末跳过)
+
+## 2026-04-19 22:30 — Wiki Update
+
+**Source yield**: 174 raw items → 65 stage-1 → 32 stage-2 → 7 relevant → 5 new pages
+**Note**: Sunday run — arXiv RSS returned 0 entries (skipDays), compensated with API + extra feeds
+
+### New Pages
+| Page | Type | Source |
+|------|------|--------|
+| App Store AI 驱动增长 | concept | TechCrunch |
+| Nano Banana 2: Pro 级速度与质量 | entity | DeepMind Blog |
+| Agentic 逆向工程系统 | concept | arXiv:2604.14317 |
+| Lyria 3: Gemini 音乐生成 | entity | DeepMind Blog |
+| Gemini Deep Think 深度推理模式 | entity | DeepMind Blog |
+
+### Fixes
+- Restored orphaned nav entries (Gemini 3.1 Pro, Gemini 3.1 Deep Think) to correct 端侧模型 section
+- Updated index.json (325 → 330 titles)
+
+### Skipped (duplicates or irrelevant)
+- OpenAI Blog (403 blocked from cloud IPs)
+- UrbanClipAtlas, POMDP, 5G Baseband, MyoVision, MADE, NotebookLM (not mobile AI relevant)
+
+---
+

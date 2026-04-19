@@ -111,6 +111,11 @@ nav:
       - "LiteRT + Swift iOS": entities/litertlm-swift-ios.md
       - "Imp: 移动端高性能多模态模型": entities/imp-mobile-lmm.md
       - "Phi-4-reasoning-vision-15B": entities/phi4-reasoning-vision.md
+      - "Nano Banana 2: Pro 级速度与质量图像生成": entities/nano-banana-2-imagegen.md
+      - "Lyria 3: Gemini 音乐生成": entities/lyria-3-gemini-music.md
+      - "Gemini Deep Think 深度推理模式": entities/gemini-deep-think-reasoning.md
+      - "Gemini 3.1 Pro: 旗舰智能模型": entities/gemini-31-pro.md
+      - "Gemini 3.1 Deep Think: 专业推理增强": entities/gemini-31-deep-think.md
     - 设备与平台:
       - iPhone 17e: entities/iphone-17e.md
       - Google AI Edge Gallery: entities/google-ai-edge-gallery.md
@@ -134,8 +139,6 @@ nav:
 
   # ═══════ 概念：按 Agent 系统架构组织 ═══════
   - 概念:
-  - "Gemini 3.1 Pro: 旗舰智能模型": entities/gemini-31-pro.md
-  - "Gemini 3.1 Deep Think: 专业推理增强": entities/gemini-31-deep-think.md
     - 概念总览: concepts/index.md
     - "Mobile AIOS 全景概述": concepts/mobile-aios-overview.md
     - "Apple Intelligence": concepts/apple-intelligence.md
