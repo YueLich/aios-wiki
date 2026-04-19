@@ -115,6 +115,7 @@ nav:
       - NaviMind: entities/navixmind.md
       - Paddle-Lite v2.14: entities/paddle-lite-v214.md
       - "Android 硬件推理优化: YOLO/ResNet 异构加速": entities/android-inference-hardware-optimization.md
+      - "EdgeDetect: 联邦入侵检测梯度压缩": entities/edgedetect-federated-intrusion-detection.md
 
   # ═══════ 概念：按 Agent 系统架构组织 ═══════
   - 概念:
@@ -309,6 +310,8 @@ nav:
       - "P-GRPO 个性化偏好对齐": concepts/personalized-grpo-alignment.md
       - "VAKRA Agent 失败模式分析": concepts/vakra-agent-failure-modes.md
       - "Android CLI Agent 开发工具": concepts/android-cli-agentic-development.md
+      - AromaGen 可穿戴嗅觉 LLM: concepts/aromagen-wearable-olfactory-llm.md
+      - LLM 健康数据理解老年患者: concepts/llm-health-data-sensemaking-older-adults.md
 
   - 对比: comparisons/index.md
   - 速查: queries/index.md

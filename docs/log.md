@@ -276,3 +276,18 @@ tags: []
 - 新增: [[memory-worth-governance]] — Memory Worth 记忆治理原语 (arXiv:2604.12007)
 - 新增: [[llamacpp-b8809]] — llama.cpp b8809 SYCL Q8_0 重排序修复
 - 来源: arXiv cs.AI RSS, GitHub releases
+
+## 2026-04-19 05:00 - Wiki Update
+
+**新增 3 篇内容：**
+
+### 实体
+- **EdgeDetect** (2604.14663) — 联邦入侵检测梯度压缩：32× 通信压缩 + Paillier 同态加密，Raspberry Pi-4 部署验证（4.2MB 内存，0.8ms 延迟）
+
+### 概念
+- **AromaGen** (2604.01650) — 多模态 LLM 驱动的可穿戴嗅觉界面，12 种基础气味剂 + 颈挂式扩散器
+- **LLM 健康数据理解** (2603.23733) — 老年心血管病患者自我追踪日记研究，六大主题发现，LLM 健康数据理解设计方向
+
+**数据源：** arXiv RSS (cs.LG 15 条), arXiv API (15 条), 博客 RSS (67 条), GitHub releases (3)
+**过滤率：** 100 → 43 stage-1 → 19 stage-2 → 3 新增 (去重后)
+**已知标题：** 254 → 257

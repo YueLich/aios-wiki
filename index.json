@@ -255,7 +255,10 @@
     "T2T: Captioning Smartphone Activities Using Mobile Traffic",
     "MoPHES: Leveraging on-device LLMs as Agent for Mobile Psychological Health Evaluation and Support",
     "When Flat Minima Fail: Characterizing INT4 Quantization Collapse After FP32 Convergence",
-    "Zero-Copy GPU Inference from WebAssembly on Apple Silicon"
+    "Zero-Copy GPU Inference from WebAssembly on Apple Silicon",
+    "EdgeDetect: Importance-Aware Gradient Compression with Homomorphic Aggregation for Federated Intrusion Detection",
+    "AromaGen: Interactive Generation of Rich Olfactory Experiences with Multimodal Language Models",
+    "Exploring Self-Tracking Practices of Older Adults with CVD to Inform the Design of LLM-Enabled Health Data Sensemaking"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -315,7 +318,7 @@
     "driftwood-zero-copy-apple-silicon"
   ],
   "last_update": "2026-04-19",
-  "last_updated": "2026-04-19",
+  "last_updated": "2026-04-19T05:00:00Z",
   "total_pages": 125,
   "page_count": 127,
   "pages": [
