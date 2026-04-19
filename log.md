@@ -949,3 +949,20 @@ format: reverse-chronological
 - Sources scanned: arXiv (0 — Sunday), RSS feeds (12), GitHub releases (6)
 - New pages: 3 (Gemini 3.1 Pro, Gemini 3.1 Deep Think, llama.cpp b8849)
 - Skipped (duplicate): 16 items
+
+## 2026-04-19 — Wiki Update
+
+- 新增 1 个概念页面: `visionclaw-always-on-wearable-agent.md`
+- 来源: The Decoder (VisionClaw research), HN trending
+- 备注: arXiv RSS 返回 0（周日），API 限流；主要来源为 RSS 和 HN
+- 扫描来源: arXiv (5 feeds, 0 items), GitHub (7 repos), RSS (12 feeds), HN (5 queries)
+- 过滤后: 59 stage-1 → 20 stage-2 → 1 new after dedup
+
+## 2026-04-19 19:00 — Wiki Update (Sunday)
+
+- arXiv: 0 items (Sunday skipDays), API rate-limited (HTTP 000/429)
+- RSS: 12 feeds fetched, keyword-filtered to 0 new relevant items
+- HN: 10 older on-device AI stories found (added to dedup index)
+- GitHub: 7 repos checked, all releases already known
+- **Result: 0 genuinely new pages created** (dedup working correctly)
+- 现有页面 VisionClaw 已在之前运行中创建
