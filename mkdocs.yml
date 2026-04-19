@@ -216,6 +216,7 @@ nav:
       - "Theory of Mind in Action: 指令推断与人机协作": concepts/theory-of-mind-action-instruction-inference.md
       - "MMA2A: 模态原生 A2A 路由": concepts/mma2a-modality-native-routing.md
       - "GLP: 智能手机多 Agent 逻辑编程": concepts/grassroots-logic-programs-smartphone-multiagent.md
+      - "CAMO: 多 Agent 因果发现框架": concepts/camo-agent-causal-discovery.md
 
     # ── 维度二：推理与优化技术栈 ──
     - ⚡ 推理优化:
