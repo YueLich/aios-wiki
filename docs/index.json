@@ -290,7 +290,19 @@
     "Huoziime: On-Device LLM-Enhanced Input Method for Deep Personalization",
     "Kitten TTS v0.8: Ultra-Lightweight On-Device Text-to-Speech",
     "Samsung Perplexity Browser: AI Integration",
-    "LiteRTLM-Swift: iOS On-Device LLM Framework"
+    "LiteRTLM-Swift: iOS On-Device LLM Framework",
+    "ggml-org/llama.cpp: b8841",
+    "ggml-org/llama.cpp: b8843",
+    "Google A2UI 0.9 — AI Agent 生成式 UI 标准",
+    "iPhone 17e — Apple 新一代入门旗舰",
+    "Strix: Re-thinking NPU Reliability from a System Perspective",
+    "Multi-modal On-Device Learning for Monocular Depth Estimation on Ultra-low-power MCUs",
+    "CAMO: An Agentic Framework for Automated Causal Discovery from Micro Behaviors to Macro Emergence in LLM Agent Simulations",
+    "ggml-org/llama.cpp: b8846",
+    "PropGen: LLM 驱动的移动端应用属性生成与测试",
+    "A1gent: 面向 Open RAN 的可审计 Agent 控制框架",
+    "From Exploration to Specification: LLM-Based Property Generation for Mobile App Testing",
+    "Agentic Open RAN: A Deterministic and Auditable Framework for Intent-Driven Radio Control"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -350,8 +362,8 @@
     "driftwood-zero-copy-apple-silicon"
   ],
   "last_update": "2026-04-19",
-  "last_updated": "2026-04-19T12:30:00Z",
-  "total_pages": 12,
+  "last_updated": "2026-04-19",
+  "total_pages": 14,
   "page_count": 12,
   "pages": [
     {
@@ -423,6 +435,18 @@
     {
       "title": "DASH-Q：基于稳定对角曲率估计的鲁棒超低位后训练量化",
       "slug": "dash-q-ultralowbit-llm-quantization",
+      "created": "2026-04-19",
+      "type": "concept"
+    },
+    {
+      "title": "Strix: Re-thinking NPU Reliability from a System Perspective",
+      "slug": "strix-npu-reliability",
+      "created": "2026-04-19",
+      "type": "concept"
+    },
+    {
+      "title": "Multi-modal On-Device Learning for Monocular Depth Estimation on Ultra-low-power MCUs",
+      "slug": "ondevice-depth-mcu-learning",
       "created": "2026-04-19",
       "type": "concept"
     }

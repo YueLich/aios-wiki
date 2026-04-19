@@ -202,6 +202,7 @@ nav:
       - "Multi-Turn Reasoning LLMs for Task Offloading in MEC": concepts/multi-turn-reasoning-task-offloading.md
       - "MoPHES: 端侧 LLM 移动心理健康 Agent": concepts/mophes-ondevice-mental-health.md
       - "端侧 vs 云端 Agent工具调用对比": concepts/ondevice-vs-cloud-agentic-tool-calling.md
+      - "A1gent: 面向 Open RAN 的可审计 Agent 控制": concepts/a1gent-agentic-open-ran.md
 
     - 🤝 多 Agent 协作:
       - "EmoMAS: 情感感知的边缘协商": concepts/emommas-edge-negotiation.md
@@ -319,6 +320,7 @@ nav:
       - "Bouncer: 端侧 LLM 社交信息流治理": concepts/bouncer-ondevice-feed-curator.md
       - "MCU 端侧单目深度估计": concepts/ondevice-depth-mcu-learning.md
       - "RoboPocket: 手机改进机器人策略": concepts/robopocket.md
+      - "PropGen: LLM 驱动移动端应用属性测试": concepts/propgen-mobile-testing.md
     - "GUI-Perturbed: GUI Grounding 系统性脆弱性": concepts/gui-perturbed-grounding-brittleness.md
 
     # ── 安全与隐私（跨领域）──

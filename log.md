@@ -935,3 +935,12 @@ format: reverse-chronological
 - 新增: iPhone 17e 实体页 (Apple 新一代入门旗舰)
 - 来源: The Decoder, Apple Newsroom, GitHub releases
 - 去重: 293 known → 2 new after filtering (135 raw → 56 stage1 → 43 stage2 → 12 new → 2 genuine)
+
+
+## 2026-04-19 14:58 Wiki 自动更新
+- 新增: PropGen — LLM 驱动的移动端应用属性生成与测试 (arXiv: 2604.13463)
+- 新增: A1gent — 面向 Open RAN 的可审计 Agent 控制框架 (arXiv: 2604.13384)
+- 来源: arXiv API (Round 1+2), RSS Feeds, GitHub releases, HN Algolia
+- 统计: 135 raw → 85 stage1 → 32 stage2 → 4 new → 2 genuine after dedup (arXiv RSS Sunday=0)
+- 去重跳过: VisionClaw, Google A2UI v0.9, On-Device vs Cloud LLMs, NanoWakeWord, RL-ASIC (existing rl-asic-exploration)
+- 总标题数: 303
