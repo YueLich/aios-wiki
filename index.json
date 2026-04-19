@@ -290,7 +290,8 @@
     "Huoziime: On-Device LLM-Enhanced Input Method for Deep Personalization",
     "Kitten TTS v0.8: Ultra-Lightweight On-Device Text-to-Speech",
     "Samsung Perplexity Browser: AI Integration",
-    "LiteRTLM-Swift: iOS On-Device LLM Framework"
+    "LiteRTLM-Swift: iOS On-Device LLM Framework",
+    "ggml-org/llama.cpp: b8841"
   ],
   "known_topics": [
     "memory-worth-governance",

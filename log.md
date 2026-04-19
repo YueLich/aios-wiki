@@ -909,3 +909,8 @@ format: reverse-chronological
 - LiteRTLM-Swift
 
 **Total titles in index:** 291
+
+## 2026-04-19 Wiki 自动更新
+- 新增: llama.cpp b8841 (RPC 传输层重构)
+- 来源: GitHub releases, arXiv API
+- 扫描: 30 条原始标题 → 1 条新增（去重率 97%）

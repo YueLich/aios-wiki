@@ -59,6 +59,7 @@ nav:
     - 实体总览: entities/index.md
     - 推理框架与工具链:
       - GGML 与 llama.cpp: entities/ggml-llamacpp-hf.md
+      - "llama.cpp b8841": entities/llamacpp-b8841.md
       - "llama.cpp b8833": entities/llamacpp-b8833.md
       - "llama.cpp b8836": entities/llamacpp-b8836.md
       - llama.cpp b8791: entities/llamacpp-b8791.md
