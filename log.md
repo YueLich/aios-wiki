@@ -1,4 +1,12 @@
 
+## 2026-04-19 12:30 Wiki Update
+- 新增 2 个页面（2 个新标题，去重跳过 27 个已知标题）
+- 实体：LifeDialBench（持续生活日志记忆评估基准）
+- 概念：Follow My Eyes（VLM 眼动预测后门攻击）
+- 来源：arXiv API, The Decoder RSS, GitHub Releases
+- 注意：arXiv RSS 0 entries（周日），主要依赖 API 查询
+
+
 ## 2026-04-19 Wiki Update
 - **New pages**: 2
   - `concepts/google-a2ui-generative-ui.md` — Google A2UI v0.9 generative UI standard for AI agents

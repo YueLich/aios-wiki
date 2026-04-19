@@ -178,7 +178,6 @@ nav:
       - "MobiFlow: 轨迹融合的真实世界基准": concepts/mobiflow-benchmark.md
       - "RePAIR: 交互式机器遗忘修复": concepts/repair-interactive-unlearning.md
       - SUMMER 多模态记忆: concepts/summer-multimodal-memory.md
-      - "LifeDialBench: Lifelog 记忆评估": concepts/lifedialbench-lifelog-memory.md
       - "SkillDroid: GUI 技能编译与重放": concepts/skilldroid-skill-compilation.md
       - "MemGround: 游戏化 LLM 长期记忆评估": concepts/memground-benchmark.md
       - "Memento-Skills: Agent 设计 Agent": concepts/memento-skills-agent-design.md
@@ -285,6 +284,7 @@ nav:
     # ── 维度四：应用场景 ──
     - 🎯 应用场景:
       - "Google I/O 2026 开发者大会": entities/google-io-2026.md
+      - "LifeDialBench: 持续生活日志记忆评估": entities/lifedialbench-lifelog-memory.md
       - "Wearable-Triggered LLM 心理支持": concepts/wearable-triggered-llm-stress.md
       - 音频与多媒体:
         - Gemma 4 音频处理 (MLX): concepts/gemma4-audio-mlx.md
@@ -331,6 +331,7 @@ nav:
       - AromaGen 可穿戴嗅觉 LLM: concepts/aromagen-wearable-olfactory-llm.md
       - LLM 健康数据理解老年患者: concepts/llm-health-data-sensemaking-older-adults.md
       - VisionClaw 可穿戴 Agent: concepts/visionclaw-wearable-agent.md
+      - "Follow My Eyes: VLM 眼动预测后门攻击": concepts/follow-my-eyes-vlm-backdoor.md
 
   - 对比: comparisons/index.md
   - 速查: queries/index.md

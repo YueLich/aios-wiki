@@ -284,7 +284,9 @@
     "AgentRx: Systematic debugging for AI agents",
     "Google A2UI: Agent-driven generative UI standard",
     "Kampala (YC W26): Reverse-engineer apps into APIs",
-    "VisionClaw: 始终在线的可穿戴 AI Agent (Ray-Ban Meta + OpenClaw)"
+    "VisionClaw: 始终在线的可穿戴 AI Agent (Ray-Ban Meta + OpenClaw)",
+    "Evaluating Memory Capability in Continuous Lifelog Scenario",
+    "Follow My Eyes: Backdoor Attacks on VLM-based Scanpath Prediction"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -344,7 +346,7 @@
     "driftwood-zero-copy-apple-silicon"
   ],
   "last_update": "2026-04-19",
-  "last_updated": "2026-04-19",
+  "last_updated": "2026-04-19T12:30:00Z",
   "total_pages": 12,
   "page_count": 12,
   "pages": [
