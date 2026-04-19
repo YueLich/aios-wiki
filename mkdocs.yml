@@ -122,6 +122,8 @@ nav:
       - "Android 硬件推理优化: YOLO/ResNet 异构加速": entities/android-inference-hardware-optimization.md
       - "EdgeDetect: 联邦入侵检测梯度压缩": entities/edgedetect-federated-intrusion-detection.md
       - "Qiaohu: 离线多模态语音助手 (Snapdragon 8 Gen 2)": entities/qiaohu-offline-multimodal-assistant.md
+      - Kitten TTS v0.8: entities/kitten-tts.md
+      - "Samsung 浏览器 Perplexity AI": entities/samsung-perplexity-browser.md
 
   # ═══════ 概念：按 Agent 系统架构组织 ═══════
   - 概念:
@@ -194,6 +196,7 @@ nav:
       - Cloudflare Agent Cloud + OpenAI: concepts/cloudflare-agent-cloud-openai.md
       - "Multi-Turn Reasoning LLMs for Task Offloading in MEC": concepts/multi-turn-reasoning-task-offloading.md
       - "MoPHES: 端侧 LLM 移动心理健康 Agent": concepts/mophes-ondevice-mental-health.md
+      - "端侧 vs 云端 Agent工具调用对比": concepts/ondevice-vs-cloud-agentic-tool-calling.md
 
     - 🤝 多 Agent 协作:
       - "EmoMAS: 情感感知的边缘协商": concepts/emommas-edge-negotiation.md

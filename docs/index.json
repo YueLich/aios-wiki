@@ -258,7 +258,39 @@
     "Zero-Copy GPU Inference from WebAssembly on Apple Silicon",
     "EdgeDetect: Importance-Aware Gradient Compression with Homomorphic Aggregation for Federated Intrusion Detection",
     "AromaGen: Interactive Generation of Rich Olfactory Experiences with Multimodal Language Models",
-    "Exploring Self-Tracking Practices of Older Adults with CVD to Inform the Design of LLM-Enabled Health Data Sensemaking"
+    "Exploring Self-Tracking Practices of Older Adults with CVD to Inform the Design of LLM-Enabled Health Data Sensemaking",
+    "LiteRTLM-Swift: Swift package for running LiteRT-LM models on iOS",
+    "Sova AI - AI Assistant for Your Phone",
+    "Xybrid: Run LLMs, ASR, and TTS natively in apps and games",
+    "NanoWakeWord: Open-source wake word training for any device",
+    "Anonymization-Enhanced Privacy Protection for Mobile GUI Agents: Available but Invisible",
+    "EdgeDiT: Hardware-Aware Diffusion Transformers for Efficient On-Device Image Generation",
+    "Scaling LLM Test-Time Compute with Mobile NPU on Smartphones",
+    "Imp: Highly Capable Large Multimodal Models for Mobile Devices",
+    "轻量化 Transformer 边缘部署综述",
+    "ANVIL NPU 视频插帧",
+    "人工三元智能 ATI",
+    "Orion: Characterizing and Programming Apple's Neural Engine for LLM Training and Inference",
+    "On-Device vs Cloud LLMs for Agentic Tool Calling in a Real iOS App",
+    "Qiaohu: offline multimodal voice assistant on Snapdragon 8 Gen 2",
+    "Sova AI: Android AI agent-assistant operating your apps",
+    "Bouncer: Control your X/Twitter feed using a small on-device LLM",
+    "Quantization of Spiking Neural Networks Beyond Accuracy",
+    "Robust Ultra Low-Bit Post-Training Quantization via Stable Diagonal Curvature Estimate",
+    "DASH-Q: Robust Ultra Low-Bit PTQ",
+    "apple/coremltools: 9.0b1",
+    "Phi-4-reasoning-vision-15B",
+    "PlugMem: A Task-Agnostic Plugin Memory Module for LLM Agents",
+    "AgentRx: Systematic debugging for AI agents",
+    "Google A2UI: Agent-driven generative UI standard",
+    "Kampala (YC W26): Reverse-engineer apps into APIs",
+    "VisionClaw: 始终在线的可穿戴 AI Agent (Ray-Ban Meta + OpenClaw)",
+    "Evaluating Memory Capability in Continuous Lifelog Scenario",
+    "Follow My Eyes: Backdoor Attacks on VLM-based Scanpath Prediction",
+    "Huoziime: On-Device LLM-Enhanced Input Method for Deep Personalization",
+    "Kitten TTS v0.8: Ultra-Lightweight On-Device Text-to-Speech",
+    "Samsung Perplexity Browser: AI Integration",
+    "LiteRTLM-Swift: iOS On-Device LLM Framework"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -318,9 +350,9 @@
     "driftwood-zero-copy-apple-silicon"
   ],
   "last_update": "2026-04-19",
-  "last_updated": "2026-04-19T05:00:00Z",
-  "total_pages": 125,
-  "page_count": 127,
+  "last_updated": "2026-04-19T12:30:00Z",
+  "total_pages": 12,
+  "page_count": 12,
   "pages": [
     {
       "title": "SkillDroid: Compile Once, Reuse Forever",
@@ -379,6 +411,18 @@
     {
       "title": "Driftwood: Apple Silicon 零拷贝 GPU 推理",
       "slug": "driftwood-zero-copy-apple-silicon",
+      "created": "2026-04-19",
+      "type": "concept"
+    },
+    {
+      "title": "SNN 量化：超越准确率的评估",
+      "slug": "snn-quantization-beyond-accuracy",
+      "created": "2026-04-19",
+      "type": "concept"
+    },
+    {
+      "title": "DASH-Q：基于稳定对角曲率估计的鲁棒超低位后训练量化",
+      "slug": "dash-q-ultralowbit-llm-quantization",
       "created": "2026-04-19",
       "type": "concept"
     }

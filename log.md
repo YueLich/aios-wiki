@@ -898,3 +898,14 @@ format: reverse-chronological
 - 来源: The Decoder, arXiv API, RSS (149 items scanned)
 - 去重: 142 items skipped (282 known titles + 225 existing pages)
 - 新页面: 1
+
+## 2026-04-19 Wiki Update
+
+**New pages:**
+- Huoziime: On-Device LLM-Enhanced Input Method
+- On-Device vs Cloud LLMs for Agentic Tool Calling
+- Kitten TTS v0.8
+- Samsung Perplexity Browser
+- LiteRTLM-Swift
+
+**Total titles in index:** 291

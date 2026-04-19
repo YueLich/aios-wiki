@@ -286,7 +286,11 @@
     "Kampala (YC W26): Reverse-engineer apps into APIs",
     "VisionClaw: 始终在线的可穿戴 AI Agent (Ray-Ban Meta + OpenClaw)",
     "Evaluating Memory Capability in Continuous Lifelog Scenario",
-    "Follow My Eyes: Backdoor Attacks on VLM-based Scanpath Prediction"
+    "Follow My Eyes: Backdoor Attacks on VLM-based Scanpath Prediction",
+    "Huoziime: On-Device LLM-Enhanced Input Method for Deep Personalization",
+    "Kitten TTS v0.8: Ultra-Lightweight On-Device Text-to-Speech",
+    "Samsung Perplexity Browser: AI Integration",
+    "LiteRTLM-Swift: iOS On-Device LLM Framework"
   ],
   "known_topics": [
     "memory-worth-governance",
