@@ -914,3 +914,9 @@ format: reverse-chronological
 - 新增: llama.cpp b8841 (RPC 传输层重构)
 - 来源: GitHub releases, arXiv API
 - 扫描: 30 条原始标题 → 1 条新增（去重率 97%）
+
+## 2026-04-19 15:00
+- 新增: Google A2UI 0.9 概念页 (generative UI standard for AI agents)
+- 新增: iPhone 17e 实体页 (Apple 新一代入门旗舰)
+- 来源: The Decoder, Apple Newsroom, GitHub releases
+- 去重: 293 known → 2 new after filtering (135 raw → 56 stage1 → 43 stage2 → 12 new → 2 genuine)

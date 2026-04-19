@@ -1,4 +1,5 @@
 site_name: 📱 Mobile AIOS Wiki
+    - iPhone 17e: entities/iphone-17e.md
 site_description: 手机端 AI 操作系统知识库
 site_url: https://yuelich.github.io/aios-wiki/
 repo_url: https://github.com/YueLich/aios-wiki
@@ -150,6 +151,7 @@ nav:
       - "Long-Horizon Task Mirage: 长程任务失败诊断": concepts/long-horizon-task-mirage.md
       - "人工三元智能 ATI": concepts/artificial-tripartite-intelligence.md
       - "AgentRx: Agent 系统化调试": concepts/agentrx-debugging.md
+    - "Google A2UI 0.9 — Agent 生成式 UI 标准": concepts/google-a2ui-generative-ui.md
 
     - 👁️ 感知与理解:
       - GUI 感知:
