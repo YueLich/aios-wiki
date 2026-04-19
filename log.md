@@ -1027,3 +1027,9 @@ format: reverse-chronological
 
 ---
 
+
+## 2026-04-20 自动更新
+- 新增概念页: A2UI Agent-Driven Generative UI 协议
+- 来源: The Decoder, a2ui.org
+- arXiv RSS 0 条（周日休刊）, API 15 条, RSS 87 条, GitHub 5 条
+- 去重后新增 1 页
