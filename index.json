@@ -291,7 +291,8 @@
     "Kitten TTS v0.8: Ultra-Lightweight On-Device Text-to-Speech",
     "Samsung Perplexity Browser: AI Integration",
     "LiteRTLM-Swift: iOS On-Device LLM Framework",
-    "ggml-org/llama.cpp: b8841"
+    "ggml-org/llama.cpp: b8841",
+    "ggml-org/llama.cpp: b8843"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -351,7 +352,7 @@
     "driftwood-zero-copy-apple-silicon"
   ],
   "last_update": "2026-04-19",
-  "last_updated": "2026-04-19T12:30:00Z",
+  "last_updated": "2026-04-19T14:30:00Z",
   "total_pages": 12,
   "page_count": 12,
   "pages": [

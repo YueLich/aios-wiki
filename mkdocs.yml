@@ -79,6 +79,7 @@ nav:
       - "llama.cpp b8838": entities/llamacpp-b8838.md
       - "llama.cpp b8839": entities/llamacpp-b8839.md
       - "llama.cpp b8840": entities/llamacpp-b8840.md
+      - "llama.cpp b8843": entities/llamacpp-b8843.md
       - "ARM ComputeLibrary v53.0.0": entities/arm-computelibrary-v53.md
       - MNN 3.5.0: entities/mnn-350.md
       - coremltools 9.0: entities/coremltools-9.md
