@@ -1,4 +1,14 @@
 
+## 2026-04-19_03:39
+- 新增 5 个 wiki 页面:
+  - KnowU-Bench: 个性化移动Agent评估基准 (concepts/knowu-bench-mobile-agent-eval.md)
+  - LiteRTLM-Swift: iOS端侧LLM Swift封装 (entities/litertlm-swift.md)
+  - Sova AI: Android原生Agent助手 (entities/sova-ai-android-agent.md)
+  - Xybrid: 端侧LLM+ASR+TTS SDK (entities/xybrid-ondevice-ai-sdk.md)
+  - NanoWakeWord: 自定义唤醒词训练 (entities/nanowakeword-wake-word-training.md)
+- 来源: arXiv API, Hacker News, GitHub
+- 筛选: 144 raw → 94 after dedup → 14 after filter → 5 genuinely new
+
 ## 2026-04-19 Wiki Update (增量更新)
 
 **新增页面（3）**:

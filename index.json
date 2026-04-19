@@ -258,7 +258,11 @@
     "Zero-Copy GPU Inference from WebAssembly on Apple Silicon",
     "EdgeDetect: Importance-Aware Gradient Compression with Homomorphic Aggregation for Federated Intrusion Detection",
     "AromaGen: Interactive Generation of Rich Olfactory Experiences with Multimodal Language Models",
-    "Exploring Self-Tracking Practices of Older Adults with CVD to Inform the Design of LLM-Enabled Health Data Sensemaking"
+    "Exploring Self-Tracking Practices of Older Adults with CVD to Inform the Design of LLM-Enabled Health Data Sensemaking",
+    "LiteRTLM-Swift: Swift package for running LiteRT-LM models on iOS",
+    "Sova AI - AI Assistant for Your Phone",
+    "Xybrid: Run LLMs, ASR, and TTS natively in apps and games",
+    "NanoWakeWord: Open-source wake word training for any device"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -318,7 +322,7 @@
     "driftwood-zero-copy-apple-silicon"
   ],
   "last_update": "2026-04-19",
-  "last_updated": "2026-04-19T05:00:00Z",
+  "last_updated": "2026-04-19",
   "total_pages": 125,
   "page_count": 127,
   "pages": [

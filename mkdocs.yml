@@ -84,6 +84,7 @@ nav:
       - AnyLanguageModel: entities/anylanguagemodel-apple.md
       - "vllm-mlx: Apple Silicon 原生推理": entities/vllm-mlx-apple-silicon.md
       - 端侧流式 ASR (Microsoft): entities/ondevice-streaming-asr.md
+      - "Xybrid: 端侧 LLM+ASR+TTS SDK": entities/xybrid-ondevice-ai-sdk.md
       - "NanoWakeWord: 唤醒词训练框架": entities/nanowakeword.md
       - "NanoWakeWord 唤醒词训练": entities/nanowakeword-wake-word.md
       - "Transformers → MLX 转换": concepts/transformers-to-mlx.md
