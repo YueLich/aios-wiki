@@ -297,7 +297,8 @@
     "iPhone 17e — Apple 新一代入门旗舰",
     "Strix: Re-thinking NPU Reliability from a System Perspective",
     "Multi-modal On-Device Learning for Monocular Depth Estimation on Ultra-low-power MCUs",
-    "CAMO: An Agentic Framework for Automated Causal Discovery from Micro Behaviors to Macro Emergence in LLM Agent Simulations"
+    "CAMO: An Agentic Framework for Automated Causal Discovery from Micro Behaviors to Macro Emergence in LLM Agent Simulations",
+    "ggml-org/llama.cpp: b8846"
   ],
   "known_topics": [
     "memory-worth-governance",
