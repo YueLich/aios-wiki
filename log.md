@@ -1,4 +1,16 @@
 
+## 2026-04-20 11:00 — Incremental Update
+
+**新增 1 个实体页面：**
+- `entities/off-grid-mobile-ai.md` — Off Grid: 端侧全功能 AI 套件 (1623 Stars, v0.0.89)
+  - 来源：GitHub (alichherawalla/off-grid-mobile-ai), Google Play, App Store
+  - 分类：📱 设备与平台
+  - 内容：文本生成、图像生成、视觉理解、语音转写、工具调用，全部端侧离线运行
+  - 关键技术：GGUF (llama.cpp) + Stable Diffusion NPU + Whisper + MiniLM RAG + SQLite
+
+**来源扫描**：arXiv RSS (5 feeds) + arXiv API (8 queries) + 12 RSS feeds + 7 GitHub repos + 5 HN queries
+**统计**：281 条原始 → 118 Stage1 → 52 Stage2 → 4 去重后 → 1 条新增
+
 ## 2026-04-20 02:16
 
 新增 2 个概念页面:

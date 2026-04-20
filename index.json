@@ -82,8 +82,8 @@
     "Modality-Native Routing in Agent-to-Agent Networks: A Multimodal A2A Protocol Extension",
     "Multimodal Embedding & Reranker Models with Sentence Transformers",
     "NVIDIA/TensorRT-LLM: v1.2.0",
-    "NanoWakeWord \u2013 Open-source wake word training for any device",
-    "NavixMind \u2013 open-source Android agent that runs Python locally",
+    "NanoWakeWord – Open-source wake word training for any device",
+    "NavixMind – open-source Android agent that runs Python locally",
     "Networking-Aware Energy Efficiency in Agentic AI Inference: A Survey",
     "New ways to balance cost and reliability in the Gemini API",
     "Nous Research's NousCoder-14B is an open-source coding model landing right in the Claude Code moment",
@@ -154,7 +154,7 @@
     "Chain of Modality: From Static Fusion to Dynamic Orchestration in Omni-MLLMs",
     "The AI Data Centers That Fit on a Truck (Modular Edge Data Centers)",
     "Android Studio supports Gemma 4: our most capable local model for agentic coding",
-    "Memorable \u2013 On-device AI search for iPhone photos, videos, screenshots",
+    "Memorable – On-device AI search for iPhone photos, videos, screenshots",
     "New ways to create personalized images in the Gemini app",
     "MemGround: Long-Term Memory Evaluation Kit for Large Language Models in Gamified Scenarios",
     "Enabling Agents to Communicate Entirely in Latent Space",
@@ -267,9 +267,9 @@
     "EdgeDiT: Hardware-Aware Diffusion Transformers for Efficient On-Device Image Generation",
     "Scaling LLM Test-Time Compute with Mobile NPU on Smartphones",
     "Imp: Highly Capable Large Multimodal Models for Mobile Devices",
-    "\u8f7b\u91cf\u5316 Transformer \u8fb9\u7f18\u90e8\u7f72\u7efc\u8ff0",
-    "ANVIL NPU \u89c6\u9891\u63d2\u5e27",
-    "\u4eba\u5de5\u4e09\u5143\u667a\u80fd ATI",
+    "轻量化 Transformer 边缘部署综述",
+    "ANVIL NPU 视频插帧",
+    "人工三元智能 ATI",
     "Orion: Characterizing and Programming Apple's Neural Engine for LLM Training and Inference",
     "On-Device vs Cloud LLMs for Agentic Tool Calling in a Real iOS App",
     "Qiaohu: offline multimodal voice assistant on Snapdragon 8 Gen 2",
@@ -284,7 +284,7 @@
     "AgentRx: Systematic debugging for AI agents",
     "Google A2UI: Agent-driven generative UI standard",
     "Kampala (YC W26): Reverse-engineer apps into APIs",
-    "VisionClaw: \u59cb\u7ec8\u5728\u7ebf\u7684\u53ef\u7a7f\u6234 AI Agent (Ray-Ban Meta + OpenClaw)",
+    "VisionClaw: 始终在线的可穿戴 AI Agent (Ray-Ban Meta + OpenClaw)",
     "Evaluating Memory Capability in Continuous Lifelog Scenario",
     "Follow My Eyes: Backdoor Attacks on VLM-based Scanpath Prediction",
     "Huoziime: On-Device LLM-Enhanced Input Method for Deep Personalization",
@@ -293,14 +293,14 @@
     "LiteRTLM-Swift: iOS On-Device LLM Framework",
     "ggml-org/llama.cpp: b8841",
     "ggml-org/llama.cpp: b8843",
-    "Google A2UI 0.9 \u2014 AI Agent \u751f\u6210\u5f0f UI \u6807\u51c6",
-    "iPhone 17e \u2014 Apple \u65b0\u4e00\u4ee3\u5165\u95e8\u65d7\u8230",
+    "Google A2UI 0.9 — AI Agent 生成式 UI 标准",
+    "iPhone 17e — Apple 新一代入门旗舰",
     "Strix: Re-thinking NPU Reliability from a System Perspective",
     "Multi-modal On-Device Learning for Monocular Depth Estimation on Ultra-low-power MCUs",
     "CAMO: An Agentic Framework for Automated Causal Discovery from Micro Behaviors to Macro Emergence in LLM Agent Simulations",
     "ggml-org/llama.cpp: b8846",
-    "PropGen: LLM \u9a71\u52a8\u7684\u79fb\u52a8\u7aef\u5e94\u7528\u5c5e\u6027\u751f\u6210\u4e0e\u6d4b\u8bd5",
-    "A1gent: \u9762\u5411 Open RAN \u7684\u53ef\u5ba1\u8ba1 Agent \u63a7\u5236\u6846\u67b6",
+    "PropGen: LLM 驱动的移动端应用属性生成与测试",
+    "A1gent: 面向 Open RAN 的可审计 Agent 控制框架",
     "From Exploration to Specification: LLM-Based Property Generation for Mobile App Testing",
     "Agentic Open RAN: A Deterministic and Auditable Framework for Intent-Driven Radio Control",
     "Gemini 3.1 Pro: A smarter model for your most complex tasks",
@@ -312,7 +312,7 @@
     "Apple Can Create Smaller On-Device AI Models from Google's Gemini",
     "Show HN: An hour in front of you? Build your own on-device Voice AI",
     "Show HN: Swift Scribe: On-device AI scribe using Apple's new Foundation Models",
-    "Show HN: Off Grid: On-device AI-web browsing, tools vision,image,voice\u20133x faster",
+    "Show HN: Off Grid: On-device AI-web browsing, tools vision,image,voice–3x faster",
     "Apple researchers develop on-device AI agent that interacts with apps for you",
     "Show HN: Open-sourced a web client that lets any device use Apple's on-device AI",
     "On-Device AI Models Might Be the Next Reason to Upgrade Your iPhone",
@@ -366,7 +366,8 @@
     "Preference Estimation via Opponent Modeling in Multi-Agent Negotiation",
     "Veritas-RPM: Provenance-Guided Multi-Agent False Positive Suppression for Remote Patient Monitoring",
     "DeepER-Med: Advancing Deep Evidence-Based Research in Medicine Through Agentic AI",
-    "PRL-Bench: A Comprehensive Benchmark Evaluating LLMs' Capabilities in Frontier Physics Research"
+    "PRL-Bench: A Comprehensive Benchmark Evaluating LLMs' Capabilities in Frontier Physics Research",
+    "Off Grid: The Swiss Army Knife of On-Device AI"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -426,12 +427,13 @@
     "driftwood-zero-copy-apple-silicon",
     "SLM Token Delegation",
     "WebGPU Browser Inference",
-    "KV Cache Compression"
+    "KV Cache Compression",
+    "off-grid-mobile-ai"
   ],
   "last_update": "2026-04-20",
-  "last_updated": "2026-04-20 06:00",
-  "total_pages": 14,
-  "page_count": 12,
+  "last_updated": "2026-04-20 11:00",
+  "total_pages": 15,
+  "page_count": 13,
   "pages": [
     {
       "title": "SkillDroid: Compile Once, Reuse Forever",
@@ -458,13 +460,13 @@
       "created": "2026-04-18"
     },
     {
-      "title": "SpecGuard: \u9a8c\u8bc1\u611f\u77e5\u7684\u6295\u673a\u89e3\u7801\u6846\u67b6",
+      "title": "SpecGuard: 验证感知的投机解码框架",
       "slug": "specguard-speculative-decoding",
       "created": "2026-04-19",
       "type": "concept"
     },
     {
-      "title": "K-Token Merging: \u6f5c\u5728\u7a7a\u95f4 Token \u538b\u7f29",
+      "title": "K-Token Merging: 潜在空间 Token 压缩",
       "slug": "k-token-merging-latent-compression",
       "created": "2026-04-19",
       "type": "concept"
@@ -476,31 +478,31 @@
       "created": "2026-04-19"
     },
     {
-      "title": "MoPHES: \u7aef\u4fa7 LLM \u9a71\u52a8\u7684\u79fb\u52a8\u5fc3\u7406\u5065\u5eb7\u8bc4\u4f30\u4e0e\u652f\u6301",
+      "title": "MoPHES: 端侧 LLM 驱动的移动心理健康评估与支持",
       "slug": "mophes-ondevice-mental-health",
       "created": "2026-04-19",
       "type": "concept"
     },
     {
-      "title": "INT4 \u91cf\u5316\u5d29\u6e83\uff1aFP32 \u6536\u655b\u540e\u7684\u91cf\u5316\u5931\u6548\u673a\u5236",
+      "title": "INT4 量化崩溃：FP32 收敛后的量化失效机制",
       "slug": "int4-quantization-collapse",
       "created": "2026-04-19",
       "type": "concept"
     },
     {
-      "title": "Driftwood: Apple Silicon \u96f6\u62f7\u8d1d GPU \u63a8\u7406",
+      "title": "Driftwood: Apple Silicon 零拷贝 GPU 推理",
       "slug": "driftwood-zero-copy-apple-silicon",
       "created": "2026-04-19",
       "type": "concept"
     },
     {
-      "title": "SNN \u91cf\u5316\uff1a\u8d85\u8d8a\u51c6\u786e\u7387\u7684\u8bc4\u4f30",
+      "title": "SNN 量化：超越准确率的评估",
       "slug": "snn-quantization-beyond-accuracy",
       "created": "2026-04-19",
       "type": "concept"
     },
     {
-      "title": "DASH-Q\uff1a\u57fa\u4e8e\u7a33\u5b9a\u5bf9\u89d2\u66f2\u7387\u4f30\u8ba1\u7684\u9c81\u68d2\u8d85\u4f4e\u4f4d\u540e\u8bad\u7ec3\u91cf\u5316",
+      "title": "DASH-Q：基于稳定对角曲率估计的鲁棒超低位后训练量化",
       "slug": "dash-q-ultralowbit-llm-quantization",
       "created": "2026-04-19",
       "type": "concept"
@@ -518,22 +520,28 @@
       "type": "concept"
     },
     {
-      "title": "TinyMU: \u7d27\u51d1\u578b\u97f3\u4e50\u8bed\u8a00\u6a21\u578b",
+      "title": "TinyMU: 紧凑型音乐语言模型",
       "slug": "tinymu-music-language-model",
       "created": "2026-04-20",
       "type": "concept"
     },
     {
-      "title": "LoudReader \u7aef\u4fa7 TTS \u9605\u8bfb\u5e94\u7528",
+      "title": "LoudReader 端侧 TTS 阅读应用",
       "slug": "loudreader-ondevice-tts",
       "created": "2026-04-20",
       "type": "entity"
     },
     {
-      "title": "PolicyGapper \u5e94\u7528\u9690\u79c1\u5408\u89c4\u9a8c\u8bc1",
+      "title": "PolicyGapper 应用隐私合规验证",
       "slug": "policygapper-app-privacy-verification",
       "created": "2026-04-20",
       "type": "concept"
+    },
+    {
+      "title": "Off Grid — 端侧全功能 AI 套件",
+      "slug": "off-grid-mobile-ai",
+      "created": "2026-04-20",
+      "type": "entity"
     }
   ],
   "log": [
@@ -551,6 +559,21 @@
         "The Decoder RSS"
       ],
       "total_known": 350
+    },
+    {
+      "date": "2026-04-20",
+      "action": "incremental_update",
+      "new_pages": [
+        "off-grid-mobile-ai"
+      ],
+      "sources_checked": [
+        "arXiv RSS",
+        "arXiv API",
+        "RSS feeds",
+        "GitHub releases",
+        "HackerNews"
+      ],
+      "total_known": 368
     }
   ]
 }
