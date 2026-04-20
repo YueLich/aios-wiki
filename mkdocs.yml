@@ -119,6 +119,8 @@ nav:
       - LoudReader 端侧 TTS 阅读应用: entities/loudreader-ondevice-tts.md
       - Cactus 移动推理引擎: entities/cactus-mobile-inference.md
       - "Off Grid: 端侧全功能 AI 套件": entities/off-grid-mobile-ai.md
+      - CyberWriter 端侧AI编辑器: entities/cyberwriter-ondevice-ai.md
+      - iappyxOS 端侧应用生成: entities/iappyxos-ondevice-apk.md
   # ═══════ 概念：按 Agent 系统架构组织 ═══════
   - 概念:
     - 概念总览: concepts/index.md

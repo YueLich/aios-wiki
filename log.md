@@ -1,5 +1,13 @@
 
 ## 2026-04-20 增量更新
+- 新增 2 个实体页面:
+  - CyberWriter: 基于 Apple 端侧 AI 的 macOS Markdown 编辑器
+  - iappyxOS: 端侧 Android 应用生成器（自然语言→APK）
+- 来源: Hacker News (Show HN), GitHub, Apple ML Research RSS
+- 扫描来源: arXiv (5 feed + 7 API), GitHub (7 repos), RSS (5 feeds), HN Algolia
+- 总扫描: 156 条 → 70 关键词相关 → 33 二阶段 → 2 新增
+
+## 2026-04-20 增量更新
 
 ## 2026-04-20 14:30
 
