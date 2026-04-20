@@ -357,7 +357,8 @@
     "Subliminal Transfer of Unsafe Behaviors in AI Agent Distillation",
     "Evaluating LLM Simulators as Differentially Private Data Generators",
     "The World Leaks the Future: Harness Evolution for Future Prediction Agents",
-    "Weak-to-Strong Knowledge Distillation Accelerates Visual Learning"
+    "Weak-to-Strong Knowledge Distillation Accelerates Visual Learning",
+    "Taming Asynchronous CPU-GPU Coupling for Frequency-aware Latency Estimation on Mobile Edge"
   ],
   "known_topics": [
     "memory-worth-governance",

@@ -302,6 +302,7 @@ nav:
       - "轻量级 Transformer 边缘部署综述": concepts/lightweight-transformer-edge-survey.md
       - "AdaVFM: 自适应视觉基础模型边缘推理": concepts/adavfm-adaptive-vfm-edge.md
       - "KV Cache 概率语言 Trie 压缩": concepts/kv-cache-probabilistic-tries.md
+      - "FLAME: CPU-GPU 频率耦合延迟估计": concepts/flame-cpu-gpu-frequency-latency.md
 
     # ── 维度三：硬件与平台 ──
     - 🏭 硬件与平台:

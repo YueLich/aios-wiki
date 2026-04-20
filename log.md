@@ -1148,3 +1148,11 @@ format: reverse-chronological
   - `concepts/google-a2ui-generative-ui.md` — Google A2UI 生成式 UI 标准
 - Sources: arXiv RSS (cs.AI/CL/LG/CV/MA), arXiv API, The Decoder RSS
 - Dedup: 40 stage-2 items → 12 new after 4-layer dedup → 3 genuinely relevant after manual review
+
+## 2026-04-20_05:36
+
+- 来源扫描：arXiv RSS (cs.AI/CL/LG/CV/MA) + arXiv API + blog RSS + GitHub releases
+- 新增页面：1
+  - concepts/flame-cpu-gpu-frequency-latency.md — FLAME CPU-GPU 频率耦合延迟估计
+- 跳过：已知标题 356 个 + 现有页面 281 个（去重正常工作）
+- 注意：llama.cpp b8851 已在 index.json 中，未生成新页面
