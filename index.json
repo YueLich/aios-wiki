@@ -343,7 +343,8 @@
     "Fitbit Air: screen-less Whoop competitor with Google Health Coach",
     "TurboQuant Gemma 4 Browser Inference",
     "MemExplorer: Navigating the Heterogeneous Memory Design Space for Agentic Inference NPUs",
-    "CIMple: Standard-cell SRAM-based CIM with LUT-based split softmax for attention acceleration"
+    "CIMple: Standard-cell SRAM-based CIM with LUT-based split softmax for attention acceleration",
+    "AdaVFM: Adaptive Vision Foundation Models for Edge Intelligence via LLM-Guided Execution"
   ],
   "known_topics": [
     "memory-worth-governance",

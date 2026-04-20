@@ -293,6 +293,7 @@ nav:
       - "Orion: Apple Neural Engine LLM 训练推理": concepts/orion-apple-neural-engine-llm.md
       - "pAirZero: 边缘 LLM 联邦微调": concepts/pairzero-edge-llm-finetuning.md
       - "轻量级 Transformer 边缘部署综述": concepts/lightweight-transformer-edge-survey.md
+      - "AdaVFM: 自适应视觉基础模型边缘推理": concepts/adavfm-adaptive-vfm-edge.md
 
     # ── 维度三：硬件与平台 ──
     - 🏭 硬件与平台:

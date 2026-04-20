@@ -1100,3 +1100,12 @@ format: reverse-chronological
   - LEAN-3D: Mobile Point Cloud Codec (arXiv 2604.04737)
 - **来源**: arXiv API, GitHub Releases, RSS Feeds
 - **去重**: 334 known → 4 new after dedup
+
+## 2026-04-20 02:41
+
+- 新增: [AdaVFM: 自适应视觉基础模型边缘推理](concepts/adavfm-adaptive-vfm-edge.md)
+  - 来源: arXiv 2604.15622 (CMU + Meta)
+  - 核心: NAS + 云端 LLM Agent 实现边缘端 VFM 自适应子网选择
+  - 亮点: IN1K +7.9%, FLOPs -77.9%, ARM Ethos-U55 NPU 实测 25-182ms
+- 扫描: arXiv API (5 queries), 11 RSS feeds, 7 GitHub repos, HN
+- 去重: 35 candidates → 1 new after 4-layer dedup (index.json 342 titles, 266 pages, 264 nav entries)
