@@ -1166,6 +1166,24 @@ llama.cpp 是手机端 AI 推理的基石项目。Vulkan 后端的精度修复�
 
 XIELU on Metal 是端侧 LLM 推理优化的又一突破。传统的激活函数（ReLU, GELU, SiLU）在 Metal shader 中已有优化实现，XIELU 作为更新的激活函数被纳入 Metal kernel 后，使用 XIELU 架构的模型在 iPhone/Mac 上的推理效率将显著提升。结合 nvfp4 的 ARM 修复，llama.cpp 在移动芯片上的低精度推理能力持续增强。
 
+
+
+### Build b8855 (2026-04-20)
+
+**发布日期**: 2026-04-20
+
+**主要修复**:
+- 修复 GLM-DSA 在 `llama-tokenize` 使用 `vocab_only` 时的崩溃问题 (#22102)
+- 简化 `print_info` 中 GLM-DSA 的处理逻辑
+- 代码审查反馈修正
+
+**二进制发布**:
+- macOS Apple Silicon (arm64) — 标准版和 KleidiAI 启用版
+- iOS (arm64) — 移动端推理二进制
+- 多平台预编译包
+
+**端侧意义**: GLM-DSA 是智谱 AI 的模型格式，此修复确保在使用 `vocab_only` 模式（仅加载词表用于 tokenize，不加载模型权重）时不会崩溃。`vocab_only` 模式在端侧常用于快速 tokenization 预处理和模型格式检测，是一个重要的轻量级操作模式。
+
 ## 相关
 - [[llamacpp]] — 上一个版本，含更多架构更新
 - [[mnn-350]] — 阿里端侧推理引擎，竞争方案

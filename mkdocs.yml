@@ -298,6 +298,7 @@ nav:
       - TinyML CNN 加速器近似矩阵分解协同设计: concepts/tinyml-cnn-accelerator-approx-matrix-decomp.md
       - TinyML 到 LLM 的能效软硬件协同设计: concepts/energy-efficient-sw-hw-codesign-tinyml.md
       - Fast-dVLM 高效块扩散 VLM: concepts/fast-dvlm-block-diffusion-vlm.md
+      - "SFT 幻觉与自蒸馏修复: 端侧微调质量保障": concepts/sft-hallucinations-self-distillation.md
 
     # ── 维度三：硬件与平台 ──
     - 🏭 硬件与平台:

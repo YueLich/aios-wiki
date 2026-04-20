@@ -392,7 +392,9 @@
     "ggml-org/llama.cpp: b8854",
     "Low-Latency Edge LLM Handover via Joint KV Cache Transfer and Token Prefill",
     "Efficient Reasoning on the Edge",
-    "ggml-org/llama.cpp: b8853"
+    "ggml-org/llama.cpp: b8853",
+    "ggml-org/llama.cpp: b8855",
+    "Why Fine-Tuning Encourages Hallucinations and How to Fix It"
   ],
   "known_topics": [
     "memory-worth-governance",
