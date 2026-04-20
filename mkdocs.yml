@@ -306,6 +306,7 @@ nav:
       - "KV Cache 概率语言 Trie 压缩": concepts/kv-cache-probabilistic-tries.md
       - "FLAME: CPU-GPU 频率耦合延迟估计": concepts/flame-cpu-gpu-frequency-latency.md
       - "Agentic AI CPU 执行优化": concepts/agentic-ai-cpu-execution.md
+      - "SFT 诱导幻觉：持续学习修复策略": concepts/sft-hallucinations-continual-learning.md
 
     # ── 维度三：硬件与平台 ──
     - 🏭 硬件与平台:
