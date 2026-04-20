@@ -1193,3 +1193,8 @@ format: reverse-chronological
 
 ## 2026-04-20 — Wiki Update
 - 新增: `sft-hallucinations-continual-learning.md` — SFT 诱导幻觉与自蒸馏修复 (arXiv 2604.15574)
+
+## 2026-04-20 10:17
+- 新增页面: GIST: 多模态空间接地与智能语义拓扑 (arXiv 2604.15495)
+- 扫描来源: arXiv RSS (cs.AI/CL/LG/CV/MA), arXiv API, Google AI, Apple ML, HuggingFace, DeepMind, The Decoder, GitHub releases, HN
+- 收集 160 条 → 过滤后 4 条新内容 → 1 条 genuinely new（pAirZero/Three Birds 已有页面覆盖）

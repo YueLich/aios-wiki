@@ -371,7 +371,9 @@
     "SFT 诱导幻觉：微调为何制造幻觉及持续学习修复策略",
     "Lightning-SimulWhisper",
     "llama.cpp Vulkan 32-bit ARM Bug",
-    "TurboQuant WASM"
+    "TurboQuant WASM",
+    "Three Birds, One Stone: Solving the Communication-Memory-Privacy Trilemma in LLM Fine-tuning at the Wireless Edge",
+    "GIST: Multimodal Knowledge Extraction and Spatial Grounding via Intelligent Semantic Topology"
   ],
   "known_topics": [
     "memory-worth-governance",
