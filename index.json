@@ -344,7 +344,10 @@
     "TurboQuant Gemma 4 Browser Inference",
     "MemExplorer: Navigating the Heterogeneous Memory Design Space for Agentic Inference NPUs",
     "CIMple: Standard-cell SRAM-based CIM with LUT-based split softmax for attention acceleration",
-    "AdaVFM: Adaptive Vision Foundation Models for Edge Intelligence via LLM-Guided Execution"
+    "AdaVFM: Adaptive Vision Foundation Models for Edge Intelligence via LLM-Guided Execution",
+    "TinyMU: A Compact Audio-Language Model for Music Understanding",
+    "LoudReader: On-device TTS Reading App",
+    "PolicyGapper: Automated Detection of Inconsistencies Between Google Play Data Safety Sections and Privacy Policies Using LLMs"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -407,7 +410,7 @@
     "KV Cache Compression"
   ],
   "last_update": "2026-04-20",
-  "last_updated": "2026-04-19 17:34",
+  "last_updated": "2026-04-20 06:00",
   "total_pages": 14,
   "page_count": 12,
   "pages": [
@@ -493,6 +496,24 @@
       "title": "Multi-modal On-Device Learning for Monocular Depth Estimation on Ultra-low-power MCUs",
       "slug": "ondevice-depth-mcu-learning",
       "created": "2026-04-19",
+      "type": "concept"
+    },
+    {
+      "title": "TinyMU: 紧凑型音乐语言模型",
+      "slug": "tinymu-music-language-model",
+      "created": "2026-04-20",
+      "type": "concept"
+    },
+    {
+      "title": "LoudReader 端侧 TTS 阅读应用",
+      "slug": "loudreader-ondevice-tts",
+      "created": "2026-04-20",
+      "type": "entity"
+    },
+    {
+      "title": "PolicyGapper 应用隐私合规验证",
+      "slug": "policygapper-app-privacy-verification",
+      "created": "2026-04-20",
       "type": "concept"
     }
   ]

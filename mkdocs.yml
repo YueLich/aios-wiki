@@ -138,7 +138,7 @@ nav:
       - "Samsung 浏览器 Perplexity AI": entities/samsung-perplexity-browser.md
       - "Gemini Live Android 重塑": entities/gemini-live-android-redesign.md
       - "Google Fitbit Air: 无屏健康手环": entities/fitbit-air-google-health.md
-
+      - LoudReader 端侧 TTS 阅读应用: entities/loudreader-ondevice-tts.md
   # ═══════ 概念：按 Agent 系统架构组织 ═══════
   - 概念:
     - 概念总览: concepts/index.md
@@ -346,6 +346,7 @@ nav:
       - "RoboPocket: 手机改进机器人策略": concepts/robopocket.md
       - "智能手机地震预警用户感知": concepts/smartphone-eew-user-perception.md
       - "AoE: 始终在线第一人称视频具身AI": concepts/aoe-egocentric-video-embodied.md
+      - "TinyMU: 紧凑型音乐语言模型": concepts/tinymu-music-language-model.md
       - "PropGen: LLM 驱动移动端应用属性测试": concepts/propgen-mobile-testing.md
       - "Google A2UI 生成式 UI 标准": concepts/google-a2ui-standard.md
     - "GUI-Perturbed: GUI Grounding 系统性脆弱性": concepts/gui-perturbed-grounding-brittleness.md
@@ -372,6 +373,7 @@ nav:
       - LLM 健康数据理解老年患者: concepts/llm-health-data-sensemaking-older-adults.md
       - VisionClaw 可穿戴 Agent: concepts/visionclaw-wearable-agent.md
       - "Follow My Eyes: VLM 眼动预测后门攻击": concepts/follow-my-eyes-vlm-backdoor.md
+      - PolicyGapper 应用隐私合规验证: concepts/policygapper-app-privacy-verification.md
 
   - 对比: comparisons/index.md
   - 速查: queries/index.md

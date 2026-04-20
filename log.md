@@ -1109,3 +1109,8 @@ format: reverse-chronological
   - 亮点: IN1K +7.9%, FLOPs -77.9%, ARM Ethos-U55 NPU 实测 25-182ms
 - 扫描: arXiv API (5 queries), 11 RSS feeds, 7 GitHub repos, HN
 - 去重: 35 candidates → 1 new after 4-layer dedup (index.json 342 titles, 266 pages, 264 nav entries)
+
+## 2026-04-20 06:00
+- Added 3 new pages: TinyMU, LoudReader, PolicyGapper
+- Sources: arXiv API, HN, The Decoder
+- Dedup: 44 skipped (known titles + existing pages)
