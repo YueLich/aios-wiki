@@ -1119,3 +1119,24 @@ format: reverse-chronological
 - 新增页面：cactus-mobile-inference.md, visionclaw-always-on-wearable-agent.md
 - 来源：arXiv API (0 新), GitHub (0 新), HN (1 新), The Decoder (1 新)
 - 总已知标题：350
+
+## 2026-04-20 增量更新
+
+来源：arXiv API (cs.AI/CL/LG/CV/MA), RSS feeds, GitHub Releases
+
+新增页面 (6):
+- concepts/experience-compression-spectrum.md
+- concepts/kv-cache-probabilistic-tries.md
+- concepts/sok-security-agentic-commerce.md
+- concepts/mcp-tool-description-smells.md
+- concepts/subliminal-transfer-agent-distillation.md
+- concepts/llm-simulator-differential-privacy.md
+
+新增标题:
+- Experience Compression Spectrum: Unifying Memory, Skills, and Rules in LLM Agents
+- Sequential KV Cache Compression via Probabilistic Language Tries: Beyond the Per-Vector Shannon Limit
+- SoK: Security of Autonomous LLM Agents in Agentic Commerce
+- MCP Tool Descriptions Are Smelly! Towards Improving AI Agent Efficiency with Augmented MCP Tool Descriptions
+- Subliminal Transfer of Unsafe Behaviors in AI Agent Distillation
+- Evaluating LLM Simulators as Differentially Private Data Generators
+

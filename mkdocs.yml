@@ -204,6 +204,7 @@ nav:
       - "SensorPersona: 移动传感器持续人格提取": concepts/sensorpersona-mobile-sensor-persona.md
       - "PlugMem: 任务无关插件记忆": concepts/plugmem-plugin-memory.md
       - "Trust Your Memory: LLM 增强记忆智能家居控制": concepts/trust-your-memory-smart-home.md
+      - "Experience Compression Spectrum": concepts/experience-compression-spectrum.md
 
     - 🔧 工具调用与执行:
       - "端侧 vs 云端: Agentic 工具调用实战": concepts/on-device-vs-cloud-agentic-tool-calling.md
@@ -218,6 +219,7 @@ nav:
       - "端侧 vs 云端 Agent工具调用对比": concepts/ondevice-vs-cloud-agentic-tool-calling.md
       - "A1gent: 面向 Open RAN 的可审计 Agent 控制": concepts/a1gent-agentic-open-ran.md
       - "Self-adaptive MEC: 自适应边缘架构机器人": concepts/self-adaptive-mec-robotics.md
+      - "MCP 工具描述质量": concepts/mcp-tool-description-smells.md
 
     - 🤝 多 Agent 协作:
       - "EmoMAS: 情感感知的边缘协商": concepts/emommas-edge-negotiation.md
@@ -234,6 +236,7 @@ nav:
       - "MMA2A: 模态原生 A2A 路由": concepts/mma2a-modality-native-routing.md
       - "GLP: 智能手机多 Agent 逻辑编程": concepts/grassroots-logic-programs-smartphone-multiagent.md
       - "CAMO: 多 Agent 因果发现框架": concepts/camo-agent-causal-discovery.md
+      - "Agent 蒸馏不安全行为传递": concepts/subliminal-transfer-agent-distillation.md
 
     # ── 维度二：推理与优化技术栈 ──
     - ⚡ 推理优化:
@@ -296,6 +299,7 @@ nav:
       - "pAirZero: 边缘 LLM 联邦微调": concepts/pairzero-edge-llm-finetuning.md
       - "轻量级 Transformer 边缘部署综述": concepts/lightweight-transformer-edge-survey.md
       - "AdaVFM: 自适应视觉基础模型边缘推理": concepts/adavfm-adaptive-vfm-edge.md
+      - "KV Cache 概率语言 Trie 压缩": concepts/kv-cache-probabilistic-tries.md
 
     # ── 维度三：硬件与平台 ──
     - 🏭 硬件与平台:
@@ -375,6 +379,8 @@ nav:
       - LLM 健康数据理解老年患者: concepts/llm-health-data-sensemaking-older-adults.md
       - "Follow My Eyes: VLM 眼动预测后门攻击": concepts/follow-my-eyes-vlm-backdoor.md
       - PolicyGapper 应用隐私合规验证: concepts/policygapper-app-privacy-verification.md
+      - "LLM 差分隐私数据生成": concepts/llm-simulator-differential-privacy.md
+      - "SoK Agentic Commerce 安全": concepts/sok-security-agentic-commerce.md
 
   - 对比: comparisons/index.md
   - 速查: queries/index.md

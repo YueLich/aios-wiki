@@ -349,7 +349,13 @@
     "LoudReader: On-device TTS Reading App",
     "PolicyGapper: Automated Detection of Inconsistencies Between Google Play Data Safety Sections and Privacy Policies Using LLMs",
     "Cactus (YC S25) - AI inference on smartphones",
-    "Always-on Ray-Ban Meta glasses powered by OpenClaw speed up everyday tasks in new study"
+    "Always-on Ray-Ban Meta glasses powered by OpenClaw speed up everyday tasks in new study",
+    "Experience Compression Spectrum: Unifying Memory, Skills, and Rules in LLM Agents",
+    "Sequential KV Cache Compression via Probabilistic Language Tries: Beyond the Per-Vector Shannon Limit",
+    "SoK: Security of Autonomous LLM Agents in Agentic Commerce",
+    "MCP Tool Descriptions Are Smelly! Towards Improving AI Agent Efficiency with Augmented MCP Tool Descriptions",
+    "Subliminal Transfer of Unsafe Behaviors in AI Agent Distillation",
+    "Evaluating LLM Simulators as Differentially Private Data Generators"
   ],
   "known_topics": [
     "memory-worth-governance",
