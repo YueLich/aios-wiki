@@ -1225,3 +1225,15 @@ XIELU on Metal 是端侧 LLM 推理优化的又一突破。传统的激活函数
 **关联**: [[mnn-350]], [[coremltools-9]]
 
 ---
+
+
+### Build b8862 (2026-04-20)
+
+**发布日期**: 2026-04-20
+**主要变更**:
+- **mtmd 模块修复**: 修正 `get_n_pos` / `get_decoder_pos` 逻辑 (PR #22175)。多模态处理中的位置计算错误可能导致图像 token 与文本 token 对齐偏差，修复后提升多模态推理的准确性。
+- 继续提供 macOS/iOS、Linux (Vulkan/ROCm/OpenVINO)、Android arm64、Windows (CUDA/CPU) 全平台二进制。
+
+**对移动端意义**: mtmd 修复对 iOS XCFramework 和 Android arm64 构建尤为重要——这两个平台是 llama.cpp 移动端部署的主要目标。多模态推理的位置计算正确性直接影响视觉语言模型 (VLM) 在手机上的表现。
+
+**下载**: [GitHub Releases](https://github.com/ggml-org/llama.cpp/releases/tag/b8862)

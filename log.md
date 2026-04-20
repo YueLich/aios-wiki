@@ -1312,3 +1312,6 @@ format: reverse-chronological
 - 新增: ChemGraph-XANES (概念页) — Agentic 框架、多 Agent 编排、文档驱动 RAG
 - 来源: arXiv 2604.16205, arXiv API + RSS
 - 扫描: 87 raw → 54 stage-1 → 24 stage-2 → 1 new after dedup
+
+## 2026-04-20 03:30
+- llama.cpp b8862 追加到合并页 (mtmd 模块修复)
