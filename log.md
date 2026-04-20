@@ -1215,3 +1215,15 @@ format: reverse-chronological
 - 新增页面: GIST: 多模态空间接地与智能语义拓扑 (arXiv 2604.15495)
 - 扫描来源: arXiv RSS (cs.AI/CL/LG/CV/MA), arXiv API, Google AI, Apple ML, HuggingFace, DeepMind, The Decoder, GitHub releases, HN
 - 收集 160 条 → 过滤后 4 条新内容 → 1 条 genuinely new（pAirZero/Three Birds 已有页面覆盖）
+
+## 2026-04-20 - Wiki Update
+- Added 9 new pages
+  - PolicyBank: Evolving Policy Understanding for LLM Agents
+  - LLMs Corrupt Your Documents When You Delegate
+  - GroupDPO: Memory efficient Group-wise Direct Preference Optimization
+  - Dispatch-Aware Ragged Attention for Pruned Vision Transformers
+  - The Illusion of Equivalence: Systematic FP16 Divergence in KV-Cached Autoregressive Inference
+  - PixDLM: A Dual-Path Multimodal Language Model for UAV Reasoning Segmentation
+  - NeuroMesh: A Unified Neural Inference Framework for Decentralized Multi-Robot Collaboration
+  - Semantics Over Syntax: Uncovering Pre-Authentication 5G Baseband Vulnerabilities
+  - Get ready for Google I/O: Livestream schedule revealed

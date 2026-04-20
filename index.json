@@ -378,7 +378,16 @@
     "A KL Lens on Quantization: Fast, Forward-Only Sensitivity for Mixed-Precision SSM-Transformer Models",
     "Google banned our mobile AI agent app for doing what Gemini should do, but doesn't",
     "Persistent Identity in AI Agents: A Multi-Anchor Architecture for Resilient Memory and Continuity",
-    "Are GUI Agents Focused Enough? Automated Distraction via Semantic-level UI Element Injection"
+    "Are GUI Agents Focused Enough? Automated Distraction via Semantic-level UI Element Injection",
+    "PolicyBank: Evolving Policy Understanding for LLM Agents",
+    "LLMs Corrupt Your Documents When You Delegate",
+    "GroupDPO: Memory efficient Group-wise Direct Preference Optimization",
+    "Dispatch-Aware Ragged Attention for Pruned Vision Transformers",
+    "The Illusion of Equivalence: Systematic FP16 Divergence in KV-Cached Autoregressive Inference",
+    "PixDLM: A Dual-Path Multimodal Language Model for UAV Reasoning Segmentation",
+    "NeuroMesh: A Unified Neural Inference Framework for Decentralized Multi-Robot Collaboration",
+    "Semantics Over Syntax: Uncovering Pre-Authentication 5G Baseband Vulnerabilities",
+    "Get ready for Google I/O: Livestream schedule revealed"
   ],
   "known_topics": [
     "memory-worth-governance",

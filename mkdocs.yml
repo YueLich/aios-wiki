@@ -145,6 +145,7 @@ nav:
       - "AgentRx: Agent 系统化调试": concepts/agentrx-debugging.md
       - "Google Assistant → Gemini 迁移": concepts/google-assistant-gemini-transition.md
       - "PBRC 预注册信念修正合约": concepts/pbrc-belief-revision.md
+      - "PolicyBank: Agent 策略自演化理解": concepts/policybank-agent-policy-understanding.md
     - "Google A2UI 0.9 — Agent 生成式 UI 标准": concepts/google-a2ui-generative-ui.md
 
     - 👁️ 感知与理解:
@@ -202,6 +203,7 @@ nav:
       - "A1gent: 面向 Open RAN 的可审计 Agent 控制": concepts/a1gent-agentic-open-ran.md
       - "Self-adaptive MEC: 自适应边缘架构机器人": concepts/self-adaptive-mec-robotics.md
       - "MCP 工具描述质量": concepts/mcp-tool-description-smells.md
+      - "LLM 委托编辑中的文档损坏问题": concepts/llm-delegation-document-corruption.md
 
     - 🤝 多 Agent 协作:
       - "EmoMAS: 情感感知的边缘协商": concepts/emommas-edge-negotiation.md
@@ -219,6 +221,7 @@ nav:
       - "GLP: 智能手机多 Agent 逻辑编程": concepts/grassroots-logic-programs-smartphone-multiagent.md
       - "CAMO: 多 Agent 因果发现框架": concepts/camo-agent-causal-discovery.md
       - "Agent 蒸馏不安全行为传递": concepts/subliminal-transfer-agent-distillation.md
+      - "NeuroMesh: 去中心化多机器人协作推理": concepts/neuromesh-multi-robot-inference.md
 
     # ── 维度二：推理与优化技术栈 ──
     - ⚡ 推理优化:
@@ -242,6 +245,7 @@ nav:
         - "DASH-Q：鲁棒超低位 LLM 量化": concepts/dash-q-ultralowbit-llm-quantization.md
         - "MUXQ: 低秩离群值分解 INT8 均匀量化": concepts/muxq-quantization.md
         - "TurboQuant: 浏览器 WebGPU KV Cache 压缩推理": concepts/turboquant-gemma4-browser-inference.md
+        - "KV-Cache FP16 精度陷阱": concepts/kv-cache-fp16-divergence-illusion.md
       - "AIPC: Qualcomm 部署 Agent 自动化": concepts/aipc-qualcomm-deployment-agent.md
       - 内存与效率:
         - "压缩感知动态缩减: 推理感知结构化剪枝": concepts/compressed-sensing-dynamic-reduction.md
@@ -252,7 +256,9 @@ nav:
         - "K-Token Merging: 潜在空间 Token 压缩": concepts/k-token-merging-latent-compression.md
         - "Token Compression for ViT: 视觉加速策略": concepts/token-compression-vit-acceleration.md
         - "ProfInfer: eBPF 推理性能分析": concepts/profinfer-llm-profiling.md
-        - OSPO 单步多智能体优化: concepts/onestep-marl-ride-sharing.md
+        - "OSPO 单步多智能体优化": concepts/onestep-marl-ride-sharing.md
+        - "GroupDPO: 内存高效群组偏好优化": concepts/groupdpo-memory-efficient-preference-optimization.md
+        - "Dispatch-Aware Ragged Attention: ViT 剪枝调度瓶颈": concepts/triton-dispatch-ragged-attention.md
       - 模型路由与自评估:
         - "RPRA: LLM-Judge 预测高效推理": concepts/rpra-self-assessment-inference.md
         - "RPRA: 自评估推理路由": concepts/rpra-llm-judge-inference.md
@@ -347,6 +353,7 @@ nav:
       - "TinyMU: 紧凑型音乐语言模型": concepts/tinymu-music-language-model.md
       - "PropGen: LLM 驱动移动端应用属性测试": concepts/propgen-mobile-testing.md
       - "HyCal 跨域少样本原型校准": concepts/hycal-prototype-calibration.md
+      - "PixDLM: UAV 推理分割双路径多模态模型": concepts/pixdlm-uav-reasoning-segmentation.md
     - "GUI-Perturbed: GUI Grounding 系统性脆弱性": concepts/gui-perturbed-grounding-brittleness.md
 
     # ── 安全与隐私（跨领域）──
@@ -373,6 +380,7 @@ nav:
       - PolicyGapper 应用隐私合规验证: concepts/policygapper-app-privacy-verification.md
       - "LLM 差分隐私数据生成": concepts/llm-simulator-differential-privacy.md
       - "SoK Agentic Commerce 安全": concepts/sok-security-agentic-commerce.md
+      - "5G 基带语义漏洞: 认证前攻击面": concepts/5g-baseband-semantic-vulnerabilities.md
 
   - 对比: comparisons/index.md
   - 速查: queries/index.md
