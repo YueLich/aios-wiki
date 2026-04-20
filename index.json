@@ -337,7 +337,10 @@
     "ggml-org/llama.cpp: b8851",
     "Lightweight Transformer Architectures for Edge Devices in Real-Time Applications",
     "GreenFLag: A Green Agentic Approach for Energy-Efficient Federated Learning",
-    "LEAN-3D: Low-latency Hierarchical Point Cloud Codec for Mobile 3D Streaming"
+    "LEAN-3D: Low-latency Hierarchical Point Cloud Codec for Mobile 3D Streaming",
+    "What is happening with the Google Assistant? The great Gemini transition",
+    "Gemini overlay and Gemini Live start rolling out big Android redesign",
+    "Fitbit Air: screen-less Whoop competitor with Google Health Coach"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -396,7 +399,7 @@
     "int4-quantization-collapse",
     "driftwood-zero-copy-apple-silicon"
   ],
-  "last_update": "2026-04-19",
+  "last_update": "2026-04-20",
   "last_updated": "2026-04-19 17:34",
   "total_pages": 14,
   "page_count": 12,

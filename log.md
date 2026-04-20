@@ -1,3 +1,25 @@
+
+## 2026-04-20 增量更新
+
+**新增 3 个页面：**
+
+### 概念
+- `google-assistant-gemini-transition` — Google Assistant → Gemini 迁移：从规则引擎到 LLM Agent 的范式转换
+  - 来源：9to5Google 深度分析（2026-04-18）
+  - 分类：🧠 Agent 架构与认知
+
+### 实体
+- `gemini-live-android-redesign` — Gemini Live Android 重塑：从全屏应用到浮动叠加层
+  - 来源：9to5Google（2026-04-07）
+  - 分类：📱 设备与平台
+- `fitbit-air-google-health` — Google Fitbit Air：无屏健康手环与 Google Health AI 教练
+  - 来源：9to5Google 独家（2026-04-19）
+  - 分类：📱 设备与平台
+
+**来源覆盖：** arXiv API (5 queries), 11 RSS feeds, 5 GitHub repos, 9to5Google, XDA Developers
+**去重：** 157 raw → 54 stage-1 → 12 after dedup → 3 genuinely new (98% initial noise)
+**注意：** arXiv RSS (cs.AI/CL/LG/CV/MA) 全部返回 0 条目（可能是周末/间歇性问题）
+
 ## 2026-04-19 19:09 UTC
 
 - 新增: `llamacpp-b8850.md` — llama.cpp b8850，推测解码检查点、Adreno GPU 优化

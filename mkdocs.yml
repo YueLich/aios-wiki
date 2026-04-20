@@ -136,6 +136,8 @@ nav:
       - "Qiaohu: 离线多模态语音助手 (Snapdragon 8 Gen 2)": entities/qiaohu-offline-multimodal-assistant.md
       - Kitten TTS v0.8: entities/kitten-tts.md
       - "Samsung 浏览器 Perplexity AI": entities/samsung-perplexity-browser.md
+      - "Gemini Live Android 重塑": entities/gemini-live-android-redesign.md
+      - "Google Fitbit Air: 无屏健康手环": entities/fitbit-air-google-health.md
 
   # ═══════ 概念：按 Agent 系统架构组织 ═══════
   - 概念:
@@ -160,6 +162,7 @@ nav:
       - "Long-Horizon Task Mirage: 长程任务失败诊断": concepts/long-horizon-task-mirage.md
       - "人工三元智能 ATI": concepts/artificial-tripartite-intelligence.md
       - "AgentRx: Agent 系统化调试": concepts/agentrx-debugging.md
+      - "Google Assistant → Gemini 迁移": concepts/google-assistant-gemini-transition.md
     - "Google A2UI 0.9 — Agent 生成式 UI 标准": concepts/google-a2ui-generative-ui.md
 
     - 👁️ 感知与理解:
