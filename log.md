@@ -1156,3 +1156,12 @@ format: reverse-chronological
   - concepts/flame-cpu-gpu-frequency-latency.md — FLAME CPU-GPU 频率耦合延迟估计
 - 跳过：已知标题 356 个 + 现有页面 281 个（去重正常工作）
 - 注意：llama.cpp b8851 已在 index.json 中，未生成新页面
+
+## 2026-04-20 自动更新
+- 新增 3 个概念页面：
+  - `agentic-ai-cpu-execution.md` — Agentic AI CPU 执行优化（arXiv 2511.00739）
+  - `pbrc-belief-revision.md` — 预注册信念修正合约（arXiv 2604.15558）
+  - `hycal-prototype-calibration.md` — HyCal 跨域少样本原型校准（arXiv 2604.15678）
+- 扫描来源：arXiv RSS (5 feeds) + arXiv API (7 queries) + RSS (14 feeds) + GitHub (7 repos)
+- 去重：359 known titles → 53 stage-2 → 13 new → 3 页面创建
+- 注意：所有 GitHub releases 已在 index.json 中（无新版本发布）

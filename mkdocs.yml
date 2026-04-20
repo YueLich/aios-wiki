@@ -165,6 +165,7 @@ nav:
       - "人工三元智能 ATI": concepts/artificial-tripartite-intelligence.md
       - "AgentRx: Agent 系统化调试": concepts/agentrx-debugging.md
       - "Google Assistant → Gemini 迁移": concepts/google-assistant-gemini-transition.md
+      - "PBRC 预注册信念修正合约": concepts/pbrc-belief-revision.md
     - "Google A2UI 0.9 — Agent 生成式 UI 标准": concepts/google-a2ui-generative-ui.md
 
     - 👁️ 感知与理解:
@@ -303,6 +304,7 @@ nav:
       - "AdaVFM: 自适应视觉基础模型边缘推理": concepts/adavfm-adaptive-vfm-edge.md
       - "KV Cache 概率语言 Trie 压缩": concepts/kv-cache-probabilistic-tries.md
       - "FLAME: CPU-GPU 频率耦合延迟估计": concepts/flame-cpu-gpu-frequency-latency.md
+      - "Agentic AI CPU 执行优化": concepts/agentic-ai-cpu-execution.md
 
     # ── 维度三：硬件与平台 ──
     - 🏭 硬件与平台:
@@ -356,6 +358,7 @@ nav:
       - "AoE: 始终在线第一人称视频具身AI": concepts/aoe-egocentric-video-embodied.md
       - "TinyMU: 紧凑型音乐语言模型": concepts/tinymu-music-language-model.md
       - "PropGen: LLM 驱动移动端应用属性测试": concepts/propgen-mobile-testing.md
+      - "HyCal 跨域少样本原型校准": concepts/hycal-prototype-calibration.md
     - "GUI-Perturbed: GUI Grounding 系统性脆弱性": concepts/gui-perturbed-grounding-brittleness.md
 
     # ── 安全与隐私（跨领域）──
