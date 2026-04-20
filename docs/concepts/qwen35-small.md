@@ -4,7 +4,7 @@ tags: [qwen, on-device, multimodal, small-model, alibaba, image-text-to-text, ed
 related:
   - "[[minicpm-242]]"
   - "[[gemma4-ondevice]]"
-  - "[[llamacpp-b8791]]"
+  - "[[llamacpp]]"
 sources:
   - https://huggingface.co/Qwen/Qwen3.5-0.8B
   - https://huggingface.co/Qwen/Qwen3.5-2B
@@ -59,4 +59,4 @@ Qwen 3.5 Small 是目前端侧多模态 AI 竞争的关键棋子：
 ## 相关
 - [[minicpm-242]] — 面壁智能端侧模型，Qwen 的直接竞品
 - [[gemma4-ondevice]] — Google 端侧多模态方案
-- [[llamacpp-b8791]] — GGUF 推理引擎，Qwen 3.5 的主要部署路径之一
+- [[llamacpp]] — GGUF 推理引擎，Qwen 3.5 的主要部署路径之一

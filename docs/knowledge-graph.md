@@ -13,7 +13,7 @@ updated: 2026-04-14
 
 ### 推理与部署
 - [[mnn-350]] — 阿里端侧推理引擎
-- [[llamacpp-b8791]] / [[ggml-llamacpp-hf]] — llama.cpp 生态
+- [[llamacpp]] / [[ggml-llamacpp-hf]] — llama.cpp 生态
 - [[gemma-cpp-inference]] — Gemma C++ 推理
 - [[coremltools-9]] — Apple 模型转换
 - [[edgeflow-cold-start]] — 冷启动优化

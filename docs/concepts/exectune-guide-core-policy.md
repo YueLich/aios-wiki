@@ -108,7 +108,7 @@ Core 模型：Claude Haiku-3.5 / Haiku-3.0（黑盒 API）
 
 2. **降低成本门槛**：Haiku + ExecTune 接近 Sonnet-4 水平但成本低 38%，这意味着手机端 AI 功能的部署成本可以大幅降低。
 
-3. **Guide 模型本地化**：1.7B 的 guide 模型完全可以在手机端运行（如通过 [[mnn-350]] 或 [[llamacpp-b8795]] 推理），实现完全本地的策略生成 + 云端执行。
+3. **Guide 模型本地化**：1.7B 的 guide 模型完全可以在手机端运行（如通过 [[mnn-350]] 或 [[llamacpp]] 推理），实现完全本地的策略生成 + 云端执行。
 
 4. **隐私保护**：Guide 模型在本地运行，只有最终策略（不含原始数据）发送到云端，天然提供隐私保护。
 
@@ -117,5 +117,5 @@ Core 模型：Claude Haiku-3.5 / Haiku-3.0（黑盒 API）
 - [[on-device-vs-cloud-agentic-tool-calling]] — 新的端云协作范式
 - [[clawmobile-agentic]] — 手机 Agent 可采用 GCoP 架构
 - [[mnn-350]] — 可作为端侧 Guide 模型的推理引擎
-- [[llamacpp-b8795]] — 可作为端侧 Guide 模型的推理引擎
+- [[llamacpp]] — 可作为端侧 Guide 模型的推理引擎
 - [[septq-post-training-quantization]] — Guide 模型可进一步量化以减小体积
