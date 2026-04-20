@@ -253,6 +253,7 @@ nav:
         - "SNN 量化：超越准确率的评估": concepts/snn-quantization-beyond-accuracy.md
         - "DASH-Q：鲁棒超低位 LLM 量化": concepts/dash-q-ultralowbit-llm-quantization.md
         - "MUXQ: 低秩离群值分解 INT8 均匀量化": concepts/muxq-quantization.md
+        - "TurboQuant: 浏览器 WebGPU KV Cache 压缩推理": concepts/turboquant-gemma4-browser-inference.md
       - "AIPC: Qualcomm 部署 Agent 自动化": concepts/aipc-qualcomm-deployment-agent.md
       - 内存与效率:
         - "压缩感知动态缩减: 推理感知结构化剪枝": concepts/compressed-sensing-dynamic-reduction.md

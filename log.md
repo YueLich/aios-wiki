@@ -1,4 +1,14 @@
 
+## 2026-04-20_01:43 - Incremental Update
+
+**New pages**: 2
+- `concepts/lacy-small-model-token-delegation.md` — Apple LaCy: SLM token delegation with grammar-aware loss signal (ICLR 2026)
+- `concepts/turboquant-gemma4-browser-inference.md` — TurboQuant + Gemma 4 E2B browser inference via WebGPU (30+ tok/s)
+
+**Sources scanned**: arXiv (0 RSS, 3 API), 9 RSS feeds, 5 GitHub repos, 2 HN queries, Apple ML Research, Android Dev Blog
+**Dedup**: 339 known titles, 263 existing pages, 261 nav paths
+**Status**: Push pending
+
 ## 2026-04-20 增量更新
 
 **新增 3 个页面：**
