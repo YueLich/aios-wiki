@@ -399,7 +399,9 @@
     "ProtoTTA: Prototype-Guided Test-Time Adaptation",
     "CPU Optimization of a Monocular 3D Biomechanics Pipeline for Low-Resource Deployment",
     "SocialWise: LLM-Agent 对话疗法",
-    "LLM-MARL P2P 能源交易"
+    "LLM-MARL P2P 能源交易",
+    "SocialWise: LLM-Agentic Conversation Therapy for Individuals with Autism Spectrum Disorder to Enhance Communication Skills",
+    "LLM-Enhanced Multi-Agent Reinforcement Learning with Expert Workflow for Real-Time P2P Energy Trading"
   ],
   "known_topics": [
     "memory-worth-governance",
