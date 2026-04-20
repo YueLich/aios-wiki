@@ -368,7 +368,10 @@
     "DeepER-Med: Advancing Deep Evidence-Based Research in Medicine Through Agentic AI",
     "PRL-Bench: A Comprehensive Benchmark Evaluating LLMs' Capabilities in Frontier Physics Research",
     "Off Grid: The Swiss Army Knife of On-Device AI",
-    "SFT 诱导幻觉：微调为何制造幻觉及持续学习修复策略"
+    "SFT 诱导幻觉：微调为何制造幻觉及持续学习修复策略",
+    "Lightning-SimulWhisper",
+    "llama.cpp Vulkan 32-bit ARM Bug",
+    "TurboQuant WASM"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -432,7 +435,7 @@
     "off-grid-mobile-ai"
   ],
   "last_update": "2026-04-20",
-  "last_updated": "2026-04-20",
+  "last_updated": "2026-04-20T12:00:00Z",
   "total_pages": 15,
   "page_count": 13,
   "pages": [

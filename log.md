@@ -1,4 +1,17 @@
 
+## 2026-04-20 12:00
+
+**新增页面**: 3 个
+- `entities/lightning-simulwhisper.md` — MLX+CoreML 实时流式 ASR 引擎 (560⭐, 15-18x 加速)
+- `concepts/llamacpp-vulkan-arm-bug.md` — llama.cpp Vulkan 32-bit ARM GPU 静默失效 bug 分析
+- `entities/turboquant-wasm.md` — 基于 Google Research ICLR 2026 的 WASM 向量量化库，浏览器端 KV 缓存压缩
+
+**来源**: arXiv RSS (周末低产), GitHub releases, Android Dev Blog, HN Algolia, 多源 RSS
+**去重**: 372 known titles, 286 existing pages, 282 nav entries
+**统计**: ~220 raw items → ~50 stage-1 → 13 after dedup → 3 truly relevant after manual review
+
+---
+
 ## 2026-04-20 11:00 — Incremental Update
 
 **新增 1 个实体页面：**

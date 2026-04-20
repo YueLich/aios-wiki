@@ -91,6 +91,8 @@ nav:
       - "vllm-mlx: Apple Silicon 原生推理": entities/vllm-mlx-apple-silicon.md
       - 端侧流式 ASR (Microsoft): entities/ondevice-streaming-asr.md
       - "Xybrid: 端侧 LLM+ASR+TTS SDK": entities/xybrid-ondevice-ai-sdk.md
+      - Lightning-SimulWhisper: entities/lightning-simulwhisper.md
+      - TurboQuant WASM: entities/turboquant-wasm.md
       - "NanoWakeWord: 唤醒词训练框架": entities/nanowakeword.md
       - "NanoWakeWord 唤醒词训练": entities/nanowakeword-wake-word.md
       - "Transformers → MLX 转换": concepts/transformers-to-mlx.md
@@ -307,6 +309,7 @@ nav:
       - "FLAME: CPU-GPU 频率耦合延迟估计": concepts/flame-cpu-gpu-frequency-latency.md
       - "Agentic AI CPU 执行优化": concepts/agentic-ai-cpu-execution.md
       - "SFT 诱导幻觉：持续学习修复策略": concepts/sft-hallucinations-continual-learning.md
+      - llama.cpp Vulkan 32-bit ARM Bug: concepts/llamacpp-vulkan-arm-bug.md
 
     # ── 维度三：硬件与平台 ──
     - 🏭 硬件与平台:
