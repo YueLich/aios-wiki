@@ -3,3 +3,10 @@ site/
 __pycache__/
 *.pyc
 .DS_Store
+
+# Temp files
+_*.json
+_*.txt
+*.pyc
+__pycache__/
+site/
