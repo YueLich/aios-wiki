@@ -139,6 +139,7 @@ nav:
       - "Gemini Live Android 重塑": entities/gemini-live-android-redesign.md
       - "Google Fitbit Air: 无屏健康手环": entities/fitbit-air-google-health.md
       - LoudReader 端侧 TTS 阅读应用: entities/loudreader-ondevice-tts.md
+      - Cactus 移动推理引擎: entities/cactus-mobile-inference.md
   # ═══════ 概念：按 Agent 系统架构组织 ═══════
   - 概念:
     - 概念总览: concepts/index.md
@@ -179,6 +180,7 @@ nav:
         - "FastSHADE: 移动端实时图像去噪": concepts/fastshade-mobile-denoising.md
         - "DRIFT: 移动深度恢复与 ISP 融合": concepts/drift-mobile-isp-pipeline.md
         - "DroneScan-YOLO: 无人机端目标检测": concepts/dronescan-yolo.md
+        - "VisionClaw: 持续感知可穿戴 Agent": concepts/visionclaw-always-on-wearable-agent.md
       - 多模态感知:
         - "DERM-3R: 多模态皮肤病诊断 Agent": concepts/derm3r-multimodal-agent.md
         - "Sense Less Infer More: Agent 驱动边缘医疗": concepts/sense-less-infer-more.md
@@ -371,7 +373,6 @@ nav:
       - "Android CLI Agent 开发工具": concepts/android-cli-agentic-development.md
       - AromaGen 可穿戴嗅觉 LLM: concepts/aromagen-wearable-olfactory-llm.md
       - LLM 健康数据理解老年患者: concepts/llm-health-data-sensemaking-older-adults.md
-      - VisionClaw 可穿戴 Agent: concepts/visionclaw-wearable-agent.md
       - "Follow My Eyes: VLM 眼动预测后门攻击": concepts/follow-my-eyes-vlm-backdoor.md
       - PolicyGapper 应用隐私合规验证: concepts/policygapper-app-privacy-verification.md
 

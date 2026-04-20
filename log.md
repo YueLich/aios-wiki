@@ -1114,3 +1114,8 @@ format: reverse-chronological
 - Added 3 new pages: TinyMU, LoudReader, PolicyGapper
 - Sources: arXiv API, HN, The Decoder
 - Dedup: 44 skipped (known titles + existing pages)
+
+## 2026-04-20 增量更新
+- 新增页面：cactus-mobile-inference.md, visionclaw-always-on-wearable-agent.md
+- 来源：arXiv API (0 新), GitHub (0 新), HN (1 新), The Decoder (1 新)
+- 总已知标题：350

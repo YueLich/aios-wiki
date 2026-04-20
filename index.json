@@ -347,7 +347,9 @@
     "AdaVFM: Adaptive Vision Foundation Models for Edge Intelligence via LLM-Guided Execution",
     "TinyMU: A Compact Audio-Language Model for Music Understanding",
     "LoudReader: On-device TTS Reading App",
-    "PolicyGapper: Automated Detection of Inconsistencies Between Google Play Data Safety Sections and Privacy Policies Using LLMs"
+    "PolicyGapper: Automated Detection of Inconsistencies Between Google Play Data Safety Sections and Privacy Policies Using LLMs",
+    "Cactus (YC S25) - AI inference on smartphones",
+    "Always-on Ray-Ban Meta glasses powered by OpenClaw speed up everyday tasks in new study"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -515,6 +517,23 @@
       "slug": "policygapper-app-privacy-verification",
       "created": "2026-04-20",
       "type": "concept"
+    }
+  ],
+  "log": [
+    {
+      "date": "2026-04-20",
+      "action": "incremental_update",
+      "new_pages": [
+        "cactus-mobile-inference",
+        "visionclaw-always-on-wearable-agent"
+      ],
+      "sources_checked": [
+        "arXiv API",
+        "GitHub releases",
+        "HN Algolia",
+        "The Decoder RSS"
+      ],
+      "total_known": 350
     }
   ]
 }
