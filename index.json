@@ -394,7 +394,9 @@
     "Efficient Reasoning on the Edge",
     "ggml-org/llama.cpp: b8853",
     "ggml-org/llama.cpp: b8855",
-    "Why Fine-Tuning Encourages Hallucinations and How to Fix It"
+    "Why Fine-Tuning Encourages Hallucinations and How to Fix It",
+    "Hallucination as Trajectory Commitment: Causal Evidence for Asymmetric Attractor Dynamics in Transformer Generation",
+    "ProtoTTA: Prototype-Guided Test-Time Adaptation"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -569,6 +571,20 @@
       "slug": "off-grid-mobile-ai",
       "created": "2026-04-20",
       "type": "entity"
+    },
+    {
+      "slug": "hallucination-trajectory-commitment",
+      "type": "concept",
+      "title": "幻觉即轨迹承诺：Transformer 生成中的非对称吸引子动力学",
+      "created": "2026-04-20",
+      "source": "arXiv:2604.15400"
+    },
+    {
+      "slug": "prototta-test-time-adaptation",
+      "type": "concept",
+      "title": "ProtoTTA：原型引导的测试时自适应",
+      "created": "2026-04-20",
+      "source": "arXiv:2604.15494"
     }
   ],
   "log": [

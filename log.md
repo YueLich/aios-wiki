@@ -1242,3 +1242,10 @@ format: reverse-chronological
 - 扫描来源: arXiv RSS (5 feeds), GitHub (8 repos), RSS (6 feeds)
 - 原始条目: 140 → Stage 1: 89 → Stage 2: 35 → 去重后新内容: 0
 - 状态: 无新增页面（去重正常工作）
+
+## 2026-04-20 20:00
+- 新增 2 个概念页面
+  - hallucination-trajectory-commitment: 幻觉轨迹承诺（arXiv:2604.15400）
+  - prototta-test-time-adaptation: 原型引导测试时自适应（arXiv:2604.15494）
+- 来源：arXiv RSS/API
+- GitHub: llama.cpp b8855 已在合并页中（无更新）

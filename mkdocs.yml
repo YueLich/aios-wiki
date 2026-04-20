@@ -299,6 +299,8 @@ nav:
       - TinyML 到 LLM 的能效软硬件协同设计: concepts/energy-efficient-sw-hw-codesign-tinyml.md
       - Fast-dVLM 高效块扩散 VLM: concepts/fast-dvlm-block-diffusion-vlm.md
       - "SFT 幻觉与自蒸馏修复: 端侧微调质量保障": concepts/sft-hallucinations-self-distillation.md
+      - "幻觉即轨迹承诺：Transformer 非对称吸引子动力学": concepts/hallucination-trajectory-commitment.md
+      - "ProtoTTA: 原型引导的测试时自适应": concepts/prototta-test-time-adaptation.md
 
     # ── 维度三：硬件与平台 ──
     - 🏭 硬件与平台:
