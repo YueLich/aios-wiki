@@ -1269,3 +1269,8 @@ format: reverse-chronological
 - LLM-MARL P2P 能源交易 → `concepts/llm-marl-p2p-energy.md`
 
 来源：arXiv RSS/API，共扫描 117 条，去重后新增 2 条。
+
+## 2026-04-20 自动更新
+- 新增页面 2 个: ondevice-rag-unified-representation, aladdin-malleable-mobile-testing
+- 来源: arXiv API targeted queries
+- 扫描 183 条 → 2 条新内容

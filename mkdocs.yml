@@ -303,6 +303,7 @@ nav:
       - "SFT 幻觉与自蒸馏修复: 端侧微调质量保障": concepts/sft-hallucinations-self-distillation.md
       - "幻觉即轨迹承诺：Transformer 非对称吸引子动力学": concepts/hallucination-trajectory-commitment.md
       - "ProtoTTA: 原型引导的测试时自适应": concepts/prototta-test-time-adaptation.md
+      - "端侧 RAG 统一表征: 检索与压缩一体化": concepts/ondevice-rag-unified-representation.md
 
     # ── 维度三：硬件与平台 ──
     - 🏭 硬件与平台:
@@ -359,6 +360,7 @@ nav:
       - "AoE: 始终在线第一人称视频具身AI": concepts/aoe-egocentric-video-embodied.md
       - "TinyMU: 紧凑型音乐语言模型": concepts/tinymu-music-language-model.md
       - "PropGen: LLM 驱动移动端应用属性测试": concepts/propgen-mobile-testing.md
+      - "ALADDIN: 用户意图驱动可塑性应用测试": concepts/aladdin-malleable-mobile-testing.md
       - "HyCal 跨域少样本原型校准": concepts/hycal-prototype-calibration.md
       - "PixDLM: UAV 推理分割双路径多模态模型": concepts/pixdlm-uav-reasoning-segmentation.md
       - "SocialWise: LLM-Agent 对话疗法": concepts/socialwise-asd-therapy.md
