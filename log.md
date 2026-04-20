@@ -1237,3 +1237,8 @@ format: reverse-chronological
   - NeuroMesh: A Unified Neural Inference Framework for Decentralized Multi-Robot Collaboration
   - Semantics Over Syntax: Uncovering Pre-Authentication 5G Baseband Vulnerabilities
   - Get ready for Google I/O: Livestream schedule revealed
+
+## 2026-04-20_12:05 — 增量扫描
+- 扫描来源: arXiv RSS (5 feeds), GitHub (8 repos), RSS (6 feeds)
+- 原始条目: 140 → Stage 1: 89 → Stage 2: 35 → 去重后新内容: 0
+- 状态: 无新增页面（去重正常工作）
