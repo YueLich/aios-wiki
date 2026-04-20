@@ -148,6 +148,7 @@ nav:
       - "AgentRx: Agent 系统化调试": concepts/agentrx-debugging.md
       - "Google Assistant → Gemini 迁移": concepts/google-assistant-gemini-transition.md
       - "PBRC 预注册信念修正合约": concepts/pbrc-belief-revision.md
+      - "不完美合作人机交互: AI 透明性 vs 人类个性": concepts/imperfectly-cooperative-human-ai.md
       - "PolicyBank: Agent 策略自演化理解": concepts/policybank-agent-policy-understanding.md
     - "Google A2UI 0.9 — Agent 生成式 UI 标准": concepts/google-a2ui-generative-ui.md
 

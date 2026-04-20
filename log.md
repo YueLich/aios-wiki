@@ -1291,3 +1291,12 @@ format: reverse-chronological
 - PC2IM: 移动端点云存内计算加速器 → 新概念页
 - 扫描来源: arXiv RSS (5 feeds), arXiv API (10 queries), GitHub (7 repos), RSS (9 feeds), HN
 - 收集: 193 条 → 过滤: 95 → 去重后新增: 3 条
+
+## 2026-04-20 20:35 — 增量更新
+
+- 新增概念页: `concepts/imperfectly-cooperative-human-ai.md`
+  - 主题: 人机交互中 AI 透明性 vs 人类个性影响
+  - 来源: arXiv 2604.15607
+  - 关键发现: 真实用户研究中 AI 透明性远比人格特质更具影响力
+- 来源扫描: arXiv RSS (cs.AI/CL/LG/CV/MA), arXiv API, GitHub releases, HN, 7 个 RSS feeds
+- 收集 153 条原始内容 → 86 阶段1 → 39 阶段2 → 1 条新增（去重率 99.3%）
