@@ -148,6 +148,7 @@ nav:
 
     # ── 维度一：Agent 核心子系统 ──
     - 🧠 Agent 架构与认知:
+      - "World Leaks the Future: 演化预测 Agent 框架": concepts/world-leaks-future-prediction.md
       - "移动 Agent 框架": concepts/mobile-agent-framework.md
       - "ClawMobile: 原生 Agent 系统架构": concepts/clawmobile-agentic.md
       - "Tri-Spirit: 三层认知驱动的硬件协同设计": concepts/trispirit-cognitive-architecture.md
@@ -240,6 +241,7 @@ nav:
 
     # ── 维度二：推理与优化技术栈 ──
     - ⚡ 推理优化:
+      - "Weak-to-Strong Knowledge Distillation: 弱→强蒸馏加速视觉学习": concepts/weak-to-strong-knowledge-distillation.md
       - "端侧推理优化技术": concepts/edge-optimization.md
       - "Pushing the Limits of On-Device Streaming ASR": concepts/on-device-streaming-asr-compact.md
       - "DharmaOCR: 面向结构化 OCR 的专用 SLM": concepts/dharmaocr-specialized-slm-ocr.md
@@ -345,7 +347,6 @@ nav:
         - "Edge AI 裂缝分割：能效优化案例研究": concepts/edge-ai-crack-segmentation.md
         - "DFR-Gemma: 端侧地理空间推理": concepts/dfr-gemma-geospatial-reasoning.md
         - "LEAN-3D: 移动端低延迟点云编解码器": concepts/lean-3d-mobile-point-cloud.md
-        - "Google A2UI: Agent 驱动生成式 UI 标准": concepts/google-a2ui-generative-ui.md
       - "T2T: 加密流量描述手机活动": concepts/t2t-captioning-smartphone-activities.md
       - "Bouncer: 端侧 LLM 社交信息流治理": concepts/bouncer-ondevice-feed-curator.md
       - "MCU 端侧单目深度估计": concepts/ondevice-depth-mcu-learning.md
@@ -354,7 +355,6 @@ nav:
       - "AoE: 始终在线第一人称视频具身AI": concepts/aoe-egocentric-video-embodied.md
       - "TinyMU: 紧凑型音乐语言模型": concepts/tinymu-music-language-model.md
       - "PropGen: LLM 驱动移动端应用属性测试": concepts/propgen-mobile-testing.md
-      - "Google A2UI 生成式 UI 标准": concepts/google-a2ui-standard.md
     - "GUI-Perturbed: GUI Grounding 系统性脆弱性": concepts/gui-perturbed-grounding-brittleness.md
 
     # ── 安全与隐私（跨领域）──

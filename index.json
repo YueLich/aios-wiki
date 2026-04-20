@@ -355,7 +355,9 @@
     "SoK: Security of Autonomous LLM Agents in Agentic Commerce",
     "MCP Tool Descriptions Are Smelly! Towards Improving AI Agent Efficiency with Augmented MCP Tool Descriptions",
     "Subliminal Transfer of Unsafe Behaviors in AI Agent Distillation",
-    "Evaluating LLM Simulators as Differentially Private Data Generators"
+    "Evaluating LLM Simulators as Differentially Private Data Generators",
+    "The World Leaks the Future: Harness Evolution for Future Prediction Agents",
+    "Weak-to-Strong Knowledge Distillation Accelerates Visual Learning"
   ],
   "known_topics": [
     "memory-worth-governance",

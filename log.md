@@ -1140,3 +1140,11 @@ format: reverse-chronological
 - Subliminal Transfer of Unsafe Behaviors in AI Agent Distillation
 - Evaluating LLM Simulators as Differentially Private Data Generators
 
+
+## 2026-04-20 Wiki Update
+- New pages: 3
+  - `concepts/world-leaks-future-prediction.md` — Milkyway 演化预测 Agent 框架
+  - `concepts/weak-to-strong-knowledge-distillation.md` — 弱→强知识蒸馏加速视觉学习
+  - `concepts/google-a2ui-generative-ui.md` — Google A2UI 生成式 UI 标准
+- Sources: arXiv RSS (cs.AI/CL/LG/CV/MA), arXiv API, The Decoder RSS
+- Dedup: 40 stage-2 items → 12 new after 4-layer dedup → 3 genuinely relevant after manual review
