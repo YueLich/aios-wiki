@@ -389,7 +389,10 @@
     "Semantics Over Syntax: Uncovering Pre-Authentication 5G Baseband Vulnerabilities",
     "Get ready for Google I/O: Livestream schedule revealed",
     "ggml-org/llama.cpp: b8852",
-    "ggml-org/llama.cpp: b8854"
+    "ggml-org/llama.cpp: b8854",
+    "Low-Latency Edge LLM Handover via Joint KV Cache Transfer and Token Prefill",
+    "Efficient Reasoning on the Edge",
+    "ggml-org/llama.cpp: b8853"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -453,7 +456,7 @@
     "off-grid-mobile-ai"
   ],
   "last_update": "2026-04-20",
-  "last_updated": "2026-04-20_12:05",
+  "last_updated": "2026-04-20 12:46",
   "total_pages": 15,
   "page_count": 13,
   "pages": [

@@ -259,6 +259,8 @@ nav:
         - "OSPO 单步多智能体优化": concepts/onestep-marl-ride-sharing.md
         - "GroupDPO: 内存高效群组偏好优化": concepts/groupdpo-memory-efficient-preference-optimization.md
         - "Dispatch-Aware Ragged Attention: ViT 剪枝调度瓶颈": concepts/triton-dispatch-ragged-attention.md
+      - "Edge LLM Handover: 联合 KV 缓存传输与 Token Prefill": concepts/edge-llm-handover.md
+      - "Efficient Reasoning on the Edge: 端侧高效推理": concepts/efficient-reasoning-edge.md
       - 模型路由与自评估:
         - "RPRA: LLM-Judge 预测高效推理": concepts/rpra-self-assessment-inference.md
         - "RPRA: 自评估推理路由": concepts/rpra-llm-judge-inference.md
