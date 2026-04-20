@@ -1284,3 +1284,10 @@ format: reverse-chronological
 - 新增页面 2 个: ondevice-rag-unified-representation, aladdin-malleable-mobile-testing
 - 来源: arXiv API targeted queries
 - 扫描 183 条 → 2 条新内容
+
+## 2026-04-20 19:37 UTC
+- llama.cpp b8857: WebGPU mat-vec 更新 → 追加到合并页
+- GalaxyBrain: 本地文件信息操作系统 → 新实体页
+- PC2IM: 移动端点云存内计算加速器 → 新概念页
+- 扫描来源: arXiv RSS (5 feeds), arXiv API (10 queries), GitHub (7 repos), RSS (9 feeds), HN
+- 收集: 193 条 → 过滤: 95 → 去重后新增: 3 条

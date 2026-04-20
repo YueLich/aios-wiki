@@ -1188,3 +1188,20 @@ XIELU on Metal 是端侧 LLM 推理优化的又一突破。传统的激活函数
 - [[llamacpp]] — 上一个版本，含更多架构更新
 - [[mnn-350]] — 阿里端侧推理引擎，竞争方案
 - [[coremltools-9]] — Apple 官方模型转换工具链
+### Build b8857 (2026-04-20)
+
+**主要更新**: ggml-webgpu 更新矩阵-向量乘法（mat-vec）
+
+**技术细节**:
+- 重写 mat-vec kernel，新的 float 路径实现
+- 完整移植 k-quants 到新 mat-vec 实现
+- 清理旧 shader 和遗留常量
+- 修复 q3_K 和 q5_K 在 u32 索引下的性能问题
+
+**WebGPU 意义**: 这个 build 使 llama.cpp 的 WebGPU 后端更加成熟，
+矩阵-向量乘法是 LLM 推理的核心操作，优化后能显著提升浏览器端和
+跨平台推理性能。对于移动端 WebView 内嵌 AI 能力有直接价值。
+
+**关联**: [[mnn-350]], [[coremltools-9]]
+
+---

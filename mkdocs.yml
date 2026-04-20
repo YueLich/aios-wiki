@@ -310,6 +310,7 @@ nav:
 
     # ── 维度三：硬件与平台 ──
     - 🏭 硬件与平台:
+      - PC2IM 存内计算点云加速: concepts/pc2im-cim-point-cloud.md
       - 设备适配:
         - Wear OS 64-bit 架构要求: concepts/wearos-64bit.md
         - 端侧推理内存压力与硬件方案: concepts/on-device-inference-memory-pressure.md
@@ -334,6 +335,7 @@ nav:
     - 🎯 应用场景:
       - "Google I/O 2026 开发者大会": concepts/google-io-2026.md
       - "LifeDialBench: 持续生活日志记忆评估": entities/lifedialbench-lifelog-memory.md
+      - GalaxyBrain 本地信息OS: entities/galaxybrain-local-info-os.md
       - "Wearable-Triggered LLM 心理支持": concepts/wearable-triggered-llm-stress.md
       - 音频与多媒体:
         - Gemma 4 音频处理 (MLX): concepts/gemma4-audio-mlx.md

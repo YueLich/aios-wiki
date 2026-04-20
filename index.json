@@ -411,7 +411,10 @@
     "SOLAR: PEFT 适配器子空间压缩",
     "MobileFineTuner: A Unified End-to-End Framework for Fine-Tuning LLMs on Mobile Phones",
     "MobileLLM-Pro Technical Report",
-    "SOLAR: Communication-Efficient Model Adaptation via Subspace-Oriented Latent Adapter Reparametrization"
+    "SOLAR: Communication-Efficient Model Adaptation via Subspace-Oriented Latent Adapter Reparametrization",
+    "ggml-org/llama.cpp: b8857",
+    "GalaxyBrain: Local-First Information OS",
+    "PC2IM: In-Memory Computing for Mobile Point Cloud"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -475,7 +478,7 @@
     "off-grid-mobile-ai"
   ],
   "last_update": "2026-04-20",
-  "last_updated": "2026-04-20T19:13:15.411863",
+  "last_updated": "2026-04-20T19:37:09.625743+00:00",
   "total_pages": 15,
   "page_count": 13,
   "pages": [
