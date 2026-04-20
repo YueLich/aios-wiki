@@ -305,9 +305,11 @@ nav:
         - "GreenFLag: 绿色 Agent 节能联邦学习": concepts/greenflag-energy-efficient-fl.md
       - 芯片与加速器:
         - "EdgeCIM: 边缘存算一体协同设计": concepts/edgecim-hardware-codesign.md
+        - "CIMple: SRAM CIM LUT 化自注意力加速器": concepts/cimple-cim-attention-acceleration.md
         - RL 驱动 ASIC 架构探索: concepts/rl-asic-exploration.md
         - LSTM 步态 ASIC 实时加速器: concepts/lstm-gait-asic-accelerator.md
         - "Strix: NPU 可靠性全栈框架": concepts/strix-npu-reliability.md
+        - "MemExplorer: 异构 NPU 内存系统自动合成": concepts/memexplorer-npu-memory-synthesis.md
         - "ATI: 仿生传感器优先具身 AI": concepts/ati-physical-ai.md
       - "Gearbox-PHY 能效优化移动通信": concepts/gearbox-phy-energy-mobile.md
       - "BFP NPU 可靠性协同设计": entities/bfp-npu-reliability.md

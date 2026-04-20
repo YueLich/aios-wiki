@@ -1,4 +1,13 @@
 
+## 2026-04-20 02:16
+
+新增 2 个概念页面:
+- **MemExplorer: 异构 NPU 内存系统自动合成** (arXiv 2604.16007) — 面向 agentic LLM 推理的异构内存架构设计空间探索工具
+- **CIMple: SRAM CIM LUT 化自注意力加速器** (arXiv 2604.15944) — 标准单元 CIM 加速器，26.1 TOPS/W
+
+来源: arXiv API (周末 RSS 无数据), GitHub releases, RSS feeds
+扫描: 170 条 → 去重 65 → 过滤 99 → 6 条候选 → 最终 2 条新增
+
 ## 2026-04-20_01:43 - Incremental Update
 
 **New pages**: 2
