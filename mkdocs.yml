@@ -287,6 +287,9 @@ nav:
       - "Agentic AI CPU 执行优化": concepts/agentic-ai-cpu-execution.md
       - "SFT 诱导幻觉：持续学习修复策略": concepts/sft-hallucinations-continual-learning.md
       - llama.cpp Vulkan 32-bit ARM Bug: concepts/llamacpp-vulkan-arm-bug.md
+      - TinyML CNN 加速器近似矩阵分解协同设计: concepts/tinyml-cnn-accelerator-approx-matrix-decomp.md
+      - TinyML 到 LLM 的能效软硬件协同设计: concepts/energy-efficient-sw-hw-codesign-tinyml.md
+      - Fast-dVLM 高效块扩散 VLM: concepts/fast-dvlm-block-diffusion-vlm.md
 
     # ── 维度三：硬件与平台 ──
     - 🏭 硬件与平台:
@@ -304,6 +307,8 @@ nav:
         - LSTM 步态 ASIC 实时加速器: concepts/lstm-gait-asic-accelerator.md
         - "Strix: NPU 可靠性全栈框架": concepts/strix-npu-reliability.md
         - "MemExplorer: 异构 NPU 内存系统自动合成": concepts/memexplorer-npu-memory-synthesis.md
+      - AEG 裸机 AI 加速框架: concepts/aeg-baremetal-ai-acceleration.md
+      - 语义分区地图管理：移动机器人 VLM: concepts/semantic-zone-map-management-mobile-robot.md
         - "ATI: 仿生传感器优先具身 AI": concepts/ati-physical-ai.md
       - "Gearbox-PHY 能效优化移动通信": concepts/gearbox-phy-energy-mobile.md
       - "BFP NPU 可靠性协同设计": entities/bfp-npu-reliability.md
@@ -336,6 +341,7 @@ nav:
       - "Bouncer: 端侧 LLM 社交信息流治理": concepts/bouncer-ondevice-feed-curator.md
       - "MCU 端侧单目深度估计": concepts/ondevice-depth-mcu-learning.md
       - "RoboPocket: 手机改进机器人策略": concepts/robopocket.md
+      - DENALI 低成本 LiDAR NLOS 感知: concepts/denali-nlos-lidar-dataset.md
       - "智能手机地震预警用户感知": concepts/smartphone-eew-user-perception.md
       - "AoE: 始终在线第一人称视频具身AI": concepts/aoe-egocentric-video-embodied.md
       - "TinyMU: 紧凑型音乐语言模型": concepts/tinymu-music-language-model.md
