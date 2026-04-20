@@ -5,7 +5,7 @@ related: [[ggml-llamacpp-hf]], [[mnn-350]], [[coremltools-9]]
 sources:
   - https://github.com/ggml-org/llama.cpp/releases
 created: 2026-04-14
-updated: 2026-04-20
+updated: 2026-04-2020
 ---
 
 # llama.cpp 版本追踪
@@ -1183,6 +1183,26 @@ XIELU on Metal 是端侧 LLM 推理优化的又一突破。传统的激活函数
 - 多平台预编译包
 
 **端侧意义**: GLM-DSA 是智谱 AI 的模型格式，此修复确保在使用 `vocab_only` 模式（仅加载词表用于 tokenize，不加载模型权重）时不会崩溃。`vocab_only` 模式在端侧常用于快速 tokenization 预处理和模型格式检测，是一个重要的轻量级操作模式。
+
+
+
+### Build b8860 (2026-04-20)
+
+**主要更新**: 修复 Gemma-4 MoE 模型的 Tensor Parallel AllReduce 延迟问题
+
+**技术细节**:
+- 修复 Gemma-4 MoE 架构在 tensor-parallel 模式下的延迟 AllReduce 问题 (PR #22129)
+- 跳过不消费当前节点的前向节点，允许 MUL 链式执行
+- 在跳过节点前检查所有 source 节点，确保依赖完整性
+- 多平台构建：macOS arm64/x64、Linux (CPU/Vulkan/ROCm/OpenVINO)、Android arm64、Windows (CPU/CUDA 12/13/Vulkan/SYCL/HIP)
+
+**对移动端的意义**: Gemma-4 是 Google 最新的端侧多模态模型，MoE 架构需要高效的 tensor parallel 支持。
+此修复确保 Gemma-4 在 Android arm64 设备上运行时不会因 AllReduce 延迟导致推理瓶颈。
+对于在手机端部署 Gemma-4 MoE 模型的场景至关重要。
+
+**关联**: [[gemma4-ondevice]], [[mnn-350]], [[coremltools-9]]
+
+---
 
 ## 相关
 - [[llamacpp]] — 上一个版本，含更多架构更新

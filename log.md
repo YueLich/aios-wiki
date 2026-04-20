@@ -1,4 +1,11 @@
 
+## 2026-04-20 21:35 UTC
+- 来源: arXiv RSS (cs.AI/CL/LG/CV/MA) + API查询 + RSS feeds + GitHub releases + HN
+- 收集: 223 条原始 → 128 关键词过滤 → 86 二阶段过滤 → 6 去重后 → 1 实际新增
+- 新增: llama.cpp b8860 (合并页追加)
+- 跳过: Gemma 4, Gemini 3.1 Flash TTS/Live/Lite, Nano Banana 2, FastSHADE, EdgeFlow, PSPA-Bench, BioTrain, MemExplorer, Imp, Scaling NPU 等（已在 index.json）
+- 备注: 去重率 99.1%，说明知识库已覆盖近期所有主要动态
+
 ## 2026-04-20 19:13
 
 **新增 3 个页面：**

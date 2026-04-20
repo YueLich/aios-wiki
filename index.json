@@ -418,7 +418,8 @@
     "Off Grid: The Swiss Army Knife of On-Device AI",
     "SecAgent: Efficient Mobile GUI Agent with Semantic Context",
     "LifeDialBench: Evaluating Memory Capability in Continuous Lifelog Scenario",
-    "ChemGraph-XANES: An Agentic Framework for XANES Simulation and Analysis"
+    "ChemGraph-XANES: An Agentic Framework for XANES Simulation and Analysis",
+    "ggml-org/llama.cpp: b8860"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -641,5 +642,12 @@
       "total_known": 368
     }
   ],
-  "github_releases": {}
+  "github_releases": {},
+  "recent_releases": {
+    "ggml-org/llama.cpp": {
+      "tag": "b8860",
+      "published": "2026-04-20",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b8860"
+    }
+  }
 }
