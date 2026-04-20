@@ -405,7 +405,13 @@
     "Show HN: CyberWriter – a .md editor built on Apple's (barely-used) on-device AI",
     "iappyxOS: Generate real Android apps on-device",
     "A Unified Model and Document Representation for On-Device Retrieval-Augmented Generation",
-    "Automated Functional Testing for Malleable Mobile Application Driven from User Intent"
+    "Automated Functional Testing for Malleable Mobile Application Driven from User Intent",
+    "MobileLLM-Pro: Meta 1B 端侧 SOTA 模型",
+    "MobileFineTuner: 手机端 LLM 微调框架",
+    "SOLAR: PEFT 适配器子空间压缩",
+    "MobileFineTuner: A Unified End-to-End Framework for Fine-Tuning LLMs on Mobile Phones",
+    "MobileLLM-Pro Technical Report",
+    "SOLAR: Communication-Efficient Model Adaptation via Subspace-Oriented Latent Adapter Reparametrization"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -469,7 +475,7 @@
     "off-grid-mobile-ai"
   ],
   "last_update": "2026-04-20",
-  "last_updated": "2026-04-20T17:06:06.558293Z",
+  "last_updated": "2026-04-20T19:13:15.411863",
   "total_pages": 15,
   "page_count": 13,
   "pages": [

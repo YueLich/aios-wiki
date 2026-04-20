@@ -94,6 +94,7 @@ nav:
       - "Gemini Deep Think 深度推理模式": entities/gemini-deep-think-reasoning.md
       - "Gemini 3.1 Pro: 旗舰智能模型": entities/gemini-31-pro.md
       - "Gemini 3.1 Deep Think: 专业推理增强": entities/gemini-31-deep-think.md
+      "MobileLLM-Pro: Meta 1B 端侧 SOTA 模型": entities/mobilellm-pro.md
     - 设备与平台:
       - iPhone 17e: entities/iphone-17e.md
       - Google AI Edge Gallery: entities/google-ai-edge-gallery.md
@@ -206,6 +207,7 @@ nav:
       - "Self-adaptive MEC: 自适应边缘架构机器人": concepts/self-adaptive-mec-robotics.md
       - "MCP 工具描述质量": concepts/mcp-tool-description-smells.md
       - "LLM 委托编辑中的文档损坏问题": concepts/llm-delegation-document-corruption.md
+      "MobileFineTuner: 手机端 LLM 微调框架": concepts/mobilefinetuner.md
 
     - 🤝 多 Agent 协作:
       - "EmoMAS: 情感感知的边缘协商": concepts/emommas-edge-negotiation.md
@@ -260,6 +262,7 @@ nav:
         - "ProfInfer: eBPF 推理性能分析": concepts/profinfer-llm-profiling.md
         - "OSPO 单步多智能体优化": concepts/onestep-marl-ride-sharing.md
         - "GroupDPO: 内存高效群组偏好优化": concepts/groupdpo-memory-efficient-preference-optimization.md
+          "SOLAR: PEFT 适配器子空间压缩": concepts/solar-peft-compression.md
         - "Dispatch-Aware Ragged Attention: ViT 剪枝调度瓶颈": concepts/triton-dispatch-ragged-attention.md
       - "Edge LLM Handover: 联合 KV 缓存传输与 Token Prefill": concepts/edge-llm-handover.md
       - "Efficient Reasoning on the Edge: 端侧高效推理": concepts/efficient-reasoning-edge.md

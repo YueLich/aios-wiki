@@ -1,4 +1,14 @@
 
+## 2026-04-20 19:13
+
+**新增 3 个页面：**
+- 📱 `entities/mobilellm-pro.md` — MobileLLM-Pro: Meta 1B 端侧 SOTA 模型（11基准领先，128K上下文，4-bit QAT）
+- 🔧 `concepts/mobilefinetuner.md` — MobileFineTuner: 手机端 LLM 微调框架（参数分片+梯度累积+能量感知调度）
+- ⚡ `concepts/solar-peft-compression.md` — SOLAR: PEFT 适配器子空间压缩（通信高效的 LoRA 压缩）
+
+**来源：** arXiv API (3 papers)
+**去重：** 405 known → 3 new (275 collected → 129 stage-1 → 60 stage-2 → 3 after 4-layer dedup)
+
 ## 2026-04-20 增量更新
 - 新增 2 个实体页面:
   - CyberWriter: 基于 Apple 端侧 AI 的 macOS Markdown 编辑器
