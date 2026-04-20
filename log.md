@@ -1253,3 +1253,11 @@ format: reverse-chronological
 ## 2026-04-20 增量更新
 - 新增: cpu-biomechanics-pipeline-optimization (概念页) — CPU-only 视觉推理管道优化, arXiv 2604.15665
 - 扫描 234 条源, 150 通过关键词过滤, 16 通过去重, 1 具备足够深度创建 wiki 页
+
+## 2026-04-20 更新
+
+新增 2 个页面：
+- SocialWise: LLM-Agent 对话疗法 → `concepts/socialwise-asd-therapy.md`
+- LLM-MARL P2P 能源交易 → `concepts/llm-marl-p2p-energy.md`
+
+来源：arXiv RSS/API，共扫描 117 条，去重后新增 2 条。

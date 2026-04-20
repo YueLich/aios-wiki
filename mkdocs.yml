@@ -359,6 +359,8 @@ nav:
       - "PropGen: LLM 驱动移动端应用属性测试": concepts/propgen-mobile-testing.md
       - "HyCal 跨域少样本原型校准": concepts/hycal-prototype-calibration.md
       - "PixDLM: UAV 推理分割双路径多模态模型": concepts/pixdlm-uav-reasoning-segmentation.md
+      - "SocialWise: LLM-Agent 对话疗法": concepts/socialwise-asd-therapy.md
+      - LLM-MARL P2P 能源交易: concepts/llm-marl-p2p-energy.md
     - "GUI-Perturbed: GUI Grounding 系统性脆弱性": concepts/gui-perturbed-grounding-brittleness.md
 
     # ── 安全与隐私（跨领域）──

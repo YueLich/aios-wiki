@@ -397,7 +397,9 @@
     "Why Fine-Tuning Encourages Hallucinations and How to Fix It",
     "Hallucination as Trajectory Commitment: Causal Evidence for Asymmetric Attractor Dynamics in Transformer Generation",
     "ProtoTTA: Prototype-Guided Test-Time Adaptation",
-    "CPU Optimization of a Monocular 3D Biomechanics Pipeline for Low-Resource Deployment"
+    "CPU Optimization of a Monocular 3D Biomechanics Pipeline for Low-Resource Deployment",
+    "SocialWise: LLM-Agent 对话疗法",
+    "LLM-MARL P2P 能源交易"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -461,7 +463,7 @@
     "off-grid-mobile-ai"
   ],
   "last_update": "2026-04-20",
-  "last_updated": "2026-04-20 12:46",
+  "last_updated": "2026-04-20",
   "total_pages": 15,
   "page_count": 13,
   "pages": [
