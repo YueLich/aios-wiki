@@ -227,6 +227,7 @@ nav:
       - "CAMO: 多 Agent 因果发现框架": concepts/camo-agent-causal-discovery.md
       - "Agent 蒸馏不安全行为传递": concepts/subliminal-transfer-agent-distillation.md
       - "NeuroMesh: 去中心化多机器人协作推理": concepts/neuromesh-multi-robot-inference.md
+      - "ChemGraph-XANES: Agentic 框架用于科学仿真": concepts/chemgraph-xanes-agentic.md
 
     # ── 维度二：推理与优化技术栈 ──
     - ⚡ 推理优化:

@@ -1300,3 +1300,8 @@ format: reverse-chronological
   - 关键发现: 真实用户研究中 AI 透明性远比人格特质更具影响力
 - 来源扫描: arXiv RSS (cs.AI/CL/LG/CV/MA), arXiv API, GitHub releases, HN, 7 个 RSS feeds
 - 收集 153 条原始内容 → 86 阶段1 → 39 阶段2 → 1 条新增（去重率 99.3%）
+
+## 2026-04-21 增量更新
+- 新增: ChemGraph-XANES (概念页) — Agentic 框架、多 Agent 编排、文档驱动 RAG
+- 来源: arXiv 2604.16205, arXiv API + RSS
+- 扫描: 87 raw → 54 stage-1 → 24 stage-2 → 1 new after dedup

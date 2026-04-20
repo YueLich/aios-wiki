@@ -417,7 +417,8 @@
     "ProtoTTA: Prototype-Guided Test-Time Adaptation",
     "Off Grid: The Swiss Army Knife of On-Device AI",
     "SecAgent: Efficient Mobile GUI Agent with Semantic Context",
-    "LifeDialBench: Evaluating Memory Capability in Continuous Lifelog Scenario"
+    "LifeDialBench: Evaluating Memory Capability in Continuous Lifelog Scenario",
+    "ChemGraph-XANES: An Agentic Framework for XANES Simulation and Analysis"
   ],
   "known_topics": [
     "memory-worth-governance",
