@@ -12,7 +12,71 @@ updated: 2026-04-20
 
 llama.cpp 持续快速迭代，本页汇总各 build 的重要变更。最新版本在最上方。
 
-共追踪 25 个版本（b8791 ~ b8851）。
+共追踪 27 个版本（b8791 ~ b8854）。
+
+
+
+### Build 8854
+## 发布信息
+
+- **版本**: b8854
+- **发布日期**: 2026-04-20
+- **仓库**: [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp)
+
+## 主要变更
+
+### 服务器重构
+- **server: refactor "use checkpoint" logic (#22114)** — 重构服务端的 checkpoint 使用逻辑，使代码结构更清晰，为后续推测解码（speculative decoding）的进一步优化铺路。
+
+### 平台支持
+
+| 平台 | 包格式 |
+|------|--------|
+| macOS Apple Silicon (arm64) | 原生 + KleidiAI 变体 |
+| macOS Intel (x64) | 原生 |
+| iOS | XCFramework |
+| Linux x64/arm64 | CPU/ROCm |
+
+## 为什么重要
+
+b8854 是一个**代码质量改进**版本，不涉及功能变更但提升了代码可维护性。重构 checkpoint 逻辑使推测解码的错误回滚路径更清晰，降低了后续修改引入 bug 的风险。
+
+## 关联
+
+- [[ggml-llamacpp-hf]] — llama.cpp 的 GGML 生态
+- [[coremltools-9]] — Apple Core ML 工具链
+- [[on-device-inference-memory-pressure]] — 推测解码减少推理内存压力
+
+
+### Build 8852
+## 发布信息
+
+- **版本**: b8852
+- **发布日期**: 2026-04-20
+- **仓库**: [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp)
+
+## 主要变更
+
+### 命名规范化
+- **server: rename --clear-idle to --cache-idle-slots (#21741)** — 服务器命令行参数重命名，使选项名称更准确地反映其功能（管理空闲缓存槽位而非"清除空闲"）。
+
+### 平台支持
+
+| 平台 | 包格式 |
+|------|--------|
+| macOS Apple Silicon (arm64) | 原生 + KleidiAI 变体 |
+| macOS Intel (x64) | 原生 |
+| iOS | XCFramework |
+| Linux x64/arm64 | CPU/ROCm |
+
+## 为什么重要
+
+b8852 是一个**API 清理**版本。`--clear-idle` 改名为 `--cache-idle-slots` 使参数语义更明确，对于使用 llama.cpp HTTP 服务器的端侧部署脚本，需要更新启动参数。这是典型的 breaking change 小版本——无性能影响但需注意兼容性。
+
+## 关联
+
+- [[ggml-llamacpp-hf]] — llama.cpp 的 GGML 生态
+- [[mnn-350]] — MNN 也有类似的缓存管理机制
 
 
 ### Build 8851

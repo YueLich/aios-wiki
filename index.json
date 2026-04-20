@@ -387,7 +387,9 @@
     "PixDLM: A Dual-Path Multimodal Language Model for UAV Reasoning Segmentation",
     "NeuroMesh: A Unified Neural Inference Framework for Decentralized Multi-Robot Collaboration",
     "Semantics Over Syntax: Uncovering Pre-Authentication 5G Baseband Vulnerabilities",
-    "Get ready for Google I/O: Livestream schedule revealed"
+    "Get ready for Google I/O: Livestream schedule revealed",
+    "ggml-org/llama.cpp: b8852",
+    "ggml-org/llama.cpp: b8854"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -451,7 +453,7 @@
     "off-grid-mobile-ai"
   ],
   "last_update": "2026-04-20",
-  "last_updated": "2026-04-20T12:00:00Z",
+  "last_updated": "2026-04-20T14:30:00Z",
   "total_pages": 15,
   "page_count": 13,
   "pages": [
