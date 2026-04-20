@@ -1249,3 +1249,7 @@ format: reverse-chronological
   - prototta-test-time-adaptation: 原型引导测试时自适应（arXiv:2604.15494）
 - 来源：arXiv RSS/API
 - GitHub: llama.cpp b8855 已在合并页中（无更新）
+
+## 2026-04-20 增量更新
+- 新增: cpu-biomechanics-pipeline-optimization (概念页) — CPU-only 视觉推理管道优化, arXiv 2604.15665
+- 扫描 234 条源, 150 通过关键词过滤, 16 通过去重, 1 具备足够深度创建 wiki 页

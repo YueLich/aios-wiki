@@ -396,7 +396,8 @@
     "ggml-org/llama.cpp: b8855",
     "Why Fine-Tuning Encourages Hallucinations and How to Fix It",
     "Hallucination as Trajectory Commitment: Causal Evidence for Asymmetric Attractor Dynamics in Transformer Generation",
-    "ProtoTTA: Prototype-Guided Test-Time Adaptation"
+    "ProtoTTA: Prototype-Guided Test-Time Adaptation",
+    "CPU Optimization of a Monocular 3D Biomechanics Pipeline for Low-Resource Deployment"
   ],
   "known_topics": [
     "memory-worth-governance",

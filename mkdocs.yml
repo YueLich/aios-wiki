@@ -386,6 +386,7 @@ nav:
       - "LLM 差分隐私数据生成": concepts/llm-simulator-differential-privacy.md
       - "SoK Agentic Commerce 安全": concepts/sok-security-agentic-commerce.md
       - "5G 基带语义漏洞: 认证前攻击面": concepts/5g-baseband-semantic-vulnerabilities.md
+      - "CPU 生物力学管道优化": concepts/cpu-biomechanics-pipeline-optimization.md
 
   - 对比: comparisons/index.md
   - 速查: queries/index.md
