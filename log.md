@@ -1,4 +1,10 @@
 
+## 2026-04-21 04:42 - Wiki Update
+- 新增 1 页面：WorldDB (concepts/worlddb-memory-engine.md)
+- 来源：arXiv 2604.18478
+- 去重：跳过 20 条（Layer 1/2/4/5 命中）
+- 关键词过滤：163 → 21 → 4 → 1 新页面
+
 ## 2026-04-21 04:16
 - **新增 6 个页面**：5 个概念页 + 1 个实体页
 - **来源**：arXiv cs.MA (5篇), GitHub (1个)

@@ -195,6 +195,7 @@ nav:
       - "PlugMem: 任务无关插件记忆": concepts/plugmem-plugin-memory.md
       - "Trust Your Memory: LLM 增强记忆智能家居控制": concepts/trust-your-memory-smart-home.md
       - "Experience Compression Spectrum": concepts/experience-compression-spectrum.md
+      - "WorldDB: 向量图-世界记忆引擎": concepts/worlddb-memory-engine.md
 
     - 🔧 工具调用与执行:
       - "端侧 vs 云端: Agentic 工具调用实战": concepts/on-device-vs-cloud-agentic-tool-calling.md

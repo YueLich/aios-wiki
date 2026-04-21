@@ -396,7 +396,8 @@
     "Diversity Collapse in Multi-Agent LLM Systems: Structural Coupling and Collective Failure in Open-Ended Idea Generation",
     "Semantic Consensus: Process-Aware Conflict Detection and Resolution for Enterprise Multi-Agent LLM Systems",
     "Governing the Agentic Enterprise: A Governance Maturity Model for Managing AI Agent Sprawl in Business Operations",
-    "NVIDIA/TensorRT-LLM: v1.2.1"
+    "NVIDIA/TensorRT-LLM: v1.2.1",
+    "WorldDB: A Vector Graph-of-Worlds Memory Engine with Ontology-Aware Write-Time Reconciliation"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -460,7 +461,7 @@
     "off-grid-mobile-ai"
   ],
   "last_update": "2026-04-20",
-  "last_updated": "2026-04-21 04:11",
+  "last_updated": "2026-04-21 04:42",
   "total_pages": 15,
   "page_count": 13,
   "pages": [
