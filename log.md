@@ -1454,3 +1454,9 @@ format: reverse-chronological
 - 新增 3 个页面：Cross-Family Speculative Decoding、HalfV 视觉冗余、Aide Android Assistant
 - 来源：arXiv RSS + HN Algolia API
 - arXiv API 全部超时，仅 RSS 有数据
+
+## 2026-04-21 — 增量更新
+- 更新 llamacpp.md：追加 Build b8869 (mtmd MROPE 修正)
+- 收集 119 条标题，过滤后 22 条，去重后 1 条新增
+- 来源：arXiv RSS (cs.AI/CL/LG/CV/MA) + GitHub releases + RSS feeds
+- 注：arXiv API 全部超时/429，仅 RSS 收集可用

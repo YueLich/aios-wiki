@@ -1286,3 +1286,19 @@ OOM 后无法正确回收内存会导致设备变砖或需要重启推理进程�
 
 **移动端影响**: iOS XCFramework 和 Android arm64 二进制包持续更新，确保移动端部署工具链保持最新。导出修复（#22202）解决了库符号导出问题，对将 llama.cpp 嵌入 iOS/Android 应用的开发者有直接影响。
 
+
+
+### Build b8869 (2026-04-21)
+
+**发布日期**: 2026-04-21
+
+**主要变更**:
+- `mtmd`: 修正 `mtmd_decode_use_mrope()` 实现 (#22188) — 修复多模态 token 解码中的 MROPE（多维旋转位置编码）使用逻辑
+
+**平台支持**: macOS/iOS (arm64/x64/KleidiAI/iOS XCFramework), Linux (Ubuntu x64/arm64/s390x/Vulkan/ROCm/OpenVINO), Android arm64, Windows x64/arm64 (CPU/CUDA/Vulkan/OpenVINO)
+
+**移动端影响**: MROPE 修复对多模态模型在端侧推理至关重要——mtmd（多模态解码）是 llama.cpp 处理视觉-语言模型（如 LLaVA、MiniCPM-V）的核心组件。MROPE 错误使用会导致视觉 token 位置编码偏差，影响图像理解准确性。此次修复确保移动端多模态推理的正确性。
+
+**关联**:
+- [[minicpm-242]] — MiniCPM-V 等视觉模型依赖 mtmd 组件
+- [[edge-inference-memory-pressure]] — 端侧多模态推理的内存管理
