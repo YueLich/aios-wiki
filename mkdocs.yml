@@ -172,6 +172,7 @@ nav:
         - "Sense Less Infer More: Agent 驱动边缘医疗": concepts/sense-less-infer-more.md
         - "Chain of Modality: 动态多模态融合编排": concepts/chain-of-modality.md
         - "GIST: 多模态空间接地与智能语义拓扑": concepts/gist-spatial-grounding-topology.md
+        - "DailyDroid: 移动GUI Agent失败分析基准": concepts/dailydroid-failure-benchmark.md
 
     - 💾 记忆与状态:
       - "MGA: 记忆驱动 GUI Agent 交互": concepts/mga-memory-gui-agent.md
