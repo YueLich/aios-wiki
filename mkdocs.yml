@@ -276,6 +276,7 @@ nav:
         - "ProfInfer: eBPF 推理性能分析": concepts/profinfer-llm-profiling.md
         - "OSPO 单步多智能体优化": concepts/onestep-marl-ride-sharing.md
         - "GroupDPO: 内存高效群组偏好优化": concepts/groupdpo-memory-efficient-preference-optimization.md
+        - "TopoVLM: 拓扑感知层剪枝": concepts/topovlm-layer-pruning.md
           "SOLAR: PEFT 适配器子空间压缩": concepts/solar-peft-compression.md
         - "Dispatch-Aware Ragged Attention: ViT 剪枝调度瓶颈": concepts/triton-dispatch-ragged-attention.md
       - "Edge LLM Handover: 联合 KV 缓存传输与 Token Prefill": concepts/edge-llm-handover.md

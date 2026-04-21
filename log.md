@@ -1424,3 +1424,9 @@ format: reverse-chronological
 - ASR streaming, WISV speculative decoding 已有页面
 - Index: 409 titles, ~342 pages on disk
 
+
+## 2026-04-21_09:37
+- 新增: TopoVLM: 拓扑感知层剪枝 (concepts/topovlm-layer-pruning.md)
+- 来源: arXiv 2604.16502 - 首个拓扑感知 LVLM 层剪枝框架
+- 扫描: arXiv RSS (5 feeds) + API (10 queries) + GitHub releases (4 repos) + RSS feeds (4) = 161 items → 6 new after dedup → 1 relevant
+- llama.cpp b8864 已存在于合并页
