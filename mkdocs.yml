@@ -96,6 +96,7 @@ nav:
       - "Gemini 3.1 Pro: 旗舰智能模型": entities/gemini-31-pro.md
       - "Gemini 3.1 Deep Think: 专业推理增强": entities/gemini-31-deep-think.md
       "MobileLLM-Pro: Meta 1B 端侧 SOTA 模型": entities/mobilellm-pro.md
+      - "MUA: Mobile 超精细可动画化 Avatar": entities/mua-mobile-ultradetailed-avatars.md
     - 设备与平台:
       - iPhone 17e: entities/iphone-17e.md
       - Google AI Edge Gallery: entities/google-ai-edge-gallery.md
@@ -316,6 +317,8 @@ nav:
       - TinyML CNN 加速器近似矩阵分解协同设计: concepts/tinyml-cnn-accelerator-approx-matrix-decomp.md
       - TinyML 到 LLM 的能效软硬件协同设计: concepts/energy-efficient-sw-hw-codesign-tinyml.md
       - Fast-dVLM 高效块扩散 VLM: concepts/fast-dvlm-block-diffusion-vlm.md
+      - "ESsEN: 低资源条件下训练紧凑判别式 VLM": concepts/essen-compact-vlm-training.md
+      - "越南语 SLM 推理鸿沟修复: Test-Time Scaling": concepts/vietnamese-slm-test-time-scaling.md
       - "SFT 幻觉与自蒸馏修复: 端侧微调质量保障": concepts/sft-hallucinations-self-distillation.md
       - "幻觉即轨迹承诺：Transformer 非对称吸引子动力学": concepts/hallucination-trajectory-commitment.md
       - "ProtoTTA: 原型引导的测试时自适应": concepts/prototta-test-time-adaptation.md
