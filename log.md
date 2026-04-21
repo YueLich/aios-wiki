@@ -1391,3 +1391,36 @@ format: reverse-chronological
 - Very low new item yield today (230 → 2). Dedup working correctly — 33 skipped items are already in wiki.
 - Index-disk drift: 406 titles tracked, ~340 pages on disk. Reconciliation needed in future run.
 - All 7 high-priority arXiv papers already had existing wiki pages (different slugs from index.json titles).
+
+## 2026-04-21 12:00 — 增量更新
+
+### 新增页面（3）
+1. **MUA: Mobile Ultra-detailed Animatable Avatars** (`entities/mua-mobile-ultradetailed-avatars.md`)
+   - 来源: arXiv 2604.18583 (cs.CV)
+   - 小波引导多级空间因子化蒸馏，2000× 计算成本降低，10× 模型缩小
+   - 分类: 端侧模型
+
+2. **ESsEN: 低资源条件下训练紧凑判别式 VLM** (`concepts/essen-compact-vlm-training.md`)
+   - 来源: arXiv 2604.18452 (cs.CV, cs.CL)
+   - 双塔编码器 + 卷积融合，受儿童语言习得启发的低资源 VLM 训练方法
+   - 分类: ⚡ 推理优化
+
+3. **越南语 SLM 推理鸿沟修复: Test-Time Scaling** (`concepts/vietnamese-slm-test-time-scaling.md`)
+   - 来源: arXiv 2604.17794 (cs.CL, cs.AI)
+   - Qwen3-1.7B 在越南语上的"格式化鸿沟"与测试时缩放修复
+   - 分类: ⚡ 推理优化
+
+### 统计
+- 扫描: 253 条原始标题（arXiv RSS + 其他 RSS + GitHub + arXiv API）
+- Stage 1 过滤: 253 → 114（关键词过滤）
+- Stage 2 过滤: 114 → 50（高相关性过滤）
+- 4层去重: 50 → 6 new（44 skipped）
+- 相关性审查: 6 → 3 有效新增（3 非移动端相关）
+- 涵盖: 5 arXiv RSS + 16 RSS + 6 GitHub + 5 arXiv API
+
+### Notes
+- llama.cpp b8864 已在 index.json 中（b8863→b8864，但 index 已包含 b8864）
+- Round 2 API 查询发现了 3 个高质量论文（MUA, ESsEN, 越南语 SLM）
+- ASR streaming, WISV speculative decoding 已有页面
+- Index: 409 titles, ~342 pages on disk
+
