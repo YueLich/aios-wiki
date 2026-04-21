@@ -1478,3 +1478,42 @@ format: reverse-chronological
 - 新增 4 个概念页面：DASH-Q, BioTrain, MeloTune, FastSHADE
 - 来源：arXiv API 补充搜索
 - 修复 index-disk drift：从 254 个缺失页面中创建了 4 个高相关性页面
+
+
+## 2026-04-21 23:00 — 增量更新
+
+**来源**: arXiv RSS/API + GitHub Releases
+**新增页面**: 3 个概念页 + llama.cpp b8870 更新
+
+### 新增概念页
+1. **LayerCache: 层级缓存加速 Flow Matching** (`concepts/layercache-flow-matching-cache.md`)
+   - 来源: arXiv 2604.16492
+   - 利用 DiT 各层 velocity 异质性的 3D 缓存策略
+   - 2.4-2.8x 加速，FID 仅损失 <1%
+   - 分类: ⚡ 推理优化
+
+2. **Beyond Verifiable Rewards: Rubric-Based GRM** (`concepts/beyond-verifiable-rewards-rubric-grm.md`)
+   - 来源: arXiv 2604.16335
+   - 用细粒度评分标准替代二值奖励的 Agent 强化微调
+   - SWE-Bench Verified 通过率 36.2%（+4.5pp）
+   - 分类: 🧠 Agent 架构与认知
+
+3. **LLM 推理是隐式的** (`concepts/llm-reasoning-is-latent.md`)
+   - 来源: arXiv 2604.15726
+   - CoT 不是推理本身，推理发生在隐空间
+   - 对端侧推理效率优化的启示
+   - 分类: ⚡ 推理优化
+
+### 更新
+- **llama.cpp b8870** — 追加到合并页 (Vulkan F16 OP_FILL build 发布)
+
+### 统计
+- 扫描: arXiv 5 feeds + 5 API queries + 16 RSS + 7 GitHub = 234 条
+- Stage 1 过滤: 109 条相关
+- 去重后: 37 条新
+- Stage 2 过滤: 22 条高相关
+- 最终新增: 3 个概念页 + 1 个合并页更新
+
+### 去重索引
+- 已处理标题列表: ["LayerCache: Exploiting Layer-wise Velocity Heterogeneity for Efficient Flow Matching", "Beyond Verifiable Rewards: Rubric-Based GRM for Reinforced Fine-Tuning SWE Agents", "LLM Reasoning Is Latent, Not the Chain of Thought", "ggml-org/llama.cpp: b8870"]
+- 已知主题: [Flow Matching缓存, Agent强化微调, 隐式推理, llama.cpp Vulkan F16]

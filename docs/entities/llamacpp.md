@@ -1357,3 +1357,18 @@ OOM 后无法正确回收内存会导致设备变砖或需要重启推理进程�
 **关联**:
 - [[edge-inference-memory-pressure]] — F16 操作减少显存压力
 - [[on-device-inference-memory-pressure]] — 端侧推理的精度-性能权衡
+
+
+### Build b8870 (2026-04-21)
+
+**发布日期**: 2026-04-21
+
+**核心更新**: Vulkan 后端 F16 OP_FILL 支持（#22177）的 build 发布。
+
+- b8870 是 b8869 同一代码的正式构建发布版本
+- Vulkan F16 OP_FILL 允许用半精度浮点数填充张量，减少 Vulkan 后端显存占用
+- 对移动端 GPU 推理（Qualcomm Adreno、Mali）尤为重要
+
+**关联**:
+- [[edge-inference-memory-pressure]] — F16 操作减少显存压力
+- [[on-device-inference-memory-pressure]] — 端侧推理精度-性能权衡

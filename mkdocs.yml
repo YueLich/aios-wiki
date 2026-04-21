@@ -160,6 +160,7 @@ nav:
       - "ARMove: Agent 推理驱动的移动性预测": concepts/armove-agentic-mobility-prediction.md
     - "Google A2UI 0.9 — Agent 生成式 UI 标准": concepts/google-a2ui-generative-ui.md
 
+      - "Beyond Verifiable Rewards: Rubric-Based GRM Agent 强化微调": concepts/beyond-verifiable-rewards-rubric-grm.md
     - 👁️ 感知与理解:
       - GUI 感知:
         - "SecAgent: 语义化上下文 GUI 理解": concepts/secagent-mobile-gui.md
@@ -250,6 +251,7 @@ nav:
 
     # ── 维度二：推理与优化技术栈 ──
     - ⚡ 推理优化:
+      - "LLM 推理是隐式的: 不是 CoT": concepts/llm-reasoning-is-latent.md
       - "Weak-to-Strong Knowledge Distillation: 弱→强蒸馏加速视觉学习": concepts/weak-to-strong-knowledge-distillation.md
       - "端侧推理优化技术": concepts/edge-optimization.md
       - "Pushing the Limits of On-Device Streaming ASR": concepts/on-device-streaming-asr-compact.md
@@ -338,6 +340,7 @@ nav:
       - "跨家族投机解码 on Apple Silicon": concepts/cross-family-speculative-decoding-apple-silicon.md
       - "KAIROS: 有状态上下文感知的 Agentic 推理功耗优化": concepts/kairos-agentic-inference-power.md
 
+      - "LayerCache Flow Matching Cache": concepts/layercache-flow-matching-cache.md
     # ── 维度三：硬件与平台 ──
     - 🏭 硬件与平台:
       - PC2IM 存内计算点云加速: concepts/pc2im-cim-point-cloud.md
