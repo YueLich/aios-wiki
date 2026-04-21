@@ -127,6 +127,7 @@ nav:
       - "Palmier: AI Agent 与手机双向桥": entities/palmier.md
       - "Glimpse: 端侧AI Markdown阅读器": entities/glimpse.md
       - "Aide: 可定制 Android 语音助手": entities/aide-android-assistant.md
+      - "DynamicsLLM: Android 行为代码异味 LLM 检测": entities/dynamicsllm-android-code-smells.md
   # ═══════ 概念：按 Agent 系统架构组织 ═══════
   - 概念:
     - 概念总览: concepts/index.md
