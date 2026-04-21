@@ -1517,3 +1517,8 @@ format: reverse-chronological
 ### 去重索引
 - 已处理标题列表: ["LayerCache: Exploiting Layer-wise Velocity Heterogeneity for Efficient Flow Matching", "Beyond Verifiable Rewards: Rubric-Based GRM for Reinforced Fine-Tuning SWE Agents", "LLM Reasoning Is Latent, Not the Chain of Thought", "ggml-org/llama.cpp: b8870"]
 - 已知主题: [Flow Matching缓存, Agent强化微调, 隐式推理, llama.cpp Vulkan F16]
+
+## 2026-04-21 - Wiki Update
+- Added: Aide Android Assistant (BYOK模式Android助手)
+- Sources: HN, The Decoder, arXiv RSS/API, GitHub releases
+- New pages: 1 (aide-android-assistant)

@@ -436,7 +436,9 @@
     "LayerCache: Exploiting Layer-wise Velocity Heterogeneity for Efficient Flow Matching",
     "Beyond Verifiable Rewards: Rubric-Based GRM for Reinforced Fine-Tuning SWE Agents",
     "LLM Reasoning Is Latent, Not the Chain of Thought",
-    "ggml-org/llama.cpp: b8871"
+    "ggml-org/llama.cpp: b8871",
+    "Aide: Customizable Android AI Assistant (BYOK)",
+    "Google launches Deep Research and Deep Research Max agents"
   ],
   "known_topics": [
     "memory-worth-governance",
