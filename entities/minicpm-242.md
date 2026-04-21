@@ -1,7 +1,7 @@
 ---
 type: entity
 tags: [model, on-device, openbmb, quantization, multimodal]
-related: [[gemma-4-google]], [[llama-cpp]], [[edge-inference]]
+related: [[gemma4-ondevice]], [[ggml-llamacpp-hf]], [[on-device-inference-memory-pressure]]
 sources:
   - https://github.com/OpenBMB/MiniCPM/releases/tag/2.4.2
 created: 2026-04-14

@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [edge-ai, medical-ai, foundation-model, ecg, wearable, cardiovascular, llm]
-related: [[on-device-streaming-asr-microsoft]], [[wearable-ai-lsm]]
+related: [[ondevice-streaming-asr]], [[wearable-large-sensor-models]]
 sources:
   - url: https://arxiv.org/abs/2604.02501
     title: "ECG Foundation Models and Medical LLMs for Agentic Cardiovascular Intelligence at the Edge"
@@ -64,5 +64,5 @@ updated: 2026-04-17
 - 对偏远地区和发展中国家的医疗可及性有重大意义
 
 ## 关联
-- [[on-device-streaming-asr-microsoft]] — 端侧推理优化技术同样适用于 ECG 模型部署
-- [[wearable-ai-lsm]] — 可穿戴 AI 的传感器模型与 ECG 基础模型有共通架构
+- [[ondevice-streaming-asr]] — 端侧推理优化技术同样适用于 ECG 模型部署
+- [[wearable-large-sensor-models]] — 可穿戴 AI 的传感器模型与 ECG 基础模型有共通架构

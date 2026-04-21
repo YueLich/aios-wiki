@@ -91,4 +91,4 @@ pAirZero 对移动 AI 生态的意义在于**民主化 LLM 微调**：
 - [[edgecim-hardware-codesign]] — 边缘硬件协同设计，pAirZero 降低了硬件需求
 - [[gui-agent-privacy]] — Agent 隐私保护，pAirZero 从训练层面提供隐私保障
 - [[sustainability-ondevice-intelligence]] — 可持续的端侧智能，低内存低通信的训练方案
-- [[lcsb-layer-cyclic-backpropagation]] — 内存高效的端侧微调，pAirZero 是通信维度的补充
+- [[lcsb-finetuning-ondevice]] — 内存高效的端侧微调，pAirZero 是通信维度的补充

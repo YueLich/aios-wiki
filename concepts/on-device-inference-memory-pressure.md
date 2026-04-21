@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [inference, memory, on-device, hardware, HBS, chiplet, NPU, 端侧推理, 内存优化]
-related: [[edgecim-hardware-codesign]], [[kv-cache-quantization-ondevice]], [[edgeflow-cold-start]], [[llamacpp-b8791]], [[gemma4-ondevice]], [[sustainability-ondevice-intelligence]]
+related: [[edgecim-hardware-codesign]], [[kv-cache-quantization-ondevice]], [[edgeflow-cold-start]], [[llamacpp]], [[gemma4-ondevice]], [[sustainability-ondevice-intelligence]]
 sources:
   - url: https://arxiv.org/abs/2604.11128v1
     title: "Technology solutions targeting the performance of gen-AI inference in resource constrained platforms"
@@ -127,6 +127,6 @@ HBS 不需要全新的存储技术，而是将现有 Flash SSD 接口从 PCIe Ge
 - [[edgecim-hardware-codesign]] — EdgeCIM 从 CIM 角度解决端侧推理加速，本文从内存层次角度，两者互补
 - [[kv-cache-quantization-ondevice]] — KV Cache 量化减少容量需求，与 HBS 方案可以叠加
 - [[edgeflow-cold-start]] — EdgeFlow 解决冷启动延迟，本文解决稳态推理带宽
-- [[llamacpp-b8791]] — llama.cpp 作为实际推理框架，其优化（如 Metal XIELU）可与硬件方案协同
+- [[llamacpp]] — llama.cpp 作为实际推理框架，其优化（如 Metal XIELU）可与硬件方案协同
 - [[gemma4-ondevice]] — Gemma 4 作为端侧多模态模型代表，其部署直接受本文研究结果影响
 - [[sustainability-ondevice-intelligence]] — 内存优化直接影响端侧推理的能耗，与性能-能耗权衡主题呼应

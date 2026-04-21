@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [asic, 硬件设计, on-device, 推理优化, rl-optimization, 芯片协同设计]
-related: [[edgecim-hardware-codesign]], [[llamacpp-b8791]], [[on-device-inference-memory-pressure]]
+related: [[edgecim-hardware-codesign]], [[llamacpp]], [[on-device-inference-memory-pressure]]
 sources:
   - url: https://arxiv.org/abs/2604.07526
     title: "From LLM to Silicon: RL-Driven ASIC Architecture Exploration for On-Device AI Inference"
@@ -94,6 +94,6 @@ RL 自动适配 3nm 到 28nm 的不同工艺特性：
 
 ## 关联
 - [[edgecim-hardware-codesign]] — 同样是硬件-软件协同设计，但侧重 CIM（存内计算）
-- [[llamacpp-b8791]] — llama.cpp 持续优化，软件层面的推理加速
+- [[llamacpp]] — llama.cpp 持续优化，软件层面的推理加速
 - [[on-device-inference-memory-pressure]] — 内存层次优化是 ASIC 设计的核心约束之一
 - [[gemma4-ondevice]] — Gemma 4 是本文验证的工作负载之一的同类型模型

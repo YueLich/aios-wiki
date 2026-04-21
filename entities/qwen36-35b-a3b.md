@@ -1,7 +1,7 @@
 ---
 type: entity
 tags: [模型, MoE, 端侧推理, agentic-coding, 阿里, 开源模型]
-related: [[gemma4-ondevice]], [[llamacpp-b8833]], [[minicpm-242]], [[qwen3]]
+related: [[gemma4-ondevice]], [[llamacpp]], [[minicpm-242]], [[qwen36-35b-a3b]]
 sources:
   - url: https://the-decoder.com/alibabas-open-model-qwen3-6-leads-googles-gemma-4-across-agentic-coding-benchmarks/
     title: "Alibaba's open model Qwen3.6 leads Google's Gemma 4 across agentic coding benchmarks"
@@ -77,5 +77,5 @@ Qwen3.6-35B-A3B 证明了 MoE 架构在端侧部署的可行性——用 3B 的�
 ## 关联
 - [[gemma4-ondevice]] — Qwen3.6 的主要竞争对手，Google 的端侧开源模型
 - [[minicpm-242]] — 另一个端侧高效模型，Qwen3.6 的 MoE 路线不同
-- [[llamacpp-b8833]] — llama.cpp 是运行 Qwen3.6 的主要推理引擎之一
+- [[llamacpp]] — llama.cpp 是运行 Qwen3.6 的主要推理引擎之一
 - [[mnn-350]] — 阿里自研的推理框架 MNN，可能优先适配 Qwen3.6

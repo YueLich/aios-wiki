@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [WebGPU, KV Cache, 端侧推理, Gemma, 浏览器推理, 模型压缩, ICLR 2026]
-related: [[gemma4-ondevice]], [[kv-cache-quantization-ondevice]], [[llamacpp-b8851]]
+related: [[gemma4-ondevice]], [[kv-cache-quantization-ondevice]], [[llamacpp]]
 sources:
   - url: https://teamchong.github.io/turboquant-wasm/draw.html
     title: "Prompt to Diagram: Gemma 4 E2B in Browser via WebGPU"
@@ -99,4 +99,4 @@ TurboQuant 的核心数学（polar 分解 + QJL 旋转 + 符号打包/解包）�
 
 - [[gemma4-ondevice]] — Gemma 4 模型家族概述，本页面是其浏览器部署方案
 - [[kv-cache-quantization-ondevice]] — 端侧 KV Cache 量化技术对比，TurboQuant 是最新的方案
-- [[llamacpp-b8851]] — llama.cpp 的 KV Cache 优化是另一条技术路线
+- [[llamacpp]] — llama.cpp 的 KV Cache 优化是另一条技术路线

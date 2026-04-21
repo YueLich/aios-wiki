@@ -42,4 +42,4 @@ Google I/O 是移动端 AI 生态最重要的年度事件之一。每次大会�
 
 - [[gemma4-ondevice]] — Google Gemma 系列端侧模型
 - [[google-translate-ios-live]] — Google 端侧翻译技术
-- [[llamacpp-b8840]] — 端侧推理框架，可能受 Google 新模型影响
+- [[llamacpp]] — 端侧推理框架，可能受 Google 新模型影响

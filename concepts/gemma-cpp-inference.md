@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [inference, on-device, cpp, google, gemma, cpu, lightweight]
-related: [[llama-cpp]], [[mnn]], [[gemma-4-google]], [[gemma4-ondevice]]
+related: [[ggml-llamacpp-hf]], [[mnn-350]], [[gemma4-ondevice]], [[gemma4-ondevice]]
 sources:
   - url: https://github.com/google/gemma.cpp/releases/tag/v0.1.4
     title: "gemma.cpp v0.1.4 release"
@@ -13,7 +13,7 @@ created: 2026-04-14
 
 ## 概述
 
-gemma.cpp 是 Google 推出的 Gemma 模型专用 C++ 推理实现，设计目标是极简依赖、直接高效地运行 Gemma 系列模型。与 [[llama-cpp]] 的通用性不同，gemma.cpp 专注于 Gemma 架构的极致优化。
+gemma.cpp 是 Google 推出的 Gemma 模型专用 C++ 推理实现，设计目标是极简依赖、直接高效地运行 Gemma 系列模型。与 [[ggml-llamacpp-hf]] 的通用性不同，gemma.cpp 专注于 Gemma 架构的极致优化。
 
 ## v0.1.4 更新内容
 
@@ -34,12 +34,12 @@ gemma.cpp 是 Google 推出的 Gemma 模型专用 C++ 推理实现，设计目�
 gemma.cpp 是端侧 Gemma 推理的"原生"方案：
 - Google 官方维护，保证与 Gemma 模型演进同步
 - 极小的二进制体积，适合嵌入式和移动场景
-- 与 [[llama-cpp]] 形成互补：llama.cpp 胜在通用性，gemma.cpp 胜在 Gemma 专用优化
+- 与 [[ggml-llamacpp-hf]] 形成互补：llama.cpp 胜在通用性，gemma.cpp 胜在 Gemma 专用优化
 - 是构建 [[mobile-aios-overview]] 中轻量推理层的重要候选方案
 
 ## 关联
 
-- [[llama-cpp]] — 竞争/互补方案，通用性更强
-- [[mnn]] — 阿里巴巴的端侧推理框架
+- [[ggml-llamacpp-hf]] — 竞争/互补方案，通用性更强
+- [[mnn-350]] — 阿里巴巴的端侧推理框架
 - [[gemma4-ondevice]] — 可通过 gemma.cpp 推理的端侧模型
 - [[edgeflow-cold-start]] — 冷启动优化与推理框架紧密相关

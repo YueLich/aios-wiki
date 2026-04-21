@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [hardware, cim, accelerator, edge, slm, co-design, 其他]
-related: [[on-device-inference]], [[mobile-aios-overview]], [[edge-cloud-collaboration]]
+related: [[on-device-inference-memory-pressure]], [[mobile-aios-overview]], [[edge-cloud-offloading]]
 sources:
   - url: https://arxiv.org/abs/2604.11512v1
     title: "EdgeCIM: A Hardware-Software Co-Design for CIM-Based Acceleration of Small Language Models"

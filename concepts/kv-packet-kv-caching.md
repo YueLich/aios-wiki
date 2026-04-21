@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [推理优化, KV缓存, RAG, 推理加速, LLM部署]
-related: [[edgeflow-cold-start]], [[kv-cache-quantization-ondevice]], [[gemma4-ondevice]], [[llamacpp-b8808]], [[septq-post-training-quantization]]
+related: [[edgeflow-cold-start]], [[kv-cache-quantization-ondevice]], [[gemma4-ondevice]], [[llamacpp]], [[septq-post-training-quantization]]
 sources:
   - url: https://arxiv.org/abs/2604.13226
     title: "KV Packet: Recomputation-Free Context-Independent KV Caching for LLMs"
@@ -78,5 +78,5 @@ KV Packet 提出了一种**上下文无关**的 KV 缓存框架，核心设计�
 - [[kv-cache-quantization-ondevice]] — 两者可叠加使用，进一步压缩 KV 缓存存储
 - [[septq-post-training-quantization]] — KV Packet 冻结权重的设计与 PTQ 理念一致
 - [[gemma4-ondevice]] — Gemma 4 的端侧部署可受益于 KV Packet 的 RAG 优化
-- [[llamacpp-b8808]] — llama.cpp 的推理引擎是 KV Packet 的理想部署载体
+- [[llamacpp]] — llama.cpp 的推理引擎是 KV Packet 的理想部署载体
 - [[edge-cloud-offloading]] — 文档缓存的预计算可放在云端，分发到端侧使用

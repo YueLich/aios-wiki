@@ -1,4 +1,19 @@
 
+## 2026-04-21 04:16
+- **新增 6 个页面**：5 个概念页 + 1 个实体页
+- **来源**：arXiv cs.MA (5篇), GitHub (1个)
+- **主题**：多 Agent 系统安全、错误诊断、多样性坍塌、语义共识、Agent 治理、TensorRT-LLM
+- **去重**：391 known titles → 7 new items after filtering → 6 pages created
+
+### 新页面
+- concepts/conjunctive-prompt-attacks-multi-agent.md — 多 Agent 合取式提示攻击
+- concepts/self-improving-error-diagnosis-multi-agent.md — 自改进错误诊断
+- concepts/diversity-collapse-multi-agent.md — 多样性坍塌
+- concepts/semantic-consensus-multi-agent.md — 语义共识冲突解决
+- concepts/agentic-enterprise-governance.md — Agent 治理成熟度模型
+- entities/tensorrt-llm-v121.md — NVIDIA TensorRT-LLM v1.2.1
+
+
 ## 2026-04-20 21:35 UTC
 - 来源: arXiv RSS (cs.AI/CL/LG/CV/MA) + API查询 + RSS feeds + GitHub releases + HN
 - 收集: 223 条原始 → 128 关键词过滤 → 86 二阶段过滤 → 6 去重后 → 1 实际新增

@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [mobile-edge-computing, task-offloading, llm-reasoning, GRPO, 端云协同]
-related: [[edge-cloud-offloading]], [[networking-energy-agentic]], [[llamacpp-b8791]]
+related: [[edge-cloud-offloading]], [[networking-energy-agentic]], [[llamacpp]]
 sources:
   - url: https://arxiv.org/abs/2604.07148
     title: "Multi-Turn Reasoning LLMs for Task Offloading in Mobile Edge Computing"

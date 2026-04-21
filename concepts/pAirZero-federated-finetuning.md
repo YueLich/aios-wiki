@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [联邦学习, 微调, 隐私保护, 通信优化, 内存优化, 零阶优化, OTA]
-related: [[lcsb-memory-efficient-finetuning]], [[edgeflow-cold-start]], [[septq-post-training-quantization]], [[edgecim-hardware-codesign]]
+related: [[lcsb-finetuning-ondevice]], [[edgeflow-cold-start]], [[septq-post-training-quantization]], [[edgecim-hardware-codesign]]
 sources:
   - url: https://arxiv.org/abs/2604.12401
     title: "Three Birds, One Stone: Solving the Communication-Memory-Privacy Trilemma in LLM Fine-tuning Over Wireless Networks with Zeroth-Order Optimization"
@@ -78,7 +78,7 @@ pAirZero 在保持与理想非私有基线相当的测试精度的同时，显�
 - **异步参与**：移动端网络不稳定时仍可正常工作
 
 ## 关联
-- [[lcsb-memory-efficient-finetuning]] — 另一种内存高效的端侧微调方法（层循环选择性反向传播）
+- [[lcsb-finetuning-ondevice]] — 另一种内存高效的端侧微调方法（层循环选择性反向传播）
 - [[edgeflow-cold-start]] — 端侧 LLM 部署的冷启动优化
 - [[septq-post-training-quantization]] — 量化作为端侧模型压缩的补充手段
 - [[edgecim-hardware-codesign]] — 边缘硬件协同设计视角

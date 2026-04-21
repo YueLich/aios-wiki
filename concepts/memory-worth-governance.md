@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [agent memory, memory governance, lifelong learning, 端侧推理, memory quality]
-related: [[memory-as-metabolism-companion-ks]], [[memp-agent-procedural-memory]], [[agent-persistent-identity]], [[memory-driven-gui-agent]], [[memory-worth-governance]], [[lcsb-finetuning-ondevice]]
+related: [[memory-as-metabolism-companion-ks]], [[memp-agent-procedural-memory]], [[agent-persistent-identity]], [[mga-memory-gui-agent]], [[memory-worth-governance]], [[lcsb-finetuning-ondevice]]
 sources:
   - url: https://arxiv.org/abs/2604.12007
     title: "When to Forget: A Memory Governance Primitive"
@@ -95,13 +95,13 @@ MW 在 10,000 episodes 后 Spearman 等级相关达到 ρ=0.89±0.02，而无反
 - 抑制低质量记忆的检索
 - 在有限的设备内存中保留最有价值的经验
 
-MW 提供了一个理论上收敛、实操轻量的解决方案，可以直接集成到 [[memory-driven-gui-agent]] 和 [[memp-agent-procedural-memory]] 等现有框架中。
+MW 提供了一个理论上收敛、实操轻量的解决方案，可以直接集成到 [[mga-memory-gui-agent]] 和 [[memp-agent-procedural-memory]] 等现有框架中。
 
 ## 关联
 
 - [[memory-as-metabolism-companion-ks]] — 伴生知识系统的代谢设计，MW 可作为其记忆淘汰机制
 - [[memp-agent-procedural-memory]] — Agent 程序性记忆，MW 可评估程序性记忆的长期有效性
 - [[agent-persistent-identity]] — Agent 持久化身份，MW 可用于身份相关记忆的治理
-- [[memory-driven-gui-agent]] — 记忆驱动的 GUI Agent，MW 可优化其记忆检索策略
+- [[mga-memory-gui-agent]] — 记忆驱动的 GUI Agent，MW 可优化其记忆检索策略
 - [[lcsb-finetuning-ondevice]] — 端侧微调，MW 的轻量特性适合端侧部署
 - [[sustainability-ondevice-intelligence]] — 端侧智能的可持续性，MW 通过记忆治理减少无效计算

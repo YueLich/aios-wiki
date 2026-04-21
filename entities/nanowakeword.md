@@ -1,7 +1,7 @@
 ---
 type: entity
 tags: [edge-ai, wake-word, voice-interface, on-device, audio, open-source]
-related: [[edgeflow-cold-start]], [[on-device-streaming-asr-microsoft]], [[deeper-wearable-ai-llm]]
+related: [[edgeflow-cold-start]], [[ondevice-streaming-asr]], [[wearable-llm-stress-support]]
 sources:
   - url: https://github.com/arcosoph/nanowakeword
     title: "NanoWakeWord GitHub Repository"
@@ -88,6 +88,6 @@ NanoWakeWord 提供**全栈端到端训练流水线**，核心包含三层：
 ## 关联
 
 - [[edgeflow-cold-start]] — NanoWakeWord 的唤醒词模型可与 EdgeFlow 的冷启动优化配合，加速语音交互初始化
-- [[on-device-streaming-asr-microsoft]] — 唤醒词是流式 ASR 的前置环节，两者共同构成端侧语音交互链
-- [[deeper-wearable-ai-llm]] — 可穿戴设备是 NanoWakeWord DNN 架构的重要应用场景
+- [[ondevice-streaming-asr]] — 唤醒词是流式 ASR 的前置环节，两者共同构成端侧语音交互链
+- [[wearable-llm-stress-support]] — 可穿戴设备是 NanoWakeWord DNN 架构的重要应用场景
 - [[coremltools-9]] — NanoWakeWord 训练的模型可通过 CoreML 部署到 iOS 设备

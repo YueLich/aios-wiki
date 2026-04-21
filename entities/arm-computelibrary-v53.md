@@ -1,7 +1,7 @@
 ---
 type: entity
 tags: [inference, arm, compute-library, sve, edge-hardware, optimization]
-related: [[mnn-350]], [[llamacpp-b8831]], [[coremltools-9]], [[cnn-optimization-edge-ai-early-exits]]
+related: [[mnn-350]], [[llamacpp]], [[coremltools-9]], [[cnn-optimization-edge-ai-early-exits]]
 sources:
   - url: https://github.com/ARM-software/ComputeLibrary/releases/tag/v53.0.0
     title: "ARM ComputeLibrary v53.0.0 Release"
@@ -42,6 +42,6 @@ ARM ComputeLibrary 是几乎所有 ARM 设备（手机、IoT、嵌入式）上�
 
 ## 关联
 - [[mnn-350]] — 阿里 MNN 底层依赖 ARM ComputeLibrary 进行算子加速
-- [[llamacpp-b8831]] — llama.cpp 的 ARM 后端同样使用 ComputeLibrary 的 GEMM 内核
+- [[llamacpp]] — llama.cpp 的 ARM 后端同样使用 ComputeLibrary 的 GEMM 内核
 - [[coremltools-9]] — Apple 的 ANE（Apple Neural Engine）是独立于 ARM CL 的优化路径
 - [[cnn-optimization-edge-ai-early-exits]] — CNN 优化在 ARM 设备上的性能表现直接受 ComputeLibrary 版本影响

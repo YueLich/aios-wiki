@@ -1,7 +1,7 @@
 ---
 type: entity
 tags: [google, gemma4, on-device, ios, edge-inference, mobile-ai]
-related: [[gemma4-ondevice]], [[gemma-4-google]], [[anylanguagemodel-apple]], [[edgeflow-cold-start]]
+related: [[gemma4-ondevice]], [[gemma4-ondevice]], [[anylanguagemodel-apple]], [[edgeflow-cold-start]]
 sources:
   - url: https://simonwillison.net/2026/Apr/6/google-ai-edge-gallery/
     title: "Google AI Edge Gallery — Simon Willison"

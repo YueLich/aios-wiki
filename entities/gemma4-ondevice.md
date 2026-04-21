@@ -1,7 +1,7 @@
 ---
 type: entity
 tags: [端侧推理, Gemma, Google, MoE, 多模态, Apache 2.0, 移动端部署, agentic]
-related: [[huoziime-ondevice-ime]], [[gemini-nano-chrome-137]], [[mnn-350]], [[llama-cpp-b8799]]
+related: [[huoziime-ondevice-ime]], [[gemini-nano-chrome137]], [[mnn-350]], [[llamacpp]]
 sources:
   - url: https://deepmind.google/blog/gemma-4-byte-for-byte-the-most-capable-open-models/
     title: "Gemma 4: Byte for byte, the most capable open models"
@@ -72,7 +72,7 @@ updated: 2026-04-17
 ## 关联
 
 - [[huoziime-ondevice-ime]] — HUOZIIME 使用 Qwen3-0.6B，Gemma 4 E2B 是潜在替代方案
-- [[gemini-nano-chrome-137]] — Gemini Nano 是 Google 的端侧推理方案，Gemma 4 可能是其开源版本
+- [[gemini-nano-chrome137]] — Gemini Nano 是 Google 的端侧推理方案，Gemma 4 可能是其开源版本
 - [[mnn-350]] — MNN 是阿里端侧推理引擎，可用于部署 Gemma 4
-- [[llama-cpp-b8799]] — llama.cpp 已支持 Gemma 4 推理
+- [[llamacpp]] — llama.cpp 已支持 Gemma 4 推理
 - [[edgeflow-cold-start]] — Gemma 4 的冷启动优化是端侧部署的关键环节

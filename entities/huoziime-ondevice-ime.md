@@ -1,7 +1,7 @@
 ---
 type: entity
 tags: [输入法, 端侧推理, LLM, 个性化, 记忆系统, 哈工大, Qwen3]
-related: [[agent-persistent-identity]], [[mga-memory-gui-agent]], [[kv-cache-quantization-ondevice]], [[llamacpp-b8831]]
+related: [[agent-persistent-identity]], [[mga-memory-gui-agent]], [[kv-cache-quantization-ondevice]], [[llamacpp]]
 sources:
   - url: https://arxiv.org/abs/2604.14159
     title: "HuoziIME: An On-Device LLM-enhanced Input Method for Deep Personalization"
@@ -84,6 +84,6 @@ HuoziIME 证明了一个重要趋势：**端侧 AI 不仅仅是推理，更可�
 - [[agent-persistent-identity]] — HuoziIME 的分层记忆系统与 Agent 持久化身份的关联
 - [[mga-memory-gui-agent]] — 同样关注记忆驱动的移动 AI 交互
 - [[kv-cache-quantization-ondevice]] — 端侧推理优化技术
-- [[llamacpp-b8831]] — HuoziIME 基于 llama.cpp 二次开发
+- [[llamacpp]] — HuoziIME 基于 llama.cpp 二次开发
 - [[edgeflow-cold-start]] — 端侧模型启动优化
 - [[gemma4-ondevice]] — 同期发布的端侧 LLM 代表

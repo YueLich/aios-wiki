@@ -390,7 +390,13 @@
     "apple/coremltools: 9.0b1",
     "AgenTEE: Confidential LLM Agent Execution on Edge Devices",
     "ARMove: Learning to Predict Human Mobility through Agentic Reasoning",
-    "Toward Zero-Egress Psychiatric AI: On-Device LLM Deployment for Privacy-Preserving Mental Health Decision Support"
+    "Toward Zero-Egress Psychiatric AI: On-Device LLM Deployment for Privacy-Preserving Mental Health Decision Support",
+    "Conjunctive Prompt Attacks in Multi-Agent LLM Systems",
+    "Towards Self-Improving Error Diagnosis in Multi-Agent Systems",
+    "Diversity Collapse in Multi-Agent LLM Systems: Structural Coupling and Collective Failure in Open-Ended Idea Generation",
+    "Semantic Consensus: Process-Aware Conflict Detection and Resolution for Enterprise Multi-Agent LLM Systems",
+    "Governing the Agentic Enterprise: A Governance Maturity Model for Managing AI Agent Sprawl in Business Operations",
+    "NVIDIA/TensorRT-LLM: v1.2.1"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -454,7 +460,7 @@
     "off-grid-mobile-ai"
   ],
   "last_update": "2026-04-20",
-  "last_updated": "2026-04-21",
+  "last_updated": "2026-04-21 04:11",
   "total_pages": 15,
   "page_count": 13,
   "pages": [

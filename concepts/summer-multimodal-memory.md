@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [agent-memory, multimodal, social-robots, embodied-ai, memory-selectivity, perception]
-related: [[amc-adaptive-memory-crystallization]], [[agent-persistent-identity]], [[mga-memory-gui-agent]], [[memp-episodic-memory]], [[memory-worth-governance]]
+related: [[amc-adaptive-memory-crystallization]], [[agent-persistent-identity]], [[mga-memory-gui-agent]], [[memp-agent-procedural-memory]], [[memory-worth-governance]]
 sources:
   - url: https://arxiv.org/abs/2604.12081
     title: "Human-Inspired Context-Selective Multimodal Memory for Social Robots"
@@ -87,6 +87,6 @@ SUMMER 对手机端 AIOS 生态的启示：
 - [[amc-adaptive-memory-crystallization]] — AMC 关注知识记忆的自适应压缩，SUMMER 关注感知记忆的选择性存储
 - [[agent-persistent-identity]] — 用户识别模块与持久化身份架构互补
 - [[mga-memory-gui-agent]] — GUI Agent 记忆关注操作轨迹，SUMMER 关注社交/情感记忆
-- [[memp-episodic-memory]] — Memp 是纯文本情景记忆，SUMMER 扩展到多模态
+- [[memp-agent-procedural-memory]] — Memp 是纯文本情景记忆，SUMMER 扩展到多模态
 - [[memory-worth-governance]] — 记忆价值治理可为 SUMMER 的选择性阈值提供策略指导
 - [[derm3r-multimodal-agent]] — 同为多模态 Agent，Derm-3R 在医疗领域应用类似的记忆检索思路

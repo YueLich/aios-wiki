@@ -70,4 +70,4 @@ updated: 2026-04-17
 - [[wearable-large-sensor-models]] — LSM 为 CoDaS 提供更强大的传感器表示
 - [[agent-persistent-identity]] — CoDaS 的 Agent 协作需要持久化的用户健康状态
 - [[edge-optimization]] — 端侧部署 CoDaS 需要推理优化
-- [[multimodal-fusion-ondevice]] — 多模态穿戴数据融合是 CoDaS 的基础能力
+- [[chain-of-modality]] — 多模态穿戴数据融合是 CoDaS 的基础能力

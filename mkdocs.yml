@@ -74,6 +74,7 @@ nav:
       - "Transformers → MLX 转换": concepts/transformers-to-mlx.md
       - "EdgeDiT: 硬件感知 DiT 端侧图像生成": entities/edgedit.md
       - "SHIELD: 分层分段内存架构 LLM 推理": entities/shield-hierarchical-memory-llm.md
+      - "NVIDIA TensorRT-LLM v1.2.1": entities/tensorrt-llm-v121.md
       - "Kampala: MITM 逆向工程代理": entities/kampala-reverse-engineering.md
     - 端侧模型:
       - "Gemma 4 AICore": entities/gemma4-aicore.md
@@ -210,7 +211,7 @@ nav:
       - "Self-adaptive MEC: 自适应边缘架构机器人": concepts/self-adaptive-mec-robotics.md
       - "MCP 工具描述质量": concepts/mcp-tool-description-smells.md
       - "LLM 委托编辑中的文档损坏问题": concepts/llm-delegation-document-corruption.md
-      "MobileFineTuner: 手机端 LLM 微调框架": concepts/mobilefinetuner.md
+      - "MobileFineTuner: 手机端 LLM 微调框架": concepts/mobilefinetuner.md
 
     - 🤝 多 Agent 协作:
       - "EmoMAS: 情感感知的边缘协商": concepts/emommas-edge-negotiation.md
@@ -230,6 +231,11 @@ nav:
       - "Agent 蒸馏不安全行为传递": concepts/subliminal-transfer-agent-distillation.md
       - "NeuroMesh: 去中心化多机器人协作推理": concepts/neuromesh-multi-robot-inference.md
       - "ChemGraph-XANES: Agentic 框架用于科学仿真": concepts/chemgraph-xanes-agentic.md
+      - Agentic Enterprise Governance: concepts/agentic-enterprise-governance.md
+      - Semantic Consensus Multi Agent: concepts/semantic-consensus-multi-agent.md
+      - Diversity Collapse Multi Agent: concepts/diversity-collapse-multi-agent.md
+      - Self Improving Error Diagnosis Multi Agent: concepts/self-improving-error-diagnosis-multi-agent.md
+      - Conjunctive Prompt Attacks Multi Agent: concepts/conjunctive-prompt-attacks-multi-agent.md
 
     # ── 维度二：推理与优化技术栈 ──
     - ⚡ 推理优化:

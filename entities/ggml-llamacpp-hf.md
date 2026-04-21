@@ -1,7 +1,7 @@
 ---
 type: entity
 tags: [ggml, llama.cpp, huggingface, local-ai, inference, infrastructure]
-related: [[on-device-inference]], [[llama-cpp]], [[mnn]]
+related: [[on-device-inference-memory-pressure]], [[ggml-llamacpp-hf]], [[mnn-350]]
 sources:
   - url: https://huggingface.co/blog/ggml-llamacpp-joins-hf
     title: "GGML and llama.cpp join HuggingFace to ensure long-term progress of Local AI"
@@ -22,7 +22,7 @@ GGML 和 llama.cpp 正式加入 HuggingFace，以确保本地 AI 推理工具的
 - **生态整合**：与 HuggingFace Hub、Transformers 等深度集成
 - **长期可持续**：解决了开源项目维护者 burnout 的风险
 
-对 [[mobile-aios-overview]] 的影响：llama.cpp 是 [[on-device-inference]] 的核心技术栈之一，其稳定性直接关系到整个端侧 AI 生态。
+对 [[mobile-aios-overview]] 的影响：llama.cpp 是 [[on-device-inference-memory-pressure]] 的核心技术栈之一，其稳定性直接关系到整个端侧 AI 生态。
 
 ## 版本追踪
 
@@ -55,7 +55,7 @@ GGML 和 llama.cpp 正式加入 HuggingFace，以确保本地 AI 推理工具的
 ## 关联
 
 - [[gemma-cpp-inference]] — Google 官方的 Gemma 专用 C++ 推理引擎
-- [[mnn]] — 竞争/互补的推理框架
+- [[mnn-350]] — 竞争/互补的推理框架
 - [[gemma4-ondevice]] — 可用 llama.cpp 推理的模型
 - [[edgeflow-cold-start]] — 推理优化技术
 
