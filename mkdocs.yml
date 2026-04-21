@@ -237,6 +237,7 @@ nav:
       - Diversity Collapse Multi Agent: concepts/diversity-collapse-multi-agent.md
       - Self Improving Error Diagnosis Multi Agent: concepts/self-improving-error-diagnosis-multi-agent.md
       - Conjunctive Prompt Attacks Multi Agent: concepts/conjunctive-prompt-attacks-multi-agent.md
+      - "Kimi K2.6: 300 Agent 并行编码系统": concepts/kimi-k26-agent-swarm.md
 
     # ── 维度二：推理与优化技术栈 ──
     - ⚡ 推理优化:
@@ -248,6 +249,7 @@ nav:
       - TrigReason 触发式推理协作: concepts/trigreason-trigger-collaboration.md
       - "SpecGuard: 验证感知投机解码": concepts/specguard-speculative-decoding.md
       - "Driftwood: Apple Silicon 零拷贝 GPU 推理": concepts/driftwood-zero-copy-apple-silicon.md
+      - "编码 LLM 量化效率：React Native 多模型对比": concepts/react-native-llm-coding-eval.md
       - 模型量化:
         - KV-Cache 自适应量化: concepts/kv-cache-quantization-ondevice.md
         - SEPTQ 后训练量化: concepts/septq-post-training-quantization.md

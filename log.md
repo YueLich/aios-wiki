@@ -1359,3 +1359,11 @@ format: reverse-chronological
 - **总计**: ~231 items → 100 after keyword filter → 32 after dedup → 5 relevant
 
 **去重索引**: 398 → 404 known titles
+
+## 2026-04-21 07:13
+- Added 2 new concept pages:
+  - 编码 LLM 量化效率：React Native 多模型对比 (concepts/react-native-llm-coding-eval.md)
+  - Kimi K2.6: 300 Agent 并行编码系统 (concepts/kimi-k26-agent-swarm.md)
+- Updated index.json (+2 titles)
+- Updated mkdocs.yml nav (2 entries)
+- Sources: arXiv 2604.17187, The Decoder
