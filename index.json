@@ -420,7 +420,8 @@
     "Cross-Family Speculative Decoding for Polish Language Models on Apple Silicon",
     "From Inheritance to Saturation: Disentangling the Evolution of Visual Redundancy for Architecture-Aware MLLM Inference Acceleration",
     "Aide: A Customizable Android Assistant",
-    "ggml-org/llama.cpp: b8869"
+    "ggml-org/llama.cpp: b8869",
+    "ggml-org/llama.cpp: b8870"
   ],
   "known_topics": [
     "memory-worth-governance",

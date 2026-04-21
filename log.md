@@ -1460,3 +1460,10 @@ format: reverse-chronological
 - 收集 119 条标题，过滤后 22 条，去重后 1 条新增
 - 来源：arXiv RSS (cs.AI/CL/LG/CV/MA) + GitHub releases + RSS feeds
 - 注：arXiv API 全部超时/429，仅 RSS 收集可用
+
+## 2026-04-21 18:00
+- 收集 190 条，去重后 1 条新内容
+- 更新: llama.cpp b8870 (Vulkan F16 OP_FILL)
+- arXiv RSS/API: 90 items → 无新增（全部已收录）
+- GitHub releases: llama.cpp b8870 为新版本
+- RSS blogs: Google AI, DeepMind, Apple ML 等 8 源 → 无新增

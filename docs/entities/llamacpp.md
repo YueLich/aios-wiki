@@ -1302,3 +1302,23 @@ OOM 后无法正确回收内存会导致设备变砖或需要重启推理进程�
 **关联**:
 - [[minicpm-242]] — MiniCPM-V 等视觉模型依赖 mtmd 组件
 - [[edge-inference-memory-pressure]] — 端侧多模态推理的内存管理
+
+
+### Build 20260421 (b8870)
+
+**发布日期**: 2026-04-21
+
+**核心更新**: Vulkan 后端支持 F16 OP_FILL 操作（#22177）。
+
+- F16 OP_FILL 允许用半精度浮点数填充张量，减少 Vulkan 后端的显存占用
+- 对于移动端 GPU 推理（如 Qualcomm Adreno、Mali）尤其重要：F16 填充操作比 F32 节省 50% 显存带宽
+- 改善了 Vulkan 路径下模型初始化和中间张量管理的效率
+
+**为什么重要**:
+- llama.cpp 的 Vulkan 后端是 Android/Linux 移动端推理的关键路径（不依赖 CoreML/CUDA）
+- F16 支持优化意味着更多算子可以走低精度路径，减少移动端推理延迟
+- 与 [[mnn-350]]、[[coremltools-9]] 等其他推理框架的低精度策略形成互补
+
+**关联**:
+- [[edge-inference-memory-pressure]] — F16 操作减少显存压力
+- [[on-device-inference-memory-pressure]] — 端侧推理的精度-性能权衡
