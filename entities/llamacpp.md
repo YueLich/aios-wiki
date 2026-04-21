@@ -1255,3 +1255,21 @@ OOM 后无法正确回收内存会导致设备变砖或需要重启推理进程�
 **相关**:
 - [[edge-inference-memory-pressure]] — 端侧内存压力管理
 - [[quantization-mobile-deploy]] — 量化部署中的内存优化
+
+
+### Build b8864
+
+**发布日期**: 2026-04-21
+**类型**: 功能版本
+
+**主要变更**:
+- 修复 router 模式下代理连接超时的硬编码问题 (#18760)
+- macOS/iOS、Linux、Android、Windows 全平台构建支持
+- 继续提供 KleidiAI、Vulkan、ROCm、OpenVINO 多后端构建
+
+**为什么重要**: Router 模式代理超时修复对移动端部署有直接影响——在手机端通过代理连接到远程推理服务器时，硬编码超时可能导致频繁断连，影响用户体验。
+
+**相关**:
+- [[mnn-350]] — 对标推理框架
+- [[edge-inference-memory-pressure]] — 端侧内存压力管理
+

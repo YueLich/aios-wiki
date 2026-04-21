@@ -318,6 +318,8 @@ nav:
       - "幻觉即轨迹承诺：Transformer 非对称吸引子动力学": concepts/hallucination-trajectory-commitment.md
       - "ProtoTTA: 原型引导的测试时自适应": concepts/prototta-test-time-adaptation.md
       - "端侧 RAG 统一表征: 检索与压缩一体化": concepts/ondevice-rag-unified-representation.md
+      - "WISV: 无线感知语义验证的设备-边缘推测解码": concepts/wisv-device-edge-speculative-decoding.md
+      - "EvoComp: OPPO 视觉 Token 压缩框架": concepts/evocomp-visual-token-compression-mllm.md
 
     # ── 维度三：硬件与平台 ──
     - 🏭 硬件与平台:
@@ -411,6 +413,7 @@ nav:
       - "SoK Agentic Commerce 安全": concepts/sok-security-agentic-commerce.md
       - "5G 基带语义漏洞: 认证前攻击面": concepts/5g-baseband-semantic-vulnerabilities.md
       - "CPU 生物力学管道优化": concepts/cpu-biomechanics-pipeline-optimization.md
+      - "边缘 Agent IoT 攻击面分析": concepts/edge-agent-iot-security-attack-surface.md
 
   - 对比: comparisons/index.md
   - 速查: queries/index.md

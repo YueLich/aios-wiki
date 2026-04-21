@@ -397,7 +397,12 @@
     "Semantic Consensus: Process-Aware Conflict Detection and Resolution for Enterprise Multi-Agent LLM Systems",
     "Governing the Agentic Enterprise: A Governance Maturity Model for Managing AI Agent Sprawl in Business Operations",
     "NVIDIA/TensorRT-LLM: v1.2.1",
-    "WorldDB: A Vector Graph-of-Worlds Memory Engine with Ontology-Aware Write-Time Reconciliation"
+    "WorldDB: A Vector Graph-of-Worlds Memory Engine with Ontology-Aware Write-Time Reconciliation",
+    "ggml-org/llama.cpp: b8864",
+    "WISV: 无线感知语义验证的设备-边缘推测解码",
+    "EvoComp: OPPO 视觉 Token 压缩框架",
+    "Edge Agent IoT: 系统级攻击面分析",
+    "React-ing to Grace Hopper 200: Five Open-Weights Coding Models"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -461,8 +466,8 @@
     "off-grid-mobile-ai"
   ],
   "last_update": "2026-04-20",
-  "last_updated": "2026-04-21 04:42",
-  "total_pages": 15,
+  "last_updated": "2026-04-21T08:30:00Z",
+  "total_pages": 18,
   "page_count": 13,
   "pages": [
     {

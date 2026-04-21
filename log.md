@@ -1341,3 +1341,21 @@ format: reverse-chronological
 - 新增 3 个概念页面：AgenTEE（边缘机密Agent）、ARMove（Agent移动性预测）、Zero-Egress Psychiatric AI（端侧精神科诊断）
 - 来源：arXiv API
 - 扫描 193 条，过滤后 3 条新增
+
+## 2026-04-21 08:30 — 增量更新
+
+**新增页面 (4 个概念 + 1 实体更新)**:
+- `DailyDroid: 智能手机自动化失败模式基准测试` (概念 → 🧠 Agent 架构与认知) — 墨尔本大学，75 任务/25 应用 Android 自动化基准
+- `WISV: 无线感知语义验证的设备-边缘推测解码` (概念 → ⚡ 推理优化) — 上海交大，CSI 融入推测解码验证策略
+- `EvoComp: OPPO 视觉 Token 压缩框架` (概念 → ⚡ 推理优化) — OPPO CTG，MLLM 视觉 token 进化压缩
+- `边缘 Agent IoT 攻击面分析` (概念 → 🛡️ 安全与隐私) — 帝国理工，5 种系统级攻击面
+- `llama.cpp b8864` (实体更新) — router 模式代理超时修复
+
+**来源统计**:
+- arXiv RSS: 5 feed × 15 entries = 75 items
+- arXiv API: 5 queries × 3 results = 15 items
+- GitHub: 8 repos checked, 1 new release
+- RSS: 9 feeds × 15 entries = ~135 items
+- **总计**: ~231 items → 100 after keyword filter → 32 after dedup → 5 relevant
+
+**去重索引**: 398 → 404 known titles
