@@ -420,7 +420,9 @@
     "LifeDialBench: Evaluating Memory Capability in Continuous Lifelog Scenario",
     "ChemGraph-XANES: An Agentic Framework for XANES Simulation and Analysis",
     "ggml-org/llama.cpp: b8860",
-    "ggml-org/llama.cpp: b8862"
+    "ggml-org/llama.cpp: b8862",
+    "ggml-org/llama.cpp: b8863",
+    "llama.cpp b8863"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -484,7 +486,7 @@
     "off-grid-mobile-ai"
   ],
   "last_update": "2026-04-20",
-  "last_updated": "2026-04-20T23:34:48.297318+00:00",
+  "last_updated": "2026-04-21",
   "total_pages": 15,
   "page_count": 13,
   "pages": [

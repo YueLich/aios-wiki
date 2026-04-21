@@ -5,7 +5,7 @@ related: [[ggml-llamacpp-hf]], [[mnn-350]], [[coremltools-9]]
 sources:
   - https://github.com/ggml-org/llama.cpp/releases
 created: 2026-04-14
-updated: 2026-04-2020
+updated: 2026-04-2120
 ---
 
 # llama.cpp 版本追踪
@@ -1237,3 +1237,21 @@ XIELU on Metal 是端侧 LLM 推理优化的又一突破。传统的激活函数
 **对移动端意义**: mtmd 修复对 iOS XCFramework 和 Android arm64 构建尤为重要——这两个平台是 llama.cpp 移动端部署的主要目标。多模态推理的位置计算正确性直接影响视觉语言模型 (VLM) 在手机上的表现。
 
 **下载**: [GitHub Releases](https://github.com/ggml-org/llama.cpp/releases/tag/b8862)
+
+### Build b8863
+
+**发布日期**: 2026-04-20
+**类型**: 补丁版本
+
+**主要变更**:
+- `ggml-cuda`: 修复 OOM 时 legacy memory pool 未释放的问题，添加显式同步和析构函数清理
+- 修复 MUSA 宏兼容性（摩尔线程 GPU 支持）
+- 继续优化 CUDA 后端的内存管理稳定性
+
+**为什么重要**: 这个版本解决了 CUDA 后端在大模型推理时 OOM 后内存池泄漏的问题。
+对于端侧部署（如 Jetson、边缘 GPU 设备）而言，内存管理的稳定性至关重要——
+OOM 后无法正确回收内存会导致设备变砖或需要重启推理进程。
+
+**相关**:
+- [[edge-inference-memory-pressure]] — 端侧内存压力管理
+- [[quantization-mobile-deploy]] — 量化部署中的内存优化
