@@ -1372,3 +1372,31 @@ OOM 后无法正确回收内存会导致设备变砖或需要重启推理进程�
 **关联**:
 - [[edge-inference-memory-pressure]] — F16 操作减少显存压力
 - [[on-device-inference-memory-pressure]] — 端侧推理精度-性能权衡
+
+### Build b8871 (2026-04-21)
+
+**发布日期**: 2026-04-21
+
+**核心更新**: Metal 后端 macOS GPU 交互性看门狗 (watchdog) 的临时修复（#22216）。
+
+**技术细节**:
+- macOS 的 GPU 交互性看门狗机制会在 GPU 计算任务执行时间过长时主动干预，可能导致推理中断
+- 此修复添加了 workaround 避免看门狗误触发，确保长时间推理任务（如大模型生成）在 Apple Silicon GPU 上稳定运行
+- 对端侧部署尤为重要：在 iPhone/iPad/Mac 上运行 7B+ 模型时，单次推理可能需要数秒到数十秒，容易触发看门狗超时
+
+**多平台支持** (b8871 构建):
+- macOS arm64 (含 KleidiAI 优化版)、x64
+- iOS XCFramework
+- Android arm64
+- Linux x64/arm64/s390x (Vulkan, ROCm 7.2, OpenVINO)
+- Windows x64/arm64 (CPU, CUDA)
+
+**为什么重要**:
+- Apple Silicon 上的长文本生成（8K+ tokens）可能因为 GPU 看门狗而中断，此修复直接影响端侧用户体验
+- 与 [[coremltools-9]] 的 CoreML 后端形成互补 — Metal 是 llama.cpp 在 macOS/iOS 上的默认 GPU 后端
+- 对于 [[gemma4-ondevice]] 等端侧模型的长序列推理至关重要
+
+**关联**:
+- [[coremltools-9]] — Apple ML 工具链，Metal 之外的另一条推理路径
+- [[on-device-inference-memory-pressure]] — 端侧推理稳定性
+- [[edgeflow-cold-start]] — 冷启动与长时间推理的稳定性

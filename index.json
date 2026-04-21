@@ -435,7 +435,8 @@
     "DASH-Q: Robust Ultra Low-Bit Post-Training Quantization via Stable Diagonal Cu",
     "LayerCache: Exploiting Layer-wise Velocity Heterogeneity for Efficient Flow Matching",
     "Beyond Verifiable Rewards: Rubric-Based GRM for Reinforced Fine-Tuning SWE Agents",
-    "LLM Reasoning Is Latent, Not the Chain of Thought"
+    "LLM Reasoning Is Latent, Not the Chain of Thought",
+    "ggml-org/llama.cpp: b8871"
   ],
   "known_topics": [
     "memory-worth-governance",
