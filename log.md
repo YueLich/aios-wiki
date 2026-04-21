@@ -1532,3 +1532,8 @@ format: reverse-chronological
 
 数据来源：arXiv RSS (cs.AI/CL/LG/CV/MA/ET/NE/HC), arXiv API, GitHub releases, Google DeepMind, OpenAI Blog
 去重：439 known titles → 5 new after filtering (3 genuinely new, 2 were ghost nav entries with existing pages)
+
+## 2026-04-22 02:00
+- llama.cpp b8873: OpenVINO NPU 优化、线程安全重构
+- Sources: arXiv RSS (cs.AI/CL/LG/CV/MA), tech RSS (9 feeds), GitHub API
+- Stats: 213 collected → 107 stage-1 → 34 stage-2 → 1 new (after dedup)

@@ -5,7 +5,7 @@ related: [[ggml-llamacpp-hf]], [[mnn-350]], [[coremltools-9]]
 sources:
   - https://github.com/ggml-org/llama.cpp/releases
 created: 2026-04-14
-updated: 2026-04-21
+updated: 2026-04-22
 ---
 
 # llama.cpp 版本追踪
@@ -1400,3 +1400,36 @@ OOM 后无法正确回收内存会导致设备变砖或需要重启推理进程�
 - [[coremltools-9]] — Apple ML 工具链，Metal 之外的另一条推理路径
 - [[on-device-inference-memory-pressure]] — 端侧推理稳定性
 - [[edgeflow-cold-start]] — 冷启动与长时间推理的稳定性
+
+---
+
+### Build b8873 (2026-04-22)
+
+**发布时间**: 2026-04-21
+**来源**: [GitHub Release](https://github.com/ggml-org/llama.cpp/releases/tag/b8873)
+
+**主要更新**:
+
+- **OpenVINO NPU 优化**: 完整的 NPU 支持，包括 weightless caching（减少 NPU 内存占用）、i4/i8 直接对称量化、Gelu Tanh 支持、ImRoPE 支持
+- **线程安全重构**: 每请求级别的线程安全，修复共享运行时上下文的线程安全问题
+- **驱动与 CI**: OpenVINO 驱动自动化设置、CI 拆分为 build-openvino.yml、GPU/NPU Docker 支持
+- **Sticky Stateful 配置修复**: 修复有状态模型的 sticky 配置问题
+- **ROPE Yarn 修复**: 修复 RoPE yarn 实现中的边界情况
+
+**平台二进制**:
+- macOS Apple Silicon (arm64) — 含 KleidiAI 优化版
+- iOS XCFramework
+- Linux x64/arm64/s390x (Vulkan, ROCm)
+- Windows x64/arm64
+
+**为什么重要**:
+- OpenVINO NPU 支持让 Intel Meteor Lake/Alder Lake 设备上的端侧推理成为可能
+- Weightless caching 显著减少 NPU 内存占用，对内存受限的移动设备至关重要
+- 线程安全重构提高了多并发请求场景下的稳定性
+- 与 [[edgecim-hardware-codesign]] 中的硬件协同设计理念一致 — 通过软件适配释放 NPU 算力
+
+**关联**:
+- [[edgecim-hardware-codesign]] — 边缘硬件协同设计，NPU 是关键目标
+- [[on-device-inference-memory-pressure]] — 端侧推理的内存压力管理
+- [[mnn-350]] — MNN 同样支持多后端推理，与 OpenVINO 路径互补
+- [[rl-asic-exploration]] — ASIC 探索中的 NPU 架构优化
