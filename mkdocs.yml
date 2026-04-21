@@ -126,6 +126,7 @@ nav:
       - iappyxOS 端侧应用生成: entities/iappyxos-ondevice-apk.md
       - "Palmier: AI Agent 与手机双向桥": entities/palmier.md
       - "Glimpse: 端侧AI Markdown阅读器": entities/glimpse.md
+      - "Aide: 可定制 Android 语音助手": entities/aide-android-assistant.md
   # ═══════ 概念：按 Agent 系统架构组织 ═══════
   - 概念:
     - 概念总览: concepts/index.md
@@ -331,6 +332,8 @@ nav:
       - "端侧 RAG 统一表征: 检索与压缩一体化": concepts/ondevice-rag-unified-representation.md
       - "WISV: 无线感知语义验证的设备-边缘推测解码": concepts/wisv-device-edge-speculative-decoding.md
       - "EvoComp: OPPO 视觉 Token 压缩框架": concepts/evocomp-visual-token-compression-mllm.md
+      - "HalfV: 视觉冗余生命周期与 MLLM 推理加速": concepts/halfv-visual-redundancy-mllm.md
+      - "跨家族投机解码 on Apple Silicon": concepts/cross-family-speculative-decoding-apple-silicon.md
 
     # ── 维度三：硬件与平台 ──
     - 🏭 硬件与平台:

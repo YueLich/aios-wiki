@@ -416,7 +416,10 @@
     "BrainMem: Brain-Inspired Evolving Memory for Embodied Agent Task Planning",
     "ggml-org/llama.cpp: b8868",
     "Palmier: AI Agent 与手机的双向桥梁",
-    "Glimpse: macOS 端侧 AI Markdown 阅读器"
+    "Glimpse: macOS 端侧 AI Markdown 阅读器",
+    "Cross-Family Speculative Decoding for Polish Language Models on Apple Silicon",
+    "From Inheritance to Saturation: Disentangling the Evolution of Visual Redundancy for Architecture-Aware MLLM Inference Acceleration",
+    "Aide: A Customizable Android Assistant"
   ],
   "known_topics": [
     "memory-worth-governance",

@@ -1449,3 +1449,8 @@ format: reverse-chronological
 - 新增: Weak-Link Optimization (多Agent推理薄弱环节优化)
 - 新增: BrainMem (大脑启发的Agent进化记忆系统)
 - 来源: arXiv cs.AI, cs.MA
+
+## 2026-04-21 14:16
+- 新增 3 个页面：Cross-Family Speculative Decoding、HalfV 视觉冗余、Aide Android Assistant
+- 来源：arXiv RSS + HN Algolia API
+- arXiv API 全部超时，仅 RSS 有数据
