@@ -124,6 +124,8 @@ nav:
       - "Off Grid: 端侧全功能 AI 套件": entities/off-grid-mobile-ai.md
       - CyberWriter 端侧AI编辑器: entities/cyberwriter-ondevice-ai.md
       - iappyxOS 端侧应用生成: entities/iappyxos-ondevice-apk.md
+      - "Palmier: AI Agent 与手机双向桥": entities/palmier.md
+      - "Glimpse: 端侧AI Markdown阅读器": entities/glimpse.md
   # ═══════ 概念：按 Agent 系统架构组织 ═══════
   - 概念:
     - 概念总览: concepts/index.md

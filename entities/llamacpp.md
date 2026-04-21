@@ -1273,3 +1273,16 @@ OOM 后无法正确回收内存会导致设备变砖或需要重启推理进程�
 - [[mnn-350]] — 对标推理框架
 - [[edge-inference-memory-pressure]] — 端侧内存压力管理
 
+
+
+### Build b8868 (2026-04-21)
+
+**发布日期**: 2026-04-21
+
+**主要变更**:
+- `llama-ext`: 修复导出问题 (#22202)
+
+**平台支持**: macOS/iOS (arm64/x64/KleidiAI/iOS XCFramework), Linux (Ubuntu x64/arm64/s390x/Vulkan/ROCm/OpenVINO), Android arm64, Windows x64/arm64 (CPU/CUDA/Vulkan/OpenVINO)
+
+**移动端影响**: iOS XCFramework 和 Android arm64 二进制包持续更新，确保移动端部署工具链保持最新。导出修复（#22202）解决了库符号导出问题，对将 llama.cpp 嵌入 iOS/Android 应用的开发者有直接影响。
+

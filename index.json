@@ -413,7 +413,10 @@
     "Logic-Based Verification of Task Allocation for LLM-Enabled Multi-Agent Manufacturing Systems",
     "Do LLMs Need to See Everything? A Benchmark and Study of Failures in LLM-driven Smartphone Automation using Screentext vs. Screenshots",
     "Weak-Link Optimization for Multi-Agent Reasoning and Collaboration",
-    "BrainMem: Brain-Inspired Evolving Memory for Embodied Agent Task Planning"
+    "BrainMem: Brain-Inspired Evolving Memory for Embodied Agent Task Planning",
+    "ggml-org/llama.cpp: b8868",
+    "Palmier: AI Agent 与手机的双向桥梁",
+    "Glimpse: macOS 端侧 AI Markdown 阅读器"
   ],
   "known_topics": [
     "memory-worth-governance",
