@@ -1467,3 +1467,9 @@ format: reverse-chronological
 - arXiv RSS/API: 90 items → 无新增（全部已收录）
 - GitHub releases: llama.cpp b8870 为新版本
 - RSS blogs: Google AI, DeepMind, Apple ML 等 8 源 → 无新增
+
+## 2026-04-21 Wiki Update
+- New pages: 3
+  - KAIROS: Stateful, Context-Aware Power-Efficient Agentic Inference Serving
+  - The First Challenge on Mobile Real-World Image Super-Resolution at NTIRE 2026: Benchmark Results and Method Overview
+  - Real-Time Cellist Postural Evaluation With On-Device Computer Vision
