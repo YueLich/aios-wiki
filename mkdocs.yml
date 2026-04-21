@@ -197,6 +197,7 @@ nav:
       - "Trust Your Memory: LLM 增强记忆智能家居控制": concepts/trust-your-memory-smart-home.md
       - "Experience Compression Spectrum": concepts/experience-compression-spectrum.md
       - "WorldDB: 向量图-世界记忆引擎": concepts/worlddb-memory-engine.md
+      - "BrainMem: 大脑启发的Agent进化记忆系统": concepts/brainmem-evolving-memory.md
 
     - 🔧 工具调用与执行:
       - "端侧 vs 云端: Agentic 工具调用实战": concepts/on-device-vs-cloud-agentic-tool-calling.md
@@ -240,6 +241,7 @@ nav:
       - Conjunctive Prompt Attacks Multi Agent: concepts/conjunctive-prompt-attacks-multi-agent.md
       - "Kimi K2.6: 300 Agent 并行编码系统": concepts/kimi-k26-agent-swarm.md
       - "Logic-Based Verification: 多智能体制造任务分配验证": concepts/logic-verification-multi-agent-manufacturing.md
+      - "Weak-Link Optimization: 多Agent推理薄弱环节优化": concepts/weaklink-multi-agent-reasoning.md
 
     # ── 维度二：推理与优化技术栈 ──
     - ⚡ 推理优化:

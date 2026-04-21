@@ -411,7 +411,9 @@
     "Bridging the Reasoning Gap in Vietnamese with Small Language Models via Test-Time Scaling",
     "Topology-Aware Layer Pruning for Large Vision-Language Models (TopoVLM)",
     "Logic-Based Verification of Task Allocation for LLM-Enabled Multi-Agent Manufacturing Systems",
-    "Do LLMs Need to See Everything? A Benchmark and Study of Failures in LLM-driven Smartphone Automation using Screentext vs. Screenshots"
+    "Do LLMs Need to See Everything? A Benchmark and Study of Failures in LLM-driven Smartphone Automation using Screentext vs. Screenshots",
+    "Weak-Link Optimization for Multi-Agent Reasoning and Collaboration",
+    "BrainMem: Brain-Inspired Evolving Memory for Embodied Agent Task Planning"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -475,7 +477,7 @@
     "off-grid-mobile-ai"
   ],
   "last_update": "2026-04-20",
-  "last_updated": "2026-04-21",
+  "last_updated": "2026-04-21T12:10:23.009164",
   "total_pages": 18,
   "page_count": 13,
   "pages": [

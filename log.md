@@ -1444,3 +1444,8 @@ format: reverse-chronological
 - Added: DailyDroid 移动Agent失败分析基准 (arXiv 2604.17817)
 - Source: arXiv API targeted query
 - Pages: concepts/dailydroid-mobile-agent-failure.md
+
+## 2026-04-21
+- 新增: Weak-Link Optimization (多Agent推理薄弱环节优化)
+- 新增: BrainMem (大脑启发的Agent进化记忆系统)
+- 来源: arXiv cs.AI, cs.MA
