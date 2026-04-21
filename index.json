@@ -410,7 +410,8 @@
     "ESsEN: Training Compact Discriminative Vision-Language Transformers in a Low-Resource Setting",
     "Bridging the Reasoning Gap in Vietnamese with Small Language Models via Test-Time Scaling",
     "Topology-Aware Layer Pruning for Large Vision-Language Models (TopoVLM)",
-    "Logic-Based Verification of Task Allocation for LLM-Enabled Multi-Agent Manufacturing Systems"
+    "Logic-Based Verification of Task Allocation for LLM-Enabled Multi-Agent Manufacturing Systems",
+    "Do LLMs Need to See Everything? A Benchmark and Study of Failures in LLM-driven Smartphone Automation using Screentext vs. Screenshots"
   ],
   "known_topics": [
     "memory-worth-governance",

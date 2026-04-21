@@ -1439,3 +1439,8 @@ format: reverse-chronological
 
 数据源：arXiv RSS/API, GitHub Releases, HN, RSS feeds
 去重统计：182 原始 → 82 stage-1 → 35 stage-2 → 2 新增
+
+## 2026-04-21 Wiki Update
+- Added: DailyDroid 移动Agent失败分析基准 (arXiv 2604.17817)
+- Source: arXiv API targeted query
+- Pages: concepts/dailydroid-mobile-agent-failure.md
