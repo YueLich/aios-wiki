@@ -5,14 +5,49 @@ related: [[ggml-llamacpp-hf]], [[mnn-350]], [[coremltools-9]]
 sources:
   - https://github.com/ggml-org/llama.cpp/releases
 created: 2026-04-14
-updated: 2026-04-2120
+updated: 2026-04-21
 ---
 
 # llama.cpp 版本追踪
 
 llama.cpp 持续快速迭代，本页汇总各 build 的重要变更。最新版本在最上方。
 
-共追踪 28 个版本（b8791 ~ b8854）。
+共追踪 29 个版本（b8791 ~ b8870）。
+
+
+
+### Build 8870
+## 发布信息
+
+- **版本**: b8870
+- **发布日期**: 2026-04-21
+- **仓库**: [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp)
+
+## 主要变更
+
+### Vulkan 后端
+- **vulkan: Support F16 OP_FILL (#22177)** — 为 Vulkan 后端添加 FP16 填充操作支持。Vulkan 后端在移动端（Android arm64）和桌面端的 GPU 推理中广泛使用，F16 OP_FILL 支持使得 FP16 量化模型在 Vulkan 后端上的初始化和内存操作更高效。
+
+### 平台支持
+
+| 平台 | 包格式 |
+|------|--------|
+| macOS Apple Silicon (arm64) | 原生 + KleidiAI 变体 |
+| macOS Intel (x64) | 原生 |
+| iOS | XCFramework |
+| Linux x64/arm64 | CPU/ROCm/Vulkan/OpenVINO |
+| Android arm64 | 原生 |
+| Windows x64/arm64 | CPU/CUDA/Vulkan |
+
+## 为什么重要
+
+b8870 的 F16 OP_FILL 支持虽然改动较小，但对**移动端 Vulkan 推理**有实际意义。FP16 模型在 Vulkan 后端运行时，之前 F16 填充操作可能需要回退到 F32 精度，引入不必要的转换开销。修复后，FP16 量化模型在 Android Vulkan 后端的推理路径更加完整，减少精度转换。
+
+## 关联
+
+- [[ggml-llamacpp-hf]] — llama.cpp 的 GGML 生态
+- [[mnn-350]] — 阿里 MNN，同为移动端推理框架
+- [[coremltools-9]] — Apple Core ML 工具链
 
 
 
