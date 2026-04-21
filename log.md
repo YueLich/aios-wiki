@@ -1315,3 +1315,8 @@ format: reverse-chronological
 
 ## 2026-04-20 03:30
 - llama.cpp b8862 追加到合并页 (mtmd 模块修复)
+
+## 2026-04-21 更新
+- 新增 3 个概念页面：AgenTEE（边缘机密Agent）、ARMove（Agent移动性预测）、Zero-Egress Psychiatric AI（端侧精神科诊断）
+- 来源：arXiv API
+- 扫描 193 条，过滤后 3 条新增

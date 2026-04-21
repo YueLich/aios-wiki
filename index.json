@@ -387,7 +387,10 @@
     "PaddlePaddle/Paddle-Lite: v2.14-rc",
     "NVIDIA/TensorRT-LLM: v1.2.0",
     "Get ready for Google I/O: Livestream schedule revealed",
-    "apple/coremltools: 9.0b1"
+    "apple/coremltools: 9.0b1",
+    "AgenTEE: Confidential LLM Agent Execution on Edge Devices",
+    "ARMove: Learning to Predict Human Mobility through Agentic Reasoning",
+    "Toward Zero-Egress Psychiatric AI: On-Device LLM Deployment for Privacy-Preserving Mental Health Decision Support"
   ],
   "known_topics": [
     "memory-worth-governance",

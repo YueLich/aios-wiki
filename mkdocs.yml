@@ -150,6 +150,7 @@ nav:
       - "PBRC 预注册信念修正合约": concepts/pbrc-belief-revision.md
       - "不完美合作人机交互: AI 透明性 vs 人类个性": concepts/imperfectly-cooperative-human-ai.md
       - "PolicyBank: Agent 策略自演化理解": concepts/policybank-agent-policy-understanding.md
+      - "ARMove: Agent 推理驱动的移动性预测": concepts/armove-agentic-mobility-prediction.md
     - "Google A2UI 0.9 — Agent 生成式 UI 标准": concepts/google-a2ui-generative-ui.md
 
     - 👁️ 感知与理解:
@@ -398,6 +399,8 @@ nav:
       - "Follow My Eyes: VLM 眼动预测后门攻击": concepts/follow-my-eyes-vlm-backdoor.md
       - PolicyGapper 应用隐私合规验证: concepts/policygapper-app-privacy-verification.md
       - "LLM 差分隐私数据生成": concepts/llm-simulator-differential-privacy.md
+      - "AgenTEE: 边缘设备机密 LLM Agent 执行": concepts/agentee-confidential-edge-agent.md
+      - "Zero-Egress 精神科 AI: 端侧 LLM 隐私保护诊断": concepts/zero-egress-psychiatric-ai.md
       - "SoK Agentic Commerce 安全": concepts/sok-security-agentic-commerce.md
       - "5G 基带语义漏洞: 认证前攻击面": concepts/5g-baseband-semantic-vulnerabilities.md
       - "CPU 生物力学管道优化": concepts/cpu-biomechanics-pipeline-optimization.md
