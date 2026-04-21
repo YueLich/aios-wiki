@@ -1522,3 +1522,13 @@ format: reverse-chronological
 - Added: Aide Android Assistant (BYOK模式Android助手)
 - Sources: HN, The Decoder, arXiv RSS/API, GitHub releases
 - New pages: 1 (aide-android-assistant)
+
+## 2026-04-21 22:13
+
+新增 3 个页面：
+- 🧠 spike-driven-llm — 脉冲驱动LLM推理（SNN+Transformer，边缘超低功耗方向）
+- ⚡ vs-wno-jetson-orin-nano — VS-WNO脉冲稀疏性部署成本实测（Jetson Orin Nano，理论vs现实）
+- 🎯 sage-sleep-care-agent — SAGE穿戴设备LLM睡眠护理Agent（传感器+LLM grounding）
+
+数据来源：arXiv RSS (cs.AI/CL/LG/CV/MA/ET/NE/HC), arXiv API, GitHub releases, Google DeepMind, OpenAI Blog
+去重：439 known titles → 5 new after filtering (3 genuinely new, 2 were ghost nav entries with existing pages)
