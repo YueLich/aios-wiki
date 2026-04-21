@@ -359,7 +359,6 @@
     "K-Token Merging: Compressing Sequences in the Latent Embedding Space",
     "Build with Veo 3.1 Lite",
     "Introducing AnyLanguageModel: One API for Local and Remote LLMs on Apple Platforms",
-    "HUOZIIME: An On-Device LLM-enhanced Input Method for Deep Personalization",
     "LLM Powered Autonomous Agents",
     "The Fourth Beta of Android 17",
     "Granite 4.0 3B Vision: Compact Multimodal Intelligence for Enterprise Documents",
@@ -404,7 +403,9 @@
     "Edge Agent IoT: 系统级攻击面分析",
     "React-ing to Grace Hopper 200: Five Open-Weights Coding Models",
     "React-ing to Grace Hopper 200: Five Open-Weights Coding Models, One React Native App, One GH200, One Weekend",
-    "Open-weight Kimi K2.6 takes on GPT-5.4 and Claude Opus 4.6 with agent swarms"
+    "Open-weight Kimi K2.6 takes on GPT-5.4 and Claude Opus 4.6 with agent swarms",
+    "DAT: Dual-Aware Adaptive Transmission for Efficient Multimodal LLM Inference in Edge-Cloud Systems",
+    "Production-Grade Local LLM Inference on Apple Silicon: A Comparative Study of MLX, MLC-LLM, Ollama, llama.cpp, and PyTorch MPS"
   ],
   "known_topics": [
     "memory-worth-governance",

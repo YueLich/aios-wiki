@@ -1367,3 +1367,27 @@ format: reverse-chronological
 - Updated index.json (+2 titles)
 - Updated mkdocs.yml nav (2 entries)
 - Sources: arXiv 2604.17187, The Decoder
+
+## Wiki Update: 2026-04-21_08:21
+
+### Summary
+- **Sources scanned**: arXiv RSS (5 feeds), arXiv API (4 queries), GitHub (5 repos), 11 RSS feeds, HN Algolia
+- **Raw items collected**: 230
+- **After keyword filter**: 96
+- **After high-relevance filter**: 35
+- **After dedup**: 2 new (borderline relevance)
+- **Enriched existing pages**: 2 (edgecim-hardware-codesign, dat-adaptive-transmission-multimodal)
+- **Recreated missing page**: 1 (dat-adaptive-transmission-multimodal.md — accidentally deleted, recreated)
+- **Updated page**: vllm-mlx-apple-silicon.md (overwritten with richer content)
+
+### Actions
+- Enriched `edgecim-hardware-codesign.md` with detailed method, experimental results, and key insights
+- Recreated `dat-adaptive-transmission-multimodal.md` (was missing from disk despite nav reference)
+- Overwrote `vllm-mlx-apple-silicon.md` with comprehensive benchmark comparison content
+- Fixed wikilink in vllm-mlx page (imp-mobile-multimodal → imp-mobile-lmm)
+- Updated index.json dedup tracking
+
+### Notes
+- Very low new item yield today (230 → 2). Dedup working correctly — 33 skipped items are already in wiki.
+- Index-disk drift: 406 titles tracked, ~340 pages on disk. Reconciliation needed in future run.
+- All 7 high-priority arXiv papers already had existing wiki pages (different slugs from index.json titles).

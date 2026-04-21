@@ -1,63 +1,54 @@
 ---
 type: concept
-tags: [多模态, 自适应传输, 边缘计算, 视频推理, 带宽优化, 端云协同]
-related: [[llm-inference-edge-mobile-npu-gpu]], [[edge-optimization]], [[mllm-multi-robot-networks]]
+tags: [端云协同, 多模态, 边缘计算, 视频推理, 带宽优化]
+related: [[comllm-mec-offloading]], [[edgeflow-cold-start]], [[networking-energy-agentic]]
 sources:
   - url: https://arxiv.org/abs/2604.05375
-    title: "DAT: Dual-Aware Adaptive Transmission for Efficient Multimodal LLM Inference"
-    date: 2026-04-18
+    title: "DAT: Dual-Aware Adaptive Transmission for Efficient Multimodal LLM Inference in Edge-Cloud Systems"
+    date: 2026-04-08
     reliability: high
-created: 2026-04-18
-updated: 2026-04-18
+created: 2026-04-21
+updated: 2026-04-21
 ---
 
-# DAT: 双感知自适应传输优化多模态 LLM 推理
+# DAT: 面向端云系统的双感知自适应传输
 
-> 针对连续视频流场景下的多模态大模型推理，提出同时感知内容语义和网络状态的自适应传输方案。
+> 在带宽受限的端云系统中，通过"语义感知"和"带宽感知"双重机制，智能筛选视频流中值得上传的高价值帧，大幅降低多模态 LLM 推理的计算和通信开销。
 
 ## 核心问题
 
-Multimodal large language models (MLLMs) have shown strong capability in semantic understanding and visual reasoning, yet their use on continuous video streams in bandwidth-constrained edge-cloud systems incurs prohibitive computation and communication overhead and hinders low-latency alerting and effective visual evidence delivery. To address this challenge, we propose DAT to achieve high-quality semantic generation, low-latency event alerting, 
+在持续视频流场景中部署多模态 LLM（MLLM）面临两个根本挑战：
 
-多模态 LLM 处理连续视频流时面临两大挑战：
-- **带宽瓶颈**：原始视频流传输占用大量带宽
-- **计算冗余**：并非所有帧都对推理结果有贡献
+1. **计算负担**：深度语义推理需要处理大量视觉 token。一个 100 帧的视频片段（使用 CLIP-ViT-L/14）产生约 25.6K token，开销巨大
+2. **通信瓶颈**：持续上传所有视频到云端造成上行链路拥塞。单个 1080p 流（20fps）需要 1-3 Mbps；30-40 万路流需要 300-1200 Gbps 持续带宽
 
-## 方法与架构
+大多数帧仅包含低价值背景内容，但传统方法对所有帧一视同仁处理。
 
-architecture for visual IoT-assisted healthcare systems. IEEE Internet of Things Journal 8, 23 (2021), 16779–16786. 
- Yuan et al . (2025) Liangqi Yuan, Dong-Jun Han, Shiqiang Wang, and Christopher Brinton. 2025. Local-cloud inference offloading for LLMs in multi-modal, multi-task, multi-dialogue settings. In Proceedings of the Twenty-sixth International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing . 201–210. 
- Zheng et al . (2026) Xixi Zheng, You Li, Baokun Zheng, Chuan Zhang, and Liehuang Zhu. 2026. EdgeNetLLM: Cloud–Edge Collaborative Adaptation of Large Language Models for Mobile Networking. IEEE Transactions on Network Science and Engineering 13 (2026), 3928–3943. doi: 10.1109/TNSE.2025.3624100 
- Zheng et al . (2024) Yaowei 
+## 方法/架构
 
-DAT 的双感知机制：
-1. **语义感知**：分析视频帧的语义重要性，优先传输关键帧
-2. **网络感知**：实时监测带宽、延迟，动态调整传输策略
-3. **联合优化**：在语义完整性和传输效率之间找到最优平衡
+DAT 提出**双感知自适应传输**框架：
+
+- **语义感知**：在边缘端进行轻量级语义分析，识别视频帧的语义价值，只传输高价值帧到云端进行深度 MLLM 推理
+- **带宽感知**：根据实时网络带宽动态调整传输策略，在带宽紧张时进一步降低传输量
+- **自适应调度**：结合两者，在保证推理质量的前提下最小化通信开销
 
 ## 实验结果
 
-Experiments and Technologies (Nice, France) (CoNEXT ’12) . Association for Computing Machinery, New York, NY, USA, 97–108. doi: 10.1145/2413176.2413189 
- Jin et al . (2025) Yizhang Jin, Jian Li, Tianjun Gu, Yexin Liu, Bo Zhao, Jinxiang Lai, Zhenye Gan, Yabiao Wang, Chengjie Wang, Xin Tan, and Lizhuang Ma. 2025. Efficient multimodal large language models: a survey. Visual Intelligence 3, 1 (Dec. 2025). doi: 10.1007/s44267-025-00099-6 
- Lai et al . (2023) Leonardo Lai, Lorenzo Fiaschi, Marco Cococcioni, and Kalyanmoy Deb. 2023. Pure and mixed lexicographic-paretian many-objective optimization: s
-
-- 相比固定帧率传输，DAT 减少 **40-60% 的传输数据量**
-- 推理准确率仅下降 **2-5%**（在视觉问答任务上）
-- 端到端延迟降低 **30-50%**
+- 相比全帧上传方案，通信开销大幅降低
+- 在语义检测和视觉推理任务上保持了高精度
+- 在不同带宽条件下表现出良好的鲁棒性
 
 ## 关键洞察
 
-- "不是所有像素都值得传输"——语义感知传输是端云协同的关键优化方向
-- 自适应传输可以在不修改模型的情况下大幅提升效率
-- 对于手机端的实时视觉 AI（如 AR、视频理解）有直接应用价值
+**不是所有帧都值得"看"**：在连续视频流中，绝大多数帧的语义价值很低。通过边缘端的轻量预处理筛选出"值得看的帧"，可以在不损失推理质量的前提下大幅降低端云通信开销。
 
 ## 为什么重要
 
-多模态 AI（图片理解、视频分析、AR 推理）正在成为手机端 AI 的核心能力。DAT 提供了一种不修改模型架构、仅优化传输层即可大幅提升效率的方案——这对带宽受限的移动网络场景尤为重要。
+- **视频监控 AI 的实际部署**：全球部署了数亿摄像头，视频占移动数据流量的 76%
+- **端云协作新模式**：不是简单的"全部本地"或"全部云端"，而是智能的按需分配
+- **移动设备带宽节省**：减少不必要的数据传输，降低用户流量消耗
 
 ## 关联
-
-- [[llm-inference-edge-mobile-npu-gpu]] — 端侧推理的硬件性能分析
-- [[edge-optimization]] — 边缘端优化的整体策略
-- [[mllm-multi-robot-networks]] — 多模态大模型在多机器人网络中的应用
-- [[comllm-mec-offloading]] — 边缘计算卸载方案
+- [[comllm-mec-offloading]] — 同为端云协作的计算卸载方案
+- [[edgeflow-cold-start]] — 边缘推理的冷启动优化
+- [[networking-energy-agentic]] — Agent 推理的能效优化
