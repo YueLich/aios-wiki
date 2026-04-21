@@ -409,7 +409,8 @@
     "MUA: Mobile Ultra-detailed Animatable Avatars",
     "ESsEN: Training Compact Discriminative Vision-Language Transformers in a Low-Resource Setting",
     "Bridging the Reasoning Gap in Vietnamese with Small Language Models via Test-Time Scaling",
-    "Topology-Aware Layer Pruning for Large Vision-Language Models (TopoVLM)"
+    "Topology-Aware Layer Pruning for Large Vision-Language Models (TopoVLM)",
+    "Logic-Based Verification of Task Allocation for LLM-Enabled Multi-Agent Manufacturing Systems"
   ],
   "known_topics": [
     "memory-worth-governance",

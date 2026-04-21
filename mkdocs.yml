@@ -239,6 +239,7 @@ nav:
       - Self Improving Error Diagnosis Multi Agent: concepts/self-improving-error-diagnosis-multi-agent.md
       - Conjunctive Prompt Attacks Multi Agent: concepts/conjunctive-prompt-attacks-multi-agent.md
       - "Kimi K2.6: 300 Agent 并行编码系统": concepts/kimi-k26-agent-swarm.md
+      - "Logic-Based Verification: 多智能体制造任务分配验证": concepts/logic-verification-multi-agent-manufacturing.md
 
     # ── 维度二：推理与优化技术栈 ──
     - ⚡ 推理优化:

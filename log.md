@@ -1430,3 +1430,12 @@ format: reverse-chronological
 - 来源: arXiv 2604.16502 - 首个拓扑感知 LVLM 层剪枝框架
 - 扫描: arXiv RSS (5 feeds) + API (10 queries) + GitHub releases (4 repos) + RSS feeds (4) = 161 items → 6 new after dedup → 1 relevant
 - llama.cpp b8864 已存在于合并页
+
+## 2026-04-21_10:07
+
+新增 2 个 wiki 页面：
+- `concepts/logic-verification-multi-agent-manufacturing.md` — Logic-Based Verification: 多智能体制造任务分配形式化验证 (arXiv 2604.17142)
+- `concepts/fastshade-mobile-denoising.md` — FastSHADE: 移动端实时图像去噪 (arXiv 2604.10275)
+
+数据源：arXiv RSS/API, GitHub Releases, HN, RSS feeds
+去重统计：182 原始 → 82 stage-1 → 35 stage-2 → 2 新增
