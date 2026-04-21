@@ -444,7 +444,9 @@
     "When Spike Sparsity Does Not Translate to Deployed Cost: VS-WNO on Jetson Orin Nano",
     "SAGE: Sensor-Augmented Grounding Engine for LLM-Powered Sleep Care Agent",
     "ggml-org/llama.cpp: b8873",
-    "llama.cpp b8873"
+    "llama.cpp b8873",
+    "LRD-Net: A Lightweight Real-Centered Detection Network for Cross-Domain Face Forgery Detection",
+    "ggml-org/llama.cpp: b8875"
   ],
   "known_topics": [
     "memory-worth-governance",

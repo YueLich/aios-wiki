@@ -172,6 +172,7 @@ nav:
         - "UI 到 Agent 界面效率优化": concepts/ui-to-agent-interface-efficiency.md
       - 视觉感知:
         - "FaceLiVTv2: 移动端轻量人脸识别": concepts/facelivtv2-mobile-face.md
+        - "LRD-Net：轻量级跨域人脸伪造检测": concepts/lrdnet-face-forgery-detection.md
         - "FastSHADE: 移动端实时图像去噪": concepts/fastshade-mobile-denoising.md
         - "DRIFT: 移动深度恢复与 ISP 融合": concepts/drift-mobile-isp-pipeline.md
         - "DroneScan-YOLO: 无人机端目标检测": concepts/dronescan-yolo.md

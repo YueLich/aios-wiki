@@ -1,3 +1,13 @@
+## 2026-04-22 Wiki Update
+
+**新增页面**：
+- `concepts/lrdnet-face-forgery-detection.md` — LRD-Net：轻量级跨域人脸伪造检测（arXiv 2604.10862）
+
+**更新页面**：
+- `entities/llamacpp.md` — 追加 Build b8875（Reka Edge 2603 多模态支持）
+
+**统计**：扫描 169 条内容，过滤后 29 条进入去重，新增 1 条 arXiv 发现 + 1 个 GitHub 版本更新
+
 
 ## 2026-04-21 04:42 - Wiki Update
 - 新增 1 页面：WorldDB (concepts/worlddb-memory-engine.md)

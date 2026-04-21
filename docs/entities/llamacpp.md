@@ -1433,3 +1433,20 @@ OOM 后无法正确回收内存会导致设备变砖或需要重启推理进程�
 - [[on-device-inference-memory-pressure]] — 端侧推理的内存压力管理
 - [[mnn-350]] — MNN 同样支持多后端推理，与 OpenVINO 路径互补
 - [[rl-asic-exploration]] — ASIC 探索中的 NPU 架构优化
+
+
+### Build b8875 (2026-04-21)
+
+**主要特性：Reka Edge 2603 多模态支持**
+- `mtmd`：新增 Yasa2 视觉编码器（ConvNeXtV2-based）
+  - 注册 PROJECTOR_TYPE_YASA2 及张量定义
+  - 实现图构建器：ConvNeXt stages → GRN → 自适应池化
+  - 集成到 clip.cpp 和 mtmd.cpp 初始化流程
+- `chat`：新增 Reka Edge 模板处理器
+  - PEG-based 解析器，支持 tools、thinking、images/video
+  - Reka-Edge.jinja 聊天模板
+- 混合量化辅助脚本：Q4_0 基础 + 最后 8 层 Q8_0 覆盖
+- 修复 vocab 中 UNK_BYTE 十六进制转义的拼接 bug
+- 修复 Yasa2 视觉编码器中重复张量加载导致内存溢出的问题
+
+来源：[GitHub Release](https://github.com/ggml-org/llama.cpp/releases/tag/b8875)
