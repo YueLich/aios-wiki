@@ -431,7 +431,8 @@
     "The First Challenge on Mobile Real-World Image Super-Resolution at NTIRE 2026: Benchmark Results and Method Overview",
     "Real-Time Cellist Postural Evaluation With On-Device Computer Vision",
     "Verbatim AI – on-device transcription (Whisper) + summaries (Llama 3.2)",
-    "Show HN: Glimpse – A native macOS Markdown viewer with on-device AI"
+    "Show HN: Glimpse – A native macOS Markdown viewer with on-device AI",
+    "DASH-Q: Robust Ultra Low-Bit Post-Training Quantization via Stable Diagonal Cu"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -495,7 +496,7 @@
     "off-grid-mobile-ai"
   ],
   "last_update": "2026-04-20",
-  "last_updated": "2026-04-21T21:00:00",
+  "last_updated": "2026-04-21",
   "total_pages": 18,
   "page_count": 13,
   "pages": [

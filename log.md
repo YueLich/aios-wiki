@@ -1473,3 +1473,8 @@ format: reverse-chronological
   - KAIROS: Stateful, Context-Aware Power-Efficient Agentic Inference Serving
   - The First Challenge on Mobile Real-World Image Super-Resolution at NTIRE 2026: Benchmark Results and Method Overview
   - Real-Time Cellist Postural Evaluation With On-Device Computer Vision
+
+## 2026-04-21 — 自动增量更新
+- 新增 4 个概念页面：DASH-Q, BioTrain, MeloTune, FastSHADE
+- 来源：arXiv API 补充搜索
+- 修复 index-disk drift：从 254 个缺失页面中创建了 4 个高相关性页面
