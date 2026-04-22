@@ -1,3 +1,13 @@
+## 2026-04-22 - Wiki Update
+
+**新增页面** (3):
+- `concepts/micro-language-models-edge.md` — μLMs: 穿戴设备即时响应的超紧凑模型 (arXiv 2604.19642)
+- `concepts/sage-edge-cloud-inference.md` — SAGE: 硬上行预算下的端云推理语义证据合成 (arXiv 2604.19623)
+- `concepts/chiplight-chiplet-optical-llm.md` — ChipLight: 面向 LLM 训练的芯粒光互连跨层优化 (arXiv 2604.18909)
+
+**来源**: arXiv API (edge inference, mobile LLM targeted queries)
+**去重**: 147 items → 3 new after 5-layer dedup + keyword filter
+
 
 ## 2026-04-22 05:00 - Incremental Update
 

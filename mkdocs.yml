@@ -345,6 +345,9 @@ nav:
       - "LayerCache Flow Matching Cache": concepts/layercache-flow-matching-cache.md
       - "脉冲驱动 LLM: 脉冲神经网络的LLM推理": concepts/spike-driven-llm.md
       - "VS-WNO Jetson: 脉冲稀疏性部署成本幻觉": concepts/vs-wno-jetson-orin-nano.md
+      - "μLMs: 穿戴设备即时响应的超紧凑模型": concepts/micro-language-models-edge.md
+      - "SAGE: 硬上行预算下的端云推理语义证据合成": concepts/sage-edge-cloud-inference.md
+      - "ChipLight: 面向 LLM 训练的芯粒光互连跨层优化": concepts/chiplight-chiplet-optical-llm.md
     # ── 维度三：硬件与平台 ──
     - 🏭 硬件与平台:
       - PC2IM 存内计算点云加速: concepts/pc2im-cim-point-cloud.md
