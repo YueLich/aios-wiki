@@ -1,3 +1,13 @@
+
+## 2026-04-22 05:00 - Incremental Update
+
+- **新增**: 1 页面
+  - `concepts/multilora-edge-deployment.md` — 多 LoRA 端侧部署与加速框架（Samsung Galaxy S24/S25, Qualcomm SM8650/SM8750, arXiv 2604.18655）
+- **GitHub**: llama.cpp b8878 (已在 index.json 中更新)
+- **来源**: arXiv API, RSS feeds (17 sources), GitHub releases (7 repos)
+- **统计**: 222 raw → 85 stage-1 → 22 stage-2 → 1 genuinely new after dedup
+- **注**: 低产出增量更新，去重正常工作
+
 ## 2026-04-22 Wiki Update
 
 **新增页面**：
