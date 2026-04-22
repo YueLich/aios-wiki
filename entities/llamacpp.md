@@ -1484,3 +1484,20 @@ OOM 后无法正确回收内存会导致设备变砖或需要重启推理进程�
 - 修复 Yasa2 视觉编码器中重复张量加载导致内存溢出的问题
 
 来源：[GitHub Release](https://github.com/ggml-org/llama.cpp/releases/tag/b8875)
+
+### Build b8878 (2026-04-22)
+
+**主要特性：Hexagon DAIG 操作支持**
+- Hexagon DSP：新增 DIAG 操作支持（#22195）
+  - 添加 HVX（Hexagon Vector eXtensions）支持
+  - 实现 DMA 双缓冲机制，提升数据传输效率
+  - 修复致命错误，清理冗余 pragma 声明
+- 构建矩阵：涵盖 macOS ARM64/Intel、Linux x64/arm64/s390x/Vulkan/ROCm/OpenVINO、Android arm64、Windows x64
+- KleidiAI 启用的 macOS ARM64 构建变体提供 Qualcomm 优化路径
+
+**移动端意义**：
+- Hexagon DAIG 操作使 llama.cpp 能更好地利用骁龙处理器的 DSP 单元
+- DMA 双缓冲减少 CPU-DSP 数据搬运瓶颈，对端侧推理延迟优化至关重要
+- Android arm64 构建保持持续支持，确保移动端部署无阻塞
+
+来源：[GitHub Release](https://github.com/ggml-org/llama.cpp/releases/tag/b8878)

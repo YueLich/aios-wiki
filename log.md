@@ -1547,3 +1547,9 @@ format: reverse-chronological
 - llama.cpp b8873: OpenVINO NPU 优化、线程安全重构
 - Sources: arXiv RSS (cs.AI/CL/LG/CV/MA), tech RSS (9 feeds), GitHub API
 - Stats: 213 collected → 107 stage-1 → 34 stage-2 → 1 new (after dedup)
+
+## 2026-04-22 01:34
+- 扫描 5 个 arXiv RSS + 10 个 RSS + 5 个 arXiv API + 6 个 GitHub releases
+- 发现 1 个新内容：llama.cpp b8878（Hexagon DAIG 操作支持）
+- 追加到合并页 entities/llamacpp.md
+- 更新 index.json（451 标题）

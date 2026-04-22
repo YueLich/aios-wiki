@@ -448,7 +448,9 @@
     "LRD-Net: A Lightweight Real-Centered Detection Network for Cross-Domain Face Forgery Detection",
     "ggml-org/llama.cpp: b8875",
     "ggml-org/llama.cpp: b8876",
-    "llama.cpp b8876"
+    "llama.cpp b8876",
+    "ggml-org/llama.cpp: b8878",
+    "llama.cpp b8878"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -512,7 +514,7 @@
     "off-grid-mobile-ai"
   ],
   "last_update": "2026-04-20",
-  "last_updated": "2026-04-22T02:00:00",
+  "last_updated": "2026-04-22",
   "total_pages": 18,
   "page_count": 13,
   "pages": [
