@@ -446,7 +446,9 @@
     "ggml-org/llama.cpp: b8873",
     "llama.cpp b8873",
     "LRD-Net: A Lightweight Real-Centered Detection Network for Cross-Domain Face Forgery Detection",
-    "ggml-org/llama.cpp: b8875"
+    "ggml-org/llama.cpp: b8875",
+    "ggml-org/llama.cpp: b8876",
+    "llama.cpp b8876"
   ],
   "known_topics": [
     "memory-worth-governance",

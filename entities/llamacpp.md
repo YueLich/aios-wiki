@@ -12,9 +12,43 @@ updated: 2026-04-22
 
 llama.cpp 持续快速迭代，本页汇总各 build 的重要变更。最新版本在最上方。
 
-共追踪 29 个版本（b8791 ~ b8870）。
+共追踪 30 个版本（b8791 ~ b8876）。
 
 
+
+
+### Build 8876
+## 发布信息
+
+- **版本**: b8876
+- **发布日期**: 2026-04-22
+- **仓库**: [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp)
+
+## 主要变更
+
+### 推测解码优化
+- **spec: reset i_last when low acceptance streak occurs (#22168)** — 当推测解码的接受率连续偏低时，重置 `i_last` 为零。这意味着在重建推测映射时会包含当前上下文，从而改善推测解码的命中率。对于**端侧推理**场景，推测解码是降低延迟的关键技术——移动端 GPU 算力有限，推测解码通过小模型预测+大模型验证的方式减少大模型的前向传播次数。此修复确保了在连续推测失败时能快速恢复，避免陷入低效的推测循环。
+
+### 平台支持
+
+| 平台 | 包格式 |
+|------|--------|
+| macOS Apple Silicon (arm64) | 原生 + KleidiAI 变体 |
+| macOS Intel (x64) | 原生 |
+| iOS | XCFramework |
+| Linux x64/arm64 | CPU/Vulkan/ROCm |
+| Android arm64 | 原生 |
+| Windows x64/arm64 | CPU/CUDA/Vulkan |
+
+## 为什么重要
+
+b8876 的推测解码修复对**移动设备端侧推理**有实际意义。推测解码（speculative decoding）是当前端侧 LLM 推理的核心优化手段之一：用小而快的 draft model 生成候选 token，再由大模型批量验证。当连续推测失败时，传统实现会继续低效尝试，浪费算力。此修复通过重置推测映射上下文，让系统更快找到有效的推测模式，从而在移动设备上实现更稳定的低延迟推理。
+
+## 关联
+
+- [[ggml-llamacpp-hf]] — llama.cpp 的 GGML 生态
+- [[coremltools-9]] — Apple Core ML 工具链
+- [[on-device-inference-memory-pressure]] — 推测解码减少推理内存压力
 
 ### Build 8870
 ## 发布信息
