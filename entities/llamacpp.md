@@ -12,7 +12,7 @@ updated: 2026-04-22
 
 llama.cpp 持续快速迭代，本页汇总各 build 的重要变更。最新版本在最上方。
 
-共追踪 30 个版本（b8791 ~ b8876）。
+共追踪 31 个版本（b8791 ~ b8880）。
 
 
 
@@ -1501,3 +1501,19 @@ OOM 后无法正确回收内存会导致设备变砖或需要重启推理进程�
 - Android arm64 构建保持持续支持，确保移动端部署无阻塞
 
 来源：[GitHub Release](https://github.com/ggml-org/llama.cpp/releases/tag/b8878)
+
+
+### Build b8880 (2026-04-22)
+
+**主要特性：WebGPU profiling 优化**
+- ggml-webgpu：释放上下文时重置 CPU/GPU profiling 时间（#22050）
+  - 将 GPU profiling 时间从全局上下文移至 webgpu_context
+  - 避免多次创建/销毁上下文时的 profiling 数据残留
+- 构建矩阵保持完整覆盖：macOS ARM64/Intel、Linux x64/arm64/s390x/Vulkan/ROCm/OpenVINO、Android arm64、Windows 全平台
+
+**移动端意义**：
+- WebGPU 是跨平台 GPU 推理的重要后端，尤其在不支持 Metal/CUDA 的设备上
+- profiling 数据重置确保端侧推理性能监控的准确性
+- Android arm64 构建持续提供，保障移动端部署连续性
+
+来源：[GitHub Release](https://github.com/ggml-org/llama.cpp/releases/tag/b8880)

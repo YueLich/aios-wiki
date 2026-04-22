@@ -11,8 +11,8 @@
     "The AI Data Centers That Fit on a Truck (Modular Edge Data Centers)",
     "RoboPocket: Improve Robot Policies Instantly with Your Phone",
     "Real-Time Cellist Postural Evaluation With On-Device Computer Vision",
-    "Palmier: AI Agent \u4e0e\u624b\u673a\u7684\u53cc\u5411\u6865\u6881",
-    "Verbatim AI \u2013 on-device transcription (Whisper) + summaries (Llama 3.2)",
+    "Palmier: AI Agent 与手机的双向桥梁",
+    "Verbatim AI – on-device transcription (Whisper) + summaries (Llama 3.2)",
     "llama.cpp b8811",
     "Memp: Exploring Agent Procedural Memory",
     "Hardware optimization on Android for inference of AI models",
@@ -29,19 +29,19 @@
     "Robust Ultra Low-Bit Post-Training Quantization via Stable Diagonal Curvature Estimate",
     "MemGround: Long-Term Memory Evaluation Kit for Large Language Models in Gamified Scenarios",
     "Persistent Identity in AI Agents: A Multi-Anchor Architecture for Resilient Memory and Continuity",
-    "Show HN: CyberWriter \u2013 a .md editor built on Apple's (barely-used) on-device AI",
+    "Show HN: CyberWriter – a .md editor built on Apple's (barely-used) on-device AI",
     "A KL Lens on Quantization: Fast, Forward-Only Sensitivity for Mixed-Precision SSM-Transformer Models",
     "Technology solutions targeting the performance of gen-AI inference in resource constrained platforms",
     "Quantization of Spiking Neural Networks Beyond Accuracy",
     "AgentOpt v0.1 Technical Report: Client-Side Optimization for LLM-Based Agent",
     "Experimental hybrid inference and new Gemini models for Android",
-    "Edge Agent IoT: \u7cfb\u7edf\u7ea7\u653b\u51fb\u9762\u5206\u6790",
-    "SocialWise: LLM-Agent \u5bf9\u8bdd\u7597\u6cd5",
+    "Edge Agent IoT: 系统级攻击面分析",
+    "SocialWise: LLM-Agent 对话疗法",
     "When Flat Minima Fail: Characterizing INT4 Quantization Collapse After FP32 Convergence",
     "llama.cpp b8796",
     "BadgeX: IoT-Enhanced Wearable Analytics Meets LLMs for Collaborative Learning",
     "Design and Validation of a Low-Cost Smartphone Based Fluorescence Detection Platform Compared with Conventional Microplate Readers",
-    "SOLAR: PEFT \u9002\u914d\u5668\u5b50\u7a7a\u95f4\u538b\u7f29",
+    "SOLAR: PEFT 适配器子空间压缩",
     "The Illusion of Equivalence: Systematic FP16 Divergence in KV-Cached Autoregressive Inference",
     "A Theoretical Framework for Acoustic Neighbor Embeddings",
     "AgentComm: Semantic Communication for Embodied Agents",
@@ -83,9 +83,9 @@
     "Pushing the Limits of On-Device Streaming ASR: A Compact, High-Accuracy English Model for Low-Latency CPU Inference",
     "Why Fine-Tuning Encourages Hallucinations and How to Fix It",
     "TrigReason: Trigger-Based Collaboration between Small and Large Reasoning Models",
-    "Memorable \u2013 On-device AI search for iPhone photos, videos, screenshots",
-    "Glimpse: macOS \u7aef\u4fa7 AI Markdown \u9605\u8bfb\u5668",
-    "SFT \u8bf1\u5bfc\u5e7b\u89c9\uff1a\u5fae\u8c03\u4e3a\u4f55\u5236\u9020\u5e7b\u89c9\u53ca\u6301\u7eed\u5b66\u4e60\u4fee\u590d\u7b56\u7565",
+    "Memorable – On-device AI search for iPhone photos, videos, screenshots",
+    "Glimpse: macOS 端侧 AI Markdown 阅读器",
+    "SFT 诱导幻觉：微调为何制造幻觉及持续学习修复策略",
     "MobileFineTuner: A Unified End-to-End Framework for Fine-Tuning LLMs on Mobile Phones",
     "Gemini 3.1 Flash TTS: the next generation of expressive AI speech",
     "ARM-software/ComputeLibrary: v53.0.0",
@@ -104,7 +104,7 @@
     "React-ing to Grace Hopper 200: Five Open-Weights Coding Models, One React Native App, One GH200, One Weekend",
     "transformers-to-MLX: The PR you would have opened yourself",
     "AromaGen: Interactive Generation of Rich Olfactory Experiences with Multimodal Language Models",
-    "MobileFineTuner: \u624b\u673a\u7aef LLM \u5fae\u8c03\u6846\u67b6",
+    "MobileFineTuner: 手机端 LLM 微调框架",
     "Cross-Layer Co-Optimized LSTM Accelerator for Real-Time Gait Analysis",
     "ARMove: Learning to Predict Human Mobility through Agentic Reasoning",
     "wisv-device-edge-speculative",
@@ -141,7 +141,7 @@
     "Bridging Protocol and Production: Design Patterns for Deploying AI Agents with Model Context Protocol",
     "llama.cpp b8797",
     "MGA: Memory-Driven GUI Agent for Observation-Centric Interaction",
-    "\u8f7b\u91cf\u5316 Transformer \u8fb9\u7f18\u90e8\u7f72\u7efc\u8ff0",
+    "轻量化 Transformer 边缘部署综述",
     "DynamicsLLM: a Dynamic Analysis-based Tool for Generating Intelligent Execution Traces Using LLMs to Detect Android Behavioural Code Smells",
     "Qualcomm works with Meta to enable on-device AI applications using Llama 2",
     "Gemini 3 Deep Think: Advancing science, research and engineering",
@@ -152,7 +152,7 @@
     "TinyMU: A Compact Audio-Language Model for Music Understanding",
     "LayerCache: Exploiting Layer-wise Velocity Heterogeneity for Efficient Flow Matching",
     "Sova AI - AI Assistant for Your Phone",
-    "Show HN: Off Grid: On-device AI-web browsing, tools vision,image,voice\u20133x faster",
+    "Show HN: Off Grid: On-device AI-web browsing, tools vision,image,voice–3x faster",
     "Cross-Family Speculative Decoding for Polish Language Models on Apple Silicon",
     "Google A2UI: Agent-driven generative UI standard",
     "Sova AI: Android AI agent-assistant operating your apps",
@@ -192,7 +192,7 @@
     "MUA: Mobile Ultra-detailed Animatable Avatars",
     "Memory as Metabolism: A Design for Companion Knowledge Systems",
     "Towards Self-Improving Error Diagnosis in Multi-Agent Systems",
-    "EvoComp: OPPO \u89c6\u89c9 Token \u538b\u7f29\u6846\u67b6",
+    "EvoComp: OPPO 视觉 Token 压缩框架",
     "Low-Latency Edge LLM Handover via Joint KV Cache Transfer and Token Prefill",
     "Welcome Gemma 4: Frontier multimodal intelligence on device",
     "MobiFlow: Real-World Mobile Agent Benchmarking through Trajectory Fusion",
@@ -206,18 +206,18 @@
     "DAT: Dual-Aware Adaptive Transmission for Efficient Multimodal LLM Inference",
     "Zero-Copy GPU Inference from WebAssembly on Apple Silicon",
     "TurboQuant WASM",
-    "\u4eba\u5de5\u4e09\u5143\u667a\u80fd ATI",
+    "人工三元智能 ATI",
     "LLM Inference on Edge: A Fun and Easy Guide to run LLMs via React Native on your Phone!",
     "Nano Banana 2: Combining Pro capabilities with lightning-fast speed",
     "Google A2UI: Generative UI Standard for AI Agents",
     "FedGUI: Benchmarking Federated GUI Agents across Heterogeneous Platforms, Devices, and Operating Systems",
     "Bridging the Reasoning Gap in Vietnamese with Small Language Models via Test-Time Scaling",
     "AdaVFM: Adaptive Vision Foundation Models for Edge Intelligence via LLM-Guided Execution",
-    "VisionClaw: \u59cb\u7ec8\u5728\u7ebf\u7684\u53ef\u7a7f\u6234 AI Agent (Ray-Ban Meta + OpenClaw)",
+    "VisionClaw: 始终在线的可穿戴 AI Agent (Ray-Ban Meta + OpenClaw)",
     "DERM-3R: A Resource-Efficient Multimodal Agents Framework for Dermatologic Diagnosis",
     "LLM Inference at the Edge: Mobile, NPU, and GPU Performance Efficiency Trade-off",
     "A new way to express yourself: Gemini can now create music",
-    "A1gent: \u9762\u5411 Open RAN \u7684\u53ef\u5ba1\u8ba1 Agent \u63a7\u5236\u6846\u67b6",
+    "A1gent: 面向 Open RAN 的可审计 Agent 控制框架",
     "Theory of Mind in Action: The Instruction Inference Task in Dynamic Human-Agent Collaboration",
     "DharmaOCR: Specialized Small Language Models for Structured OCR",
     "Google ships its most expressive Gemini 3.1 text-to-speech model yet with 70+ language support",
@@ -267,12 +267,12 @@
     "On-Device AI Models Might Be the Next Reason to Upgrade Your iPhone",
     "Imperfectly Cooperative Human-AI Interactions: Comparing the Impacts of Human and AI Attributes in Simulated and User Studies",
     "Gemini Robotics On-Device brings AI to local robotic devices",
-    "NavixMind \u2013 open-source Android agent that runs Python locally",
+    "NavixMind – open-source Android agent that runs Python locally",
     "CAMO: An Agentic Framework for Automated Causal Discovery from Micro Behaviors to Macro Emergence in LLM Agent Simulations",
     "Google AI Edge Gallery",
     "Numerical Instability and Chaos: Quantifying the Unpredictability of Large Language Models",
     "Multimodal Embedding & Reranker Models with Sentence Transformers",
-    "MobileLLM-Pro: Meta 1B \u7aef\u4fa7 SOTA \u6a21\u578b",
+    "MobileLLM-Pro: Meta 1B 端侧 SOTA 模型",
     "Wearable AI in the Era of Large Sensor Models",
     "Scaling LLM Test-Time Compute with Mobile NPU on Smartphones",
     "TurboQuant Gemma 4 Browser Inference",
@@ -300,7 +300,7 @@
     "K-Token Merging: Compressing Sequences in the Latent Embedding Space",
     "EdgeFlow: Fast Cold Starts for LLMs on Mobile Devices",
     "Toward Zero-Egress Psychiatric AI: On-Device LLM Deployment for Privacy-Preserving Mental Health Decision Support",
-    "WISV: \u65e0\u7ebf\u611f\u77e5\u8bed\u4e49\u9a8c\u8bc1\u7684\u8bbe\u5907-\u8fb9\u7f18\u63a8\u6d4b\u89e3\u7801",
+    "WISV: 无线感知语义验证的设备-边缘推测解码",
     "Aide: A Customizable Android Assistant",
     "PSPA-Bench: A Personalized Benchmark for Smartphone GUI Agent",
     "Subliminal Transfer of Unsafe Behaviors in AI Agent Distillation",
@@ -338,7 +338,7 @@
     "Bringing the power of Personal Intelligence to more people",
     "Apple introduces iPhone 17e",
     "WebXSkill: Skill Learning for Autonomous Web Agents",
-    "PropGen: LLM \u9a71\u52a8\u7684\u79fb\u52a8\u7aef\u5e94\u7528\u5c5e\u6027\u751f\u6210\u4e0e\u6d4b\u8bd5",
+    "PropGen: LLM 驱动的移动端应用属性生成与测试",
     "Fast-dVLM: Efficient Block-Diffusion VLM via Direct Conversion from Autoregressive VLM",
     "Don't Waste Bits! Adaptive KV-Cache Quantization for Lightweight On-Device LLMs",
     "New ways to balance cost and reliability in the Gemini API",
@@ -349,7 +349,7 @@
     "Announcing Gemma 4 in the AICore Developer Preview",
     "DeFakeQ: Enabling Real-Time Deepfake Detection on Edge Devices via Adaptive Bidirectional Quantization",
     "This Beanie Is Designed to Read Your Thoughts",
-    "Show HN: Glimpse \u2013 A native macOS Markdown viewer with on-device AI",
+    "Show HN: Glimpse – A native macOS Markdown viewer with on-device AI",
     "SpecGuard: Verification-Aware Speculative Decoding for Efficient Multi-Step Reasoning",
     "Qwen 3.5 Small 35B-A3B",
     "Semantic Consensus: Process-Aware Conflict Detection and Resolution for Enterprise Multi-Agent LLM Systems",
@@ -364,12 +364,12 @@
     "Elevating AI-assisted Android development and improving LLMs with Android Bench",
     "Agentic Open RAN: A Deterministic and Auditable Framework for Intent-Driven Radio Control",
     "llama.cpp b8816",
-    "Google A2UI 0.9 \u2014 AI Agent \u751f\u6210\u5f0f UI \u6807\u51c6",
-    "NanoWakeWord \u2013 Open-source wake word training for any device",
+    "Google A2UI 0.9 — AI Agent 生成式 UI 标准",
+    "NanoWakeWord – Open-source wake word training for any device",
     "CORA: Conformal Risk-Controlled Agents for Safeguarded Mobile GUI Automation",
     "Inside VAKRA: Reasoning, Tool Use, and Failure Modes of Agents",
     "DASH-Q: Robust Ultra Low-Bit PTQ",
-    "iPhone 17e \u2014 Apple \u65b0\u4e00\u4ee3\u5165\u95e8\u65d7\u8230",
+    "iPhone 17e — Apple 新一代入门旗舰",
     "LEAN-3D: Low-latency Hierarchical Point Cloud Codec for Mobile 3D Streaming",
     "SOLAR: Communication-Efficient Model Adaptation via Subspace-Oriented Latent Adapter Reparametrization",
     "SensorPersona: An LLM-Empowered System for Continual Persona Extraction from Longitudinal Mobile Sensor Streams",
@@ -407,7 +407,7 @@
     "Apple researchers develop on-device AI agent that interacts with apps for you",
     "NVIDIA/TensorRT-LLM: v1.2.1",
     "Efficient Reasoning on the Edge",
-    "LLM-MARL P2P \u80fd\u6e90\u4ea4\u6613",
+    "LLM-MARL P2P 能源交易",
     "EdgeDiT: Hardware-Aware Diffusion Transformers for Efficient On-Device Image Generation",
     "Introducing AnyLanguageModel: One API for Local and Remote LLMs on Apple Platforms",
     "llama.cpp b8829",
@@ -434,7 +434,7 @@
     "MobileLLM-Pro Technical Report",
     "Spike-driven Large Language Model",
     "LCSB: Layer-Cyclic Selective Backpropagation for Memory-Efficient On-Device LLM Fine-Tuning",
-    "ANVIL NPU \u89c6\u9891\u63d2\u5e27",
+    "ANVIL NPU 视频插帧",
     "Exploration and Exploitation Errors Are Measurable for Language Model Agents",
     "Enterprises power agentic workflows in Cloudflare Agent Cloud with OpenAI",
     "Semantics Over Syntax: Uncovering Pre-Authentication 5G Baseband Vulnerabilities",
@@ -451,7 +451,9 @@
     "llama.cpp b8876",
     "ggml-org/llama.cpp: b8878",
     "llama.cpp b8878",
-    "Unlocking the Edge deployment and ondevice acceleration of multi-LoRA enabled one-for-all foundational LLM"
+    "Unlocking the Edge deployment and ondevice acceleration of multi-LoRA enabled one-for-all foundational LLM",
+    "MemFactory: Unified Inference & Training Framework for Agent Memory",
+    "ggml-org/llama.cpp: b8880"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -544,13 +546,13 @@
       "created": "2026-04-18"
     },
     {
-      "title": "SpecGuard: \u9a8c\u8bc1\u611f\u77e5\u7684\u6295\u673a\u89e3\u7801\u6846\u67b6",
+      "title": "SpecGuard: 验证感知的投机解码框架",
       "slug": "specguard-speculative-decoding",
       "created": "2026-04-19",
       "type": "concept"
     },
     {
-      "title": "K-Token Merging: \u6f5c\u5728\u7a7a\u95f4 Token \u538b\u7f29",
+      "title": "K-Token Merging: 潜在空间 Token 压缩",
       "slug": "k-token-merging-latent-compression",
       "created": "2026-04-19",
       "type": "concept"
@@ -562,31 +564,31 @@
       "created": "2026-04-19"
     },
     {
-      "title": "MoPHES: \u7aef\u4fa7 LLM \u9a71\u52a8\u7684\u79fb\u52a8\u5fc3\u7406\u5065\u5eb7\u8bc4\u4f30\u4e0e\u652f\u6301",
+      "title": "MoPHES: 端侧 LLM 驱动的移动心理健康评估与支持",
       "slug": "mophes-ondevice-mental-health",
       "created": "2026-04-19",
       "type": "concept"
     },
     {
-      "title": "INT4 \u91cf\u5316\u5d29\u6e83\uff1aFP32 \u6536\u655b\u540e\u7684\u91cf\u5316\u5931\u6548\u673a\u5236",
+      "title": "INT4 量化崩溃：FP32 收敛后的量化失效机制",
       "slug": "int4-quantization-collapse",
       "created": "2026-04-19",
       "type": "concept"
     },
     {
-      "title": "Driftwood: Apple Silicon \u96f6\u62f7\u8d1d GPU \u63a8\u7406",
+      "title": "Driftwood: Apple Silicon 零拷贝 GPU 推理",
       "slug": "driftwood-zero-copy-apple-silicon",
       "created": "2026-04-19",
       "type": "concept"
     },
     {
-      "title": "SNN \u91cf\u5316\uff1a\u8d85\u8d8a\u51c6\u786e\u7387\u7684\u8bc4\u4f30",
+      "title": "SNN 量化：超越准确率的评估",
       "slug": "snn-quantization-beyond-accuracy",
       "created": "2026-04-19",
       "type": "concept"
     },
     {
-      "title": "DASH-Q\uff1a\u57fa\u4e8e\u7a33\u5b9a\u5bf9\u89d2\u66f2\u7387\u4f30\u8ba1\u7684\u9c81\u68d2\u8d85\u4f4e\u4f4d\u540e\u8bad\u7ec3\u91cf\u5316",
+      "title": "DASH-Q：基于稳定对角曲率估计的鲁棒超低位后训练量化",
       "slug": "dash-q-ultralowbit-llm-quantization",
       "created": "2026-04-19",
       "type": "concept"
@@ -604,25 +606,25 @@
       "type": "concept"
     },
     {
-      "title": "TinyMU: \u7d27\u51d1\u578b\u97f3\u4e50\u8bed\u8a00\u6a21\u578b",
+      "title": "TinyMU: 紧凑型音乐语言模型",
       "slug": "tinymu-music-language-model",
       "created": "2026-04-20",
       "type": "concept"
     },
     {
-      "title": "LoudReader \u7aef\u4fa7 TTS \u9605\u8bfb\u5e94\u7528",
+      "title": "LoudReader 端侧 TTS 阅读应用",
       "slug": "loudreader-ondevice-tts",
       "created": "2026-04-20",
       "type": "entity"
     },
     {
-      "title": "PolicyGapper \u5e94\u7528\u9690\u79c1\u5408\u89c4\u9a8c\u8bc1",
+      "title": "PolicyGapper 应用隐私合规验证",
       "slug": "policygapper-app-privacy-verification",
       "created": "2026-04-20",
       "type": "concept"
     },
     {
-      "title": "Off Grid \u2014 \u7aef\u4fa7\u5168\u529f\u80fd AI \u5957\u4ef6",
+      "title": "Off Grid — 端侧全功能 AI 套件",
       "slug": "off-grid-mobile-ai",
       "created": "2026-04-20",
       "type": "entity"
@@ -630,14 +632,14 @@
     {
       "slug": "hallucination-trajectory-commitment",
       "type": "concept",
-      "title": "\u5e7b\u89c9\u5373\u8f68\u8ff9\u627f\u8bfa\uff1aTransformer \u751f\u6210\u4e2d\u7684\u975e\u5bf9\u79f0\u5438\u5f15\u5b50\u52a8\u529b\u5b66",
+      "title": "幻觉即轨迹承诺：Transformer 生成中的非对称吸引子动力学",
       "created": "2026-04-20",
       "source": "arXiv:2604.15400"
     },
     {
       "slug": "prototta-test-time-adaptation",
       "type": "concept",
-      "title": "ProtoTTA\uff1a\u539f\u578b\u5f15\u5bfc\u7684\u6d4b\u8bd5\u65f6\u81ea\u9002\u5e94",
+      "title": "ProtoTTA：原型引导的测试时自适应",
       "created": "2026-04-20",
       "source": "arXiv:2604.15494"
     }
@@ -681,5 +683,10 @@
       "published": "2026-04-20",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b8860"
     }
-  }
+  },
+  "recently_processed_topics": [
+    "memory-rl",
+    "agent-memory-framework",
+    "llama.cpp-webgpu"
+  ]
 }

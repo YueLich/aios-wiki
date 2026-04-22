@@ -411,6 +411,7 @@ nav:
     - "NTIRE 2026 移动端真实世界图像超分辨率挑战赛": concepts/ntire-2026-mobile-super-resolution.md
 
       - "SAGE: 传感器增强LLM睡眠护理Agent": concepts/sage-sleep-care-agent.md
+      - MemFactory 记忆RL框架: concepts/memfactory-unified-memory-rl.md
     # ── 安全与隐私（跨领域）──
     - 🛡️ 安全与隐私:
       - "Follow My Eyes: VLM 后门攻击": concepts/followmyeyes-vlm-backdoor.md
