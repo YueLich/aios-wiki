@@ -1517,3 +1517,23 @@ OOM 后无法正确回收内存会导致设备变砖或需要重启推理进程�
 - Android arm64 构建持续提供，保障移动端部署连续性
 
 来源：[GitHub Release](https://github.com/ggml-org/llama.cpp/releases/tag/b8880)
+
+
+### Build b8881 (2026-04-22)
+
+**发布日期**: 2026-04-22
+
+**关键更新**:
+- **Hexagon DSP FILL 操作支持** (#22198): 为 Qualcomm Hexagon DSP 添加 FILL 操作支持，由 Max Krasnyansky (Qualcomm) 贡献。这进一步增强了 llama.cpp 在 Qualcomm 移动芯片上的硬件加速能力，对端侧推理性能有直接影响。
+
+**多平台构建**:
+- macOS arm64/x64 (含 KleidiAI 版本)
+- iOS XCFramework
+- Linux x64/arm64/s390x (Vulkan, ROCm 7.2, OpenVINO)
+- Android arm64
+- Windows x64/arm64 (CUDA 12/13, Vulkan, SYCL, HIP)
+- openEuler (310p, 910b)
+
+**对手机端 AIOS 的意义**: Hexagon DSP 是 Qualcomm Snapdragon 芯片的核心组件之一。FILL 操作的支持意味着 llama.cpp 在 Hexagon 上的算子覆盖度进一步提升，减少了需要 fallback 到 CPU 的操作数量，直接改善端侧 LLM 推理的延迟和功耗。
+
+**来源**: [GitHub Release](https://github.com/ggml-org/llama.cpp/releases/tag/b8881)

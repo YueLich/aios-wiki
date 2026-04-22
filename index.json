@@ -453,7 +453,9 @@
     "llama.cpp b8878",
     "Unlocking the Edge deployment and ondevice acceleration of multi-LoRA enabled one-for-all foundational LLM",
     "MemFactory: Unified Inference & Training Framework for Agent Memory",
-    "ggml-org/llama.cpp: b8880"
+    "ggml-org/llama.cpp: b8880",
+    "ggml-org/llama.cpp: b8881",
+    "llama.cpp b8881"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -517,7 +519,7 @@
     "off-grid-mobile-ai"
   ],
   "last_update": "2026-04-20",
-  "last_updated": "2026-04-22",
+  "last_updated": "2026-04-22T06:00:00",
   "total_pages": 18,
   "page_count": 13,
   "pages": [

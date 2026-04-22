@@ -1563,3 +1563,11 @@ format: reverse-chronological
 - 发现 1 个新内容：llama.cpp b8878（Hexagon DAIG 操作支持）
 - 追加到合并页 entities/llamacpp.md
 - 更新 index.json（451 标题）
+
+## 2026-04-22 06:00 — 增量更新
+
+**新增**: 0 个新页面
+**更新**: llama.cpp 合并页追加 b8881 (Hexagon DSP FILL op support)
+**来源**: arXiv RSS/API (100 items), GitHub releases, RSS feeds, HN
+**去重**: 188 raw → 105 stage-1 → 47 stage-2 → 6 "new" → 1 actionable (llama.cpp b8881 merge)
+**备注**: 大部分 arXiv 论文已在之前 run 中收录。llama.cpp b8881 包含 Qualcomm Hexagon DSP 增强。
