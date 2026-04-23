@@ -613,7 +613,7 @@ b8838 继续提供全平台预编译二进制：
 
 ## 版本关系
 
-- 前序版本: [b8836](llamacpp-b8836.md), [b8833](llamacpp-b8833.md)
+- 前序版本: b8836, b8833
 - 后续版本: b8838, b8839
 - 项目主页: [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp)
 

@@ -25,8 +25,6 @@ updated: 2026-04-18
 - [端侧流式 ASR](ondevice-streaming-asr.md) — Microsoft 流式语音识别
 - [NanoWakeWord](nanowakeword.md) — 唤醒词训练框架
 
-**llama.cpp 版本追踪**: [b8791](llamacpp-b8791.md) · [b8793](llamacpp-b8793.md) · [b8795](llamacpp-b8795.md) · [b8797](llamacpp-b8797.md) · [b8827](llamacpp-b8827.md) · [b8829](llamacpp-b8829.md) · [b8831](llamacpp-b8831.md) · [b8833](llamacpp-b8833.md) · [b8836](llamacpp-b8836.md)
-
 ### 端侧模型
 
 可部署在手机/边缘设备上的 LLM 与多模态模型：
