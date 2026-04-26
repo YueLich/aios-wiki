@@ -210,6 +210,16 @@ nav:
       - Experience Compression Spectrum: concepts/experience-compression-spectrum.md
       - WorldDB 向量图世界记忆: concepts/worlddb-memory-engine.md
       - BrainMem 大脑启发进化记忆: concepts/brainmem-evolving-memory.md
+      - FSFM 选择性遗忘: concepts/agent-memory/memory-representation/fsfm-a-biologically-inspired-2604.20300.md
+      - To Know is to Construct Schema记忆: concepts/agent-memory/memory-representation/to-know-is-to-2604.20117.md
+      - GS-Quant 知识图谱量化: concepts/agent-memory/memory-representation/gs-quant-granular-semantic-2604.21649.md
+      - Temporal Taskification 持续学习: concepts/agent-memory/continual-learning/temporal-taskification-in-streaming-2604.21930.md
+      - Fine-Tuning Regimes 持续学习分类: concepts/agent-memory/continual-learning/fine-tuning-regimes-define-2604.21927.md
+      - ImageHD 端侧持续学习: concepts/agent-memory/continual-learning/imagehd-energy-efficient-on-2604.21280.md
+      - Lifecycle-Aware 联邦持续学习: concepts/agent-memory/continual-learning/lifecycle-aware-federated-continual-2604.20745.md
+      - SkillLearnBench Agent技能学习: concepts/agent-memory/continual-learning/skilllearnbench-benchmarking-continual-learning-2604.20087.md
+      - Revisiting Catastrophic Forgetting KG: concepts/agent-memory/continual-learning/revisiting-catastrophic-forgetting-in-2604.19401.md
+      - GR4CIL CLIP增量学习: concepts/agent-memory/continual-learning/gr-cil-gap-compensated-2604.17822.md
 
     - 工具调用与执行:
       - 端侧 vs 云端 Agentic 工具调用: concepts/on-device-vs-cloud-agentic-tool-calling.md
