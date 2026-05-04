@@ -225,6 +225,7 @@ nav:
       - Temporal Taskification 持续学习: concepts/agent-memory/continual-learning/temporal-taskification-in-streaming-2604.21930.md
       - Fine-Tuning Regimes 持续学习分类: concepts/agent-memory/continual-learning/fine-tuning-regimes-define-2604.21927.md
       - FADE 自适应遗忘持续学习: concepts/agent-memory/memory-compression/fade-adaptive-weight-decay-2604.27063.md
+      - Hidden Failure Modes Adam CL: concepts/agent-memory/memory-compression/hidden-failure-modes-adam-continual-2604.22407.md
       - When CL Moves to Memory 经验复用: concepts/agent-memory/continual-learning/when-cl-moves-to-memory-2604.27003.md
       - ImageHD 端侧持续学习: concepts/agent-memory/continual-learning/imagehd-energy-efficient-on-2604.21280.md
       - Lifecycle-Aware 联邦持续学习: concepts/agent-memory/continual-learning/lifecycle-aware-federated-continual-2604.20745.md
@@ -249,11 +250,14 @@ nav:
       - CMT 持续知识学习记忆压缩: concepts/agent-memory/memory-compression/cmt-continual-knowledge-learning-2412.07393.md
       - H2-EMV 机器人遗忘学习: concepts/agent-memory/memory-compression/h2-emv-hierarchical-episodic-robot-2604.11306.md
       - Human-Inspired 多模态记忆社会机器人: concepts/agent-memory/multimodal-memory/human-inspired-multimodal-memory-social-robots-2604.12081.md
+      - CMMR-VLN 多模态记忆导航: concepts/agent-memory/multimodal-memory/cmmr-vln-multimodal-memory-2603.07997.md
+      - MEM 多尺度具身记忆: concepts/agent-memory/multimodal-memory/mem-multi-scale-embodied-memory-2603.03596.md
       - IMPACT-CYCLE 长视频监督记忆: concepts/agent-memory/multimodal-memory/impact-cycle-long-video-memory-2604.20136.md
       - PVM 持续视觉记忆 LVLM: concepts/agent-memory/multimodal-memory/persistent-visual-memory-2605.00814.md
       - Goal-Directed Search vs Memory Compression: concepts/agent-memory/memory-compression/goal-directed-search-vs-memory-compression-2511.21726.md
       - MELODI 层级记忆压缩: concepts/agent-memory/memory-compression/melodi-hierarchical-memory-compression-2410.03156.md
       - System1-System2 语义记忆偏见: concepts/agent-memory/memory-privacy/system1-system2-semantic-memory-bias-2604.12816.md
+      - Visual Inception 记忆投毒攻击: concepts/agent-memory/memory-privacy/visual-inception-memory-poisoning-2604.16966.md
       - MemCoE 记忆指南归纳演化: concepts/agent-memory/memory-compression/memcoe-evolving-memory-2605.00702.md
 
     - 工具调用与执行:
