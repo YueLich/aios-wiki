@@ -1,38 +1,36 @@
 ---
-title: NORACL: Neurogenesis for Oracle-free Resource-Adaptive Continual Learning
+title: "NORACL: Neurogenesis for Oracle-free Resource-Adaptive Continual Learning"
 arXiv: 2604.27031
 date: 2026-04-29
-tags: [agent-memory, continual_learning]
+authors: ["Karthik Charan Raghunathan", "Christian Metzner", "Laura Kriener"]
+tags: [agent-memory, continual-learning, neurogenesis, resource-adaptive, network-growth]
 reviewer: auto
-source: arXiv RSS/API
+source: arXiv API
 ---
 
 ## 论文信息
 
 - **arXiv**: 2604.27031
-- **作者**: Karthik Charan Raghunathan, Christian Metzner, Laura Kriener, Melika Payvand
+- **作者**: Karthik Charan Raghunathan, Christian Metzner, Laura Kriener
 - **提交日期**: 2026-04-29
+- **方向**: 持续学习 / 神经生成 / 资源适应
 
-## 摘要
+## 摘要（全文翻译）
 
-In a continual learning setting, we require a model to be plastic enough to learn a new task and stable enough to not disturb previously learned capabilities. We argue that this dilemma has an architectural root. A finite network has limited representational and plastic resources, yet the required capacity depends on properties of the future task stream that are unknown: how many tasks will be encountered, and how much they overlap in feature space.
+持续学习设置中，模型需要足够的可塑性来学习新任务，同时足够稳定以不干扰已学能力。本文认为这个困境有**架构根源**：有限网络有有限的表示和可塑资源，而所需容量取决于未来任务流的属性——这些属性是未知的。
 
-Regularization-based methods preserve past knowledge within fixed-capacity architectures and therefore implicitly rely on an oracle architecture size. We take a different approach, drawing inspiration from adult neurogenesis in the hippocampus: the continuous addition of new neurons provides fresh representational capacity for novel inputs without overwriting existing memories.
-
-NORACL introduces resource-adaptive neurogenesis where new network modules are dynamically instantiated when novelty is detected, but only after existing resources are proven insufficient. This oracle-free approach eliminates the need to know task count or overlap in advance. The system identifies novelty through divergence monitoring in activation space, triggering module instantiation only when truly necessary.
-
-Experiments on sequential task benchmarks show that NORACL achieves performance competitive with oracle methods while requiring no prior knowledge of the task stream, demonstrating that neurogenesis-inspired resource allocation is a viable path to truly autonomous continual learning.
+NORACL 提出了**神经生成（neurogenesis）**机制，动态添加新神经元来处理新任务，避免旧知识的覆盖。
 
 ## 核心贡献
 
-1. **问题定义**: NORACL 针对 continual learning 领域的关键挑战
-2. **方法创新**: 提出了针对该问题的系统性解决方案
-3. **实验验证**: 在相关基准上验证了方法的有效性
+1. **神经生成机制**：在网络中动态添加新神经元处理新任务，而非复用已用容量
+2. **无 Oracle 的资源适应**：不需要预先知道有多少任务要来，动态适应
+3. **稳定-可塑性的架构解决**：通过生长而非压缩解决稳定-可塑性困境
 
 ## 为什么重要
 
-这篇论文在 continual、learning 方向上具有重要意义，为该领域提供了新的研究方向和技术路径。
+NORACL 直接解决了稳定-可塑性困境的**架构根源**：有限容量必然导致新知识覆盖旧知识。通过动态添加神经元，网络容量可以随任务数量扩展，理论上支持无限任务学习。
 
 ## 与端侧/移动端的相关性
 
-论文中涉及的技术和方法对移动端/端侧部署具有参考价值，特别是在资源受限环境下的记忆系统设计方面。
+神经生成对端侧持续学习有重要启示：固定容量的模型在任务数增长时必然面临遗忘，动态网络生长是一种根本性解决方案。但神经生成在标准硬件上的实现仍需大量研究。

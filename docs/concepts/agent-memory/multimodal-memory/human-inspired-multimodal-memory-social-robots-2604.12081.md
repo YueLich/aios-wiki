@@ -1,10 +1,11 @@
 ---
-title: Human-Inspired Context-Selective Multimodal Memory for Social Robots
+title: "Human-Inspired Context-Selective Multimodal Memory for Social Robots"
 arXiv: 2604.12081
 date: 2026-04-13
-tags: [agent-memory, multimodal_memory]
+authors: ["Hangyeol Kang", "Slava Voloshynovskiy", "Nadia Magnenat Thalmann"]
+tags: [agent-memory, multimodal-memory, social-robots, context-selective, emotional-salience]
 reviewer: auto
-source: arXiv RSS/API
+source: arXiv API
 ---
 
 ## 论文信息
@@ -12,27 +13,25 @@ source: arXiv RSS/API
 - **arXiv**: 2604.12081
 - **作者**: Hangyeol Kang, Slava Voloshynovskiy, Nadia Magnenat Thalmann
 - **提交日期**: 2026-04-13
+- **方向**: 多模态记忆 / 社会机器人 / 情感记忆
 
-## 摘要
+## 摘要（全文翻译）
 
-Memory is fundamental to social interaction, enabling humans to recall meaningful past experiences and adapt their behavior accordingly based on the context. However, most current social robots and embodied agents rely on non-selective, text-based memory, limiting their ability to support personalized, context-aware interactions.
+记忆对社会互动至关重要，使人类能够回忆有意义的历史经历并根据上下文调整行为。然而，大多数当前社会机器人和具身 Agent 依赖**非选择性的、基于文本的记忆**，限制了它们支持个性化、上下文感知交互的能力。
 
-Drawing inspiration from cognitive neuroscience, we propose a context-selective, multimodal memory architecture for social robots that captures and retrieves both textual and visual episodic traces, prioritizing moments characterized by high emotional salience or scene distinctiveness.
-
-The architecture mimics the human medial temporal lobe memory system: a fast-binding hippocampus-like module that rapidly encodes novel multimodal episodes, and a slow-consolidating neocortical module that extracts generalizable patterns over time. Context cues act as retrieval keys that selectively activate relevant episodic traces.
-
-We implement this on a social robot platform and evaluate in human-robot interaction scenarios. The context-selective mechanism enables the robot to recall past interactions relevant to the current context while suppressing irrelevant memories, improving perceived personalization and interaction quality. Notably, the system gracefully handles the efficiency-accuracy tradeoff through adaptive allocation of memory resources based on contextual relevance.
+本文从认知神经科学中获得灵感，提出一种用于社会机器人的**上下文选择性多模态记忆架构**，捕获并检索文本和视觉的情景痕迹，优先处理以**高情感显著性**或**场景新颖性**为特征的时刻。通过将这些记忆与个体用户关联，系统支持社会化的个性化回忆和更自然、接地气的对话。
 
 ## 核心贡献
 
-1. **问题定义**: Human-Inspired Context-Selective Multimodal Memory for Social Robots 针对 multimodal memory 领域的关键挑战
-2. **方法创新**: 提出了针对该问题的系统性解决方案
-3. **实验验证**: 在相关基准上验证了方法的有效性
+1. **认知神经科学启发的选择性存储**：不是记录所有交互，而是优先存储高情感显著性或高场景新颖性的时刻
+2. **多模态情景记忆**：同时捕获文本对话和视觉场景的联合情景
+3. **用户关联记忆**：将记忆与特定用户绑定，支持个性化回忆
+4. **情感显著性作为记忆优先级信号**：借鉴人类记忆系统中情感价值对记忆巩固的影响
 
 ## 为什么重要
 
-这篇论文在 multimodal、memory 方向上具有重要意义，为该领域提供了新的研究方向和技术路径。
+这篇论文将人类记忆的选择性机制引入机器人记忆系统。核心洞察：**不是所有交互都值得记住**。人类记忆系统通过情感显著性和场景新颖性来优先存储，而大多数现有 Agent 系统平等对待所有交互，导致记忆效率低下。
 
 ## 与端侧/移动端的相关性
 
-论文中涉及的技术和方法对移动端/端侧部署具有参考价值，特别是在资源受限环境下的记忆系统设计方面。
+**高度相关**。移动端/可穿戴设备特别适合实现这类记忆系统：设备可以感知用户的情感状态（通过语音分析、面部表情）和环境新颖性（通过传感器），据此决定是否将当前交互提升为值得长期保留的记忆。这对个性化健康助理、社交伴侣等应用有直接价值。

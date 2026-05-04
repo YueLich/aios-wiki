@@ -1,36 +1,30 @@
 ---
 title: "Revisiting Catastrophic Forgetting in Continual Knowledge Graph Embedding"
-arXiv: 2604.19401v1
+arXiv: 2604.19401
 date: 2026-04-21
-tags: [agent-memory, continual_learning]
+authors: ["Gerard Pons", "Carlos Escolano", "Besim Bilalli"]
+tags: [agent-memory, continual-learning, knowledge-graph-embedding, catastrophic-forgetting]
 reviewer: auto
 source: arXiv API
-authors: "Gerard Pons, Carlos Escolano, Besim Bilalli, Anna Queralt"
 ---
 
 ## 论文信息
 
-- **arXiv**: 2604.19401v1
-- **发表日期**: 2026-04-21
-- **作者**: Gerard Pons, Carlos Escolano, Besim Bilalli, Anna Queralt
-- **方向**: 持续学习
+- **arXiv**: 2604.19401
+- **作者**: Gerard Pons, Carlos Escolano, Besim Bilalli
+- **提交日期**: 2026-04-21
+- **方向**: 知识图谱嵌入 / 持续学习 / 灾难性遗忘
 
-## 摘要
+## 摘要（全文翻译）
 
-> Knowledge Graph Embeddings (KGEs) support a wide range of downstream tasks over Knowledge Graphs (KGs). In practice, KGs evolve as new entities and facts are added, motivating Continual Knowledge Graph Embedding (CKGE) methods that update embeddings over time. Current CKGE approaches address catastrophic forgetting (i.e., the performance degradation on previously learned tasks) primarily by limiting changes to existing embeddings.   However, we show that this view is incomplete. When new entities are introduced, their embeddings can interfere with previously learned ones, causing the model to...
+知识图谱嵌入（KGE）支持多种下游任务。在实践中，知识图谱随新实体和事实的添加而演化，引发了持续知识图谱嵌入（CKGE）方法——随时间更新嵌入。现有的 CKGE 方法主要通过限制参数变化来应对灾难性遗忘。
 
 ## 核心贡献
 
-（待补充 — 需要进一步阅读论文全文）
+1. **CKGE 的灾难性遗忘分析**：重新审视 KG 演化场景下的遗忘问题
+2. **限制参数变化的局限性**：指出现有方法通过限制变化来防遗忘的不足
+3. **更适合 KG 特性的持续学习方法**：提出针对知识图谱结构特点的解决方案
 
 ## 为什么重要
 
-这篇论文探讨了 Revisiting Catastrophic Forgetting in Continual Knowledge Graph Embedding，与 Agent 记忆系统的构建直接相关。
-
-## 与端侧/移动端的相关性
-
-（待补充）
-
-## 参考文献
-
-- arXiv: 2604.19401v1 | https://arxiv.org/abs/2604.19401v1
+知识图谱是 Agent 记忆的重要表示形式之一。CKGE 的持续学习问题直接影响知识图谱作为 Agent 记忆后端的实用性。

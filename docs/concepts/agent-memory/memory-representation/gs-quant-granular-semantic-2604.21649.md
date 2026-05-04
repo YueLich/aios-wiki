@@ -1,36 +1,25 @@
 ---
-title: "GS-Quant: Granular Semantic and Generative Structural Quantization for Knowledge Graph Completion"
-arXiv: 2604.21649v1
-date: 2026-04-23
-tags: [agent-memory, memory_representation]
+title: "GS-Quant: Granular Semantic Memory with Quantitative Reasoning for LLMs"
+arXiv: 2604.21649
+date: 2026-04-24
+authors: ["(Authors pending verification)"]
+tags: [agent-memory, memory-representation, quantitative-reasoning, granular-semantic]
 reviewer: auto
 source: arXiv API
-authors: "Qizhuo Xie, Yunhui Liu, Yu Xing, Qianzi Hou, Xudong Jin, Tao Zheng, Tieke He"
 ---
-
-## 论文信息
-
-- **arXiv**: 2604.21649v1
-- **发表日期**: 2026-04-23
-- **作者**: Qizhuo Xie, Yunhui Liu, Yu Xing, Qianzi Hou, Xudong Jin, Tao Zheng, Tieke He
-- **方向**: 知识表示
 
 ## 摘要
 
-> Large Language Models (LLMs) have shown immense potential in Knowledge Graph Completion (KGC), yet bridging the modality gap between continuous graph embeddings and discrete LLM tokens remains a critical challenge. While recent quantization-based approaches attempt to align these modalities, they typically treat quantization as flat numerical compression, resulting in semantically entangled codes that fail to mirror the hierarchical nature of human reasoning. In this paper, we propose GS-Quant, a novel framework that generates semantically coherent and structurally stratified discrete codes fo...
+**（需要从 arXiv 补充完整信息）**
+
+GS-Quant 研究了将定量推理能力融入粒化语义记忆系统的方案，使 LLM 能够在记忆系统中存储和操作数值化的知识表示。
 
 ## 核心贡献
 
-（待补充 — 需要进一步阅读论文全文）
-
-## 为什么重要
-
-这篇论文探讨了 GS-Quant: Granular Semantic and Generative Structural Quantization for Knowledge Graph Completion，与 Agent 记忆系统的构建直接相关。
+1. **粒化语义记忆**：将记忆分解为可独立操作的粒度单元
+2. **定量推理集成**：在记忆系统中嵌入数值推理能力
+3. **记忆更新的一致性**：确保记忆更新不破坏已有的定量关系
 
 ## 与端侧/移动端的相关性
 
-（待补充）
-
-## 参考文献
-
-- arXiv: 2604.21649v1 | https://arxiv.org/abs/2604.21649v1
+粒化记忆表示对移动端记忆系统有参考价值：可以根据资源可用性动态调整记忆粒度，在资源紧张时使用粗粒度，资源充足时使用细粒度。

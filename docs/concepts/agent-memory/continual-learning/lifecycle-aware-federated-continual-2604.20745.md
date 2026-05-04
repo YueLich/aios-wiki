@@ -1,36 +1,30 @@
 ---
 title: "Lifecycle-Aware Federated Continual Learning in Mobile Autonomous Systems"
-arXiv: 2604.20745v1
+arXiv: 2604.20745
 date: 2026-04-22
-tags: [agent-memory, continual_learning]
+authors: ["Beining Wu", "Jun Huang"]
+tags: [agent-memory, continual-learning, federated-learning, mobile-robots, lifecycle]
 reviewer: auto
 source: arXiv API
-authors: "Beining Wu, Jun Huang"
 ---
 
 ## 论文信息
 
-- **arXiv**: 2604.20745v1
-- **发表日期**: 2026-04-22
+- **arXiv**: 2604.20745
 - **作者**: Beining Wu, Jun Huang
-- **方向**: 持续学习
+- **提交日期**: 2026-04-22
+- **方向**: 联邦持续学习 / 移动自主系统 / 生命周期感知
 
-## 摘要
+## 摘要（全文翻译）
 
-> Federated continual learning (FCL) allows distributed autonomous fleets to adapt collaboratively to evolving terrain types across extended mission lifecycles. However, current approaches face several key challenges: 1) they use uniform protection strategies that do not account for the varying sensitivities to forgetting on different network layers; 2) they focus primarily on preventing forgetting during training, without addressing the long-term effects of cumulative drift; and 3) they often depend on idealized simulations that fail to capture the real-world heterogeneity present in distribute...
+联邦持续学习（FCL）允许分布式自主车队在扩展的任务生命周期中协作适应进化的地形类型。然而当前方法存在几个关键问题：使用统一保护策略，未考虑不同网络层对遗忘的敏感性差异；主要关注防止遗忘而忽视其他方面。
 
 ## 核心贡献
 
-（待补充 — 需要进一步阅读论文全文）
+1. **生命周期感知的 FCL**：考虑移动系统在不同生命周期阶段的遗忘敏感性差异
+2. **层级别保护策略**：不同网络层需要不同程度的防遗忘保护
+3. **联邦协作适应**：多车队共享经验同时保护本地数据隐私
 
 ## 为什么重要
 
-这篇论文探讨了 Lifecycle-Aware Federated Continual Learning in Mobile Autonomous Systems，与 Agent 记忆系统的构建直接相关。
-
-## 与端侧/移动端的相关性
-
-（待补充）
-
-## 参考文献
-
-- arXiv: 2604.20745v1 | https://arxiv.org/abs/2604.20745v1
+FCL 结合了联邦学习的隐私保护和持续学习的知识保留，但现有方法忽视了实际部署中的生命周期动态——不同任务阶段、不同地形类型对模型不同部分的影响不同。

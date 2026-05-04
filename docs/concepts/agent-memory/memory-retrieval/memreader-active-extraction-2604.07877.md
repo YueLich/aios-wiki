@@ -2,43 +2,36 @@
 title: "MemReader: From Passive to Active Extraction for Long-Term Agent Memory"
 arXiv: 2604.07877
 date: 2026-04-09
-tags: [agent-memory, memory-retrieval, memory-writing, active-learning]
+authors: ["Jingyi Kang et al."]
+tags: [agent-memory, memory-retrieval, active-extraction, memory-writing, GRPO]
 reviewer: auto
 source: arXiv API
-authors: "Jingyi Kang, Chunyu Li, Ding Chen, Bo Tang, Feiyu Xiong, Zhiyu Li"
 ---
 
 ## 论文信息
 
 - **arXiv**: 2604.07877
-- **发表日期**: 2026-04-09
-- **作者**: Jingyi Kang, Chunyu Li, Ding Chen, Bo Tang, Feiyu Xiong, Zhiyu Li
-- **方向**: 记忆检索与写入
+- **作者**: Jingyi Kang, Chunyu Li, Ding Chen et al.
+- **提交日期**: 2026-04-09
+- **方向**: 主动记忆提取 / Agent 记忆写入 / 强化学习
 
-## 摘要
+## 摘要（全文翻译）
 
-长期记忆对个性化 Agent 至关重要，但填充记忆始终是瓶颈。现有系统将记忆提取视为从上下文到结构化条目的单次被动转录，难以应对嘈杂对话、缺失引用和跨轮依赖，导致记忆污染、低价值写入和不一致。本文提出 MemReader 系列——Agent 系统主动长期记忆提取器：MemReader-0.6B，一个紧凑、性价比高的被动提取器，用于准确、模式一致的结构化输出；MemReader-4B，一个通过 GRPO（群体相对策略优化）优化的主动提取器，在 ReAct 风格范式下显式评估信息价值、引用模糊性和完整性，可选择性写入记忆、延迟不完整输入、检索历史上下文或丢弃无关闲聊。在 LOCOMO、LongMemEval 和 HaluMem 上的实验表明，MemReader 始终超越基于提取的基线。MemReader-4B 在知识更新、时间推理和幻觉减少任务上达到最新最优。MemReader 已集成到 MemOS 并正在实际应用中部署。
+长期记忆是个性化和自主 Agent 的基础，但填充记忆仍是瓶颈。现有系统将记忆提取作为从上下文到结构化条目的单次被动转录，在噪声对话、缺失引用和跨轮依赖上存在困难，导致记忆污染、低价值写入和不一致。
+
+本文引入 **MemReader** 系列用于 Agent 系统中的主动长期记忆提取：MemReader-0.6B，一个紧凑、成本高效的被动提取器，为准确且符合模式的结构化输出而提炼；MemReader-4B，一个用 GRPO（群组相对策略优化）优化的主动提取器，使记忆写入决策具有选择性。在 ReAct 风格范式下，MemReader-4B 显式评估候选记忆的写入价值，有选择地执行写入。
 
 ## 核心贡献
 
-1. **主动记忆提取范式**：从被动转录转向主动决策——评估信息价值后再决定是否写入
-2. **MemReader 双模型系列**：0.6B 被动提取器（高效）+ 4B 主动提取器（决策能力）
-3. **GRPO 优化**：通过群体相对策略优化让模型学会"何时写、何时跳过"
-4. **模式一致性**：结构化输出确保记忆条目格式统一，支持可靠检索
+1. **主动 vs 被动记忆提取**：MemReader-4B 主动决定是否写入记忆，而非被动转录所有内容
+2. **GRPO 优化**：用强化学习（GRPO）让模型学会"什么时候值得写入记忆"
+3. **双模型系列**：0.6B 被动提取 + 4B 主动决策，覆盖不同成本-质量权衡
+4. **ReAct 风格范式**：在推理过程中评估记忆写入价值
 
 ## 为什么重要
 
-记忆写入是记忆系统的第一道关口——无差别地写入所有内容只会导致"记忆污染"，而 MemReader 证明了"选择性写入"的价值。这对资源受限的端侧设备尤为重要：写入的每一条记忆都占用存储和后续检索成本。
+现有 Agent 记忆系统的一个根本问题是"什么值得记住"没有明确标准，导致记忆被无差别填充，最终被噪声淹没。MemReader-4B 通过 RL 学会了主动选择——只有真正有价值的交互才写入记忆，从根本上减少了记忆污染。
 
-### 与移动端/端侧的相关性
+## 与端侧/移动端的相关性
 
-- **0.6B 模型**可在移动端运行，实现本地记忆提取
-- **选择性写入**对存储受限的端侧设备至关重要
-- 已集成到 **MemOS** 实际部署
-
-## 延伸阅读
-
-- LoCoMo Benchmark
-- LongMemEval Benchmark
-- HaluMem Benchmark
-- MemOS Memory Operating System
+MemReader 的双模型设计对端侧友好：平时运行轻量的 0.6B 被动提取器，只在必要时调用 4B 主动提取器。这在保持记忆质量的同时控制了端侧的计算成本。
