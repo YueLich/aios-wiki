@@ -17,11 +17,11 @@
     "A new way to explore the web with AI Mode in Chrome",
     "A new way to express yourself: Gemini can now create music",
     "A-IO: Adaptive Inference Orchestration for Memory-Bound NPUs",
-    "A1gent: \u9762\u5411 Open RAN \u7684\u53ef\u5ba1\u8ba1 Agent \u63a7\u5236\u6846\u67b6",
+    "A1gent: 面向 Open RAN 的可审计 Agent 控制框架",
     "AEG: A Baremetal Framework for AI Acceleration via Direct Hardware Access in Heterogeneous Accelerators",
     "AHC: Meta-Learned Adaptive Compression for Continual Object Detection on Memory-Constrained Microcontrollers",
     "AIPC: Agent-Based Automation for AI Model Deployment with Qualcomm AI Runtime",
-    "ANVIL NPU \u89c6\u9891\u63d2\u5e27",
+    "ANVIL NPU 视频插帧",
     "ARM-software/ComputeLibrary: v53.0.0",
     "ARMove: Learning to Predict Human Mobility through Agentic Reasoning",
     "Accelerating Mathematical and Scientific Discovery with Gemini Deep Think",
@@ -49,7 +49,13 @@
     "Visual Inception: Compromising Long-term Planning in Agentic Recommenders via Multimodal Memory Poisoning",
     "Hidden Failure Modes of Gradient Modification under Adam in Continual Learning, and Adaptive Decoupled Moment Routing as a Repair",
     "CMMR-VLN: Vision-and-Language Navigation via Continual Multimodal Memory Retrieval",
-    "MEM: Multi-Scale Embodied Memory for Vision Language Action Models"
+    "MEM: Multi-Scale Embodied Memory for Vision Language Action Models",
+    "CIG: Measuring Conversational Information Gain in Deliberative Dialogues with Semantic Memory Dynamics",
+    "IMPACT-CYCLE: A Contract-Based Multi-Agent System for Claim-Level Supervisory Correction of Long-Video Semantic Memory",
+    "Human-Inspired Context-Selective Multimodal Memory for Social Robots",
+    "NORACL: Neurogenesis for Oracle-free Resource-Adaptive Continual Learning",
+    "Cortex-Inspired Continual Learning: Unsupervised Instantiation and Recovery of Functional Task Networks",
+    "The role of System 1 and System 2 semantic memory structure in human and LLM biases"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -142,13 +148,13 @@
       "created": "2026-04-18"
     },
     {
-      "title": "SpecGuard: \u9a8c\u8bc1\u611f\u77e5\u7684\u6295\u673a\u89e3\u7801\u6846\u67b6",
+      "title": "SpecGuard: 验证感知的投机解码框架",
       "slug": "specguard-speculative-decoding",
       "created": "2026-04-19",
       "type": "concept"
     },
     {
-      "title": "K-Token Merging: \u6f5c\u5728\u7a7a\u95f4 Token \u538b\u7f29",
+      "title": "K-Token Merging: 潜在空间 Token 压缩",
       "slug": "k-token-merging-latent-compression",
       "created": "2026-04-19",
       "type": "concept"
@@ -160,31 +166,31 @@
       "created": "2026-04-19"
     },
     {
-      "title": "MoPHES: \u7aef\u4fa7 LLM \u9a71\u52a8\u7684\u79fb\u52a8\u5fc3\u7406\u5065\u5eb7\u8bc4\u4f30\u4e0e\u652f\u6301",
+      "title": "MoPHES: 端侧 LLM 驱动的移动心理健康评估与支持",
       "slug": "mophes-ondevice-mental-health",
       "created": "2026-04-19",
       "type": "concept"
     },
     {
-      "title": "INT4 \u91cf\u5316\u5d29\u6e83\uff1aFP32 \u6536\u655b\u540e\u7684\u91cf\u5316\u5931\u6548\u673a\u5236",
+      "title": "INT4 量化崩溃：FP32 收敛后的量化失效机制",
       "slug": "int4-quantization-collapse",
       "created": "2026-04-19",
       "type": "concept"
     },
     {
-      "title": "Driftwood: Apple Silicon \u96f6\u62f7\u8d1d GPU \u63a8\u7406",
+      "title": "Driftwood: Apple Silicon 零拷贝 GPU 推理",
       "slug": "driftwood-zero-copy-apple-silicon",
       "created": "2026-04-19",
       "type": "concept"
     },
     {
-      "title": "SNN \u91cf\u5316\uff1a\u8d85\u8d8a\u51c6\u786e\u7387\u7684\u8bc4\u4f30",
+      "title": "SNN 量化：超越准确率的评估",
       "slug": "snn-quantization-beyond-accuracy",
       "created": "2026-04-19",
       "type": "concept"
     },
     {
-      "title": "DASH-Q\uff1a\u57fa\u4e8e\u7a33\u5b9a\u5bf9\u89d2\u66f2\u7387\u4f30\u8ba1\u7684\u9c81\u68d2\u8d85\u4f4e\u4f4d\u540e\u8bad\u7ec3\u91cf\u5316",
+      "title": "DASH-Q：基于稳定对角曲率估计的鲁棒超低位后训练量化",
       "slug": "dash-q-ultralowbit-llm-quantization",
       "created": "2026-04-19",
       "type": "concept"
@@ -202,25 +208,25 @@
       "type": "concept"
     },
     {
-      "title": "TinyMU: \u7d27\u51d1\u578b\u97f3\u4e50\u8bed\u8a00\u6a21\u578b",
+      "title": "TinyMU: 紧凑型音乐语言模型",
       "slug": "tinymu-music-language-model",
       "created": "2026-04-20",
       "type": "concept"
     },
     {
-      "title": "LoudReader \u7aef\u4fa7 TTS \u9605\u8bfb\u5e94\u7528",
+      "title": "LoudReader 端侧 TTS 阅读应用",
       "slug": "loudreader-ondevice-tts",
       "created": "2026-04-20",
       "type": "entity"
     },
     {
-      "title": "PolicyGapper \u5e94\u7528\u9690\u79c1\u5408\u89c4\u9a8c\u8bc1",
+      "title": "PolicyGapper 应用隐私合规验证",
       "slug": "policygapper-app-privacy-verification",
       "created": "2026-04-20",
       "type": "concept"
     },
     {
-      "title": "Off Grid \u2014 \u7aef\u4fa7\u5168\u529f\u80fd AI \u5957\u4ef6",
+      "title": "Off Grid — 端侧全功能 AI 套件",
       "slug": "off-grid-mobile-ai",
       "created": "2026-04-20",
       "type": "entity"
@@ -228,14 +234,14 @@
     {
       "slug": "hallucination-trajectory-commitment",
       "type": "concept",
-      "title": "\u5e7b\u89c9\u5373\u8f68\u8ff9\u627f\u8bfa\uff1aTransformer \u751f\u6210\u4e2d\u7684\u975e\u5bf9\u79f0\u5438\u5f15\u5b50\u52a8\u529b\u5b66",
+      "title": "幻觉即轨迹承诺：Transformer 生成中的非对称吸引子动力学",
       "created": "2026-04-20",
       "source": "arXiv:2604.15400"
     },
     {
       "slug": "prototta-test-time-adaptation",
       "type": "concept",
-      "title": "ProtoTTA\uff1a\u539f\u578b\u5f15\u5bfc\u7684\u6d4b\u8bd5\u65f6\u81ea\u9002\u5e94",
+      "title": "ProtoTTA：原型引导的测试时自适应",
       "created": "2026-04-20",
       "source": "arXiv:2604.15494"
     }
