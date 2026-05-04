@@ -210,11 +210,18 @@ nav:
       - Experience Compression Spectrum: concepts/experience-compression-spectrum.md
       - WorldDB 向量图世界记忆: concepts/worlddb-memory-engine.md
       - BrainMem 大脑启发进化记忆: concepts/brainmem-evolving-memory.md
+      - Contextual Agentic Memory 查找非记忆: concepts/agent-memory/contextual-agentic-memory-2604.27707.md
+      - OCR-Memory 视觉记忆检索: concepts/agent-memory/ocr-memory-optical-context-2604.26622.md
+      - Interactive Episodic Memory 交互反馈: concepts/agent-memory/interactive-episodic-memory-2604.24893.md
+      - HLTM LinkedIn 招聘长期记忆: concepts/agent-memory/hltm-linkedin-hiring-agent-2604.26197.md
       - FSFM 选择性遗忘: concepts/agent-memory/memory-representation/fsfm-a-biologically-inspired-2604.20300.md
       - To Know is to Construct Schema记忆: concepts/agent-memory/memory-representation/to-know-is-to-2604.20117.md
+      - GAM 图结构 Agent 记忆: concepts/agent-memory/memory-representation/gam-graph-agentic-memory-2604.12285.md
       - GS-Quant 知识图谱量化: concepts/agent-memory/memory-representation/gs-quant-granular-semantic-2604.21649.md
       - Temporal Taskification 持续学习: concepts/agent-memory/continual-learning/temporal-taskification-in-streaming-2604.21930.md
       - Fine-Tuning Regimes 持续学习分类: concepts/agent-memory/continual-learning/fine-tuning-regimes-define-2604.21927.md
+      - FADE 自适应遗忘持续学习: concepts/agent-memory/continual-learning/fade-adaptive-weight-decay-2604.27063.md
+      - When CL Moves to Memory 经验复用: concepts/agent-memory/continual-learning/when-cl-moves-to-memory-2604.27003.md
       - ImageHD 端侧持续学习: concepts/agent-memory/continual-learning/imagehd-energy-efficient-on-2604.21280.md
       - Lifecycle-Aware 联邦持续学习: concepts/agent-memory/continual-learning/lifecycle-aware-federated-continual-2604.20745.md
       - SkillLearnBench Agent技能学习: concepts/agent-memory/continual-learning/skilllearnbench-benchmarking-continual-learning-2604.20087.md
@@ -222,6 +229,9 @@ nav:
       - GR4CIL CLIP增量学习: concepts/agent-memory/continual-learning/gr-cil-gap-compensated-2604.17822.md
       # 记忆压缩与治理
       - When to Forget 记忆治理原语: concepts/agent-memory/memory-compression/when-to-forget-memory-governance-2604.12007.md
+      - Selective Forgetting LRMs 推理模型: concepts/agent-memory/memory-compression/selective-forgetting-large-reasoning-models-2604.03571.md
+      - Learning When to Remember 风险感知: concepts/agent-memory/memory-retrieval/learning-when-to-remember-2604.27283.md
+      - CacheRAG 语义缓存 KGQA: concepts/agent-memory/memory-retrieval/cacherag-semantic-caching-kgqa-2604.26176.md
       - MemArchitect 策略驱动记忆治理: concepts/agent-memory/memory-compression/memarchitect-policy-memory-governance-2603.18330.md
       - Novel Memory Forgetting 自主Agent: concepts/agent-memory/memory-compression/novel-memory-forgetting-autonomous-agents-2604.02280.md
       - Benign Memory Forgetting MLLM: concepts/agent-memory/memory-compression/benign-memory-forgetting-mllm-unlearning-2511.20196.md
@@ -229,6 +239,7 @@ nav:
       - StreamMeCo 视频Agent记忆压缩: concepts/agent-memory/memory-compression/streammeco-agent-memory-compression-video-2604.09000.md
       - Cross-Modal Memory Compression 多Agent: concepts/agent-memory/memory-compression/cross-modal-memory-compression-multiagent-2602.00454.md
       - CMT 持续知识学习记忆压缩: concepts/agent-memory/memory-compression/cmt-continual-knowledge-learning-2412.07393.md
+      - Human-Inspired 多模态记忆社会机器人: concepts/agent-memory/multimodal-memory/human-inspired-multimodal-memory-social-robots-2604.12081.md
       - Goal-Directed Search vs Memory Compression: concepts/agent-memory/memory-compression/goal-directed-search-vs-memory-compression-2511.21726.md
       - MELODI 层级记忆压缩: concepts/agent-memory/memory-compression/melodi-hierarchical-memory-compression-2410.03156.md
 
