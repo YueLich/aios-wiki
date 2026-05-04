@@ -210,10 +210,10 @@ nav:
       - Experience Compression Spectrum: concepts/experience-compression-spectrum.md
       - WorldDB 向量图世界记忆: concepts/worlddb-memory-engine.md
       - BrainMem 大脑启发进化记忆: concepts/brainmem-evolving-memory.md
-      - Contextual Agentic Memory 查找非记忆: concepts/agent-memory/contextual-agentic-memory-2604.27707.md
+      - Contextual Agentic Memory 查找非记忆: concepts/agent-memory/memory-representation/contextual-agentic-memory-2604.27707.md
       - OCR-Memory 视觉记忆检索: concepts/agent-memory/ocr-memory-optical-context-2604.26622.md
-      - Interactive Episodic Memory 交互反馈: concepts/agent-memory/interactive-episodic-memory-2604.24893.md
-      - HLTM LinkedIn 招聘长期记忆: concepts/agent-memory/hltm-linkedin-hiring-agent-2604.26197.md
+      - Interactive Episodic Memory 交互反馈: concepts/agent-memory/memory-representation/interactive-episodic-memory-2604.24893.md
+      - HLTM LinkedIn 招聘长期记忆: concepts/agent-memory/memory-representation/hltm-linkedin-hiring-agent-2604.26197.md
       - FSFM 选择性遗忘: concepts/agent-memory/memory-representation/fsfm-a-biologically-inspired-2604.20300.md
       - To Know is to Construct Schema记忆: concepts/agent-memory/memory-representation/to-know-is-to-2604.20117.md
       - GAM 图结构 Agent 记忆: concepts/agent-memory/memory-representation/gam-graph-agentic-memory-2604.12285.md
@@ -224,7 +224,7 @@ nav:
       - SCG-MEM Schema约束生成: concepts/agent-memory/memory-representation/scge-mem-schema-constrained-2604.20117.md
       - Temporal Taskification 持续学习: concepts/agent-memory/continual-learning/temporal-taskification-in-streaming-2604.21930.md
       - Fine-Tuning Regimes 持续学习分类: concepts/agent-memory/continual-learning/fine-tuning-regimes-define-2604.21927.md
-      - FADE 自适应遗忘持续学习: concepts/agent-memory/continual-learning/fade-adaptive-weight-decay-2604.27063.md
+      - FADE 自适应遗忘持续学习: concepts/agent-memory/memory-compression/fade-adaptive-weight-decay-2604.27063.md
       - When CL Moves to Memory 经验复用: concepts/agent-memory/continual-learning/when-cl-moves-to-memory-2604.27003.md
       - ImageHD 端侧持续学习: concepts/agent-memory/continual-learning/imagehd-energy-efficient-on-2604.21280.md
       - Lifecycle-Aware 联邦持续学习: concepts/agent-memory/continual-learning/lifecycle-aware-federated-continual-2604.20745.md

@@ -468,7 +468,8 @@
     "vs-wno-jetson-orin-nano",
     "wisv-device-edge-speculative",
     "人工三元智能 ATI",
-    "轻量化 Transformer 边缘部署综述"
+    "轻量化 Transformer 边缘部署综述",
+    "When Does Structure Matter in Continual Learning? Dimensionality Controls When Modularity Shapes Representational Geometry"
   ],
   "known_topics": [
     "memory-worth-governance",
