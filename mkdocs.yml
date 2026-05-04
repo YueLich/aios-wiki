@@ -218,6 +218,10 @@ nav:
       - To Know is to Construct Schema记忆: concepts/agent-memory/memory-representation/to-know-is-to-2604.20117.md
       - GAM 图结构 Agent 记忆: concepts/agent-memory/memory-representation/gam-graph-agentic-memory-2604.12285.md
       - GS-Quant 知识图谱量化: concepts/agent-memory/memory-representation/gs-quant-granular-semantic-2604.21649.md
+      - RoMem 时序相位旋转记忆: concepts/agent-memory/memory-representation/romem-temporal-phase-rotation-2604.11544.md
+      - Memanto 类型语义记忆: concepts/agent-memory/memory-representation/memanto-typed-semantic-memory-2604.22085.md
+      - Spatial Memory Survey 机器人导航: concepts/agent-memory/memory-representation/spatial-memory-robot-navigation-2604.16482.md
+      - SCG-MEM Schema约束生成: concepts/agent-memory/memory-representation/scge-mem-schema-constrained-2604.20117.md
       - Temporal Taskification 持续学习: concepts/agent-memory/continual-learning/temporal-taskification-in-streaming-2604.21930.md
       - Fine-Tuning Regimes 持续学习分类: concepts/agent-memory/continual-learning/fine-tuning-regimes-define-2604.21927.md
       - FADE 自适应遗忘持续学习: concepts/agent-memory/continual-learning/fade-adaptive-weight-decay-2604.27063.md
@@ -227,11 +231,15 @@ nav:
       - SkillLearnBench Agent技能学习: concepts/agent-memory/continual-learning/skilllearnbench-benchmarking-continual-learning-2604.20087.md
       - Revisiting Catastrophic Forgetting KG: concepts/agent-memory/continual-learning/revisiting-catastrophic-forgetting-in-2604.19401.md
       - GR4CIL CLIP增量学习: concepts/agent-memory/continual-learning/gr-cil-gap-compensated-2604.17822.md
+      - NORACL 神经生成持续学习: concepts/agent-memory/continual-learning/noracl-neurogenesis-continual-2604.27031.md
+      - Structure Modularity CL 维度调控: concepts/agent-memory/continual-learning/structure-matter-continual-learning-2604.27656.md
+      - FTN 皮层启发零遗忘: concepts/agent-memory/continual-learning/ftn-cortex-continual-learning-2604.24637.md
       # 记忆压缩与治理
       - When to Forget 记忆治理原语: concepts/agent-memory/memory-compression/when-to-forget-memory-governance-2604.12007.md
       - Selective Forgetting LRMs 推理模型: concepts/agent-memory/memory-compression/selective-forgetting-large-reasoning-models-2604.03571.md
       - Learning When to Remember 风险感知: concepts/agent-memory/memory-retrieval/learning-when-to-remember-2604.27283.md
       - CacheRAG 语义缓存 KGQA: concepts/agent-memory/memory-retrieval/cacherag-semantic-caching-kgqa-2604.26176.md
+      - CIG 对话语义信息增益: concepts/agent-memory/memory-retrieval/cig-conversational-information-gain-2604.15647.md
       - MemArchitect 策略驱动记忆治理: concepts/agent-memory/memory-compression/memarchitect-policy-memory-governance-2603.18330.md
       - Novel Memory Forgetting 自主Agent: concepts/agent-memory/memory-compression/novel-memory-forgetting-autonomous-agents-2604.02280.md
       - Benign Memory Forgetting MLLM: concepts/agent-memory/memory-compression/benign-memory-forgetting-mllm-unlearning-2511.20196.md
@@ -239,9 +247,12 @@ nav:
       - StreamMeCo 视频Agent记忆压缩: concepts/agent-memory/memory-compression/streammeco-agent-memory-compression-video-2604.09000.md
       - Cross-Modal Memory Compression 多Agent: concepts/agent-memory/memory-compression/cross-modal-memory-compression-multiagent-2602.00454.md
       - CMT 持续知识学习记忆压缩: concepts/agent-memory/memory-compression/cmt-continual-knowledge-learning-2412.07393.md
+      - H2-EMV 机器人遗忘学习: concepts/agent-memory/memory-compression/h2-emv-hierarchical-episodic-robot-2604.11306.md
       - Human-Inspired 多模态记忆社会机器人: concepts/agent-memory/multimodal-memory/human-inspired-multimodal-memory-social-robots-2604.12081.md
+      - IMPACT-CYCLE 长视频监督记忆: concepts/agent-memory/multimodal-memory/impact-cycle-long-video-memory-2604.20136.md
       - Goal-Directed Search vs Memory Compression: concepts/agent-memory/memory-compression/goal-directed-search-vs-memory-compression-2511.21726.md
       - MELODI 层级记忆压缩: concepts/agent-memory/memory-compression/melodi-hierarchical-memory-compression-2410.03156.md
+      - System1-System2 语义记忆偏见: concepts/agent-memory/memory-privacy/system1-system2-semantic-memory-bias-2604.12816.md
 
     - 工具调用与执行:
       - 端侧 vs 云端 Agentic 工具调用: concepts/on-device-vs-cloud-agentic-tool-calling.md
