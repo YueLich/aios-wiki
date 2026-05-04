@@ -1581,3 +1581,13 @@ format: reverse-chronological
 **来源**: arXiv RSS/API (100 items), GitHub releases, RSS feeds, HN
 **去重**: 188 raw → 105 stage-1 → 47 stage-2 → 6 "new" → 1 actionable (llama.cpp b8881 merge)
 **备注**: 大部分 arXiv 论文已在之前 run 中收录。llama.cpp b8881 包含 Qualcomm Hexagon DSP 增强。
+
+## 2026-05-04 - Wiki Update
+
+**新增页面** (2):
+- `memcoe-evolving-memory-2605.00702.md` — MemCoE: 认知启发两阶段记忆演化优化，RL+对比学习解决稀疏奖励问题
+- `persistent-visual-memory-2605.00814.md` — PVM: 持续视觉记忆模块，解决LVLM长序列生成中视觉注意力衰减问题
+
+**来源**: arXiv API (cs.AI/CL/LG queries)
+**去重**: 2 篇新论文（均未被 index.json/mkdocs.yml 收录）
+**统计**: 扫描 ~15 条 arXiv API 结果，新增 2 篇高相关论文
