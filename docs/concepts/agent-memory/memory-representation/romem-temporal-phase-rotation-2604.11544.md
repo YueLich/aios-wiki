@@ -2,36 +2,42 @@
 title: "Time is Not a Label: Continuous Phase Rotation for Temporal Knowledge Graphs and Agentic Memory"
 arXiv: 2604.11544
 date: 2026-04-13
-authors: ["Weixian Waylon Li et al."]
-tags: [agent-memory, memory-representation, temporal-knowledge-graph, knowledge-graph, time-modeling]
+tags: [agent-memory, memory-representation]
 reviewer: auto
-source: arXiv API
+source: arXiv RSS/API
 ---
 
-## 论文信息
+# Time is Not a Label: Continuous Phase Rotation for Temporal Knowledge Graphs and Agentic Memory
 
-- **arXiv**: 2604.11544
-- **作者**: Weixian Waylon Li, Jiaxin Zhang, Xianan Jim Yang et al.
-- **提交日期**: 2026-04-13
-- **方向**: 时序知识图谱 / Agent 记忆 / 时间建模
+## 论文基本信息
 
-## 摘要（全文翻译）
+- **作者**: Weixian Waylon Li, Jiaxin Zhang, Xianan Jim Yang, Tiejun Ma, Yiwen Guo
+- **arXiv**: https://arxiv.org/abs/2604.11544
+- **领域**: cs.CL
 
-知识图谱等结构化记忆表示对自主 Agent 和其他长期运作系统至关重要。然而现有方法将时间建模为离散元数据：按近因性排序（埋没旧有但永久的知识）、简单覆盖过时事实，或在每次摄取步骤需要昂贵的 LLM 调用，无法区分持久事实和演化事实。
 
-本文提出 **RoMem**，一个用于结构化记忆系统的即插即用时序知识图谱模块，适用于 Agent 记忆等场景。预训练的语义速度门（Semantic Speed Gate）将每个关系文本嵌入映射到波动性分数，学习哪些关系应该快速旋转（如"president of"），哪些应该保持稳定（如"born in"）。结合连续相位旋转，实现了几何阴影（geometric shadowing）：过时事实在复向量空间中旋转出相位，使时间正确的事实自然优先于过时事实。
+## 摘要
+
+Structured memory representations such as knowledge graphs are central to autonomous agents and other long-lived systems. However, most existing approaches model time as discrete metadata, either sorting by recency (burying old-yet-permanent knowledge), simply overwriting outdated facts, or requiring an expensive LLM call at every ingestion step, leaving them unable to distinguish persistent facts from evolving ones. To address this, we introduce RoMem, a drop-in temporal knowledge graph module for structured memory systems, applicable to agentic memory and beyond. A pretrained Semantic Speed Gate maps each relation's text embedding to a volatility score, learning from data that evolving relations (e.g., "president of") should rotate fast while persistent ones (e.g., "born in") should remain stable. Combined with continuous phase rotation, this enables geometric shadowing: obsolete facts are rotated out of phase in complex vector space, so temporally correct facts naturally outrank contradictions without deletion. On temporal knowledge graph completion, RoMem achieves state-of-the-art results on ICEWS05-15 (72.6 MRR). Applied to agentic memory, it delivers 2-3x MRR and answer accuracy on temporal reasoning (MultiTQ), dominates hybrid benchmark (LoCoMo), preserves static memory with zero degradation (DMR-MSC), and generalises zero-shot to unseen financial domains (FinTMMBench).
 
 ## 核心贡献
 
-1. **连续相位旋转**：将时间建模为连续的相位旋转，而非离散标签或简单覆盖
-2. **语义速度门**：预训练模型学习关系的固有波动性，区分"常变"和"永久"关系
-3. **几何阴影**：过时事实在向量空间中被"遮蔽"，无需显式删除
-4. **即插即用模块**：可叠加在现有 Agent 记忆系统之上
+1. （待补充：基于摘要提炼 3-5 条核心贡献）
+2. 
+3. 
+
+## 研究背景与问题
+
+（待补充：论文要解决的核心问题是什么？为什么这个问题重要？）
+
+## 核心方法
+
+（待补充：论文的核心方法/技术方案）
 
 ## 为什么重要
 
-时间建模是知识图谱和 Agent 记忆的长期难题。RoMem 的几何方法优雅地解决了三个常见问题：旧永久知识被埋没、过时事实被覆盖、需要 LLM 调用判断时间属性。相位旋转提供了一种无需 LLM 的、几何化的时间建模方案。
+（待补充：论文的主要贡献和意义）
 
-## 与端侧/移动端的相关性
+## 与移动端/端侧相关性
 
-RoMem 是端侧友好的：一旦语义速度门预训练完成，判断关系是否过时只需要向量运算，无需 LLM 调用。即插即用的设计意味着可以在现有记忆系统上叠加时序建模能力。
+（待补充：该研究与端侧/移动端 Agent 记忆系统的关联）

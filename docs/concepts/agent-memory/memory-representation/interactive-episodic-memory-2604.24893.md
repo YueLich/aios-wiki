@@ -2,87 +2,42 @@
 title: "Interactive Episodic Memory with User Feedback"
 arXiv: 2604.24893
 date: 2026-04-27
-authors: "Nikesh Subedi (University of Utah)"
-tags: [agent-memory, episodic-memory, vision-language, user-feedback, egocentric-video]
+tags: [agent-memory, memory-representation]
 reviewer: auto
-source: arXiv API
+source: arXiv RSS/API
 ---
+
+# Interactive Episodic Memory with User Feedback
 
 ## 论文基本信息
 
-- **arXiv**: 2604.24893v1
-- **发表**: 2026-04-27
-- **作者**: Nikesh Subedi (University of Utah)
-- **方向**: 多模态情景记忆 / 人机交互
-- **开源**: 待确认
+- **作者**: Nikesh Subedi, Loris Bazzani, Ziad Al-Halah
+- **arXiv**: https://arxiv.org/abs/2604.24893
+- **领域**: cs.CV
+- **备注**: Accepted to CVPR 2026. Project Page: https://nsubedi11.github.io/refocus
 
----
+## 摘要
 
-## 任务定义
+In episodic memory with natural language queries (EM-NLQ), a user may ask a question (e.g., "Where did I place the mug?") that requires searching a long egocentric video, captured from the user's perspective, to find the moment that answers it. However, queries can be ambiguous or incomplete, leading to incorrect responses. Current methods ignore this key aspect and address EM-NLQ in a one-shot setup, limiting their applicability in real-world scenarios. In this work, we address this gap and introduce the Episodic Memory with Questions and Feedback task (EM-QnF). Here, the user can provide feedback on the model's initial prediction or add more information (e.g., "Before this. I'm looking for the big blue mug not the white one"), helping the model refine its predictions interactively. To this end, we collect datasets for feedback-based interaction and propose a lightweight training scheme that avoids expensive sequential optimization. We also introduce a plug-and-play Feedback ALignment Module (FALM) that enables existing EM-NLQ models to incorporate user feedback effectively. Our approach significantly improves over the state of the art on three challenging benchmarks and is better than or competitive with commercial large vision-language models while remaining efficient. Evaluation with human-generated feedback shows that it generalizes well to real-world scenarios.
 
-**Episodic Memory with Natural Language Queries (EM-NLQ)**
+## 核心贡献
 
-用户用自然语言提问：
-> "Where did I place the mug?"
-> "Why did the task fail?"
+1. （待补充：基于摘要提炼 3-5 条核心贡献）
+2. 
+3. 
 
-系统需要在**长时间自我中心视频（egocentric video）** 中搜索答案。
+## 研究背景与问题
 
-### 挑战
+（待补充：论文要解决的核心问题是什么？为什么这个问题重要？）
 
-- 视频时间跨度长，记忆稀疏
-- 自然语言查询的语义与视频内容匹配困难
-- 需要理解空间位置、时间顺序、因果关系
+## 核心方法
 
----
-
-## 方法
-
-### 1. User Feedback Generation Recipe
-
-将人类反馈纳入记忆检索循环：
-
-1. **Reference Span Sampling** — 从视频中采样参考片段
-2. **Response Captioning and Explanation Generation** — 生成对响应的描述和解释
-3. **Feedback Generation** — 基于参考生成反馈信号
-
-### 2. EM-QnF Dataset
-
-**Episodic Memory with Question and Feedback** — 包含用户反馈的情景记忆数据集
-
-### 3. FALM: Feedback ALignment Module
-
-**核心架构创新：**
-
-- **FALM Architecture** — 反馈对齐模块
-- **Alignment Supervision** — 对齐监督信号
-- **FALM Training Objective** — 训练目标
-- **ReFocus: FALM Integration** — 将FALM集成到主模型中
-- **Multi-Turn Feedback Extension** — 多轮反馈扩展
-
----
-
-## 关键洞察
-
-### 用户反馈能显著改善检索质量
-
-初始检索可能不准确，但通过多轮用户反馈：
-- 模型学会关注正确的视频片段
-- 错误反馈帮助模型排除不相关区域
-- 逐步收敛到正确记忆
-
-### ReFocus 机制
-
-FALM通过反馈信号重新调整模型注意力权重，将"关注错误区域"纠正为"关注正确区域"。
-
----
+（待补充：论文的核心方法/技术方案）
 
 ## 为什么重要
 
-首次系统性地将**用户反馈**作为主动学习信号引入情景记忆检索。这是记忆系统从"被动存储-查找"到"主动交互-校正"的重要一步。
+（待补充：论文的主要贡献和意义）
 
-### 与移动端/端侧的相关性
+## 与移动端/端侧相关性
 
-- **可穿戴设备（smartwatch/AR glasses）**：第一人称视频记忆 + 即时用户反馈是自然交互范式
-- **家庭机器人**：用户通过自然语言纠正机器人记忆
-- **端侧隐私**：反馈学习不需要将原始视频上传云端
+（待补充：该研究与端侧/移动端 Agent 记忆系统的关联）

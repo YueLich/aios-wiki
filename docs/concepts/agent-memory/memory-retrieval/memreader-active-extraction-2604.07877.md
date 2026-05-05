@@ -2,36 +2,42 @@
 title: "MemReader: From Passive to Active Extraction for Long-Term Agent Memory"
 arXiv: 2604.07877
 date: 2026-04-09
-authors: ["Jingyi Kang et al."]
-tags: [agent-memory, memory-retrieval, active-extraction, memory-writing, GRPO]
+tags: [agent-memory, memory-retrieval]
 reviewer: auto
-source: arXiv API
+source: arXiv RSS/API
 ---
 
-## 论文信息
+# MemReader: From Passive to Active Extraction for Long-Term Agent Memory
 
-- **arXiv**: 2604.07877
-- **作者**: Jingyi Kang, Chunyu Li, Ding Chen et al.
-- **提交日期**: 2026-04-09
-- **方向**: 主动记忆提取 / Agent 记忆写入 / 强化学习
+## 论文基本信息
 
-## 摘要（全文翻译）
+- **作者**: Jingyi Kang, Chunyu Li, Ding Chen, Bo Tang, Feiyu Xiong, +1 more
+- **arXiv**: https://arxiv.org/abs/2604.07877
+- **领域**: cs.CL
 
-长期记忆是个性化和自主 Agent 的基础，但填充记忆仍是瓶颈。现有系统将记忆提取作为从上下文到结构化条目的单次被动转录，在噪声对话、缺失引用和跨轮依赖上存在困难，导致记忆污染、低价值写入和不一致。
 
-本文引入 **MemReader** 系列用于 Agent 系统中的主动长期记忆提取：MemReader-0.6B，一个紧凑、成本高效的被动提取器，为准确且符合模式的结构化输出而提炼；MemReader-4B，一个用 GRPO（群组相对策略优化）优化的主动提取器，使记忆写入决策具有选择性。在 ReAct 风格范式下，MemReader-4B 显式评估候选记忆的写入价值，有选择地执行写入。
+## 摘要
+
+Long-term memory is fundamental for personalized and autonomous agents, yet populating it remains a bottleneck. Existing systems treat memory extraction as a one-shot, passive transcription from context to structured entries, which struggles with noisy dialogue, missing references, and cross-turn dependencies, leading to memory pollution, low-value writes, and inconsistency. In this paper, we introduce the MemReader family for active long-term memory extraction in agent systems: MemReader-0.6B, a compact and cost-efficient passive extractor distilled for accurate and schema-consistent structured outputs, and MemReader-4B, an active extractor optimized with Group Relative Policy Optimization (GRPO) to make memory writing decisions. Under a ReAct-style paradigm, MemReader-4B explicitly evaluates information value, reference ambiguity, and completeness before acting, and can selectively write memories, defer incomplete inputs, retrieve historical context, or discard irrelevant chatter. Experiments on LOCOMO, LongMemEval, and HaluMem show that MemReader consistently outperforms existing extraction-based baselines. In particular, MemReader-4B achieves state-of-the-art performance on tasks involving knowledge updating, temporal reasoning, and hallucination reduction. These results suggest that effective agent memory requires not merely extracting more information, but performing reasoning-driven and selective memory extraction to build low-noise and dynamically evolving long-term memory. Furthermore, MemReader has been integrated into MemOS and is being deployed in real-world applications. To support future research and adoption, we release the models and provide public API access.
 
 ## 核心贡献
 
-1. **主动 vs 被动记忆提取**：MemReader-4B 主动决定是否写入记忆，而非被动转录所有内容
-2. **GRPO 优化**：用强化学习（GRPO）让模型学会"什么时候值得写入记忆"
-3. **双模型系列**：0.6B 被动提取 + 4B 主动决策，覆盖不同成本-质量权衡
-4. **ReAct 风格范式**：在推理过程中评估记忆写入价值
+1. （待补充：基于摘要提炼 3-5 条核心贡献）
+2. 
+3. 
+
+## 研究背景与问题
+
+（待补充：论文要解决的核心问题是什么？为什么这个问题重要？）
+
+## 核心方法
+
+（待补充：论文的核心方法/技术方案）
 
 ## 为什么重要
 
-现有 Agent 记忆系统的一个根本问题是"什么值得记住"没有明确标准，导致记忆被无差别填充，最终被噪声淹没。MemReader-4B 通过 RL 学会了主动选择——只有真正有价值的交互才写入记忆，从根本上减少了记忆污染。
+（待补充：论文的主要贡献和意义）
 
-## 与端侧/移动端的相关性
+## 与移动端/端侧相关性
 
-MemReader 的双模型设计对端侧友好：平时运行轻量的 0.6B 被动提取器，只在必要时调用 4B 主动提取器。这在保持记忆质量的同时控制了端侧的计算成本。
+（待补充：该研究与端侧/移动端 Agent 记忆系统的关联）

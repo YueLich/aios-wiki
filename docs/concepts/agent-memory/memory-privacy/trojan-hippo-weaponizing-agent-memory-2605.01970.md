@@ -2,60 +2,42 @@
 title: "Trojan Hippo: Weaponizing Agent Memory for Data Exfiltration"
 arXiv: 2605.01970
 date: 2026-05-03
-tags: [agent-memory, memory-privacy, security, attack]
+tags: [agent-memory, memory-privacy]
 reviewer: auto
-source: arXiv API
+source: arXiv RSS/API
 ---
+
+# Trojan Hippo: Weaponizing Agent Memory for Data Exfiltration
 
 ## 论文基本信息
 
-- **作者**: Debasree Das, Julien Piet, Darya Kaviani, Luca Beurer-Kellner, Florian Tramèr
-- **发表**: 2026-05-03
-- **方向**: 记忆隐私 · 安全攻击 · 数据泄露
+- **作者**: Debeshee Das, Julien Piet, Darya Kaviani, Luca Beurer-Kellner, Florian Tramèr, +1 more
+- **arXiv**: https://arxiv.org/abs/2605.01970
+- **领域**: cs.CR
 
-## 摘要（翻译）
 
-记忆系统使原本无状态的 LLM Agent 能够跨会话持久化用户信息，但也引入了新的攻击面。本文系统化地描述了一类名为 **Trojan Hippo 攻击**的持久化记忆攻击，其威胁模型比以往的 memory poisoning 工作更为现实：
+## 摘要
 
-1. 攻击者通过**单一的不受信任的工具调用**（如一封精心设计的邮件）将休眠载荷植入 Agent 的长期记忆
-2. 该载荷仅在用户后续讨论敏感话题（金融、健康、身份）时才激活
-3. 激活后将高价值个人数据泄露给攻击者
-
-虽然此类攻击在对已部署系统的趣闻式演示中已有出现，但此前没有工作系统性地跨异构记忆架构和防御机制对其进行评估。
+Memory systems enable otherwise-stateless LLM agents to persist user information across sessions, but also introduce a new attack surface. We characterize the Trojan Hippo attack, a class of persistent memory attacks that operates in a more realistic threat model than prior memory poisoning work: the attacker plants a dormant payload into an agent's long-term memory via a single untrusted tool call (e.g., a crafted email), which activates only when the user later discusses sensitive topics such as finance, health, or identity, and exfiltrates high-value personal data to the attacker.   While anecdotal demonstrations of such attacks have appeared against deployed systems, no prior work systematically evaluates them across heterogeneous memory architectures and defenses.We introduce a dynamic evaluation framework comprising two components: (1) an OpenEvolve-based adaptive red-teaming benchmark that stress-tests defenses and memory backends against continuously refined attacks, and (2) the first capability-aware security/utility analysis for persistent memory systems, enabling principled reasoning about defense deployment across different usage profiles.   Instantiated on an email assistant across four memory backends (explicit tool memory, agentic memory, RAG, and sliding-window context), Trojan Hippo achieves up to 85-100 percent ASR against current frontier models from OpenAI and Google, with planted memories successfully activating even after 100 benign sessions. We evaluate four memory-system defenses inspired by basic security principles, finding they substantially reduce attack success rates (to as low as 0-5 percent), though at utility costs that vary widely with task requirements. Because of this substantial security-utility tradeoff, the effective real-world deployment of defenses remains an open challenge, which our evaluation framework is specifically designed to address.
 
 ## 核心贡献
 
-1. **Trojan Hippo 攻击框架**：提出了一种在更现实威胁模型下的持久化记忆攻击范式
-2. **动态评估框架**：
-   - **OpenEvolve-based 自适应红队基准**：持续精炼攻击，压力测试防御和记忆后端
-   - **首个能力感知的安全/效用分析**：支持跨不同使用场景的防御部署原则性推理
-3. **跨记忆后端验证**：在四种记忆后端（显式工具记忆、agentic 记忆、RAG、滑动窗口上下文）上验证，达到 **85-100% ASR**（攻击成功率）
-4. **即使 100 次良性会话后仍能激活**：证明植入记忆的持久性和抗干扰能力
+1. （待补充：基于摘要提炼 3-5 条核心贡献）
+2. 
+3. 
+
+## 研究背景与问题
+
+（待补充：论文要解决的核心问题是什么？为什么这个问题重要？）
+
+## 核心方法
+
+（待补充：论文的核心方法/技术方案）
 
 ## 为什么重要
 
-随着 LLM Agent 系统越来越多地配备持久化记忆功能，记忆层的安全问题变得至关重要。Trojan Hippo 揭示了：
+（待补充：论文的主要贡献和意义）
 
-- 当前记忆系统对恶意植入载荷的脆弱性远超预期
-- 现有的隐私防御在面对真实威胁模型时严重不足
-- 在记忆层面建立安全边界是 Agent 系统部署的必要前提
+## 与移动端/端侧相关性
 
-## 关键数据
-
-| 指标 | 数值 |
-|------|------|
-| 最高 ASR | 85-100% |
-| 攻击激活延迟 | 最长 100 次良性会话后仍可激活 |
-| 测试模型 | OpenAI 和 Google 前沿模型 |
-| 记忆后端覆盖 | 4 种（工具记忆/Agentic 记忆/RAG/滑动窗口） |
-
-## 与移动端/端侧的相关性
-
-移动端 Agent 是 Trojan Hippo 的重点攻击面：
-- 手机邮件/消息是常见的植入载体
-- 金融/健康/身份信息在移动端高度集中
-- 端侧记忆使攻击更难被云端审计发现
-
----
-
-*注：本文为新发现论文（2605.01970），尚未在 index.json 中记录。*
+（待补充：该研究与端侧/移动端 Agent 记忆系统的关联）

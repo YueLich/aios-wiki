@@ -2,58 +2,42 @@
 title: "Sharpness-Aware Pretraining Mitigates Catastrophic Forgetting"
 arXiv: 2605.02105
 date: 2026-05-04
-authors: ["Ishaan Watts", "Catherine Li", "Sachin Goyal", "Jacob Mitchell Springer", "Aditi Raghunathan"]
-tags: [agent-memory, continual-learning, catastrophic-forgetting, pretraining, optimization]
+tags: [agent-memory, continual-learning]
 reviewer: auto
-source: arXiv API
+source: arXiv RSS/API
 ---
 
 # Sharpness-Aware Pretraining Mitigates Catastrophic Forgetting
 
-## 论文概览
+## 论文基本信息
 
-**核心问题**：预训练优化器的目标是产生最强的基座模型，通常假设"更强的起点=后续微调后更强的模型"。但这一假设在持续学习场景中失效——用标准优化器预训练的模型在后续任务序列上会发生严重的灾难性遗忘。
+- **作者**: Ishaan Watts, Catherine Li, Sachin Goyal, Jacob Mitchell Springer, Aditi Raghunathan
+- **arXiv**: https://arxiv.org/abs/2605.02105
+- **领域**: cs.LG
+- **备注**: 43 pages, 64 figures, 9 tables, accepted to ICML2026
 
-**核心发现**：通过在预训练阶段引入 Sharpness-Aware Minimization（SAM）优化器，可以找到更平坦的局部最优，这些解在后续持续学习任务中展现出更强的抗遗忘能力。
+## 摘要
 
-## 背景问题
-
-灾难性遗忘是持续学习的核心挑战——当神经网络学习新任务时，会覆盖之前学到的知识。传统解决方案聚焦于学习阶段（弹性权重固化、重放、正则化等），但忽视了**预训练阶段的选择**对后续遗忘敏感性的影响。
-
-本文首次从预训练优化策略的角度研究遗忘问题，提出了一个关键洞察：**哪些参数区域在预训练中被优先优化，决定了它们在后续任务中的稳定性**。标准 Adam/SGD 倾向于收敛到陡峭的局部最优，这些解的参数对微小扰动非常敏感，容易被后续梯度更新破坏。
-
-## 核心方法：Sharpness-Aware Pretraining
-
-### Sharpness-Aware Minimization (SAM)
-SAM 在每个优化步骤中不仅最小化损失值，还最小化损失面的**锐度**（sharpness）——即邻域内最大损失与当前损失之差。形式化：
-
-$$\min_\theta \max_{\|\epsilon\|_p \leq \rho} L(\theta + \epsilon)$$
-
-这等价于在最坏情况下（即最陡峭方向）的损失。SAM 产生的解在参数邻域内损失变化平缓，对后续任务引入的参数扰动更加鲁棒。
-
-### 为什么平坦极小值有助于持续学习
-- **冗余表示**：平坦极小值通常对应于更稀疏、更冗余的表示，单个参数的变化对整体功能影响较小
-- **更大的收敛盆地**：平坦区域有更大的"吸引域"，后续梯度更新更容易保持在有效参数范围内
-- **跨任务泛化**：平坦损失面意味着损失对任务切换的敏感性更低
+Pretraining optimizers are tuned to produce the strongest possible base model, on the assumption that a stronger starting point yields a stronger model after subsequent changes like post-training and quantization. This overlooks the geometry of the base model which controls how much of the base model's capabilities survive subsequent parameter updates. We study three pretraining optimization approaches that bias optimization toward flatter minima: Sharpness-Aware Minimization (SAM), large learning rates, and shortened learning rate annealing periods. Across model sizes ranging from 20M to 150M parameters, we find that these interventions consistently improve downstream performance after post-training on five common datasets with up to 80% less forgetting. These principles hold at scale: a short SAM mid-training phase applied to an existing OLMo-2-1B checkpoint reduces forgetting by 31% after MetaMath post-training and by 40% after 4-bit quantization.
 
 ## 核心贡献
 
-1. **首次证明预训练优化器的选择直接影响持续学习的遗忘程度**
-2. **SAM-Pretraining 范式**：在预训练阶段使用 SAM，从源头增强模型的抗遗忘能力
-3. **理论分析**：提供了平坦极小值与遗忘抵抗能力之间的联系
-4. **实验验证**：在多个持续学习基准上，SAM 预训练的模型显著优于标准优化器预训练的模型
+1. （待补充：基于摘要提炼 3-5 条核心贡献）
+2. 
+3. 
+
+## 研究背景与问题
+
+（待补充：论文要解决的核心问题是什么？为什么这个问题重要？）
+
+## 核心方法
+
+（待补充：论文的核心方法/技术方案）
 
 ## 为什么重要
 
-这篇论文提出了一个看似简单但意义深远的观点：**你如何预训练，决定了你如何持续学习**。之前所有持续学习研究都专注于"如何学习新任务而不忘记旧任务"，但忽视了预训练这一上游选择的影响。这是一个上游优化选择对下游持续学习性能产生根本性影响的有力证据。
+（待补充：论文的主要贡献和意义）
 
-## 端侧/移动端相关性
+## 与移动端/端侧相关性
 
-端侧持续学习面临的一个核心问题是：移动设备的资源限制使得重放（replay）等方法开销过高。SAM 预训练的模型对扰动更鲁棒，意味着在端侧进行少量样本的增量更新时，更不容易发生灾难性遗忘——这是一种"免费"的抗遗忘机制，不需要额外的内存或计算开销。
-
-## 实验结果
-
-在 CIFAR-100、Permuted MNIST 和自定义视觉任务序列上的持续学习实验表明：
-- SAM 预训练的模型在任务序列结束时平均准确率提升约 15-20%
-- 对比标准 Adam/SGD 预训练，SAM 在最关键的早期任务保留上表现尤为突出
-- 与现有持续学习方法（EWC、LwF、Replay）的兼容性良好，可叠加使用
+（待补充：该研究与端侧/移动端 Agent 记忆系统的关联）

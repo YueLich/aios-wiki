@@ -12,42 +12,32 @@ source: arXiv RSS/API
 ## 论文基本信息
 
 - **作者**: Tianqi Wang, Jingcai Guo
-- **机构**: （待补充）
 - **arXiv**: https://arxiv.org/abs/2604.17822
-- **代码**: （待补充）
+- **领域**: cs.CV
+
+
+## 摘要
+
+Class-Incremental Learning (CIL) aims to continuously acquire new categories while preserving previously learned knowledge. Recently, Contrastive Language-Image Pre-trained (CLIP) models have shown strong potential for CIL due to their powerful generalization ability. However, existing methods still face two key challenges: shared-parameter adaptation tends to cause old-knowledge drift, and task-specific knowledge organization often leads to poorly calibrated cross-task responses, making reliable routing difficult. To address these issues, we propose GR4CIL, a framework combining task discrimination and knowledge routing for CLIP-based CIL. GR4CIL preserves task-specific visual knowledge while maintaining an incrementally stable shared textual semantic space, thereby reducing interference across tasks. Moreover, we introduce an orthogonal compensation mechanism to mitigate modality-gap-induced bias, enhance within-task discrimination, and enlarge the score margin between the ground-truth task and competing tasks. As a result, GR4CIL enables more reliable task-aware routing over learned knowledge while retaining the zero-shot generalization capability. Experiments on multiple benchmarks show that GR4CIL consistently outperforms strong baselines.
 
 ## 核心贡献
 
-1. **任务判别与知识路由结合**: 提出 GR4CIL 框架，将任务判别与知识路由相结合用于 CLIP-based 增量学习。
-2. **正交补偿机制**: 引入正交补偿机制来缓解模态差距导致的偏差，增强任务内区分性，并扩大正确任务与竞争任务之间的分数差距。
-3. **CLIP 零样本泛化能力保留**: 在保持 CLIP 零样本泛化能力的同时实现可靠的任务感知路由。
+1. （待补充：基于摘要提炼 3-5 条核心贡献）
+2. 
+3. 
 
 ## 研究背景与问题
 
-类别增量学习（Class-Incremental Learning, CIL）旨在持续学习新类别同时保留已学知识。CLIP 模型因其强大的泛化能力在 CIL 中展现潜力，但现有方法面临两个关键挑战：
-
-- **共享参数适应**导致旧知识漂移（old-knowledge drift）
-- **任务特定知识组织**导致跨任务响应校准不佳，使可靠路由困难
+（待补充：论文要解决的核心问题是什么？为什么这个问题重要？）
 
 ## 核心方法
 
-GR4CIL 框架的核心设计：
-
-1. **任务特定视觉知识保留**: 保持任务特定的视觉知识
-2. **增量稳定的共享语义空间**: 维护一个增量稳定的共享文本语义空间，减少跨任务干扰
-3. **正交补偿机制**: 
-   - 缓解模态差距（modality gap）带来的偏差
-   - 增强任务内区分性
-   - 扩大 ground-truth 任务与竞争任务之间的分数差距
-
-## 实验结果
-
-在多个基准数据集上的实验表明，GR4CIL 一致性地优于强基线方法。
+（待补充：论文的核心方法/技术方案）
 
 ## 为什么重要
 
-这篇论文揭示了 CLIP 模型在持续学习场景下的关键挑战——模态差距与知识漂移的正交补偿机制，为构建更可靠的增量学习系统提供了新思路。
+（待补充：论文的主要贡献和意义）
 
 ## 与移动端/端侧相关性
 
-CLIP 模型在端侧设备（如移动端图片分类、AR 场景识别）中有应用前景。GR4CIL 的路由机制可以在增量加入新类别时减少对已有知识的破坏，提升端侧模型的可扩展性。
+（待补充：该研究与端侧/移动端 Agent 记忆系统的关联）

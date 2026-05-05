@@ -12,46 +12,32 @@ source: arXiv RSS/API
 ## 论文基本信息
 
 - **作者**: Qisheng Hu, Quanyu Long, Wenya Wang
-- **机构**: （待补充）
 - **arXiv**: https://arxiv.org/abs/2604.27003
-- **代码**: （待补充）
+- **领域**: cs.LG
+- **备注**: Working in progress
+
+## 摘要
+
+Memory-augmented LLM agents offer an appealing shortcut to continual learning: rather than updating model parameters, they accumulate experience in external memory, seemingly sidestepping the stability-plasticity dilemma of parametric learning. We show that this challenge does not disappear but resurfaces at the memory level. Under a limited context window, old and new experiences compete during retrieval, relocating the continual-learning bottleneck from parameter updates to memory access. To study this phenomenon, we introduce a (k,v) framework that disentangles two fundamental design axes of external memory: how experience is represented and how it is organized for retrieval. Across sequential-task experiments in ALFWorld and BabyAI, we find that abstract procedural memories transfer more reliably than detailed trajectories, while negative transfer disproportionately harms the hard cases. Moreover, finer-grained memory organization is not universally beneficial: designs that yield strong forward transfer can simultaneously induce severe forgetting. Together, these results reveal that external memory does not resolve the continual-learning problem; it reshapes it into a problem of memory representation and retrieval design.
 
 ## 核心贡献
 
-1. **揭示外部记忆并不解决持续学习问题**: 证明了外部记忆只是将持续学习瓶颈从参数更新重新塑造成记忆访问问题。
-2. **(k,v) 分析框架**: 提出了解构外部记忆两个基本设计轴的 (k,v) 框架——经验如何表示，以及如何组织用于检索。
-3. **关键发现**: 
-   - 抽象程序记忆比详细轨迹更具可迁移性
-   - 负迁移对困难案例的伤害不成比例
-   - 更细粒度的记忆组织并非普遍有益——高前向迁移的设计可能同时导致严重遗忘
+1. （待补充：基于摘要提炼 3-5 条核心贡献）
+2. 
+3. 
 
 ## 研究背景与问题
 
-记忆增强型 LLM 智能体为持续学习提供了一条有吸引力的捷径：无需更新模型参数，而是将经验积累到外部记忆中，看似绕过了参数学习中的稳定性-可塑性困境。
-
-**核心发现**: 这个挑战并没有消失，而是在记忆层面重新出现。在有限上下文窗口下，新旧经验在检索过程中相互竞争，将持续学习瓶颈从参数更新重新定位到记忆访问。
+（待补充：论文要解决的核心问题是什么？为什么这个问题重要？）
 
 ## 核心方法
 
-论文引入 **(k,v) 分析框架**，解构外部记忆的两个基本设计轴：
-
-- **k (knowledge representation)**: 经验如何表示——是抽象的程序记忆还是详细的轨迹？
-- **v (memory organization)**: 经验如何组织用于检索——记忆的结构化程度？
-
-## 实验设置
-
-在 ALFWorld 和 BabyAI 上进行序列任务实验。
-
-## 关键发现
-
-1. **抽象程序记忆比详细轨迹更可靠迁移**: 过于详细的经验记录反而阻碍迁移
-2. **负迁移对困难案例伤害不成比例**: 简单案例的干扰影响小，但困难案例会受到严重损害
-3. **细粒度组织的双刃剑效应**: 某些记忆组织设计在高前向迁移和严重遗忘之间存在权衡
+（待补充：论文的核心方法/技术方案）
 
 ## 为什么重要
 
-这篇论文是里程碑式的概念性工作——它彻底颠覆了"外部记忆可以解决持续学习问题"的假设，揭示了记忆层面的稳定性-可塑性困境本质上与参数层面是同构的。这对设计记忆增强型 Agent 系统有根本性的指导意义。
+（待补充：论文的主要贡献和意义）
 
 ## 与移动端/端侧相关性
 
-端侧 LLM Agent 在持续学习新任务时，记忆的组织和表示方式直接影响性能。本文的 (k,v) 框架可以指导端侧记忆系统的设计——选择更抽象的记忆表示（如用户偏好模式而非完整对话历史），并谨慎设计记忆组织结构以平衡前向迁移和遗忘。
+（待补充：该研究与端侧/移动端 Agent 记忆系统的关联）

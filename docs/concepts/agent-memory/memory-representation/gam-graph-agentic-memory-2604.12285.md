@@ -2,38 +2,42 @@
 title: "GAM: Hierarchical Graph-based Agentic Memory for LLM Agents"
 arXiv: 2604.12285
 date: 2026-04-14
-authors: ["Zhaofen Wu et al."]
-tags: [agent-memory, memory-representation, graph-memory, hierarchical, LLM-agents]
+tags: [agent-memory, memory-representation]
 reviewer: auto
-source: arXiv API
+source: arXiv RSS/API
 ---
 
-## 论文信息
+# GAM: Hierarchical Graph-based Agentic Memory for LLM Agents
 
-- **arXiv**: 2604.12285
-- **作者**: Zhaofen Wu, Hanrong Zhang, Fulin Lin et al.
-- **提交日期**: 2026-04-14
-- **方向**: 图形记忆 / 层次化记忆 / Agent 架构
+## 论文基本信息
 
-## 摘要（全文翻译）
+- **作者**: Zhaofen Wu, Hanrong Zhang, Fulin Lin, Wujiang Xu, Xinran Xu, +7 more
+- **arXiv**: https://arxiv.org/abs/2604.12285
+- **领域**: cs.AI
+- **备注**: 18 pages, 6 figures
 
-为维持连贯的长期交互，LLM Agent 必须在获取新信息和保留先验知识之间取得平衡。当前统一的流式记忆系统方便上下文更新，但容易受到瞬时噪声的干扰。相反，**离散结构化记忆架构**提供稳健的知识保留，但往往难以适应演化中的叙事。
+## 摘要
 
-本文提出 **GAM**，一个层次化基于图的 Agent 记忆框架，明确地将记忆编码与整合解耦，以有效解决快速上下文感知和稳定知识保留之间的冲突。
-
-通过将正在进行对话隔离在事件进展图（event progression graph）中，仅在语义转换时将其整合到主题联想网络（topic associative network），方法在最小化干扰的同时保持长期一致性。此外，引入了图引导的多因素检索策略以增强上下文预测性。
+To sustain coherent long-term interactions, Large Language Model (LLM) agents must navigate the tension between acquiring new information and retaining prior knowledge. Current unified stream-based memory systems facilitate context updates but remain vulnerable to interference from transient noise. Conversely, discrete structured memory architectures provide robust knowledge retention but often struggle to adapt to evolving narratives. To address this, we propose GAM, a hierarchical Graph-based Agentic Memory framework that explicitly decouples memory encoding from consolidation to effectively resolve the conflict between rapid context perception and stable knowledge retention. By isolating ongoing dialogue in an event progression graph and integrating it into a topic associative network only upon semantic shifts, our approach minimizes interference while preserving long-term consistency. Additionally, we introduce a graph-guided, multi-factor retrieval strategy to enhance context precision. Experiments on LoCoMo and LongDialQA indicate that our method consistently outperforms state-of-the-art baselines in both reasoning accuracy and efficiency.
 
 ## 核心贡献
 
-1. **层次化解耦**：记忆编码（快速感知）和整合（稳定保留）分开处理
-2. **事件进展图 + 主题联想网络**：双层图结构，分别处理当前对话和长期知识
-3. **图引导多因素检索**：利用图结构辅助检索，而非纯语义相似度
-4. **语义转换触发整合**：只在对话语义发生大转换时才更新长期记忆
+1. （待补充：基于摘要提炼 3-5 条核心贡献）
+2. 
+3. 
+
+## 研究背景与问题
+
+（待补充：论文要解决的核心问题是什么？为什么这个问题重要？）
+
+## 核心方法
+
+（待补充：论文的核心方法/技术方案）
 
 ## 为什么重要
 
-GAM 解决了流式记忆和结构化记忆的根本矛盾：流式记忆对噪声敏感，结构化记忆更新成本高。GAM 通过"事件图隔离 + 主题网整合"的层次化设计，在两者之间取得平衡。
+（待补充：论文的主要贡献和意义）
 
-## 与端侧/移动端的相关性
+## 与移动端/端侧相关性
 
-图结构在端侧的计算开销较高，但 GAM 的层次化设计使得只有语义转换时才触发图更新，平时只需要维护轻量级的事件进展图。这对端侧资源约束是友好的设计。
+（待补充：该研究与端侧/移动端 Agent 记忆系统的关联）

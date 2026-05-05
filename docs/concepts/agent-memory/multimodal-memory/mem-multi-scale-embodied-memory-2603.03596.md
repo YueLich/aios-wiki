@@ -2,37 +2,42 @@
 title: "MEM: Multi-Scale Embodied Memory for Vision Language Action Models"
 arXiv: 2603.03596
 date: 2026-03-04
-tags: [agent-memory, multimodal-memory, embodied-memory, robotics, vision-language-action]
+tags: [agent-memory, multimodal-memory]
 reviewer: auto
 source: arXiv RSS/API
 ---
 
+# MEM: Multi-Scale Embodied Memory for Vision Language Action Models
+
 ## 论文基本信息
 
-- **arXiv ID**: 2603.03596v2
-- **发表时间**: 2026-03-04
-- **方向**: 多模态记忆、具身智能、视觉-语言-动作模型
+- **作者**: Marcel Torne, Karl Pertsch, Homer Walke, Kyle Vedder, Suraj Nair, +12 more
+- **arXiv**: https://arxiv.org/abs/2603.03596
+- **领域**: cs.RO
+- **备注**: Website: https://pi.website/research/memory
 
-## 摘要（翻译）
+## 摘要
 
-传统上，端到端机器人学习中的记忆涉及将过去观测序列输入到学习策略中。然而，在复杂的多阶段真实世界任务中，机器人记忆必须在多个抽象层次上表示过去事件：从捕获抽象语义概念的长时记忆（如机器人做晚餐时应记住菜谱的哪些步骤已完成）到捕获近期事件并补偿遮挡的短时记忆（如机器人在手臂遮挡时仍记得要拾取的对象）。本文的核心洞察是：用于长时程机器人控制的有效记忆架构应结合多种模态来捕获不同层次的抽象。本文提出 Multi-Scale Embodied Memory（MEM），一种用于机器人策略的混合模态长时程记忆方法。MEM 将基于视频的短时记忆（通过视频编码器压缩）与基于文本的长时记忆相结合，使机器人策略能够执行长达十五分钟的任务（如整理厨房或制作烤芝士三明治）。此外，本文发现记忆使 MEM 策略能够在情境中智能地调整操作策略。
+Conventionally, memory in end-to-end robotic learning involves inputting a sequence of past observations into the learned policy. However, in complex multi-stage real-world tasks, the robot's memory must represent past events at multiple levels of granularity: from long-term memory that captures abstracted semantic concepts (e.g., a robot cooking dinner should remember which stages of the recipe are already done) to short-term memory that captures recent events and compensates for occlusions (e.g., a robot remembering the object it wants to pick up once its arm occludes it). In this work, our main insight is that an effective memory architecture for long-horizon robotic control should combine multiple modalities to capture these different levels of abstraction. We introduce Multi-Scale Embodied Memory (MEM), an approach for mixed-modal long-horizon memory in robot policies. MEM combines video-based short-horizon memory, compressed via a video encoder, with text-based long-horizon memory. Together, they enable robot policies to perform tasks that span up to fifteen minutes, like cleaning up a kitchen, or preparing a grilled cheese sandwich. Additionally, we find that memory enables MEM policies to intelligently adapt manipulation strategies in-context.
 
 ## 核心贡献
 
-1. **多尺度记忆架构（Multi-Scale Memory Architecture）**：同时维护视频压缩短时记忆（捕获近期事件与遮挡补偿）和文本长时记忆（捕获抽象任务进度），两种模态互补。
-2. **十五分钟长时程任务能力**：MEM 使机器人策略能够执行持续时间达到 15 分钟的复杂多阶段任务。
-3. **情境适应能力（In-context Adaptation）**：记忆使策略能够在执行过程中智能调整操作策略。
-4. **模态互补设计**：视频模态捕获丰富的感知细节，文本模态捕获抽象的语义进度。
+1. （待补充：基于摘要提炼 3-5 条核心贡献）
+2. 
+3. 
+
+## 研究背景与问题
+
+（待补充：论文要解决的核心问题是什么？为什么这个问题重要？）
+
+## 核心方法
+
+（待补充：论文的核心方法/技术方案）
 
 ## 为什么重要
 
-本文的核心贡献在于揭示了"单一模态无法有效覆盖记忆的所有需求"这一关键洞察。短时视频记忆和长时文本记忆各有优势——视频保留丰富的感知信息但难以压缩，文本抽象但可能丢失低层细节。MEM 通过明确分离两种记忆类型并设计互补融合机制，为长时程机器人控制提供了一个实用的记忆架构参考。
+（待补充：论文的主要贡献和意义）
 
-**与移动端/端侧的相关性**：端侧机器人（如家庭服务机器人）需要在资源受限的硬件上实现长时程记忆。MEM 的视频编码压缩方案和文本摘要机制的组合对端侧记忆系统设计有直接参考价值。此外，15 分钟任务跨度的实现证明了多尺度记忆在延长 Agent 任务 horizon 方面的有效性。
+## 与移动端/端侧相关性
 
-## 与本 Wiki 主题的关联
-
-- **多模态记忆**：视频+文本的混合模态记忆架构
-- **记忆的表示与存储**：多尺度抽象（语义层 vs. 感知层）的记忆表示
-- **具身记忆**：机器人控制场景下的记忆系统设计
-- **记忆的压缩与遗忘**：视频信息的压缩编码与选择性存储
+（待补充：该研究与端侧/移动端 Agent 记忆系统的关联）

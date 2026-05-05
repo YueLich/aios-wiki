@@ -2,53 +2,42 @@
 title: "Persistent Visual Memory: Sustaining Perception for Deep Generation in LVLMs"
 arXiv: 2605.00814
 date: 2026-05-01
-authors: ["Siyuan Huang", "Xiaoye Qu", "Yafu Li", "Tong Zhu", "Zefeng He"]
-tags: [agent-memory, multimodal-memory, vision-language, LVLM, visual-attention]
+tags: [agent-memory, multimodal-memory]
 reviewer: auto
-source: arXiv API
+source: arXiv RSS/API
 ---
 
-# Persistent Visual Memory: 维持 LVLM 深度生成中的持续视觉感知
+# Persistent Visual Memory: Sustaining Perception for Deep Generation in LVLMs
 
-## 论文概览
+## 论文基本信息
 
-**核心问题**：当前大型视觉-语言模型（LVLM）在生成文本时面临 **"视觉信号稀释"（Visual Signal Dilution）** 问题：随着文本历史的累积，注意力分配给视觉 token 的比例不断下降，导致视觉信息在长序列生成过程中逐渐被稀释。
+- **作者**: Siyuan Huang, Xiaoye Qu, Yafu Li, Tong Zhu, Zefeng He, +4 more
+- **arXiv**: https://arxiv.org/abs/2605.00814
+- **领域**: cs.CV
 
-**核心发现**：视觉稀释的根本原因是自回归生成中注意力分数的**竞争性分配**——文本 token 数量远超视觉 token，注意力竞争使视觉信息逐渐被边缘化。
 
-## 背景问题
+## 摘要
 
-LVLM（如 LLaVA、InstructBLIP 等）结合了视觉编码器和语言模型，能处理多模态输入。然而在**生成阶段**，当生成长文本时，视觉信息（图像特征）面临被文本 token 稀释的风险。
-
-具体来说：随着生成序列变长，attention 机制在视觉 token 和文本 token 之间分配注意力权重。由于文本 token 数量呈线性增长，累积的文本注意力分数会逐渐超过视觉注意力，使模型越来越依赖已生成的文本而非原始视觉输入。这在以下场景尤为严重：
-- 长描述生成
-- 多轮对话
-- 视觉问答的长答案
-
-## 核心方法：Persistent Visual Memory (PVM)
-
-论文提出 **PVM**，一个轻量级可学习的持久视觉记忆模块，确保持续、按需的视觉感知。核心设计：
-
-### 1. 独立于 FFN 的记忆路径
-PVM 作为与 LVLM 前馈网络（FFN）并行的分支集成，建立了一条**距离无关的检索路径**，直接为精确视觉感知提供视觉嵌入，从结构上缓解了深度生成中固有的信号抑制。
-
-### 2. 持久化视觉锚定
-通过可学习的视觉锚点（visual anchors），将原始视觉信息持久存储在专门的高维记忆中，不随文本生成而衰减。
-
-### 3. 自适应门控机制
-动态决定每个生成步骤是否需要从视觉记忆中检索信息，实现计算效率与信息保留的平衡。
+While autoregressive Large Vision-Language Models (LVLMs) demonstrate remarkable proficiency in multimodal tasks, they face a "Visual Signal Dilution" phenomenon, where the accumulation of textual history expands the attention partition function, causing visual attention to decay inversely with generated sequence length. To counteract this, we propose Persistent Visual Memory (PVM), a lightweight learnable module designed to ensure sustained, on-demand visual perception. Integrated as a parallel branch alongside the Feed-Forward Network (FFN) in LVLMs, PVM establishes a distance-agnostic retrieval pathway that directly provides visual embeddings for precise visual perception, thereby structurally mitigating the signal suppression inherent to deep generation. Extensive experiments on Qwen3-VL models demonstrate that PVM brings notable improvements with negligible parameter overhead, delivering consistent average accuracy gains across both 4B and 8B scales, particularly in complex reasoning tasks that demand persistent visual perception. Furthermore, in-depth analysis reveals that PVM can resist length-induced signal decay and accelerate internal prediction convergence.
 
 ## 核心贡献
 
-1. **首次形式化定义 LVLM 中的"视觉信号稀释"问题**，并系统分析其机制
-2. **提出 PVM 框架**，在不影响文本生成能力的前提下持久保持视觉信息
-3. **揭示了长序列生成中视觉注意力衰减的规律**，为多模态记忆研究提供了新视角
-4. **轻量级设计**：PVM 模块参数量小，适合端侧部署
+1. （待补充：基于摘要提炼 3-5 条核心贡献）
+2. 
+3. 
+
+## 研究背景与问题
+
+（待补充：论文要解决的核心问题是什么？为什么这个问题重要？）
+
+## 核心方法
+
+（待补充：论文的核心方法/技术方案）
 
 ## 为什么重要
 
-这篇论文将"遗忘"问题从传统 NLP 领域扩展到**视觉模态**——之前的遗忘研究主要关注文本知识被覆盖，但视觉信息在生成过程中被稀释是一个同等重要但被忽视的问题。对于需要长视觉描述、移动端多轮交互的应用，PVM 提供了一个高效的解决思路。
+（待补充：论文的主要贡献和意义）
 
-## 端侧/移动端相关性
+## 与移动端/端侧相关性
 
-移动端的多模态 AI 助手（如相册搜索、视觉问答、AR 辅助）需要处理长序列的多模态对话。视觉信号的持久化意味着模型能更好地"记住"用户分享的图片内容，在多轮对话中保持视觉一致性。PVM 的轻量级设计使其适合在移动端部署。
+（待补充：该研究与端侧/移动端 Agent 记忆系统的关联）

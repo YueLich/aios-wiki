@@ -9,8 +9,12 @@ source: arXiv RSS/API
 
 # When Does Structure Matter in Continual Learning? Dimensionality Controls When Modularity Shapes Representational Geometry
 
-**作者:** Kathrin Korte, Joachim Winter Pedersen, Eleni Nisioti, Sebastian Risi  
-**发表:** 2026-04-30
+## 论文基本信息
+
+- **作者**: Kathrin Korte, Joachim Winter Pedersen, Eleni Nisioti, Sebastian Risi
+- **arXiv**: https://arxiv.org/abs/2604.27656
+- **领域**: cs.LG
+
 
 ## 摘要
 
@@ -18,16 +22,22 @@ To preserve previously learned representations, continual learning systems must 
 
 ## 核心贡献
 
-（待补充：本文的核心创新点和方法论）
+1. （待补充：基于摘要提炼 3-5 条核心贡献）
+2. 
+3. 
+
+## 研究背景与问题
+
+（待补充：论文要解决的核心问题是什么？为什么这个问题重要？）
+
+## 核心方法
+
+（待补充：论文的核心方法/技术方案）
 
 ## 为什么重要
 
-（待补充：本文在领域中的重要性和影响）
+（待补充：论文的主要贡献和意义）
 
-## 与端侧/移动端相关性
+## 与移动端/端侧相关性
 
-（待补充：本文方法对端侧部署的意义）
-
-## 关键文献
-
-（待补充：相关工作和引用）
+（待补充：该研究与端侧/移动端 Agent 记忆系统的关联）

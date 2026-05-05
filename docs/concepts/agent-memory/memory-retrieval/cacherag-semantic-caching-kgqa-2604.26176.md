@@ -2,50 +2,42 @@
 title: "CacheRAG: A Semantic Caching System for Retrieval-Augmented Generation in Knowledge Graph Question Answering"
 arXiv: 2604.26176
 date: 2026-04-28
-tags: [agent-memory, memory-retrieval, RAG, KGQA]
+tags: [agent-memory, memory-retrieval]
 reviewer: auto
-source: arXiv API
+source: arXiv RSS/API
 ---
+
+# CacheRAG: A Semantic Caching System for Retrieval-Augmented Generation in Knowledge Graph Question Answering
 
 ## 论文基本信息
 
 - **作者**: Yushi Sun, Lei Chen
-- **发表**: 2026-04-28
-- **方向**: 记忆检索 · KGQA · 语义缓存
+- **arXiv**: https://arxiv.org/abs/2604.26176
+- **领域**: cs.DB
 
-## 摘要（翻译）
 
-大型语言模型（LLM）与检索增强生成（RAG）的集成显著推动了知识图谱问答（KGQA）的发展。然而，现有 LLM 驱动的 KGQA 系统是**无状态的规划器**，孤立地生成检索计划，而不利用历史查询模式——类似于数据库系统每次从头优化每个查询而不使用计划缓存。这种根本性设计缺陷导致模式幻觉和有限的检索覆盖。
+## 摘要
 
-本文提出 **CacheRAG**，一种用于 LLM-based KGQA 的系统化缓存增强架构，将无状态规划器转变为持续学习者。与传统数据库计划缓存（以频率为优化目标）不同，CacheRAG 引入了三个专为 LLM 场景设计的新原则：
-
-1. **模式无关的用户界面**：通过中间语义表示（ISR）的两阶段语义解析框架，使用户能够纯自然语言交互，同时后端适配器将 LLM 与本地模式上下文对接，编译可执行的物理查询
-2. **多样性优化的缓存检索**：结合领域→方面的双层层次索引与最大边际相关性（MMR），最大化缓存示例的结构多样性，有效缓解推理同质化
-3. **有界启发式扩展**：确定性深度和广度子图算子，具有严格复杂性保证，在不冒险无限 API 执行的情况下显著提高检索召回率
-
-在多个基准测试上的广泛实验表明，CacheRAG 在 CRAG 数据集上显著超越最新基线（准确率 +13.2%，真实性 +17.5%）。
+The integration of Large Language Models (LLMs) with Retrieval-Augmented Generation (RAG) has significantly advanced Knowledge Graph Question Answering (KGQA). However, existing LLM-driven KGQA systems act as stateless planners, generating retrieval plans in isolation without exploiting historical query patterns: analogous to a database system that optimizes every query from scratch without a plan cache. This fundamental design flaw leads to schema hallucinations and limited retrieval coverage. We propose CacheRAG, a systematic cache-augmented architecture for LLM-based KGQA that transforms stateless planners into continual learners. Unlike traditional database plan caching (which optimizes for frequency), CacheRAG introduces three novel design principles tailored for LLM contexts: (1) Schema-agnostic user interface: A two-stage semantic parsing framework via Intermediate Semantic Representation (ISR) enables non-expert users to interact purely in natural language, while a Backend Adapter grounds the LLM with local schema context to compile executable physical queries safely. (2) Diversity-optimized cache retrieval: A two-layer hierarchical index (Domain $\rightarrow$ Aspect) coupled with Maximal Marginal Relevance (MMR) maximizes structural variety in cached examples, effectively mitigating reasoning homogeneity. (3) Bounded heuristic expansion: Deterministic depth and breadth subgraph operators with strict complexity guarantees significantly enhance retrieval recall without risking unbounded API execution. Extensive experiments on multiple benchmarks demonstrate that CacheRAG significantly outperforms state-of-the-art baselines (e.g., +13.2% accuracy and +17.5% truthfulness on the CRAG dataset).
 
 ## 核心贡献
 
-1. **将缓存机制引入 LLM KGQA**：首次系统性地将语义缓存用于 LLM 驱动的知识图谱问答
-2. **两阶段语义解析（ISR）**：解耦自然语言接口与物理执行计划，兼顾灵活性与安全性
-3. **多样性优化的缓存检索**：防止缓存返回结构单一的相似结果，保障推理多样性
-4. **有界启发式扩展**：为子图展开设置硬性复杂度上限，避免 RAG 中的无限循环问题
+1. （待补充：基于摘要提炼 3-5 条核心贡献）
+2. 
+3. 
+
+## 研究背景与问题
+
+（待补充：论文要解决的核心问题是什么？为什么这个问题重要？）
+
+## 核心方法
+
+（待补充：论文的核心方法/技术方案）
 
 ## 为什么重要
 
-当前 RAG 系统将每次查询视为独立事件，忽略了真实世界 KGQA 中用户会围绕相似主题反复提问的规律。CacheRAG 通过缓存历史查询的语义结构和检索计划，使系统能够：
-- 避免重复生成相似查询的检索计划
-- 利用历史上下文减少模式幻觉
-- 在复杂多跳查询上实现更高的准确率和真实性
+（待补充：论文的主要贡献和意义）
 
-## 与移动端/端侧的相关性
+## 与移动端/端侧相关性
 
-KGQA 场景的 RAG 系统在移动端有直接应用价值：
-- 手机助手查询本地知识图谱（如联系人、日程、备忘录）
-- 隐私敏感的问答场景不希望每次都访问云端
-- 语义缓存可显著降低移动端的延迟和云端 API 调用次数
-
----
-
-*注：本文从 nav 条目补全，原文件缺失。*
+（待补充：该研究与端侧/移动端 Agent 记忆系统的关联）

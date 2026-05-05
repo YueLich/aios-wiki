@@ -2,63 +2,42 @@
 title: "Continual Learning of Feedback-based Molecular Communication"
 arXiv: 2605.01020
 date: 2026-05-01
-authors: ["Siddhant Setia", "Junichi Suzuki", "Tadashi Nakano"]
-tags: [agent-memory, continual-learning, molecular-communication, bio-inspired, feedback-systems]
+tags: [agent-memory, continual-learning]
 reviewer: auto
-source: arXiv API
+source: arXiv RSS/API
 ---
 
 # Continual Learning of Feedback-based Molecular Communication
 
-## 论文概览
+## 论文基本信息
 
-**核心问题**：分子通信（Molecular Communication, MC）是一种利用分子信息承载信号的通信范式，在体内纳米网络、植入式医疗设备、环境监测等领域有重要应用。如何在 MC 协议中实现持续学习，使系统能够从反馈信号中逐步适应动态变化的信道环境，是一个未被充分研究的问题。
+- **作者**: Siddhant Setia, Junichi Suzuki, Tadashi Nakano
+- **arXiv**: https://arxiv.org/abs/2605.01020
+- **领域**: cs.LG
+- **备注**: 16 pages, 5 figures. To be published in Proceedings of International Conference on Bio-inspired Information and Communications Technologies 2025
 
-**核心贡献**：首次将持续学习算法应用于反馈型分子通信协议的性能估算，实现了对顺序到达的反馈信号的增量学习，无需全量重新训练。
+## 摘要
 
-## 背景问题
-
-### 分子通信基础
-分子通信通过释放和检测特定分子（如葡萄糖、钙离子、神经递质）来传递信息。其核心挑战包括：
-- **信道时变性**：生物体内环境随时间变化，导致信道特性漂移
-- **反馈延迟**：分子在流体中的扩散延迟导致反馈信号到达慢
-- **顺序学习需求**：MC 系统的参数调优通常需要大量离线实验，难以在实际部署中频繁重训
-
-### 持续学习的引入
-传统的 MC 系统设计假设信道特性固定，但这在真实的生物环境中不成立。本文首次将持续学习框架引入 MC 系统，提出：能否通过分析顺序到达的反馈数据，增量更新 MC 系统的参数估计模型？
-
-## 核心方法
-
-### 反馈型 MC 协议
-论文考虑的协议包含：
-- 发射端根据反馈调整分子释放策略
-- 信道中的扩散和传输引入延迟和失真
-- 接收端检测分子浓度并向发射端发送反馈
-- 系统需要从"发射-反馈-调整"的循环中学习信道模型
-
-### 持续学习算法选择
-论文评估了多种 CL 算法在 MC 反馈信号上的适用性：
-- **弹性权重固化（EWC）**：对关键突触权重进行保护
-- **记忆重放（Memory Replay）**：存储一小部分历史样本用于重放
-- **渐进神经网络（Progressive Neural Networks）**：为新任务扩展网络容量
-- **学习而不遗忘（LwF）**：用蒸馏损失保留旧知识
-
-### 增量性能估算
-核心创新是将 MC 系统的性能指标（如传输可靠性、延迟、吞吐量）建模为信道状态和系统参数的函数，然后使用 CL 算法增量更新这个性能模型，使其能够跟踪信道演化。
+This paper proposes and evaluates a new performance estimation method that leverages continual learning (CL) algorithms to carry out sequential simulation experiments for a feedback-based molecular communication protocol. As the protocol is sequentially examined in various experimental settings, the proposed CL-based performance estimators incrementally learn a series of unexperienced estimation tasks without compromising those that have been learned in the past. They are designed to work on a standard neural network architecture by customizing regularization and replay strategies in the loss function. Experimental results demonstrate that the proposed estimators can effectively learn on a continuous stream of simulation results and enhance the baseline neural network by improving estimation accuracy at a variety of computational costs. This paper's contribution is to establish the implications of CL in the field of molecular communication.
 
 ## 核心贡献
 
-1. **首个将持续学习应用于分子通信的研究**，建立了 MC 系统设计与 CL 算法的交叉
-2. **增量性能估算框架**：解决了 MC 系统中反馈信号顺序到达时的模型更新问题
-3. **验证了 CL 算法在生物通信系统中的可行性**，为体内纳米网络的在线自适应提供了理论基础
-4. **实验表明 CL 方法在 MC 场景下能有效跟踪信道漂移**，显著优于静态模型
+1. （待补充：基于摘要提炼 3-5 条核心贡献）
+2. 
+3. 
+
+## 研究背景与问题
+
+（待补充：论文要解决的核心问题是什么？为什么这个问题重要？）
+
+## 核心方法
+
+（待补充：论文的核心方法/技术方案）
 
 ## 为什么重要
 
-这篇论文的意义在于：它将持续学习从典型的神经网络训练场景扩展到了一个全新的物理通信系统领域。它证明了 CL 的核心思想（从非平稳数据流中增量学习、避免灾难性遗忘）可以迁移到分子级别的通信系统中。这为**嵌入式/体内 AI 系统**的持续自适应提供了新思路。
+（待补充：论文的主要贡献和意义）
 
-## 端侧/移动端相关性
+## 与移动端/端侧相关性
 
-虽然分子通信主要是生物医学工程方向，但其核心思想——**在资源受限的环境中从顺序反馈中增量学习**——与端侧持续学习高度相关。此外，论文中评估的 CL 算法在资源占用、计算复杂度上的差异，对移动端/嵌入式持续学习系统的设计有直接参考价值。
-
-对于可穿戴/可植入设备的在线学习，本文的增量学习方法比全量重训练更符合实际资源约束。
+（待补充：该研究与端侧/移动端 Agent 记忆系统的关联）

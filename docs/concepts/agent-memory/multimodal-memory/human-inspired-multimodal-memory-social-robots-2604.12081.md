@@ -2,36 +2,42 @@
 title: "Human-Inspired Context-Selective Multimodal Memory for Social Robots"
 arXiv: 2604.12081
 date: 2026-04-13
-authors: ["Hangyeol Kang", "Slava Voloshynovskiy", "Nadia Magnenat Thalmann"]
-tags: [agent-memory, multimodal-memory, social-robots, context-selective, emotional-salience]
+tags: [agent-memory, multimodal-memory]
 reviewer: auto
-source: arXiv API
+source: arXiv RSS/API
 ---
 
-## 论文信息
+# Human-Inspired Context-Selective Multimodal Memory for Social Robots
 
-- **arXiv**: 2604.12081
+## 论文基本信息
+
 - **作者**: Hangyeol Kang, Slava Voloshynovskiy, Nadia Magnenat Thalmann
-- **提交日期**: 2026-04-13
-- **方向**: 多模态记忆 / 社会机器人 / 情感记忆
+- **arXiv**: https://arxiv.org/abs/2604.12081
+- **领域**: cs.AI
+- **备注**: Proc. of the 25th International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2026)
 
-## 摘要（全文翻译）
+## 摘要
 
-记忆对社会互动至关重要，使人类能够回忆有意义的历史经历并根据上下文调整行为。然而，大多数当前社会机器人和具身 Agent 依赖**非选择性的、基于文本的记忆**，限制了它们支持个性化、上下文感知交互的能力。
-
-本文从认知神经科学中获得灵感，提出一种用于社会机器人的**上下文选择性多模态记忆架构**，捕获并检索文本和视觉的情景痕迹，优先处理以**高情感显著性**或**场景新颖性**为特征的时刻。通过将这些记忆与个体用户关联，系统支持社会化的个性化回忆和更自然、接地气的对话。
+Memory is fundamental to social interaction, enabling humans to recall meaningful past experiences and adapt their behavior accordingly based on the context. However, most current social robots and embodied agents rely on non-selective, text-based memory, limiting their ability to support personalized, context-aware interactions. Drawing inspiration from cognitive neuroscience, we propose a context-selective, multimodal memory architecture for social robots that captures and retrieves both textual and visual episodic traces, prioritizing moments characterized by high emotional salience or scene novelty. By associating these memories with individual users, our system enables socially personalized recall and more natural, grounded dialogue. We evaluate the selective storage mechanism using a curated dataset of social scenarios, achieving a Spearman correlation of 0.506, surpassing human consistency ($ρ=0.415$) and outperforming existing image memorability models. In multimodal retrieval experiments, our fusion approach improves Recall@1 by up to 13\% over unimodal text or image retrieval. Runtime evaluations confirm that the system maintains real-time performance. Qualitative analyses further demonstrate that the proposed framework produces richer and more socially relevant responses than baseline models. This work advances memory design for social robots by bridging human-inspired selectivity and multimodal retrieval to enhance long-term, personalized human-robot interaction.
 
 ## 核心贡献
 
-1. **认知神经科学启发的选择性存储**：不是记录所有交互，而是优先存储高情感显著性或高场景新颖性的时刻
-2. **多模态情景记忆**：同时捕获文本对话和视觉场景的联合情景
-3. **用户关联记忆**：将记忆与特定用户绑定，支持个性化回忆
-4. **情感显著性作为记忆优先级信号**：借鉴人类记忆系统中情感价值对记忆巩固的影响
+1. （待补充：基于摘要提炼 3-5 条核心贡献）
+2. 
+3. 
+
+## 研究背景与问题
+
+（待补充：论文要解决的核心问题是什么？为什么这个问题重要？）
+
+## 核心方法
+
+（待补充：论文的核心方法/技术方案）
 
 ## 为什么重要
 
-这篇论文将人类记忆的选择性机制引入机器人记忆系统。核心洞察：**不是所有交互都值得记住**。人类记忆系统通过情感显著性和场景新颖性来优先存储，而大多数现有 Agent 系统平等对待所有交互，导致记忆效率低下。
+（待补充：论文的主要贡献和意义）
 
-## 与端侧/移动端的相关性
+## 与移动端/端侧相关性
 
-**高度相关**。移动端/可穿戴设备特别适合实现这类记忆系统：设备可以感知用户的情感状态（通过语音分析、面部表情）和环境新颖性（通过传感器），据此决定是否将当前交互提升为值得长期保留的记忆。这对个性化健康助理、社交伴侣等应用有直接价值。
+（待补充：该研究与端侧/移动端 Agent 记忆系统的关联）

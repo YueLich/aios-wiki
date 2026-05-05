@@ -9,8 +9,12 @@ source: arXiv RSS/API
 
 # Cortex-Inspired Continual Learning: Unsupervised Instantiation and Recovery of Functional Task Networks
 
-**作者:** Kevin McKee, Thomas Hazy, Yicong Zheng, Zacharie Bugaud, Thomas Miconi  
-**发表:** 2026-04-27
+## 论文基本信息
+
+- **作者**: Kevin McKee, Thomas Hazy, Yicong Zheng, Zacharie Bugaud, Thomas Miconi
+- **arXiv**: https://arxiv.org/abs/2604.24637
+- **领域**: cs.LG
+- **备注**: 16 pages, 15 figures
 
 ## 摘要
 
@@ -18,16 +22,22 @@ Block-sequential continual learning demands that a single model both protect pri
 
 ## 核心贡献
 
-（待补充：本文的核心创新点和方法论）
+1. （待补充：基于摘要提炼 3-5 条核心贡献）
+2. 
+3. 
+
+## 研究背景与问题
+
+（待补充：论文要解决的核心问题是什么？为什么这个问题重要？）
+
+## 核心方法
+
+（待补充：论文的核心方法/技术方案）
 
 ## 为什么重要
 
-（待补充：本文在领域中的重要性和影响）
+（待补充：论文的主要贡献和意义）
 
-## 与端侧/移动端相关性
+## 与移动端/端侧相关性
 
-（待补充：本文方法对端侧部署的意义）
-
-## 关键文献
-
-（待补充：相关工作和引用）
+（待补充：该研究与端侧/移动端 Agent 记忆系统的关联）

@@ -2,38 +2,42 @@
 title: "IMPACT-CYCLE: A Contract-Based Multi-Agent System for Claim-Level Supervisory Correction of Long-Video Semantic Memory"
 arXiv: 2604.20136
 date: 2026-04-22
-authors: ["Weitong Kong et al."]
-tags: [agent-memory, multimodal-memory, long-video, semantic-memory, multi-agent, claim-maintenance]
+tags: [agent-memory, multimodal-memory]
 reviewer: auto
-source: arXiv API
+source: arXiv RSS/API
 ---
 
-## 论文信息
+# IMPACT-CYCLE: A Contract-Based Multi-Agent System for Claim-Level Supervisory Correction of Long-Video Semantic Memory
 
-- **arXiv**: 2604.20136
-- **作者**: Weitong Kong, Di Wen, Kunyu Peng, David Schneider et al.
-- **提交日期**: 2026-04-22
-- **方向**: 长视频理解 / 语义记忆 / 多 Agent 系统
+## 论文基本信息
 
-## 摘要（全文翻译）
+- **作者**: Weitong Kong, Di Wen, Kunyu Peng, David Schneider, Zeyun Zhong, +8 more
+- **arXiv**: https://arxiv.org/abs/2604.20136
+- **领域**: cs.CV
+- **备注**: 7 pages, 2 figures, code are available at https://github.com/MKong17/IMPACT_CYCLE
 
-修正长视频理解的错误代价极高：现有的多模态管道产生不透明、端到端输出的输出，没有中间状态供检查，迫使注释者从头重访原始视频并从零重建时序逻辑。核心瓶颈不仅是生成质量，还在于缺乏**监督界面**——人类努力与每个错误的范围成正比。
+## 摘要
 
-本文提出 **IMPACT-CYCLE**，一个监督多 Agent 系统，将长视频理解重新表述为**迭代声明级语义记忆维护**——一种结构化的、带版本的记忆状态，编码类型化声明、声明依赖图和溯源日志。在明确的权威合约下运作的角色专业化 Agent 将验证工作分解为声明提取、依赖分析、错误定位和修正协调。
+Correcting errors in long-video understanding is disproportionately costly: existing multimodal pipelines produce opaque, end-to-end outputs that expose no intermediate state for inspection, forcing annotators to revisit raw video and reconstruct temporal logic from scratch. The core bottleneck is not generation quality alone, but the absence of a supervisory interface through which human effort can be proportional to the scope of each error. We present IMPACT-CYCLE, a supervisory multi-agent system that reformulates long-video understanding as iterative claim-level maintenance of a shared semantic memory -- a structured, versioned state encoding typed claims, a claim dependency graph, and a provenance log. Role-specialized agents operating under explicit authority contracts decompose verification into local object-relation correctness, cross-temporal consistency, and global semantic coherence, with corrections confined to structurally dependent claims. When automated evidence is insufficient, the system escalates to human arbitration as the supervisory authority with final override rights; dependency-closure re-verification then ensures correction cost remains proportional to error scope. Experiments on VidOR show substantially improved downstream reasoning (VQA: 0.71 to 0.79) and a 4.8x reduction in human arbitration cost, with workload significantly lower than manual annotation. Code will be released at https://github.com/MKong17/IMPACT_CYCLE.
 
 ## 核心贡献
 
-1. **声明级语义记忆**：将视频理解分解为结构化的类型化声明，而非端到端生成
-2. **声明依赖图**：显式建模声明之间的关系，支持精确定位错误范围
-3. **权威合约约束的 Agent**：不同角色（提取、验证、修正）通过合约明确分工
-4. **迭代修正循环**：声明状态可版本化，支持人类按需介入
+1. （待补充：基于摘要提炼 3-5 条核心贡献）
+2. 
+3. 
+
+## 研究背景与问题
+
+（待补充：论文要解决的核心问题是什么？为什么这个问题重要？）
+
+## 核心方法
+
+（待补充：论文的核心方法/技术方案）
 
 ## 为什么重要
 
-IMPACT-CYCLE 的核心贡献是**将视频理解从端到端生成转变为结构化记忆维护**。这使得错误修正变得可追踪、可分解——不再需要重访原始视频从头重建逻辑，而是直接定位到特定声明进行修正。
+（待补充：论文的主要贡献和意义）
 
-对于 Agent 记忆系统，这提供了一种**结构化记忆维护**的思路：记忆不应该是扁平的文档集合，而应该是有类型、有依赖关系、可版本化的结构化状态。
+## 与移动端/端侧相关性
 
-## 与端侧/移动端的相关性
-
-声明级记忆的思路对端侧记忆系统的设计有启发：设备端可以维护结构化的用户记忆状态（如"用户喜欢咖啡"是一个类型化声明，有来源和置信度），而非简单的键值存储。这样当用户偏好变化时，可以追踪具体哪个声明需要更新，而非重新处理整个历史。
+（待补充：该研究与端侧/移动端 Agent 记忆系统的关联）

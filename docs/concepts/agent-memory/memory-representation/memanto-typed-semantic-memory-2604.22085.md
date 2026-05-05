@@ -2,38 +2,42 @@
 title: "Memanto: Typed Semantic Memory with Information-Theoretic Retrieval for Long-Horizon Agents"
 arXiv: 2604.22085
 date: 2026-04-23
-authors: ["Seyed Moein Abtahi et al."]
-tags: [agent-memory, memory-representation, typed-memory, information-theory, knowledge-graph-alternative]
+tags: [agent-memory, memory-representation]
 reviewer: auto
-source: arXiv API
+source: arXiv RSS/API
 ---
 
-## 论文信息
+# Memanto: Typed Semantic Memory with Information-Theoretic Retrieval for Long-Horizon Agents
 
-- **arXiv**: 2604.22085
-- **作者**: Seyed Moein Abtahi, Rasa Rahnema, Hetkumar Patel et al.
-- **提交日期**: 2026-04-23
-- **方向**: 类型化语义记忆 / 信息论检索 / 长程 Agent
+## 论文基本信息
 
-## 摘要（全文翻译）
+- **作者**: Seyed Moein Abtahi, Rasa Rahnema, Hetkumar Patel, Neel Patel, Majid Fekri, +1 more
+- **arXiv**: https://arxiv.org/abs/2604.22085
+- **领域**: cs.AI
+- **备注**: 13 Pages, 10 Tables, 8 Figures
 
-从无状态语言模型推理到持久化多会话自主 Agent 的转变揭示了记忆成为生产级 Agent 系统部署的主要架构瓶颈。
+## 摘要
 
-现有方法主要依赖混合语义图架构，在摄取和检索阶段都产生大量计算开销——需要 LLM 介导的实体提取、显式图模式维护和多查询检索管道。
-
-本文提出 **Memanto**，一个挑战"知识图谱复杂性是实现高保真 Agent 记忆的必要条件"这一流行假设的通用 Agent 记忆层。Memanto 集成了**13 种预定义记忆类别的类型化语义记忆模式**、自动冲突解决机制和时间版本控制。这些组件由 Moorcheh 的信息论搜索引擎启用。
+The transition from stateless language model inference to persistent, multi session autonomous agents has revealed memory to be a primary architectural bottleneck in the deployment of production grade agentic systems. Existing methodologies largely depend on hybrid semantic graph architectures, which impose substantial computational overhead during both ingestion and retrieval. These systems typically require large language model mediated entity extraction, explicit graph schema maintenance, and multi query retrieval pipelines. This paper introduces Memanto, a universal memory layer for agentic artificial intelligence that challenges the prevailing assumption that knowledge graph complexity is necessary to achieve high fidelity agent memory. Memanto integrates a typed semantic memory schema comprising thirteen predefined memory categories, an automated conflict resolution mechanism, and temporal versioning. These components are enabled by Moorcheh's Information Theoretic Search engine, a no indexing semantic database that provides deterministic retrieval within sub ninety millisecond latency while eliminating ingestion delay. Through systematic benchmarking on the LongMemEval and LoCoMo evaluation suites, Memanto achieves state of the art accuracy scores of 89.8 percent and 87.1 percent respectively. These results surpass all evaluated hybrid graph and vector based systems while requiring only a single retrieval query, incurring no ingestion cost, and maintaining substantially lower operational complexity. A five stage progressive ablation study is presented to quantify the contribution of each architectural component, followed by a discussion of the implications for scalable deployment of agentic memory systems.
 
 ## 核心贡献
 
-1. **13 种预定义记忆类型**：超越简单的实体-关系图，用类型化的记忆模式捕获不同类别的经验
-2. **无需 LLM 的信息论检索**：用 Moorcheh 引擎替代 LLM 介导的实体提取和检索，降低计算开销
-3. **自动冲突解决**：同一事实的多个矛盾版本自动检测和解决
-4. **时间版本控制**：记忆随时间演化，支持回溯到特定时间点的记忆状态
+1. （待补充：基于摘要提炼 3-5 条核心贡献）
+2. 
+3. 
+
+## 研究背景与问题
+
+（待补充：论文要解决的核心问题是什么？为什么这个问题重要？）
+
+## 核心方法
+
+（待补充：论文的核心方法/技术方案）
 
 ## 为什么重要
 
-Memanto 挑战了"高保真 Agent 记忆 = 复杂知识图谱"的假设。通过类型化记忆和信息论检索，它用更简单的架构实现了高保真记忆，同时避免了 LLM 调用开销。这对端侧 Agent 特别有意义。
+（待补充：论文的主要贡献和意义）
 
-## 与端侧/移动端的相关性
+## 与移动端/端侧相关性
 
-Memanto 的"无 LLM 检索"设计对端侧部署极为友好。13 种预定义记忆类型覆盖了大多数 Agent 场景，设备端可以在不调用云端 LLM 的情况下维护和检索记忆。
+（待补充：该研究与端侧/移动端 Agent 记忆系统的关联）
