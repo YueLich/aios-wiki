@@ -9,25 +9,25 @@ source: arXiv RSS/API
 
 # Towards Benign Memory Forgetting for Selective Multimodal Large Language Model Unlearning
 
-## 论文基本信息
-
-- **arXiv ID**: 2511.20196
-- **提交日期**: 25 Nov 2025
-- **作者**: Zhen Zeng, Leijiang Gu, Zhangling Duan, Feng Li, Zenglin Shi
-- **方向**: Agent 记忆系统 · 记忆压缩
+**作者:** Zhen Zeng, Leijiang Gu, Zhangling Duan, Feng Li, Zenglin Shi et al.  
+**发表:** 2025-11-25
 
 ## 摘要
 
- Abstract:Multimodal Large Language Models (MLLMs) achieve remarkable capabilities but can inadvertently memorize privacy-sensitive information. Although existing unlearning methods can remove such knowledge, they fail to achieve benign forgetting because they often degrade the model&#39;s general image understanding performance. To address this, we propose the Sculpted Memory Forgetting Adapter (SMFA), which confines forgetting to targeted memory regions while preserving overall capabilities. SMFA first fine-tunes the model to replace sensitive responses with refusals, yielding a memory forget
+Multimodal Large Language Models (MLLMs) achieve remarkable capabilities but can inadvertently memorize privacy-sensitive information. Although existing unlearning methods can remove such knowledge, they fail to achieve benign forgetting because they often degrade the model's general image understanding performance. To address this, we propose the Sculpted Memory Forgetting Adapter (SMFA), which confines forgetting to targeted memory regions while preserving overall capabilities. SMFA first fine-tunes the model to replace sensitive responses with refusals, yielding a memory forgetting adapter, and then applies a retaining anchor-guided masking mechanism to prevent interference with unrelated knowledge and understanding ability. To systematically evaluate selective MLLM unlearning, we introduce S-MLLMUn Bench, the first benchmark designed to jointly assess the removal of sensitive knowledge and retention of general visual understanding. Extensive experiments show that, unlike prior methods, SMFA achieves precise and controllable unlearning while maintaining the model's foundational image understanding.
 
 ## 核心贡献
 
-> 待补充：本文的具体技术贡献和分析
+（待补充：本文的核心创新点和方法论）
 
 ## 为什么重要
 
-> 待补充：本文在 Agent 记忆系统研究领域的意义
+（待补充：本文在领域中的重要性和影响）
 
-## 端侧/移动端相关性
+## 与端侧/移动端相关性
 
-> 待补充：本文方法对端侧/移动端部署的意义
+（待补充：本文方法对端侧部署的意义）
+
+## 关键文献
+
+（待补充：相关工作和引用）

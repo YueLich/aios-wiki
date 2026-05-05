@@ -2,35 +2,33 @@
 title: "ImageHD: Energy-Efficient On-Device Continual Learning of Visual Representations via Hyperdimensional Computing"
 arXiv: 2604.21280
 date: 2026-04-23
-authors: ["Jebacyril Arockiaraj", "Dhruv Parikh", "Viktor Prasanna"]
-tags: [agent-memory, continual-learning, on-device, hyperdimensional-computing, edge-AI]
+tags: [agent-memory, continual-learning]
 reviewer: auto
-source: arXiv API
+source: arXiv RSS/API
 ---
 
-## 论文信息
+# ImageHD: Energy-Efficient On-Device Continual Learning of Visual Representations via Hyperdimensional Computing
 
-- **arXiv**: 2604.21280
-- **作者**: Jebacyril Arockiaraj, Dhruv Parikh, Viktor Prasanna
-- **提交日期**: 2026-04-23
-- **方向**: 端侧持续学习 / 超维计算 / 视觉表示
+**作者:** Jebacyril Arockiaraj, Dhruv Parikh, Viktor Prasanna  
+**发表:** 2026-04-23
 
-## 摘要（全文翻译）
+## 摘要
 
-端侧持续学习（CL）对在非平稳数据流上运行的边缘 AI 系统至关重要，但大多数现有方法依赖反向传播或需要大量示例的分类器，产生大量计算、内存和延迟开销。
-
-超维计算（HDC）通过快速、非迭代的在线更新提供了轻量级替代方案。
+On-device continual learning (CL) is critical for edge AI systems operating on non-stationary data streams, but most existing methods rely on backpropagation or exemplar-heavy classifiers, incurring substantial compute, memory, and latency overheads. Hyperdimensional computing (HDC) offers a lightweight alternative through fast, non-iterative online updates. Combined with a compact convolutional neural network (CNN) feature extractor, HDC enables efficient on-device adaptation with strong visual representations. However, prior HDC-based CL systems often depend on multi-tier memory hierarchies and complex cluster management, limiting deployability on resource-constrained hardware.
+  We present ImageHD, an FPGA accelerator for on-device continual learning of visual data based on HDC. ImageHD targets streaming CL under strict latency and on-chip memory constraints, avoiding costly iterative optimization. At the algorithmic level, we introduce a hardware-aware CL method that bounds class exemplars through a unified exemplar memory and a hardware-efficient cluster merging strategy, while incorporating a quantized CNN front-end to reduce deployment overhead without sacrificing accuracy. At the system level, ImageHD is implemented as a streaming dataflow architecture on the AMD Zynq ZCU104 FPGA, integrating HDC encoding, similarity search, and bounded cluster management using word-packed binary hypervectors for massively parallel bitwise computation within tight on-chip resource budgets. On CORe50, ImageHD achieves up to 40.4x (4.84x) speedup and 383x (105.1x) energy efficiency over optimized CPU (GPU) baselines, demonstrating the practicality of HDC-enabled continual learning for real-time edge AI.
 
 ## 核心贡献
 
-1. **HDC 用于端侧 CL**：超维计算的非迭代在线更新避免反向传播开销
-2. **能效优化**：专为能量受限的移动/边缘设备设计
-3. **视觉表示的持续学习**：在图像分类任务上验证有效性
+（待补充：本文的核心创新点和方法论）
 
 ## 为什么重要
 
-HDC 的核心优势是**无需反向传播的在线更新**，这对于电池供电的移动设备极为重要。ImageHD 将这一优势引入持续学习场景，解决了端侧 CL 的能耗瓶颈。
+（待补充：本文在领域中的重要性和影响）
 
-## 与端侧/移动端的相关性
+## 与端侧/移动端相关性
 
-**高度相关**。ImageHD 直接针对移动/边缘设备的能量和计算约束，是真正可以在可穿戴设备上运行的持续学习方案。
+（待补充：本文方法对端侧部署的意义）
+
+## 关键文献
+
+（待补充：相关工作和引用）

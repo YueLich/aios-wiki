@@ -1,36 +1,33 @@
 ---
 title: "Demonstrating Online Schema Alignment in Decentralized Knowledge Graphs Querying"
-arXiv: 2604.19205v1
+arXiv: 2604.19205
 date: 2026-04-21
-tags: [agent-memory, memory_representation]
+tags: [agent-memory, memory-representation]
 reviewer: auto
-source: arXiv API
-authors: "Bryan-Elliott Tam, Pieter Colpaert, Ruben Taelman"
+source: arXiv RSS/API
 ---
 
-## 论文信息
+# Demonstrating Online Schema Alignment in Decentralized Knowledge Graphs Querying
 
-- **arXiv**: 2604.19205v1
-- **发表日期**: 2026-04-21
-- **作者**: Bryan-Elliott Tam, Pieter Colpaert, Ruben Taelman
-- **方向**: 知识表示
+**作者:** Bryan-Elliott Tam, Pieter Colpaert, Ruben Taelman  
+**发表:** 2026-04-21
 
 ## 摘要
 
-> Decentralized Knowledge Graphs querying enables integrating distributed data without centralization, but is highly sensitive to vocabulary heterogeneity. Query issuers cannot realistically anticipate all vocabulary mismatches, especially when alignment rules are local, scoped, or discovered at runtime. We present an online schema alignment approach for Link Traversal Query Processing (LTQP) that discovers, scopes, and applies alignment rules dynamically during query execution while preserving traversal behavior. This demo paper demonstrates the approach on a decentralized social-media scenario...
+Decentralized Knowledge Graphs querying enables integrating distributed data without centralization, but is highly sensitive to vocabulary heterogeneity. Query issuers cannot realistically anticipate all vocabulary mismatches, especially when alignment rules are local, scoped, or discovered at runtime. We present an online schema alignment approach for Link Traversal Query Processing (LTQP) that discovers, scopes, and applies alignment rules dynamically during query execution while preserving traversal behavior. This demo paper demonstrates the approach on a decentralized social-media scenario through a web interface built on a Comunica-based LTQP engine. Source code, a CLI, and a reusable library are publicly available. The demonstration shows that online schema alignment recovers complete query results with low overhead, providing a practical foundation for web-scale reasoning in LTQP systems.
 
 ## 核心贡献
 
-（待补充 — 需要进一步阅读论文全文）
+（待补充：本文的核心创新点和方法论）
 
 ## 为什么重要
 
-这篇论文探讨了 Demonstrating Online Schema Alignment in Decentralized Knowledge Graphs Querying，与 Agent 记忆系统的构建直接相关。
+（待补充：本文在领域中的重要性和影响）
 
-## 与端侧/移动端的相关性
+## 与端侧/移动端相关性
 
-（待补充）
+（待补充：本文方法对端侧部署的意义）
 
-## 参考文献
+## 关键文献
 
-- arXiv: 2604.19205v1 | https://arxiv.org/abs/2604.19205v1
+（待补充：相关工作和引用）
