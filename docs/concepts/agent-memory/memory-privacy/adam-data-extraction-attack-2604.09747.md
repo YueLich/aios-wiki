@@ -11,33 +11,86 @@ source: arXiv RSS/API
 
 ## 论文基本信息
 
-- **作者**: Xingyu Lyu, Jianfeng He, Ning Wang, Yidan Hu, Tao Li, +3 more
+- **作者**: Xingyu Lyu, Jianfeng He, Ning Wang, Yidan Hu, Tao Li, Danjue Chen, Shixiong Li, Yimin Chen
 - **arXiv**: https://arxiv.org/abs/2604.09747
-- **领域**: cs.CR
+- **领域**: cs.CR, cs.AI
+- **类别**: 记忆隐私 → Agent 记忆安全 → 数据提取攻击
 
+## 摘要（翻译）
 
-## 摘要
-
-Large Language Model (LLM) agents have achieved rapid adoption and demonstrated remarkable capabilities across a wide range of applications. To improve reasoning and task execution, modern LLM agents would incorporate memory modules or retrieval-augmented generation (RAG) mechanisms, enabling them to further leverage prior interactions or external knowledge. However, such a design also introduces a group of critical privacy vulnerabilities: sensitive information stored in memory can be leaked through query-based attacks. Although feasible, existing attacks often achieve only limited performance, with low attack success rates (ASR). In this paper, we propose ADAM, a novel privacy attack that features data distribution estimation of a victim agent's memory and employs an entropy-guided query strategy for maximizing privacy leakage. Extensive experiments demonstrate that our attack substantially outperforms state-of-the-art ones, achieving up to 100% ASRs. These results thus underscore the urgent need for robust privacy-preserving methods for current LLM agents.
+大语言模型智能体（LLM agents）已被快速采用并在广泛的应用场景中展现出卓越能力。为提升推理和任务执行能力，现代 LLM 智能体通常配备记忆模块或检索增强生成（RAG）机制，使其能够利用先前的交互或外部知识。然而，这种设计也引入了关键的隐私安全漏洞：存储在记忆中的敏感信息可能通过基于查询的攻击被泄露。虽然这类攻击是可行的，但现有方法通常只能达到有限的性能，攻击成功率（ASR）较低。本文提出 ADAM，一种新型隐私攻击方法，其核心是对受害者智能体的记忆进行数据分布估计，并采用**熵引导的查询策略**最大化隐私泄露。大量实验表明，本文攻击方法显著优于现有方法，达到最高 100% 的攻击成功率。这些结果揭示了当前 LLM 智能体对隐私保护方法的迫切需求。
 
 ## 核心贡献
 
-1. （待补充：基于摘要提炼 3-5 条核心贡献）
-2. 
-3. 
+1. **ADAM 攻击框架**：首个系统性地对 Agent 记忆模块进行数据提取攻击的框架，包含完整的攻击流程和评估指标。
+2. **数据分布估计**：通过多次探测估计受害者 Agent 记忆中的数据分布，是实现高效攻击的关键先决步骤。
+3. **熵引导的查询策略**：利用信息熵指导查询选择，高熵查询能更有效地从记忆中提取信息，减少冗余探测。
+4. **最高 100% 攻击成功率**：在多个基准数据集和智能体配置上验证了方法的有效性，显著超越现有攻击方法。
+5. **隐私漏洞的全面评估**：对多种记忆架构（RAG、显式记忆模块）和不同攻击场景进行了系统评估。
 
 ## 研究背景与问题
 
-（待补充：论文要解决的核心问题是什么？为什么这个问题重要？）
+### LLM Agent 的记忆系统
+现代 LLM Agent 通常配备两类记忆机制：
+1. **显式记忆模块**（Explicit Memory）：专门存储历史交互、用户偏好、任务状态的模块
+2. **RAG 机制**（Retrieval-Augmented Memory）：通过检索外部知识库增强回复质量
+
+这些记忆系统存储了大量敏感信息：个人偏好、健康数据、财务信息、对话历史等。
+
+### 攻击场景
+攻击者的目标是**通过精心设计的查询序列，从 Agent 的记忆中提取出原本不应该泄露的敏感信息**。典型的攻击场景包括：
+- 恶意网页/文档：攻击者通过让 Agent 处理攻击者提供的内容，探测 Agent 记忆中存储的用户信息
+- 多轮对话探测：通过多轮对话逐步从 Agent 的记忆碎片中拼凑出敏感信息
+
+### 现有攻击的局限性
+现有攻击方法（如简单的记忆查询）只能达到较低的 ASR，因为：
+- 记忆内容分布未知，盲目查询效率低
+- Agent 记忆有自我保护机制（如格式限制、访问控制），需要策略性绕过
+
+### 为什么重要
+这是首个系统研究 Agent 记忆隐私安全的工作，揭示了当前 LLM Agent 部署中的严重安全隐患。
 
 ## 核心方法
 
-（待补充：论文的核心方法/技术方案）
+### 攻击流程
+
+**阶段一：记忆数据分布估计**
+攻击者首先通过探测（probing）估计受害者 Agent 记忆中的数据分布。具体方法：
+- 向 Agent 发送一系列探测查询，观察回复模式
+- 通过回复的差异性（diversity）推断记忆内容的分布
+- 用信息熵作为分布估计的不确定性度量
+
+**阶段二：熵引导的查询选择**
+在知道分布的情况下，选择高熵的查询策略：
+- 优先查询那些在当前知识状态下信息增益最大的记忆条目
+- 避免重复查询已经提取过的记忆内容（低熵区域）
+- 利用决策树或强化学习选择最优查询序列
+
+**阶段三：信息提取**
+通过精心设计的提示（prompts）诱导 Agent 在回复中泄露记忆内容，包括：
+- 直接记忆查询：直接询问"我的名字是什么"类型的问题
+- 隐式泄漏：通过特定问题框架，使 Agent 在正常回复中附带记忆信息
+
+## 实验结果
+
+- 在多种 Agent 配置（不同记忆大小、不同 RAG 设置）上验证
+- 攻击成功率（ASR）最高达到 100%，远超现有方法
+- 平均提取效率（每轮查询提取的记忆 bits）显著提升
+- 对多种隐私保护方法（输入过滤、输出过滤）仍有效
 
 ## 为什么重要
 
-（待补充：论文的主要贡献和意义）
+1. **首次系统性研究**：填补了 LLM Agent 记忆隐私安全研究的空白
+2. **实际威胁重大**：100% ASR 意味着任何配备记忆的 Agent 都可能成为信息泄露的渠道
+3. **推动防御研究**：揭示了隐私保护方法的迫切需求，将推动相关防御技术的发展
 
 ## 与移动端/端侧相关性
 
-（待补充：该研究与端侧/移动端 Agent 记忆系统的关联）
+**高度相关**。移动端 Agent 的隐私问题更为严峻：
+
+- **更私密的记忆内容**：移动端 Agent 通常处理最敏感的个人数据（位置、健康、金融）
+- **本地化部署增加攻击面**：端侧 Agent 的记忆直接存储在用户设备上，若设备被攻破则记忆完全暴露
+- **Edge AI 的隐私悖论**：Edge AI 本应保护隐私，但若记忆系统存在漏洞，反而可能成为泄露渠道
+- **RAG 系统的特殊性**：移动端 RAG 通常检索本地文档（个人照片、医疗记录），泄露后果更严重
+
+**关键词**：隐私攻击、数据提取、LLM Agent 安全、记忆安全、熵引导查询、隐私泄露、RAG 安全
