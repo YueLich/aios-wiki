@@ -222,9 +222,12 @@ nav:
       - Spatial Memory Survey 机器人导航: concepts/agent-memory/memory-representation/spatial-memory-robot-navigation-2604.16482.md
       - SCG-MEM Schema约束生成: concepts/agent-memory/memory-representation/scge-mem-schema-constrained-2604.20117.md
       - Temporal Taskification 持续学习: concepts/agent-memory/continual-learning/temporal-taskification-in-streaming-2604.21930.md
+      - Autoformalizing Memory Specs 形式化规格: concepts/agent-memory/memory-representation/autoformalizing-memory-specs-2605.00058.md
+      - GraphPlanner 图记忆路由: concepts/agent-memory/memory-representation/graphplanner-graph-memory-routing-2604.23626.md
       - Fine-Tuning Regimes 持续学习分类: concepts/agent-memory/continual-learning/fine-tuning-regimes-define-2604.21927.md
       - FADE 自适应遗忘持续学习: concepts/agent-memory/memory-compression/fade-adaptive-weight-decay-2604.27063.md
       - Hidden Failure Modes Adam CL: concepts/agent-memory/memory-compression/hidden-failure-modes-adam-continual-2604.22407.md
+      - ContextWeaver 依赖结构化记忆: concepts/agent-memory/memory-compression/contextweaver-dependency-memory-2604.23069.md
       - When CL Moves to Memory 经验复用: concepts/agent-memory/continual-learning/when-cl-moves-to-memory-2604.27003.md
       - ImageHD 端侧持续学习: concepts/agent-memory/continual-learning/imagehd-energy-efficient-on-2604.21280.md
       - Lifecycle-Aware 联邦持续学习: concepts/agent-memory/continual-learning/lifecycle-aware-federated-continual-2604.20745.md
@@ -251,6 +254,13 @@ nav:
       - DeltaMem RL记忆管理: concepts/agent-memory/memory-retrieval/deltamem-rl-memory-management-2604.01560.md
       - LightMem 轻量SLM记忆: concepts/agent-memory/memory-retrieval/lightmem-slm-agent-memory-2604.07798.md
       - MemReader 主动记忆提取: concepts/agent-memory/memory-retrieval/memreader-active-extraction-2604.07877.md
+      - MemORAI 自适应图记忆: concepts/agent-memory/memory-retrieval/memoreai-adaptive-graph-memory-2605.01386.md
+      - MemRouter 嵌入路由记忆: concepts/agent-memory/memory-retrieval/memrouter-embedding-routing-2605.00356.md
+      - FeedbackNorm DevMemory RL记忆: concepts/agent-memory/memory-retrieval/feedback-normalized-developer-memory-2605.01567.md
+      - Soliloquy-Agora 记忆辩论优化: concepts/agent-memory/memory-retrieval/soliloquy-agora-memory-debate-2604.25847.md
+      - AskOnlyNeeded 主动记忆检索: concepts/agent-memory/memory-retrieval/ask-only-when-needed-proactive-retrieval-2604.20572.md
+      - MultiAgent FeatureGen 记忆增强: concepts/agent-memory/memory-retrieval/memory-multiagent-feature-generation-2604.20261.md
+      - DualCluster Memory 优化歧义: concepts/agent-memory/memory-retrieval/dual-cluster-memory-optimization-2604.20183.md
       - MemArchitect 策略驱动记忆治理: concepts/agent-memory/memory-compression/memarchitect-policy-memory-governance-2603.18330.md
       - Novel Memory Forgetting 自主Agent: concepts/agent-memory/memory-compression/novel-memory-forgetting-autonomous-agents-2604.02280.md
       - Benign Memory Forgetting MLLM: concepts/agent-memory/memory-compression/benign-memory-forgetting-mllm-unlearning-2511.20196.md
@@ -266,9 +276,11 @@ nav:
       - IMPACT-CYCLE 长视频监督记忆: concepts/agent-memory/multimodal-memory/impact-cycle-long-video-memory-2604.20136.md
       - PVM 持续视觉记忆 LVLM: concepts/agent-memory/multimodal-memory/persistent-visual-memory-2605.00814.md
       - Goal-Directed Search vs Memory Compression: concepts/agent-memory/memory-compression/goal-directed-search-vs-memory-compression-2511.21726.md
+      - MMA 多模态记忆Agent: concepts/agent-memory/multimodal-memory/mma-multimodal-memory-agent-2602.16493.md
       - MELODI 层级记忆压缩: concepts/agent-memory/memory-compression/melodi-hierarchical-memory-compression-2410.03156.md
       - System1-System2 语义记忆偏见: concepts/agent-memory/memory-privacy/system1-system2-semantic-memory-bias-2604.12816.md
       - Visual Inception 记忆投毒攻击: concepts/agent-memory/memory-privacy/visual-inception-memory-poisoning-2604.16966.md
+      - Trust-Lies LongMem 社会记忆声誉: concepts/agent-memory/memory-privacy/trust-lies-long-memories-2604.20582.md
       - ADAM 数据提取攻击 隐私: concepts/agent-memory/memory-privacy/adam-data-extraction-attack-2604.09747.md
       - Trojan Hippo 数据外泄攻击: concepts/agent-memory/memory-privacy/trojan-hippo-weaponizing-agent-memory-2605.01970.md
       - MemCoE 记忆指南归纳演化: concepts/agent-memory/memory-compression/memcoe-evolving-memory-2605.00702.md
