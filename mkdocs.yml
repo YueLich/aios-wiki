@@ -240,6 +240,8 @@ nav:
       - Forager 轻量部分可观测CL: concepts/agent-memory/continual-learning/forager-lightweight-continual-learning-2605.01131.md
       - Sharpness-Aware预训练防遗忘: concepts/agent-memory/continual-learning/sharpness-aware-pretraining-catastrophic-2605.02105.md
       - When to Forget 记忆治理原语: concepts/agent-memory/memory-compression/when-to-forget-memory-governance-2604.12007.md
+      - DiffResistor 灾难性遗忘分析: concepts/agent-memory/continual-learning/differentiable-resistor-sequential-learning-2605.01383.md
+      - CL分子通信 增量性能估算: concepts/agent-memory/continual-learning/continual-learning-molecular-communication-2605.01020.md
       - Selective Forgetting LRMs 推理模型: concepts/agent-memory/memory-compression/selective-forgetting-large-reasoning-models-2604.03571.md
       - Learning When to Remember 风险感知: concepts/agent-memory/memory-retrieval/learning-when-to-remember-2604.27283.md
       - CacheRAG 语义缓存 KGQA: concepts/agent-memory/memory-retrieval/cacherag-semantic-caching-kgqa-2604.26176.md

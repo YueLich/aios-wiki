@@ -66,7 +66,9 @@
     "SCG-MEM: Schema-Constrained Generation for Agent Memory",
     "FSFM: A Biologically-Inspired Framework for Selective Forgetting of Agent Memory",
     "Hierarchical Long-Term Semantic Memory for LinkedIn's Hiring Agent",
-    "From Verbatim to Gist: Distilling Pyramidal Multimodal Memory via Semantic Information Bottleneck for Long-Horizon Video Agents"
+    "From Verbatim to Gist: Distilling Pyramidal Multimodal Memory via Semantic Information Bottleneck for Long-Horizon Video Agents",
+    "Sequential Learning and Catastrophic Forgetting in Differentiable Resistor Networks",
+    "Continual Learning of Feedback-based Molecular Communication"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -333,6 +335,14 @@
     },
     "2603.01455": {
       "title": "From Verbatim to Gist: Distilling Pyramidal Multimodal Memory via Semantic Information Bottleneck for Long-Horizon Video Agents"
+    },
+    "2605.01383": {
+      "title": "Sequential Learning and Catastrophic Forgetting in Differentiable Resistor Networks",
+      "date": "2026-05-02"
+    },
+    "2605.01020": {
+      "title": "Continual Learning of Feedback-based Molecular Communication",
+      "date": "2026-05-01"
     }
   }
 }
