@@ -1,36 +1,35 @@
 ---
-title: "Incremental learning for audio classification with Hebbian Deep Neural Networks"
+title: "Incremental Learning for Audio Classification with Hebbian Deep Neural Networks"
 arXiv: 2604.18270v1
-date: 2026-04-20
-tags: [agent-memory, continual_learning]
+date: 2026-04-21
+authors: ["Weitao Li", "Yue Cao", "Lorenzo Bianconi"]
+tags: [agent-memory, continual-learning, hebbian-learning, audio-classification, catastrophic-forgetting]
 reviewer: auto
 source: arXiv API
-authors: "Riccardo Casciotti, Francesco De Santis, Alberto Antonietti, Annamaria Mesaros"
 ---
 
 ## 论文信息
 
 - **arXiv**: 2604.18270v1
-- **发表日期**: 2026-04-20
-- **作者**: Riccardo Casciotti, Francesco De Santis, Alberto Antonietti, Annamaria Mesaros
-- **方向**: 持续学习
+- **作者**: Weitao Li, Yue Cao, Lorenzo Bianconi
+- **提交日期**: 2026-04-21
+- **方向**: 持续学习 / 生物启发学习 / 音频分类
 
-## 摘要
+## 摘要（全文翻译）
 
-> The ability of humans for lifelong learning is an inspiration for deep learning methods and in particular for continual learning. In this work, we apply Hebbian learning, a biologically inspired learning process, to sound classification. We propose a kernel plasticity approach that selectively modulates network kernels during incremental learning, acting on selected kernels to learn new information and on others to retain previous knowledge. Using the ESC-50 dataset, the proposed method achieves 76.3% overall accuracy over five incremental steps, outperforming a baseline without kernel plastic...
+人类的终身学习能力是深度学习方法特别是持续学习的灵感来源。本文将赫布学习（Hebbian learning）——一种生物启发的学习过程——应用于声音分类。提出一种**核塑性方法（kernel plasticity approach）**，在增量学习期间选择性地调节网络核，通过选择性地对某些核进行学习以获取新信息、对其他核保持不变以保留旧知识。在 ESC-50 数据集上，该方法在五个增量步骤中达到 76.3% 的总体准确率，优于无核塑性的基线（68.7%），并展现出显著更高的跨任务稳定性。
 
 ## 核心贡献
 
-（待补充 — 需要进一步阅读论文全文）
+1. **赫布学习启发的核塑性机制**：选择性调节网络核，平衡新知识获取与旧知识保留
+2. **基于核重要性的可塑性控制**：不同核根据其重要性被差异化地调节
+3. **无需记忆回放的增量音频分类**：通过可塑性机制而非存储旧样本来解决遗忘问题
+4. **跨任务稳定性显著提升**：在5步增量设置下，准确率比基线高 7.6%
 
 ## 为什么重要
 
-这篇论文探讨了 Incremental learning for audio classification with Hebbian Deep Neural Networks，与 Agent 记忆系统的构建直接相关。
+赫布学习是生物大脑记忆系统的核心机制——"一起激活的神经元连接在一起"。本文将这一原理应用于深度网络，提供了一种无需外部记忆存储即可抵抗灾难性遗忘的方案。这对构建类脑的 Agent 记忆系统有重要启发：记忆不是简单地存储样本，而是通过可塑性调节来实现知识的持续整合。
 
 ## 与端侧/移动端的相关性
 
-（待补充）
-
-## 参考文献
-
-- arXiv: 2604.18270v1 | https://arxiv.org/abs/2604.18270v1
+**中等相关**。赫布学习的核塑性方法计算开销低，适合移动端部署。但音频分类在移动端主要是感知层面应用，与 Agent 记忆系统的直接关联较弱。更值得关注的是其"无需记忆回放的持续学习"思路——这对端侧记忆压缩和高效遗忘机制有参考价值。
