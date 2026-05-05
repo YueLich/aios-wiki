@@ -236,6 +236,10 @@ nav:
       - Structure Modularity CL 维度调控: concepts/agent-memory/continual-learning/structure-matter-continual-learning-2604.27656.md
       - FTN 皮层启发零遗忘: concepts/agent-memory/continual-learning/ftn-cortex-continual-learning-2604.24637.md
       # 记忆压缩与治理
+      - MPCS 神经塑性持续学习: concepts/agent-memory/continual-learning/mpcs-neuroplastic-continual-learning-2605.02509.md
+      - PRISM 联邦多模态持续学习: concepts/agent-memory/continual-learning/prism-federated-multimodal-continual-2605.01061.md
+      - Forager 轻量部分可观测CL: concepts/agent-memory/continual-learning/forager-lightweight-continual-learning-2605.01131.md
+      - Sharpness-Aware预训练防遗忘: concepts/agent-memory/continual-learning/sharpness-aware-pretraining-catastrophic-2605.02105.md
       - When to Forget 记忆治理原语: concepts/agent-memory/memory-compression/when-to-forget-memory-governance-2604.12007.md
       - Selective Forgetting LRMs 推理模型: concepts/agent-memory/memory-compression/selective-forgetting-large-reasoning-models-2604.03571.md
       - Learning When to Remember 风险感知: concepts/agent-memory/memory-retrieval/learning-when-to-remember-2604.27283.md
@@ -264,6 +268,7 @@ nav:
       - System1-System2 语义记忆偏见: concepts/agent-memory/memory-privacy/system1-system2-semantic-memory-bias-2604.12816.md
       - Visual Inception 记忆投毒攻击: concepts/agent-memory/memory-privacy/visual-inception-memory-poisoning-2604.16966.md
       - ADAM 数据提取攻击 隐私: concepts/agent-memory/memory-privacy/adam-data-extraction-attack-2604.09747.md
+      - Trojan Hippo 数据外泄攻击: concepts/agent-memory/memory-privacy/trojan-hippo-weaponizing-agent-memory-2605.01970.md
       - MemCoE 记忆指南归纳演化: concepts/agent-memory/memory-compression/memcoe-evolving-memory-2605.00702.md
       - SuperLocalMemory V3.3 生物启发遗忘: concepts/agent-memory/memory-compression/superlocalmemory-v3-2604.04514.md
 

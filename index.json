@@ -1,5 +1,12 @@
 {
   "recently_processed_titles": [
+    "Persistent Visual Memory: Sustaining Perception for Deep Generation in LVLMs",
+    "MemCoE: Learning How and What to Memorize — Cognition-Inspired Two-Stage Optimization for Evolving Memory",
+    "Trojan Hippo: Weaponizing Agent Memory for Data Exfiltration",
+    "Forager: a lightweight testbed for continual learning with partial observability in RL",
+    "PRISM: Exposing and Resolving Spurious Isolation in Federated Multimodal Continual Learning",
+    "MPCS: Neuroplastic Continual Learning via Multi-Component Plasticity and Topology-Aware EWC",
+    "Sharpness-Aware Pretraining Mitigates Catastrophic Forgetting",
     "CacheRAG: A Semantic Caching System for Retrieval-Augmented Generation in Knowledge Graph Question Answering",
     "When Continual Learning Moves to Memory: A Study of Experience Reuse in LLM Agents",
     "Learning to Forget: Continual Learning with Adaptive Weight Decay",
@@ -303,6 +310,13 @@
     },
     "2603.03596": {
       "title": "MEM: Multi-Scale Embodied Memory for Vision Language Action Models"
-    }
+    },
+    "2605.00814": "Persistent Visual Memory: Sustaining Perception for Deep Generation in LVLMs",
+    "2605.00702": "MemCoE: Learning How and What to Memorize — Cognition-Inspired Two-Stage Optimization for Evolving Memory",
+    "2605.01970": "Trojan Hippo: Weaponizing Agent Memory for Data Exfiltration",
+    "2605.01131": "Forager: a lightweight testbed for continual learning with partial observability in RL",
+    "2605.01061": "PRISM: Exposing and Resolving Spurious Isolation in Federated Multimodal Continual Learning",
+    "2605.02509": "MPCS: Neuroplastic Continual Learning via Multi-Component Plasticity and Topology-Aware EWC",
+    "2605.02105": "Sharpness-Aware Pretraining Mitigates Catastrophic Forgetting"
   }
 }
