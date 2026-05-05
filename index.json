@@ -343,6 +343,42 @@
     "2605.01020": {
       "title": "Continual Learning of Feedback-based Molecular Communication",
       "date": "2026-05-01"
+    },
+    "2604.01560": {
+      "title": "DeltaMem: Towards Agentic Memory Management via Reinforcement Learning",
+      "date": ""
+    },
+    "2604.07798": {
+      "title": "Lightweight LLM Agent Memory with Small Language Models",
+      "date": ""
+    },
+    "2604.09000": {
+      "title": "StreamMeCo: Long-Term Agent Memory Compression for Efficient Streaming Video Understanding",
+      "date": ""
+    },
+    "2603.18330": {
+      "title": "MemArchitect: A Policy Driven Memory Governance Layer",
+      "date": ""
+    },
+    "2511.21726": {
+      "title": "Goal-Directed Search Outperforms Goal-Agnostic Memory Compression in Long-Context Memory Tasks",
+      "date": ""
+    },
+    "2604.03571": {
+      "title": "Selective Forgetting for Large Reasoning Models",
+      "date": ""
+    },
+    "2410.03156": {
+      "title": "MELODI: Exploring Memory Compression for Long Contexts",
+      "date": ""
+    },
+    "2601.17443": {
+      "title": "Clustering-driven Memory Compression for On-device Large Language Models",
+      "date": ""
+    },
+    "2602.00454": {
+      "title": "Cross-Modal Memory Compression for Efficient Multi-Agent Debate",
+      "date": ""
     }
   }
 }

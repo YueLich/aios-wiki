@@ -2,35 +2,32 @@
 title: "When Continual Learning Moves to Memory: A Study of Experience Reuse in LLM Agents"
 arXiv: 2604.27003
 date: 2026-04-29
-authors: ["Qisheng Hu", "Quanyu Long", "Wenya Wang"]
-tags: [agent-memory, continual-learning, memory-augmented-agents, context-window, experience-reuse]
+tags: [agent-memory, continual-learning]
 reviewer: auto
-source: arXiv API
+source: arXiv RSS/API
 ---
 
-## 论文信息
+# When Continual Learning Moves to Memory: A Study of Experience Reuse in LLM Agents
 
-- **arXiv**: 2604.27003
+## 论文基本信息
+
+- **arXiv ID**: 2604.27003
+- **提交日期**: 29 Apr 2026
 - **作者**: Qisheng Hu, Quanyu Long, Wenya Wang
-- **提交日期**: 2026-04-29
-- **方向**: 记忆增强 Agent / 持续学习 / 经验复用
+- **方向**: Agent 记忆系统 · 持续学习
 
-## 摘要（全文翻译）
+## 摘要
 
-记忆增强 LLM Agent 提供了一条诱人的捷径来实现持续学习：与其更新模型参数，不如将经验积累在外部记忆中，看似绕过了参数学习的稳定-可塑性困境。
-
-本文展示了这个挑战**不会消失，只会在记忆层面重新出现**：在有限上下文窗口下，新旧经验在检索时竞争，记忆选择变得关键。
+ Abstract:Memory-augmented LLM agents offer an appealing shortcut to continual learning: rather than updating model parameters, they accumulate experience in external memory, seemingly sidestepping the stability-plasticity dilemma of parametric learning. We show that this challenge does not disappear but resurfaces at the memory level. Under a limited context window, old and new experiences compete during retrieval, relocating the continual-learning bottleneck from parameter updates to memory access. To study this phenomenon, we introduce a (k,v) framework that disentangles two fundamental desi
 
 ## 核心贡献
 
-1. **记忆层面的稳定-可塑性困境**：将 CL 问题从参数层迁移到记忆层，并不解决根本问题
-2. **上下文窗口竞争**：有限上下文下新旧经验的检索竞争
-3. **经验复用策略分析**：系统研究 Agent 如何在外部记忆中复用经验
+> 待补充：本文的具体技术贡献和分析
 
 ## 为什么重要
 
-这是连接"参数 CL"和"记忆增强 Agent"两个领域的关键论文。核心发现：仅靠外部记忆无法实现真正的持续学习——稳定-可塑性困境只是换了一层重新出现。这对"记忆增强 = 持续学习"的 naive 理解是重要警示。
+> 待补充：本文在 Agent 记忆系统研究领域的意义
 
-## 与端侧/移动端的相关性
+## 端侧/移动端相关性
 
-端侧 Agent 特别容易遇到上下文窗口限制的问题。这篇论文的研究结论直接适用于移动端记忆系统的设计：不能简单认为"记忆够了就不用持续学习"。
+> 待补充：本文方法对端侧/移动端部署的意义

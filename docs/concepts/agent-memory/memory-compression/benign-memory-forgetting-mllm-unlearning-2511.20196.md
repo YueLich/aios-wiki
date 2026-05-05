@@ -2,36 +2,32 @@
 title: "Towards Benign Memory Forgetting for Selective Multimodal Large Language Model Unlearning"
 arXiv: 2511.20196
 date: 2025-11-25
-tags: [agent-memory, memory-forgetting, multimodal-llm, privacy]
+tags: [agent-memory, memory-compression]
 reviewer: auto
-source: arXiv API
-authors: "Zhen Zeng, Leijiang Gu, Zhangling Duan, Feng Li, Zenglin Shi"
+source: arXiv RSS/API
 ---
 
-## 论文信息
+# Towards Benign Memory Forgetting for Selective Multimodal Large Language Model Unlearning
 
-- **arXiv**: 2511.20196
-- **发表日期**: 2025-11-25
+## 论文基本信息
+
+- **arXiv ID**: 2511.20196
+- **提交日期**: 25 Nov 2025
 - **作者**: Zhen Zeng, Leijiang Gu, Zhangling Duan, Feng Li, Zenglin Shi
-- **方向**: 记忆遗忘/隐私
+- **方向**: Agent 记忆系统 · 记忆压缩
 
 ## 摘要
 
-> Multimodal Large Language Models (MLLMs) achieve remarkable capabilities but can inadvertently memorize privacy-sensitive information. Although existing unlearning methods can remove such knowledge, they fail to achieve benign forgetting because they often degrade the model's general image understanding performance. To address this, we propose the Sculpted Memory Forgetting Adapter (SMFA), which confines forgetting to targeted memory regions while preserving overall capabilities. SMFA first fine-tunes the model to replace sensitive responses with refusals, yielding a memory forgetting adapter,
+ Abstract:Multimodal Large Language Models (MLLMs) achieve remarkable capabilities but can inadvertently memorize privacy-sensitive information. Although existing unlearning methods can remove such knowledge, they fail to achieve benign forgetting because they often degrade the model&#39;s general image understanding performance. To address this, we propose the Sculpted Memory Forgetting Adapter (SMFA), which confines forgetting to targeted memory regions while preserving overall capabilities. SMFA first fine-tunes the model to replace sensitive responses with refusals, yielding a memory forget
 
 ## 核心贡献
 
-探索多模态 LLM 的良性记忆遗忘——如何在删除隐私敏感信息的同时不损害模型的通用理解能力。
+> 待补充：本文的具体技术贡献和分析
 
 ## 为什么重要
 
-这篇论文探讨了 Towards Benign Memory Forgetting for Selective Multimodal Large Language Model Unlearning，与 Agent 记忆系统的构建直接相关。
+> 待补充：本文在 Agent 记忆系统研究领域的意义
 
-## 与端侧/移动端的相关性
+## 端侧/移动端相关性
 
-该研究对 Agent 记忆系统有通用价值，端侧相关性需结合具体部署场景评估。
-
-## 参考文献
-
-- arXiv: 2511.20196 | https://arxiv.org/abs/2511.20196
-
+> 待补充：本文方法对端侧/移动端部署的意义
