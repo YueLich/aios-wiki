@@ -62,7 +62,11 @@
     "Human-Inspired Context-Selective Multimodal Memory for Social Robots",
     "NORACL: Neurogenesis for Oracle-free Resource-Adaptive Continual Learning",
     "Cortex-Inspired Continual Learning: Unsupervised Instantiation and Recovery of Functional Task Networks",
-    "The role of System 1 and System 2 semantic memory structure in human and LLM biases"
+    "The role of System 1 and System 2 semantic memory structure in human and LLM biases",
+    "SCG-MEM: Schema-Constrained Generation for Agent Memory",
+    "FSFM: A Biologically-Inspired Framework for Selective Forgetting of Agent Memory",
+    "Hierarchical Long-Term Semantic Memory for LinkedIn's Hiring Agent",
+    "From Verbatim to Gist: Distilling Pyramidal Multimodal Memory via Semantic Information Bottleneck for Long-Horizon Video Agents"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -317,6 +321,18 @@
     "2605.01131": "Forager: a lightweight testbed for continual learning with partial observability in RL",
     "2605.01061": "PRISM: Exposing and Resolving Spurious Isolation in Federated Multimodal Continual Learning",
     "2605.02509": "MPCS: Neuroplastic Continual Learning via Multi-Component Plasticity and Topology-Aware EWC",
-    "2605.02105": "Sharpness-Aware Pretraining Mitigates Catastrophic Forgetting"
+    "2605.02105": "Sharpness-Aware Pretraining Mitigates Catastrophic Forgetting",
+    "2604.20117": {
+      "title": "SCG-MEM: Schema-Constrained Generation for Agent Memory"
+    },
+    "2604.20300": {
+      "title": "FSFM: A Biologically-Inspired Framework for Selective Forgetting of Agent Memory"
+    },
+    "2604.26197": {
+      "title": "Hierarchical Long-Term Semantic Memory for LinkedIn's Hiring Agent"
+    },
+    "2603.01455": {
+      "title": "From Verbatim to Gist: Distilling Pyramidal Multimodal Memory via Semantic Information Bottleneck for Long-Horizon Video Agents"
+    }
   }
 }
