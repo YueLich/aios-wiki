@@ -2,22 +2,25 @@
 title: "SmartSearch: How Ranking Beats Structure for Conversational Memory Retrieval"
 arXiv: "2603.15599"
 date: "2026-03-16"
-tags: [agent-memory, memory-retrieval, conversational-memory]
+tags: [agent-memory, memory-retrieval, conversational-memory, ranking]
 reviewer: auto
-source: arXiv RSS
+source: arXiv RSS/API
 ---
 
 ## 核心贡献
 
-SmartSearch 挑战了对话记忆系统的主流范式——即需要在摄取时做 LLM 结构化、查询时用学习式检索策略。论文证明：**两者都不必要**。
+1. **全确定性检索管道**：完全摒弃 LLM-based 结构化和 learned retrieval policies，仅使用 NER 加权子串匹配 + 规则化实体发现 + CrossEncoder+ColBERT rank fusion。
+2. **CPU 友好**：整个 pipeline 在 CPU 上运行，延迟 ~650ms，不依赖 GPU。
+3. **编译瓶颈分析**：通过 Oracle 分析揭示了记忆检索的真正瓶颈不在召回（98.6% 召回率），而在编译（compilation）——即如何将召回的证据压缩到 token budget 内。
+4. **Score-Adaptive Truncation**：根据分数自适应截断，而非固定长度截断，在 LoCoMo 上达到 93.5%，在 LongMemEval-S 上达到 88.4%。
 
-**核心发现**：
-- 从原始非结构化对话历史中检索，完全deterministic的pipeline即可达到SOTA
-- **NER加权的子串匹配**负责召回（recall）
-- **规则化实体发现**负责多跳扩展
-- **CrossEncoder + ColBERT rank fusion**是唯一的学习组件，且在 CPU 上 ~650ms 即可完成
+## 方法详解
 
-**Oracle 分析**揭示了编译瓶颈：检索召回率达到 98.6%，但没有接口化（compilation）时整体性能受限。
+### 检索管道
+1. **NER-Weighted Substring Matching**：对对话历史进行命名实体识别，实体词加权后做子串匹配，保证高召回。
+2. **Rule-Based Entity Discovery**：用规则发现多跳实体关系，支撑多跳查询。
+3. **CrossEncoder + ColBERT Rank Fusion**：两种排序方法的融合，是唯一的 learned component。
+4. **Score-Adaptive Truncation**：根据检索分数动态决定截断位置，确保最重要的证据不被截断。
 
 ## 为什么重要
 
@@ -29,8 +32,8 @@ SmartSearch 挑战了对话记忆系统的主流范式——即需要在摄取�
 
 ## 摘要
 
-Recent conversational memory systems invest heavily in LLM-based structuring at ingestion time and learned retrieval policies at query time. We show that neither is necessary. SmartSearch retrieves from raw, unstructured conversation history using a fully deterministic pipeline: NER-weighted substring matching for recall, rule-based entity discovery for multi-hop expansion, and a CrossEncoder+ColBERT rank fusion stage -- the only learned component -- running on CPU in ~650ms.
+Recent conversational memory systems invest heavily in LLM-based structuring at ingestion time and learned retrieval policies at query time. We show that neither is necessary. SmartSearch retrieves from raw, unstructured conversation history using a fully deterministic pipeline: NER-weighted substring matching for recall, rule-based entity discovery for multi-hop expansion, and a CrossEncoder+ColBERT rank fusion stage -- the only learned component -- running on CPU in ~650ms. Oracle analysis on two benchmarks identifies a compilation bottleneck: retrieval recall reaches 98.6%, but without intelligent ranking only 22.5% of gold evidence survives truncation to the token budget. With score-adaptive truncation and no per-dataset tuning, SmartSearch achieves 93.5% on LoCoMo and 88.4% on LongMemEval-S, exceeding all known memory systems under the same evaluation protocol on both benchmarks while using 8.5x fewer tokens than full-context baselines.
 
 ## 参考文献
 
-待补充
+- Jesper Derehag, Carlos Calva, Timmy Ghiurau. "SmartSearch: How Ranking Beats Structure for Conversational Memory Retrieval." arXiv:2603.15599, 2026.
