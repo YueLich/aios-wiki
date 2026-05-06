@@ -306,6 +306,7 @@ nav:
       - M2A 双层混合记忆Agent: concepts/agent-memory/multimodal-memory/m2a-multimodal-memory-agent-2602.07624.md
       - Affordance RAG 具身记忆操作: concepts/agent-memory/multimodal-memory/affordance-rag-embodied-memory-2512.18987.md
       - TeleMem 长期多模态记忆: concepts/agent-memory/multimodal-memory/telemem-long-term-multimodal-memory-2601.06037.md
+      - LifeMem 连续生活记录记忆评估: concepts/agent-memory/multimodal-memory/lifemem-lifelog-memory-2604.11182.md
       - MELODI 层级记忆压缩: concepts/agent-memory/memory-compression/melodi-hierarchical-memory-compression-2410.03156.md
       - System1-System2 语义记忆偏见: concepts/agent-memory/memory-privacy/system1-system2-semantic-memory-bias-2604.12816.md
       - Visual Inception 记忆投毒攻击: concepts/agent-memory/memory-privacy/visual-inception-memory-poisoning-2604.16966.md

@@ -113,7 +113,8 @@
     "How Does Personalized Memory Shape LLM Behavior? Benchmarking Rational Preference Utilization in Personalized Assistants",
     "Re:Member: Emotional Question Generation from Personal Memories",
     "SocializeChat: A GPT-Based AAC Tool Grounded in Personal Memories to Support Social Communication",
-    "Memento: Augmenting Personalized Memory via Practical Multimodal Wearable Sensing in Visual Search and Wayfinding Navigation"
+    "Memento: Augmenting Personalized Memory via Practical Multimodal Wearable Sensing in Visual Search and Wayfinding Navigation",
+    "LifeMem: Evaluating Memory Capability in Continuous Lifelog Scenario"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -766,6 +767,18 @@
         "Nicholas Waytowich",
         "Nirmalya Roy"
       ]
+    },
+    "2604.11182": {
+      "title": "LifeMem: Evaluating Memory Capability in Continuous Lifelog Scenario",
+      "authors": [],
+      "date": "2026-04-16",
+      "tags": [
+        "agent-memory",
+        "multimodal-memory",
+        "benchmark",
+        "wearable"
+      ],
+      "source": "new_items.json"
     }
   }
 }
