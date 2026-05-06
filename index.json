@@ -87,7 +87,11 @@
     "EchoGuard: An Agentic Framework with Knowledge-Graph Memory for Detecting Manipulative Communication in Longitudinal Dialogue",
     "Spatial Metaphors for LLM Memory: A Critical Analysis of the MemPalace Architecture",
     "MEMAUDIT: An Exact Package-Oracle Evaluation Protocol for Budgeted Long-Term LLM Memory Writing",
-    "Memory-Efficient Continual Learning with CLIP Models"
+    "Memory-Efficient Continual Learning with CLIP Models",
+    "MEMTIER: Tiered Memory Architecture and Retrieval Bottleneck Analysis for Long-Running Autonomous AI Agents",
+    "MemFlow: Intent-Driven Memory Orchestration for Small Language Model Agents",
+    "MEMSAD: Gradient-Coupled Anomaly Detection for Memory Poisoning in Retrieval-Augmented Agents",
+    "MAGE: Safeguarding LLM Agents against Long-Horizon Threats via Shadow Memory"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -499,6 +503,57 @@
         "Tianbao Yang"
       ],
       "category": "continual-learning"
+    },
+    "2605.03675": {
+      "title": "MEMTIER: Tiered Memory Architecture and Retrieval Bottleneck Analysis for Long-Running Autonomous AI Agents",
+      "authors": [
+        "Bronislav Sidik",
+        "Lior Rokach"
+      ],
+      "date": "2026-05-05",
+      "tags": [
+        "agent-memory",
+        "memory-retrieval"
+      ]
+    },
+    "2605.03312": {
+      "title": "MemFlow: Intent-Driven Memory Orchestration for Small Language Model Agents",
+      "authors": [
+        "Jiayi Chen",
+        "Yingcong Li",
+        "Guiling Wang"
+      ],
+      "date": "2026-05-05",
+      "tags": [
+        "agent-memory",
+        "memory-retrieval"
+      ]
+    },
+    "2605.03482": {
+      "title": "MEMSAD: Gradient-Coupled Anomaly Detection for Memory Poisoning in Retrieval-Augmented Agents",
+      "authors": [
+        "Ishrith Gowda"
+      ],
+      "date": "2026-05-05",
+      "tags": [
+        "agent-memory",
+        "memory-privacy"
+      ]
+    },
+    "2605.03228": {
+      "title": "MAGE: Safeguarding LLM Agents against Long-Horizon Threats via Shadow Memory",
+      "authors": [
+        "Yuhui Wang",
+        "Tanqiu Jiang",
+        "Jiacheng Liang",
+        "Charles Fleming",
+        "Ting Wang"
+      ],
+      "date": "2026-05-04",
+      "tags": [
+        "agent-memory",
+        "memory-privacy"
+      ]
     }
   }
 }
