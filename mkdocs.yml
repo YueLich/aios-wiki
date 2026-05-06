@@ -246,6 +246,7 @@ nav:
       - PRISM 联邦多模态持续学习: concepts/agent-memory/continual-learning/prism-federated-multimodal-continual-2605.01061.md
       - Forager 轻量部分可观测CL: concepts/agent-memory/continual-learning/forager-lightweight-continual-learning-2605.01131.md
       - Sharpness-Aware预训练防遗忘: concepts/agent-memory/continual-learning/sharpness-aware-pretraining-catastrophic-2605.02105.md
+      - Memory-Efficient CLIP 持续学习: concepts/agent-memory/continual-learning/memory-efficient-clip-continual-2605.03866.md
       - When to Forget 记忆治理原语: concepts/agent-memory/memory-compression/when-to-forget-memory-governance-2604.12007.md
       - DiffResistor 灾难性遗忘分析: concepts/agent-memory/continual-learning/differentiable-resistor-sequential-learning-2605.01383.md
       - CL分子通信 增量性能估算: concepts/agent-memory/continual-learning/continual-learning-molecular-communication-2605.01020.md

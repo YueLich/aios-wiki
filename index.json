@@ -86,7 +86,8 @@
     "Memora: A Harmonic Memory Representation Balancing Abstraction and Specificity",
     "EchoGuard: An Agentic Framework with Knowledge-Graph Memory for Detecting Manipulative Communication in Longitudinal Dialogue",
     "Spatial Metaphors for LLM Memory: A Critical Analysis of the MemPalace Architecture",
-    "MEMAUDIT: An Exact Package-Oracle Evaluation Protocol for Budgeted Long-Term LLM Memory Writing"
+    "MEMAUDIT: An Exact Package-Oracle Evaluation Protocol for Budgeted Long-Term LLM Memory Writing",
+    "Memory-Efficient Continual Learning with CLIP Models"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -488,6 +489,16 @@
       ]
     },
     "2604.21284": "Spatial Metaphors for LLM Memory: A Critical Analysis of the MemPalace Architecture",
-    "2605.02199": "MEMAUDIT: An Exact Package-Oracle Evaluation Protocol for Budgeted Long-Term LLM Memory Writing"
+    "2605.02199": "MEMAUDIT: An Exact Package-Oracle Evaluation Protocol for Budgeted Long-Term LLM Memory Writing",
+    "2605.03866": {
+      "title": "Memory-Efficient Continual Learning with CLIP Models",
+      "authors": [
+        "Ryan King",
+        "Gang Li",
+        "Bobak Mortazavi",
+        "Tianbao Yang"
+      ],
+      "category": "continual-learning"
+    }
   }
 }
