@@ -279,6 +279,13 @@ nav:
       - MEMTIER 分层记忆架构: concepts/agent-memory/memory-retrieval/memtier-tiered-memory-architecture-2605.03675.md
       - MemPalace 空间记忆宫殿批判: concepts/agent-memory/memory-retrieval/mempalace-spatial-metaphor-2604.21284.md
       - VimRAG 视觉多模态记忆图: concepts/agent-memory/memory-retrieval/vimrag-visual-multimodal-memory-2602.12735.md
+      - Semantic Memory Foraging 类人策略: concepts/agent-memory/memory-retrieval/semantic-memory-foraging-2603.01822.md
+      - SHIMI 去中心化层次记忆: concepts/agent-memory/memory-retrieval/shimi-semantic-hierarchical-memory-2504.06135.md
+      - PERMA 个性化记忆基准: concepts/agent-memory/memory-retrieval/perma-personalized-memory-benchmark-2603.23231.md
+      - Remember 情感记忆问答: concepts/agent-memory/memory-retrieval/remember-emotional-memory-2510.19030.md
+      - SocializeChat AAC个人记忆: concepts/agent-memory/memory-retrieval/socializechat-aac-personal-memories-2510.19017.md
+      - Memento 可穿戴记忆导航: concepts/agent-memory/memory-retrieval/memento-wearable-memory-2504.19772.md
+      - RMAAT 星形胶质记忆压缩: concepts/agent-memory/memory-compression/rmaat-astrocyte-memory-compression-2601.00426.md
       - MemArchitect 策略驱动记忆治理: concepts/agent-memory/memory-compression/memarchitect-policy-memory-governance-2603.18330.md
       - Novel Memory Forgetting 自主Agent: concepts/agent-memory/memory-compression/novel-memory-forgetting-autonomous-agents-2604.02280.md
       - Benign Memory Forgetting MLLM: concepts/agent-memory/memory-compression/benign-memory-forgetting-mllm-unlearning-2511.20196.md
@@ -306,6 +313,7 @@ nav:
       - ADAM 数据提取攻击 隐私: concepts/agent-memory/memory-privacy/adam-data-extraction-attack-2604.09747.md
       - Trojan Hippo 数据外泄攻击: concepts/agent-memory/memory-privacy/trojan-hippo-weaponizing-agent-memory-2605.01970.md
       - MEMSAD 梯度异常检测防御: concepts/agent-memory/memory-privacy/memsad-gradient-anomaly-detection-2605.03482.md
+      - RPEval 个性化记忆影响评估: concepts/agent-memory/memory-privacy/personalized-memory-llm-behavior-2601.16621.md
       - PrivacyBenchmark 选择性遗忘隐私漏洞: concepts/agent-memory/memory-privacy/privacy-vulnerabilities-selective-forgetting-2512.18035.md
       - MAGE Shadow Memory 防御: concepts/agent-memory/memory-privacy/mage-shadow-memory-guardrail-2605.03228.md
       - MemCoE 记忆指南归纳演化: concepts/agent-memory/memory-compression/memcoe-evolving-memory-2605.00702.md

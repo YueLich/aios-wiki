@@ -105,7 +105,15 @@
     "When Modalities Remember: Continual Learning for Multimodal Knowledge Graphs",
     "Chameleon: Episodic Memory for Long-Horizon Robotic Manipulation",
     "Towards Benchmarking Privacy Vulnerabilities in Selective Forgetting with Large Language Models",
-    "Keys to Knowledge (K2K): Efficient and Effective Internal Memory Retrieval for LLM-Based Healthcare Prediction"
+    "Keys to Knowledge (K2K): Efficient and Effective Internal Memory Retrieval for LLM-Based Healthcare Prediction",
+    "Emerging Human-like Strategies for Semantic Memory Foraging in Large Language Models",
+    "Decentralizing AI Memory: SHIMI, a Semantic Hierarchical Memory Index for Scalable Agent Reasoning",
+    "RMAAT: Astrocyte-Inspired Memory Compression and Replay for Efficient Long-Context Transformers",
+    "PERMA: Benchmarking Personalized Memory Agents via Event-Driven Preference and Realistic Task Environments",
+    "How Does Personalized Memory Shape LLM Behavior? Benchmarking Rational Preference Utilization in Personalized Assistants",
+    "Re:Member: Emotional Question Generation from Personal Memories",
+    "SocializeChat: A GPT-Based AAC Tool Grounded in Personal Memories to Support Social Communication",
+    "Memento: Augmenting Personalized Memory via Practical Multimodal Wearable Sensing in Visual Search and Wayfinding Navigation"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -691,6 +699,73 @@
       ],
       "date": "2026-04-08",
       "subdir": "memory-retrieval"
+    },
+    "2603.01822": {
+      "title": "Emerging Human-like Strategies for Semantic Memory Foraging in Large Language Models",
+      "authors": [
+        "Eric Lacosse",
+        "Mariana Duarte",
+        "Peter M. Todd",
+        "Daniel C. McNamee"
+      ]
+    },
+    "2504.06135": {
+      "title": "Decentralizing AI Memory: SHIMI, a Semantic Hierarchical Memory Index for Scalable Agent Reasoning",
+      "authors": [
+        "Tooraj Helmi"
+      ]
+    },
+    "2601.00426": {
+      "title": "RMAAT: Astrocyte-Inspired Memory Compression and Replay for Efficient Long-Context Transformers",
+      "authors": [
+        "Md Zesun Ahmed Mia",
+        "Malyaban Bal",
+        "Abhronil Sengupta"
+      ]
+    },
+    "2603.23231": {
+      "title": "PERMA: Benchmarking Personalized Memory Agents via Event-Driven Preference and Realistic Task Environments",
+      "authors": [
+        "Shuochen Liu",
+        "Junyi Zhu",
+        "Long Shu",
+        "Junda Lin"
+      ]
+    },
+    "2601.16621": {
+      "title": "How Does Personalized Memory Shape LLM Behavior? Benchmarking Rational Preference Utilization in Personalized Assistants",
+      "authors": [
+        "Xueyang Feng",
+        "Weinan Gan",
+        "Xu Chen",
+        "Quanyu Dai"
+      ]
+    },
+    "2510.19030": {
+      "title": "Re:Member: Emotional Question Generation from Personal Memories",
+      "authors": [
+        "Zackary Rackauckas",
+        "Nobuaki Minematsu",
+        "Julia Hirschberg"
+      ]
+    },
+    "2510.19017": {
+      "title": "SocializeChat: A GPT-Based AAC Tool Grounded in Personal Memories to Support Social Communication",
+      "authors": [
+        "Wei Xiang",
+        "Yunkai Xu",
+        "Yuyang Fang",
+        "Zhuyu Teng"
+      ]
+    },
+    "2504.19772": {
+      "title": "Memento: Augmenting Personalized Memory via Practical Multimodal Wearable Sensing in Visual Search and Wayfinding Navigation",
+      "authors": [
+        "Indrajeet Ghosh",
+        "Kasthuri Jayarajah",
+        "Nicholas Waytowich",
+        "Nirmalya Roy"
+      ]
     }
   }
 }
