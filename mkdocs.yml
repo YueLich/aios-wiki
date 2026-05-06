@@ -265,6 +265,8 @@ nav:
       - AskOnlyNeeded 主动记忆检索: concepts/agent-memory/memory-retrieval/ask-only-when-needed-proactive-retrieval-2604.20572.md
       - MultiAgent FeatureGen 记忆增强: concepts/agent-memory/memory-retrieval/memory-multiagent-feature-generation-2604.20261.md
       - DualCluster Memory 优化歧义: concepts/agent-memory/memory-retrieval/dual-cluster-memory-optimization-2604.20183.md
+      - MEMAUDIT 预算记忆写入评估: concepts/agent-memory/memory-retrieval/memaudit-budgeted-memory-writing-2605.02199.md
+      - MemPalace 空间记忆宫殿批判: concepts/agent-memory/memory-retrieval/mempalace-spatial-metaphor-2604.21284.md
       - MemArchitect 策略驱动记忆治理: concepts/agent-memory/memory-compression/memarchitect-policy-memory-governance-2603.18330.md
       - Novel Memory Forgetting 自主Agent: concepts/agent-memory/memory-compression/novel-memory-forgetting-autonomous-agents-2604.02280.md
       - Benign Memory Forgetting MLLM: concepts/agent-memory/memory-compression/benign-memory-forgetting-mllm-unlearning-2511.20196.md

@@ -84,7 +84,9 @@
     "ScrapMem: A Bio-inspired Framework for On-device Personalized Agent Memory via Optical Forgetting",
     "What Happens Inside Agent Memory? Circuit Analysis from Emergence to Diagnosis",
     "Memora: A Harmonic Memory Representation Balancing Abstraction and Specificity",
-    "EchoGuard: An Agentic Framework with Knowledge-Graph Memory for Detecting Manipulative Communication in Longitudinal Dialogue"
+    "EchoGuard: An Agentic Framework with Knowledge-Graph Memory for Detecting Manipulative Communication in Longitudinal Dialogue",
+    "Spatial Metaphors for LLM Memory: A Critical Analysis of the MemPalace Architecture",
+    "MEMAUDIT: An Exact Package-Oracle Evaluation Protocol for Budgeted Long-Term LLM Memory Writing"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -484,6 +486,8 @@
         "Akshata Kishore Moharir",
         "Ananth Kandala"
       ]
-    }
+    },
+    "2604.21284": "Spatial Metaphors for LLM Memory: A Critical Analysis of the MemPalace Architecture",
+    "2605.02199": "MEMAUDIT: An Exact Package-Oracle Evaluation Protocol for Budgeted Long-Term LLM Memory Writing"
   }
 }
