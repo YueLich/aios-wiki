@@ -220,13 +220,17 @@ nav:
       - RoMem 时序相位旋转记忆: concepts/agent-memory/memory-representation/romem-temporal-phase-rotation-2604.11544.md
       - Memanto 类型语义记忆: concepts/agent-memory/memory-representation/memanto-typed-semantic-memory-2604.22085.md
       - Spatial Memory Survey 机器人导航: concepts/agent-memory/memory-representation/spatial-memory-robot-navigation-2604.16482.md
+      - Memora 谐波记忆表示: concepts/agent-memory/memory-representation/memora-2602.03315.md
+      - EchoGuard KG记忆检测操纵: concepts/agent-memory/memory-representation/echoguard-2603.04815.md
       - SCG-MEM Schema约束生成: concepts/agent-memory/memory-representation/scge-mem-schema-constrained-2604.20117.md
+      - What Happens Inside Agent Memory 电路分析: concepts/agent-memory/memory-representation/what-happens-inside-2605.03354.md
       - Temporal Taskification 持续学习: concepts/agent-memory/continual-learning/temporal-taskification-in-streaming-2604.21930.md
       - Autoformalizing Memory Specs 形式化规格: concepts/agent-memory/memory-representation/autoformalizing-memory-specs-2605.00058.md
       - GraphPlanner 图记忆路由: concepts/agent-memory/memory-representation/graphplanner-graph-memory-routing-2604.23626.md
       - Fine-Tuning Regimes 持续学习分类: concepts/agent-memory/continual-learning/fine-tuning-regimes-define-2604.21927.md
       - FADE 自适应遗忘持续学习: concepts/agent-memory/memory-compression/fade-adaptive-weight-decay-2604.27063.md
       - Hidden Failure Modes Adam CL: concepts/agent-memory/memory-compression/hidden-failure-modes-adam-continual-2604.22407.md
+      - ScrapMem 端侧光学遗忘: concepts/agent-memory/memory-compression/scrapmem-2605.03804.md
       - ContextWeaver 依赖结构化记忆: concepts/agent-memory/memory-compression/contextweaver-dependency-memory-2604.23069.md
       - When CL Moves to Memory 经验复用: concepts/agent-memory/continual-learning/when-cl-moves-to-memory-2604.27003.md
       - ImageHD 端侧持续学习: concepts/agent-memory/continual-learning/imagehd-energy-efficient-on-2604.21280.md

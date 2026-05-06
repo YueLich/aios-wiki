@@ -80,7 +80,11 @@
     "Hierarchical Long-Term Semantic Memory for LinkedIn's Hiring Agent",
     "From Verbatim to Gist: Distilling Pyramidal Multimodal Memory via Semantic Information Bottleneck for Long-Horizon Video Agents",
     "Sequential Learning and Catastrophic Forgetting in Differentiable Resistor Networks",
-    "Continual Learning of Feedback-based Molecular Communication"
+    "Continual Learning of Feedback-based Molecular Communication",
+    "ScrapMem: A Bio-inspired Framework for On-device Personalized Agent Memory via Optical Forgetting",
+    "What Happens Inside Agent Memory? Circuit Analysis from Emergence to Diagnosis",
+    "Memora: A Harmonic Memory Representation Balancing Abstraction and Specificity",
+    "EchoGuard: An Agentic Framework with Knowledge-Graph Memory for Detecting Manipulative Communication in Longitudinal Dialogue"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -441,6 +445,45 @@
     },
     "2602.16493": {
       "title": "MMA: Multimodal Memory Agent"
+    },
+    "2605.03804": {
+      "title": "ScrapMem: A Bio-inspired Framework for On-device Personalized Agent Memory via Optical Forgetting",
+      "authors": [
+        "Jiale Chang",
+        "Yuxiang Ren"
+      ]
+    },
+    "2605.03354": {
+      "title": "What Happens Inside Agent Memory? Circuit Analysis from Emergence to Diagnosis",
+      "authors": [
+        "Xutao Mao",
+        "Jinman Zhao",
+        "Gerald Penn",
+        "Cong Wang"
+      ]
+    },
+    "2602.03315": {
+      "title": "Memora: A Harmonic Memory Representation Balancing Abstraction and Specificity",
+      "authors": [
+        "Menglin Xia",
+        "Xuchao Zhang",
+        "Shantanu Dixit",
+        "Paramaguru Harimurugan",
+        "Rujia Wang",
+        "Victor Ruhle",
+        "Robert Sim",
+        "Chetan Bansal",
+        "Saravan Rajmohan"
+      ]
+    },
+    "2603.04815": {
+      "title": "EchoGuard: An Agentic Framework with Knowledge-Graph Memory for Detecting Manipulative Communication in Longitudinal Dialogue",
+      "authors": [
+        "Ratna Kandala",
+        "Niva Manchanda",
+        "Akshata Kishore Moharir",
+        "Ananth Kandala"
+      ]
     }
   }
 }

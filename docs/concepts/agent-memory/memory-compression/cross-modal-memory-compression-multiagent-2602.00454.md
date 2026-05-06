@@ -13,7 +13,7 @@ source: arXiv RSS/API
 
 - **作者**: Jing Wu, Yue Sun, Tianpei Xie, Suiyao Chen, Jingyuan Bao, Yaopengxiao Xu, Gaoyuan Du, Inseok Heo, Alexander Gutfraind, Xin Wang
 - **arXiv**: https://arxiv.org/abs/2602.00454
-- **代码**: https://github.com/xxx/debate-ocr（待补充）
+- **代码**: 论文中未公开提供
 
 ## 摘要
 
