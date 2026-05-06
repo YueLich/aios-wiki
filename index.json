@@ -95,7 +95,10 @@
     "MEMTIER: Tiered Memory Architecture and Retrieval Bottleneck Analysis for Long-Running Autonomous AI Agents",
     "MemFlow: Intent-Driven Memory Orchestration for Small Language Model Agents",
     "MEMSAD: Gradient-Coupled Anomaly Detection for Memory Poisoning in Retrieval-Augmented Agents",
-    "MAGE: Safeguarding LLM Agents against Long-Horizon Threats via Shadow Memory"
+    "MAGE: Safeguarding LLM Agents against Long-Horizon Threats via Shadow Memory",
+    "A Domain Incremental Continual Learning Benchmark for ICU Time Series Model Transportability",
+    "Dynamic Distillation and Gradient Consistency for Robust Long-Tailed Incremental Learning",
+    "Adaptive Data Compression and Reconstruction for Memory-Bounded EEG Continual Learning"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -562,6 +565,45 @@
     "2602.12735": "VimRAG: Navigating Massive Visual Context in Retrieval-Augmented Generation via Multimodal Memory Graph",
     "2602.07624": "M2A: Multimodal Memory Agent with Dual-Layer Hybrid Memory for Long-Term Personalized Interactions",
     "2512.18987": "Affordance RAG: Hierarchical Multimodal Retrieval with Affordance-Aware Embodied Memory for Mobile Manipulation",
-    "2601.06037": "TeleMem: Building Long-Term and Multimodal Memory for Agentic AI"
+    "2601.06037": "TeleMem: Building Long-Term and Multimodal Memory for Agentic AI",
+    "2605.03832": {
+      "title": "A Domain Incremental Continual Learning Benchmark for ICU Time Series Model Transportability",
+      "authors": [
+        "Ryan King",
+        "Conrad Krueger",
+        "Ethan Veselka",
+        "Tianbao Yang",
+        "Bobak J. Mortazavi"
+      ],
+      "date": "2026-05-05",
+      "tags": [
+        "agent-memory",
+        "continual-learning"
+      ]
+    },
+    "2605.03364": {
+      "title": "Dynamic Distillation and Gradient Consistency for Robust Long-Tailed Incremental Learning",
+      "authors": [
+        "Taigo Sakai",
+        "Kazuhiro Hotta"
+      ],
+      "date": "2026-05-05",
+      "tags": [
+        "agent-memory",
+        "continual-learning"
+      ]
+    },
+    "2605.03085": {
+      "title": "Adaptive Data Compression and Reconstruction for Memory-Bounded EEG Continual Learning",
+      "authors": [
+        "Chengcheng Xie"
+      ],
+      "date": "2026-05-04",
+      "tags": [
+        "agent-memory",
+        "continual-learning",
+        "memory-compression"
+      ]
+    }
   }
 }
