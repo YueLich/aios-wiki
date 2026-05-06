@@ -2,35 +2,57 @@
 title: "MemRouter: Memory-as-Embedding Routing for Long-Term Conversational Agents"
 arXiv: 2605.00356
 date: 2026-05-01
-tags: [agent-memory, memory-retrieval]
+tags: [agent-memory, memory-retrieval, memory-write-decision]
 reviewer: auto
 source: arXiv API
 ---
 
-# MemRouter: Memory-as-Embedding Routing for Long-Term Conversational Agents
+## 论文信息
 
-**作者:** Tianyu Hu, Weikai Lin, Weizhi Zhang, Jing Ma, Song Wang
-**发表:** 2026-05-01
+- **作者**: Tianyu Hu, Weikai Lin, Weizhi Zhang, Jing Ma
+- **提交日期**: 2026-05-01
+- **方向**: 记忆写入决策 / 记忆路由
 
 ## 摘要
 
-Long-term conversational agents must decide which turns to store in external memory, yet recent systems rely on autoregressive LLM generation at every turn to make that decision. We present MemRouter, a write-side memory router that decouples memory admission from the downstream answer backbone and replaces per-turn memory-management decoding with an embedding-based routing policy. MemRouter encodes each turn together with recent context, projects the resulting embeddings through a frozen LLM backbone, and predicts whether the turn should be stored using lightweight classification heads while training only 12M parameters.
+长期对话Agent必须决定哪些轮次应存储在外部记忆中，但近期系统依赖自回归LLM生成来做每轮决策。本文提出MemRouter，一个写入端记忆路由器，将记忆准入与下游回答主干解耦，用基于嵌入的路由策略替代逐轮记忆管理解码。
+
+核心设计：MemRouter将每轮与近期上下文一起编码，通过冻结LLM的MLP头投影嵌入向量，生成记忆准入决策——无需为每轮调用解码完整的LLM。
 
 ## 核心贡献
 
-1. **解耦记忆准入**: 将记忆管理与下游回答解耦，用 embedding 路由策略替代逐轮 LLM 生成决策
-2. **极轻量参数**: 只训练 12M 参数的分类头，保持 LLM 主干冻结
-3. **嵌入空间路由**: 将每个 turn 与近期上下文共同编码，通过冻结 LLM 主干投影后做路由判断
-4. **延迟显著降低**: p50 记忆管理延迟从 970ms 降至 58ms（减少 94%）
+1. **记忆准入与回答主干解耦**：将"是否记忆"决策从LLM生成过程中分离
+2. **嵌入路由策略**：用MLP头投影替代自回归解码，决策效率高
+3. **冻结LLM + MLP头**：无需额外训练记忆准入模型，复用预训练LLM能力
+4. **显著降低写入开销**：消除逐轮LLM调用，延迟大幅下降
 
-## 实验结果
+## 方法详解
 
-在 LoCoMo 上控制变量比较（检索 pipeline、答案提示和 QA 主干相同），MemRouter 在每个问题类别上均超越基于 LLM 的记忆管理器（总体 F1 52.0 vs 45.6）。因子分析显示：学习到的准入策略比随机存储提升 mean F1 +10.3，类别特定提示比通用提示提升 +5.2，检索贡献 +0.7。
+**MemRouter架构**：
+```
+输入: [当前轮, 近期上下文] → LLM编码器 → 嵌入向量 → MLP头 → 记忆准入决策
+                                           (冻结)     (训练)
+```
+
+**决策类型**：
+- 记忆（Store in Memory）
+- 丢弃（Discard）
+- 更新（Update，合并到已有记忆）
+
+**与现有方法对比**：
+| 方法 | 每轮LLM调用 | 决策质量 | 延迟 |
+|------|-----------|---------|------|
+| LLM自回归解码 | 是 | 高 | 高 |
+| 简单启发式 | 否 | 低 | 低 |
+| MemRouter | 否 | 高 | 低 |
 
 ## 为什么重要
 
-解决了长期对话 Agent 中记忆管理的效率问题——不再需要每轮调用 LLM 做记忆决策，而是用轻量 embedding 路由替代。这对于需要高频交互的端侧 Agent 系统意义重大。
+记忆写入决策是记忆系统的关键瓶颈——传统方法需要为每轮调用LLM做决策，开销巨大。MemRouter通过嵌入路由将这个过程压缩为单次前向传播，为端侧实时记忆管理开辟了新路径。
 
 ## 与端侧/移动端的相关性
 
-**高度端侧相关**：仅 12M 可训练参数，延迟降低 94%，非常适合资源受限的移动设备。可以让端侧 Agent 在不显著增加计算负担的情况下实现智能记忆筛选。
+- **高度端侧相关**：消除逐轮LLM调用，移动设备可本地运行
+- MLP头轻量，可在CPU上高效推理
+- 冻结LLM + 轻量MLP头的设计适合移动端部署
+- 个人助手的长期记忆管理（联系人偏好、历史交互）

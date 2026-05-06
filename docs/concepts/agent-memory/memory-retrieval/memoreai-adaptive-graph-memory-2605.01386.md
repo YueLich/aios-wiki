@@ -1,31 +1,58 @@
 ---
 title: "MemORAI: Memory Organization and Retrieval via Adaptive Graph Intelligence for LLM Conversational Agents"
 arXiv: 2605.01386
-date: 2026-05-11
-tags: [agent-memory, memory-retrieval]
+date: 2026-05-02
+tags: [agent-memory, memory-representation, graph-memory]
 reviewer: auto
 source: arXiv API
 ---
 
 ## 论文信息
 
-- **作者**: Hung Pham Van, Nguyen Manh Hieu, Khang Pham Tran Tuan, Nam Le Hai, Linh Ngo Van, Nguyen Thi Ngoc Diep, Trung Le
-- **提交日期**: 2026-05-11
+- **作者**: Hung Pham Van, Nguyen Manh Hieu, Khang Pham Tran Tuan, Nam Le Hai
+- **提交日期**: 2026-05-02
+- **方向**: 记忆表示 / 图记忆 / 选择性记忆
 
 ## 摘要
 
-Large Language Models (LLMs) lack persistent memory for long-term personalized conversations. Existing graph-based memory systems suffer from information dilution, absent provenance tracking, and uniform granularity, leading to suboptimal retrieval. MemORAI proposes an Adaptive Graph Intelligence approach with two key innovations: (1) dynamic memory organization that adapts granularity based on conversation context, and (2) provenance-aware retrieval that tracks information origins to enable source verification. The system maintains a hierarchical memory graph where nodes represent concepts at varying abstraction levels, with edges encoding semantic relationships and provenance chains. During retrieval, the system can trace extracted information back to its origin conversation turn, enabling explainability. Experiments on long-term conversation benchmarks show MemORAI outperforms existing graph memory systems by 15-25% on task completion while reducing hallucination through provenance tracking.
+LLM缺乏长期个性化对话的持久记忆。现有基于图的记忆系统存在信息稀释、缺乏来源追踪、统一检索忽略查询上下文等问题。MemORAI引入三项创新：
+1. **双层压缩的选择性记忆过滤**：保留用户 persona 相关内容
+2. **来源增强的多模态图索引**：追踪记忆来源和演化
+3. **自适应图智能检索**：根据查询类型动态调整检索策略
 
 ## 核心贡献
 
-1. **动态记忆组织 (Dynamic Memory Organization)**: 根据对话上下文自适应调整记忆粒度，避免信息稀释
-2. **溯源感知检索 (Provenance-Aware Retrieval)**: 通过追踪信息来源链，支持结果可解释性
-3. **层次记忆图谱**: 节点表示不同抽象级别的概念，边缘编码语义关系和溯源链
+1. **双层压缩**：
+   - 第一层：按用户 persona 相关性过滤
+   - 第二层：压缩保留内容的冗余信息
+2. **来源追踪图**：每条记忆节点携带来源元数据（时间戳、模态、交互轮次）
+3. **自适应检索**：根据查询类型选择不同的图遍历策略
+4. **解决信息稀释问题**：统一检索导致记忆稀释，自适应方法保持关键信息
+
+## 方法详解
+
+**信息稀释问题**：
+- 随着记忆增长，检索结果被大量历史记录稀释
+- 相关记忆被无关内容淹没
+
+**MemORAI的解决方案**：
+- **选择性过滤**：只保留高 persona 相关性内容
+- **双层压缩**：在过滤后进一步压缩冗余
+- **来源图索引**：记忆节点包含丰富的元数据，支持精细检索
+
+**自适应检索策略**：
+| 查询类型 | 检索策略 | 图遍历方式 |
+|---------|---------|-----------|
+| 事实型 | 高精度 | 广度优先，限制深度 |
+| 情感型 | 高召回 | 深度优先，扩大范围 |
+| 混合型 | 综合 | 混合遍历 + 重排 |
 
 ## 为什么重要
 
-现有图记忆系统在长期对话中信息稀释严重，且缺乏溯源能力。MemORAI 通过自适应粒度和溯源跟踪解决了这两个核心问题，对于需要高精度记忆的 Agent 应用（如医疗咨询、法律对话）具有重要价值。
+MemORAI是首个系统解决图记忆系统中信息稀释和来源追踪问题的框架。对于需要长期个性化交互的Agent（如社交机器人、心理咨询助手）有直接价值。
 
 ## 与端侧/移动端的相关性
 
-层次图结构对计算资源有一定要求，端侧部署需要图剪枝优化。但溯源机制可简化为轻量版本，适用于资源受限场景。
+- 选择性记忆机制减少存储开销，适合端侧
+- 图索引的稀疏表示可在移动端高效存储
+- 用户 persona 本地维护，隐私敏感场景友好

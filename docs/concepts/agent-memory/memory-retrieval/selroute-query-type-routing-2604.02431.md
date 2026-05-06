@@ -2,35 +2,70 @@
 title: "SelRoute: Query-Type-Aware Routing for Long-Term Conversational Memory Retrieval"
 arXiv: 2604.02431
 date: 2026-04-02
-tags: [agent-memory, memory-retrieval]
+tags: [agent-memory, memory-retrieval, query-routing]
 reviewer: auto
-source: arXiv RSS/API
+source: arXiv API
 ---
 
-# SelRoute: Query-Type-Aware Routing for Long-Term Conversational Memory Retrieval
+## 论文信息
 
-**作者:** Matthew McKee
-**发表:** 2026-04-02
+- **作者**: Matthew McKee
+- **提交日期**: 2026-04-02
+- **方向**: 记忆检索 / 查询类型路由
 
 ## 摘要
 
-Retrieving relevant past interactions from long-term conversational memory typically relies on large dense retrieval models (110M-1.5B parameters) or LLM-augmented indexing. We introduce SelRoute, a framework that routes each query to a specialized retrieval pipeline -- lexical, semantic, hybrid, or vocabulary-enriched -- based on its query type. On LongMemEval_M, SelRoute achieves Recall@5 of 0.800 with bge-base-en-v1.5 (109M parameters) and 0.786 with bge-small-en-v1.5 (33M parameters), compared to 0.762 for Contriever with LLM-generated fact keys. A zero-ML baseline using SQLite FTS5 alone achieves NDCG@5 of 0.692, already exceeding all published baselines on ranking quality.
+从长期对话记忆中检索相关过去交互通常依赖大型稠密检索模型（110M-1.5B参数）或LLM增强索引。SelRoute引入了一种框架，根据查询类型将每个查询路由到专门的检索管道——词汇检索、语义检索、混合检索或词汇丰富检索。
 
-## 核心貢獻
+**核心性能**：在LongMemEval_M上，SelRoute使用bge-base-en-v1.5（109M参数）达到Recall@5=0.800，使用bge-small-en-v1.5（33M参数）达到0.786。零ML基线（仅使用SQLite FTS5）已超过所有已发布基线（NDCG@5=0.692）。全系统无需GPU，查询时无需LLM推理。
 
-1. **SelRoute 框架**: 根据查询类型将请求路由到专门的检索管道（词汇、语义、混合或词汇丰富化）
-2. **Query Type Routing**: 首次在对话记忆检索中引入类型感知路由，根据查询特点选择最优检索策略
-3. **轻量化检索**: 使用 33M 参数的小型模型达到与大型模型相当的召回率
-4. **SQLite FTS5 Baseline**: 纯词法检索的零机器学习基线即可超过所有已发布的基线
-5. **混合管道设计**: 支持 lexical、semantic、hybrid、vocabulary-enriched 四种检索模式
+## 核心贡献
 
-## 為什麼重要
+1. **查询类型感知路由**：将查询路由到最适合的检索管道，而非统一处理
+2. **专门的检索管道**：
+   - 词汇检索（Lexical）：BM25/FTS5，适合精确匹配
+   - 语义检索（Semantic）：嵌入向量检索，适合语义相似
+   - 混合检索（Hybrid）：结合词汇和语义
+   - 词汇丰富检索（Vocabulary-enriched）：在存储时扩展词汇
+3. **无需GPU/LLM的查询时**：轻量级设计，适合端侧部署
+4. **跨基准泛化**：在8个额外基准（62,000+实例）上验证，包括MSDialog、LoCoMo、QReCC、PerLTQA
 
-长期对话记忆检索通常依赖大型密集检索模型（110M-1.5B 参数），计算成本高。SelRoute 通过查询类型路由，用小模型（33M 参数）实现与大型模型相当的检索质量，显著降低了端侧部署的计算成本。零机器学习的 SQLite FTS5 基线即可超过已发布基线，说明词法检索在对话记忆场景中被低估了。
+## 方法详解
 
-## 與端側/移動端相關性
+**查询类型分类**：
+- 使用regex规则分类查询类型（如事实型、观点型、推理型等）
+- 83%有效路由准确率
+- 即使使用预测类型，端到端检索仍优于均匀基线
 
-1. **轻量化检索**: 33M 参数模型适合端侧移动设备
-2. **查询类型路由**: 根据查询动态选择检索策略，优化资源分配
-3. **SQLite FTS5 支持**: 本地数据库即可实现高质量检索，无需云端 API
-4. **降低推理成本**: 小模型显著减少内存占用和推理延迟
+**路由决策对检索质量的影响**：
+| 查询类型 | 推荐管道 | 原因 |
+|---------|---------|------|
+| 事实型 | 词汇+语义混合 | 精确匹配+语义扩展 |
+| 推理型 | 语义检索 | 需要理解上下文 |
+| 观点型 | 语义+词汇混合 | 既有关键词又有语义 |
+
+**词汇嵌入非对称性发现**：
+- 存储时扩展词汇：提升词汇搜索，损害嵌入搜索
+- 促使每个管道独立决定是否进行词汇扩展
+
+**失败模式**：
+- 推理密集型检索表现差（RECOR Recall@5=0.149）
+- 暴露了当前路由框架的局限性
+
+## 为什么重要
+
+首次系统研究查询类型对对话记忆检索的影响。发现轻量级方法（SQLite FTS5）在特定场景下可以超越复杂方法，推动了端侧记忆检索的可行性研究。
+
+## 与端侧/移动端的相关性
+
+- **高度端侧相关**：无需GPU、查询时无需LLM推理
+- 33M参数模型在移动端可高效运行
+- SQLite FTS5可在本地部署，无需云端
+- 个人助手、隐私敏感场景下的本地记忆检索
+
+## 实验结果
+
+- LongMemEval_M：Recall@5=0.800（bge-base）、0.786（bge-small）
+- SQLite FTS5基线：NDCG@5=0.692，超越所有已发布基线
+- 5折交叉验证：路由稳定性确认（CV gap 1.3-2.4 Recall@5点）
+- 决策延迟：极低，适合实时应用

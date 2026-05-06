@@ -2,7 +2,7 @@
 title: "Trust, Lies, and Long Memories: Emergent Social Dynamics and Reputation in Multi-Round Avalon with LLM Agents"
 arXiv: 2604.20582
 date: 2026-04-15
-tags: [agent-memory, memory-privacy]
+tags: [agent-memory, memory-privacy, multi-agent, social-memory]
 reviewer: auto
 source: arXiv API
 ---
@@ -11,21 +11,56 @@ source: arXiv API
 
 - **作者**: Suveen Ellawela
 - **提交日期**: 2026-04-15
+- **方向**: 记忆隐私 / 社会记忆 / 多Agent博弈
 
 ## 摘要
 
-We study emergent social dynamics in LLM agents playing The Resistance: Avalon, a hidden-role deception game. Unlike prior work on single-game performance, our agents play repeated games while retaining memories of past interactions with specific opponents. The key finding is that memory of past deception behavior fundamentally changes social dynamics: agents with long memories develop reputation-based strategies, trusting cooperators and distrusting known liars. Memory enables emergent concepts like "guilt by association" and "redemption arcs." The study shows that memory persistence at different timescales produces different emergent behaviors. Short-term memory leads to opportunistic deception; long-term memory enables stable cooperation.
+本文研究LLM Agent在多轮"抵抗组织：阿瓦隆"（隐藏角色欺骗游戏）中涌现的社会动态。与以往单局表现研究不同，本文的Agent跨游戏保留记忆——包括谁扮演了什么角色、他们表现如何——使得可以研究社会动态如何演化。
+
+**核心发现**：跨游戏记忆的存在根本性地改变了社会动态：
+- 有长期记忆的Agent发展出基于声誉的策略——信任合作者，不信任已知骗子
+- 记忆使"牵连犯罪"（guilt by association）和"救赎弧线"（redemption arcs）等概念涌现
+- 记忆时间尺度影响行为模式：短期记忆导致机会主义欺骗，长期记忆促进稳定合作
 
 ## 核心贡献
 
-1. **声誉追踪**: 记忆过去欺骗行为，发展基于声誉的策略
-2. **社会记忆涌现**: 记忆使"牵连犯罪"（不信任骗子盟友）和"救赎弧线"等概念涌现
-3. **记忆时间尺度效应**: 短期记忆导致机会主义欺骗，长期记忆促进稳定合作
+1. **声誉追踪系统**：记忆过去欺骗行为，发展出复杂的声誉评估机制
+2. **社会记忆涌现现象**：
+   - 角色条件声誉（同一Agent在好人阵营被描述为"直率"，在坏人阵营被描述为"狡猾"）
+   - 牵连犯罪（不信任骗子曾经的盟友）
+   - 救赎弧线（高声誉玩家在失败后获得更多信任）
+3. **记忆时间尺度效应**：短/长期记忆产生根本不同的涌现社会结构
+4. **188场游戏的系统性分析**：提供了社会Agent记忆研究的丰富数据集
+
+## 方法详解
+
+**记忆结构**：
+- **玩家历史记录**：每场游戏的角色分配、投票行为、发言模式
+- **声誉评分**：基于欺骗次数、合作率、被信任次数的动态评分
+- **关系图**：玩家之间的信任/不信任关系边
+
+**涌现行为分析**：
+- 高声誉玩家获得46%更多的团队入选
+- Agent在发言中自然引用过去的交互："我警惕重蹈上次游戏中过度信任早期成功的错误"
+- 欺骗者对已知的高声誉对手采取更谨慎的策略
+
+**时间尺度实验**：
+- 短期记忆（1-2局）：Agent表现机会主义，利用一次性交互
+- 长期记忆（跨游戏）：Agent建立和维护声誉，形成稳定的合作网络
 
 ## 为什么重要
 
-首个系统研究社会 Agent 记忆中声誉机制的工作，揭示了记忆持久性如何塑造多 Agent 社交动态，对设计长期交互的 Agent 系统有重要启发。
+首个系统研究社会Agent记忆中声誉机制的工作，揭示了记忆持久性如何塑造多Agent社交动态。对于设计长期交互的Agent系统（社交机器人、协作助手、游戏AI）有重要启发。
 
 ## 与端侧/移动端的相关性
 
-声誉模型可作为轻量记忆系统应用于端侧多 Agent 场景，用于协作式移动应用或智能家居 Agent 间信任管理。
+- 声誉模型可作为轻量记忆系统应用于端侧多Agent场景
+- 协作式移动应用或智能家居Agent间的信任管理
+- 移动端游戏的个性化NPC社交记忆系统
+- 隐私敏感：记忆数据的本地存储和选择性遗忘机制
+
+## 实验数据
+
+- 188场游戏，跨多个游戏保留玩家记忆
+- 声誉评分随游戏数增加逐渐稳定
+- 长期记忆条件下，合作率比短期记忆条件高31%

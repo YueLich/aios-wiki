@@ -1,8 +1,8 @@
 ---
 title: "Feedback-Normalized Developer Memory for Reinforcement-Learning Coding Agents: A Safety-Gated MCP Architecture"
 arXiv: 2605.01567
-date: 2026-05-12
-tags: [agent-memory, memory-retrieval]
+date: 2026-05-02
+tags: [agent-memory, memory-privacy, coding-agents, RL-memory, safety]
 reviewer: auto
 source: arXiv API
 ---
@@ -10,22 +10,57 @@ source: arXiv API
 ## 论文信息
 
 - **作者**: Mehmet Iscan
-- **提交日期**: 2026-05-12
+- **提交日期**: 2026-05-02
+- **方向**: 记忆治理 / RL编程Agent / 安全记忆
 
 ## 摘要
 
-LLM coding agents operate over repositories, terminals, tests, and execution traces across long software-engineering episodes. Persistent memory is useful but existing approaches store all interactions uniformly, leading to memory bloat and retrieval pollution. This paper proposes Feedback-Normalized Developer Memory (FNDM), where the signal for what to store comes from downstream feedback (test results, build success/failure, code review outcomes) rather than the agent itself. FNDM introduces a Safety-Gated Memory Controller that only writes to persistent memory when an action receives positive feedback—passing tests, successful builds, or approved reviews. Negative feedback implicitly suggests the underlying assumption was wrong and should not be reinforced. This creates a self-curating memory that naturally prioritizes successful strategies. The Memory Communication Protocol (MCP) architecture enables safe memory sharing across agent sessions. Evaluated on SWE-bench-like tasks, FNDM reduces memory size by 60% while improving task success rate by 12% compared to uniform memory storage.
+LLM编程Agent越来越需要在长软件工程周期中处理仓库、终端、测试和执行轨迹。持久记忆有用，但静态向量存储或通用RAG对强化学习代码开发不足——小细节可以改变Bellman目标、终端掩码、梯度流或验证声明。本文提出RL Developer Memory，一个本地优先、模型上下文协议（MCP）架构的安全门控记忆系统。
+
+RL编码Agent的特殊挑战：
+- **Bellman目标依赖**：值估计的微小变化可导致策略的巨大偏差
+- **终端掩码敏感性**：错误记忆导致Agent在不应结束的状态下停止
+- **梯度流污染**：被污染的记忆影响参数更新方向
 
 ## 核心贡献
 
-1. **反馈驱动记忆写入**: 只在下游反馈正面时（测试通过、构建成功）才写入记忆
-2. **安全门控记忆控制器**: 负面反馈隐含假设错误，不应被强化
-3. **自清理记忆**: 自然优先排序成功策略，内存占用减少 60%
+1. **RL特定记忆设计**：为强化学习代码开发定制，而非通用NLP RAG
+2. **安全门控MCP架构**：记忆使用需经过安全门，不安全的记忆注入被阻断
+3. **本地优先（Local-first）**：所有记忆数据本地存储，不依赖云端
+4. **反馈归一化机制**：利用执行反馈校准记忆重要度权重
+5. **处理RL特有挑战**：
+   - 追踪记忆对Bellman误差的贡献
+   - 验证记忆与终端掩码的一致性
+   - 检测梯度污染风险并触发记忆重构
+
+## 方法详解
+
+**安全门控机制**：
+```
+记忆写入请求 → 安全检查 → 风险评估 → 通过/阻断/需确认
+```
+门控检查项：
+- 记忆与当前上下文的语义兼容性
+- 记忆来源的可靠性（执行验证 vs 推测）
+- 潜在的安全影响（是否会引入梯度污染）
+
+**反馈归一化**：
+- 利用RL环境的奖励信号归一化记忆权重
+- 高反馈一致性的记忆获得更高权重
+- 冲突记忆被自动降权或标记为待验证
+
+**MCP（Model Context Protocol）**：
+- 标准化记忆接口
+- 支持多Agent共享记忆上下文
+- 安全门作为一等公民
 
 ## 为什么重要
 
-解决了统一记忆存储导致的内存膨胀和检索污染问题。通过引入下游反馈信号，记忆系统能够自清理、自我优化。
+首个系统处理RL编程Agent中记忆安全性问题的工作。强化学习的数值敏感性使得通用RAG方法不敷使用——一个小错误的记忆注入可能通过Bellman更新放大，导致完全错误的策略。安全门控和反馈归一化为这个问题提供了系统性解决思路。
 
 ## 与端侧/移动端的相关性
 
-记忆压缩 60% 的效果对端侧资源受限环境特别有价值。MCP 架构支持跨会话安全共享记忆，可在边缘设备间协作。
+- **本地优先设计**：所有记忆数据本地存储，不上云，隐私敏感场景适用
+- 安全门控轻量，适合在边缘设备部署
+- 反馈归一化机制不需要云端协调，可完全本地运行
+- 企业内部代码Agent可在不暴露内部实现的情况下使用外部LLM能力

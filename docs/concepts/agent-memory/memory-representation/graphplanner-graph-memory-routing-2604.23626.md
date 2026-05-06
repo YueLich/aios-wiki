@@ -2,7 +2,7 @@
 title: "GraphPlanner: Graph Memory-Augmented Agentic Routing for Multi-Agent LLMs"
 arXiv: 2604.23626
 date: 2026-04-21
-tags: [agent-memory, memory-representation]
+tags: [agent-memory, memory-representation, multi-agent]
 reviewer: auto
 source: arXiv API
 ---
@@ -11,21 +11,47 @@ source: arXiv API
 
 - **作者**: Tao Feng, Haozhen Zhang, Zijie Lei, Peixuan Han, Jiaxuan You
 - **提交日期**: 2026-04-21
+- **方向**: 记忆表示 / 多Agent路由
 
 ## 摘要
 
-LLM routing has achieved promising results in integrating the strengths of diverse models while balancing efficiency and performance. However, existing routing strategies rely on single-turn classification or semantic similarity, ignoring the rich relational structure among tasks. GraphPlanner introduces a Graph Memory architecture that captures task dependencies and agent capabilities as a bipartite graph. Nodes represent tasks and agent capabilities; edges encode prerequisite relationships and suitability scores. The router uses graph neural networks to propagate information across the task-agent graph, enabling it to predict not just which agent is best for the current task, but also what downstream tasks will follow and which agent should prepare for them.
+LLM路由在整合不同模型优势、平衡效率与性能方面已取得良好效果。然而，现有路由策略依赖单轮分类或语义相似性，忽视了任务之间丰富的关联结构。GraphPlanner引入图记忆架构，将任务依赖和Agent能力建模为二部图，节点代表任务和能力，边编码前置关系和适合度分数。路由器使用图神经网络在任务-能力图上传播信息，不仅能预测当前任务最适合的Agent，还能预测下游任务及哪个Agent应提前准备。
 
 ## 核心贡献
 
-1. **二部图记忆架构**: 节点代表任务和能力，边缘编码前置关系和适合度分数
-2. **图神经网络路由**: 跨任务-能力图传播信息，预测当前任务和下游任务
-3. **前瞻路由**: 考虑任务依赖链而非孤立决策
+1. **二部图记忆架构**：节点代表任务和能力，边编码前置关系和适合度分数，支持跨任务依赖建模
+2. **图神经网络路由**：在任务-能力异构图上传播信息，实现归纳和转导推理
+3. **MDP工作流生成**：将工作流生成建模为马尔可夫决策过程，每步同时选择LLM主干和Agent角色（Planner/Executor/Summarizer）
+4. **前瞻性路由**：考虑任务依赖链而非孤立决策，支持多轮异构Agent协作
+
+## 方法详解
+
+**图记忆结构**：
+- **任务节点**：编码任务语义、输入输出类型、时间约束
+- **能力节点**：编码各LLM/Agent支持的技能、延迟特性、成本
+- **边类型**：前置依赖边（prerequisite）、适合度边（fitness）、时序依赖边（temporal）
+
+**路由过程**：
+1. 图神经网络编码当前任务上下文和Agent状态
+2. 基于注意力机制计算任务-能力匹配分数
+3. 考虑下游任务预测，选择有利于全局工作流的Agent组合
+4. 输出路由决策 + 预测的后续任务序列
+
+**训练**：使用强化学习优化路由策略，奖励信号包括任务完成质量、延迟成本、多Agent协作效率。
 
 ## 为什么重要
 
-首次将任务依赖关系引入多 Agent 路由，使路由决策具有前瞻性，避免了单步分类的短视问题。
+首次将任务依赖关系引入多Agent LLM路由，使路由决策具有前瞻性。传统单步路由的短视问题在GraphPlanner中得到根本解决，对于复杂的多轮协作场景（代码生成、复杂推理、多工具调用）尤为重要。
 
 ## 与端侧/移动端的相关性
 
-GNN 计算较重，端侧部署需要图简化或使用轻量图注意力机制。适用于边缘服务器级别的多 Agent 编排。
+- GNN计算较重，端侧部署需要图简化或轻量图注意力
+- 适用于边缘服务器级别的多Agent编排
+- 任务-能力图的紧凑表示（稀疏边）可在端侧高效存储和查询
+- 移动端多模型协作（如本地小模型+云端大模型）场景有应用潜力
+
+## 实验结果
+
+- 在复杂推理任务上优于单步路由方法
+- 多Agent协作任务中，GraphPlanner的工作流完成率显著更高
+- 归纳推理（未见过的任务组合）表现优于转导方法

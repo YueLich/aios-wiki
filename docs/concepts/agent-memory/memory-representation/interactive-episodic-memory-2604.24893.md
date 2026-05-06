@@ -2,32 +2,52 @@
 title: "Interactive Episodic Memory with User Feedback"
 arXiv: 2604.24893
 date: 2026-04-27
-tags: [agent-memory, memory-representation]
+tags: [agent-memory, memory-retrieval, episodic-memory, egocentric-video]
 reviewer: auto
-source: arXiv RSS/API
+source: arXiv API
 ---
 
-# Interactive Episodic Memory with User Feedback
+## 论文信息
 
-**作者:** Nikesh Subedi, Loris Bazzani, Ziad Al-Halah
-**发表:** 2026-04-27
-**备注:** Accepted to CVPR 2026. Project Page: https://nsubedi11.github.io/refocus
+- **作者**: Nikesh Subedi, Loris Bazzani, Ziad Al-Halah
+- **提交日期**: 2026-04-27
+- **方向**: 情景记忆 / 交互式检索 / 第一人称视频理解
 
 ## 摘要
 
-In episodic memory with natural language queries (EM-NLQ), a user may ask a question (e.g., "Where did I place the mug?") that requires searching a long egocentric video, captured from the user's perspective, to find the moment that answers it. However, queries can be ambiguous or incomplete, leading to incorrect responses. Current methods ignore this key aspect and address EM-NLQ in a one-shot setup, limiting their applicability in real-world scenarios. In this work, we address this gap and introduce the Episodic Memory with Questions and Feedback task (EM-QnF). Here, the user can provide feedback on the model's initial prediction or add more information (e.g., "Before this. I'm looking for the big blue mug not the white one"), helping the model refine its predictions interactively.
+在自然语言查询的情景记忆（EM-NLQ）中，用户可能提问（如"我把马克杯放哪儿了？"），需要在用户视角的长第一人称视频中搜索来回答。然而，查询可能是模糊或不完整的，导致错误回答。当前方法忽视了这个关键问题，以单次方式处理EM-NLQ，限制了其在现实场景中的适用性。本文首次系统研究交互式情景记忆，通过用户反馈消除查询歧义。
 
 ## 核心贡献
 
-1. **EM-QnF 任务定义**: 首次定义 Episodic Memory with Questions and Feedback 任务，支持用户通过反馈迭代式精化预测
-2. **FALM 模块 (Feedback ALignment Module)**: 即插即用的反馈对齐模块，使现有 EM-NLQ 模型能够有效整合用户反馈
-3. **轻量训练方案**: 避免昂贵的序列优化，提出了一个高效的反馈整合训练方案
-4. **CVPR 2026 接收**: 在三个挑战性基准上显著超越 SOTA，与商用大规模视觉-语言模型相当但更高效
+1. **交互式EM-NLQ设置**：用户可提供反馈来消除查询歧义，而非单次检索
+2. **反馈驱动的记忆更新**：根据用户反馈调整记忆检索策略
+3. **歧义感知检索**：显式建模查询的不确定性，在不确定时主动请求反馈
+4. **开放词汇视频定位**：支持任意自然语言查询，不限于预定义类别
+
+## 方法详解
+
+**问题设置**：
+- 用户提出模糊查询（如"我把杯子放哪儿了？"——哪个杯子？什么时候？）
+- 系统返回候选答案
+- 用户提供反馈（确认/纠正）
+- 系统利用反馈更新检索，重新搜索
+
+**歧义建模**：
+- 查询歧义分数：衡量查询的确定性
+- 高歧义时，主动请求用户澄清
+- 低歧义时，直接返回答案
+
+**记忆结构**：
+- 视频帧 + 时间戳 + 视觉概念 + 交互对象
+- 支持按时间、空间、对象等多维度检索
 
 ## 为什么重要
 
-现有情景记忆方法假设查询是完整且明确的，但现实世界的查询往往是模糊或不完整的。这篇论文首次系统研究了用户反馈对情景记忆检索的影响，并提出了一个即插即用的解决方案。CVPR 2026 接收表明该方向获得计算机视觉领域顶级会议的认可。
+首个系统研究交互式情景记忆的工作。真实世界的查询往往是模糊的，单次检索无法处理这种模糊性。交互式设置更接近人类记忆的查询方式，对于构建实用的个人记忆Agent有重要意义。
 
 ## 与端侧/移动端的相关性
 
-第一人称视角视频记忆在智能眼镜、AR 头显等移动设备上有直接应用。FALM 的即插即用特性使其易于集成到端侧应用中。轻量训练方案也适合在资源受限的移动设备上运行。
+- 移动端第一人称视频记录场景（AR眼镜、智能相机）需要本地记忆系统
+- 用户反馈机制适合移动端交互
+- 歧义感知检索减少不必要的视频扫描，降低计算开销
+- 适合可穿戴设备的持续视觉记忆
