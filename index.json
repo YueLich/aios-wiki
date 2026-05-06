@@ -329,13 +329,27 @@
     "2603.03596": {
       "title": "MEM: Multi-Scale Embodied Memory for Vision Language Action Models"
     },
-    "2605.00814": "Persistent Visual Memory: Sustaining Perception for Deep Generation in LVLMs",
-    "2605.00702": "MemCoE: Learning How and What to Memorize — Cognition-Inspired Two-Stage Optimization for Evolving Memory",
-    "2605.01970": "Trojan Hippo: Weaponizing Agent Memory for Data Exfiltration",
-    "2605.01131": "Forager: a lightweight testbed for continual learning with partial observability in RL",
-    "2605.01061": "PRISM: Exposing and Resolving Spurious Isolation in Federated Multimodal Continual Learning",
-    "2605.02509": "MPCS: Neuroplastic Continual Learning via Multi-Component Plasticity and Topology-Aware EWC",
-    "2605.02105": "Sharpness-Aware Pretraining Mitigates Catastrophic Forgetting",
+    "2605.00814": {
+      "title": "Persistent Visual Memory: Sustaining Perception for Deep Generation in LVLMs"
+    },
+    "2605.00702": {
+      "title": "MemCoE: Learning How and What to Memorize — Cognition-Inspired Two-Stage Optimization for Evolving Memory"
+    },
+    "2605.01970": {
+      "title": "Trojan Hippo: Weaponizing Agent Memory for Data Exfiltration"
+    },
+    "2605.01131": {
+      "title": "Forager: a lightweight testbed for continual learning with partial observability in RL"
+    },
+    "2605.01061": {
+      "title": "PRISM: Exposing and Resolving Spurious Isolation in Federated Multimodal Continual Learning"
+    },
+    "2605.02509": {
+      "title": "MPCS: Neuroplastic Continual Learning via Multi-Component Plasticity and Topology-Aware EWC"
+    },
+    "2605.02105": {
+      "title": "Sharpness-Aware Pretraining Mitigates Catastrophic Forgetting"
+    },
     "2604.20117": {
       "title": "SCG-MEM: Schema-Constrained Generation for Agent Memory"
     },
@@ -392,17 +406,41 @@
       "title": "Cross-Modal Memory Compression for Efficient Multi-Agent Debate",
       "date": ""
     },
-    "2605.01386": "MemORAI: Memory Organization and Retrieval via Adaptive Graph Intelligence for LLM Conversational Agents",
-    "2605.00356": "MemRouter: Memory-as-Embedding Routing for Long-Term Conversational Agents",
-    "2605.01567": "Feedback-Normalized Developer Memory for Reinforcement-Learning Coding Agents: A Safety-Gated MCP Architecture",
-    "2605.00058": "Autoformalizing Memory Specifications with Agents",
-    "2604.25847": "From Soliloquy to Agora: Memory-Enhanced LLM Agents with Decentralized Debate for Optimization Modeling",
-    "2604.23626": "GraphPlanner: Graph Memory-Augmented Agentic Routing for Multi-Agent LLMs",
-    "2604.23069": "ContextWeaver: Selective and Dependency-Structured Memory Construction for LLM Agents",
-    "2604.20582": "Trust, Lies, and Long Memories: Emergent Social Dynamics and Reputation in Multi-Round Avalon with LLM Agents",
-    "2604.20572": "Ask Only When Needed: Proactive Retrieval from Memory and Skills for Experience-Driven Lifelong Agents",
-    "2604.20261": "Memory-Augmented LLM-based Multi-Agent System for Automated Feature Generation on Tabular Data",
-    "2604.20183": "Dual-Cluster Memory Agent: Resolving Multi-Paradigm Ambiguity in Optimization Problem Solving",
-    "2602.16493": "MMA: Multimodal Memory Agent"
+    "2605.01386": {
+      "title": "MemORAI: Memory Organization and Retrieval via Adaptive Graph Intelligence for LLM Conversational Agents"
+    },
+    "2605.00356": {
+      "title": "MemRouter: Memory-as-Embedding Routing for Long-Term Conversational Agents"
+    },
+    "2605.01567": {
+      "title": "Feedback-Normalized Developer Memory for Reinforcement-Learning Coding Agents: A Safety-Gated MCP Architecture"
+    },
+    "2605.00058": {
+      "title": "Autoformalizing Memory Specifications with Agents"
+    },
+    "2604.25847": {
+      "title": "From Soliloquy to Agora: Memory-Enhanced LLM Agents with Decentralized Debate for Optimization Modeling"
+    },
+    "2604.23626": {
+      "title": "GraphPlanner: Graph Memory-Augmented Agentic Routing for Multi-Agent LLMs"
+    },
+    "2604.23069": {
+      "title": "ContextWeaver: Selective and Dependency-Structured Memory Construction for LLM Agents"
+    },
+    "2604.20582": {
+      "title": "Trust, Lies, and Long Memories: Emergent Social Dynamics and Reputation in Multi-Round Avalon with LLM Agents"
+    },
+    "2604.20572": {
+      "title": "Ask Only When Needed: Proactive Retrieval from Memory and Skills for Experience-Driven Lifelong Agents"
+    },
+    "2604.20261": {
+      "title": "Memory-Augmented LLM-based Multi-Agent System for Automated Feature Generation on Tabular Data"
+    },
+    "2604.20183": {
+      "title": "Dual-Cluster Memory Agent: Resolving Multi-Paradigm Ambiguity in Optimization Problem Solving"
+    },
+    "2602.16493": {
+      "title": "MMA: Multimodal Memory Agent"
+    }
   }
 }

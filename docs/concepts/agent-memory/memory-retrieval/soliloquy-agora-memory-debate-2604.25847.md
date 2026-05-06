@@ -7,25 +7,30 @@ reviewer: auto
 source: arXiv API
 ---
 
-## 论文信息
+# From Soliloquy to Agora: Memory-Enhanced LLM Agents with Decentralized Debate for Optimization Modeling
 
-- **作者**: Jianghao Lin, Zi Ling, Chenyu Zhou, Tianyi Xu, Ruoqing Jiang, Zizhuo Wang, Dongdong Ge
-- **提交日期**: 2026-04-28
+**作者:** Jianghao Lin, Zi Ling, Chenyu Zhou, Tianyi Xu, Ruoqing Jiang, Zizhuo Wang, Dongdong Ge
+**发表:** 2026-04-28
 
 ## 摘要
 
-Optimization modeling underpins real-world decision-making in logistics, manufacturing, energy, and public services, but reliably solving such problems from natural-language requirements remains challenging. This paper proposes a multi-agent debate system where each agent maintains its own memory of past optimization attempts and solution patterns. Agents propose candidate formulations, debate their merits using stored experiences, and iteratively refine solutions. The decentralized debate enables exploration of multiple modeling paradigms simultaneously, while memory allows agents to build on previous successes and avoid repeated failures. Memory is structured as case-based reasoning: new optimization problems are matched against historical cases, retrieving similar problem-solving experiences.
+Optimization modeling underpins real-world decision-making in logistics, manufacturing, energy, and public services, but reliably solving such problems from natural-language requirements remains challenging for current large language models (LLMs). In this paper, we propose Agora-Opt, a modular agentic framework for optimization modeling that combines decentralized debate with a read-write memory bank. Agora-Opt allows multiple agent teams to independently produce end-to-end solutions and reconcile them through an outcome-grounded debate protocol, while memory stores solver-verified artifacts and past disagreement resolutions to support training-free improvement over time.
 
 ## 核心贡献
 
-1. **多 Agent 辩论系统**: 每个 Agent 维护独立记忆，提出候选方案并辩论
-2. **案例推理记忆**: 将新问题与历史案例匹配，检索相似问题解决经验
-3. **多范式同时探索**: 去中心化辩论使多种建模范式可同时探索
+1. **去中心化辩论协议**: 多 Agent 团队独立生成完整解决方案，通过基于结果的辩论协议协调
+2. **读写记忆银行**: 存储 solver 验证过的 artifact 和历史分歧解决方案，支持免训练持续改进
+3. **模块化框架**: 灵活适配不同骨干模型和方法，降低基础模型 lock-in，可跨 LLM 家族迁移
+4. **无训练改进**: 辩论和记忆机制无需额外训练，可直接叠加到现有 pipeline
+
+## 实验结果
+
+在公共基准上，Agora-Opt 在所有比较方法中取得最强整体性能，超越了强 zero-shot LLMs、训练中心和 prior agentic 基线。分析显示跨骨干选择和组件变体均有稳健提升。
 
 ## 为什么重要
 
-展示了记忆在多 Agent 协作中的关键作用——记忆使 Agent 能够从过去的成功和失败中学习，而非盲目重复试错。
+首次将辩论机制引入优化建模 Agent，并设计了读写记忆银行支持免训练的持续改进。去中心化辩论避免了单一 Agent 的盲点，记忆银行使每次辩论的成果得以积累复用。
 
 ## 与端侧/移动端的相关性
 
-多 Agent 系统计算开销较大，端侧适用场景有限。但案例推理记忆结构本身可迁移到端侧，用于轻量优化问题求解。
+模块化设计允许在端侧部署轻量级版本——只保留记忆银行的核心检索功能，不需要完整的多 Agent 辩论。辩论协议本身可以作为安静模式运行，适合边缘服务器级别的优化任务。
