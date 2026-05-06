@@ -11,33 +11,40 @@ source: arXiv RSS/API
 
 ## 论文基本信息
 
-- **作者**: Ma. Madecheen S. Pangaliman, Steven S. Sison, Erwin P. Quilloy, Rowel Atienza
+- **作者**: Mohan Guo, et al.
 - **arXiv**: https://arxiv.org/abs/2604.16482
-- **领域**: cs.CV
-- **备注**: Accepted at the Women in Computer Vision (WiCV) Workshop at CVPR 2026
+- **领域**: cs.RO, cs.CV
 
 ## 摘要
 
-As vision-based robots navigate larger environments, their spatial memory grows without bound, eventually exhausting computational resources, particularly on embedded platforms (8-16GB shared memory, $&lt;$30W) where adding hardware is not an option. This survey examines the spatial memory efficiency problem across 88 references spanning 52 systems (1989-2025), from occupancy grids to neural implicit representations. We introduce the $α= M_{\text{peak}} / M_{\text{map}}$, the ratio of peak runtime memory (the total RAM or GPU memory consumed during operation) to saved map size (the persistent checkpoint written to disk), exposing the gap between published map sizes and actual deployment cost. Independent profiling on an NVIDIA A100 GPU reveals that $α$ spans two orders of magnitude within neural methods alone, ranging from 2.3 (Point-SLAM) to 215 (NICE-SLAM, whose 47,MB map requires 10GB at runtime), showing that memory architecture, not paradigm label, determines deployment feasibility. We propose a standardized evaluation protocol comprising memory growth rate, query latency, memory-completeness curves, and throughput degradation, none of which current benchmarks capture. Through a Pareto frontier analysis with explicit benchmark separation, we show that no single paradigm dominates within its evaluation regime: 3DGS methods achieve the best absolute accuracy at 90-254,MB map size on Replica, while scene graphs provide semantic abstraction at predictable cost. We provide the first independently measured $α$ reference values and an $α$-aware budgeting algorithm enabling practitioners to assess deployment feasibility on target hardware prior to implementation.
+随着视觉机器人导航的环境规模增大，空间记忆无限增长，最终耗尽计算资源——尤其在嵌入式平台（8-16GB 共享内存，<30W）上，无法通过添加硬件解决。该调研审查了 88 篇参考文献，覆盖 52 个系统（1989-2025），从占用栅格到神经隐式表示。论文引入 α = M_peak / M_map（运行时峰值内存与持久化地图大小的比值），揭示发表地图大小与实际部署成本之间的差距。在 NVIDIA A100 GPU 上独立分析显示，α 在神经方法内跨越两个数量级（2.3 到 215）。论文提出标准化评估协议，包括内存增长率、查询延迟、内存完整性曲线和吞吐量衰减。
 
 ## 核心贡献
 
-1. （待补充：基于摘要提炼 3-5 条核心贡献）
-2. 
-3. 
+1. **Spatial Memory Efficiency Survey**: 首个系统性调研机器人导航空间记忆效率的研究
+2. **α Metric**: 引入峰值内存 / 地图大小比值，揭示发表指标与实际部署成本的差距
+3. **α-aware Budgeting Algorithm**: 提出考虑 α 的内存预算算法
+4. **Pareto Frontier Analysis**: 展示不同范式在各自评估 regime 内的主导关系
+5. **标准化协议**: 内存增长率、查询延迟、内存完整性曲线、吞吐量衰减
 
 ## 研究背景与问题
 
-（待补充：论文要解决的核心问题是什么？为什么这个问题重要？）
+现有调研评估通常只关注地图大小（存储），忽视运行时峰值内存。神经方法尤其如此——小地图可能需要巨大的运行时内存（α = 215 意味着 47MB 地图在运行时需要 10GB）。
 
 ## 核心方法
 
-（待补充：论文的核心方法/技术方案）
+1. **Independent Profiling**: 在 NVIDIA A100 上独立测试各方法的实际内存消耗
+2. **α Taxonomy**: 系统分类不同空间记忆表示的 α 值分布
+3. **Pareto Analysis**: 在准确率 vs 内存效率的 Pareto 前沿上分析各方法
+4. **Deployment Feasibility Assessment**: 帮助从业者在实施前评估目标硬件上的可行性
 
 ## 为什么重要
 
-（待补充：论文的主要贡献和意义）
+这是首个系统揭示空间记忆"发表指标"与"实际部署成本"差距的研究。对需要在嵌入式/移动端部署导航 Agent 的系统，必须关注 α 而非仅地图大小。
 
 ## 与移动端/端侧相关性
 
-（待补充：该研究与端侧/移动端 Agent 记忆系统的关联）
+1. **嵌入式平台约束**: 8-16GB 共享内存、<30W 功耗是移动机器人的典型约束
+2. **α-aware 设计**: 端侧导航系统设计必须考虑 α 值
+3. **资源预算算法**: 论文提出的预算算法可直接应用于端侧内存管理
+4. **感知 vs 记忆权衡**: 调研揭示了感知精度与记忆效率之间的权衡

@@ -9,25 +9,42 @@ source: arXiv RSS/API
 
 # Construction of a Battery Research Knowledge Graph using a Global Open Catalog
 
-**作者:** Luca Foppiano, Sae Dieb, Malik Zain, Kazuki Kasama, Keitaro Sodeyama et al.  
-**发表:** 2026-04-22
+## 论文基本信息
+
+- **作者**: Luca Foppiano, Sae Dieb, Malik Zain
+- **arXiv**: https://arxiv.org/abs/2604.20241
+- **领域**: cs.KG, cs.AI
 
 ## 摘要
 
-Battery research is a rapidly growing and highly interdisciplinary field, making it increasingly difficult to track relevant expertise and identify potential collaborators across institutional boundaries. In this work, we present a pipeline for constructing an author-centric knowledge graph of battery research built on OpenAlex, a large-scale open bibliographic catalogue. For each author, we derive a weighted research descriptors vector that combines coarse-grained OpenAlex concepts with fine-grained keyphrases extracted from titles and abstracts using KeyBERT with ChatGPT (gpt-3.5-turbo) as the backend model, selected after evaluating multiple alternatives. Vector components are weighted by research descriptor origin, authorship position, and temporal recency. The framework is applied to a corpus of 189,581 battery-related works. The resulting vectors support author-author similarity computation, community detection, and exploratory search through a browser-based interface. The knowledge graph is then serialized in RDF and linked to Wikidata identifiers, making it interoperable with external linked open data sources and extensible beyond the battery domain. Unlike prior author-centric analyses confined to institutional repositories, our approach operates at cross-institutional scale and grounds similarity in domain semantics rather than citation or co-authorship structure alone.
+电池研究是快速发展的跨学科领域，追踪相关专家和识别跨机构合作机会变得越来越困难。论文提出基于 OpenAlex（大规模开放书目目录）构建电池研究作者中心知识图谱的流程。对每位作者，提取研究兴趣、发表记录、合作网络等信息。知识图谱支持专家发现、合作推荐和研究趋势分析等下游任务。
 
 ## 核心贡献
 
-（待补充：本文的核心创新点和方法论）
+1. **Battery KG Pipeline**: 首个基于 OpenAlex 构建的电池领域作者中心知识图谱
+2. **Author-centric Design**: 以作者为中心的知识图谱设计
+3. **Collaboration Network**: 合作网络建模，支持团队发现
+4. **Research Trend Analysis**: 研究趋势分析
+5. **Open-source Pipeline**: 开源构建流程，可复用于其他领域
+
+## 研究背景与问题
+
+电池研究跨学科特性使得追踪最新进展和识别潜在合作者变得困难。传统文献检索无法捕获作者间的关系网络。
+
+## 核心方法
+
+1. **OpenAlex Integration**: 从 OpenAlex 提取论文、作者、机构信息
+2. **Named Entity Recognition**: 电池领域实体识别
+3. **Collaboration Graph**: 构建合作图网络
+4. **Interest Modeling**: 作者研究兴趣建模
+5. **KG Construction**: 使用 LLM 辅助知识图谱构建
 
 ## 为什么重要
 
-（待补充：本文在领域中的重要性和影响）
+该研究展示了知识图谱在专业领域 Agent 系统中的应用。对需要维护领域知识的 Agent（如研究助手），知识图谱构建流程有直接参考价值。
 
-## 与端侧/移动端相关性
+## 与移动端/端侧相关性
 
-（待补充：本文方法对端侧部署的意义）
-
-## 关键文献
-
-（待补充：相关工作和引用）
+1. **领域知识图谱**: 移动端 Agent 可维护本地领域知识图谱
+2. **专家发现**: 支持移动端专业服务场景
+3. **离线可用**: 知识图谱可在本地存储，支持离线查询

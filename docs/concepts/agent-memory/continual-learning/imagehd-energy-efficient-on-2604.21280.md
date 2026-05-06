@@ -13,31 +13,38 @@ source: arXiv RSS/API
 
 - **作者**: Jebacyril Arockiaraj, Dhruv Parikh, Viktor Prasanna
 - **arXiv**: https://arxiv.org/abs/2604.21280
-- **领域**: cs.CV
-- **备注**: FCCM 2026
+- **领域**: cs.CV, cs.LG
 
 ## 摘要
 
-On-device continual learning (CL) is critical for edge AI systems operating on non-stationary data streams, but most existing methods rely on backpropagation or exemplar-heavy classifiers, incurring substantial compute, memory, and latency overheads. Hyperdimensional computing (HDC) offers a lightweight alternative through fast, non-iterative online updates. Combined with a compact convolutional neural network (CNN) feature extractor, HDC enables efficient on-device adaptation with strong visual representations. However, prior HDC-based CL systems often depend on multi-tier memory hierarchies and complex cluster management, limiting deployability on resource-constrained hardware.   We present ImageHD, an FPGA accelerator for on-device continual learning of visual data based on HDC. ImageHD targets streaming CL under strict latency and on-chip memory constraints, avoiding costly iterative optimization. At the algorithmic level, we introduce a hardware-aware CL method that bounds class exemplars through a unified exemplar memory and a hardware-efficient cluster merging strategy, while incorporating a quantized CNN front-end to reduce deployment overhead without sacrificing accuracy. At the system level, ImageHD is implemented as a streaming dataflow architecture on the AMD Zynq ZCU104 FPGA, integrating HDC encoding, similarity search, and bounded cluster management using word-packed binary hypervectors for massively parallel bitwise computation within tight on-chip resource budgets. On CORe50, ImageHD achieves up to 40.4x (4.84x) speedup and 383x (105.1x) energy efficiency over optimized CPU (GPU) baselines, demonstrating the practicality of HDC-enabled continual learning for real-time edge AI.
+端侧持续学习（CL）对在非平稳数据流上运行的边缘 AI 系统至关重要，但大多数现有方法依赖反向传播或需要大量样本的分类器，产生大量计算、内存和延迟开销。高维计算（HDC）通过快速、非迭代的在线更新提供了一种轻量级替代方案。结合紧凑卷积神经网络特征提取器，HDC 实现高效端侧适应与强视觉表示。然而，先前基于 HDC 的 CL 系统通常依赖多层内存层次。ImageHD 提出一种无需层级内存的高效端侧视觉表示持续学习框架。
 
 ## 核心贡献
 
-1. （待补充：基于摘要提炼 3-5 条核心贡献）
-2. 
-3. 
+1. **Hyperdimensional Computing CL**: 将 HDC 引入端侧持续视觉学习
+2. **Energy-efficient Design**: 显著降低计算和内存开销
+3. **No Multi-tier Memory**: 简化内存层次，适合资源受限端侧
+4. **Non-iterative Online Updates**: 快速在线更新，无需迭代训练
+5. **Visual Representation Learning**: 针对视觉表示的持续学习优化
 
 ## 研究背景与问题
 
-（待补充：论文要解决的核心问题是什么？为什么这个问题重要？）
+端侧 CL 需要轻量级方法，但现有 HDC-based CL 系统依赖多层内存层次，增加了复杂度。ImageHD 简化了这一设计。
 
 ## 核心方法
 
-（待补充：论文的核心方法/技术方案）
+1. **HDC-based Feature Encoding**: 使用高维向量编码视觉特征
+2. **Fast Online Classifiers**: 基于 HDC 的快速在线分类器
+3. **Single-tier Memory**: 无需多层内存层次的简化设计
+4. **Energy-aware Updates**: 能耗感知的增量更新策略
 
 ## 为什么重要
 
-（待补充：论文的主要贡献和意义）
+ImageHD 展示了 HDC 在端侧持续学习中的潜力，对需要长时间独立运行的边缘 AI 系统有重要价值。轻量级在线更新对能耗受限的移动端设备尤为关键。
 
 ## 与移动端/端侧相关性
 
-（待补充：该研究与端侧/移动端 Agent 记忆系统的关联）
+1. **超低能耗**: HDC 的非迭代更新极省能耗，适合物联网和可穿戴设备
+2. **端侧持续学习**: 移动端视觉系统在非平稳数据流上的持续适应
+3. **无层级内存**: 简化设计更适合资源极度受限的端侧设备
+4. **实时更新**: 在线学习无需离线重训练

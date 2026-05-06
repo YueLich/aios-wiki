@@ -11,33 +11,41 @@ source: arXiv RSS/API
 
 ## 论文基本信息
 
-- **作者**: Marcel Torne, Karl Pertsch, Homer Walke, Kyle Vedder, Suraj Nair, +12 more
+- **作者**: Marcel Torne, Karl Pertsch, Homer Walke, Kyle Vedder, Suraj Nair, Brian Ichter, Allen Z. Ren, Haohuan Wang, Jiaming Tang, Kyle Stachowicz, Karan Dhabalia, Michael Equi, Quan Vuong, Jost Tobias Springenberg, Sergey Levine, Chelsea Finn, Danny Driess
 - **arXiv**: https://arxiv.org/abs/2603.03596
-- **领域**: cs.RO
-- **备注**: Website: https://pi.website/research/memory
+- **领域**: cs.RO, cs.AI
 
 ## 摘要
 
-Conventionally, memory in end-to-end robotic learning involves inputting a sequence of past observations into the learned policy. However, in complex multi-stage real-world tasks, the robot's memory must represent past events at multiple levels of granularity: from long-term memory that captures abstracted semantic concepts (e.g., a robot cooking dinner should remember which stages of the recipe are already done) to short-term memory that captures recent events and compensates for occlusions (e.g., a robot remembering the object it wants to pick up once its arm occludes it). In this work, our main insight is that an effective memory architecture for long-horizon robotic control should combine multiple modalities to capture these different levels of abstraction. We introduce Multi-Scale Embodied Memory (MEM), an approach for mixed-modal long-horizon memory in robot policies. MEM combines video-based short-horizon memory, compressed via a video encoder, with text-based long-horizon memory. Together, they enable robot policies to perform tasks that span up to fifteen minutes, like cleaning up a kitchen, or preparing a grilled cheese sandwich. Additionally, we find that memory enables MEM policies to intelligently adapt manipulation strategies in-context.
+传统上，端到端机器人学习中的记忆涉及将过去观察序列输入学得策略。然而，在复杂多阶段真实世界任务中，机器人记忆必须在多个粒度级别表示过去事件：从捕获抽象语义概念（如机器人做晚餐应记住菜谱已完成阶段）的长期记忆，到捕获最近事件并补偿遮挡的短期记忆（如机器人记住一旦手臂遮挡就想抓取的物体）。论文的主要见解是，有效的长程机器人控制记忆架构应结合多种模态来捕获这些不同抽象级别。MEM 提出混合模态长程记忆的机器人策略方法。MEM 结合视频压缩的短程记忆（通过视频编码器）和基于文本的长期记忆，共同使机器人策略能够执行持续达十五分钟的任务（如清理厨房或准备烤芝士三明治）。此外，发现记忆使 MEM 策略能够智能地在上下文中调整操作策略。
 
 ## 核心贡献
 
-1. （待补充：基于摘要提炼 3-5 条核心贡献）
-2. 
-3. 
+1. **Multi-scale Embodied Memory**: 首个多尺度具身记忆架构
+2. **Video + Text Mixed Modal**: 视频编码短程记忆 + 文本长期记忆
+3. **15-minute Tasks**: 支持长达十五分钟的长程任务
+4. **In-context Strategy Adaptation**: 记忆使策略能在上下文中智能调整
+5. **Real-world Robot Validation**: 真实机器人验证
 
 ## 研究背景与问题
 
-（待补充：论文要解决的核心问题是什么？为什么这个问题重要？）
+机器人在长程任务中需要多层次记忆：长期语义概念和短期细节。现有方法用单一模态无法有效捕获这两种需求。
 
 ## 核心方法
 
-（待补充：论文的核心方法/技术方案）
+1. **Video-based Short-horizon Memory**: 视频编码器压缩近期观察
+2. **Text-based Long-horizon Memory**: 文本编码器维护高层任务状态
+3. **Mixed-modal Fusion**: 视频和文本记忆的混合模态融合
+4. **Long-horizon Task Benchmark**: 15 分钟真实机器人任务基准
+5. **In-context Adaptation**: 记忆条件下的策略上下文适应
 
 ## 为什么重要
 
-（待补充：论文的主要贡献和意义）
+MEM 首次系统解决了机器人长程记忆的多模态问题，为具身 Agent 的记忆架构提供了重要参考。视频+文本的混合方案对移动端机器人有直接价值。
 
 ## 与移动端/端侧相关性
 
-（待补充：该研究与端侧/移动端 Agent 记忆系统的关联）
+1. **移动机器人**: 家庭机器人、服务机器人的核心能力
+2. **长程任务**: 15 分钟任务覆盖大多数日常家务
+3. **视频编码效率**: 视频编码器可在端侧高效运行
+4. **上下文适应**: 移动端需要快速适应新任务/环境
