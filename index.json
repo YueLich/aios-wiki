@@ -98,7 +98,14 @@
     "MAGE: Safeguarding LLM Agents against Long-Horizon Threats via Shadow Memory",
     "A Domain Incremental Continual Learning Benchmark for ICU Time Series Model Transportability",
     "Dynamic Distillation and Gradient Consistency for Robust Long-Tailed Incremental Learning",
-    "Adaptive Data Compression and Reconstruction for Memory-Bounded EEG Continual Learning"
+    "Adaptive Data Compression and Reconstruction for Memory-Bounded EEG Continual Learning",
+    "MemSifter: Offloading LLM Memory Retrieval via Outcome-Driven Proxy Reasoning",
+    "SmartSearch: How Ranking Beats Structure for Conversational Memory Retrieval",
+    "The Price of Meaning: Why Every Semantic Memory System Forgets",
+    "When Modalities Remember: Continual Learning for Multimodal Knowledge Graphs",
+    "Chameleon: Episodic Memory for Long-Horizon Robotic Manipulation",
+    "Towards Benchmarking Privacy Vulnerabilities in Selective Forgetting with Large Language Models",
+    "Keys to Knowledge (K2K): Efficient and Effective Internal Memory Retrieval for LLM-Based Healthcare Prediction"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -604,6 +611,86 @@
         "continual-learning",
         "memory-compression"
       ]
+    },
+    "2603.03379": {
+      "title": "MemSifter: Offloading LLM Memory Retrieval via Outcome-Driven Proxy Reasoning",
+      "authors": [
+        "Jiejun Tan",
+        "Zhicheng Dou",
+        "Liancheng Zhang",
+        "Yuyang Hu",
+        "Yiruo Cheng"
+      ],
+      "date": "2026-03-03",
+      "subdir": "memory-retrieval"
+    },
+    "2603.15599": {
+      "title": "SmartSearch: How Ranking Beats Structure for Conversational Memory Retrieval",
+      "authors": [
+        "Jesper Derehag",
+        "Carlos Calva",
+        "Timmy Ghiurau"
+      ],
+      "date": "2026-03-16",
+      "subdir": "memory-retrieval"
+    },
+    "2603.27116": {
+      "title": "The Price of Meaning: Why Every Semantic Memory System Forgets",
+      "authors": [
+        "Sambartha Ray Barman",
+        "Andrey Starenky",
+        "Sofia Bodnar",
+        "Nikhil Narasimhan",
+        "Ashwin Gopinath"
+      ],
+      "date": "2026-03-28",
+      "subdir": "memory-compression"
+    },
+    "2604.02778": {
+      "title": "When Modalities Remember: Continual Learning for Multimodal Knowledge Graphs",
+      "authors": [
+        "Linyu Li",
+        "Zhi Jin",
+        "Yichi Zhang",
+        "Dongming Jin",
+        "Yuanpeng He"
+      ],
+      "date": "2026-04-03",
+      "subdir": "continual-learning"
+    },
+    "2603.24576": {
+      "title": "Chameleon: Episodic Memory for Long-Horizon Robotic Manipulation",
+      "authors": [
+        "Xinying Guo",
+        "Chenxi Jiang",
+        "Hyun Bin Kim",
+        "Ying Sun",
+        "Yang Xiao"
+      ],
+      "date": "2026-03-25",
+      "subdir": "multimodal-memory"
+    },
+    "2512.18035": {
+      "title": "Towards Benchmarking Privacy Vulnerabilities in Selective Forgetting with Large Language Models",
+      "authors": [
+        "Wei Qian",
+        "Chenxu Zhao",
+        "Yangyi Li",
+        "Mengdi Huai"
+      ],
+      "date": "2025-12-19",
+      "subdir": "memory-privacy"
+    },
+    "2604.07659": {
+      "title": "Keys to Knowledge (K2K): Efficient and Effective Internal Memory Retrieval for LLM-Based Healthcare Prediction",
+      "authors": [
+        "Mingchen Li",
+        "Jiatan Huang",
+        "Zonghai Yao",
+        "Hong yu"
+      ],
+      "date": "2026-04-08",
+      "subdir": "memory-retrieval"
     }
   }
 }

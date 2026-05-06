@@ -253,9 +253,14 @@ nav:
       - ADaCoRe EEG记忆压缩持续学习: concepts/agent-memory/continual-learning/adacoere-eeg-continual-learning-2605.03085.md
       - DiffResistor 灾难性遗忘分析: concepts/agent-memory/continual-learning/differentiable-resistor-sequential-learning-2605.01383.md
       - CL分子通信 增量性能估算: concepts/agent-memory/continual-learning/continual-learning-molecular-communication-2605.01020.md
+      - ModalitiesRemember 多模态知识图谱持续学习: concepts/agent-memory/continual-learning/modalities-remember-2604.02778.md
       - Selective Forgetting LRMs 推理模型: concepts/agent-memory/memory-compression/selective-forgetting-large-reasoning-models-2604.03571.md
+      - PriceOfMeaning 语义记忆必然遗忘: concepts/agent-memory/memory-compression/price-meaning-semantic-forgetting-2603.27116.md
+      - SmartSearch 排序超越结构: concepts/agent-memory/memory-retrieval/smartsearch-ranking-2603.15599.md
       - Learning When to Remember 风险感知: concepts/agent-memory/memory-retrieval/learning-when-to-remember-2604.27283.md
+      - MemSifter 检索卸载代理推理: concepts/agent-memory/memory-retrieval/memsifter-offloading-2603.03379.md
       - CacheRAG 语义缓存 KGQA: concepts/agent-memory/memory-retrieval/cacherag-semantic-caching-kgqa-2604.26176.md
+      - K2K 内部键值记忆医疗: concepts/agent-memory/memory-retrieval/k2k-internal-memory-2604.07659.md
       - CIG 对话语义信息增益: concepts/agent-memory/memory-retrieval/cig-conversational-information-gain-2604.15647.md
       - Rashomon Memory 多视角论证: concepts/agent-memory/memory-retrieval/rashomon-memory-argumentation-2604.03588.md
       - SelRoute 查询类型路由: concepts/agent-memory/memory-retrieval/selroute-query-type-routing-2604.02431.md
@@ -288,6 +293,7 @@ nav:
       - MM-Mem 视频记忆金字塔蒸馏: concepts/agent-memory/multimodal-memory/mm-mem-pyramidal-multimodal-memory-2603.01455.md
       - IMPACT-CYCLE 长视频监督记忆: concepts/agent-memory/multimodal-memory/impact-cycle-long-video-memory-2604.20136.md
       - PVM 持续视觉记忆 LVLM: concepts/agent-memory/multimodal-memory/persistent-visual-memory-2605.00814.md
+      - Chameleon 几何情景记忆机器人: concepts/agent-memory/multimodal-memory/chameleon-episodic-memory-2603.24576.md
       - Goal-Directed Search vs Memory Compression: concepts/agent-memory/memory-compression/goal-directed-search-vs-memory-compression-2511.21726.md
       - MMA 多模态记忆Agent: concepts/agent-memory/multimodal-memory/mma-multimodal-memory-agent-2602.16493.md
       - M2A 双层混合记忆Agent: concepts/agent-memory/multimodal-memory/m2a-multimodal-memory-agent-2602.07624.md
@@ -300,6 +306,7 @@ nav:
       - ADAM 数据提取攻击 隐私: concepts/agent-memory/memory-privacy/adam-data-extraction-attack-2604.09747.md
       - Trojan Hippo 数据外泄攻击: concepts/agent-memory/memory-privacy/trojan-hippo-weaponizing-agent-memory-2605.01970.md
       - MEMSAD 梯度异常检测防御: concepts/agent-memory/memory-privacy/memsad-gradient-anomaly-detection-2605.03482.md
+      - PrivacyBenchmark 选择性遗忘隐私漏洞: concepts/agent-memory/memory-privacy/privacy-vulnerabilities-selective-forgetting-2512.18035.md
       - MAGE Shadow Memory 防御: concepts/agent-memory/memory-privacy/mage-shadow-memory-guardrail-2605.03228.md
       - MemCoE 记忆指南归纳演化: concepts/agent-memory/memory-compression/memcoe-evolving-memory-2605.00702.md
       - SuperLocalMemory V3.3 生物启发遗忘: concepts/agent-memory/memory-compression/superlocalmemory-v3-2604.04514.md
