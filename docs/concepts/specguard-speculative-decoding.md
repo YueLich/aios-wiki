@@ -45,7 +45,7 @@ SpecGuard 是一个验证感知的投机解码（Speculative Decoding）框架�
 
 - 与 [KV Packet](kv-packet-kv-caching.md) 互补：KV 缓存优化减少重计算，投机解码加速生成
 - 与 [E-GRM](e-grm-efficient-generative-reward-modeling.md) 对比：两者都试图减少验证开销，但方法不同
-- 与 [RPRA](rpra-llm-judge-inference.md) 有相似的目标：用更少的计算获得高质量输出
+- 与 [RPRA](rpra-self-assessment-inference.md) 有相似的目标：用更少的计算获得高质量输出
 
 ## 参考链接
 
