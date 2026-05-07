@@ -127,7 +127,9 @@
     "Skill Neologisms: Towards Skill-based Continual Learning",
     "HERCULES: Hardware-Efficient, Robust, Continual Learning Neural Architecture Search",
     "Venus: An Efficient Edge Memory-and-Retrieval System for VLM-based Online Video Understanding",
-    "MemLoRA: Distilling Expert Adapters for On-Device Memory Systems"
+    "MemLoRA: Distilling Expert Adapters for On-Device Memory Systems",
+    "Continual Knowledge Updating in LLM Systems: Learning Through Multi-Timescale Memory Dynamics",
+    "LongSeeker: Elastic Context Orchestration for Long-Horizon Search Agents"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -844,6 +846,26 @@
         "on-device",
         "small-language-models"
       ]
+    },
+    "2605.05097": {
+      "title": "Continual Knowledge Updating in LLM Systems: Learning Through Multi-Timescale Memory Dynamics",
+      "authors": [
+        "Andreas Pattichis",
+        "Constantine Dovrolis"
+      ],
+      "category": "memory-compression"
+    },
+    "2605.05191": {
+      "title": "LongSeeker: Elastic Context Orchestration for Long-Horizon Search Agents",
+      "authors": [
+        "Yijun Lu",
+        "Rui Ye",
+        "Yuwen Du",
+        "Jiajun Wang",
+        "Songhua Liu",
+        "Siheng Chen"
+      ],
+      "category": "memory-compression"
     }
   }
 }
