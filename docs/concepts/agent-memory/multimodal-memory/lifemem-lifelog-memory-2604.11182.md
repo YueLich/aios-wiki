@@ -14,7 +14,7 @@ source: arXiv RSS/API
 - **arXiv ID**: 2604.11182
 - **提交日期**: 2026-04-16（ACL 2026 Findings）
 - **来源**: arXiv (cs.CL / Computation and Language)
-- **GitHub**: 待补充（论文未提供公开代码仓库）
+- **GitHub**: 无公开代码仓库
 - **DOI**: 10.48550/arXiv.2604.11182
 
 ## 摘要
@@ -129,7 +129,7 @@ LifeMem 的在线评估协议要求：
 
 ## 参考文献
 
-待补充（请参考原论文）
+本论文为 ACL 2026 Findings 正式会议论文，arXiv 预印本编号 2604.11182。完整参考文献请参阅原论文：https://arxiv.org/abs/2604.11182
 
 ## 相关研究
 
