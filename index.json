@@ -114,7 +114,8 @@
     "Re:Member: Emotional Question Generation from Personal Memories",
     "SocializeChat: A GPT-Based AAC Tool Grounded in Personal Memories to Support Social Communication",
     "Memento: Augmenting Personalized Memory via Practical Multimodal Wearable Sensing in Visual Search and Wayfinding Navigation",
-    "LifeMem: Evaluating Memory Capability in Continuous Lifelog Scenario"
+    "LifeMem: Evaluating Memory Capability in Continuous Lifelog Scenario",
+    "Tree-based Credit Assignment for Multi-Agent Memory System"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -779,6 +780,10 @@
         "wearable"
       ],
       "source": "new_items.json"
+    },
+    "2605.04811": {
+      "title": "TreeMem: Tree-based Credit Assignment for Multi-Agent Memory System",
+      "date": "2026-05-06"
     }
   }
 }

@@ -259,6 +259,7 @@ nav:
       - SmartSearch 排序超越结构: concepts/agent-memory/memory-retrieval/smartsearch-ranking-2603.15599.md
       - Learning When to Remember 风险感知: concepts/agent-memory/memory-retrieval/learning-when-to-remember-2604.27283.md
       - MemSifter 检索卸载代理推理: concepts/agent-memory/memory-retrieval/memsifter-offloading-2603.03379.md
+      - TreeMem 多智能体信用分配: concepts/agent-memory/memory-retrieval/treemem-multi-agent-credit-2605.04811.md
       - CacheRAG 语义缓存 KGQA: concepts/agent-memory/memory-retrieval/cacherag-semantic-caching-kgqa-2604.26176.md
       - K2K 内部键值记忆医疗: concepts/agent-memory/memory-retrieval/k2k-internal-memory-2604.07659.md
       - CIG 对话语义信息增益: concepts/agent-memory/memory-retrieval/cig-conversational-information-gain-2604.15647.md
