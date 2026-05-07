@@ -264,6 +264,7 @@ nav:
       - DiffResistor 灾难性遗忘分析: concepts/agent-memory/continual-learning/differentiable-resistor-sequential-learning-2605.01383.md
       - CL分子通信 增量性能估算: concepts/agent-memory/continual-learning/continual-learning-molecular-communication-2605.01020.md
       - Skill Neologisms 软token技能持续学习: concepts/agent-memory/continual-learning/skill-neologisms-continual-learning-2605.04970.md
+      - Replay-Based CL物理信息神经算子: concepts/agent-memory/continual-learning/replay-based-continual-learning-physic-2605.04832.md
       - HERCULES NAS持续学习边缘AI: concepts/agent-memory/continual-learning/hercules-nas-continual-learning-2605.04103.md
       - ModalitiesRemember 多模态知识图谱持续学习: concepts/agent-memory/continual-learning/modalities-remember-2604.02778.md
       - Selective Forgetting LRMs 推理模型: concepts/agent-memory/memory-compression/selective-forgetting-large-reasoning-models-2604.03571.md

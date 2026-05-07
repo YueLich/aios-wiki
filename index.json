@@ -140,7 +140,8 @@
     "Venus: An Efficient Edge Memory-and-Retrieval System for VLM-based Online Video Understanding",
     "MemLoRA: Distilling Expert Adapters for On-Device Memory Systems",
     "Continual Knowledge Updating in LLM Systems: Learning Through Multi-Timescale Memory Dynamics",
-    "LongSeeker: Elastic Context Orchestration for Long-Horizon Search Agents"
+    "LongSeeker: Elastic Context Orchestration for Long-Horizon Search Agents",
+    "Replay-Based Continual Learning for Physics-Informed Neural Operators"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -888,6 +889,16 @@
     "2405.14768": "WISE: Rethinking the Knowledge Memory for Lifelong Model Editing of Large Language Models",
     "2603.01097": "Understanding LoRA as Knowledge Memory: An Empirical Analysis",
     "2502.13451": "MapNav: A Novel Memory Representation via Annotated Semantic Maps for Vision-and-Language Navigation",
-    "2511.20892": "Representation Interventions Enable Lifelong Knowledge Memory Control in LLMs"
+    "2511.20892": "Representation Interventions Enable Lifelong Knowledge Memory Control in LLMs",
+    "2605.04832": {
+      "title": "Replay-Based Continual Learning for Physics-Informed Neural Operators",
+      "authors": [
+        "Yizheng Wang",
+        "Mohammad Sadegh Eshaghi",
+        "Xiaoying Zhuang",
+        "Timon Rabczuk",
+        "Yinghua Liu"
+      ]
+    }
   }
 }
