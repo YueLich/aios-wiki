@@ -125,7 +125,9 @@
     "BEHEMOTH: Self-Evolving LLM Memory Extraction Across Heterogeneous Tasks",
     "Mem²Evolve: Towards Self-Evolving Agents via Co-Evolutionary Capability Expansion and Experience Distillation",
     "Skill Neologisms: Towards Skill-based Continual Learning",
-    "HERCULES: Hardware-Efficient, Robust, Continual Learning Neural Architecture Search"
+    "HERCULES: Hardware-Efficient, Robust, Continual Learning Neural Architecture Search",
+    "Venus: An Efficient Edge Memory-and-Retrieval System for VLM-based Online Video Understanding",
+    "MemLoRA: Distilling Expert Adapters for On-Device Memory Systems"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -804,6 +806,44 @@
     "2604.11610": "BEHEMOTH: Self-Evolving LLM Memory Extraction Across Heterogeneous Tasks",
     "2604.10923": "Mem²Evolve: Towards Self-Evolving Agents via Co-Evolutionary Capability Expansion and Experience Distillation",
     "2605.04970": "Skill Neologisms: Towards Skill-based Continual Learning",
-    "2605.04103": "HERCULES: Hardware-Efficient, Robust, Continual Learning Neural Architecture Search"
+    "2605.04103": "HERCULES: Hardware-Efficient, Robust, Continual Learning Neural Architecture Search",
+    "2512.07344": {
+      "title": "Venus: An Efficient Edge Memory-and-Retrieval System for VLM-based Online Video Understanding",
+      "authors": [
+        "Shengyuan Ye",
+        "Bei Ouyang",
+        "Tianyi Qian",
+        "Liekang Zeng",
+        "Mu Yuan",
+        "Xiaowen Chu",
+        "Weijie Hong",
+        "Xu Chen"
+      ],
+      "date": "2025-12-08",
+      "tags": [
+        "agent-memory",
+        "memory-retrieval",
+        "edge",
+        "multimodal"
+      ]
+    },
+    "2512.04763": {
+      "title": "MemLoRA: Distilling Expert Adapters for On-Device Memory Systems",
+      "authors": [
+        "Massimo Bini",
+        "Ondrej Bohdal",
+        "Umberto Michieli",
+        "Zeynep Akata",
+        "Mete Ozay",
+        "Taha Ceritli"
+      ],
+      "date": "2025-12-04",
+      "tags": [
+        "agent-memory",
+        "memory-retrieval",
+        "on-device",
+        "small-language-models"
+      ]
+    }
   }
 }

@@ -287,6 +287,8 @@ nav:
       - MEMAUDIT 预算记忆写入评估: concepts/agent-memory/memory-retrieval/memaudit-budgeted-memory-writing-2605.02199.md
       - MemFlow 意图驱动记忆编排: concepts/agent-memory/memory-retrieval/memflow-intent-driven-memory-2605.03312.md
       - MEMTIER 分层记忆架构: concepts/agent-memory/memory-retrieval/memtier-tiered-memory-architecture-2605.03675.md
+      - Venus 边缘记忆检索视频: concepts/agent-memory/memory-retrieval/venus-edge-memory-video-2512.07344.md
+      - MemLoRA 端侧记忆适配器: concepts/agent-memory/memory-retrieval/memlora-distilling-expert-adapters-2512.04763.md
       - MemPalace 空间记忆宫殿批判: concepts/agent-memory/memory-retrieval/mempalace-spatial-metaphor-2604.21284.md
       - VimRAG 视觉多模态记忆图: concepts/agent-memory/memory-retrieval/vimrag-visual-multimodal-memory-2602.12735.md
       - Semantic Memory Foraging 类人策略: concepts/agent-memory/memory-retrieval/semantic-memory-foraging-2603.01822.md
