@@ -228,6 +228,11 @@ nav:
       - APEX-MEM 时序推理半结构记忆: concepts/agent-memory/memory-representation/apex-mem-semi-structured-temporal-2604.14362.md
       - Mem²Evolve 协同演化经验资产记忆: concepts/agent-memory/memory-representation/mem2evolve-self-evolving-2604.10923.md
       - Temporal Taskification 持续学习: concepts/agent-memory/continual-learning/temporal-taskification-in-streaming-2604.21930.md
+      - MemTree 层次化树状记忆: concepts/agent-memory/memory-representation/memtree-hierarchical-tree-memory-2410.14052.md
+      - WISE 知识记忆终身编辑: concepts/agent-memory/memory-representation/wise-knowledge-memory-lifelong-2405.14768.md
+      - LoRA 作为知识记忆: concepts/agent-memory/memory-representation/lora-knowledge-memory-2603.01097.md
+      - MapNav 语义地图记忆导航: concepts/agent-memory/memory-representation/mapnav-semantic-maps-2502.13451.md
+      - Representation Interventions 表征干预知识记忆: concepts/agent-memory/memory-representation/memory-representation-interventions-2511.20892.md
       - Autoformalizing Memory Specs 形式化规格: concepts/agent-memory/memory-representation/autoformalizing-memory-specs-2605.00058.md
       - GraphPlanner 图记忆路由: concepts/agent-memory/memory-representation/graphplanner-graph-memory-routing-2604.23626.md
       - Fine-Tuning Regimes 持续学习分类: concepts/agent-memory/continual-learning/fine-tuning-regimes-define-2604.21927.md
@@ -272,6 +277,9 @@ nav:
       - BEHEMOTH 异质任务记忆提取: concepts/agent-memory/memory-retrieval/behemoth-heterogeneous-memory-extraction-2604.11610.md
       - TreeMem 多智能体信用分配: concepts/agent-memory/memory-retrieval/treemem-multi-agent-credit-2605.04811.md
       - CacheRAG 语义缓存 KGQA: concepts/agent-memory/memory-retrieval/cacherag-semantic-caching-kgqa-2604.26176.md
+      - WorldMM 动态多模态记忆视频: concepts/agent-memory/memory-retrieval/worldmm-dynamic-multimodal-2512.02425.md
+      - Memory-QA 多模态记忆召回问答: concepts/agent-memory/memory-retrieval/memory-qa-multimodal-recall-2509.18436.md
+      - RAM-OL 检索增强在线学习: concepts/agent-memory/memory-retrieval/ram-ol-retrieval-augmented-online-2512.02333.md
       - K2K 内部键值记忆医疗: concepts/agent-memory/memory-retrieval/k2k-internal-memory-2604.07659.md
       - CIG 对话语义信息增益: concepts/agent-memory/memory-retrieval/cig-conversational-information-gain-2604.15647.md
       - Rashomon Memory 多视角论证: concepts/agent-memory/memory-retrieval/rashomon-memory-argumentation-2604.03588.md
@@ -315,6 +323,9 @@ nav:
       - IMPACT-CYCLE 长视频监督记忆: concepts/agent-memory/multimodal-memory/impact-cycle-long-video-memory-2604.20136.md
       - PVM 持续视觉记忆 LVLM: concepts/agent-memory/multimodal-memory/persistent-visual-memory-2605.00814.md
       - Chameleon 几何情景记忆机器人: concepts/agent-memory/multimodal-memory/chameleon-episodic-memory-2603.24576.md
+      - MemVerse 多模态终身学习记忆: concepts/agent-memory/multimodal-memory/memverse-multimodal-memory-2512.03627.md
+      - HippoMM 海马体启发的多模态记忆: concepts/agent-memory/multimodal-memory/hippomm-multimodal-hippocampal-2504.10739.md
+      - M3 3D空间多模态记忆: concepts/agent-memory/multimodal-memory/m3-3d-spatial-multimodal-2503.16413.md
       - Goal-Directed Search vs Memory Compression: concepts/agent-memory/memory-compression/goal-directed-search-vs-memory-compression-2511.21726.md
       - MMA 多模态记忆Agent: concepts/agent-memory/multimodal-memory/mma-multimodal-memory-agent-2602.16493.md
       - M2A 双层混合记忆Agent: concepts/agent-memory/multimodal-memory/m2a-multimodal-memory-agent-2602.07624.md

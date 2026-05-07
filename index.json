@@ -1,5 +1,16 @@
 {
   "recently_processed_titles": [
+    "Representation Interventions Enable Lifelong Knowledge Memory Control in LLMs",
+    "MapNav: A Novel Memory Representation via Annotated Semantic Maps for Vision-and-Language Navigation",
+    "Understanding LoRA as Knowledge Memory: An Empirical Analysis",
+    "WISE: Rethinking the Knowledge Memory for Lifelong Model Editing of Large Language Models",
+    "From Isolated Conversations to Hierarchical Schemas: Dynamic Tree Memory Representation for LLMs",
+    "M3: 3D-Spatial MultiModal Memory",
+    "HippoMM: Hippocampal-inspired Multimodal Memory for Long Audiovisual Event Understanding",
+    "Retrieval-Augmented Memory for Online Learning",
+    "Memory-QA: Answering Recall Questions Based on Multimodal Memories",
+    "WorldMM: Dynamic Multimodal Memory Agent for Long Video Reasoning",
+    "MemVerse: Multimodal Memory for Lifelong Learning Agents",
     "TeleMem: Building Long-Term and Multimodal Memory for Agentic AI",
     "Affordance RAG: Hierarchical Multimodal Retrieval with Affordance-Aware Embodied Memory for Mobile Manipulation",
     "M2A: Multimodal Memory Agent with Dual-Layer Hybrid Memory for Long-Term Personalized Interactions",
@@ -866,6 +877,17 @@
         "Siheng Chen"
       ],
       "category": "memory-compression"
-    }
+    },
+    "2512.03627": "MemVerse: Multimodal Memory for Lifelong Learning Agents",
+    "2512.02425": "WorldMM: Dynamic Multimodal Memory Agent for Long Video Reasoning",
+    "2509.18436": "Memory-QA: Answering Recall Questions Based on Multimodal Memories",
+    "2512.02333": "Retrieval-Augmented Memory for Online Learning",
+    "2504.10739": "HippoMM: Hippocampal-inspired Multimodal Memory for Long Audiovisual Event Understanding",
+    "2503.16413": "M3: 3D-Spatial MultiModal Memory",
+    "2410.14052": "From Isolated Conversations to Hierarchical Schemas: Dynamic Tree Memory Representation for LLMs",
+    "2405.14768": "WISE: Rethinking the Knowledge Memory for Lifelong Model Editing of Large Language Models",
+    "2603.01097": "Understanding LoRA as Knowledge Memory: An Empirical Analysis",
+    "2502.13451": "MapNav: A Novel Memory Representation via Annotated Semantic Maps for Vision-and-Language Navigation",
+    "2511.20892": "Representation Interventions Enable Lifelong Knowledge Memory Control in LLMs"
   }
 }
