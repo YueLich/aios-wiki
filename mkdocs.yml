@@ -275,6 +275,8 @@ nav:
       - MemSifter 检索卸载代理推理: concepts/agent-memory/memory-retrieval/memsifter-offloading-2603.03379.md
       - EviMem 证据缺口迭代检索: concepts/agent-memory/memory-retrieval/evimem-evidence-gap-iterative-2604.27695.md
       - EngramaBench 图结构长期记忆基准: concepts/agent-memory/memory-retrieval/engrama-bench-long-term-memory-2604.21229.md
+      - GRAVITY 结构化锚定对话记忆: concepts/agent-memory/memory-retrieval/gravity-structured-anchoring-2605.01688.md
+      - Autonomous Memory Agents 自主记忆获取: concepts/agent-memory/memory-retrieval/autonomous-memory-agents-2602.22406.md
       - Back-to-Basics 极简检索生成记忆: concepts/agent-memory/memory-retrieval/back-to-basics-retrieval-generation-2604.11628.md
       - BEHEMOTH 异质任务记忆提取: concepts/agent-memory/memory-retrieval/behemoth-heterogeneous-memory-extraction-2604.11610.md
       - TreeMem 多智能体信用分配: concepts/agent-memory/memory-retrieval/treemem-multi-agent-credit-2605.04811.md

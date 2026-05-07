@@ -143,7 +143,9 @@
     "LongSeeker: Elastic Context Orchestration for Long-Horizon Search Agents",
     "Replay-Based Continual Learning for Physics-Informed Neural Operators",
     "TiMem: Temporal-Hierarchical Memory Consolidation for Long-Horizon Conversational Agents",
-    "Auxiliary-predicted Compress Memory Model (ApCM Model): A Neural Memory Storage Model Based on Invertible Compression and Learnable Prediction"
+    "Auxiliary-predicted Compress Memory Model (ApCM Model): A Neural Memory Storage Model Based on Invertible Compression and Learnable Prediction",
+    "GRAVITY: Architecture-Agnostic Structured Anchoring for Long-Horizon Conversational Memory",
+    "Towards Autonomous Memory Agents"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -924,6 +926,27 @@
       "authors": [
         "Weinuo Ou"
       ]
+    },
+    "2605.01688": {
+      "title": "GRAVITY: Architecture-Agnostic Structured Anchoring for Long-Horizon Conversational Memory",
+      "authors": [
+        "Yushi Sun",
+        "Bowen Cao",
+        "Dong Fang",
+        "Lingfeng Su",
+        "Wai Lam"
+      ],
+      "category": "memory-retrieval"
+    },
+    "2602.22406": {
+      "title": "Towards Autonomous Memory Agents",
+      "authors": [
+        "Xinle Wu",
+        "Rui Zhang",
+        "Mustafa Anis Hussain",
+        "Yao Lu"
+      ],
+      "category": "memory-retrieval"
     }
   }
 }
