@@ -15,7 +15,7 @@ source: arXiv RSS/API
 - **作者**: Yuqing Yang, Tengxiao Liu, Wang Bill Zhu, Taiwei Shi, Linxin Song
 - **发表日期**: 2026-04-13
 - **方向**: 记忆提取、记忆利用
-- **代码**: 待补充
+- **代码**: 未公开
 
 ## 摘要（翻译）
 

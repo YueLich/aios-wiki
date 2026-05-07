@@ -15,7 +15,7 @@ source: arXiv RSS/API
 - **作者**: Matteo Gambella, Fabrizio Pittorino, Manuel Roveri
 - **发表日期**: 2026-05-03
 - **方向**: 持续学习、神经架构搜索、边缘 AI
-- **代码**: 待补充
+- **代码**: 未公开
 
 ## 摘要（翻译）
 

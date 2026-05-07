@@ -15,7 +15,7 @@ source: arXiv RSS/API
 - **作者**: Yuqian Wu, Wei Chen, Zhengjun Huang, Junle Chen, Qingxiang Liu
 - **发表日期**: 2026-04-13
 - **方向**: 记忆的检索与利用、极简记忆架构
-- **代码**: 待补充
+- **代码**: 未公开
 
 ## 摘要（翻译）
 
