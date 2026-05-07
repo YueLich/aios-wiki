@@ -224,6 +224,9 @@ nav:
       - EchoGuard KG记忆检测操纵: concepts/agent-memory/memory-representation/echoguard-2603.04815.md
       - SCG-MEM Schema约束生成: concepts/agent-memory/memory-representation/scge-mem-schema-constrained-2604.20117.md
       - What Happens Inside Agent Memory 电路分析: concepts/agent-memory/memory-representation/what-happens-inside-2605.03354.md
+      - HeLa-Mem Hebbian联想记忆: concepts/agent-memory/memory-representation/hela-mem-hebbian-associative-2604.16839.md
+      - APEX-MEM 时序推理半结构记忆: concepts/agent-memory/memory-representation/apex-mem-semi-structured-temporal-2604.14362.md
+      - Mem²Evolve 协同演化经验资产记忆: concepts/agent-memory/memory-representation/mem2evolve-self-evolving-2604.10923.md
       - Temporal Taskification 持续学习: concepts/agent-memory/continual-learning/temporal-taskification-in-streaming-2604.21930.md
       - Autoformalizing Memory Specs 形式化规格: concepts/agent-memory/memory-representation/autoformalizing-memory-specs-2605.00058.md
       - GraphPlanner 图记忆路由: concepts/agent-memory/memory-representation/graphplanner-graph-memory-routing-2604.23626.md
@@ -253,12 +256,18 @@ nav:
       - ADaCoRe EEG记忆压缩持续学习: concepts/agent-memory/continual-learning/adacoere-eeg-continual-learning-2605.03085.md
       - DiffResistor 灾难性遗忘分析: concepts/agent-memory/continual-learning/differentiable-resistor-sequential-learning-2605.01383.md
       - CL分子通信 增量性能估算: concepts/agent-memory/continual-learning/continual-learning-molecular-communication-2605.01020.md
+      - Skill Neologisms 软token技能持续学习: concepts/agent-memory/continual-learning/skill-neologisms-continual-learning-2605.04970.md
+      - HERCULES NAS持续学习边缘AI: concepts/agent-memory/continual-learning/hercules-nas-continual-learning-2605.04103.md
       - ModalitiesRemember 多模态知识图谱持续学习: concepts/agent-memory/continual-learning/modalities-remember-2604.02778.md
       - Selective Forgetting LRMs 推理模型: concepts/agent-memory/memory-compression/selective-forgetting-large-reasoning-models-2604.03571.md
       - PriceOfMeaning 语义记忆必然遗忘: concepts/agent-memory/memory-compression/price-meaning-semantic-forgetting-2603.27116.md
       - SmartSearch 排序超越结构: concepts/agent-memory/memory-retrieval/smartsearch-ranking-2603.15599.md
       - Learning When to Remember 风险感知: concepts/agent-memory/memory-retrieval/learning-when-to-remember-2604.27283.md
       - MemSifter 检索卸载代理推理: concepts/agent-memory/memory-retrieval/memsifter-offloading-2603.03379.md
+      - EviMem 证据缺口迭代检索: concepts/agent-memory/memory-retrieval/evimem-evidence-gap-iterative-2604.27695.md
+      - EngramaBench 图结构长期记忆基准: concepts/agent-memory/memory-retrieval/engrama-bench-long-term-memory-2604.21229.md
+      - Back-to-Basics 极简检索生成记忆: concepts/agent-memory/memory-retrieval/back-to-basics-retrieval-generation-2604.11628.md
+      - BEHEMOTH 异质任务记忆提取: concepts/agent-memory/memory-retrieval/behemoth-heterogeneous-memory-extraction-2604.11610.md
       - TreeMem 多智能体信用分配: concepts/agent-memory/memory-retrieval/treemem-multi-agent-credit-2605.04811.md
       - CacheRAG 语义缓存 KGQA: concepts/agent-memory/memory-retrieval/cacherag-semantic-caching-kgqa-2604.26176.md
       - K2K 内部键值记忆医疗: concepts/agent-memory/memory-retrieval/k2k-internal-memory-2604.07659.md
@@ -314,6 +323,7 @@ nav:
       - Trust-Lies LongMem 社会记忆声誉: concepts/agent-memory/memory-privacy/trust-lies-long-memories-2604.20582.md
       - ADAM 数据提取攻击 隐私: concepts/agent-memory/memory-privacy/adam-data-extraction-attack-2604.09747.md
       - Trojan Hippo 数据外泄攻击: concepts/agent-memory/memory-privacy/trojan-hippo-weaponizing-agent-memory-2605.01970.md
+      - Synthius-Mem 脑启发抗幻觉人格记忆: concepts/agent-memory/memory-privacy/synthius-mem-hallucination-resistant-2604.11563.md
       - MEMSAD 梯度异常检测防御: concepts/agent-memory/memory-privacy/memsad-gradient-anomaly-detection-2605.03482.md
       - RPEval 个性化记忆影响评估: concepts/agent-memory/memory-privacy/personalized-memory-llm-behavior-2601.16621.md
       - PrivacyBenchmark 选择性遗忘隐私漏洞: concepts/agent-memory/memory-privacy/privacy-vulnerabilities-selective-forgetting-2512.18035.md
