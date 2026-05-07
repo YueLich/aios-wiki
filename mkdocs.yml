@@ -229,6 +229,7 @@ nav:
       - Mem²Evolve 协同演化经验资产记忆: concepts/agent-memory/memory-representation/mem2evolve-self-evolving-2604.10923.md
       - Temporal Taskification 持续学习: concepts/agent-memory/continual-learning/temporal-taskification-in-streaming-2604.21930.md
       - MemTree 层次化树状记忆: concepts/agent-memory/memory-representation/memtree-hierarchical-tree-memory-2410.14052.md
+      - TiMem 时间层次记忆树: concepts/agent-memory/memory-representation/timem-temporal-hierarchical-memory-2601.02845.md
       - WISE 知识记忆终身编辑: concepts/agent-memory/memory-representation/wise-knowledge-memory-lifelong-2405.14768.md
       - LoRA 作为知识记忆: concepts/agent-memory/memory-representation/lora-knowledge-memory-2603.01097.md
       - MapNav 语义地图记忆导航: concepts/agent-memory/memory-representation/mapnav-semantic-maps-2502.13451.md
@@ -313,6 +314,7 @@ nav:
       - Novel Memory Forgetting 自主Agent: concepts/agent-memory/memory-compression/novel-memory-forgetting-autonomous-agents-2604.02280.md
       - Benign Memory Forgetting MLLM: concepts/agent-memory/memory-compression/benign-memory-forgetting-mllm-unlearning-2511.20196.md
       - Clustering Memory Compression 端侧: concepts/agent-memory/memory-compression/clustering-driven-memory-compression-ondevice-2601.17443.md
+      - ApCM 可逆压缩预测记忆: concepts/agent-memory/memory-compression/apcm-auxiliary-predicted-compress-memory-2601.11609.md
       - StreamMeCo 视频Agent记忆压缩: concepts/agent-memory/memory-compression/streammeco-agent-memory-compression-video-2604.09000.md
       - Cross-Modal Memory Compression 多Agent: concepts/agent-memory/memory-compression/cross-modal-memory-compression-multiagent-2602.00454.md
       - CMT 持续知识学习记忆压缩: concepts/agent-memory/memory-compression/cmt-continual-knowledge-learning-2412.07393.md

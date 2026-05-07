@@ -141,7 +141,9 @@
     "MemLoRA: Distilling Expert Adapters for On-Device Memory Systems",
     "Continual Knowledge Updating in LLM Systems: Learning Through Multi-Timescale Memory Dynamics",
     "LongSeeker: Elastic Context Orchestration for Long-Horizon Search Agents",
-    "Replay-Based Continual Learning for Physics-Informed Neural Operators"
+    "Replay-Based Continual Learning for Physics-Informed Neural Operators",
+    "TiMem: Temporal-Hierarchical Memory Consolidation for Long-Horizon Conversational Agents",
+    "Auxiliary-predicted Compress Memory Model (ApCM Model): A Neural Memory Storage Model Based on Invertible Compression and Learnable Prediction"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -898,6 +900,29 @@
         "Xiaoying Zhuang",
         "Timon Rabczuk",
         "Yinghua Liu"
+      ]
+    },
+    "2601.02845": {
+      "title": "TiMem: Temporal-Hierarchical Memory Consolidation for Long-Horizon Conversational Agents",
+      "authors": [
+        "Kai Li",
+        "Xuanqing Yu",
+        "Ziyi Ni",
+        "Yi Zeng",
+        "Yao Xu",
+        "Zheqing Zhang",
+        "Xin Li",
+        "Jitao Sang",
+        "Xiaogang Duan",
+        "Xuelei Wang",
+        "Chengbao Liu",
+        "Jie Tan"
+      ]
+    },
+    "2601.11609": {
+      "title": "Auxiliary-predicted Compress Memory Model (ApCM Model): A Neural Memory Storage Model Based on Invertible Compression and Learnable Prediction",
+      "authors": [
+        "Weinuo Ou"
       ]
     }
   }
