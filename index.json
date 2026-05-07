@@ -115,7 +115,17 @@
     "SocializeChat: A GPT-Based AAC Tool Grounded in Personal Memories to Support Social Communication",
     "Memento: Augmenting Personalized Memory via Practical Multimodal Wearable Sensing in Visual Search and Wayfinding Navigation",
     "LifeMem: Evaluating Memory Capability in Continuous Lifelog Scenario",
-    "Tree-based Credit Assignment for Multi-Agent Memory System"
+    "Tree-based Credit Assignment for Multi-Agent Memory System",
+    "HeLa-Mem: Hebbian Learning and Associative Memory for LLM Agents",
+    "APEX-MEM: Agentic Semi-Structured Memory with Temporal Reasoning for Long-Term Conversational AI",
+    "Synthius-Mem: Brain-Inspired Hallucination-Resistant Persona Memory Achieving 94.4% Memory Accuracy and 99.6% Adversarial Robustness on LoCoMo",
+    "EviMem: Evidence-Gap-Driven Iterative Retrieval for Long-Term Conversational Memory",
+    "EngramaBench: Evaluating Long-Term Conversational Memory with Structured Graph Retrieval",
+    "Back to Basics: Let Conversational Agents Remember with Just Retrieval and Generation",
+    "BEHEMOTH: Self-Evolving LLM Memory Extraction Across Heterogeneous Tasks",
+    "Mem²Evolve: Towards Self-Evolving Agents via Co-Evolutionary Capability Expansion and Experience Distillation",
+    "Skill Neologisms: Towards Skill-based Continual Learning",
+    "HERCULES: Hardware-Efficient, Robust, Continual Learning Neural Architecture Search"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -784,6 +794,16 @@
     "2605.04811": {
       "title": "TreeMem: Tree-based Credit Assignment for Multi-Agent Memory System",
       "date": "2026-05-06"
-    }
+    },
+    "2604.16839": "HeLa-Mem: Hebbian Learning and Associative Memory for LLM Agents",
+    "2604.14362": "APEX-MEM: Agentic Semi-Structured Memory with Temporal Reasoning for Long-Term Conversational AI",
+    "2604.11563": "Synthius-Mem: Brain-Inspired Hallucination-Resistant Persona Memory Achieving 94.4% Memory Accuracy and 99.6% Adversarial Robustness on LoCoMo",
+    "2604.27695": "EviMem: Evidence-Gap-Driven Iterative Retrieval for Long-Term Conversational Memory",
+    "2604.21229": "EngramaBench: Evaluating Long-Term Conversational Memory with Structured Graph Retrieval",
+    "2604.11628": "Back to Basics: Let Conversational Agents Remember with Just Retrieval and Generation",
+    "2604.11610": "BEHEMOTH: Self-Evolving LLM Memory Extraction Across Heterogeneous Tasks",
+    "2604.10923": "Mem²Evolve: Towards Self-Evolving Agents via Co-Evolutionary Capability Expansion and Experience Distillation",
+    "2605.04970": "Skill Neologisms: Towards Skill-based Continual Learning",
+    "2605.04103": "HERCULES: Hardware-Efficient, Robust, Continual Learning Neural Architecture Search"
   }
 }
