@@ -313,6 +313,8 @@ nav:
       - Remember 情感记忆问答: concepts/agent-memory/memory-retrieval/remember-emotional-memory-2510.19030.md
       - SocializeChat AAC个人记忆: concepts/agent-memory/memory-retrieval/socializechat-aac-personal-memories-2510.19017.md
       - Memento 可穿戴记忆导航: concepts/agent-memory/memory-retrieval/memento-wearable-memory-2504.19772.md
+      - Belief Memory 部分可观察记忆: concepts/agent-memory/memory-retrieval/belief-memory-partial-observability-2605.05583.md
+      - MemReranker 推理感知重排: concepts/agent-memory/memory-retrieval/memreranker-reasoning-aware-reranking-2605.06132.md
       - RMAAT 星形胶质记忆压缩: concepts/agent-memory/memory-compression/rmaat-astrocyte-memory-compression-2601.00426.md
       - MemArchitect 策略驱动记忆治理: concepts/agent-memory/memory-compression/memarchitect-policy-memory-governance-2603.18330.md
       - Novel Memory Forgetting 自主Agent: concepts/agent-memory/memory-compression/novel-memory-forgetting-autonomous-agents-2604.02280.md

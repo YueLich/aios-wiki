@@ -147,7 +147,9 @@
     "TiMem: Temporal-Hierarchical Memory Consolidation for Long-Horizon Conversational Agents",
     "Auxiliary-predicted Compress Memory Model (ApCM Model): A Neural Memory Storage Model Based on Invertible Compression and Learnable Prediction",
     "GRAVITY: Architecture-Agnostic Structured Anchoring for Long-Horizon Conversational Memory",
-    "Towards Autonomous Memory Agents"
+    "Towards Autonomous Memory Agents",
+    "MemReranker: Reasoning-Aware Reranking for Agent Memory Retrieval",
+    "Belief Memory: Agent Memory Under Partial Observability"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -970,6 +972,12 @@
         "Sihong Xie",
         "Hui Xiong"
       ]
+    },
+    "2605.06132": {
+      "title": "MemReranker: Reasoning-Aware Reranking for Agent Memory Retrieval"
+    },
+    "2605.05583": {
+      "title": "Belief Memory: Agent Memory Under Partial Observability"
     }
   }
 }
