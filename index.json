@@ -149,7 +149,8 @@
     "GRAVITY: Architecture-Agnostic Structured Anchoring for Long-Horizon Conversational Memory",
     "Towards Autonomous Memory Agents",
     "MemReranker: Reasoning-Aware Reranking for Agent Memory Retrieval",
-    "Belief Memory: Agent Memory Under Partial Observability"
+    "Belief Memory: Agent Memory Under Partial Observability",
+    "Storage Is Not Memory: A Retrieval-Centered Architecture for Agent Recall"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -978,6 +979,18 @@
     },
     "2605.05583": {
       "title": "Belief Memory: Agent Memory Under Partial Observability"
+    },
+    "2605.04897": {
+      "title": "Storage Is Not Memory: A Retrieval-Centered Architecture for Agent Recall",
+      "authors": [
+        "Joshua Adler",
+        "Guy Zehavi"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.IR"
+      ]
     }
   }
 }
