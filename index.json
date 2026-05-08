@@ -150,7 +150,8 @@
     "Towards Autonomous Memory Agents",
     "MemReranker: Reasoning-Aware Reranking for Agent Memory Retrieval",
     "Belief Memory: Agent Memory Under Partial Observability",
-    "Storage Is Not Memory: A Retrieval-Centered Architecture for Agent Recall"
+    "Storage Is Not Memory: A Retrieval-Centered Architecture for Agent Recall",
+    "STALE: Can LLM Agents Know When Their Memories Are No Longer Valid?"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -991,6 +992,17 @@
         "cs.AI",
         "cs.IR"
       ]
+    },
+    "2605.06527": {
+      "title": "STALE: Can LLM Agents Know When Their Memories Are No Longer Valid?",
+      "authors": [
+        "Hanxiang Chao",
+        "Yihan Bai",
+        "Rui Sheng",
+        "Tianle Li",
+        "Yushi Sun"
+      ],
+      "date": "2026-05-07"
     }
   }
 }
