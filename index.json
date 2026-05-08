@@ -151,7 +151,8 @@
     "MemReranker: Reasoning-Aware Reranking for Agent Memory Retrieval",
     "Belief Memory: Agent Memory Under Partial Observability",
     "Storage Is Not Memory: A Retrieval-Centered Architecture for Agent Recall",
-    "STALE: Can LLM Agents Know When Their Memories Are No Longer Valid?"
+    "STALE: Can LLM Agents Know When Their Memories Are No Longer Valid?",
+    "Benchmarking local Hebbian learning rules for memory storage and prototype extraction"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -1003,6 +1004,16 @@
         "Yushi Sun"
       ],
       "date": "2026-05-07"
+    },
+    "2605.01074": {
+      "title": "Benchmarking local Hebbian learning rules for memory storage and prototype extraction",
+      "authors": [
+        "Anders Lansner",
+        "Andreas Knoblauch",
+        "Naresh B Ravichandran",
+        "Pawel Herman"
+      ],
+      "date": "2026-05-01"
     }
   }
 }

@@ -225,6 +225,7 @@ nav:
       - SCG-MEM Schema约束生成: concepts/agent-memory/memory-representation/scge-mem-schema-constrained-2604.20117.md
       - What Happens Inside Agent Memory 电路分析: concepts/agent-memory/memory-representation/what-happens-inside-2605.03354.md
       - HeLa-Mem Hebbian联想记忆: concepts/agent-memory/memory-representation/hela-mem-hebbian-associative-2604.16839.md
+      - Hebbian Associative Memory Benchmark Hebbian规则基准: concepts/agent-memory/memory-representation/hebbian-associative-memory-benchmark-2605.01074.md
       - APEX-MEM 时序推理半结构记忆: concepts/agent-memory/memory-representation/apex-mem-semi-structured-temporal-2604.14362.md
       - Mem²Evolve 协同演化经验资产记忆: concepts/agent-memory/memory-representation/mem2evolve-self-evolving-2604.10923.md
       - Temporal Taskification 持续学习: concepts/agent-memory/continual-learning/temporal-taskification-in-streaming-2604.21930.md
