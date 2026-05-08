@@ -1,5 +1,7 @@
 {
   "recently_processed_titles": [
+    "Attribution-Guided Continual Learning for Large Language Models",
+    "CRAFT: Forgetting-Aware Intervention-Based Adaptation for Continual Learning",
     "Representation Interventions Enable Lifelong Knowledge Memory Control in LLMs",
     "MapNav: A Novel Memory Representation via Annotated Semantic Maps for Vision-and-Language Navigation",
     "Understanding LoRA as Knowledge Memory: An Empirical Analysis",
@@ -947,6 +949,27 @@
         "Yao Lu"
       ],
       "category": "memory-retrieval"
+    },
+    "2605.05732": {
+      "title": "CRAFT: Forgetting-Aware Intervention-Based Adaptation for Continual Learning",
+      "authors": [
+        "Md Anwar Hossen",
+        "Fatema Siddika",
+        "Juan Pablo Munoz",
+        "Tanya Roosta",
+        "Ali Jannesari"
+      ]
+    },
+    "2605.05285": {
+      "title": "Attribution-Guided Continual Learning for Large Language Models",
+      "authors": [
+        "Yazheng Liu",
+        "Yuxuan Wan",
+        "Rui Xu",
+        "Xi Zhang",
+        "Sihong Xie",
+        "Hui Xiong"
+      ]
     }
   }
 }

@@ -268,6 +268,8 @@ nav:
       - Replay-Based CL物理信息神经算子: concepts/agent-memory/continual-learning/replay-based-continual-learning-physic-2605.04832.md
       - HERCULES NAS持续学习边缘AI: concepts/agent-memory/continual-learning/hercules-nas-continual-learning-2605.04103.md
       - ModalitiesRemember 多模态知识图谱持续学习: concepts/agent-memory/continual-learning/modalities-remember-2604.02778.md
+      - CRAFT 遗忘感知干预持续学习: concepts/agent-memory/continual-learning/craft-forgeting-aware-intervention-2605.05732.md
+      - Attribution-Guided CL 归因引导梯度调制: concepts/agent-memory/continual-learning/attribution-guided-continual-learning-2605.05285.md
       - Selective Forgetting LRMs 推理模型: concepts/agent-memory/memory-compression/selective-forgetting-large-reasoning-models-2604.03571.md
       - PriceOfMeaning 语义记忆必然遗忘: concepts/agent-memory/memory-compression/price-meaning-semantic-forgetting-2603.27116.md
       - SmartSearch 排序超越结构: concepts/agent-memory/memory-retrieval/smartsearch-ranking-2603.15599.md
