@@ -160,7 +160,11 @@
     "SleepGate: Sleep-Inspired Memory Consolidation for Resolving Proactive Interference in Large Language Models",
     "AOI: Context-Aware Multi-Agent Operations via Dynamic Scheduling and Hierarchical Memory Compression",
     "I3DM: Implicit 3D-aware Memory Retrieval and Injection for Consistent Video Scene Generation",
-    "Sinkhorn Based Associative Memory Retrieval Using Spherical Hellinger Kantorovich Dynamics"
+    "Sinkhorn Based Associative Memory Retrieval Using Spherical Hellinger Kantorovich Dynamics",
+    "HaM-World: Soft-Hamiltonian World Models with Selective Memory for Planning",
+    "Response-Aware User Memory Selection for LLM Personalization",
+    "MemoryCD: Benchmarking Long-Context User Memory of LLM Agents for Lifelong Cross-Domain Personalization",
+    "Structured Distillation for Personalized Agent Memory: 11x Token Reduction with Retrieval Preservation"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -1054,6 +1058,10 @@
     "2603.20656": {
       "title": "Sinkhorn Based Associative Memory Retrieval Using Spherical Hellinger Kantorovich Dynamics",
       "authors": "Aratrika Mustafi, Soumya Mukherjee"
-    }
+    },
+    "2605.05951": "HaM-World: Soft-Hamiltonian World Models with Selective Memory for Planning",
+    "2604.14473": "Response-Aware User Memory Selection for LLM Personalization",
+    "2603.25973": "MemoryCD: Benchmarking Long-Context User Memory of LLM Agents for Lifelong Cross-Domain Personalization",
+    "2603.13017": "Structured Distillation for Personalized Agent Memory: 11x Token Reduction with Retrieval Preservation"
   }
 }

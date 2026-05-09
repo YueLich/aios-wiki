@@ -236,12 +236,14 @@ nav:
       - WISE 知识记忆终身编辑: concepts/agent-memory/memory-representation/wise-knowledge-memory-lifelong-2405.14768.md
       - LoRA 作为知识记忆: concepts/agent-memory/memory-representation/lora-knowledge-memory-2603.01097.md
       - MapNav 语义地图记忆导航: concepts/agent-memory/memory-representation/mapnav-semantic-maps-2502.13451.md
+      - HaM-World 哈密顿世界模型: concepts/agent-memory/memory-representation/ham-world-soft-hamiltonian-2605.05951.md
       - Representation Interventions 表征干预知识记忆: concepts/agent-memory/memory-representation/memory-representation-interventions-2511.20892.md
       - Autoformalizing Memory Specs 形式化规格: concepts/agent-memory/memory-representation/autoformalizing-memory-specs-2605.00058.md
       - GraphPlanner 图记忆路由: concepts/agent-memory/memory-representation/graphplanner-graph-memory-routing-2604.23626.md
       - Fine-Tuning Regimes 持续学习分类: concepts/agent-memory/continual-learning/fine-tuning-regimes-define-2604.21927.md
       - FADE 自适应遗忘持续学习: concepts/agent-memory/memory-compression/fade-adaptive-weight-decay-2604.27063.md
       - Hidden Failure Modes Adam CL: concepts/agent-memory/memory-compression/hidden-failure-modes-adam-continual-2604.22407.md
+      - Structured Distillation 个性化记忆压缩: concepts/agent-memory/memory-compression/structured-distillation-personalized-memory-2603.13017.md
       - ScrapMem 端侧光学遗忘: concepts/agent-memory/memory-compression/scrapmem-2605.03804.md
       - ContextWeaver 依赖结构化记忆: concepts/agent-memory/memory-compression/contextweaver-dependency-memory-2604.23069.md
       - When CL Moves to Memory 经验复用: concepts/agent-memory/continual-learning/when-cl-moves-to-memory-2604.27003.md
@@ -319,7 +321,9 @@ nav:
       - VimRAG 视觉多模态记忆图: concepts/agent-memory/memory-retrieval/vimrag-visual-multimodal-memory-2602.12735.md
       - Semantic Memory Foraging 类人策略: concepts/agent-memory/memory-retrieval/semantic-memory-foraging-2603.01822.md
       - SHIMI 去中心化层次记忆: concepts/agent-memory/memory-retrieval/shimi-semantic-hierarchical-memory-2504.06135.md
+      - RUMS 响应感知记忆选择: concepts/agent-memory/memory-retrieval/rums-response-aware-memory-2604.14473.md
       - PERMA 个性化记忆基准: concepts/agent-memory/memory-retrieval/perma-personalized-memory-benchmark-2603.23231.md
+      - MemoryCD 跨域个性化基准: concepts/agent-memory/memory-retrieval/memorycd-cross-domain-personalization-2603.25973.md
       - Remember 情感记忆问答: concepts/agent-memory/memory-retrieval/remember-emotional-memory-2510.19030.md
       - SocializeChat AAC个人记忆: concepts/agent-memory/memory-retrieval/socializechat-aac-personal-memories-2510.19017.md
       - Memento 可穿戴记忆导航: concepts/agent-memory/memory-retrieval/memento-wearable-memory-2504.19772.md
