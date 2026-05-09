@@ -355,6 +355,7 @@ nav:
       - RPEval 个性化记忆影响评估: concepts/agent-memory/memory-privacy/personalized-memory-llm-behavior-2601.16621.md
       - PrivacyBenchmark 选择性遗忘隐私漏洞: concepts/agent-memory/memory-privacy/privacy-vulnerabilities-selective-forgetting-2512.18035.md
       - MAGE Shadow Memory 防御: concepts/agent-memory/memory-privacy/mage-shadow-memory-guardrail-2605.03228.md
+      - SafeHarbor 分层记忆防护: concepts/agent-memory/memory-privacy/safeharbor-memory-guardrail-2605.05704.md
       - MemCoE 记忆指南归纳演化: concepts/agent-memory/memory-compression/memcoe-evolving-memory-2605.00702.md
       - SuperLocalMemory V3.3 生物启发遗忘: concepts/agent-memory/memory-compression/superlocalmemory-v3-2604.04514.md
 
