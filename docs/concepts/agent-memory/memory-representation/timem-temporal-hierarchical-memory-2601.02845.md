@@ -44,9 +44,9 @@ source: arXiv API
 
 ## 相关论文
 
-- [Mem-Continue](memory-retrieval/mem-continue-long-term-conversation-2602.15731): LoCoMo 基准提出者
-- [Memoria](memory-retrieval/memoria-proactive-conversational-2601.09652): 会话记忆 benchmark
-- [PERMA](memory-retrieval/perma-personalized-memory-benchmark-2603.23231): 个性化记忆评估基准
+- **Mem-Continue**: LoCoMo 基准提出者（对应论文页面不存在，跳过链接）
+- **Memoria**: 会话记忆 benchmark（对应论文页面不存在，跳过链接）
+- [PERMA](perma-personalized-memory-benchmark-2603.23231): 个性化记忆评估基准
 
 ## 参考文献
 
