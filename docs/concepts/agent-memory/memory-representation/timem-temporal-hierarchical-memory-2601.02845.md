@@ -46,7 +46,7 @@ source: arXiv API
 
 - **Mem-Continue**: LoCoMo 基准提出者（对应论文页面不存在，跳过链接）
 - **Memoria**: 会话记忆 benchmark（对应论文页面不存在，跳过链接）
-- [PERMA](perma-personalized-memory-benchmark-2603.23231): 个性化记忆评估基准
+- [PERMA](../memory-retrieval/perma-personalized-memory-benchmark-2603.23231): 个性化记忆评估基准
 
 ## 参考文献
 
