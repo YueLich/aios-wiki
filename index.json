@@ -152,7 +152,15 @@
     "Belief Memory: Agent Memory Under Partial Observability",
     "Storage Is Not Memory: A Retrieval-Centered Architecture for Agent Recall",
     "STALE: Can LLM Agents Know When Their Memories Are No Longer Valid?",
-    "Benchmarking local Hebbian learning rules for memory storage and prototype extraction"
+    "Benchmarking local Hebbian learning rules for memory storage and prototype extraction",
+    "MemoryDiorama: Generating Dynamic 3D Diorama from Everyday Photos for Memory Recall",
+    "Temporal Memory for Resource-Constrained Agents: Continual Learning via Stochastic Compress-Add-Smooth",
+    "XSkill: Continual Learning from Experience and Skills in Multimodal Agents",
+    "RenderMem: Rendering as Spatial Memory Retrieval",
+    "SleepGate: Sleep-Inspired Memory Consolidation for Resolving Proactive Interference in Large Language Models",
+    "AOI: Context-Aware Multi-Agent Operations via Dynamic Scheduling and Hierarchical Memory Compression",
+    "I3DM: Implicit 3D-aware Memory Retrieval and Injection for Consistent Video Scene Generation",
+    "Sinkhorn Based Associative Memory Retrieval Using Spherical Hellinger Kantorovich Dynamics"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -1014,6 +1022,38 @@
         "Pawel Herman"
       ],
       "date": "2026-05-01"
+    },
+    "2604.06773": {
+      "title": "MemoryDiorama: Generating Dynamic 3D Diorama from Everyday Photos for Memory Recall",
+      "authors": "Keiichi Ihara, Tianle Li, Yasuhisa Shiino, Ryo Suzuki"
+    },
+    "2604.00067": {
+      "title": "Temporal Memory for Resource-Constrained Agents: Continual Learning via Stochastic Compress-Add-Smooth",
+      "authors": "Michael Chertkov"
+    },
+    "2603.12056": {
+      "title": "XSkill: Continual Learning from Experience and Skills in Multimodal Agents",
+      "authors": "Guanyu Jiang, Zhaochen Su, Xiaoye Qu, Yi R. Fung"
+    },
+    "2603.14669": {
+      "title": "RenderMem: Rendering as Spatial Memory Retrieval",
+      "authors": "JooHyun Park, HyeongYeop Kang"
+    },
+    "2603.14517": {
+      "title": "SleepGate: Sleep-Inspired Memory Consolidation for Resolving Proactive Interference in Large Language Models",
+      "authors": "Ying Xie"
+    },
+    "2512.13956": {
+      "title": "AOI: Context-Aware Multi-Agent Operations via Dynamic Scheduling and Hierarchical Memory Compression",
+      "authors": "Zishan Bai et al."
+    },
+    "2603.23413": {
+      "title": "I3DM: Implicit 3D-aware Memory Retrieval and Injection for Consistent Video Scene Generation",
+      "authors": "Jia Li et al."
+    },
+    "2603.20656": {
+      "title": "Sinkhorn Based Associative Memory Retrieval Using Spherical Hellinger Kantorovich Dynamics",
+      "authors": "Aratrika Mustafi, Soumya Mukherjee"
     }
   }
 }
