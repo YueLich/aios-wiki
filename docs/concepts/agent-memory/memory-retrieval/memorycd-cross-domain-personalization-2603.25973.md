@@ -112,7 +112,7 @@ MemoryCD 是首个基于真实用户终身跨域行为的大规模记忆基准�
 6 种方法：
 1. Full context（完整上下文）
 2. Semantic retrieval（语义检索）
-3.最近的邻记忆
+3. 最近的邻记忆
 4. 摘要式记忆
 5. 分层记忆
 6. 选择性记忆
@@ -125,4 +125,5 @@ MemoryCD 是首个基于真实用户终身跨域行为的大规模记忆基准�
 
 ## 参考文献
 
-待补充
+- 论文主页: https://arxiv.org/abs/2603.25973
+- Authors: Weizhi Zhang, Xiaokai Wei, Wei-Chieh Huang, Zheng Hui, Chen Wang (Shanghai AI Lab)

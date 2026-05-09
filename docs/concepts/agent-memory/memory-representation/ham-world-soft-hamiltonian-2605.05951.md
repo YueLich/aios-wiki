@@ -117,4 +117,5 @@ HaM-World 通过几何结构（能量守恒提供内在稳定性）和选择性�
 
 ## 参考文献
 
-待补充
+- 论文主页: https://arxiv.org/abs/2605.05951
+- Authors: Haoyun Tang, Haodong Cui, Keyao Xu, Kun Wang, Zhandong Mei (Shanghai Jiao Tong University)

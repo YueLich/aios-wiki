@@ -119,4 +119,5 @@ $$\text{argmax}_{S \subseteq M} I(X_S; Y | Q)$$
 
 ## 参考文献
 
-待补充
+- 论文主页: https://arxiv.org/abs/2604.14473
+- Authors: Jillian Fisher, Jennifer Neville, Chan Young Park (Purdue University, Samsung AI)

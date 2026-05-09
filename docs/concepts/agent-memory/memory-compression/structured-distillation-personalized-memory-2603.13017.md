@@ -44,7 +44,7 @@ source: arXiv RSS/API
 四个字段的设计：
 - **exchange_core**：是什么（核心任务/问题）
 - **specific_context**：在什么上下文中（项目、文件、讨论线程）
-- **thematic_room_assignments**：属于哪个主题（功能、bug、 refactor）
+- **thematic_room_assignments**：属于哪个主题（功能、bug、refactor）
 - **regex-extracted files_touched**：涉及哪些文件（精确追踪）
 
 这使得检索可以按字段匹配，而不只是整体相似性。
@@ -126,4 +126,5 @@ source: arXiv RSS/API
 
 ## 参考文献
 
-待补充
+- 论文主页: https://arxiv.org/abs/2603.13017
+- Author: Sydney Lewis
