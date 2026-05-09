@@ -278,6 +278,8 @@ nav:
       - HERCULES NAS持续学习边缘AI: concepts/agent-memory/continual-learning/hercules-nas-continual-learning-2605.04103.md
       - ModalitiesRemember 多模态知识图谱持续学习: concepts/agent-memory/continual-learning/modalities-remember-2604.02778.md
       - CRAFT 遗忘感知干预持续学习: concepts/agent-memory/continual-learning/craft-forgeting-aware-intervention-2605.05732.md
+      - HEDP 混合能量距离域增量学习: concepts/agent-memory/continual-learning/hedp-hybrid-energy-distance-2605.05776.md
+      - SAMoE-C 场景自适应持续学习: concepts/agent-memory/continual-learning/samoe-c-scene-adaptive-continual-2605.06447.md
       - Attribution-Guided CL 归因引导梯度调制: concepts/agent-memory/continual-learning/attribution-guided-continual-learning-2605.05285.md
       - Selective Forgetting LRMs 推理模型: concepts/agent-memory/memory-compression/selective-forgetting-large-reasoning-models-2604.03571.md
       - PriceOfMeaning 语义记忆必然遗忘: concepts/agent-memory/memory-compression/price-meaning-semantic-forgetting-2603.27116.md
@@ -324,6 +326,7 @@ nav:
       - RUMS 响应感知记忆选择: concepts/agent-memory/memory-retrieval/rums-response-aware-memory-2604.14473.md
       - PERMA 个性化记忆基准: concepts/agent-memory/memory-retrieval/perma-personalized-memory-benchmark-2603.23231.md
       - MemoryCD 跨域个性化基准: concepts/agent-memory/memory-retrieval/memorycd-cross-domain-personalization-2603.25973.md
+      - RF-Mem 双路径记忆检索: concepts/agent-memory/memory-retrieval/rf-mem-recollection-familiarity-2603.09250.md
       - Remember 情感记忆问答: concepts/agent-memory/memory-retrieval/remember-emotional-memory-2510.19030.md
       - SocializeChat AAC个人记忆: concepts/agent-memory/memory-retrieval/socializechat-aac-personal-memories-2510.19017.md
       - Memento 可穿戴记忆导航: concepts/agent-memory/memory-retrieval/memento-wearable-memory-2504.19772.md
