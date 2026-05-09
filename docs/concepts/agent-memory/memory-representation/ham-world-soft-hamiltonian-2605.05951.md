@@ -10,9 +10,9 @@ source: arXiv RSS/API
 ## 论文基本信息
 
 - **作者**: Haoyun Tang, Haodong Cui, Keyao Xu, Kun Wang, Zhandong Mei
-- **机构**: 上海交通大学 (SJTU)
+- **机构**: 上海交通大学 (Shanghai Jiao Tong University)
 - **发表日期**: 2026-05-07
-- **开源代码**: 待补充
+- **开源代码**: https://github.com/HaoyunT/HaM_World
 
 ## 一句话总结
 
@@ -118,4 +118,5 @@ HaM-World 通过几何结构（能量守恒提供内在稳定性）和选择性�
 ## 参考文献
 
 - 论文主页: https://arxiv.org/abs/2605.05951
+- 开源代码: https://github.com/HaoyunT/HaM_World
 - Authors: Haoyun Tang, Haodong Cui, Keyao Xu, Kun Wang, Zhandong Mei (Shanghai Jiao Tong University)

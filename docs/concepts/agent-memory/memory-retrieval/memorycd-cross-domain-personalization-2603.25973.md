@@ -9,10 +9,10 @@ source: arXiv RSS/API
 
 ## 论文基本信息
 
-- **作者**: Weizhi Zhang, Xiaokai Wei, Wei-Chieh Huang, Zheng Hui, Chen Wang
-- **机构**: 上海人工智能实验室 (Shanghai AI Lab)
+- **作者**: Weizhi Zhang, Xiaokai Wei, Wei-Chieh Huang, Zheng Hui, Chen Wang, Michelle Gong, Philip S. Yu
+- **机构**: 上海人工智能实验室 (Shanghai AI Lab), University of Illinois Chicago
 - **发表日期**: 2026-03-26
-- **开源代码**: 待补充
+- **开源代码**: 论文未提供开源代码链接
 
 ## 一句话总结
 
@@ -126,4 +126,4 @@ MemoryCD 是首个基于真实用户终身跨域行为的大规模记忆基准�
 ## 参考文献
 
 - 论文主页: https://arxiv.org/abs/2603.25973
-- Authors: Weizhi Zhang, Xiaokai Wei, Wei-Chieh Huang, Zheng Hui, Chen Wang (Shanghai AI Lab)
+- Authors: Weizhi Zhang, Xiaokai Wei, Wei-Chieh Huang, Zheng Hui, Chen Wang, Michelle Gong, Philip S. Yu (Shanghai AI Lab, University of Illinois Chicago)

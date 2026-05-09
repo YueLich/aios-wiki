@@ -10,9 +10,9 @@ source: arXiv RSS/API
 ## 论文基本信息
 
 - **作者**: Sydney Lewis
-- **机构**: 待补充
+- **机构**: Process-Point Technologies Corporation
 - **发表日期**: 2026-03-13
-- **开源代码**: 待补充（论文提到开源）
+- **开源代码**: https://github.com/Process-Point-Technologies-Corporation/searchat
 
 ## 一句话总结
 
@@ -127,4 +127,5 @@ source: arXiv RSS/API
 ## 参考文献
 
 - 论文主页: https://arxiv.org/abs/2603.13017
-- Author: Sydney Lewis
+- 开源代码: https://github.com/Process-Point-Technologies-Corporation/searchat
+- Author: Sydney Lewis (Process-Point Technologies Corporation)

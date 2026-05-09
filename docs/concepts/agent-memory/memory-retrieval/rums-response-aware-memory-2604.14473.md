@@ -12,7 +12,7 @@ source: arXiv RSS/API
 - **作者**: Jillian Fisher, Jennifer Neville, Chan Young Park
 - **机构**: Purdue University, Samsung AI
 - **发表日期**: 2026-04-15
-- **开源代码**: 待补充
+- **开源代码**: https://github.com/jfisher52/Response_Utility_Optimized_Memory_Selection
 
 ## 一句话总结
 
@@ -120,4 +120,5 @@ $$\text{argmax}_{S \subseteq M} I(X_S; Y | Q)$$
 ## 参考文献
 
 - 论文主页: https://arxiv.org/abs/2604.14473
+- 开源代码: https://github.com/jfisher52/Response_Utility_Optimized_Memory_Selection
 - Authors: Jillian Fisher, Jennifer Neville, Chan Young Park (Purdue University, Samsung AI)
