@@ -1167,6 +1167,64 @@
         "memory-representation",
         "financial-ai"
       ]
+    },
+    "2604.20006": {
+      "title": "From Recall to Forgetting: Benchmarking Long-Term Memory for Personalized Agents",
+      "authors": [
+        "Md Nayem Uddin",
+        "Kumar Shubham",
+        "Eduardo Blanco",
+        "Chitta Baral",
+        "Gengyu Wang"
+      ],
+      "category": "cs.CL",
+      "date": "2026-04-21"
+    },
+    "2604.16548": {
+      "title": "A Survey on the Security of Long-Term Memory in LLM Agents: Toward Mnemonic Sovereignty",
+      "authors": [
+        "Zehao Lin",
+        "Chunyu Li",
+        "Kai Chen"
+      ],
+      "category": "cs.CR",
+      "date": "2026-04-17"
+    },
+    "2604.15671": {
+      "title": "Long-Term Memory for VLA-based Agents in Open-World Task Execution",
+      "authors": [
+        "Xu Huang",
+        "Weixin Mao",
+        "Yinhao Li",
+        "Hua Chen",
+        "Jiabao Zhao"
+      ],
+      "category": "cs.RO",
+      "date": "2026-04-17"
+    },
+    "2604.16941": {
+      "title": "MEMRES: A Memory-Augmented Resolver with Confidence Cascade for Agentic Python Dependency Resolution",
+      "authors": [
+        "Dao Sy Duy Minh",
+        "Tran Chi Nguyen",
+        "Trung Kiet Huynh",
+        "Pham Phu Hoa",
+        "Nguyen Lam Phu Quy"
+      ],
+      "category": "cs.SE",
+      "date": "2026-04-18"
+    },
+    "2604.12616": {
+      "title": "Every Picture Tells a Dangerous Story: Memory-Augmented Multi-Agent Jailbreak Attacks on VLMs",
+      "authors": [
+        "Jianhao Chen",
+        "Haoyang Chen",
+        "Hanjie Zhao",
+        "Haozhe Liang",
+        "Tieyun Qian"
+      ],
+      "category": "cs.AI",
+      "date": "2026-04-14"
     }
   }
 }
