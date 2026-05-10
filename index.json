@@ -1062,6 +1062,39 @@
     "2605.05951": "HaM-World: Soft-Hamiltonian World Models with Selective Memory for Planning",
     "2604.14473": "Response-Aware User Memory Selection for LLM Personalization",
     "2603.25973": "MemoryCD: Benchmarking Long-Context User Memory of LLM Agents for Lifelong Cross-Domain Personalization",
-    "2603.13017": "Structured Distillation for Personalized Agent Memory: 11x Token Reduction with Retrieval Preservation"
+    "2603.13017": "Structured Distillation for Personalized Agent Memory: 11x Token Reduction with Retrieval Preservation",
+    "2601.05504": {
+      "title": "Memory Poisoning Attack and Defense on Memory Based LLM-Agents",
+      "authors": [
+        "Balachandra Devarangadi Sunil",
+        "Isheeta Sinha",
+        "Piyush Maheshwari"
+      ],
+      "date": "2026-01-09"
+    },
+    "2603.02240": {
+      "title": "SuperLocalMemory: Privacy-Preserving Multi-Agent Memory with Bayesian Trust Defense Against Memory Poisoning",
+      "authors": [
+        "Varun Pratap Bhardwaj"
+      ],
+      "date": "2026-02-17"
+    },
+    "2603.20357": {
+      "title": "Memory poisoning and secure multi-agent systems",
+      "authors": [
+        "Vicenç Torra",
+        "Maria Bras-Amorós"
+      ],
+      "date": "2026-03-20"
+    },
+    "2604.02623": {
+      "title": "Poison Once, Exploit Forever: Environment-Injected Memory Poisoning Attacks on Web Agents",
+      "authors": [
+        "Wei Zou",
+        "Mingwen Dong",
+        "Miguel Romero Calvo"
+      ],
+      "date": "2026-04-03"
+    }
   }
 }

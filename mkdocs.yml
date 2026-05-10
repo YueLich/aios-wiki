@@ -372,6 +372,10 @@ nav:
       - MAGE Shadow Memory 防御: concepts/agent-memory/memory-privacy/mage-shadow-memory-guardrail-2605.03228.md
       - SafeHarbor 分层记忆防护: concepts/agent-memory/memory-privacy/safeharbor-memory-guardrail-2605.05704.md
       - MemCoE 记忆指南归纳演化: concepts/agent-memory/memory-compression/memcoe-evolving-memory-2605.00702.md
+      - SuperLocalMemory 本地隐私多智能体记忆: concepts/agent-memory/memory-privacy/superlocalmemory-privacy-multi-agent-2603.02240.md
+      - Memory Poisoning 安全多智能体系统: concepts/agent-memory/memory-privacy/memory-poisoning-multi-agent-systems-2603.20357.md
+      - eTAMP 环境注入记忆投毒攻击: concepts/agent-memory/memory-privacy/poison-once-exploit-forever-2604.02623.md
+      - EHR记忆投毒攻防: concepts/agent-memory/memory-privacy/memory-poisoning-attack-defense-2601.05504.md
       - SuperLocalMemory V3.3 生物启发遗忘: concepts/agent-memory/memory-compression/superlocalmemory-v3-2604.04514.md
 
     - 工具调用与执行:
