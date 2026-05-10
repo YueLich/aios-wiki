@@ -164,7 +164,14 @@
     "HaM-World: Soft-Hamiltonian World Models with Selective Memory for Planning",
     "Response-Aware User Memory Selection for LLM Personalization",
     "MemoryCD: Benchmarking Long-Context User Memory of LLM Agents for Lifelong Cross-Domain Personalization",
-    "Structured Distillation for Personalized Agent Memory: 11x Token Reduction with Retrieval Preservation"
+    "Structured Distillation for Personalized Agent Memory: 11x Token Reduction with Retrieval Preservation",
+    "LatentRAG: Latent Reasoning and Retrieval for Efficient Agentic RAG",
+    "Semantic Entanglement in Vector-Based Retrieval: A Formal Framework and Context-Conditioned Disentanglement Pipeline for Agentic RAG Systems",
+    "AutoSearch: Adaptive Search Depth for Efficient Agentic RAG via Reinforcement Learning",
+    "Toward Agentic RAG for Ukrainian",
+    "Test-Time Strategies for More Efficient and Accurate Agentic RAG",
+    "Explainable Innovation Engine: Dual-Tree Agent-RAG with Methods-as-Nodes and Verifiable Write-Back",
+    "HeRo: Adaptive Orchestration of Agentic RAG on Heterogeneous Mobile SoC"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -1095,6 +1102,63 @@
         "Miguel Romero Calvo"
       ],
       "date": "2026-04-03"
+    },
+    "2605.06285": {
+      "title": "LatentRAG: Latent Reasoning and Retrieval for Efficient Agentic RAG",
+      "authors": [
+        "Yijia Zheng",
+        "Marcel Worring"
+      ],
+      "date": "2026-05-07"
+    },
+    "2604.17677": {
+      "title": "Semantic Entanglement in Vector-Based Retrieval: A Formal Framework and Context-Conditioned Disentanglement Pipeline for Agentic RAG Systems",
+      "authors": [
+        "Nick Loghmani"
+      ],
+      "date": "2026-04-20"
+    },
+    "2604.17337": {
+      "title": "AutoSearch: Adaptive Search Depth for Efficient Agentic RAG via Reinforcement Learning",
+      "authors": [
+        "Jingbo Sun",
+        "Wenyue Chong",
+        "Songjun Tu"
+      ],
+      "date": "2026-04-19"
+    },
+    "2604.14896": {
+      "title": "Toward Agentic RAG for Ukrainian",
+      "authors": [
+        "Marta Sumyk",
+        "Oleksandr Kosovan"
+      ],
+      "date": "2026-04-16"
+    },
+    "2603.12396": {
+      "title": "Test-Time Strategies for More Efficient and Accurate Agentic RAG",
+      "authors": [
+        "Brian Zhang",
+        "Deepti Guntur",
+        "Zhiyang Zuo"
+      ],
+      "date": "2026-03-12"
+    },
+    "2603.09192": {
+      "title": "Explainable Innovation Engine: Dual-Tree Agent-RAG with Methods-as-Nodes and Verifiable Write-Back",
+      "authors": [
+        "Renwei Meng"
+      ],
+      "date": "2026-03-10"
+    },
+    "2603.01661": {
+      "title": "HeRo: Adaptive Orchestration of Agentic RAG on Heterogeneous Mobile SoC",
+      "authors": [
+        "Maoliang Li",
+        "Jiayu Chen",
+        "Zihao Zheng"
+      ],
+      "date": "2026-03-02"
     }
   }
 }

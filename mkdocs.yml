@@ -302,6 +302,13 @@ nav:
       - RAM-OL 检索增强在线学习: concepts/agent-memory/memory-retrieval/ram-ol-retrieval-augmented-online-2512.02333.md
       - K2K 内部键值记忆医疗: concepts/agent-memory/memory-retrieval/k2k-internal-memory-2604.07659.md
       - CIG 对话语义信息增益: concepts/agent-memory/memory-retrieval/cig-conversational-information-gain-2604.15647.md
+      - HeRo 移动端Agentic RAG调度: concepts/agent-memory/memory-retrieval/hero-mobile-agentic-rag-2603.01661.md
+      - Explainable Innovation Engine 双树Agent-RAG: concepts/agent-memory/memory-retrieval/explainable-innovation-engine-2603.09192.md
+      - Test-Time Strategies Agentic RAG效率: concepts/agent-memory/memory-retrieval/test-time-agentic-rag-2603.12396.md
+      - Toward Agentic RAG Ukrainian乌克兰语: concepts/agent-memory/memory-retrieval/toward-agentic-rag-ukrainian-2604.14896.md
+      - AutoSearch 自适应搜索深度RL: concepts/agent-memory/memory-retrieval/autosearch-adaptive-search-2604.17337.md
+      - Semantic Entanglement 语义纠缠解缠: concepts/agent-memory/memory-retrieval/semantic-entanglement-vector-2604.17677.md
+      - LatentRAG 潜在推理高效Agentic RAG: concepts/agent-memory/memory-retrieval/latentrag-latent-reasoning-2605.06285.md
       - Rashomon Memory 多视角论证: concepts/agent-memory/memory-retrieval/rashomon-memory-argumentation-2604.03588.md
       - SelRoute 查询类型路由: concepts/agent-memory/memory-retrieval/selroute-query-type-routing-2604.02431.md
       - DeltaMem RL记忆管理: concepts/agent-memory/memory-retrieval/deltamem-rl-memory-management-2604.01560.md
