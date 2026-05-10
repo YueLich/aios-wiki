@@ -293,6 +293,7 @@ nav:
       - Back-to-Basics 极简检索生成记忆: concepts/agent-memory/memory-retrieval/back-to-basics-retrieval-generation-2604.11628.md
       - BEHEMOTH 异质任务记忆提取: concepts/agent-memory/memory-retrieval/behemoth-heterogeneous-memory-extraction-2604.11610.md
       - TreeMem 多智能体信用分配: concepts/agent-memory/memory-retrieval/treemem-multi-agent-credit-2605.04811.md
+      - Governed Collab Memory 人工选择: concepts/agent-memory/memory-retrieval/governed-collaborative-memory-2605.04264.md
       - True Memory 检索中心架构: concepts/agent-memory/memory-retrieval/true-memory-retrieval-centered-2605.04897.md
       - STALE 记忆有效性判断: concepts/agent-memory/memory-retrieval/stale-memory-validity-2605.06527.md
       - HiGMem 层次化LLM引导记忆: concepts/agent-memory/memory-retrieval/higmem-hierarchical-llm-guided-memory-2604.18349.md

@@ -173,7 +173,8 @@
     "Toward Agentic RAG for Ukrainian",
     "Test-Time Strategies for More Efficient and Accurate Agentic RAG",
     "Explainable Innovation Engine: Dual-Tree Agent-RAG with Methods-as-Nodes and Verifiable Write-Back",
-    "HeRo: Adaptive Orchestration of Agentic RAG on Heterogeneous Mobile SoC"
+    "HeRo: Adaptive Orchestration of Agentic RAG on Heterogeneous Mobile SoC",
+    "Governed Collaborative Memory as Artificial Selection in LLM-Based Multi-Agent Systems"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -1196,6 +1197,17 @@
         "personalization",
         "ground-truth"
       ]
+    },
+    "2605.04264": {
+      "title": "Governed Collaborative Memory as Artificial Selection in LLM-Based Multi-Agent Systems",
+      "authors": [
+        "Diego F. Cuadros",
+        "Abdoul-Aziz Maiga",
+        "Helen Meskhidze",
+        "Andre Curtis-Trudel"
+      ],
+      "date": "2026-05-05",
+      "category": "cs.MA"
     }
   }
 }
