@@ -295,6 +295,8 @@ nav:
       - TreeMem 多智能体信用分配: concepts/agent-memory/memory-retrieval/treemem-multi-agent-credit-2605.04811.md
       - True Memory 检索中心架构: concepts/agent-memory/memory-retrieval/true-memory-retrieval-centered-2605.04897.md
       - STALE 记忆有效性判断: concepts/agent-memory/memory-retrieval/stale-memory-validity-2605.06527.md
+      - HiGMem 层次化LLM引导记忆: concepts/agent-memory/memory-retrieval/higmem-hierarchical-llm-guided-memory-2604.18349.md
+      - MemMachine 保真记忆系统: concepts/agent-memory/memory-retrieval/memmachine-ground-truth-preserving-2604.04853.md
       - CacheRAG 语义缓存 KGQA: concepts/agent-memory/memory-retrieval/cacherag-semantic-caching-kgqa-2604.26176.md
       - WorldMM 动态多模态记忆视频: concepts/agent-memory/memory-retrieval/worldmm-dynamic-multimodal-2512.02425.md
       - I3DM 隐式3D感知记忆: concepts/agent-memory/memory-retrieval/i3dm-implicit-3d-aware-memory-2603.23413.md

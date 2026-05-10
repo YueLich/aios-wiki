@@ -1,5 +1,7 @@
 {
   "recently_processed_titles": [
+    "HiGMem: A Hierarchical and LLM-Guided Memory System for Long-Term Conversational Agents",
+    "MemMachine: A Ground-Truth-Preserving Memory System for Personalized AI Agents",
     "Attribution-Guided Continual Learning for Large Language Models",
     "CRAFT: Forgetting-Aware Intervention-Based Adaptation for Continual Learning",
     "Representation Interventions Enable Lifelong Knowledge Memory Control in LLMs",
@@ -1159,6 +1161,41 @@
         "Zihao Zheng"
       ],
       "date": "2026-03-02"
+    },
+    "2604.18349": {
+      "title": "HiGMem: A Hierarchical and LLM-Guided Memory System for Long-Term Conversational Agents",
+      "authors": [
+        "Shuqi Cao",
+        "Jingyi He",
+        "Fei Tan"
+      ],
+      "date": "2026-04-20",
+      "tags": [
+        "agent-memory",
+        "memory-retrieval",
+        "hierarchical-memory",
+        "long-conversation"
+      ]
+    },
+    "2604.04853": {
+      "title": "MemMachine: A Ground-Truth-Preserving Memory System for Personalized AI Agents",
+      "authors": [
+        "Shu Wang",
+        "Edwin Yu",
+        "Oscar Love",
+        "Tom Zhang",
+        "Tom Wong",
+        "Steve Scargall",
+        "Charles Fan"
+      ],
+      "date": "2026-04-06",
+      "tags": [
+        "agent-memory",
+        "memory-retrieval",
+        "episodic-memory",
+        "personalization",
+        "ground-truth"
+      ]
     }
   }
 }
