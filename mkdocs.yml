@@ -266,6 +266,7 @@ nav:
       - AOI 三层记忆运维Agent: concepts/agent-memory/memory-compression/aoi-multi-agent-hierarchical-memory-2512.13956.md
       - Memini 多时间尺度记忆动力学: concepts/agent-memory/memory-compression/memini-multitimescale-memory-dynamics-2605.05097.md
       - LongSeeker 弹性上下文编排: concepts/agent-memory/memory-compression/longseeker-elastic-context-orchestration-2605.05191.md
+      - Working Memory Interference LLM 工作记忆干扰: concepts/agent-memory/memory-compression/working-memory-interference-llm-2604.09670.md
       - Domain-Incremental CL基准 ICU时序: concepts/agent-memory/continual-learning/domain-incremental-cl-benchmark-icu-2605.03832.md
       - DynamicDistill 长尾增量学习: concepts/agent-memory/continual-learning/dynamic-distillation-long-tailed-il-2605.03364.md
       - ADaCoRe EEG记忆压缩持续学习: concepts/agent-memory/continual-learning/adacoere-eeg-continual-learning-2605.03085.md
@@ -298,6 +299,10 @@ nav:
       - STALE 记忆有效性判断: concepts/agent-memory/memory-retrieval/stale-memory-validity-2605.06527.md
       - HiGMem 层次化LLM引导记忆: concepts/agent-memory/memory-retrieval/higmem-hierarchical-llm-guided-memory-2604.18349.md
       - MemMachine 保真记忆系统: concepts/agent-memory/memory-retrieval/memmachine-ground-truth-preserving-2604.04853.md
+      - Thought-Retriever 检索思想而非数据: concepts/agent-memory/memory-retrieval/thought-retriever-2604.12231.md
+      - OVAL 开放词汇终身导航记忆: concepts/agent-memory/multimodal-memory/oval-open-vocabulary-memory-nav-2604.12872.md
+      - Event-Centric 世界建模记忆决策: concepts/agent-memory/multimodal-memory/event-centric-world-modeling-2604.07392.md
+      - Financial QA 架构优于规模: concepts/agent-memory/memory-retrieval/financial-qa-memory-architecture-2604.17979.md
       - CacheRAG 语义缓存 KGQA: concepts/agent-memory/memory-retrieval/cacherag-semantic-caching-kgqa-2604.26176.md
       - WorldMM 动态多模态记忆视频: concepts/agent-memory/memory-retrieval/worldmm-dynamic-multimodal-2512.02425.md
       - I3DM 隐式3D感知记忆: concepts/agent-memory/memory-retrieval/i3dm-implicit-3d-aware-memory-2603.23413.md
