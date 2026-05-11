@@ -66,7 +66,11 @@
     "Event-Causal RAG: A Retrieval-Augmented Generation Framework for Long Video Reasoning in Complex Scenarios",
     "An Agent-Oriented Pluggable Experience-RAG Skill for Experience-Driven Retrieval Strategy Orchestration",
     "Privacy Without Losing Place: A Paradigm for Private Retrieval in Spatial RAGs",
-    "SAVEMem: Semantic-Aware Adaptive Visual Memory for Streaming Video Understanding"
+    "SAVEMem: Semantic-Aware Adaptive Visual Memory for Streaming Video Understanding",
+    "Contextual Agentic Memory is a Memo, Not True Memory",
+    "HEDP: A Hybrid Energy-Distance Prompt-based Framework for Domain Incremental Learning",
+    "Contextual Agentic Memory is a Memo, Not True Memory",
+    "HEDP: A Hybrid Energy-Distance Prompt-based Framework for Domain Incremental Learning"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -1412,6 +1416,32 @@
         "Yiwei Wang"
       ],
       "date": "2026-05-08"
+    },
+    "2604.27707": {
+      "title": "Contextual Agentic Memory is a Memo, Not True Memory",
+      "authors": [
+        "Binyan Xu",
+        "Xilin Dai",
+        "Kehuan Zhang"
+      ],
+      "date": "2026-04-30"
+    },
+    "2605.05776": {
+      "title": "HEDP: A Hybrid Energy-Distance Prompt-based Framework for Domain Incremental Learning",
+      "authors": [
+        "Yu Feng",
+        "Zhen Tian",
+        "Haoran Luo",
+        "Xie Yu",
+        "Diancheng Cheng",
+        "Haoyue Zheng",
+        "Shuai Lyu",
+        "Ping Zong",
+        "Lianyuan Li",
+        "Xin Ge",
+        "Yifan Zhu"
+      ],
+      "date": "2026-05-07"
     }
   }
 }
