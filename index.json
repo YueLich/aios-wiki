@@ -58,7 +58,8 @@
     "SR$^2$-LoRA: Self-Rectifying Inter-layer Relations in Low-Rank Adaptation for Class-Incremental Learning",
     "The Memory Curse: How Expanded Recall Erodes Cooperative Intent in LLM Agents",
     "WiCER: Wiki-memory Compile, Evaluate, Refine Iterative Knowledge Compilation for LLM Wiki Systems",
-    "MemCompiler: Compile, Don't Inject — State-Conditioned Memory for Embodied Agents"
+    "MemCompiler: Compile, Don't Inject — State-Conditioned Memory for Embodied Agents",
+    "Scene-Adaptive Continual Learning for CSI-based Human Activity Recognition with Mixture of Experts"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -1326,6 +1327,14 @@
         "Yifan Yang"
       ],
       "date": "2026-05-08"
+    },
+    "2605.06447": {
+      "title": "Scene-Adaptive Continual Learning for CSI-based Human Activity Recognition with Mixture of Experts",
+      "authors": [
+        "Wenhan Zheng",
+        "Yuyi Mao",
+        "Ivan Wang-Hei Ho"
+      ]
     }
   }
 }
