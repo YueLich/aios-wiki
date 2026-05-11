@@ -226,6 +226,7 @@ nav:
       - RenderMem 渲染即空间记忆: concepts/agent-memory/memory-representation/renderMem-spatial-memory-retrieval-2603.14669.md
       - What Happens Inside Agent Memory 电路分析: concepts/agent-memory/memory-representation/what-happens-inside-2605.03354.md
       - From Storage to Experience 记忆演化综述: concepts/agent-memory/memory-representation/from-storage-to-experience-survey-2605.06716.md
+      - WiCER Wiki知识编译: concepts/agent-memory/memory-representation/wicer-wiki-knowledge-compilation-2605.07068.md
       - Sinkhorn联想记忆: concepts/agent-memory/memory-representation/sinkhorn-associative-memory-2603.20656.md
       - HeLa-Mem Hebbian联想记忆: concepts/agent-memory/memory-representation/hela-mem-hebbian-associative-2604.16839.md
       - Hebbian Associative Memory Benchmark Hebbian规则基准: concepts/agent-memory/memory-representation/hebbian-associative-memory-benchmark-2605.01074.md
@@ -356,6 +357,7 @@ nav:
       - MemReranker 推理感知重排: concepts/agent-memory/memory-retrieval/memreranker-reasoning-aware-reranking-2605.06132.md
       - MEMOREPAIR 级联修复: concepts/agent-memory/memory-retrieval/memorepair-cascade-repair-2605.07242.md
       - When Stored Evidence 规模评估: concepts/agent-memory/memory-retrieval/when-stored-evidence-stops-being-usable-2605.07313.md
+      - Memory Curse 记忆诅咒合作侵蚀: concepts/agent-memory/memory-retrieval/memory-curse-erosion-cooperation-2605.08060.md
       - RMAAT 星形胶质记忆压缩: concepts/agent-memory/memory-compression/rmaat-astrocyte-memory-compression-2601.00426.md
       - MemArchitect 策略驱动记忆治理: concepts/agent-memory/memory-compression/memarchitect-policy-memory-governance-2603.18330.md
       - Novel Memory Forgetting 自主Agent: concepts/agent-memory/memory-compression/novel-memory-forgetting-autonomous-agents-2604.02280.md
@@ -383,6 +385,7 @@ nav:
       - Affordance RAG 具身记忆操作: concepts/agent-memory/multimodal-memory/affordance-rag-embodied-memory-2512.18987.md
       - TeleMem 长期多模态记忆: concepts/agent-memory/multimodal-memory/telemem-long-term-multimodal-memory-2601.06037.md
       - LifeMem 连续生活记录记忆评估: concepts/agent-memory/multimodal-memory/lifemem-lifelog-memory-2604.11182.md
+      - MemCompiler 状态条件记忆编译: concepts/agent-memory/multimodal-memory/memcompiler-state-conditioned-memory-2605.07594.md
       - MELODI 层级记忆压缩: concepts/agent-memory/memory-compression/melodi-hierarchical-memory-compression-2410.03156.md
       - System1-System2 语义记忆偏见: concepts/agent-memory/memory-privacy/system1-system2-semantic-memory-bias-2604.12816.md
       - Visual Inception 记忆投毒攻击: concepts/agent-memory/memory-privacy/visual-inception-memory-poisoning-2604.16966.md

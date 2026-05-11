@@ -55,7 +55,10 @@
     "From Storage to Experience: A Survey on the Evolution of LLM Agent Memory Mechanisms",
     "Hierarchical Dual-Subspace Decoupling for Continual Learning in Vision-Language Models",
     "DIMoE-Adapters: Dynamic Expert Evolution for Continual Learning in Vision-Language Models",
-    "SR$^2$-LoRA: Self-Rectifying Inter-layer Relations in Low-Rank Adaptation for Class-Incremental Learning"
+    "SR$^2$-LoRA: Self-Rectifying Inter-layer Relations in Low-Rank Adaptation for Class-Incremental Learning",
+    "The Memory Curse: How Expanded Recall Erodes Cooperative Intent in LLM Agents",
+    "WiCER: Wiki-memory Compile, Evaluate, Refine Iterative Knowledge Compilation for LLM Wiki Systems",
+    "MemCompiler: Compile, Don't Inject — State-Conditioned Memory for Embodied Agents"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -1298,6 +1301,31 @@
         "Kan Lv",
         "Yang Yang"
       ]
+    },
+    "2605.08060": {
+      "title": "The Memory Curse: How Expanded Recall Erodes Cooperative Intent in LLM Agents",
+      "authors": [
+        "Jiayuan Liu",
+        "Tianqin Li",
+        "Shiyi Du"
+      ],
+      "date": "2026-05-08"
+    },
+    "2605.07068": {
+      "title": "WiCER: Wiki-memory Compile, Evaluate, Refine Iterative Knowledge Compilation for LLM Wiki Systems",
+      "authors": [
+        "Juan M. Huerta"
+      ],
+      "date": "2026-05-08"
+    },
+    "2605.07594": {
+      "title": "MemCompiler: Compile, Don't Inject — State-Conditioned Memory for Embodied Agents",
+      "authors": [
+        "Xin Ding",
+        "Xinrui Wang",
+        "Yifan Yang"
+      ],
+      "date": "2026-05-08"
     }
   }
 }
