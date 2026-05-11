@@ -70,7 +70,11 @@
     "Contextual Agentic Memory is a Memo, Not True Memory",
     "HEDP: A Hybrid Energy-Distance Prompt-based Framework for Domain Incremental Learning",
     "Contextual Agentic Memory is a Memo, Not True Memory",
-    "HEDP: A Hybrid Energy-Distance Prompt-based Framework for Domain Incremental Learning"
+    "HEDP: A Hybrid Energy-Distance Prompt-based Framework for Domain Incremental Learning",
+    "AdaTKG: Adaptive Memory for Temporal Knowledge Graph Reasoning",
+    "Knowledge Graphs, the Missing Link in Agentic AI-based Formal Verification",
+    "Knowledge-Graph Paths as Intermediate Supervision for Self-Evolving Search Agents",
+    "EvoPoC: Automated Exploit Synthesis for DeFi Smart Contracts via Hierarchical Knowledge Graphs"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -1442,6 +1446,30 @@
         "Yifan Zhu"
       ],
       "date": "2026-05-07"
+    },
+    "2605.07121": {
+      "title": "AdaTKG: Adaptive Memory for Temporal Knowledge Graph Reasoning",
+      "authors": [
+        "Seunghan Lee et al."
+      ]
+    },
+    "2605.06434": {
+      "title": "Knowledge Graphs, the Missing Link in Agentic AI-based Formal Verification",
+      "authors": [
+        "Vaisakh Naduvodi Viswambharan et al."
+      ]
+    },
+    "2605.05702": {
+      "title": "Knowledge-Graph Paths as Intermediate Supervision for Self-Evolving Search Agents",
+      "authors": [
+        "Huyu Wu et al."
+      ]
+    },
+    "2605.02868": {
+      "title": "EvoPoC: Automated Exploit Synthesis for DeFi Smart Contracts via Hierarchical Knowledge Graphs",
+      "authors": [
+        "Ruichao Liang et al."
+      ]
     }
   }
 }
