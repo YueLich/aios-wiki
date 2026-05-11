@@ -225,6 +225,7 @@ nav:
       - SCG-MEM Schema约束生成: concepts/agent-memory/memory-representation/scge-mem-schema-constrained-2604.20117.md
       - RenderMem 渲染即空间记忆: concepts/agent-memory/memory-representation/renderMem-spatial-memory-retrieval-2603.14669.md
       - What Happens Inside Agent Memory 电路分析: concepts/agent-memory/memory-representation/what-happens-inside-2605.03354.md
+      - From Storage to Experience 记忆演化综述: concepts/agent-memory/memory-representation/from-storage-to-experience-survey-2605.06716.md
       - Sinkhorn联想记忆: concepts/agent-memory/memory-representation/sinkhorn-associative-memory-2603.20656.md
       - HeLa-Mem Hebbian联想记忆: concepts/agent-memory/memory-representation/hela-mem-hebbian-associative-2604.16839.md
       - Hebbian Associative Memory Benchmark Hebbian规则基准: concepts/agent-memory/memory-representation/hebbian-associative-memory-benchmark-2605.01074.md
@@ -350,6 +351,8 @@ nav:
       - Memento 可穿戴记忆导航: concepts/agent-memory/memory-retrieval/memento-wearable-memory-2504.19772.md
       - Belief Memory 部分可观察记忆: concepts/agent-memory/memory-retrieval/belief-memory-partial-observability-2605.05583.md
       - MemReranker 推理感知重排: concepts/agent-memory/memory-retrieval/memreranker-reasoning-aware-reranking-2605.06132.md
+      - MEMOREPAIR 级联修复: concepts/agent-memory/memory-retrieval/memorepair-cascade-repair-2605.07242.md
+      - When Stored Evidence 规模评估: concepts/agent-memory/memory-retrieval/when-stored-evidence-stops-being-usable-2605.07313.md
       - RMAAT 星形胶质记忆压缩: concepts/agent-memory/memory-compression/rmaat-astrocyte-memory-compression-2601.00426.md
       - MemArchitect 策略驱动记忆治理: concepts/agent-memory/memory-compression/memarchitect-policy-memory-governance-2603.18330.md
       - Novel Memory Forgetting 自主Agent: concepts/agent-memory/memory-compression/novel-memory-forgetting-autonomous-agents-2604.02280.md
