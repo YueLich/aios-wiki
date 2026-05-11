@@ -243,11 +243,13 @@ nav:
       - Autoformalizing Memory Specs 形式化规格: concepts/agent-memory/memory-representation/autoformalizing-memory-specs-2605.00058.md
       - GraphPlanner 图记忆路由: concepts/agent-memory/memory-representation/graphplanner-graph-memory-routing-2604.23626.md
       - Fine-Tuning Regimes 持续学习分类: concepts/agent-memory/continual-learning/fine-tuning-regimes-define-2604.21927.md
+      - Memory Inception KV潜在空间引导: concepts/agent-memory/memory-representation/memory-inception-kv-cache-steering-2605.06225.md
       - FADE 自适应遗忘持续学习: concepts/agent-memory/memory-compression/fade-adaptive-weight-decay-2604.27063.md
       - Hidden Failure Modes Adam CL: concepts/agent-memory/memory-compression/hidden-failure-modes-adam-continual-2604.22407.md
       - Structured Distillation 个性化记忆压缩: concepts/agent-memory/memory-compression/structured-distillation-personalized-memory-2603.13017.md
       - ScrapMem 端侧光学遗忘: concepts/agent-memory/memory-compression/scrapmem-2605.03804.md
       - ContextWeaver 依赖结构化记忆: concepts/agent-memory/memory-compression/contextweaver-dependency-memory-2604.23069.md
+      - MELT 循环推理内存解耦: concepts/agent-memory/memory-compression/memory-efficient-looped-transformer-2605.07721.md
       - When CL Moves to Memory 经验复用: concepts/agent-memory/continual-learning/when-cl-moves-to-memory-2604.27003.md
       - ImageHD 端侧持续学习: concepts/agent-memory/continual-learning/imagehd-energy-efficient-on-2604.21280.md
       - Lifecycle-Aware 联邦持续学习: concepts/agent-memory/continual-learning/lifecycle-aware-federated-continual-2604.20745.md
@@ -306,6 +308,9 @@ nav:
       - MemMachine 保真记忆系统: concepts/agent-memory/memory-retrieval/memmachine-ground-truth-preserving-2604.04853.md
       - Thought-Retriever 检索思想而非数据: concepts/agent-memory/memory-retrieval/thought-retriever-2604.12231.md
       - MEMRES 记忆增强依赖解析: concepts/agent-memory/memory-retrieval/memres-memory-augmented-dependency-2604.16941.md
+      - RRCM 协作元记忆排序检索: concepts/agent-memory/memory-retrieval/rrcm-ranking-retrieval-collaborative-memories-2605.07129.md
+      - Event-Causal RAG 长视频因果记忆: concepts/agent-memory/memory-retrieval/event-causal-rag-long-video-2605.06185.md
+      - Experience-RAG 经验驱动编排: concepts/agent-memory/memory-retrieval/experience-rag-skill-orchestration-2605.03989.md
       - OVAL 开放词汇终身导航记忆: concepts/agent-memory/multimodal-memory/oval-open-vocabulary-memory-nav-2604.12872.md
       - Event-Centric 世界建模记忆决策: concepts/agent-memory/multimodal-memory/event-centric-world-modeling-2604.07392.md
       - ChemBot VLA具身记忆: concepts/agent-memory/multimodal-memory/chembot-vla-long-term-memory-2604.15671.md
@@ -401,6 +406,7 @@ nav:
       - MAGE Shadow Memory 防御: concepts/agent-memory/memory-privacy/mage-shadow-memory-guardrail-2605.03228.md
       - SafeHarbor 分层记忆防护: concepts/agent-memory/memory-privacy/safeharbor-memory-guardrail-2605.05704.md
       - MemCoE 记忆指南归纳演化: concepts/agent-memory/memory-compression/memcoe-evolving-memory-2605.00702.md
+      - PAS 锚点编码空间RAG隐私: concepts/agent-memory/memory-privacy/privacy-anchor-substitution-spatial-rag-2605.05459.md
       - SuperLocalMemory 本地隐私多智能体记忆: concepts/agent-memory/memory-privacy/superlocalmemory-privacy-multi-agent-2603.02240.md
       - Memory Poisoning 安全多智能体系统: concepts/agent-memory/memory-privacy/memory-poisoning-multi-agent-systems-2603.20357.md
       - eTAMP 环境注入记忆投毒攻击: concepts/agent-memory/memory-privacy/poison-once-exploit-forever-2604.02623.md

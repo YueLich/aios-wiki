@@ -59,7 +59,13 @@
     "The Memory Curse: How Expanded Recall Erodes Cooperative Intent in LLM Agents",
     "WiCER: Wiki-memory Compile, Evaluate, Refine Iterative Knowledge Compilation for LLM Wiki Systems",
     "MemCompiler: Compile, Don't Inject — State-Conditioned Memory for Embodied Agents",
-    "Scene-Adaptive Continual Learning for CSI-based Human Activity Recognition with Mixture of Experts"
+    "Scene-Adaptive Continual Learning for CSI-based Human Activity Recognition with Mixture of Experts",
+    "Memory-Efficient Looped Transformer: Decoupling Compute from Memory in Looped Language Models",
+    "RRCM: Ranking-Driven Retrieval over Collaborative and Meta Memories for LLM Recommendation",
+    "Memory Inception: Latent-Space KV Cache Manipulation for Steering LLMs",
+    "Event-Causal RAG: A Retrieval-Augmented Generation Framework for Long Video Reasoning in Complex Scenarios",
+    "An Agent-Oriented Pluggable Experience-RAG Skill for Experience-Driven Retrieval Strategy Orchestration",
+    "Privacy Without Losing Place: A Paradigm for Private Retrieval in Spatial RAGs"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -1335,6 +1341,65 @@
         "Yuyi Mao",
         "Ivan Wang-Hei Ho"
       ]
+    },
+    "2605.07721": {
+      "title": "Memory-Efficient Looped Transformer: Decoupling Compute from Memory in Looped Language Models",
+      "authors": [
+        "Victor Conchello Vendrell",
+        "Arnau Padres Mas Montessori",
+        "Niccolò Grillo"
+      ],
+      "category": "cs.CL",
+      "date": "2026-05-08"
+    },
+    "2605.07129": {
+      "title": "RRCM: Ranking-Driven Retrieval over Collaborative and Meta Memories for LLM Recommendation",
+      "authors": [
+        "Shijun Li",
+        "Wooseong Yang",
+        "Yu Wang"
+      ],
+      "category": "cs.IR",
+      "date": "2026-05-08"
+    },
+    "2605.06225": {
+      "title": "Memory Inception: Latent-Space KV Cache Manipulation for Steering LLMs",
+      "authors": [
+        "Andy Zeyi Liu",
+        "Michael Zhang",
+        "Ilana Greenberg"
+      ],
+      "category": "cs.LG",
+      "date": "2026-05-07"
+    },
+    "2605.06185": {
+      "title": "Event-Causal RAG: A Retrieval-Augmented Generation Framework for Long Video Reasoning in Complex Scenarios",
+      "authors": [
+        "Peizheng Yan",
+        "Yu Zhao",
+        "Liang Xie"
+      ],
+      "category": "cs.AI",
+      "date": "2026-05-07"
+    },
+    "2605.03989": {
+      "title": "An Agent-Oriented Pluggable Experience-RAG Skill for Experience-Driven Retrieval Strategy Orchestration",
+      "authors": [
+        "Dutao Zhang",
+        "Tian Liao"
+      ],
+      "category": "cs.AI",
+      "date": "2026-05-05"
+    },
+    "2605.05459": {
+      "title": "Privacy Without Losing Place: A Paradigm for Private Retrieval in Spatial RAGs",
+      "authors": [
+        "Kennedy Edemacu",
+        "Mohammad Mahdi Shokri",
+        "Vinay M. Shashidhar"
+      ],
+      "category": "cs.CR",
+      "date": "2026-05-06"
     }
   }
 }
