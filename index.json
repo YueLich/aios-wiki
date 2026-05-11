@@ -65,7 +65,8 @@
     "Memory Inception: Latent-Space KV Cache Manipulation for Steering LLMs",
     "Event-Causal RAG: A Retrieval-Augmented Generation Framework for Long Video Reasoning in Complex Scenarios",
     "An Agent-Oriented Pluggable Experience-RAG Skill for Experience-Driven Retrieval Strategy Orchestration",
-    "Privacy Without Losing Place: A Paradigm for Private Retrieval in Spatial RAGs"
+    "Privacy Without Losing Place: A Paradigm for Private Retrieval in Spatial RAGs",
+    "SAVEMem: Semantic-Aware Adaptive Visual Memory for Streaming Video Understanding"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -1400,6 +1401,17 @@
       ],
       "category": "cs.CR",
       "date": "2026-05-06"
+    },
+    "2605.07897": {
+      "title": "SAVEMem: Semantic-Aware Adaptive Visual Memory for Streaming Video Understanding",
+      "authors": [
+        "Hang Wu",
+        "Sherin Mary Mathews",
+        "Yujun Cai",
+        "Ming-Hsuan Yang",
+        "Yiwei Wang"
+      ],
+      "date": "2026-05-08"
     }
   }
 }
