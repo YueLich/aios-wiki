@@ -283,6 +283,9 @@ nav:
       - HEDP 混合能量距离域增量学习: concepts/agent-memory/continual-learning/hedp-hybrid-energy-distance-2605.05776.md
       - SAMoE-C 场景自适应持续学习: concepts/agent-memory/continual-learning/samoe-c-scene-adaptive-continual-2605.06447.md
       - Attribution-Guided CL 归因引导梯度调制: concepts/agent-memory/continual-learning/attribution-guided-continual-learning-2605.05285.md
+      - HDSD 双子空间解耦持续学习: concepts/agent-memory/continual-learning/hdsd-dual-subspace-decoupling-2605.07512.md
+      - DIMoE-Adapters 动态专家持续学习: concepts/agent-memory/continual-learning/dimoe-adapters-dynamic-expert-continual-2605.07494.md
+      - SR²-LoRA 层间关系自修正持续学习: concepts/agent-memory/continual-learning/sr2-lora-self-rectifying-inter-layer-2605.07420.md
       - Selective Forgetting LRMs 推理模型: concepts/agent-memory/memory-compression/selective-forgetting-large-reasoning-models-2604.03571.md
       - PriceOfMeaning 语义记忆必然遗忘: concepts/agent-memory/memory-compression/price-meaning-semantic-forgetting-2603.27116.md
       - SmartSearch 排序超越结构: concepts/agent-memory/memory-retrieval/smartsearch-ranking-2603.15599.md

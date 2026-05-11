@@ -52,7 +52,10 @@
     "Architecture Matters More Than Scale: A Comparative Study of Retrieval and Memory Augmentation for Financial QA Under SME Compute Constraints",
     "When Stored Evidence Stops Being Usable: Scale-Conditioned Evaluation of Agent Memory",
     "MEMOREPAIR: Barrier-First Cascade Repair in Agentic Memory",
-    "From Storage to Experience: A Survey on the Evolution of LLM Agent Memory Mechanisms"
+    "From Storage to Experience: A Survey on the Evolution of LLM Agent Memory Mechanisms",
+    "Hierarchical Dual-Subspace Decoupling for Continual Learning in Vision-Language Models",
+    "DIMoE-Adapters: Dynamic Expert Evolution for Continual Learning in Vision-Language Models",
+    "SR$^2$-LoRA: Self-Rectifying Inter-layer Relations in Low-Rank Adaptation for Class-Incremental Learning"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -1266,6 +1269,35 @@
       ],
       "date": "2026-05-07",
       "category": "cs.AI"
+    },
+    "2605.07512": {
+      "title": "Hierarchical Dual-Subspace Decoupling for Continual Learning in Vision-Language Models",
+      "authors": [
+        "Mengxin Qin",
+        "Xiang Zhang",
+        "Kun Wei",
+        "Xu Yang",
+        "Cheng Deng"
+      ]
+    },
+    "2605.07494": {
+      "title": "DIMoE-Adapters: Dynamic Expert Evolution for Continual Learning in Vision-Language Models",
+      "authors": [
+        "Mengxin Qin",
+        "Xiang Zhang",
+        "Xi Wang",
+        "Kun Wei",
+        "Xu Yang"
+      ]
+    },
+    "2605.07420": {
+      "title": "SR$^2$-LoRA: Self-Rectifying Inter-layer Relations in Low-Rank Adaptation for Class-Incremental Learning",
+      "authors": [
+        "Fengqiang Wan",
+        "Yipeng Lin",
+        "Kan Lv",
+        "Yang Yang"
+      ]
     }
   }
 }
