@@ -367,7 +367,10 @@ nav:
       - When Stored Evidence 规模评估: concepts/agent-memory/memory-retrieval/when-stored-evidence-stops-being-usable-2605.07313.md
       - Memory Curse 记忆诅咒合作侵蚀: concepts/agent-memory/memory-retrieval/memory-curse-erosion-cooperation-2605.08060.md
       - KG Paths 中间监督搜索Agent: concepts/agent-memory/memory-retrieval/kg-paths-intermediate-supervision-2605.05702.md
+      - HAGE 加权图遍历检索: concepts/agent-memory/memory-retrieval/hage-weighted-graph-memory-2605.09942.md
+      - Trap of Trajectory 虚假相关: concepts/agent-memory/memory-retrieval/trap-of-trajectory-spurious-correlations-2605.09330.md
       - RMAAT 星形胶质记忆压缩: concepts/agent-memory/memory-compression/rmaat-astrocyte-memory-compression-2601.00426.md
+      - PYTHALAB-MERA 验证记忆控制器: concepts/agent-memory/memory-retrieval/pythalab-mera-validation-memory-frozen-llm-2605.08468.md
       - MemArchitect 策略驱动记忆治理: concepts/agent-memory/memory-compression/memarchitect-policy-memory-governance-2603.18330.md
       - Novel Memory Forgetting 自主Agent: concepts/agent-memory/memory-compression/novel-memory-forgetting-autonomous-agents-2604.02280.md
       - Benign Memory Forgetting MLLM: concepts/agent-memory/memory-compression/benign-memory-forgetting-mllm-unlearning-2511.20196.md
@@ -400,6 +403,7 @@ nav:
       - System1-System2 语义记忆偏见: concepts/agent-memory/memory-privacy/system1-system2-semantic-memory-bias-2604.12816.md
       - Visual Inception 记忆投毒攻击: concepts/agent-memory/memory-privacy/visual-inception-memory-poisoning-2604.16966.md
       - Trust-Lies LongMem 社会记忆声誉: concepts/agent-memory/memory-privacy/trust-lies-long-memories-2604.20582.md
+      - ShadowMerge 图记忆投毒攻击: concepts/agent-memory/memory-security/shadowmerge-poisoning-attack-graph-memory-2605.09033.md
       - MemorySec Survey 记忆安全综述: concepts/agent-memory/memory-privacy/memory-security-survey-mnemonic-sovereignty-2604.16548.md
       - ADAM 数据提取攻击 隐私: concepts/agent-memory/memory-privacy/adam-data-extraction-attack-2604.09747.md
       - Trojan Hippo 数据外泄攻击: concepts/agent-memory/memory-privacy/trojan-hippo-weaponizing-agent-memory-2605.01970.md

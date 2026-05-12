@@ -74,7 +74,11 @@
     "AdaTKG: Adaptive Memory for Temporal Knowledge Graph Reasoning",
     "Knowledge Graphs, the Missing Link in Agentic AI-based Formal Verification",
     "Knowledge-Graph Paths as Intermediate Supervision for Self-Evolving Search Agents",
-    "EvoPoC: Automated Exploit Synthesis for DeFi Smart Contracts via Hierarchical Knowledge Graphs"
+    "EvoPoC: Automated Exploit Synthesis for DeFi Smart Contracts via Hierarchical Knowledge Graphs",
+    "HAGE: Harnessing Agentic Memory via RL-Driven Weighted Graph Evolution",
+    "The Trap of Trajectory: Towards Understanding and Mitigating Spurious Correlations in Agentic Memory",
+    "ShadowMerge: A Novel Poisoning Attack on Graph-Based Agent Memory via Relation-Channel Conflicts",
+    "PYTHALAB-MERA: Validation-Grounded Memory, Retrieval, and Acceptance Control for Frozen-LLM Coding Agents"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -1470,6 +1474,55 @@
       "authors": [
         "Ruichao Liang et al."
       ]
+    },
+    "2605.09942": {
+      "title": "HAGE: Harnessing Agentic Memory via RL-Driven Weighted Graph Evolution",
+      "authors": [
+        "Dongming Jiang",
+        "Yi Li",
+        "Guanpeng Li",
+        "Qiannan Li",
+        "Bingzhe Li"
+      ],
+      "date": "2026-05-11",
+      "category": "cs.AI"
+    },
+    "2605.09330": {
+      "title": "The Trap of Trajectory: Towards Understanding and Mitigating Spurious Correlations in Agentic Memory",
+      "authors": [
+        "Luoxi Tang",
+        "Rupali Rajendra Vaje",
+        "Yuqiao Meng",
+        "Sakshi Sunil Narkar",
+        "Weicheng Ma",
+        "Zeyu Ding",
+        "Dazheng Zhang",
+        "Zhaohan Xi"
+      ],
+      "date": "2026-05-10",
+      "category": "cs.LG"
+    },
+    "2605.09033": {
+      "title": "ShadowMerge: A Novel Poisoning Attack on Graph-Based Agent Memory via Relation-Channel Conflicts",
+      "authors": [
+        "Yang Luo",
+        "Zifeng Kang",
+        "Tiantian Ji",
+        "Xinran Liu",
+        "Yong Liu",
+        "Shuyu Li",
+        "Lingyun Peng"
+      ],
+      "date": "2026-05-09",
+      "category": "cs.CR"
+    },
+    "2605.08468": {
+      "title": "PYTHALAB-MERA: Validation-Grounded Memory, Retrieval, and Acceptance Control for Frozen-LLM Coding Agents",
+      "authors": [
+        "Mehmet Iscan"
+      ],
+      "date": "2026-05-08",
+      "category": "cs.CL"
     }
   }
 }
