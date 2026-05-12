@@ -226,6 +226,7 @@ nav:
       - RenderMem 渲染即空间记忆: concepts/agent-memory/memory-representation/renderMem-spatial-memory-retrieval-2603.14669.md
       - What Happens Inside Agent Memory 电路分析: concepts/agent-memory/memory-representation/what-happens-inside-2605.03354.md
       - From Storage to Experience 记忆演化综述: concepts/agent-memory/memory-representation/from-storage-to-experience-survey-2605.06716.md
+      - Shepherd Meta-Agent执行轨迹: concepts/agent-memory/memory-representation/shepherd-execution-trace-2605.10913.md
       - WiCER Wiki知识编译: concepts/agent-memory/memory-representation/wicer-wiki-knowledge-compilation-2605.07068.md
       - Sinkhorn联想记忆: concepts/agent-memory/memory-representation/sinkhorn-associative-memory-2603.20656.md
       - HeLa-Mem Hebbian联想记忆: concepts/agent-memory/memory-representation/hela-mem-hebbian-associative-2604.16839.md
@@ -322,6 +323,7 @@ nav:
       - Event-Causal RAG 长视频因果记忆: concepts/agent-memory/memory-retrieval/event-causal-rag-long-video-2605.06185.md
       - Experience-RAG 经验驱动编排: concepts/agent-memory/memory-retrieval/experience-rag-skill-orchestration-2605.03989.md
       - OVAL 开放词汇终身导航记忆: concepts/agent-memory/multimodal-memory/oval-open-vocabulary-memory-nav-2604.12872.md
+      - RoboMemArena 机器人记忆基准: concepts/agent-memory/memory-retrieval/robomem-arena-benchmark-2605.10921.md
       - Event-Centric 世界建模记忆决策: concepts/agent-memory/multimodal-memory/event-centric-world-modeling-2604.07392.md
       - ChemBot VLA具身记忆: concepts/agent-memory/multimodal-memory/chembot-vla-long-term-memory-2604.15671.md
       - Financial QA 架构优于规模: concepts/agent-memory/memory-retrieval/financial-qa-memory-architecture-2604.17979.md

@@ -85,7 +85,9 @@
     "FreeMOCA: Memory-Free Continual Learning for Malicious Code Analysis",
     "Overcoming Catastrophic Forgetting in Visual Continual Learning with Reinforcement Fine-Tuning",
     "NEXUS: Continual Learning of Symbolic Constraints for Safe and Robust Embodied Planning",
-    "Muon-OGD: Muon-based Spectral Orthogonal Gradient Projection for LLM Continual Learning"
+    "Muon-OGD: Muon-based Spectral Orthogonal Gradient Projection for LLM Continual Learning",
+    "RoboMemArena: A Comprehensive and Challenging Robotic Memory Benchmark",
+    "Shepherd: A Runtime Substrate Empowering Meta-Agents with a Formalized Execution Trace"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -1589,6 +1591,26 @@
         "Binghang Lu",
         "Zheyuan Deng",
         "Runyu Zhang"
+      ]
+    },
+    "2605.10921": {
+      "title": "RoboMemArena: A Comprehensive and Challenging Robotic Memory Benchmark",
+      "authors": [
+        "Huashuo Lei",
+        "Wenxuan Song",
+        "Huarui Zhang",
+        "Jieyuan Pei",
+        "Jiayi Chen"
+      ]
+    },
+    "2605.10913": {
+      "title": "Shepherd: A Runtime Substrate Empowering Meta-Agents with a Formalized Execution Trace",
+      "authors": [
+        "Simon Yu",
+        "Derek Chong",
+        "Ananjan Nandi",
+        "Dilara Soylu",
+        "Jiuding Sun"
       ]
     }
   }
