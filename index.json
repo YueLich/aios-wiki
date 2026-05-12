@@ -93,7 +93,12 @@
     "HingeMem: Boundary Guided Long-Term Memory with Query Adaptive Retrieval for Scalable Dialogues",
     "Revitalizing the Beginning: Avoiding Storage Dependency for Model Merging in Continual Learning",
     "Predicting Plasticity in Deep Continual Learning: A Theoretical Perspective",
-    "Cross-Sample Relational Fusion: Unifying Domain Generalization and Class-Incremental Learning"
+    "Cross-Sample Relational Fusion: Unifying Domain Generalization and Class-Incremental Learning",
+    "MemReread: Enhancing Agentic Long-Context Reasoning via Memory-Guided Rereading",
+    "Bridging the Cognitive Gap: A Unified Memory Paradigm for 6G Agentic AI-RAN",
+    "Mem-W: Latent Memory-Native GUI Agents",
+    "EquiMem: Calibrating Shared Memory in Multi-Agent Debate via Game-Theoretic Equilibrium",
+    "Human-Inspired Memory Architecture for LLM Agents"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -1676,6 +1681,61 @@
       "date": "2026-05-09",
       "category": "cs.CV",
       "source": "arxiv"
+    },
+    "2605.10268": {
+      "title": "MemReread: Enhancing Agentic Long-Context Reasoning via Memory-Guided Rereading",
+      "authors": [
+        "Baibei Ji",
+        "Xiaoyang Weng",
+        "Juntao Li",
+        "Zecheng Tang",
+        "Yihang Lou"
+      ],
+      "date": "2026-05-11"
+    },
+    "2605.10036": {
+      "title": "Bridging the Cognitive Gap: A Unified Memory Paradigm for 6G Agentic AI-RAN",
+      "authors": [
+        "Xijun Wang",
+        "Zhaoyang Liu",
+        "Chenyuan Feng",
+        "Xiang Chen",
+        "Howard H. Yang"
+      ],
+      "date": "2026-05-11"
+    },
+    "2605.09317": {
+      "title": "Mem-W: Latent Memory-Native GUI Agents",
+      "authors": [
+        "Guibin Zhang",
+        "Yaohui Ling",
+        "Fanci Meng",
+        "Kun Wang",
+        "Shuicheng Yan"
+      ],
+      "date": "2026-05-10"
+    },
+    "2605.09278": {
+      "title": "EquiMem: Calibrating Shared Memory in Multi-Agent Debate via Game-Theoretic Equilibrium",
+      "authors": [
+        "Yuqiao Meng",
+        "Sakshi Sunil Narvekar",
+        "Luoxi Tang",
+        "Rupali Rajendra Vaje",
+        "Yingxue Zhang"
+      ],
+      "date": "2026-05-10"
+    },
+    "2605.08538": {
+      "title": "Human-Inspired Memory Architecture for LLM Agents",
+      "authors": [
+        "Doga Kerestecioglu",
+        "Alexei Robsky",
+        "Clemens Vasters",
+        "Anshul Sharma",
+        "Yitzhak Kesselman"
+      ],
+      "date": "2026-05-08"
     }
   }
 }

@@ -248,12 +248,15 @@ nav:
       - EvoPoC 层次知识图谱智能体: concepts/agent-memory/memory-representation/evopoc-hierarchical-kg-agent-2605.02868.md
       - Fine-Tuning Regimes 持续学习分类: concepts/agent-memory/continual-learning/fine-tuning-regimes-define-2604.21927.md
       - Memory Inception KV潜在空间引导: concepts/agent-memory/memory-representation/memory-inception-kv-cache-steering-2605.06225.md
+      - Mem-W 潜在记忆原生GUI Agent: concepts/agent-memory/memory-representation/mem-w-2605.09317.md
+      - Bridging Cognitive Gap 6G Agentic AI-RAN: concepts/agent-memory/memory-representation/bridging-2605.10036.md
       - FADE 自适应遗忘持续学习: concepts/agent-memory/memory-compression/fade-adaptive-weight-decay-2604.27063.md
       - Hidden Failure Modes Adam CL: concepts/agent-memory/memory-compression/hidden-failure-modes-adam-continual-2604.22407.md
       - Structured Distillation 个性化记忆压缩: concepts/agent-memory/memory-compression/structured-distillation-personalized-memory-2603.13017.md
       - ScrapMem 端侧光学遗忘: concepts/agent-memory/memory-compression/scrapmem-2605.03804.md
       - ContextWeaver 依赖结构化记忆: concepts/agent-memory/memory-compression/contextweaver-dependency-memory-2604.23069.md
       - MELT 循环推理内存解耦: concepts/agent-memory/memory-compression/memory-efficient-looped-transformer-2605.07721.md
+      - Human-Inspired 遗忘机制六认知机制: concepts/agent-memory/memory-compression/human-inspired-2605.08538.md
       - When CL Moves to Memory 经验复用: concepts/agent-memory/continual-learning/when-cl-moves-to-memory-2604.27003.md
       - ImageHD 端侧持续学习: concepts/agent-memory/continual-learning/imagehd-energy-efficient-on-2604.21280.md
       - Lifecycle-Aware 联邦持续学习: concepts/agent-memory/continual-learning/lifecycle-aware-federated-continual-2604.20745.md
@@ -382,6 +385,8 @@ nav:
       - HAGE 加权图遍历检索: concepts/agent-memory/memory-retrieval/hage-weighted-graph-memory-2605.09942.md
       - Trap of Trajectory 虚假相关: concepts/agent-memory/memory-retrieval/trap-of-trajectory-spurious-correlations-2605.09330.md
       - RMAAT 星形胶质记忆压缩: concepts/agent-memory/memory-compression/rmaat-astrocyte-memory-compression-2601.00426.md
+      - MemReread 记忆引导重读: concepts/agent-memory/memory-retrieval/memreread-2605.10268.md
+      - EquiMem 多Agent辩论内存校准: concepts/agent-memory/memory-retrieval/equimem-2605.09278.md
       - PYTHALAB-MERA 验证记忆控制器: concepts/agent-memory/memory-retrieval/pythalab-mera-validation-memory-frozen-llm-2605.08468.md
       - MemArchitect 策略驱动记忆治理: concepts/agent-memory/memory-compression/memarchitect-policy-memory-governance-2603.18330.md
       - PASK 意图感知主动Agent: concepts/agent-memory/memory-retrieval/pask-intent-aware-proactive-agents-2604.08000.md
