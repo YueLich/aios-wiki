@@ -100,7 +100,17 @@
     "Bridging the Cognitive Gap: A Unified Memory Paradigm for 6G Agentic AI-RAN",
     "Mem-W: Latent Memory-Native GUI Agents",
     "EquiMem: Calibrating Shared Memory in Multi-Agent Debate via Game-Theoretic Equilibrium",
-    "Human-Inspired Memory Architecture for LLM Agents"
+    "Human-Inspired Memory Architecture for LLM Agents",
+    "MASS-RAG: Multi-Agent Synthesis Retrieval-Augmented Generation",
+    "AffectAgent: Collaborative Multi-Agent Reasoning for Retrieval-Augmented Multimodal Emotion Recognition",
+    "RAG-Reflect: Agentic Retrieval-Augmented Generation with Reflections for Comment-Driven Code Maintenance",
+    "Skill Retrieval Augmentation for Agentic AI",
+    "MM-StanceDet: Retrieval-Augmented Multi-modal Multi-agent Stance Detection",
+    "PolarMem: A Training-Free Polarized Latent Graph Memory for Verifiable Multimodal Agents",
+    "Mem-Gallery: Benchmarking Multimodal Long-Term Conversational Memory for MLLM Agents",
+    "GEMS: Agent-Native Multimodal Generation with Memory and Skills",
+    "Omni-SimpleMem: Autoresearch-Guided Discovery of Lifelong Multimodal Agent Memory",
+    "Advancing Multimodal Agent Reasoning with Long-Term Neuro-Symbolic Memory"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -1765,6 +1775,16 @@
       ],
       "date": "2026-05-08",
       "category": "cs.AI"
-    }
+    },
+    "2604.18509": "MASS-RAG: Multi-Agent Synthesis Retrieval-Augmented Generation",
+    "2604.12735": "AffectAgent: Collaborative Multi-Agent Reasoning for Retrieval-Augmented Multimodal Emotion Recognition",
+    "2604.22217": "RAG-Reflect: Agentic Retrieval-Augmented Generation with Reflections for Comment-Driven Code Maintenance",
+    "2604.24594": "Skill Retrieval Augmentation for Agentic AI",
+    "2604.27934": "MM-StanceDet: Retrieval-Augmented Multi-modal Multi-agent Stance Detection",
+    "2602.00415": "PolarMem: A Training-Free Polarized Latent Graph Memory for Verifiable Multimodal Agents",
+    "2601.03515": "Mem-Gallery: Benchmarking Multimodal Long-Term Conversational Memory for MLLM Agents",
+    "2603.28088": "GEMS: Agent-Native Multimodal Generation with Memory and Skills",
+    "2604.01007": "Omni-SimpleMem: Autoresearch-Guided Discovery of Lifelong Multimodal Agent Memory",
+    "2603.15280": "Advancing Multimodal Agent Reasoning with Long-Term Neuro-Symbolic Memory"
   }
 }
