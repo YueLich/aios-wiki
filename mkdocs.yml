@@ -301,6 +301,8 @@ nav:
       - NEXUS 具身规划符号约束持续学习: concepts/agent-memory/continual-learning/nexus-symbolic-constraints-embodied-2605.09387.md
       - CMKL 多模态生物医学知识图谱持续学习: concepts/agent-memory/continual-learning/cmkl-modality-aware-kg-continual-2605.10510.md
       - Selective Forgetting LRMs 推理模型: concepts/agent-memory/memory-compression/selective-forgetting-large-reasoning-models-2604.03571.md
+      - Predicting Plasticity 塑性预测持续学习: concepts/agent-memory/continual-learning/predicting-plasticity-continual-learning-2605.09044.md
+      - RevitalizingBeginning 模型融合持续学习: concepts/agent-memory/continual-learning/revitalizing-beginning-model-merging-2605.08311.md
       - PriceOfMeaning 语义记忆必然遗忘: concepts/agent-memory/memory-compression/price-meaning-semantic-forgetting-2603.27116.md
       - SmartSearch 排序超越结构: concepts/agent-memory/memory-retrieval/smartsearch-ranking-2603.15599.md
       - Learning When to Remember 风险感知: concepts/agent-memory/memory-retrieval/learning-when-to-remember-2604.27283.md
@@ -381,6 +383,8 @@ nav:
       - RMAAT 星形胶质记忆压缩: concepts/agent-memory/memory-compression/rmaat-astrocyte-memory-compression-2601.00426.md
       - PYTHALAB-MERA 验证记忆控制器: concepts/agent-memory/memory-retrieval/pythalab-mera-validation-memory-frozen-llm-2605.08468.md
       - MemArchitect 策略驱动记忆治理: concepts/agent-memory/memory-compression/memarchitect-policy-memory-governance-2603.18330.md
+      - PASK 意图感知主动Agent: concepts/agent-memory/memory-retrieval/pask-intent-aware-proactive-agents-2604.08000.md
+      - HingeMem 边界引导长期记忆: concepts/agent-memory/memory-retrieval/hengemem-boundary-guided-long-term-memory-2604.06845.md
       - Novel Memory Forgetting 自主Agent: concepts/agent-memory/memory-compression/novel-memory-forgetting-autonomous-agents-2604.02280.md
       - Benign Memory Forgetting MLLM: concepts/agent-memory/memory-compression/benign-memory-forgetting-mllm-unlearning-2511.20196.md
       - Clustering Memory Compression 端侧: concepts/agent-memory/memory-compression/clustering-driven-memory-compression-ondevice-2601.17443.md
@@ -430,6 +434,7 @@ nav:
       - eTAMP 环境注入记忆投毒攻击: concepts/agent-memory/memory-privacy/poison-once-exploit-forever-2604.02623.md
       - EHR记忆投毒攻防: concepts/agent-memory/memory-privacy/memory-poisoning-attack-defense-2601.05504.md
       - SuperLocalMemory V3.3 生物启发遗忘: concepts/agent-memory/memory-compression/superlocalmemory-v3-2604.04514.md
+      - MemPrivacy 隐私保护边缘云记忆: concepts/agent-memory/memory-privacy/memprivacy-privacy-preserving-edge-cloud-2605.09530.md
 
     - 工具调用与执行:
       - 端侧 vs 云端 Agentic 工具调用: concepts/on-device-vs-cloud-agentic-tool-calling.md

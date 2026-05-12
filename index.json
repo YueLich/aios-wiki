@@ -87,7 +87,12 @@
     "NEXUS: Continual Learning of Symbolic Constraints for Safe and Robust Embodied Planning",
     "Muon-OGD: Muon-based Spectral Orthogonal Gradient Projection for LLM Continual Learning",
     "RoboMemArena: A Comprehensive and Challenging Robotic Memory Benchmark",
-    "Shepherd: A Runtime Substrate Empowering Meta-Agents with a Formalized Execution Trace"
+    "Shepherd: A Runtime Substrate Empowering Meta-Agents with a Formalized Execution Trace",
+    "MemPrivacy: Privacy-Preserving Personalized Memory Management for Edge-Cloud Agents",
+    "PASK: Toward Intent-Aware Proactive Agents with Long-Term Memory",
+    "HingeMem: Boundary Guided Long-Term Memory with Query Adaptive Retrieval for Scalable Dialogues",
+    "Revitalizing the Beginning: Avoiding Storage Dependency for Model Merging in Continual Learning",
+    "Predicting Plasticity in Deep Continual Learning: A Theoretical Perspective"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -1612,6 +1617,50 @@
         "Dilara Soylu",
         "Jiuding Sun"
       ]
+    },
+    "2605.09530": {
+      "title": "MemPrivacy: Privacy-Preserving Personalized Memory Management for Edge-Cloud Agents",
+      "authors": [
+        "Yining Chen",
+        "Jihao Zhao",
+        "Bo Tang"
+      ],
+      "category": "cs.CR"
+    },
+    "2604.08000": {
+      "title": "PASK: Toward Intent-Aware Proactive Agents with Long-Term Memory",
+      "authors": [
+        "Zhifei Xie",
+        "Zongzheng Hu",
+        "Fangda Ye"
+      ],
+      "category": "cs.AI"
+    },
+    "2604.06845": {
+      "title": "HingeMem: Boundary Guided Long-Term Memory with Query Adaptive Retrieval for Scalable Dialogues",
+      "authors": [
+        "Yijie Zhong",
+        "Yunfan Gao",
+        "Haofen Wang"
+      ],
+      "category": "cs.CL"
+    },
+    "2605.08311": {
+      "title": "Revitalizing the Beginning: Avoiding Storage Dependency for Model Merging in Continual Learning",
+      "authors": [
+        "Xi Wang",
+        "Cheng Deng"
+      ],
+      "category": "cs.LG"
+    },
+    "2605.09044": {
+      "title": "Predicting Plasticity in Deep Continual Learning: A Theoretical Perspective",
+      "authors": [
+        "Jiuqi Wang",
+        "Jayanth Srinivasa",
+        "Claire Chen"
+      ],
+      "category": "cs.LG"
     }
   }
 }
