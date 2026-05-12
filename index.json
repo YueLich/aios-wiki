@@ -113,7 +113,8 @@
     "Advancing Multimodal Agent Reasoning with Long-Term Neuro-Symbolic Memory",
     "Bridging Modalities, Spanning Time: Structured Memory for Ultra-Long Agentic Video Reasoning",
     "MAGE: Multi-Agent Self-Evolution with Co-Evolutionary Knowledge Graphs",
-    "Oracle Poisoning: Corrupting Knowledge Graphs to Weaponise AI Agent Reasoning"
+    "Oracle Poisoning: Corrupting Knowledge Graphs to Weaponise AI Agent Reasoning",
+    "Three Birds, One Stone: Solving the Communication-Memory-Privacy Trilemma in LLM Fine-tuning Over Wireless Networks with Zeroth-Air Optimization"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -1809,6 +1810,19 @@
     "2605.09822": {
       "title": "Oracle Poisoning: Corrupting Knowledge Graphs to Weaponise AI Agent Reasoning",
       "date": "2026-05-10"
+    },
+    "2604.12401": {
+      "title": "Three Birds, One Stone: Solving the Communication-Memory-Privacy Trilemma in LLM Fine-tuning Over Wireless Networks with Zeroth-Air Optimization",
+      "authors": [
+        "Zhijie Cai",
+        "Yuhao Zheng",
+        "Haolong Chen",
+        "Dongzhu Liu",
+        "Bin Wang",
+        "Guangxu Zhu"
+      ],
+      "category": "cs.DC",
+      "date": "2026-04-14"
     }
   }
 }

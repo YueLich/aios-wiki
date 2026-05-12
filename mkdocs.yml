@@ -456,6 +456,7 @@ nav:
       - EHR记忆投毒攻防: concepts/agent-memory/memory-privacy/memory-poisoning-attack-defense-2601.05504.md
       - SuperLocalMemory V3.3 生物启发遗忘: concepts/agent-memory/memory-compression/superlocalmemory-v3-2604.04514.md
       - MemPrivacy 隐私保护边缘云记忆: concepts/agent-memory/memory-privacy/memprivacy-privacy-preserving-edge-cloud-2605.09530.md
+      - pAirZero 通信内存隐私三难: concepts/agent-memory/memory-privacy/pairezero-communication-memory-privacy-2604.12401.md
 
     - 工具调用与执行:
       - 端侧 vs 云端 Agentic 工具调用: concepts/on-device-vs-cloud-agentic-tool-calling.md
