@@ -110,7 +110,8 @@
     "Mem-Gallery: Benchmarking Multimodal Long-Term Conversational Memory for MLLM Agents",
     "GEMS: Agent-Native Multimodal Generation with Memory and Skills",
     "Omni-SimpleMem: Autoresearch-Guided Discovery of Lifelong Multimodal Agent Memory",
-    "Advancing Multimodal Agent Reasoning with Long-Term Neuro-Symbolic Memory"
+    "Advancing Multimodal Agent Reasoning with Long-Term Neuro-Symbolic Memory",
+    "Bridging Modalities, Spanning Time: Structured Memory for Ultra-Long Agentic Video Reasoning"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -1785,6 +1786,19 @@
     "2601.03515": "Mem-Gallery: Benchmarking Multimodal Long-Term Conversational Memory for MLLM Agents",
     "2603.28088": "GEMS: Agent-Native Multimodal Generation with Memory and Skills",
     "2604.01007": "Omni-SimpleMem: Autoresearch-Guided Discovery of Lifelong Multimodal Agent Memory",
-    "2603.15280": "Advancing Multimodal Agent Reasoning with Long-Term Neuro-Symbolic Memory"
+    "2603.15280": "Advancing Multimodal Agent Reasoning with Long-Term Neuro-Symbolic Memory",
+    "2605.08271": {
+      "title": "Bridging Modalities, Spanning Time: Structured Memory for Ultra-Long Agentic Video Reasoning",
+      "authors": [
+        "Jiazheng Li",
+        "Chi-Hao Wu",
+        "Yunze Liu",
+        "Kaize Ding",
+        "Jundong Li",
+        "Chuxu Zhang"
+      ],
+      "date": "2026-05-08",
+      "category": "cs.CV"
+    }
   }
 }

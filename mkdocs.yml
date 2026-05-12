@@ -425,6 +425,7 @@ nav:
       - LifeMem 连续生活记录记忆评估: concepts/agent-memory/multimodal-memory/lifemem-lifelog-memory-2604.11182.md
       - MemCompiler 状态条件记忆编译: concepts/agent-memory/multimodal-memory/memcompiler-state-conditioned-memory-2605.07594.md
       - SAVEMem 语义感知视觉记忆: concepts/agent-memory/multimodal-memory/savemem-semantic-aware-visual-memory-2605.07897.md
+      - MAGIC-Video 超长视频结构记忆: concepts/agent-memory/multimodal-memory/magic-video-structured-memory-2605.08271.md
       - Neuro-Symbolic Memory 神经符号记忆: concepts/agent-memory/multimodal-memory/neuro-symbolic-memory-2603.15280.md
       - Omni-SimpleMem 自动搜索终身多模态记忆: concepts/agent-memory/multimodal-memory/omni-simplemem-2604.01007.md
       - GEMS Agent原生多模态生成: concepts/agent-memory/multimodal-memory/gems-agent-native-multimodal-2603.28088.md
