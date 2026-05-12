@@ -246,6 +246,7 @@ nav:
       - GraphPlanner 图记忆路由: concepts/agent-memory/memory-representation/graphplanner-graph-memory-routing-2604.23626.md
       - AdaTKG 自适应记忆时序知识图谱: concepts/agent-memory/memory-representation/adatkg-adaptive-memory-tkg-2605.07121.md
       - KG-Agentic Formal Verification 知识图谱智能体验证: concepts/agent-memory/memory-representation/kg-agentic-formal-verification-2605.06434.md
+      - MAGE 多智能体协同演化知识图谱: concepts/agent-memory/memory-representation/mage-multi-agent-kg-evolution-2605.10064.md
       - EvoPoC 层次知识图谱智能体: concepts/agent-memory/memory-representation/evopoc-hierarchical-kg-agent-2605.02868.md
       - Fine-Tuning Regimes 持续学习分类: concepts/agent-memory/continual-learning/fine-tuning-regimes-define-2604.21927.md
       - Memory Inception KV潜在空间引导: concepts/agent-memory/memory-representation/memory-inception-kv-cache-steering-2605.06225.md
@@ -435,6 +436,7 @@ nav:
       - Visual Inception 记忆投毒攻击: concepts/agent-memory/memory-privacy/visual-inception-memory-poisoning-2604.16966.md
       - Trust-Lies LongMem 社会记忆声誉: concepts/agent-memory/memory-privacy/trust-lies-long-memories-2604.20582.md
       - ShadowMerge 图记忆投毒攻击: concepts/agent-memory/memory-security/shadowmerge-poisoning-attack-graph-memory-2605.09033.md
+      - Oracle Poisoning 知识图谱投毒攻击: concepts/agent-memory/memory-security/oracle-poisoning-kg-agent-reasoning-2605.09822.md
       - MemorySec Survey 记忆安全综述: concepts/agent-memory/memory-privacy/memory-security-survey-mnemonic-sovereignty-2604.16548.md
       - ADAM 数据提取攻击 隐私: concepts/agent-memory/memory-privacy/adam-data-extraction-attack-2604.09747.md
       - Trojan Hippo 数据外泄攻击: concepts/agent-memory/memory-privacy/trojan-hippo-weaponizing-agent-memory-2605.01970.md

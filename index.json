@@ -111,7 +111,9 @@
     "GEMS: Agent-Native Multimodal Generation with Memory and Skills",
     "Omni-SimpleMem: Autoresearch-Guided Discovery of Lifelong Multimodal Agent Memory",
     "Advancing Multimodal Agent Reasoning with Long-Term Neuro-Symbolic Memory",
-    "Bridging Modalities, Spanning Time: Structured Memory for Ultra-Long Agentic Video Reasoning"
+    "Bridging Modalities, Spanning Time: Structured Memory for Ultra-Long Agentic Video Reasoning",
+    "MAGE: Multi-Agent Self-Evolution with Co-Evolutionary Knowledge Graphs",
+    "Oracle Poisoning: Corrupting Knowledge Graphs to Weaponise AI Agent Reasoning"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -1799,6 +1801,14 @@
       ],
       "date": "2026-05-08",
       "category": "cs.CV"
+    },
+    "2605.10064": {
+      "title": "MAGE: Multi-Agent Self-Evolution with Co-Evolutionary Knowledge Graphs",
+      "date": "2026-05-11"
+    },
+    "2605.09822": {
+      "title": "Oracle Poisoning: Corrupting Knowledge Graphs to Weaponise AI Agent Reasoning",
+      "date": "2026-05-10"
     }
   }
 }
