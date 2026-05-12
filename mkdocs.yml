@@ -322,6 +322,7 @@ nav:
       - True Memory 检索中心架构: concepts/agent-memory/memory-retrieval/true-memory-retrieval-centered-2605.04897.md
       - STALE 记忆有效性判断: concepts/agent-memory/memory-retrieval/stale-memory-validity-2605.06527.md
       - HiGMem 层次化LLM引导记忆: concepts/agent-memory/memory-retrieval/higmem-hierarchical-llm-guided-memory-2604.18349.md
+      - MemQ Q学习Provenance DAG: concepts/agent-memory/memory-retrieval/memq-q-learning-provenance-dag-2605.08374.md
       - MemMachine 保真记忆系统: concepts/agent-memory/memory-retrieval/memmachine-ground-truth-preserving-2604.04853.md
       - Thought-Retriever 检索思想而非数据: concepts/agent-memory/memory-retrieval/thought-retriever-2604.12231.md
       - MEMRES 记忆增强依赖解析: concepts/agent-memory/memory-retrieval/memres-memory-augmented-dependency-2604.16941.md
@@ -430,6 +431,7 @@ nav:
       - Synthius-Mem 脑启发抗幻觉人格记忆: concepts/agent-memory/memory-privacy/synthius-mem-hallucination-resistant-2604.11563.md
       - MEMSAD 梯度异常检测防御: concepts/agent-memory/memory-privacy/memsad-gradient-anomaly-detection-2605.03482.md
       - RPEval 个性化记忆影响评估: concepts/agent-memory/memory-privacy/personalized-memory-llm-behavior-2601.16621.md
+      - Defense Effectiveness 持久记忆攻击防御评估: concepts/agent-memory/memory-privacy/defense-effectiveness-memory-attacks-2605.08442.md
       - PrivacyBenchmark 选择性遗忘隐私漏洞: concepts/agent-memory/memory-privacy/privacy-vulnerabilities-selective-forgetting-2512.18035.md
       - MAGE Shadow Memory 防御: concepts/agent-memory/memory-privacy/mage-shadow-memory-guardrail-2605.03228.md
       - SafeHarbor 分层记忆防护: concepts/agent-memory/memory-privacy/safeharbor-memory-guardrail-2605.05704.md
