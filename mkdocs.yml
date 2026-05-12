@@ -273,6 +273,8 @@ nav:
       - AOI 三层记忆运维Agent: concepts/agent-memory/memory-compression/aoi-multi-agent-hierarchical-memory-2512.13956.md
       - Memini 多时间尺度记忆动力学: concepts/agent-memory/memory-compression/memini-multitimescale-memory-dynamics-2605.05097.md
       - LongSeeker 弹性上下文编排: concepts/agent-memory/memory-compression/longseeker-elastic-context-orchestration-2605.05191.md
+      - DeMem 决策中心率失真记忆: concepts/agent-memory/memory-compression/demem-decision-centric-memory-2605.10870.md
+      - Mela 测试时记忆整合: concepts/agent-memory/memory-compression/mela-test-time-memory-consolidation-2605.10537.md
       - Working Memory Interference LLM 工作记忆干扰: concepts/agent-memory/memory-compression/working-memory-interference-llm-2604.09670.md
       - Domain-Incremental CL基准 ICU时序: concepts/agent-memory/continual-learning/domain-incremental-cl-benchmark-icu-2605.03832.md
       - DynamicDistill 长尾增量学习: concepts/agent-memory/continual-learning/dynamic-distillation-long-tailed-il-2605.03364.md
@@ -292,6 +294,11 @@ nav:
       - HDSD 双子空间解耦持续学习: concepts/agent-memory/continual-learning/hdsd-dual-subspace-decoupling-2605.07512.md
       - DIMoE-Adapters 动态专家持续学习: concepts/agent-memory/continual-learning/dimoe-adapters-dynamic-expert-continual-2605.07494.md
       - SR²-LoRA 层间关系自修正持续学习: concepts/agent-memory/continual-learning/sr2-lora-self-rectifying-inter-layer-2605.07420.md
+      - Muon-OGD 谱范数正交梯度持续学习: concepts/agent-memory/continual-learning/muon-ogd-spectral-orthogonal-llm-2605.08949.md
+      - RaPO 强化微调视觉持续学习: concepts/agent-memory/continual-learning/rapo-visual-continual-reinforcement-2605.09640.md
+      - FreeMOCA 无记忆恶意代码分析: concepts/agent-memory/continual-learning/freemoca-memory-free-code-analysis-2605.09664.md
+      - NEXUS 具身规划符号约束持续学习: concepts/agent-memory/continual-learning/nexus-symbolic-constraints-embodied-2605.09387.md
+      - CMKL 多模态生物医学知识图谱持续学习: concepts/agent-memory/continual-learning/cmkl-modality-aware-kg-continual-2605.10510.md
       - Selective Forgetting LRMs 推理模型: concepts/agent-memory/memory-compression/selective-forgetting-large-reasoning-models-2604.03571.md
       - PriceOfMeaning 语义记忆必然遗忘: concepts/agent-memory/memory-compression/price-meaning-semantic-forgetting-2603.27116.md
       - SmartSearch 排序超越结构: concepts/agent-memory/memory-retrieval/smartsearch-ranking-2603.15599.md
