@@ -92,7 +92,8 @@
     "PASK: Toward Intent-Aware Proactive Agents with Long-Term Memory",
     "HingeMem: Boundary Guided Long-Term Memory with Query Adaptive Retrieval for Scalable Dialogues",
     "Revitalizing the Beginning: Avoiding Storage Dependency for Model Merging in Continual Learning",
-    "Predicting Plasticity in Deep Continual Learning: A Theoretical Perspective"
+    "Predicting Plasticity in Deep Continual Learning: A Theoretical Perspective",
+    "Cross-Sample Relational Fusion: Unifying Domain Generalization and Class-Incremental Learning"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -1661,6 +1662,20 @@
         "Claire Chen"
       ],
       "category": "cs.LG"
+    },
+    "2605.08839": {
+      "title": "Cross-Sample Relational Fusion: Unifying Domain Generalization and Class-Incremental Learning",
+      "authors": [
+        "Zhen-Hao Xie",
+        "Yan Wang",
+        "Hao Sun",
+        "Han-Jia Ye",
+        "De-Chuan Zhan",
+        "Da-Wei Zhou"
+      ],
+      "date": "2026-05-09",
+      "category": "cs.CV",
+      "source": "arxiv"
     }
   }
 }
