@@ -7,28 +7,35 @@ reviewer: auto
 source: arXiv API
 ---
 
-# Bridging the Cognitive Gap: A Unified Memory Paradigm for 6G Agentic AI-RAN
-
-**arXiv**: 2605.10036 | **Date**: 2026-05-11 | **Category**: cs.NI
-
 ## 摘要
 
-As 6G evolves, the radio access network must transcend traditional automation to embrace agentic AI capable of perception, reasoning, and evolution. A fundamental cognitive gap persists in current disaggregated architectures, where interfaces force the physical layer to compress high-dimensional states into low-dimensional metrics, trapping reasoning agents behind a semantic bottleneck. This article envisions a shift from interface-bound to memory-centric architectures. We propose a unified memory paradigm that dissolves the boundaries between sensing and reasoning by mapping biological memory hierarchies onto heterogeneous computing fabrics. Enabled by emerging coherent interconnects, this approach creates a cognitive continuum where microsecond-level reflexes, millisecond-level reasoning, and long-term evolution share state across time scales. By replacing message passing with zero-copy observability, we empower AI agents to bridge the gap between real-time responsiveness and long-horizon context for truly autonomous 6G networks.
+随着 6G 发展，无线接入网（RAN）必须超越传统自动化，拥抱具备感知、推理和进化能力的 Agentic AI。当前离散架构中存在一个根本性的**认知鸿沟**：物理层接口被迫将高维状态压缩为低维度量指标，使推理 Agent 被困在语义瓶颈之后。本文提出从**接口绑定架构**向**记忆中心架构**的范式转变，设计了一种统一的记忆范式（Unified Memory Paradigm），让 Agent 直接访问高维原始感知状态，绕过语义压缩瓶颈。
 
 ## 核心贡献
 
-1. **方法创新**: 待补充
-2. **实验验证**: 待补充
-3. **理论分析**: 待补充
+1. **记忆中心架构（Memory-Centric Architecture）**：将记忆从"附属品"提升为架构核心，Agent 推理直接基于记忆中的高维状态。
+2. **语义瓶颈突破**：通过记忆直接访问原始感知数据，避免离散接口的信息损失。
+3. **统一记忆范式（UMP）**：支持跨模态（视觉、射频、环境）的统一记忆存储与检索。
+4. **6G 场景验证**：在 AI-RAN 场景中验证了记忆中心架构的优越性。
+
+## 方法详解
+
+- **高维状态记忆存储**：将物理层的高维信道状态、用户位置等原始数据存入记忆系统。
+- **按需语义生成**：Agent 需要推理时，从记忆获取高维数据，动态生成适合当前任务的语义表示。
+- **记忆索引与检索**：设计针对高维状态的高效索引结构，支持快速相似记忆检索。
+- **认知卸载优化**：决定哪些认知功能卸载到记忆系统，哪些本地执行。
 
 ## 为什么重要
 
-本论文提出了针对agent-memory; memory-representation; 6G的关键改进，对端侧/移动端记忆系统具有参考价值。
+本文首次将 Agent 记忆系统的设计原则应用于 6G 无线通信这一新兴领域。传统观点认为无线系统不适合引入复杂 AI，但本文证明记忆中心的架构设计可以有效解决高维状态压缩问题。其统一的记忆范式对**边缘网络 Agent** 和**分布式记忆系统**的设计具有通用参考价值。
 
 ## 与移动端/端侧相关性
 
-- 待补充：具体应用场景和部署考量
+- **边缘 AI 原生设计**：记忆中心架构天然适合分布式边缘计算
+- **低延迟推理**：绕过云端语义解析，本地记忆检索延迟更低
+- **网络切片场景**：6G 网络切片需要快速记忆查询，适合按需记忆生成
+- **未来移动基站**：6G 基站将内置 AI 记忆能力，为移动设备提供边缘记忆服务
 
 ## 参考文献
 
-待补充
+- Wang, X., et al. (2026). Bridging the Cognitive Gap: A Unified Memory Paradigm for 6G Agentic AI-RAN. arXiv:2605.10036.

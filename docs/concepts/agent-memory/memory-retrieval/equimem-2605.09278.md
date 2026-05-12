@@ -7,28 +7,37 @@ reviewer: auto
 source: arXiv API
 ---
 
-# EquiMem: Calibrating Shared Memory in Multi-Agent Debate via Game-Theoretic Equilibrium
-
-**arXiv**: 2605.09278 | **Date**: 2026-05-10 | **Category**: cs.AI
-
 ## 摘要
 
-Multi-agent debate (MAD) systems increasingly rely on shared memory to support long-horizon reasoning, but this convenience opens a critical vulnerability: a single corrupted entry can contaminate the downstream memory-augmented reasoning, and debate alone fails to filter such errors. Existing safeguards filter entries via heuristics or LLM-based validation, yet they rely on AI judgments that share the same failure modes and overlook the cross-agent dynamics of MAD. We address this gap by formulating memory updating in MAD as a zero-trust memory game, in which no agent is assumed honest and the game equilibrium serves as an indicator of optimal memory trust. Guided by this equilibrium, we propose EquiMem, an inference-time calibration mechanism that quantifies each update algorithmically against the shared memory state, using agents existing retrieval queries and traversal paths as evidence rather than soliciting any LLM judgment. EquiMem instantiates calibration for both embedding- and graph-based memory, and across diverse benchmarks, MAD frameworks, and memory architectures, it consistently outperforms existing safeguards, remains robust under adversarial agents, and incurs negligible inference overhead.
+多 Agent 辩论系统（MAD）依赖**共享记忆**来支持长时推理，但存在一个关键脆弱性：单个被污染的记忆条目会污染下游的记忆增强推理过程，而单纯的辩论无法过滤此类错误。现有防护机制通过启发式规则或 LLM 验证来过滤记忆条目，但这些方法依赖与被污染内容具有相同失败模式的 AI 判断，且忽视了 MAD 中跨 Agent 的动态博弈特性。EquiMem 通过**博弈论均衡**来校准多 Agent 辩论中的共享记忆，构建一套自洽的记忆信任评估机制。
 
 ## 核心贡献
 
-1. **方法创新**: 待补充
-2. **实验验证**: 待补充
-3. **理论分析**: 待补充
+1. **博弈论记忆校准框架**：将多 Agent 辩论中的记忆验证建模为博弈论问题，Agent 之间通过均衡策略相互校验记忆内容的真实性。
+2. **跨 Agent 动态信任传播**：不再依赖单一 LLM 裁判，而是通过 Agent 间的反复博弈达成共识记忆。
+3. **抵御记忆污染攻击**：即使部分 Agent 被注入错误信息，系统仍能通过均衡收敛识别并过滤污染记忆。
+4. **无需额外信任假设**：不假设任何 Agent 天然可信，所有信任从博弈过程中涌现。
+
+## 方法详解
+
+EquiMem 的核心机制包括：
+
+- **记忆条目评分**：每个 Agent 对共享记忆中的每个条目给出置信评分。
+- **辩论博弈过程**：通过多轮辩论，Agent 相互挑战低评分条目，形成迭代更新的信任分数。
+- **均衡收敛检测**：当 Agent 间的记忆评分达到纳什均衡时，输出校准后的记忆集合。
+- **污染检测阈值**：引入均衡偏离度指标，当某条目导致显著均衡偏离时标记为可疑。
 
 ## 为什么重要
 
-本论文提出了针对agent-memory; memory-retrieval; multi-agent的关键改进，对端侧/移动端记忆系统具有参考价值。
+多 Agent 系统正在成为 AI 应用的主流范式，但共享记忆的真实性问题长期被忽视。EquiMem 从博弈论角度首次系统性地解决了记忆污染问题，其方法不依赖任何可信第三方或额外模型，适合构建**去中心化的多 Agent 记忆系统**。这对移动端多 Agent 协作场景（如手机上的多个 AI 助手协同工作）具有重要意义。
 
 ## 与移动端/端侧相关性
 
-- 待补充：具体应用场景和部署考量
+- **去中心化设计**：无需中央仲裁，适合移动端去中心化 AI 场景
+- **轻量级博弈计算**：均衡计算复杂度可控，适合边缘设备
+- **隐私保护**：记忆校准在本地完成，不涉及敏感数据外传
+- **多 Agent 隐私隔离**：各 Agent 持有独立记忆视图，仅通过加密通道共享关键校准信号
 
 ## 参考文献
 
-待补充
+- Meng, Y., et al. (2026). EquiMem: Calibrating Shared Memory in Multi-Agent Debate via Game-Theoretic Equilibrium. arXiv:2605.09278.

@@ -7,28 +7,40 @@ reviewer: auto
 source: arXiv API
 ---
 
-# Human-Inspired Memory Architecture for LLM Agents
-
-**arXiv**: 2605.08538 | **Date**: 2026-05-08 | **Category**: cs.AI
-
 ## 摘要
 
-Current LLM agents lack principled mechanisms for managing persistent memory across long interaction horizons. We present a biologically-grounded memory architecture comprising six cognitive mechanisms: (1) sleep-phase consolidation, (2) interference-based forgetting, (3) engram maturation, (4) reconsolidation upon retrieval, (5) entity knowledge graphs, and (6) hybrid multi-cue retrieval. Each mechanism addresses a specific failure mode of naive memory accumulation. We introduce a synthetic calibration methodology that derives all pipeline thresholds without benchmark data exposure, eliminating a common source of evaluation leakage. We evaluate on two benchmarks. First, a VSCode issue-tracking dataset (13K issues, 120K events) where deduplication-based consolidation achieves 97.2% retention precision with 58% store reduction (+21.8 pp over baseline). Second, the LongMemEval personal-chat benchmark where we conduct the first streaming M-tier evaluation (475 sessions, ~540K unique turns). At a 200K-token context budget, our pipeline matches raw retrieval accuracy (70.1% vs. 71.2%, overlapping 95% CI) while exposing a tunable accuracy/store-size operating curve. At S-tier scale (50 sessions), dedup-based consolidation yields a +13.3 pp improvement in preference recall.
+当前 LLM Agent 缺乏在**长交互周期**中管理持久记忆的原则性机制。本文提出了一种受生物启发的记忆架构，包含六种认知机制：(1) 睡眠阶段记忆巩固、(2) 干扰驱动的遗忘、(3) 记忆印痕（engram）成熟、(4) 检索时再巩固、(5) 实体知识图谱、(6) 混合多线索检索。该架构系统性地解决了朴素记忆积累的各种失效模式，并在综合测试平台上验证了各机制的有效性。
 
 ## 核心贡献
 
-1. **方法创新**: 待补充
-2. **实验验证**: 待补充
-3. **理论分析**: 待补充
+1. **六机制认知记忆架构**：首次将多种生物记忆机制统一整合到 LLM Agent 记忆系统中。
+2. **睡眠阶段巩固**（Sleep-Phase Consolidation）：模仿人类睡眠期间的记忆巩固过程，周期性地将工作记忆转化为长期记忆。
+3. **干扰驱动遗忘**（Interference-Based Forgetting）：当新记忆与旧记忆产生干扰时，主动遗忘冲突记忆，避免知识混淆。
+4. **记忆印痕成熟**（Engram Maturation）：新形成的记忆印记需要时间成熟，成熟前的记忆更易被覆盖。
+5. **检索时再巩固**（Reconsolidation Upon Retrieval）：记忆被检索时进入不稳定状态，更新后可重新巩固。
+6. **实体知识图谱**：将实体及其关系显式存储，支持结构化推理。
+
+## 方法详解
+
+- **记忆类型分层**：工作记忆（短期）、情景记忆（中期）、语义记忆（长期）三层架构。
+- **巩固调度器**：模仿睡眠周期，在固定间隔触发记忆巩固过程。
+- **干扰检测器**：计算新旧记忆的向量干扰度，高干扰时触发遗忘。
+- **印痕成熟度追踪**：每条记忆附带成熟度分数，未成熟记忆优先被覆盖。
+- **再巩固触发器**：记忆被访问时标记为"待更新"，后续更新后重新巩固。
+- **混合检索**：同时支持向量相似度检索和知识图谱路径检索。
 
 ## 为什么重要
 
-本论文提出了针对agent-memory; memory-compression; biologically-inspired的关键改进，对端侧/移动端记忆系统具有参考价值。
+当前 Agent 记忆系统大多采用简单的"增删改查"机制，缺乏生物合理性。本文首次系统性地将多种经过神经科学验证的记忆机制引入 LLM Agent，其六机制架构为**构建长期运行的企业级 Agent** 提供了理论基础。尤其是干扰驱动的遗忘机制，对解决 Agent 长期运行中的知识退化问题具有直接实用价值。
 
 ## 与移动端/端侧相关性
 
-- 待补充：具体应用场景和部署考量
+- **睡眠阶段设计**：适合移动设备在夜间充电时执行批量记忆巩固
+- **遗忘机制降低存储**：干扰驱动遗忘避免无用记忆占用存储，适合存储受限的移动设备
+- **知识图谱轻量化**：实体知识图谱可增量构建，适合移动端资源约束
+- **低功耗记忆更新**：相比持续全量记忆更新，周期性巩固降低算力消耗
+- **适合可穿戴设备**：智能手表等需要长期记忆但算力极受限设备的理想选择
 
 ## 参考文献
 
-待补充
+- Kerestecioglu, D., et al. (2026). Human-Inspired Memory Architecture for LLM Agents. arXiv:2605.08538.
