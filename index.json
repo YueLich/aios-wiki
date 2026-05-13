@@ -1,5 +1,6 @@
 {
   "recently_processed_titles": [
+    "Memory Transfer Learning: How Memories are Transferred Across Domains in Coding Agents",
     "HAGE: Harnessing Agentic Memory via RL-Driven Weighted Graph Evolution",
     "The Trap of Trajectory: Towards Understanding and Mitigating Spurious Correlations in Agentic Memory",
     "ShadowMerge: A Novel Poisoning Attack on Graph-Based Agent Memory via Relation-Channel Conflicts",
@@ -1892,6 +1893,24 @@
     },
     "2605.11710": "Unlocking Compositional Generalization in Continual Few-Shot Learning",
     "2605.12484": "Learning, Fast and Slow: Towards LLMs That Adapt Continually",
-    "2605.10094": "Retrieve-then-Steer: Online Success Memory for Test-Time Adaptation of Generative VLAs"
+    "2605.10094": "Retrieve-then-Steer: Online Success Memory for Test-Time Adaptation of Generative VLAs",
+    "2604.14004": {
+      "title": "Memory Transfer Learning: How Memories are Transferred Across Domains in Coding Agents",
+      "authors": [
+        "Kangsan Kim",
+        "Minki Kang",
+        "Taeil Kim",
+        "Yanlai Yang",
+        "Mengye Ren",
+        "Sung Ju Hwang"
+      ],
+      "date": "2026-04-15",
+      "tags": [
+        "agent-memory",
+        "memory-representation",
+        "coding-agents",
+        "cross-domain"
+      ]
+    }
   }
 }
