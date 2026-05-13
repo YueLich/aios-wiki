@@ -65,5 +65,5 @@ source: arXiv RSS/API
 
 ## 参考
 
-- GitHub: （待补充）
+- GitHub: N/A（论文未提供）
 - arXiv: https://arxiv.org/abs/2605.11814
