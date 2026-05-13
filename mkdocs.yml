@@ -254,6 +254,8 @@ nav:
       - Mem-W 潜在记忆原生GUI Agent: concepts/agent-memory/memory-representation/mem-w-2605.09317.md
       - Bridging Cognitive Gap 6G Agentic AI-RAN: concepts/agent-memory/memory-representation/bridging-2605.10036.md
       - FADE 自适应遗忘持续学习: concepts/agent-memory/memory-compression/fade-adaptive-weight-decay-2604.27063.md
+      - Executable Agentic Memory GUI记忆: concepts/agent-memory/memory-representation/executable-agentic-memory-gui-2605.12294.md
+      - SAGE 自进化图记忆引擎: concepts/agent-memory/memory-representation/sage-self-evolving-graph-memory-2605.12061.md
       - Hidden Failure Modes Adam CL: concepts/agent-memory/memory-compression/hidden-failure-modes-adam-continual-2604.22407.md
       - Structured Distillation 个性化记忆压缩: concepts/agent-memory/memory-compression/structured-distillation-personalized-memory-2603.13017.md
       - ScrapMem 端侧光学遗忘: concepts/agent-memory/memory-compression/scrapmem-2605.03804.md
@@ -399,6 +401,9 @@ nav:
       - PYTHALAB-MERA 验证记忆控制器: concepts/agent-memory/memory-retrieval/pythalab-mera-validation-memory-frozen-llm-2605.08468.md
       - MedMemoryBench 医疗Agent记忆基准: concepts/agent-memory/memory-retrieval/medmemorybench-benchmark-2605.11814.md
       - MemArchitect 策略驱动记忆治理: concepts/agent-memory/memory-compression/memarchitect-policy-memory-governance-2603.18330.md
+      - LongMemEval-V2 长期Agent记忆基准: concepts/agent-memory/memory-retrieval/longmemeval-v2-2605.12493.md
+      - PRISM 意图感知结构记忆Pareto: concepts/agent-memory/memory-retrieval/prism-pareto-efficient-intent-aware-memory-2605.12260.md
+      - Goal-Mem 目标推理RAG记忆: concepts/agent-memory/memory-retrieval/goal-mem-rag-memory-2605.12213.md
       - PASK 意图感知主动Agent: concepts/agent-memory/memory-retrieval/pask-intent-aware-proactive-agents-2604.08000.md
       - HingeMem 边界引导长期记忆: concepts/agent-memory/memory-retrieval/hengemem-boundary-guided-long-term-memory-2604.06845.md
       - Novel Memory Forgetting 自主Agent: concepts/agent-memory/memory-compression/novel-memory-forgetting-autonomous-agents-2604.02280.md

@@ -116,7 +116,12 @@
     "Bridging Modalities, Spanning Time: Structured Memory for Ultra-Long Agentic Video Reasoning",
     "MAGE: Multi-Agent Self-Evolution with Co-Evolutionary Knowledge Graphs",
     "Oracle Poisoning: Corrupting Knowledge Graphs to Weaponise AI Agent Reasoning",
-    "Three Birds, One Stone: Solving the Communication-Memory-Privacy Trilemma in LLM Fine-tuning Over Wireless Networks with Zeroth-Air Optimization"
+    "Three Birds, One Stone: Solving the Communication-Memory-Privacy Trilemma in LLM Fine-tuning Over Wireless Networks with Zeroth-Air Optimization",
+    "LongMemEval-V2: Evaluating Long-Term Agent Memory Toward Experienced Colleagues",
+    "Executable Agentic Memory for GUI Agent",
+    "PRISM: Pareto-Efficient Retrieval over Intent-Aware Structured Memory for Long-Horizon Agents",
+    "Goal-Mem: Goal-Oriented Reasoning for RAG-based Memory in Conversational Agentic LLM Systems",
+    "SAGE: A Self-Evolving Agentic Graph-Memory Engine for Structure-Aware Associative Memory"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -1851,6 +1856,46 @@
         "Santhosh Kumar Ravindran"
       ],
       "category": "cs.CR"
+    },
+    "2605.12493": {
+      "title": "LongMemEval-V2: Evaluating Long-Term Agent Memory Toward Experienced Colleagues",
+      "authors": [
+        "Di Wu",
+        "Zixiang Ji",
+        "Asmi Kawatkar"
+      ]
+    },
+    "2605.12294": {
+      "title": "Executable Agentic Memory for GUI Agent",
+      "authors": [
+        "Zerui Qin",
+        "Sheng Yue",
+        "Xingyuan Hua"
+      ]
+    },
+    "2605.12260": {
+      "title": "PRISM: Pareto-Efficient Retrieval over Intent-Aware Structured Memory for Long-Horizon Agents",
+      "authors": [
+        "Jingyi Peng",
+        "Zhongwei Wan",
+        "Weiting Liu"
+      ]
+    },
+    "2605.12213": {
+      "title": "Goal-Mem: Goal-Oriented Reasoning for RAG-based Memory in Conversational Agentic LLM Systems",
+      "authors": [
+        "Jiazhou Liang",
+        "Armin Toroghi",
+        "Yifan Simon Liu"
+      ]
+    },
+    "2605.12061": {
+      "title": "SAGE: A Self-Evolving Agentic Graph-Memory Engine for Structure-Aware Associative Memory",
+      "authors": [
+        "Juntong Wang",
+        "Haoyue Zhao",
+        "Guanghui Pan"
+      ]
     }
   }
 }
