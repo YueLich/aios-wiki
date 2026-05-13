@@ -49,7 +49,10 @@
     "KAN-CL: Per-Knot Importance Regularization for Continual Learning with Kolmogorov-Arnold Networks",
     "Beyond Point-wise Neural Collapse: A Topology-Aware Hierarchical Classifier for Class-Incremental Learning",
     "Stop Marginalizing My Dreams: Model Inversion via Laplace Kernel for Continual Learning",
-    "Online Continual Learning with Dynamic Label Hierarchies"
+    "Online Continual Learning with Dynamic Label Hierarchies",
+    "Unlocking Compositional Generalization in Continual Few-Shot Learning",
+    "Learning, Fast and Slow: Towards LLMs That Adapt Continually",
+    "Retrieve-then-Steer: Online Success Memory for Test-Time Adaptation of Generative VLAs"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -1886,6 +1889,9 @@
         "Songcan Chen"
       ],
       "date": "2026-05-12"
-    }
+    },
+    "2605.11710": "Unlocking Compositional Generalization in Continual Few-Shot Learning",
+    "2605.12484": "Learning, Fast and Slow: Towards LLMs That Adapt Continually",
+    "2605.10094": "Retrieve-then-Steer: Online Success Memory for Test-Time Adaptation of Generative VLAs"
   }
 }

@@ -193,8 +193,11 @@ nav:
       - 记忆总览: concepts/agent-memory/index.md
       - 记忆表示: concepts/agent-memory/memory-representation/index.md
       - 记忆检索: concepts/agent-memory/memory-retrieval/index.md
+      - ["Retrieve-then-Steer: Online Success Memory for Test-Time Adaptation of Generative VLAs"](memory-retrieval/retrieve-then-steer-success-memory-2605.10094.md) — arXiv:2605.10094
       - 记忆压缩与遗忘: concepts/agent-memory/memory-compression/index.md
       - 持续学习: concepts/agent-memory/continual-learning/index.md
+      - ["Unlocking Compositional Generalization in Continual Few-Shot Learning"](continual-learning/unlock-compositional-generalization-2605.11710.md) — arXiv:2605.11710
+      - ["Learning Fast and Slow: Towards LLMs That Adapt Continually"](continual-learning/fast-slow-llm-continual-adaptation-2605.12484.md) — arXiv:2605.12484
       - 多模态记忆: concepts/agent-memory/multimodal-memory/index.md
       - 记忆隐私: concepts/agent-memory/memory-privacy/index.md
       - 记忆安全: concepts/agent-memory/memory-security/index.md
