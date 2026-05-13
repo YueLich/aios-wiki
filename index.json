@@ -1,5 +1,7 @@
 {
   "recently_processed_titles": [
+    "Portable Agent Memory: A Protocol for Cryptographically-Verified Memory Transfer Across Heterogeneous AI Agents",
+    "MedMemoryBench: Benchmarking Agent Memory in Personalized Healthcare",
     "MemQ: Integrating Q-Learning into Self-Evolving Memory Agents over Provenance DAGs",
     "Defense effectiveness across architectural layers: a mechanistic evaluation of persistent memory attacks on stateful LLM agents",
     "Tree-based Credit Assignment for Multi-Agent Memory System",
@@ -1823,6 +1825,32 @@
       ],
       "category": "cs.DC",
       "date": "2026-04-14"
+    },
+    "2605.11814": {
+      "title": "MedMemoryBench: Benchmarking Agent Memory in Personalized Healthcare",
+      "authors": [
+        "Yihao Wang",
+        "Haoran Xu",
+        "Renjie Gu",
+        "Yixuan Ye",
+        "Xinyi Chen",
+        "Xinyu Mu",
+        "Yuan Gao",
+        "Chunxiao Guo",
+        "Peng Wei",
+        "Jinjie Gu",
+        "Huan Li",
+        "Ke Chen",
+        "Lidan Shou"
+      ],
+      "category": "cs.AI"
+    },
+    "2605.11032": {
+      "title": "Portable Agent Memory: A Protocol for Cryptographically-Verified Memory Transfer Across Heterogeneous AI Agents",
+      "authors": [
+        "Santhosh Kumar Ravindran"
+      ],
+      "category": "cs.CR"
     }
   }
 }

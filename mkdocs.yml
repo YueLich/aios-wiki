@@ -235,6 +235,7 @@ nav:
       - APEX-MEM 时序推理半结构记忆: concepts/agent-memory/memory-representation/apex-mem-semi-structured-temporal-2604.14362.md
       - Mem²Evolve 协同演化经验资产记忆: concepts/agent-memory/memory-representation/mem2evolve-self-evolving-2604.10923.md
       - Temporal Taskification 持续学习: concepts/agent-memory/continual-learning/temporal-taskification-in-streaming-2604.21930.md
+      - Portable Agent Memory 加密验证跨Agent记忆Transfer: concepts/agent-memory/memory-representation/portable-agent-memory-2605.11032.md
       - MemTree 层次化树状记忆: concepts/agent-memory/memory-representation/memtree-hierarchical-tree-memory-2410.14052.md
       - TiMem 时间层次记忆树: concepts/agent-memory/memory-representation/timem-temporal-hierarchical-memory-2601.02845.md
       - WISE 知识记忆终身编辑: concepts/agent-memory/memory-representation/wise-knowledge-memory-lifelong-2405.14768.md
@@ -396,6 +397,7 @@ nav:
       - MemReread 记忆引导重读: concepts/agent-memory/memory-retrieval/memreread-2605.10268.md
       - EquiMem 多Agent辩论内存校准: concepts/agent-memory/memory-retrieval/equimem-2605.09278.md
       - PYTHALAB-MERA 验证记忆控制器: concepts/agent-memory/memory-retrieval/pythalab-mera-validation-memory-frozen-llm-2605.08468.md
+      - MedMemoryBench 医疗Agent记忆基准: concepts/agent-memory/memory-retrieval/medmemorybench-benchmark-2605.11814.md
       - MemArchitect 策略驱动记忆治理: concepts/agent-memory/memory-compression/memarchitect-policy-memory-governance-2603.18330.md
       - PASK 意图感知主动Agent: concepts/agent-memory/memory-retrieval/pask-intent-aware-proactive-agents-2604.08000.md
       - HingeMem 边界引导长期记忆: concepts/agent-memory/memory-retrieval/hengemem-boundary-guided-long-term-memory-2604.06845.md
