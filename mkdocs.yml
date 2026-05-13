@@ -273,6 +273,8 @@ nav:
       - FTN 皮层启发零遗忘: concepts/agent-memory/continual-learning/ftn-cortex-continual-learning-2604.24637.md
       # 记忆压缩与治理
       - MPCS 神经塑性持续学习: concepts/agent-memory/continual-learning/mpcs-neuroplastic-continual-learning-2605.02509.md
+      - LIFE HPC持续学习记忆: concepts/agent-memory/continual-learning/life-continual-learning-agentic-2604.12874.md
+      - FEMA 失败经验情景记忆: concepts/agent-memory/continual-learning/fema-failure-episodic-memory-rl-2603.07110.md
       - PRISM 联邦多模态持续学习: concepts/agent-memory/continual-learning/prism-federated-multimodal-continual-2605.01061.md
       - Forager 轻量部分可观测CL: concepts/agent-memory/continual-learning/forager-lightweight-continual-learning-2605.01131.md
       - Sharpness-Aware预训练防遗忘: concepts/agent-memory/continual-learning/sharpness-aware-pretraining-catastrophic-2605.02105.md
@@ -417,6 +419,7 @@ nav:
       - Human-Inspired 多模态记忆社会机器人: concepts/agent-memory/multimodal-memory/human-inspired-multimodal-memory-social-robots-2604.12081.md
       - CMMR-VLN 多模态记忆导航: concepts/agent-memory/multimodal-memory/cmmr-vln-multimodal-memory-2603.07997.md
       - MEM 多尺度具身记忆: concepts/agent-memory/multimodal-memory/mem-multi-scale-embodied-memory-2603.03596.md
+      - VPWEM 工作情景记忆机器人: concepts/agent-memory/multimodal-memory/vpwem-visuomotor-working-episodic-2603.04910.md
       - MM-Mem 视频记忆金字塔蒸馏: concepts/agent-memory/multimodal-memory/mm-mem-pyramidal-multimodal-memory-2603.01455.md
       - IMPACT-CYCLE 长视频监督记忆: concepts/agent-memory/multimodal-memory/impact-cycle-long-video-memory-2604.20136.md
       - MemoryDiorama 3D AR记忆增强: concepts/agent-memory/multimodal-memory/memorydiorama-dynamic-3d-diorama-memory-recall-2604.06773.md

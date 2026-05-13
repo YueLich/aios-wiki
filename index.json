@@ -121,7 +121,10 @@
     "Executable Agentic Memory for GUI Agent",
     "PRISM: Pareto-Efficient Retrieval over Intent-Aware Structured Memory for Long-Horizon Agents",
     "Goal-Mem: Goal-Oriented Reasoning for RAG-based Memory in Conversational Agentic LLM Systems",
-    "SAGE: A Self-Evolving Agentic Graph-Memory Engine for Structure-Aware Associative Memory"
+    "SAGE: A Self-Evolving Agentic Graph-Memory Engine for Structure-Aware Associative Memory",
+    "LIFE -- an energy efficient advanced continual learning agentic AI framework for frontier systems",
+    "Learning From Failures: Efficient Reinforcement Learning Control with Episodic Memory",
+    "VPWEM: Non-Markovian Visuomotor Policy with Working and Episodic Memory"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -1895,6 +1898,27 @@
         "Juntong Wang",
         "Haoyue Zhao",
         "Guanghui Pan"
+      ]
+    },
+    "2604.12874": {
+      "title": "LIFE -- an energy efficient advanced continual learning agentic AI framework for frontier systems",
+      "authors": [
+        "Anne Lee",
+        "Gurudutt Hosangadi"
+      ]
+    },
+    "2603.07110": {
+      "title": "Learning From Failures: Efficient Reinforcement Learning Control with Episodic Memory",
+      "authors": [
+        "Chenyang Miao"
+      ]
+    },
+    "2603.04910": {
+      "title": "VPWEM: Non-Markovian Visuomotor Policy with Working and Episodic Memory",
+      "authors": [
+        "Yuheng Lei",
+        "Zhixuan Liang",
+        "Hongyuan Zhang"
       ]
     }
   }
