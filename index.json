@@ -1,84 +1,5 @@
 {
   "recently_processed_titles": [
-    "Portable Agent Memory: A Protocol for Cryptographically-Verified Memory Transfer Across Heterogeneous AI Agents",
-    "MedMemoryBench: Benchmarking Agent Memory in Personalized Healthcare",
-    "MemQ: Integrating Q-Learning into Self-Evolving Memory Agents over Provenance DAGs",
-    "Defense effectiveness across architectural layers: a mechanistic evaluation of persistent memory attacks on stateful LLM agents",
-    "Tree-based Credit Assignment for Multi-Agent Memory System",
-    "HeLa-Mem: Hebbian Learning and Associative Memory for LLM Agents",
-    "APEX-MEM: Agentic Semi-Structured Memory with Temporal Reasoning for Long-Term Conversational AI",
-    "Synthius-Mem: Brain-Inspired Hallucination-Resistant Persona Memory Achieving 94.4% Memory Accuracy and 99.6% Adversarial Robustness on LoCoMo",
-    "EviMem: Evidence-Gap-Driven Iterative Retrieval for Long-Term Conversational Memory",
-    "EngramaBench: Evaluating Long-Term Conversational Memory with Structured Graph Retrieval",
-    "Back to Basics: Let Conversational Agents Remember with Just Retrieval and Generation",
-    "BEHEMOTH: Self-Evolving LLM Memory Extraction Across Heterogeneous Tasks",
-    "Mem²Evolve: Towards Self-Evolving Agents via Co-Evolutionary Capability Expansion and Experience Distillation",
-    "Skill Neologisms: Towards Skill-based Continual Learning",
-    "HERCULES: Hardware-Efficient, Robust, Continual Learning Neural Architecture Search",
-    "Venus: An Efficient Edge Memory-and-Retrieval System for VLM-based Online Video Understanding",
-    "MemLoRA: Distilling Expert Adapters for On-Device Memory Systems",
-    "Continual Knowledge Updating in LLM Systems: Learning Through Multi-Timescale Memory Dynamics",
-    "LongSeeker: Elastic Context Orchestration for Long-Horizon Search Agents",
-    "Replay-Based Continual Learning for Physics-Informed Neural Operators",
-    "TiMem: Temporal-Hierarchical Memory Consolidation for Long-Horizon Conversational Agents",
-    "Auxiliary-predicted Compress Memory Model (ApCM Model): A Neural Memory Storage Model Based on Invertible Compression and Learnable Prediction",
-    "GRAVITY: Architecture-Agnostic Structured Anchoring for Long-Horizon Conversational Memory",
-    "Towards Autonomous Memory Agents",
-    "MemReranker: Reasoning-Aware Reranking for Agent Memory Retrieval",
-    "Belief Memory: Agent Memory Under Partial Observability",
-    "Storage Is Not Memory: A Retrieval-Centered Architecture for Agent Recall",
-    "STALE: Can LLM Agents Know When Their Memories Are No Longer Valid?",
-    "Benchmarking local Hebbian learning rules for memory storage and prototype extraction",
-    "MemoryDiorama: Generating Dynamic 3D Diorama from Everyday Photos for Memory Recall",
-    "Temporal Memory for Resource-Constrained Agents: Continual Learning via Stochastic Compress-Add-Smooth",
-    "XSkill: Continual Learning from Experience and Skills in Multimodal Agents",
-    "RenderMem: Rendering as Spatial Memory Retrieval",
-    "SleepGate: Sleep-Inspired Memory Consolidation for Resolving Proactive Interference in Large Language Models",
-    "AOI: Context-Aware Multi-Agent Operations via Dynamic Scheduling and Hierarchical Memory Compression",
-    "I3DM: Implicit 3D-aware Memory Retrieval and Injection for Consistent Video Scene Generation",
-    "Sinkhorn Based Associative Memory Retrieval Using Spherical Hellinger Kantorovich Dynamics",
-    "HaM-World: Soft-Hamiltonian World Models with Selective Memory for Planning",
-    "Response-Aware User Memory Selection for LLM Personalization",
-    "MemoryCD: Benchmarking Long-Context User Memory of LLM Agents for Lifelong Cross-Domain Personalization",
-    "Structured Distillation for Personalized Agent Memory: 11x Token Reduction with Retrieval Preservation",
-    "LatentRAG: Latent Reasoning and Retrieval for Efficient Agentic RAG",
-    "Semantic Entanglement in Vector-Based Retrieval: A Formal Framework and Context-Conditioned Disentanglement Pipeline for Agentic RAG Systems",
-    "AutoSearch: Adaptive Search Depth for Efficient Agentic RAG via Reinforcement Learning",
-    "Toward Agentic RAG for Ukrainian",
-    "Test-Time Strategies for More Efficient and Accurate Agentic RAG",
-    "Explainable Innovation Engine: Dual-Tree Agent-RAG with Methods-as-Nodes and Verifiable Write-Back",
-    "HeRo: Adaptive Orchestration of Agentic RAG on Heterogeneous Mobile SoC",
-    "Governed Collaborative Memory as Artificial Selection in LLM-Based Multi-Agent Systems",
-    "Human-like Working Memory Interference in Large Language Models",
-    "Thought-Retriever: Don't Just Retrieve Raw Data, Retrieve Thoughts for Memory-Augmented Agentic Systems",
-    "OVAL: Open-Vocabulary Augmented Memory Model for Lifelong Object Goal Navigation",
-    "Event-Centric World Modeling with Memory-Augmented Retrieval for Embodied Decision-Making",
-    "Architecture Matters More Than Scale: A Comparative Study of Retrieval and Memory Augmentation for Financial QA Under SME Compute Constraints",
-    "When Stored Evidence Stops Being Usable: Scale-Conditioned Evaluation of Agent Memory",
-    "MEMOREPAIR: Barrier-First Cascade Repair in Agentic Memory",
-    "From Storage to Experience: A Survey on the Evolution of LLM Agent Memory Mechanisms",
-    "Hierarchical Dual-Subspace Decoupling for Continual Learning in Vision-Language Models",
-    "DIMoE-Adapters: Dynamic Expert Evolution for Continual Learning in Vision-Language Models",
-    "SR$^2$-LoRA: Self-Rectifying Inter-layer Relations in Low-Rank Adaptation for Class-Incremental Learning",
-    "The Memory Curse: How Expanded Recall Erodes Cooperative Intent in LLM Agents",
-    "WiCER: Wiki-memory Compile, Evaluate, Refine Iterative Knowledge Compilation for LLM Wiki Systems",
-    "MemCompiler: Compile, Don't Inject — State-Conditioned Memory for Embodied Agents",
-    "Scene-Adaptive Continual Learning for CSI-based Human Activity Recognition with Mixture of Experts",
-    "Memory-Efficient Looped Transformer: Decoupling Compute from Memory in Looped Language Models",
-    "RRCM: Ranking-Driven Retrieval over Collaborative and Meta Memories for LLM Recommendation",
-    "Memory Inception: Latent-Space KV Cache Manipulation for Steering LLMs",
-    "Event-Causal RAG: A Retrieval-Augmented Generation Framework for Long Video Reasoning in Complex Scenarios",
-    "An Agent-Oriented Pluggable Experience-RAG Skill for Experience-Driven Retrieval Strategy Orchestration",
-    "Privacy Without Losing Place: A Paradigm for Private Retrieval in Spatial RAGs",
-    "SAVEMem: Semantic-Aware Adaptive Visual Memory for Streaming Video Understanding",
-    "Contextual Agentic Memory is a Memo, Not True Memory",
-    "HEDP: A Hybrid Energy-Distance Prompt-based Framework for Domain Incremental Learning",
-    "Contextual Agentic Memory is a Memo, Not True Memory",
-    "HEDP: A Hybrid Energy-Distance Prompt-based Framework for Domain Incremental Learning",
-    "AdaTKG: Adaptive Memory for Temporal Knowledge Graph Reasoning",
-    "Knowledge Graphs, the Missing Link in Agentic AI-based Formal Verification",
-    "Knowledge-Graph Paths as Intermediate Supervision for Self-Evolving Search Agents",
-    "EvoPoC: Automated Exploit Synthesis for DeFi Smart Contracts via Hierarchical Knowledge Graphs",
     "HAGE: Harnessing Agentic Memory via RL-Driven Weighted Graph Evolution",
     "The Trap of Trajectory: Towards Understanding and Mitigating Spurious Correlations in Agentic Memory",
     "ShadowMerge: A Novel Poisoning Attack on Graph-Based Agent Memory via Relation-Channel Conflicts",
@@ -124,7 +45,11 @@
     "SAGE: A Self-Evolving Agentic Graph-Memory Engine for Structure-Aware Associative Memory",
     "LIFE -- an energy efficient advanced continual learning agentic AI framework for frontier systems",
     "Learning From Failures: Efficient Reinforcement Learning Control with Episodic Memory",
-    "VPWEM: Non-Markovian Visuomotor Policy with Working and Episodic Memory"
+    "VPWEM: Non-Markovian Visuomotor Policy with Working and Episodic Memory",
+    "KAN-CL: Per-Knot Importance Regularization for Continual Learning with Kolmogorov-Arnold Networks",
+    "Beyond Point-wise Neural Collapse: A Topology-Aware Hierarchical Classifier for Class-Incremental Learning",
+    "Stop Marginalizing My Dreams: Model Inversion via Laplace Kernel for Continual Learning",
+    "Online Continual Learning with Dynamic Label Hierarchies"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -1920,6 +1845,47 @@
         "Zhixuan Liang",
         "Hongyuan Zhang"
       ]
+    },
+    "2605.12306": {
+      "title": "KAN-CL: Per-Knot Importance Regularization for Continual Learning with Kolmogorov-Arnold Networks",
+      "authors": [
+        "Minjong Cheon"
+      ],
+      "date": "2026-05-12"
+    },
+    "2605.11904": {
+      "title": "Beyond Point-wise Neural Collapse: A Topology-Aware Hierarchical Classifier for Class-Incremental Learning",
+      "authors": [
+        "Huiyu Yi",
+        "Zhiming Xu",
+        "Dunwei Tu",
+        "Zhicheng Wang",
+        "Baile Xu",
+        "Furao Shen"
+      ],
+      "date": "2026-05-12"
+    },
+    "2605.11804": {
+      "title": "Stop Marginalizing My Dreams: Model Inversion via Laplace Kernel for Continual Learning",
+      "authors": [
+        "Patryk Krukowski",
+        "Jacek Tabor",
+        "Przemysław Spurek",
+        "Marek Śmieja",
+        "Łukasz Struski"
+      ],
+      "date": "2026-05-12"
+    },
+    "2605.11742": {
+      "title": "Online Continual Learning with Dynamic Label Hierarchies",
+      "authors": [
+        "Xinrui Wang",
+        "Shao-Yuan Li",
+        "Bartłomiej Twardowski",
+        "Alexandra Gomez-Villa",
+        "Songcan Chen"
+      ],
+      "date": "2026-05-12"
     }
   }
 }

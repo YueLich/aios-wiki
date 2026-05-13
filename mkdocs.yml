@@ -298,6 +298,10 @@ nav:
       - Replay-Based CL物理信息神经算子: concepts/agent-memory/continual-learning/replay-based-continual-learning-physic-2605.04832.md
       - XSkill 经验技能双流学习: concepts/agent-memory/continual-learning/xskill-continual-learning-experience-skills-multimodal-2603.12056.md
       - HERCULES NAS持续学习边缘AI: concepts/agent-memory/continual-learning/hercules-nas-continual-learning-2605.04103.md
+      - KAN-CL 每节点重要性正则化: concepts/agent-memory/continual-learning/kan-cl-per-knot-importance-2605.12306.md
+      - HC-SOINN 拓扑感知层级分类器: concepts/agent-memory/continual-learning/beyond-pointwise-neural-collapse-hc-soinn-2605.11904.md
+      - REMIX 拉普拉斯核持续学习: concepts/agent-memory/continual-learning/remix-laplace-kernel-dfcil-2605.11804.md
+      - DHOCL 动态层级在线持续学习: concepts/agent-memory/continual-learning/dhocl-dynamic-hierarchies-2605.11742.md
       - ModalitiesRemember 多模态知识图谱持续学习: concepts/agent-memory/continual-learning/modalities-remember-2604.02778.md
       - CRAFT 遗忘感知干预持续学习: concepts/agent-memory/continual-learning/craft-forgeting-aware-intervention-2605.05732.md
       - HEDP 混合能量距离域增量学习: concepts/agent-memory/continual-learning/hedp-hybrid-energy-distance-2605.05776.md
