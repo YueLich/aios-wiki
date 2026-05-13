@@ -53,7 +53,9 @@
     "Online Continual Learning with Dynamic Label Hierarchies",
     "Unlocking Compositional Generalization in Continual Few-Shot Learning",
     "Learning, Fast and Slow: Towards LLMs That Adapt Continually",
-    "Retrieve-then-Steer: Online Success Memory for Test-Time Adaptation of Generative VLAs"
+    "Retrieve-then-Steer: Online Success Memory for Test-Time Adaptation of Generative VLAs",
+    "SCM: Sleep-Consolidated Memory with Algorithmic Forgetting for Large Language Models",
+    "MIST: Reliable Streaming Decision Trees for Online Class-Incremental Learning via McDiarmid Bound"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -1911,6 +1913,25 @@
         "coding-agents",
         "cross-domain"
       ]
+    },
+    "2604.20943": {
+      "title": "SCM: Sleep-Consolidated Memory with Algorithmic Forgetting for Large Language Models",
+      "authors": [
+        "Saish Sachin Shinde"
+      ],
+      "date": "2026-04-22"
+    },
+    "2605.11617": {
+      "title": "MIST: Reliable Streaming Decision Trees for Online Class-Incremental Learning via McDiarmid Bound",
+      "authors": [
+        "Phu-Hoa Pham",
+        "Chi-Nguyen Tran",
+        "Nguyen Lam Phu Quy",
+        "Dao Sy Duy Minh",
+        "Huynh Trung Kiet",
+        "Long Tran-Thanh"
+      ],
+      "date": "2026-05-12"
     }
   }
 }
