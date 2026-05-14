@@ -201,12 +201,20 @@ nav:
       - 持续学习: concepts/agent-memory/continual-learning/index.md
       - ["Unlocking Compositional Generalization in Continual Few-Shot Learning"](continual-learning/unlock-compositional-generalization-2605.11710.md) — arXiv:2605.11710
       - ["SCM: Sleep-Consolidated Memory"](concepts/agent-memory/memory-compression/scm-sleep-consolidated-memory-2604.20943.md) — arXiv:2604.20943
+      - ["FadeMem: Biologically-Inspired Forgetting"](concepts/agent-memory/memory-compression/fademem-biologically-inspired-2601.18642.md) — arXiv:2601.18642
       - ["Learning Fast and Slow: Towards LLMs That Adapt Continually"](continual-learning/fast-slow-llm-continual-adaptation-2605.12484.md) — arXiv:2605.12484
       - ["MIST: Streaming Decision Trees for Online Class-Incremental Learning"](concepts/agent-memory/continual-learning/mist-streaming-decision-trees-2605.11617.md) — arXiv:2605.11617
       - ["Self-Evolving Agents Forget: CPE Capability Preservation"](concepts/agent-memory/continual-learning/self-evolving-agents-forget-cpe-2605.09315.md) — arXiv:2605.09315
+      - ["Modular Memory: Key to Continual Learning Agents"](concepts/agent-memory/continual-learning/modular-memory-continual-learning-2603.01761.md) — arXiv:2603.01761
+      - ["Prototypical Exemplar Condensation for CL"](concepts/agent-memory/continual-learning/prototypical-exemplar-condensation-2603.13804.md) — arXiv:2603.13804
+      - ["Abstraction as Memory-Efficient Inductive Bias for CL"](concepts/agent-memory/continual-learning/abstraction-memory-efficient-2603.17198.md) — arXiv:2603.17198
+      - ["Mistake Gating: Energy-Efficient Continual Learning"](concepts/agent-memory/continual-learning/mistake-gating-continual-learning-2604.14336.md) — arXiv:2604.14336
+      - ["Recovery Guarantees for Continual Learning of Dependent Tasks"](concepts/agent-memory/continual-learning/recovery-guarantees-dependent-tasks-2604.17578.md) — arXiv:2604.17578
       - ["SLICE: Gradient Surgery LoRA Initialization"](concepts/agent-memory/continual-learning/slice-lora-continual-learning-2605.12752.md) — arXiv:2605.12752
       - 多模态记忆: concepts/agent-memory/multimodal-memory/index.md
       - ["Lifelong Learning in VLMs: Enhanced EWC Cross-Modal"](concepts/agent-memory/continual-learning/lifelong-learning-vlm-cross-modal-2605.12789.md) — arXiv:2605.12789
+      - ["Secure Forgetting: Privacy-Driven Unlearning in LLM Agents"](concepts/agent-memory/memory-privacy/secure-forgetting-unlearning-2604.00430.md) — arXiv:2604.00430
+      - ["Forgetful but Faithful: Cognitive Memory for Privacy-Aware Agents"](concepts/agent-memory/memory-privacy/forgetful-but-faithful-2512.12856.md) — arXiv:2512.12856
       - 记忆隐私: concepts/agent-memory/memory-privacy/index.md
       - 记忆安全: concepts/agent-memory/memory-security/index.md
     - 工具调用与执行:
