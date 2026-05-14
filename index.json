@@ -1,5 +1,6 @@
 {
   "recently_processed_titles": [
+    "EconAI: Dynamic Persona Evolution and Memory-Aware Agents in Evolving Economic Environments",
     "IdeaForge: A Knowledge Graph-Grounded Multi-Agent Framework for Cross-Methodology Innovation Analysis and Patent Claim Generation",
     "Do Self-Evolving Agents Forget? Capability Degradation and Preservation in Lifelong LLM Agent Adaptation",
     "Memory Transfer Learning: How Memories are Transferred Across Domains in Coding Agents",
@@ -1951,6 +1952,18 @@
       "authors": [
         "Joy Bose"
       ]
+    },
+    "2605.13762": {
+      "title": "EconAI: Dynamic Persona Evolution and Memory-Aware Agents in Evolving Economic Environments",
+      "authors": [
+        "Annie Liu",
+        "Zane Cao",
+        "Lang Chen",
+        "Zongxin Xu",
+        "Zigan Wang"
+      ],
+      "date": "2026-05-13",
+      "category": "cs.MA"
     }
   }
 }

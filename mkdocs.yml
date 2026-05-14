@@ -194,6 +194,7 @@ nav:
       - 记忆表示: concepts/agent-memory/memory-representation/index.md
       - ["Memory Transfer Learning: Cross-Domain Memory in Coding Agents"](concepts/agent-memory/memory-representation/memory-transfer-learning-2604.14004.md) — arXiv:2604.14004
       - ["IdeaForge: KG-Grounded Multi-Agent for Innovation Analysis"](concepts/agent-memory/memory-representation/ideaforge-kg-innovation-2605.13311.md) — arXiv:2605.13311
+      - ["EconAI: Dynamic Persona and Memory-Aware Agents in Economic Environments"](concepts/agent-memory/memory-representation/econai-dynamic-persona-memory-2605.13762.md) — arXiv:2605.13762
       - 记忆检索: concepts/agent-memory/memory-retrieval/index.md
       - ["Retrieve-then-Steer: Online Success Memory for Test-Time Adaptation of Generative VLAs"](memory-retrieval/retrieve-then-steer-success-memory-2605.10094.md) — arXiv:2605.10094
       - 记忆压缩与遗忘: concepts/agent-memory/memory-compression/index.md
