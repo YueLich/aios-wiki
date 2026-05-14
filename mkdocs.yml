@@ -198,11 +198,14 @@ nav:
       - ["EconAI: Dynamic Persona and Memory-Aware Agents in Economic Environments"](concepts/agent-memory/memory-representation/econai-dynamic-persona-memory-2605.13762.md) — arXiv:2605.13762
       - 记忆检索: concepts/agent-memory/memory-retrieval/index.md
       - ["Retrieve-then-Steer: Online Success Memory for Test-Time Adaptation of Generative VLAs"](memory-retrieval/retrieve-then-steer-success-memory-2605.10094.md) — arXiv:2605.10094
+      - ["NanoResearch: Personalized Research with Co-Evolving Memory"](concepts/agent-memory/memory-retrieval/nanoresearch-personalized-research-2605.10813.md) — arXiv:2605.10813
       - 记忆压缩与遗忘: concepts/agent-memory/memory-compression/index.md
+      - ["GAPE: Gated Adaptive Positional Encoding"](concepts/agent-memory/memory-retrieval/gape-gated-positional-encoding-2605.10414.md) — arXiv:2605.10414
       - 持续学习: concepts/agent-memory/continual-learning/index.md
       - ["Unlocking Compositional Generalization in Continual Few-Shot Learning"](continual-learning/unlock-compositional-generalization-2605.11710.md) — arXiv:2605.11710
       - ["SCM: Sleep-Consolidated Memory"](concepts/agent-memory/memory-compression/scm-sleep-consolidated-memory-2604.20943.md) — arXiv:2604.20943
       - ["FadeMem: Biologically-Inspired Forgetting"](concepts/agent-memory/memory-compression/fademem-biologically-inspired-2601.18642.md) — arXiv:2601.18642
+      - ["RISE: Zeroth-Order Adaptation May Forget Less"](concepts/agent-memory/memory-compression/rise-zeroth-order-2605.10658.md) — arXiv:2605.10658
       - ["Learning Fast and Slow: Towards LLMs That Adapt Continually"](continual-learning/fast-slow-llm-continual-adaptation-2605.12484.md) — arXiv:2605.12484
       - ["MIST: Streaming Decision Trees for Online Class-Incremental Learning"](concepts/agent-memory/continual-learning/mist-streaming-decision-trees-2605.11617.md) — arXiv:2605.11617
       - ["Self-Evolving Agents Forget: CPE Capability Preservation"](concepts/agent-memory/continual-learning/self-evolving-agents-forget-cpe-2605.09315.md) — arXiv:2605.09315
@@ -212,6 +215,7 @@ nav:
       - ["Mistake Gating: Energy-Efficient Continual Learning"](concepts/agent-memory/continual-learning/mistake-gating-continual-learning-2604.14336.md) — arXiv:2604.14336
       - ["Recovery Guarantees for Continual Learning of Dependent Tasks"](concepts/agent-memory/continual-learning/recovery-guarantees-dependent-tasks-2604.17578.md) — arXiv:2604.17578
       - ["SLICE: Gradient Surgery LoRA Initialization"](concepts/agent-memory/continual-learning/slice-lora-continual-learning-2605.12752.md) — arXiv:2605.12752
+      - ["Geometry Conflict: Controlling Forgetting in LLM Continual Post-Training"](concepts/agent-memory/continual-learning/geometry-conflict-llm-continual-2605.09608.md) — arXiv:2605.09608
       - 多模态记忆: concepts/agent-memory/multimodal-memory/index.md
       - ["Lifelong Learning in VLMs: Enhanced EWC Cross-Modal"](concepts/agent-memory/continual-learning/lifelong-learning-vlm-cross-modal-2605.12789.md) — arXiv:2605.12789
       - ["Secure Forgetting: Privacy-Driven Unlearning in LLM Agents"](concepts/agent-memory/memory-privacy/secure-forgetting-unlearning-2604.00430.md) — arXiv:2604.00430
