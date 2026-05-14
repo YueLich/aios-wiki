@@ -58,7 +58,11 @@
     "Learning, Fast and Slow: Towards LLMs That Adapt Continually",
     "Retrieve-then-Steer: Online Success Memory for Test-Time Adaptation of Generative VLAs",
     "SCM: Sleep-Consolidated Memory with Algorithmic Forgetting for Large Language Models",
-    "MIST: Reliable Streaming Decision Trees for Online Class-Incremental Learning via McDiarmid Bound"
+    "MIST: Reliable Streaming Decision Trees for Online Class-Incremental Learning via McDiarmid Bound",
+    "Why Zeroth-Order Adaptation May Forget Less: A Randomized Shaping Theory",
+    "Remember to Forget: Gated Adaptive Positional Encoding",
+    "Geometry Conflict: Explaining and Controlling Forgetting in LLM Continual Post-Training",
+    "NanoResearch: Co-Evolving Skills, Memory, and Policy for Personalized Research Automation"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -1964,6 +1968,10 @@
       ],
       "date": "2026-05-13",
       "category": "cs.MA"
-    }
+    },
+    "2605.10658": "Why Zeroth-Order Adaptation May Forget Less: A Randomized Shaping Theory",
+    "2605.10414": "Remember to Forget: Gated Adaptive Positional Encoding",
+    "2605.09608": "Geometry Conflict: Explaining and Controlling Forgetting in LLM Continual Post-Training",
+    "2605.10813": "NanoResearch: Co-Evolving Skills, Memory, and Policy for Personalized Research Automation"
   }
 }
