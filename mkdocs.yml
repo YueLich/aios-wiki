@@ -204,7 +204,9 @@ nav:
       - ["Learning Fast and Slow: Towards LLMs That Adapt Continually"](continual-learning/fast-slow-llm-continual-adaptation-2605.12484.md) — arXiv:2605.12484
       - ["MIST: Streaming Decision Trees for Online Class-Incremental Learning"](concepts/agent-memory/continual-learning/mist-streaming-decision-trees-2605.11617.md) — arXiv:2605.11617
       - ["Self-Evolving Agents Forget: CPE Capability Preservation"](concepts/agent-memory/continual-learning/self-evolving-agents-forget-cpe-2605.09315.md) — arXiv:2605.09315
+      - ["SLICE: Gradient Surgery LoRA Initialization"](concepts/agent-memory/continual-learning/slice-lora-continual-learning-2605.12752.md) — arXiv:2605.12752
       - 多模态记忆: concepts/agent-memory/multimodal-memory/index.md
+      - ["Lifelong Learning in VLMs: Enhanced EWC Cross-Modal"](concepts/agent-memory/continual-learning/lifelong-learning-vlm-cross-modal-2605.12789.md) — arXiv:2605.12789
       - 记忆隐私: concepts/agent-memory/memory-privacy/index.md
       - 记忆安全: concepts/agent-memory/memory-security/index.md
     - 工具调用与执行:
