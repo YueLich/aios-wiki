@@ -206,6 +206,7 @@ nav:
       - ["Beyond Similarity Search: Tenure and the Case for Structured Belief State in LLM Memory"](concepts/agent-memory/memory-retrieval/tenure-structured-belief-state-2605.11325.md) — arXiv:2605.11325
       - 记忆压缩与遗忘: concepts/agent-memory/memory-compression/index.md
       - ["MemEye: Visual-Centric Multimodal Agent Memory Eval"](concepts/agent-memory/memory-retrieval/memeye-visual-centric-eval-2605.15128.md) — arXiv:2605.15128
+      - ["MemLens: Multimodal LVLM Memory Benchmark"](concepts/agent-memory/memory-retrieval/memlens-multimodal-lvlm-memory-2605.14906.md) — arXiv:2605.14906
       - ["GroupMemBench: Multi-Party Conversation Memory"](concepts/agent-memory/memory-retrieval/groupmembench-multi-party-2605.14498.md) — arXiv:2605.14498
       - ["MARS: Hierarchical Belief-State Memory for Recommender"](concepts/agent-memory/memory-retrieval/mars-hierarchical-belief-memory-2605.14401.md) — arXiv:2605.14401
       - ["EvolveMem: Self-Evolving Memory Architecture"](concepts/agent-memory/memory-retrieval/evolvemem-self-evolving-memory-2605.13941.md) — arXiv:2605.13941
@@ -226,6 +227,8 @@ nav:
       - ["Mistake Gating: Energy-Efficient Continual Learning"](concepts/agent-memory/continual-learning/mistake-gating-continual-learning-2604.14336.md) — arXiv:2604.14336
       - ["Recovery Guarantees for Continual Learning of Dependent Tasks"](concepts/agent-memory/continual-learning/recovery-guarantees-dependent-tasks-2604.17578.md) — arXiv:2604.17578
       - ["SLICE: Gradient Surgery LoRA Initialization"](concepts/agent-memory/continual-learning/slice-lora-continual-learning-2605.12752.md) — arXiv:2605.12752
+      - ["InfoSFT: Token Weighting for SFT Forgetting"](concepts/agent-memory/continual-learning/infosft-token-weighting-sft-2605.14967.md) — arXiv:2605.14967
+      - ["Imbalanced Forgetting in Rehearsal CIL"](concepts/agent-memory/continual-learning/imbalanced-forgetting-rehearsal-2605.14785.md) — arXiv:2605.14785
       - ["Geometry Conflict: Controlling Forgetting in LLM Continual Post-Training"](concepts/agent-memory/continual-learning/geometry-conflict-llm-continual-2605.09608.md) — arXiv:2605.09608
       - 多模态记忆: concepts/agent-memory/multimodal-memory/index.md
       - ["Lifelong Learning in VLMs: Enhanced EWC Cross-Modal"](concepts/agent-memory/continual-learning/lifelong-learning-vlm-cross-modal-2605.12789.md) — arXiv:2605.12789
@@ -236,6 +239,9 @@ nav:
       - ["MemLineage: Lineage-Guided Memory Enforcement"](concepts/agent-memory/memory-privacy/memlineage-lineage-guided-2605.14421.md) — arXiv:2605.14421
       - ["Forgetting That Sticks: Quantization-Permanent Unlearning"](concepts/agent-memory/memory-privacy/forgetting-quantization-permanent-2605.15138.md) — arXiv:2605.15138
       - ["ARPM: Heterogeneous Temporal Memory Governance for LLM Persona Consistency"](concepts/agent-memory/memory-privacy/arpm-temporal-memory-governance-2605.14802.md) — arXiv:2605.14802
+      - ["Veritas: Semantic Grounded Binary Vulnerability Detection"](concepts/agent-memory/memory-privacy/veritas-semantic-grounded-binary-vuln-2605.15097.md) — arXiv:2605.15097
+      - ["ICED: Concept-Level VLM Unlearning"](concepts/agent-memory/memory-privacy/iced-concept-level-vlm-unlearning-2605.14309.md) — arXiv:2605.14309
+      - ["Multilingual Machine Unlearning Evaluation"](concepts/agent-memory/memory-privacy/multilingual-machine-unlearning-2605.14404.md) — arXiv:2605.14404
       - 记忆安全: concepts/agent-memory/memory-security/index.md
       - ["Octopus: History-Free Gradient Orthogonalization for CL in MLLMs"](concepts/agent-memory/continual-learning/octopus-hifgo-continual-mllm-2605.14938.md) — arXiv:2605.14938
     - 工具调用与执行:

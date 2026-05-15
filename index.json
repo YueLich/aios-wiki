@@ -75,7 +75,13 @@
     "Thinking Ahead: Prospection-Guided Retrieval of Memory with Language Models",
     "Does Engram Do Memory Retrieval in Autoregressive Image Generation?",
     "The Geometry of Forgetting: Temporal Knowledge Drift as an Independent Axis in LLM Representations",
-    "TFGN: Task-Free, Replay-Free Continual Pre-Training Without Catastrophic Forgetting at LLM Scale"
+    "TFGN: Task-Free, Replay-Free Continual Pre-Training Without Catastrophic Forgetting at LLM Scale",
+    "MemLens: Benchmarking Multimodal Long-Term Memory in Large Vision-Language Models",
+    "Veritas: A Semantically Grounded Agentic Framework for Memory Corruption Vulnerability Detection in Binaries",
+    "InfoSFT: Learn More and Forget Less with Information-Aware Token Weighting",
+    "ICED: Concept-level Machine Unlearning via Interpretable Concept Decomposition",
+    "Knowledge Beyond Language: Bridging the Gap in Multilingual Machine Unlearning Evaluation",
+    "Understanding Imbalanced Forgetting in Rehearsal-Based Class-Incremental Learning"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -2124,6 +2130,30 @@
         "Jinheon Baek",
         "Sung Ju Hwang"
       ]
+    },
+    "2605.14906": {
+      "title": "MemLens: Benchmarking Multimodal Long-Term Memory in Large Vision-Language Models",
+      "authors": "Xiyu Ren et al."
+    },
+    "2605.15097": {
+      "title": "Veritas: A Semantically Grounded Agentic Framework for Memory Corruption Vulnerability Detection in Binaries",
+      "authors": "Xinran Zheng et al."
+    },
+    "2605.14967": {
+      "title": "InfoSFT: Learn More and Forget Less with Information-Aware Token Weighting",
+      "authors": "Mahdi Sabbaghi et al."
+    },
+    "2605.14309": {
+      "title": "ICED: Concept-level Machine Unlearning via Interpretable Concept Decomposition",
+      "authors": "Shen Lin et al."
+    },
+    "2605.14404": {
+      "title": "Knowledge Beyond Language: Bridging the Gap in Multilingual Machine Unlearning Evaluation",
+      "authors": "Kyomin Hwang et al."
+    },
+    "2605.14785": {
+      "title": "Understanding Imbalanced Forgetting in Rehearsal-Based Class-Incremental Learning",
+      "authors": "Alberto Tamajo et al."
     }
   }
 }
