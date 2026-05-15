@@ -1,5 +1,7 @@
 {
   "recently_processed_titles": [
+    "Codebase-Memory: Tree-Sitter-Based Knowledge Graphs for LLM Code Exploration via MCP",
+    "Not All Memories Age the Same: Autodiscovery of Adaptive Decay in Knowledge Graphs",
     "PREPING: Building Agent Memory without Tasks",
     "EconAI: Dynamic Persona Evolution and Memory-Aware Agents in Evolving Economic Environments",
     "IdeaForge: A Knowledge Graph-Grounded Multi-Agent Framework for Cross-Methodology Innovation Analysis and Patent Claim Generation",
@@ -2154,6 +2156,24 @@
     "2605.14785": {
       "title": "Understanding Imbalanced Forgetting in Rehearsal-Based Class-Incremental Learning",
       "authors": "Alberto Tamajo et al."
+    },
+    "2604.26970": {
+      "title": "Not All Memories Age the Same: Autodiscovery of Adaptive Decay in Knowledge Graphs",
+      "authors": [
+        "Mandar Karhade"
+      ],
+      "category": "cs.IR"
+    },
+    "2603.27277": {
+      "title": "Codebase-Memory: Tree-Sitter-Based Knowledge Graphs for LLM Code Exploration via MCP",
+      "authors": [
+        "Martin Vogel",
+        "Falk Meyer-Eschenbach",
+        "Severin Kohler",
+        "Elias Grünewald",
+        "Felix Balzer"
+      ],
+      "category": "cs.SE"
     }
   }
 }

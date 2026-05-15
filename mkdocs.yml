@@ -199,6 +199,7 @@ nav:
       - ["PREPING: Building Agent Memory without Tasks"](concepts/agent-memory/memory-representation/preping-proposer-guided-memory-2605.13880.md) — arXiv:2605.13880
       - ["Geometry of Forgetting: Temporal Knowledge Drift as Independent Axis"](concepts/agent-memory/memory-representation/geometry-forgetting-temporal-drift-2605.09195.md) — arXiv:2605.09195
       - ["Engram Memory in AR Image Generation: Gated Side-Pathway"](concepts/agent-memory/memory-representation/engram-memory-image-generation-2605.13179.md) — arXiv:2605.13179
+      - ["Adaptive Decay: Autodiscovery of Non-Uniform Forgetting in Knowledge Graphs"](concepts/agent-memory/memory-representation/adaptive-decay-kg-memory-2604.26970.md) — arXiv:2604.26970
       - 记忆检索: concepts/agent-memory/memory-retrieval/index.md
       - ["Remember Your Trace: Memory-Guided Code Documentation"](concepts/agent-memory/memory-representation/remember-your-trace-2605.14563.md) — arXiv:2605.14563
       - ["Retrieve-then-Steer: Online Success Memory for Test-Time Adaptation of Generative VLAs"](memory-retrieval/retrieve-then-steer-success-memory-2605.10094.md) — arXiv:2605.10094
@@ -212,6 +213,7 @@ nav:
       - ["EvolveMem: Self-Evolving Memory Architecture"](concepts/agent-memory/memory-retrieval/evolvemem-self-evolving-memory-2605.13941.md) — arXiv:2605.13941
       - ["GAPE: Gated Adaptive Positional Encoding"](concepts/agent-memory/memory-retrieval/gape-gated-positional-encoding-2605.10414.md) — arXiv:2605.10414
       - ["Prospection-Guided Retrieval: Thinking Ahead for Memory"](concepts/agent-memory/memory-retrieval/prospection-guided-retrieval-2605.14177.md) — arXiv:2605.14177
+      - ["Codebase-Memory: Tree-Sitter KG for LLM Code Exploration via MCP"](concepts/agent-memory/memory-retrieval/codebase-memory-kg-llm-2603.27277.md) — arXiv:2603.27277
       - 持续学习: concepts/agent-memory/continual-learning/index.md
       - ["Unlocking Compositional Generalization in Continual Few-Shot Learning"](continual-learning/unlock-compositional-generalization-2605.11710.md) — arXiv:2605.11710
       - ["SCM: Sleep-Consolidated Memory"](concepts/agent-memory/memory-compression/scm-sleep-consolidated-memory-2604.20943.md) — arXiv:2604.20943
