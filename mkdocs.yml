@@ -196,6 +196,8 @@ nav:
       - ["IdeaForge: KG-Grounded Multi-Agent for Innovation Analysis"](concepts/agent-memory/memory-representation/ideaforge-kg-innovation-2605.13311.md) — arXiv:2605.13311
       - ["PersonalAI 2.0: KG-Traversal Memory for Personalized LLM Agents"](concepts/agent-memory/memory-representation/personalai-kg-memory-2605.13481.md) — arXiv:2605.13481
       - ["EconAI: Dynamic Persona and Memory-Aware Agents in Economic Environments"](concepts/agent-memory/memory-representation/econai-dynamic-persona-memory-2605.13762.md) — arXiv:2605.13762
+      - ["Geometry of Forgetting: Temporal Knowledge Drift as Independent Axis"](concepts/agent-memory/memory-representation/geometry-forgetting-temporal-drift-2605.09195.md) — arXiv:2605.09195
+      - ["Engram Memory in AR Image Generation: Gated Side-Pathway"](concepts/agent-memory/memory-representation/engram-memory-image-generation-2605.13179.md) — arXiv:2605.13179
       - 记忆检索: concepts/agent-memory/memory-retrieval/index.md
       - ["Remember Your Trace: Memory-Guided Code Documentation"](concepts/agent-memory/memory-representation/remember-your-trace-2605.14563.md) — arXiv:2605.14563
       - ["Retrieve-then-Steer: Online Success Memory for Test-Time Adaptation of Generative VLAs"](memory-retrieval/retrieve-then-steer-success-memory-2605.10094.md) — arXiv:2605.10094
@@ -206,6 +208,7 @@ nav:
       - ["MARS: Hierarchical Belief-State Memory for Recommender"](concepts/agent-memory/memory-retrieval/mars-hierarchical-belief-memory-2605.14401.md) — arXiv:2605.14401
       - ["EvolveMem: Self-Evolving Memory Architecture"](concepts/agent-memory/memory-retrieval/evolvemem-self-evolving-memory-2605.13941.md) — arXiv:2605.13941
       - ["GAPE: Gated Adaptive Positional Encoding"](concepts/agent-memory/memory-retrieval/gape-gated-positional-encoding-2605.10414.md) — arXiv:2605.10414
+      - ["Prospection-Guided Retrieval: Thinking Ahead for Memory"](concepts/agent-memory/memory-retrieval/prospection-guided-retrieval-2605.14177.md) — arXiv:2605.14177
       - 持续学习: concepts/agent-memory/continual-learning/index.md
       - ["Unlocking Compositional Generalization in Continual Few-Shot Learning"](continual-learning/unlock-compositional-generalization-2605.11710.md) — arXiv:2605.11710
       - ["SCM: Sleep-Consolidated Memory"](concepts/agent-memory/memory-compression/scm-sleep-consolidated-memory-2604.20943.md) — arXiv:2604.20943
@@ -227,7 +230,9 @@ nav:
       - ["Forgetful but Faithful: Cognitive Memory for Privacy-Aware Agents"](concepts/agent-memory/memory-privacy/forgetful-but-faithful-2512.12856.md) — arXiv:2512.12856
       - 记忆隐私: concepts/agent-memory/memory-privacy/index.md
       - ["MemLineage: Lineage-Guided Memory Enforcement"](concepts/agent-memory/memory-privacy/memlineage-lineage-guided-2605.14421.md) — arXiv:2605.14421
+      - ["Forgetting That Sticks: Quantization-Permanent Unlearning"](concepts/agent-memory/memory-privacy/forgetting-quantization-permanent-2605.15138.md) — arXiv:2605.15138
       - 记忆安全: concepts/agent-memory/memory-security/index.md
+      - ["Octopus: History-Free Gradient Orthogonalization for CL in MLLMs"](concepts/agent-memory/continual-learning/octopus-hifgo-continual-mllm-2605.14938.md) — arXiv:2605.14938
     - 工具调用与执行:
       - 端侧 vs 云端 Agentic 工具调用: concepts/on-device-vs-cloud-agentic-tool-calling.md
       - Mobile-MCP Android 动态工具: concepts/mobile-mcp.md

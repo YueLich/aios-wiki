@@ -68,7 +68,12 @@
     "GroupMemBench: Benchmarking LLM Agent Memory in Multi-Party Conversations",
     "MemLineage: Lineage-Guided Enforcement for LLM Agent Memory",
     "Agentic Recommender System with Hierarchical Belief-State Memory",
-    "EvolveMem:Self-Evolving Memory Architecture via AutoResearch for LLM Agents"
+    "EvolveMem:Self-Evolving Memory Architecture via AutoResearch for LLM Agents",
+    "Octopus: History-Free Gradient Orthogonalization for Continual Learning in Multimodal Large Language Models",
+    "Forgetting That Sticks: Quantization-Permanent Unlearning via Circuit Attribution",
+    "Thinking Ahead: Prospection-Guided Retrieval of Memory with Language Models",
+    "Does Engram Do Memory Retrieval in Autoregressive Image Generation?",
+    "The Geometry of Forgetting: Temporal Knowledge Drift as an Independent Axis in LLM Representations"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -2035,6 +2040,67 @@
         "Zeyu Zheng",
         "Cihang Xie"
       ]
+    },
+    "2605.14938": {
+      "title": "Octopus: History-Free Gradient Orthogonalization for Continual Learning in Multimodal Large Language Models",
+      "authors": [
+        "Yuehao Liu",
+        "Shanyan Guan",
+        "Weijia Zhang",
+        "Xuanming Shang",
+        "Yanhao Ge",
+        "Wei Li",
+        "Chao Ma"
+      ],
+      "date": "2026-05-14",
+      "category": "cs.LG"
+    },
+    "2605.15138": {
+      "title": "Forgetting That Sticks: Quantization-Permanent Unlearning via Circuit Attribution",
+      "authors": [
+        "Saisab Sadhu",
+        "Pratinav Seth",
+        "Vinay Kumar Sankarapu"
+      ],
+      "date": "2026-05-14",
+      "category": "cs.LG"
+    },
+    "2605.14177": {
+      "title": "Thinking Ahead: Prospection-Guided Retrieval of Memory with Language Models",
+      "authors": [
+        "Harshita Chopra",
+        "Krishna Kant Chintalapudi",
+        "Suman Nath",
+        "Ryen W. White",
+        "Chirag Shah"
+      ],
+      "date": "2026-05-13",
+      "category": "cs.IR"
+    },
+    "2605.13179": {
+      "title": "Does Engram Do Memory Retrieval in Autoregressive Image Generation?",
+      "authors": [
+        "Jinghao Wang",
+        "Qiyuan He",
+        "Chunbin Gu",
+        "Pheng-Ann Heng"
+      ],
+      "date": "2026-05-13",
+      "category": "cs.CV"
+    },
+    "2605.09195": {
+      "title": "The Geometry of Forgetting: Temporal Knowledge Drift as an Independent Axis in LLM Representations",
+      "authors": [
+        "Rania Elbadry",
+        "Ahmed Heakl",
+        "Fan Zhang",
+        "Dani Bouch",
+        "Yuxia Wang",
+        "Preslav Nakov",
+        "Zhuohan Xie"
+      ],
+      "date": "2026-05-09",
+      "category": "cs.AI"
     }
   }
 }
