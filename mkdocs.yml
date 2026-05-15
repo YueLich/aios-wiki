@@ -227,6 +227,7 @@ nav:
       - 多模态记忆: concepts/agent-memory/multimodal-memory/index.md
       - ["Lifelong Learning in VLMs: Enhanced EWC Cross-Modal"](concepts/agent-memory/continual-learning/lifelong-learning-vlm-cross-modal-2605.12789.md) — arXiv:2605.12789
       - ["Secure Forgetting: Privacy-Driven Unlearning in LLM Agents"](concepts/agent-memory/memory-privacy/secure-forgetting-unlearning-2604.00430.md) — arXiv:2604.00430
+      - ["TFGN: Task-Free, Replay-Free Continual Pre-Training"](concepts/agent-memory/continual-learning/tfgn-task-free-continual-pretraining-2605.15053.md) — arXiv:2605.15053
       - ["Forgetful but Faithful: Cognitive Memory for Privacy-Aware Agents"](concepts/agent-memory/memory-privacy/forgetful-but-faithful-2512.12856.md) — arXiv:2512.12856
       - 记忆隐私: concepts/agent-memory/memory-privacy/index.md
       - ["MemLineage: Lineage-Guided Memory Enforcement"](concepts/agent-memory/memory-privacy/memlineage-lineage-guided-2605.14421.md) — arXiv:2605.14421

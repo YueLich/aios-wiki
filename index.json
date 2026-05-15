@@ -73,7 +73,8 @@
     "Forgetting That Sticks: Quantization-Permanent Unlearning via Circuit Attribution",
     "Thinking Ahead: Prospection-Guided Retrieval of Memory with Language Models",
     "Does Engram Do Memory Retrieval in Autoregressive Image Generation?",
-    "The Geometry of Forgetting: Temporal Knowledge Drift as an Independent Axis in LLM Representations"
+    "The Geometry of Forgetting: Temporal Knowledge Drift as an Independent Axis in LLM Representations",
+    "TFGN: Task-Free, Replay-Free Continual Pre-Training Without Catastrophic Forgetting at LLM Scale"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -2101,6 +2102,17 @@
       ],
       "date": "2026-05-09",
       "category": "cs.AI"
+    },
+    "2605.15053": {
+      "title": "TFGN: Task-Free, Replay-Free Continual Pre-Training Without Catastrophic Forgetting at LLM Scale",
+      "authors": [
+        "Anurup Ganguli"
+      ],
+      "date": "2026-05-14",
+      "tags": [
+        "continual-learning",
+        "catastrophic-forgetting"
+      ]
     }
   }
 }
