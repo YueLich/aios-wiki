@@ -62,7 +62,13 @@
     "Why Zeroth-Order Adaptation May Forget Less: A Randomized Shaping Theory",
     "Remember to Forget: Gated Adaptive Positional Encoding",
     "Geometry Conflict: Explaining and Controlling Forgetting in LLM Continual Post-Training",
-    "NanoResearch: Co-Evolving Skills, Memory, and Policy for Personalized Research Automation"
+    "NanoResearch: Co-Evolving Skills, Memory, and Policy for Personalized Research Automation",
+    "MemEye: A Visual-Centric Evaluation Framework for Multimodal Agent Memory",
+    "Remember Your Trace: Memory-Guided Long-Horizon Agentic Framework for Consistent and Hierarchical Repository-Level Code Documentation",
+    "GroupMemBench: Benchmarking LLM Agent Memory in Multi-Party Conversations",
+    "MemLineage: Lineage-Guided Enforcement for LLM Agent Memory",
+    "Agentic Recommender System with Hierarchical Belief-State Memory",
+    "EvolveMem:Self-Evolving Memory Architecture via AutoResearch for LLM Agents"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -1972,6 +1978,63 @@
     "2605.10658": "Why Zeroth-Order Adaptation May Forget Less: A Randomized Shaping Theory",
     "2605.10414": "Remember to Forget: Gated Adaptive Positional Encoding",
     "2605.09608": "Geometry Conflict: Explaining and Controlling Forgetting in LLM Continual Post-Training",
-    "2605.10813": "NanoResearch: Co-Evolving Skills, Memory, and Policy for Personalized Research Automation"
+    "2605.10813": "NanoResearch: Co-Evolving Skills, Memory, and Policy for Personalized Research Automation",
+    "2605.15128": {
+      "title": "MemEye: A Visual-Centric Evaluation Framework for Multimodal Agent Memory",
+      "authors": [
+        "Minghao Guo",
+        "Qingyue Jiao",
+        "Zeru Shi",
+        "Yihao Quan",
+        "Boxuan Zhang"
+      ]
+    },
+    "2605.14563": {
+      "title": "Remember Your Trace: Memory-Guided Long-Horizon Agentic Framework for Consistent and Hierarchical Repository-Level Code Documentation",
+      "authors": [
+        "Suyoung Bae",
+        "Jaehoon Lee",
+        "Changkyu Choi",
+        "YunSeok Choi",
+        "Jee-Hyong Lee"
+      ]
+    },
+    "2605.14498": {
+      "title": "GroupMemBench: Benchmarking LLM Agent Memory in Multi-Party Conversations",
+      "authors": [
+        "Jingbo Yang",
+        "Kwei-Herng Lai",
+        "Xiaowen Wang",
+        "Shiyu Chang",
+        "Yaar Harari"
+      ]
+    },
+    "2605.14421": {
+      "title": "MemLineage: Lineage-Guided Enforcement for LLM Agent Memory",
+      "authors": [
+        "Ciyan Ouyang",
+        "Rui Hou"
+      ]
+    },
+    "2605.14401": {
+      "title": "Agentic Recommender System with Hierarchical Belief-State Memory",
+      "authors": [
+        "Xiang Shen",
+        "Yuhang Zhou",
+        "Yifan Wu",
+        "Zhuokai Zhao",
+        "Siyu Lin"
+      ]
+    },
+    "2605.13941": {
+      "title": "EvolveMem:Self-Evolving Memory Architecture via AutoResearch for LLM Agents",
+      "authors": [
+        "Jiaqi Liu",
+        "Xinyu Ye",
+        "Peng Xia",
+        "Zeyu Zheng",
+        "Cihang Xie"
+      ]
+    }
   }
 }

@@ -197,9 +197,14 @@ nav:
       - ["PersonalAI 2.0: KG-Traversal Memory for Personalized LLM Agents"](concepts/agent-memory/memory-representation/personalai-kg-memory-2605.13481.md) — arXiv:2605.13481
       - ["EconAI: Dynamic Persona and Memory-Aware Agents in Economic Environments"](concepts/agent-memory/memory-representation/econai-dynamic-persona-memory-2605.13762.md) — arXiv:2605.13762
       - 记忆检索: concepts/agent-memory/memory-retrieval/index.md
+      - ["Remember Your Trace: Memory-Guided Code Documentation"](concepts/agent-memory/memory-representation/remember-your-trace-2605.14563.md) — arXiv:2605.14563
       - ["Retrieve-then-Steer: Online Success Memory for Test-Time Adaptation of Generative VLAs"](memory-retrieval/retrieve-then-steer-success-memory-2605.10094.md) — arXiv:2605.10094
       - ["NanoResearch: Personalized Research with Co-Evolving Memory"](concepts/agent-memory/memory-retrieval/nanoresearch-personalized-research-2605.10813.md) — arXiv:2605.10813
       - 记忆压缩与遗忘: concepts/agent-memory/memory-compression/index.md
+      - ["MemEye: Visual-Centric Multimodal Agent Memory Eval"](concepts/agent-memory/memory-retrieval/memeye-visual-centric-eval-2605.15128.md) — arXiv:2605.15128
+      - ["GroupMemBench: Multi-Party Conversation Memory"](concepts/agent-memory/memory-retrieval/groupmembench-multi-party-2605.14498.md) — arXiv:2605.14498
+      - ["MARS: Hierarchical Belief-State Memory for Recommender"](concepts/agent-memory/memory-retrieval/mars-hierarchical-belief-memory-2605.14401.md) — arXiv:2605.14401
+      - ["EvolveMem: Self-Evolving Memory Architecture"](concepts/agent-memory/memory-retrieval/evolvemem-self-evolving-memory-2605.13941.md) — arXiv:2605.13941
       - ["GAPE: Gated Adaptive Positional Encoding"](concepts/agent-memory/memory-retrieval/gape-gated-positional-encoding-2605.10414.md) — arXiv:2605.10414
       - 持续学习: concepts/agent-memory/continual-learning/index.md
       - ["Unlocking Compositional Generalization in Continual Few-Shot Learning"](continual-learning/unlock-compositional-generalization-2605.11710.md) — arXiv:2605.11710
@@ -221,6 +226,7 @@ nav:
       - ["Secure Forgetting: Privacy-Driven Unlearning in LLM Agents"](concepts/agent-memory/memory-privacy/secure-forgetting-unlearning-2604.00430.md) — arXiv:2604.00430
       - ["Forgetful but Faithful: Cognitive Memory for Privacy-Aware Agents"](concepts/agent-memory/memory-privacy/forgetful-but-faithful-2512.12856.md) — arXiv:2512.12856
       - 记忆隐私: concepts/agent-memory/memory-privacy/index.md
+      - ["MemLineage: Lineage-Guided Memory Enforcement"](concepts/agent-memory/memory-privacy/memlineage-lineage-guided-2605.14421.md) — arXiv:2605.14421
       - 记忆安全: concepts/agent-memory/memory-security/index.md
     - 工具调用与执行:
       - 端侧 vs 云端 Agentic 工具调用: concepts/on-device-vs-cloud-agentic-tool-calling.md
