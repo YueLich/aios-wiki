@@ -1,5 +1,6 @@
 {
   "recently_processed_titles": [
+    "PREPING: Building Agent Memory without Tasks",
     "EconAI: Dynamic Persona Evolution and Memory-Aware Agents in Evolving Economic Environments",
     "IdeaForge: A Knowledge Graph-Grounded Multi-Agent Framework for Cross-Methodology Innovation Analysis and Patent Claim Generation",
     "Do Self-Evolving Agents Forget? Capability Degradation and Preservation in Lifelong LLM Agent Adaptation",
@@ -2112,6 +2113,16 @@
       "tags": [
         "continual-learning",
         "catastrophic-forgetting"
+      ]
+    },
+    "2605.13880": {
+      "title": "PREPING: Building Agent Memory without Tasks",
+      "authors": [
+        "Yumin Choi",
+        "Sangwoo Park",
+        "Minki Kang",
+        "Jinheon Baek",
+        "Sung Ju Hwang"
       ]
     }
   }

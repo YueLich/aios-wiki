@@ -196,6 +196,7 @@ nav:
       - ["IdeaForge: KG-Grounded Multi-Agent for Innovation Analysis"](concepts/agent-memory/memory-representation/ideaforge-kg-innovation-2605.13311.md) — arXiv:2605.13311
       - ["PersonalAI 2.0: KG-Traversal Memory for Personalized LLM Agents"](concepts/agent-memory/memory-representation/personalai-kg-memory-2605.13481.md) — arXiv:2605.13481
       - ["EconAI: Dynamic Persona and Memory-Aware Agents in Economic Environments"](concepts/agent-memory/memory-representation/econai-dynamic-persona-memory-2605.13762.md) — arXiv:2605.13762
+      - ["PREPING: Building Agent Memory without Tasks"](concepts/agent-memory/memory-representation/preping-proposer-guided-memory-2605.13880.md) — arXiv:2605.13880
       - ["Geometry of Forgetting: Temporal Knowledge Drift as Independent Axis"](concepts/agent-memory/memory-representation/geometry-forgetting-temporal-drift-2605.09195.md) — arXiv:2605.09195
       - ["Engram Memory in AR Image Generation: Gated Side-Pathway"](concepts/agent-memory/memory-representation/engram-memory-image-generation-2605.13179.md) — arXiv:2605.13179
       - 记忆检索: concepts/agent-memory/memory-retrieval/index.md
