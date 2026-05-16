@@ -83,7 +83,9 @@
     "InfoSFT: Learn More and Forget Less with Information-Aware Token Weighting",
     "ICED: Concept-level Machine Unlearning via Interpretable Concept Decomposition",
     "Knowledge Beyond Language: Bridging the Gap in Multilingual Machine Unlearning Evaluation",
-    "Understanding Imbalanced Forgetting in Rehearsal-Based Class-Incremental Learning"
+    "Understanding Imbalanced Forgetting in Rehearsal-Based Class-Incremental Learning",
+    "CuSearch: Curriculum Rollout Sampling via Search Depth for Agentic RAG",
+    "Quantifiable Uncertainty: A Stochastic Consensus Multi-Agent RAG Framework for Robust Malware Detection"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -2174,6 +2176,26 @@
         "Felix Balzer"
       ],
       "category": "cs.SE"
+    },
+    "2605.11611": {
+      "title": "CuSearch: Curriculum Rollout Sampling via Search Depth for Agentic RAG",
+      "authors": [
+        "Jianghan Shen",
+        "Siqi Luo",
+        "Xinyu Cheng",
+        "Jing Xiong",
+        "Yue Li",
+        "Jiyao Liu",
+        "Jiashi Lin",
+        "Yirong Chen",
+        "Junjun He"
+      ]
+    },
+    "2605.08385": {
+      "title": "Quantifiable Uncertainty: A Stochastic Consensus Multi-Agent RAG Framework for Robust Malware Detection",
+      "authors": [
+        "ElMouatez Billah Karbab"
+      ]
     }
   }
 }
