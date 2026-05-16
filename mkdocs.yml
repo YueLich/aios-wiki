@@ -199,12 +199,28 @@ nav:
       - ["PREPING: Building Agent Memory without Tasks"](concepts/agent-memory/memory-representation/preping-proposer-guided-memory-2605.13880.md) — arXiv:2605.13880
       - ["Geometry of Forgetting: Temporal Knowledge Drift as Independent Axis"](concepts/agent-memory/memory-representation/geometry-forgetting-temporal-drift-2605.09195.md) — arXiv:2605.09195
       - ["Engram Memory in AR Image Generation: Gated Side-Pathway"](concepts/agent-memory/memory-representation/engram-memory-image-generation-2605.13179.md) — arXiv:2605.13179
+      - ["Executable Agentic Memory for GUI Agents"](concepts/agent-memory/memory-representation/executable-agentic-memory-gui-2605.12294.md) — arXiv:2605.12294
       - ["Adaptive Decay: Autodiscovery of Non-Uniform Forgetting in Knowledge Graphs"](concepts/agent-memory/memory-representation/adaptive-decay-kg-memory-2604.26970.md) — arXiv:2604.26970
+      - ["SAGE: Self-Evolving Agentic Graph-Memory Engine"](concepts/agent-memory/memory-representation/sage-self-evolving-graph-memory-2605.12061.md) — arXiv:2605.12061
+      - ["Bridging the Cognitive Gap: Unified Memory Paradigm for 6G AI-RAN"](concepts/agent-memory/memory-representation/bridging-2605.10036.md) — arXiv:2605.10036
+      - ["Portable Agent Memory: Cryptographically-Verified Transfer Across Heterogeneous AI Agents"](concepts/agent-memory/memory-representation/portable-agent-memory-2605.11032.md) — arXiv:2605.11032
+      - ["Mem-W: Latent Memory-Native GUI Agents"](concepts/agent-memory/memory-representation/mem-w-2605.09317.md) — arXiv:2605.09317
       - 记忆检索: concepts/agent-memory/memory-retrieval/index.md
       - ["Remember Your Trace: Memory-Guided Code Documentation"](concepts/agent-memory/memory-representation/remember-your-trace-2605.14563.md) — arXiv:2605.14563
       - ["Retrieve-then-Steer: Online Success Memory for Test-Time Adaptation of Generative VLAs"](memory-retrieval/retrieve-then-steer-success-memory-2605.10094.md) — arXiv:2605.10094
       - ["NanoResearch: Personalized Research with Co-Evolving Memory"](concepts/agent-memory/memory-retrieval/nanoresearch-personalized-research-2605.10813.md) — arXiv:2605.10813
+      - ["LongMemEval-V2: Evaluating Long-Term Agent Memory Toward Experienced Colleagues"](concepts/agent-memory/memory-retrieval/longmemeval-v2-2605.12493.md) — arXiv:2605.12493
+      - ["PRISM: Pareto-Efficient Retrieval over Intent-Aware Structured Memory"](concepts/agent-memory/memory-retrieval/prism-pareto-efficient-intent-aware-memory-2605.12260.md) — arXiv:2605.12260
+      - ["Goal-Mem: Goal-Oriented Reasoning for RAG-based Memory in Conversational Agentic LLM Systems"](concepts/agent-memory/memory-retrieval/goal-mem-rag-memory-2605.12213.md) — arXiv:2605.12213
+      - ["MedMemoryBench: Benchmarking Agent Memory in Personalized Healthcare"](concepts/agent-memory/memory-retrieval/medmemorybench-benchmark-2605.11814.md) — arXiv:2605.11814
+      - ["MemReread: Enhancing Agentic Long-Context Reasoning via Memory-Guided Rereading"](concepts/agent-memory/memory-retrieval/memreread-2605.10268.md) — arXiv:2605.10268
+      - ["HAGE: Harnessing Agentic Memory via RL-Driven Weighted Graph Evolution"](concepts/agent-memory/memory-retrieval/hage-weighted-graph-memory-2605.09942.md) — arXiv:2605.09942
+      - ["Trap of Trajectory: Spurious Correlations in Agentic Memory"](concepts/agent-memory/memory-retrieval/trap-of-trajectory-spurious-correlations-2605.09330.md) — arXiv:2605.09330
       - ["Beyond Similarity Search: Tenure and the Case for Structured Belief State in LLM Memory"](concepts/agent-memory/memory-retrieval/tenure-structured-belief-state-2605.11325.md) — arXiv:2605.11325
+      - ["EquiMem: Calibrating Shared Memory in Multi-Agent Debate via Game-Theoretic Equilibrium"](concepts/agent-memory/memory-retrieval/equimem-2605.09278.md) — arXiv:2605.09278
+      - ["PYTHALAB-MERA: Validation-Grounded Memory for Frozen-LLM Coding Agents"](concepts/agent-memory/memory-retrieval/pythalab-mera-validation-memory-frozen-llm-2605.08468.md) — arXiv:2605.08468
+      - ["MemQ: Integrating Q-Learning into Self-Evolving Memory Agents over Provenance DAGs"](concepts/agent-memory/memory-retrieval/memq-q-learning-provenance-dag-2605.08374.md) — arXiv:2605.08374
+      - ["The Memory Curse: How Expanded Recall Erodes Cooperative Intent in LLM Agents"](concepts/agent-memory/memory-retrieval/memory-curse-erosion-cooperation-2605.08060.md) — arXiv:2605.08060
       - 记忆压缩与遗忘: concepts/agent-memory/memory-compression/index.md
       - ["MemEye: Visual-Centric Multimodal Agent Memory Eval"](concepts/agent-memory/memory-retrieval/memeye-visual-centric-eval-2605.15128.md) — arXiv:2605.15128
       - ["MemLens: Multimodal LVLM Memory Benchmark"](concepts/agent-memory/memory-retrieval/memlens-multimodal-lvlm-memory-2605.14906.md) — arXiv:2605.14906
@@ -218,6 +234,8 @@ nav:
       - ["Unlocking Compositional Generalization in Continual Few-Shot Learning"](continual-learning/unlock-compositional-generalization-2605.11710.md) — arXiv:2605.11710
       - ["SCM: Sleep-Consolidated Memory"](concepts/agent-memory/memory-compression/scm-sleep-consolidated-memory-2604.20943.md) — arXiv:2604.20943
       - ["Useful Memories Become Faulty When Continuously Updated by LLMs"](concepts/agent-memory/memory-consolidation/useful-memories-become-faulty-2605.12978.md) — arXiv:2605.12978
+      - ["DeMem: Remember the Decision, Not the Description - Rate-Distortion Agent Memory"](concepts/agent-memory/memory-compression/demem-decision-centric-memory-2605.10870.md) — arXiv:2605.10870
+      - ["Human-Inspired Memory Architecture for LLM Agents"](concepts/agent-memory/memory-compression/human-inspired-2605.08538.md) — arXiv:2605.08538
       - ["FadeMem: Biologically-Inspired Forgetting"](concepts/agent-memory/memory-compression/fademem-biologically-inspired-2601.18642.md) — arXiv:2601.18642
       - ["RISE: Zeroth-Order Adaptation May Forget Less"](concepts/agent-memory/memory-compression/rise-zeroth-order-2605.10658.md) — arXiv:2605.10658
       - ["Learning Fast and Slow: Towards LLMs That Adapt Continually"](continual-learning/fast-slow-llm-continual-adaptation-2605.12484.md) — arXiv:2605.12484
@@ -244,8 +262,11 @@ nav:
       - ["Veritas: Semantic Grounded Binary Vulnerability Detection"](concepts/agent-memory/memory-privacy/veritas-semantic-grounded-binary-vuln-2605.15097.md) — arXiv:2605.15097
       - ["ICED: Concept-Level VLM Unlearning"](concepts/agent-memory/memory-privacy/iced-concept-level-vlm-unlearning-2605.14309.md) — arXiv:2605.14309
       - ["Multilingual Machine Unlearning Evaluation"](concepts/agent-memory/memory-privacy/multilingual-machine-unlearning-2605.14404.md) — arXiv:2605.14404
+      - ["MemPrivacy: Privacy-Preserving Personalized Memory Management for Edge-Cloud Agents"](concepts/agent-memory/memory-privacy/memprivacy-privacy-preserving-edge-cloud-2605.09530.md) — arXiv:2605.09530
+      - ["Defense Effectiveness across Architectural Layers: Memory Attacks on Stateful LLM Agents"](concepts/agent-memory/memory-privacy/defense-effectiveness-memory-attacks-2605.08442.md) — arXiv:2605.08442
       - 记忆安全: concepts/agent-memory/memory-security/index.md
       - ["Octopus: History-Free Gradient Orthogonalization for CL in MLLMs"](concepts/agent-memory/continual-learning/octopus-hifgo-continual-mllm-2605.14938.md) — arXiv:2605.14938
+      - ["ShadowMerge: Poisoning Attack on Graph-Based Agent Memory"](concepts/agent-memory/memory-security/shadowmerge-poisoning-attack-graph-memory-2605.09033.md) — arXiv:2605.09033
     - 工具调用与执行:
       - 端侧 vs 云端 Agentic 工具调用: concepts/on-device-vs-cloud-agentic-tool-calling.md
       - Mobile-MCP Android 动态工具: concepts/mobile-mcp.md
