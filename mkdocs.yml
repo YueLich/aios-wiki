@@ -233,6 +233,9 @@ nav:
       - ["Clinical Timeline: Retrieval-Augmented Multimodal Alignment"](concepts/agent-memory/memory-retrieval/clinical-timeline-retrieval-augmented-2605.15168.md) — arXiv:2605.15168
       - ["GAPE: Gated Adaptive Positional Encoding"](concepts/agent-memory/memory-retrieval/gape-gated-positional-encoding-2605.10414.md) — arXiv:2605.10414
       - ["Prospection-Guided Retrieval: Thinking Ahead for Memory"](concepts/agent-memory/memory-retrieval/prospection-guided-retrieval-2605.14177.md) — arXiv:2605.14177
+      - ["Why RAG Fails: Graph Perspective"](concepts/agent-memory/memory-retrieval/why-rag-fails-graph-perspective-2605.14192.md) — arXiv:2605.14192
+      - ["RAM: Retrieval-Augmented Modeling for Relational Data Analytics"](concepts/agent-memory/memory-retrieval/ram-retrieval-augmented-modeling-2605.14464.md) — arXiv:2605.14464
+      - ["Deepchecks: Evaluating RAG Applications"](concepts/agent-memory/memory-retrieval/deepchecks-rag-evaluation-2605.14488.md) — arXiv:2605.14488
       - ["Codebase-Memory: Tree-Sitter KG for LLM Code Exploration via MCP"](concepts/agent-memory/memory-retrieval/codebase-memory-kg-llm-2603.27277.md) — arXiv:2603.27277
       - 持续学习: concepts/agent-memory/continual-learning/index.md
       - ["Unlocking Compositional Generalization in Continual Few-Shot Learning"](continual-learning/unlock-compositional-generalization-2605.11710.md) — arXiv:2605.11710
