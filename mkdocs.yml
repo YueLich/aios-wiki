@@ -227,6 +227,8 @@ nav:
       - ["GroupMemBench: Multi-Party Conversation Memory"](concepts/agent-memory/memory-retrieval/groupmembench-multi-party-2605.14498.md) — arXiv:2605.14498
       - ["MARS: Hierarchical Belief-State Memory for Recommender"](concepts/agent-memory/memory-retrieval/mars-hierarchical-belief-memory-2605.14401.md) — arXiv:2605.14401
       - ["EvolveMem: Self-Evolving Memory Architecture"](concepts/agent-memory/memory-retrieval/evolvemem-self-evolving-memory-2605.13941.md) — arXiv:2605.13941
+      - ["KITE: Retrieval-Augmented Tutoring for Algorithm Tracing"](concepts/agent-memory/memory-retrieval/kite-retrieval-augmented-tutoring-2605.12988.md) — arXiv:2605.12988
+      - ["Clinical Timeline: Retrieval-Augmented Multimodal Alignment"](concepts/agent-memory/memory-retrieval/clinical-timeline-retrieval-augmented-2605.15168.md) — arXiv:2605.15168
       - ["GAPE: Gated Adaptive Positional Encoding"](concepts/agent-memory/memory-retrieval/gape-gated-positional-encoding-2605.10414.md) — arXiv:2605.10414
       - ["Prospection-Guided Retrieval: Thinking Ahead for Memory"](concepts/agent-memory/memory-retrieval/prospection-guided-retrieval-2605.14177.md) — arXiv:2605.14177
       - ["Codebase-Memory: Tree-Sitter KG for LLM Code Exploration via MCP"](concepts/agent-memory/memory-retrieval/codebase-memory-kg-llm-2603.27277.md) — arXiv:2603.27277
