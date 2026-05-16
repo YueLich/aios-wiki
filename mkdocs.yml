@@ -250,8 +250,12 @@ nav:
       - ["InfoSFT: Token Weighting for SFT Forgetting"](concepts/agent-memory/continual-learning/infosft-token-weighting-sft-2605.14967.md) — arXiv:2605.14967
       - ["Imbalanced Forgetting in Rehearsal CIL"](concepts/agent-memory/continual-learning/imbalanced-forgetting-rehearsal-2605.14785.md) — arXiv:2605.14785
       - ["Geometry Conflict: Controlling Forgetting in LLM Continual Post-Training"](concepts/agent-memory/continual-learning/geometry-conflict-llm-continual-2605.09608.md) — arXiv:2605.09608
+      - ["PsychAgent: Experience-Driven Lifelong Learning Agent for Psychological Counselor"](concepts/agent-memory/continual-learning/psychagent-experience-driven-lifelong-2604.00931.md) — arXiv:2604.00931
+      - ["LLMA-Mem: Memory Enabled Lifelong Learning in LLM Multi-Agent Systems"](concepts/agent-memory/continual-learning/llma-mem-scaling-teams-time-2604.03295.md) — arXiv:2604.03295
       - 多模态记忆: concepts/agent-memory/multimodal-memory/index.md
       - ["Lifelong Learning in VLMs: Enhanced EWC Cross-Modal"](concepts/agent-memory/continual-learning/lifelong-learning-vlm-cross-modal-2605.12789.md) — arXiv:2605.12789
+      - ["GSMem: 3D Gaussian Splatting as Persistent Spatial Memory for Embodied Agents"](concepts/agent-memory/multimodal-memory/gsmem-3dgs-spatial-memory-2603.19137.md) — arXiv:2603.19137
+      - ["SpaMEM: Benchmarking Dynamic Spatial Reasoning via Perception-Memory Integration"](concepts/agent-memory/multimodal-memory/spamem-spatial-belief-evolution-2604.22409.md) — arXiv:2604.22409
       - ["Secure Forgetting: Privacy-Driven Unlearning in LLM Agents"](concepts/agent-memory/memory-privacy/secure-forgetting-unlearning-2604.00430.md) — arXiv:2604.00430
       - ["TFGN: Task-Free, Replay-Free Continual Pre-Training"](concepts/agent-memory/continual-learning/tfgn-task-free-continual-pretraining-2605.15053.md) — arXiv:2605.15053
       - ["Forgetful but Faithful: Cognitive Memory for Privacy-Aware Agents"](concepts/agent-memory/memory-privacy/forgetful-but-faithful-2512.12856.md) — arXiv:2512.12856
