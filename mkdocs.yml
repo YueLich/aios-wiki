@@ -259,6 +259,10 @@ nav:
       - ["Geometry Conflict: Controlling Forgetting in LLM Continual Post-Training"](concepts/agent-memory/continual-learning/geometry-conflict-llm-continual-2605.09608.md) — arXiv:2605.09608
       - ["PsychAgent: Experience-Driven Lifelong Learning Agent for Psychological Counselor"](concepts/agent-memory/continual-learning/psychagent-experience-driven-lifelong-2604.00931.md) — arXiv:2604.00931
       - ["LLMA-Mem: Memory Enabled Lifelong Learning in LLM Multi-Agent Systems"](concepts/agent-memory/continual-learning/llma-mem-scaling-teams-time-2604.03295.md) — arXiv:2604.03295
+      - ["KAN-CL: Per-Knot Importance Regularization for Continual Learning"](concepts/agent-memory/continual-learning/kan-cl-per-knot-importance-2605.12306.md) — arXiv:2605.12306
+      - ["REMIX: Laplace Kernel for Data-Free Continual Learning"](concepts/agent-memory/continual-learning/remix-laplace-kernel-dfcil-2605.11804.md) — arXiv:2605.11804
+      - ["DHOCL: Dynamic Hierarchies for Online Continual Learning"](concepts/agent-memory/continual-learning/dhocl-dynamic-hierarchies-2605.11742.md) — arXiv:2605.11742
+      - ["CMKL: Modality-Aware Continual Learning for Biomedical KGs"](concepts/agent-memory/continual-learning/cmkl-modality-aware-kg-continual-2605.10510.md) — arXiv:2605.10510
       - 多模态记忆: concepts/agent-memory/multimodal-memory/index.md
       - ["Lifelong Learning in VLMs: Enhanced EWC Cross-Modal"](concepts/agent-memory/continual-learning/lifelong-learning-vlm-cross-modal-2605.12789.md) — arXiv:2605.12789
       - ["GSMem: 3D Gaussian Splatting as Persistent Spatial Memory for Embodied Agents"](concepts/agent-memory/multimodal-memory/gsmem-3dgs-spatial-memory-2603.19137.md) — arXiv:2603.19137
