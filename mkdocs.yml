@@ -237,6 +237,7 @@ nav:
       - ["RAM: Retrieval-Augmented Modeling for Relational Data Analytics"](concepts/agent-memory/memory-retrieval/ram-retrieval-augmented-modeling-2605.14464.md) — arXiv:2605.14464
       - ["Deepchecks: Evaluating RAG Applications"](concepts/agent-memory/memory-retrieval/deepchecks-rag-evaluation-2605.14488.md) — arXiv:2605.14488
       - ["Codebase-Memory: Tree-Sitter KG for LLM Code Exploration via MCP"](concepts/agent-memory/memory-retrieval/codebase-memory-kg-llm-2603.27277.md) — arXiv:2603.27277
+      - ["Mesh Memory Protocol: Semantic Infrastructure for Multi-Agent LLM Systems"](concepts/agent-memory/memory-retrieval/mesh-memory-protocol-2604.19540.md) — arXiv:2604.19540
       - 持续学习: concepts/agent-memory/continual-learning/index.md
       - ["Unlocking Compositional Generalization in Continual Few-Shot Learning"](continual-learning/unlock-compositional-generalization-2605.11710.md) — arXiv:2605.11710
       - ["SCM: Sleep-Consolidated Memory"](concepts/agent-memory/memory-compression/scm-sleep-consolidated-memory-2604.20943.md) — arXiv:2604.20943
