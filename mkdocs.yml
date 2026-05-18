@@ -242,6 +242,8 @@ nav:
       - ["DimMem: Dimensional Structuring for Long-Term Agent Memory"](concepts/agent-memory/memory-retrieval/dimmem-dimensional-structuring-memory-2605.15759.md) — arXiv:2605.15759
       - ["H-Mem: Hybrid Tree+KG Memory for Evolving Agent Memory"](concepts/agent-memory/memory-retrieval/h-mem-hybrid-tree-kg-memory-2605.15701.md) — arXiv:2605.15701
       - 持续学习: concepts/agent-memory/continual-learning/index.md
+      - ["RecMem: Recurrence-based Memory Consolidation"](concepts/agent-memory/memory-retrieval/recmem-recurrence-based-memory-2605.16045.md) — arXiv:2605.16045
+      - ["SMMBench: Source-Distributed Multimodal Agent Memory"](concepts/agent-memory/memory-retrieval/smmbench-source-distributed-multimodal-2605.15710.md) — arXiv:2605.15710
       - ["Unlocking Compositional Generalization in Continual Few-Shot Learning"](continual-learning/unlock-compositional-generalization-2605.11710.md) — arXiv:2605.11710
       - ["SCM: Sleep-Consolidated Memory"](concepts/agent-memory/memory-compression/scm-sleep-consolidated-memory-2604.20943.md) — arXiv:2604.20943
       - ["Useful Memories Become Faulty When Continuously Updated by LLMs"](concepts/agent-memory/memory-consolidation/useful-memories-become-faulty-2605.12978.md) — arXiv:2605.12978
