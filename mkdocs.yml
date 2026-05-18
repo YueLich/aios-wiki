@@ -238,6 +238,9 @@ nav:
       - ["Deepchecks: Evaluating RAG Applications"](concepts/agent-memory/memory-retrieval/deepchecks-rag-evaluation-2605.14488.md) — arXiv:2605.14488
       - ["Codebase-Memory: Tree-Sitter KG for LLM Code Exploration via MCP"](concepts/agent-memory/memory-retrieval/codebase-memory-kg-llm-2603.27277.md) — arXiv:2603.27277
       - ["Mesh Memory Protocol: Semantic Infrastructure for Multi-Agent LLM Systems"](concepts/agent-memory/memory-retrieval/mesh-memory-protocol-2604.19540.md) — arXiv:2604.19540
+      - ["FORGE: Self-Evolving Agent Memory via Population Broadcast"](concepts/agent-memory/memory-retrieval/forge-self-evolving-agent-memory-2605.16233.md) — arXiv:2605.16233
+      - ["DimMem: Dimensional Structuring for Long-Term Agent Memory"](concepts/agent-memory/memory-retrieval/dimmem-dimensional-structuring-memory-2605.15759.md) — arXiv:2605.15759
+      - ["H-Mem: Hybrid Tree+KG Memory for Evolving Agent Memory"](concepts/agent-memory/memory-retrieval/h-mem-hybrid-tree-kg-memory-2605.15701.md) — arXiv:2605.15701
       - 持续学习: concepts/agent-memory/continual-learning/index.md
       - ["Unlocking Compositional Generalization in Continual Few-Shot Learning"](continual-learning/unlock-compositional-generalization-2605.11710.md) — arXiv:2605.11710
       - ["SCM: Sleep-Consolidated Memory"](concepts/agent-memory/memory-compression/scm-sleep-consolidated-memory-2604.20943.md) — arXiv:2604.20943
@@ -264,6 +267,8 @@ nav:
       - ["REMIX: Laplace Kernel for Data-Free Continual Learning"](concepts/agent-memory/continual-learning/remix-laplace-kernel-dfcil-2605.11804.md) — arXiv:2605.11804
       - ["DHOCL: Dynamic Hierarchies for Online Continual Learning"](concepts/agent-memory/continual-learning/dhocl-dynamic-hierarchies-2605.11742.md) — arXiv:2605.11742
       - ["CMKL: Modality-Aware Continual Learning for Biomedical KGs"](concepts/agent-memory/continual-learning/cmkl-modality-aware-kg-continual-2605.10510.md) — arXiv:2605.10510
+      - ["SNV: Shapley Neuron Values for Continual Learning"](concepts/agent-memory/continual-learning/snv-shapley-neuron-continual-learning-2605.15877.md) — arXiv:2605.15877
+      - ["UAM: Dual-Stream VLA Forgetting"](concepts/agent-memory/continual-learning/uam-dual-stream-vla-forgetting-2605.15735.md) — arXiv:2605.15735
       - 多模态记忆: concepts/agent-memory/multimodal-memory/index.md
       - ["Lifelong Learning in VLMs: Enhanced EWC Cross-Modal"](concepts/agent-memory/continual-learning/lifelong-learning-vlm-cross-modal-2605.12789.md) — arXiv:2605.12789
       - ["GSMem: 3D Gaussian Splatting as Persistent Spatial Memory for Embodied Agents"](concepts/agent-memory/multimodal-memory/gsmem-3dgs-spatial-memory-2603.19137.md) — arXiv:2603.19137
@@ -283,6 +288,7 @@ nav:
       - 记忆安全: concepts/agent-memory/memory-security/index.md
       - ["Octopus: History-Free Gradient Orthogonalization for CL in MLLMs"](concepts/agent-memory/continual-learning/octopus-hifgo-continual-mllm-2605.14938.md) — arXiv:2605.14938
       - ["ShadowMerge: Poisoning Attack on Graph-Based Agent Memory"](concepts/agent-memory/memory-security/shadowmerge-poisoning-attack-graph-memory-2605.09033.md) — arXiv:2605.09033
+      - ["Sleeper Memory Poisoning: Hidden Memory Attacks on Stateful LLM Agents"](concepts/agent-memory/memory-security/sleeper-memory-poisoning-attack-2605.15338.md) — arXiv:2605.15338
     - 工具调用与执行:
       - 端侧 vs 云端 Agentic 工具调用: concepts/on-device-vs-cloud-agentic-tool-calling.md
       - Mobile-MCP Android 动态工具: concepts/mobile-mcp.md
