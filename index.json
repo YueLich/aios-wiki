@@ -1,5 +1,6 @@
 {
   "recently_processed_titles": [
+    "Continual Learning of Domain-Invariant Representations",
     "PyraVid: Hierarchical Multimodal Memory for Long-Horizon Video Reasoning",
     "Codebase-Memory: Tree-Sitter-Based Knowledge Graphs for LLM Code Exploration via MCP",
     "Not All Memories Age the Same: Autodiscovery of Adaptive Decay in Knowledge Graphs",
@@ -2296,6 +2297,19 @@
         "Riccardo Trivisonno",
         "Volker Tresp",
         "Yunpu Ma"
+      ]
+    },
+    "2605.15775": {
+      "title": "Continual Learning of Domain-Invariant Representations",
+      "authors": [
+        "Pascal Janetzky",
+        "Tobias Schlagenhauf",
+        "Stefan Feuerriegel"
+      ],
+      "date": "2026-05-15",
+      "tags": [
+        "continual-learning",
+        "domain-invariant-representation"
       ]
     }
   }

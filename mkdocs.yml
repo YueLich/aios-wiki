@@ -282,6 +282,7 @@ nav:
       - ["CMKL: Modality-Aware Continual Learning for Biomedical KGs"](concepts/agent-memory/continual-learning/cmkl-modality-aware-kg-continual-2605.10510.md) — arXiv:2605.10510
       - ["SNV: Shapley Neuron Values for Continual Learning"](concepts/agent-memory/continual-learning/snv-shapley-neuron-continual-learning-2605.15877.md) — arXiv:2605.15877
       - ["UAM: Dual-Stream VLA Forgetting"](concepts/agent-memory/continual-learning/uam-dual-stream-vla-forgetting-2605.15735.md) — arXiv:2605.15735
+      - ["Continual Learning of Domain-Invariant Representations"](concepts/agent-memory/continual-learning/domain-invariant-representation-continual-2605.15775.md) — arXiv:2605.15775
       - 多模态记忆: concepts/agent-memory/multimodal-memory/index.md
       - ["Anytime PAC-Bayes: Constrained Density-Ratio with CL Guarantees"](concepts/agent-memory/continual-learning/anytime-pacbayes-continual-2605.17212.md) — arXiv:2605.17212
       - ["Lost or Hidden: Concept-Level Forgetting in Supervised CL"](concepts/agent-memory/continual-learning/lost-or-hidden-concept-forgotten-2605.16374.md) — arXiv:2605.16374
