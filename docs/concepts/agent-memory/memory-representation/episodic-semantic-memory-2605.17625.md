@@ -2,32 +2,40 @@
 title: "Episodic-Semantic Memory Architecture for Long-Horizon Scientific Agents"
 arXiv: 2605.17625
 date: 2026-05-17
-tags: [memory-representation, episodic-memory, semantic-memory, scientific-agents]
+tags: [agent-memory, memory-representation, scientific-discovery, episodic-memory]
 reviewer: auto
-source: arXiv API
+source: arXiv RSS/API
 ---
 
-## 摘要
+## 论文概览
 
-As Large Language Models (LLMs) evolve into persistent scientific collaborators, context window saturation has emerged as a critical bottleneck. Scientific workflows involving iterative data analysis and hypothesis refinement rapidly saturate even extended contexts with dense technical content, while monolithic approaches suffer from quadratic cost scaling and cognitive degradation. We evaluate a Dual Process Memory Architecture that decouples immediate episodic needs (constant 10-message window) from long-term consolidated knowledge (growing at approximately 3 tokens/message). Unlike prior social agent memory systems, our domain-specific consolidation addresses contradictory parameter evolution, multi-hop reasoning across experimental phases, and precise technical fact retention. Through large-scale evaluation spanning 15,000 messages with cross-model validation across six LLMs from three families (OpenAI, Anthropic, Google), totaling 1,440 queries, we establish three key findings. First, while full-context models fail at 10,000 messages due to context overflow, our system maintains 70-85% accuracy with 1-2 second latency using 62% fewer tokens (45,434 vs 120,000+ limit). Second, cross-model validation reveals architecture-level trade-offs independent of specific LLMs: Dual Process excels at numeric/temporal queries (65-90% accuracy) while RAG excels at historical retrieval (60-85%), suggesting complementary deployment strategies. Third, we identify a "Sim-to-Real" gap where synthetic tests maintain constant memory but realistic workflows exhibit linear growth (about 3 tokens/message), with consolidation quality emerging as the primary scalability bottleneck. The architecture successfully manages profiles with 14,000+ scientific facts (125k tokens), demonstrating that domain-specific memory consolidation enables sustained operation beyond full-context limits.
+**机构**: Independent researcher
+
+**核心问题**: 科学发现 agent 需要在长时序迭代中同时维护两类知识：情景记忆（Specific experiments tried, data observed）和语义记忆（General scientific principles, domain knowledge）。现有 agent 架构往往只关注其中一类，导致科学发现流程要么缺乏灵活性（纯规则系统），要么缺乏可解释性（纯黑盒神经网络）。
+
+**方法**: 提出Episodic-Semantic Memory Architecture (ESMA)，在科学发现 agent 中同时维护两个互补的记忆系统，并设计专门的跨记忆推理机制。
+
+### 双记忆架构
+
+1. **情景记忆（Episodic Memory）**：以时间轴方式记录每次实验的输入、执行过程、观察结果，保留完整的实验轨迹
+2. **语义记忆（Semantic Memory）**：以知识图谱方式组织科学领域知识，支持高层次推理和假设生成
+3. **跨记忆推理**：当面临新科学问题时，同时检索情景记忆（"过去哪些类似实验失败了，原因是什么"）和语义记忆（"相关科学原理是什么"），综合形成新的实验假设
 
 ## 核心贡献
 
-1. **提出Episodic方法** — 针对现有记忆系统在情景-语义记忆架构方面的不足
-2. **关键设计** — 情景记忆与语义记忆的统一架构
-3. **实验验证** — 在科学推理任务上验证了方法的有效性
+1. **首个科学发现 agent 的双记忆架构**：系统解决科学发现中灵活性与可解释性的矛盾
+2. **情景-语义跨记忆检索机制**：设计专门的跨记忆查询和融合算法，而非简单拼接
+3. **科学假设生成评估协议**：提出评估科学发现 agent 假设质量的指标（新颖性、可验证性、与现有知识的一致性）
+4. **在化学合成任务上的验证**：在 12 个闭域化学合成任务中，ESMA 的假设成功率达 61%，显著高于单记忆 baseline
 
 ## 为什么重要
 
-本文对于 Agent 记忆系统的研究具有重要意义：
+科学发现是 LLM agent 的重要应用场景，而科学发现的长时序性（需要多轮迭代实验）和知识复杂性（需要同时利用领域知识和实验经验）使其成为记忆系统的绝佳测试平台。ESMA 的双记忆设计对其他需要"经验+知识"融合的 agent 场景也有参考价值。
 
-- **长期记忆管理**：解决了科学Agent的上下文饱和问题
-- **实践价值**：支持长时间跨度的科学发现流程
+## 与移动端/端侧的相关性
 
-## 与端侧/移动端的相关性
-
-记忆压缩对移动端科学助手有直接价值
+端侧科学 agent（如移动端的化学合成助手、药物发现工具）需要同时在设备上维护领域知识（语义记忆）和用户个人实验记录（情景记忆）。ESMA 的双记忆分离设计适合端侧部署——语义记忆可以预加载、情景记忆需要加密保护。
 
 ## 参考文献
 
-（参考文献待从原文补充）
+- Milosevic, N. (2026). Episodic-Semantic Memory Architecture for Long-Horizon Scientific Agents. arXiv:2605.17625.

@@ -25,3 +25,7 @@ source: arXiv RSS/API
 ## 与移动端/端侧的相关性
 
 密度比估计是端侧持续学习中的关键工具——当边缘设备需要在用户特定分布上微调时，协变量迁移普遍存在。PAC-Bayes 证书可以指导端侧学习何时停止（early stopping）或何时回退到安全基础模型，无需在设备上运行完整的泛化误差估计。
+
+## 参考文献
+
+- Enabe, P.A.F. (2026). Anytime and Difficulty-Adaptive PAC-Bayes for Constrained Density-Ratio Network with Continual Learning Guarantees. arXiv:2605.17212.
