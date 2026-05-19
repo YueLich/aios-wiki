@@ -281,6 +281,10 @@ nav:
       - ["SNV: Shapley Neuron Values for Continual Learning"](concepts/agent-memory/continual-learning/snv-shapley-neuron-continual-learning-2605.15877.md) — arXiv:2605.15877
       - ["UAM: Dual-Stream VLA Forgetting"](concepts/agent-memory/continual-learning/uam-dual-stream-vla-forgetting-2605.15735.md) — arXiv:2605.15735
       - 多模态记忆: concepts/agent-memory/multimodal-memory/index.md
+      - ["Anytime PAC-Bayes: Constrained Density-Ratio with CL Guarantees"](concepts/agent-memory/continual-learning/anytime-pacbayes-continual-2605.17212.md) — arXiv:2605.17212
+      - ["Lost or Hidden: Concept-Level Forgetting in Supervised CL"](concepts/agent-memory/continual-learning/lost-or-hidden-concept-forgotten-2605.16374.md) — arXiv:2605.16374
+      - ["KIT-TIP-NLP: Multilingual CL for Reclaimed Slur Detection"](concepts/agent-memory/continual-learning/kit-tip-nlp-multilingual-continual-2605.13415.md) — arXiv:2605.13415
+      - ["Scaling Few-Shot Spoken Word via Generative Meta-CL"](concepts/agent-memory/continual-learning/scaling-few-shot-spoken-gmcl-2605.13075.md) — arXiv:2605.13075
       - ["Lifelong Learning in VLMs: Enhanced EWC Cross-Modal"](concepts/agent-memory/continual-learning/lifelong-learning-vlm-cross-modal-2605.12789.md) — arXiv:2605.12789
       - ["GSMem: 3D Gaussian Splatting as Persistent Spatial Memory for Embodied Agents"](concepts/agent-memory/multimodal-memory/gsmem-3dgs-spatial-memory-2603.19137.md) — arXiv:2603.19137
       - ["SpaMEM: Benchmarking Dynamic Spatial Reasoning via Perception-Memory Integration"](concepts/agent-memory/multimodal-memory/spamem-spatial-belief-evolution-2604.22409.md) — arXiv:2604.22409
@@ -301,6 +305,8 @@ nav:
       - ["Defense Effectiveness across Architectural Layers: Memory Attacks on Stateful LLM Agents"](concepts/agent-memory/memory-privacy/defense-effectiveness-memory-attacks-2605.08442.md) — arXiv:2605.08442
       - ["State Contamination in Memory-Augmented LLM Agents"](concepts/agent-memory/memory-privacy/state-contamination-memory-2605.16746.md) — arXiv:2605.16746
       - ["Remembering More, Risking More: Longitudinal Safety Risks in Memory-Equipped LLM Agents"](concepts/agent-memory/memory-privacy/memory-safety-risks-2605.17830.md) — arXiv:2605.17830
+      - ["BLAgent: Agentic RAG for File-Level Bug Localization"](concepts/agent-memory/memory-retrieval/blagent-agentic-rag-bug-local-2605.17965.md) — arXiv:2605.17965
+      - ["SEMA-RAG: Self-Evolving Multi-Agent RAG for Medical Reasoning"](concepts/agent-memory/memory-retrieval/sema-rag-self-evolving-medical-2605.17101.md) — arXiv:2605.17101
       - 记忆安全: concepts/agent-memory/memory-security/index.md
       - ["Octopus: History-Free Gradient Orthogonalization for CL in MLLMs"](concepts/agent-memory/continual-learning/octopus-hifgo-continual-mllm-2605.14938.md) — arXiv:2605.14938
       - ["ShadowMerge: Poisoning Attack on Graph-Based Agent Memory"](concepts/agent-memory/memory-security/shadowmerge-poisoning-attack-graph-memory-2605.09033.md) — arXiv:2605.09033
