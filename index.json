@@ -85,7 +85,16 @@
     "Knowledge Beyond Language: Bridging the Gap in Multilingual Machine Unlearning Evaluation",
     "Understanding Imbalanced Forgetting in Rehearsal-Based Class-Incremental Learning",
     "CuSearch: Curriculum Rollout Sampling via Search Depth for Agentic RAG",
-    "Quantifiable Uncertainty: A Stochastic Consensus Multi-Agent RAG Framework for Robust Malware Detection"
+    "Quantifiable Uncertainty: A Stochastic Consensus Multi-Agent RAG Framework for Robust Malware Detection",
+    "AtlasVA: Self-Evolving Visual Skill Memory for Teacher-Free VLM Agents",
+    "NeuSymMS: A Hybrid Neuro-Symbolic Memory System for Persistent, Self-Curating LLM Agents",
+    "Causal Intervention-Based Memory Selection for Long-Horizon LLM Agents",
+    "Remembering More, Risking More: Longitudinal Safety Risks in Memory-Equipped LLM Agents",
+    "MemRepair: Hierarchical Memory for Agentic Repository-Level Vulnerability Repair",
+    "Episodic-Semantic Memory Architecture for Long-Horizon Scientific Agents",
+    "SE-GA: Memory-Augmented Self-Evolution for GUI Agents",
+    "Visual Agentic Memory: Enabling Online Long Video Understanding via Online Indexing, Hierarchical Memory, and Agentic Retrieval",
+    "State Contamination in Memory-Augmented LLM Agents"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -2195,6 +2204,81 @@
       "title": "Quantifiable Uncertainty: A Stochastic Consensus Multi-Agent RAG Framework for Robust Malware Detection",
       "authors": [
         "ElMouatez Billah Karbab"
+      ]
+    },
+    "2605.17933": {
+      "title": "AtlasVA: Self-Evolving Visual Skill Memory for Teacher-Free VLM Agents",
+      "authors": [
+        "Pan Wang",
+        "Yihao Hu",
+        "Xiujin Liu",
+        "Jingchu Yang",
+        "Hang Wang"
+      ]
+    },
+    "2605.17596": {
+      "title": "NeuSymMS: A Hybrid Neuro-Symbolic Memory System for Persistent, Self-Curating LLM Agents",
+      "authors": [
+        "Mujahid Sultan",
+        "Sri Thuraisamy",
+        "Daya Rajaratnam"
+      ]
+    },
+    "2605.17641": {
+      "title": "Causal Intervention-Based Memory Selection for Long-Horizon LLM Agents",
+      "authors": [
+        "Saksham Sahai Srivastava"
+      ]
+    },
+    "2605.17830": {
+      "title": "Remembering More, Risking More: Longitudinal Safety Risks in Memory-Equipped LLM Agents",
+      "authors": [
+        "Ahmad Al-Tawaha",
+        "Shangding Gu",
+        "Peizhi Niu",
+        "Ruoxi Jia",
+        "Ming Jin"
+      ]
+    },
+    "2605.17444": {
+      "title": "MemRepair: Hierarchical Memory for Agentic Repository-Level Vulnerability Repair",
+      "authors": [
+        "Simiao Liu",
+        "Li Zhang",
+        "Fang Liu",
+        "Xiaoli Lian",
+        "Yang Liu"
+      ]
+    },
+    "2605.17625": {
+      "title": "Episodic-Semantic Memory Architecture for Long-Horizon Scientific Agents",
+      "authors": [
+        "Nikola Milosevic"
+      ]
+    },
+    "2605.16883": {
+      "title": "SE-GA: Memory-Augmented Self-Evolution for GUI Agents",
+      "authors": [
+        "Shilong Jin",
+        "Lanjun Wang",
+        "Zhuosheng Zhang"
+      ]
+    },
+    "2605.16481": {
+      "title": "Visual Agentic Memory: Enabling Online Long Video Understanding via Online Indexing, Hierarchical Memory, and Agentic Retrieval",
+      "authors": [
+        "Aiden Yiliu Li",
+        "Nels Numan",
+        "Anthony Steed"
+      ]
+    },
+    "2605.16746": {
+      "title": "State Contamination in Memory-Augmented LLM Agents",
+      "authors": [
+        "Yian Wang",
+        "Agam Goyal",
+        "Yuen Chen",
+        "Hari Sundaram"
       ]
     }
   }
