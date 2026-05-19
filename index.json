@@ -1,5 +1,6 @@
 {
   "recently_processed_titles": [
+    "PyraVid: Hierarchical Multimodal Memory for Long-Horizon Video Reasoning",
     "Codebase-Memory: Tree-Sitter-Based Knowledge Graphs for LLM Code Exploration via MCP",
     "Not All Memories Age the Same: Autodiscovery of Adaptive Decay in Knowledge Graphs",
     "PREPING: Building Agent Memory without Tasks",
@@ -2279,6 +2280,22 @@
         "Agam Goyal",
         "Yuen Chen",
         "Hari Sundaram"
+      ]
+    },
+    "2605.17065": {
+      "title": "PyraVid: Hierarchical Multimodal Memory for Long-Horizon Video Reasoning",
+      "authors": [
+        "Sikuan Yan",
+        "Sicheng Dong",
+        "Haotong Wang",
+        "Ercong Nie",
+        "Yilun Liu",
+        "Jinhe Bi",
+        "Yingjie Xu",
+        "Susanna Schwarzmann",
+        "Riccardo Trivisonno",
+        "Volker Tresp",
+        "Yunpu Ma"
       ]
     }
   }

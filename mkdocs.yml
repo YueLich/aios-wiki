@@ -286,6 +286,7 @@ nav:
       - ["SpaMEM: Benchmarking Dynamic Spatial Reasoning via Perception-Memory Integration"](concepts/agent-memory/multimodal-memory/spamem-spatial-belief-evolution-2604.22409.md) — arXiv:2604.22409
       - ["Visual Agentic Memory: Online Long Video Understanding"](concepts/agent-memory/multimodal-memory/visual-agentic-memory-2605.16481.md) — arXiv:2605.16481
       - ["AtlasVA: Self-Evolving Visual Skill Memory for Teacher-Free VLM Agents"](concepts/agent-memory/multimodal-memory/atlasva-visual-skill-memory-2605.17933.md) — arXiv:2605.17933
+      - ["PyraVid: Hierarchical Multimodal Memory for Long-Horizon Video Reasoning"](concepts/agent-memory/multimodal-memory/pyravid-hierarchical-multimodal-memory-2605.17065.md) — arXiv:2605.17065
       - ["Secure Forgetting: Privacy-Driven Unlearning in LLM Agents"](concepts/agent-memory/memory-privacy/secure-forgetting-unlearning-2604.00430.md) — arXiv:2604.00430
       - ["TFGN: Task-Free, Replay-Free Continual Pre-Training"](concepts/agent-memory/continual-learning/tfgn-task-free-continual-pretraining-2605.15053.md) — arXiv:2605.15053
       - ["Forgetful but Faithful: Cognitive Memory for Privacy-Aware Agents"](concepts/agent-memory/memory-privacy/forgetful-but-faithful-2512.12856.md) — arXiv:2512.12856
