@@ -240,6 +240,10 @@ nav:
       - ["RAM: Retrieval-Augmented Modeling for Relational Data Analytics"](concepts/agent-memory/memory-retrieval/ram-retrieval-augmented-modeling-2605.14464.md) — arXiv:2605.14464
       - ["Deepchecks: Evaluating RAG Applications"](concepts/agent-memory/memory-retrieval/deepchecks-rag-evaluation-2605.14488.md) — arXiv:2605.14488
       - ["Codebase-Memory: Tree-Sitter KG for LLM Code Exploration via MCP"](concepts/agent-memory/memory-retrieval/codebase-memory-kg-llm-2603.27277.md) — arXiv:2603.27277
+      - ["Robo-Cortex: Dual-Grain Cognitive Memory"](concepts/agent-memory/memory-retrieval/robo-cortex-dual-grain-memory-2605.18729.md) — arXiv:2605.18729
+      - ["MementoGUI: Multimodal Memory for GUI Agents"](concepts/agent-memory/memory-retrieval/mementogui-multimodal-memory-gui-2605.18652.md) — arXiv:2605.18652
+      - ["LongMINT: Memory under Multi-Target Interference"](concepts/agent-memory/memory-retrieval/longmint-memory-interference-2605.18565.md) — arXiv:2605.18565
+      - ["EvoMemBench: Self-Evolving Memory Benchmark"](concepts/agent-memory/memory-retrieval/evomembench-self-evolving-memory-2605.18421.md) — arXiv:2605.18421
       - ["Mesh Memory Protocol: Semantic Infrastructure for Multi-Agent LLM Systems"](concepts/agent-memory/memory-retrieval/mesh-memory-protocol-2604.19540.md) — arXiv:2604.19540
       - ["FORGE: Self-Evolving Agent Memory via Population Broadcast"](concepts/agent-memory/memory-retrieval/forge-self-evolving-agent-memory-2605.16233.md) — arXiv:2605.16233
       - ["DimMem: Dimensional Structuring for Long-Term Agent Memory"](concepts/agent-memory/memory-retrieval/dimmem-dimensional-structuring-memory-2605.15759.md) — arXiv:2605.15759
