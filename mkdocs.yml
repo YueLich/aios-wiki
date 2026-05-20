@@ -249,6 +249,9 @@ nav:
       - ["FORGE: Self-Evolving Agent Memory via Population Broadcast"](concepts/agent-memory/memory-retrieval/forge-self-evolving-agent-memory-2605.16233.md) — arXiv:2605.16233
       - ["DimMem: Dimensional Structuring for Long-Term Agent Memory"](concepts/agent-memory/memory-retrieval/dimmem-dimensional-structuring-memory-2605.15759.md) — arXiv:2605.15759
       - ["H-Mem: Hybrid Tree+KG Memory for Evolving Agent Memory"](concepts/agent-memory/memory-retrieval/h-mem-hybrid-tree-kg-memory-2605.15701.md) — arXiv:2605.15701
+      - ["TriMem: Beyond Atomic Facts in Lifelong Agent Memory"](concepts/agent-memory/memory-retrieval/trimem-triple-memory-representation-2605.19952.md) — arXiv:2605.19952
+      - ["Memory-Augmented RL Agent for CAD Generation"](concepts/agent-memory/memory-retrieval/memory-augmented-rl-cad-generation-2605.19748.md) — arXiv:2605.19748
+      - ["MMoA: Recurrent Memoried Mixture-of-Agent"](concepts/agent-memory/memory-retrieval/mmoa-recurrent-mixture-of-agents-2605.19194.md) — arXiv:2605.19194
       - ["Causal Intervention-Based Memory Selection for Long-Horizon LLM Agents"](concepts/agent-memory/memory-retrieval/causal-memory-selection-2605.17641.md) — arXiv:2605.17641
       - 持续学习: concepts/agent-memory/continual-learning/index.md
       - ["NGM: Plug-and-Play Training-Free Memory Module for LLMs"](concepts/agent-memory/memory-compression/ngm-plug-and-play-memory-2605.16893.md) — arXiv:2605.16893
