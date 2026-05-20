@@ -1,5 +1,7 @@
 {
   "recently_processed_titles": [
+    "GRID: Graph Representation of Intelligence Data for Security Text Knowledge Graph Construction",
+    "RAGA: Reading-And-Graph-building-Agent for Autonomous Knowledge Graph Construction and Retrieval-Augmented Generation",
     "MMoA: An AI-Agent Framework with Recurrence for Memoried Mixture-of-Agents",
     "Memory-Augmented Reinforcement Learning Agent for CAD Generation",
     "Rethinking How to Remember: Beyond Atomic Facts in Lifelong Language Learning",
@@ -2413,6 +2415,40 @@
         "Eugene Cheah"
       ],
       "category": "cs.LG"
+    },
+    "2605.17072": {
+      "title": "RAGA: Reading-And-Graph-building-Agent for Autonomous Knowledge Graph Construction and Retrieval-Augmented Generation",
+      "authors": [
+        "Chengrui Han",
+        "Zesheng Cheng"
+      ],
+      "date": "2026-05-16",
+      "tags": [
+        "agent-memory",
+        "memory-representation",
+        "knowledge-graph",
+        "RAG"
+      ]
+    },
+    "2605.16714": {
+      "title": "GRID: Graph Representation of Intelligence Data for Security Text Knowledge Graph Construction",
+      "authors": [
+        "Liangyi Huang",
+        "Zichen Liu",
+        "Fei Shao",
+        "Shang Ma",
+        "Mengshi Zhang",
+        "Zihao Chen",
+        "Yanfang Ye",
+        "Xusheng Xiao"
+      ],
+      "date": "2026-05-15",
+      "tags": [
+        "agent-memory",
+        "memory-representation",
+        "knowledge-graph",
+        "security"
+      ]
     }
   }
 }

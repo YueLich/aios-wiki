@@ -209,6 +209,8 @@ nav:
       - ["Remember Your Trace: Memory-Guided Code Documentation"](concepts/agent-memory/memory-representation/remember-your-trace-2605.14563.md) — arXiv:2605.14563
       - ["Episodic-Semantic Memory Architecture for Long-Horizon Scientific Agents"](concepts/agent-memory/memory-representation/episodic-semantic-memory-2605.17625.md) — arXiv:2605.17625
       - ["MemRepair: Hierarchical Memory for Agentic Repository-Level Vulnerability Repair"](concepts/agent-memory/memory-representation/memrepair-hierarchical-memory-2605.17444.md) — arXiv:2605.17444
+      - ["GRID: Security Text Knowledge Graph Construction for Agent Memory"](concepts/agent-memory/memory-representation/grid-security-knowledge-graph-2605.16714.md) — arXiv:2605.16714
+      - ["RAGA: Autonomous KG Construction and RAG for Agent Memory"](concepts/agent-memory/memory-representation/raga-autonomous-kg-rag-2605.17072.md) — arXiv:2605.17072
       - ["MEMOIR: Memory-Guided Tree Search for LLM Solver Synthesis"](concepts/agent-memory/memory-retrieval/memooir-memory-tree-search-2605.17539.md) — arXiv:2605.17539
       - ["NeuSymMS: Hybrid Neuro-Symbolic Memory System"](concepts/agent-memory/memory-representation/neusymms-neurosymbolic-memory-2605.17596.md) — arXiv:2605.17596
       - ["Retrieve-then-Steer: Online Success Memory for Test-Time Adaptation of Generative VLAs"](memory-retrieval/retrieve-then-steer-success-memory-2605.10094.md) — arXiv:2605.10094
