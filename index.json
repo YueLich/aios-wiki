@@ -2371,6 +2371,14 @@
         "agent-memory",
         "multiagent-memory"
       ]
-    }
+    },
+    "2604.13725": "On the Effectiveness of Context Compression for Repository-Level Tasks",
+    "2604.19572": "A Self-Evolving Framework for Efficient Terminal Agents via Observational Context Compression",
+    "2604.23277": "From Similarity to Structure: Training-free LLM Context Compression with Hybrid Graph Priors",
+    "2604.26968": "Predictive Multi-Tier Memory Management for KV Cache in Large-Scale GPU Inference",
+    "2605.09463": "Beyond Position Bias: Shifting Context Compression from Position-Driven to Semantic-Driven",
+    "2605.11051": "On Problems of Implicit Context Compression for Software Engineering Agents",
+    "2605.17304": "Compress the Context, Keep the Commitments: A Formal Framework for Verifiable LLM Context Compression",
+    "2605.18854": "Evaluating Memory Condensation Strategies for Coding Agents in Data-Driven Scientific Discovery"
   }
 }
