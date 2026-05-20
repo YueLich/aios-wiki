@@ -102,7 +102,10 @@
     "MemRepair: Hierarchical Memory for Agentic Repository-Level Vulnerability Repair",
     "Episodic-Semantic Memory Architecture for Long-Horizon Scientific Agents",
     "SE-GA: Memory-Augmented Self-Evolution for GUI Agents",
-    "Visual Agentic Memory: Enabling Online Long Video Understanding via Online Indexing, Hierarchical Memory, and Agentic Retrieval"
+    "Visual Agentic Memory: Enabling Online Long Video Understanding via Online Indexing, Hierarchical Memory, and Agentic Retrieval",
+    "Continual Fine-Tuning of Large Language Models via Program Memory",
+    "ECHO: Continuous Hierarchical Memory for Vision-Language-Action Models",
+    "Key-Value Means: Transformers with Expandable Block-Recurrent Compressed Memory"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -2379,6 +2382,37 @@
     "2605.09463": "Beyond Position Bias: Shifting Context Compression from Position-Driven to Semantic-Driven",
     "2605.11051": "On Problems of Implicit Context Compression for Software Engineering Agents",
     "2605.17304": "Compress the Context, Keep the Commitments: A Formal Framework for Verifiable LLM Context Compression",
-    "2605.18854": "Evaluating Memory Condensation Strategies for Coding Agents in Data-Driven Scientific Discovery"
+    "2605.18854": "Evaluating Memory Condensation Strategies for Coding Agents in Data-Driven Scientific Discovery",
+    "2605.13162": {
+      "title": "Continual Fine-Tuning of Large Language Models via Program Memory",
+      "authors": [
+        "Hung Le",
+        "Svetha Venkatesh"
+      ],
+      "category": "cs.LG"
+    },
+    "2605.10993": {
+      "title": "ECHO: Continuous Hierarchical Memory for Vision-Language-Action Models",
+      "authors": [
+        "Yanbin Hu",
+        "Jin Cui",
+        "Jiayi Lu",
+        "Ruixuan Yang",
+        "Jun Ye",
+        "Boran Zhao",
+        "Xingyu Chen",
+        "Xuguang Lan",
+        "Pengju Ren"
+      ],
+      "category": "cs.RO"
+    },
+    "2605.09877": {
+      "title": "Key-Value Means: Transformers with Expandable Block-Recurrent Compressed Memory",
+      "authors": [
+        "Daniel Goldstein",
+        "Eugene Cheah"
+      ],
+      "category": "cs.LG"
+    }
   }
 }

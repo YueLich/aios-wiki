@@ -262,6 +262,8 @@ nav:
       - ["Useful Memories Become Faulty When Continuously Updated by LLMs"](concepts/agent-memory/memory-consolidation/useful-memories-become-faulty-2605.12978.md) — arXiv:2605.12978
       - ["DeMem: Remember the Decision, Not the Description - Rate-Distortion Agent Memory"](concepts/agent-memory/memory-compression/demem-decision-centric-memory-2605.10870.md) — arXiv:2605.10870
       - ["Human-Inspired Memory Architecture for LLM Agents"](concepts/agent-memory/memory-compression/human-inspired-2605.08538.md) — arXiv:2605.08538
+      - ["ProCL: Program Memory for Continual LoRA Fine-Tuning"](concepts/agent-memory/memory-compression/procl-program-memory-2605.13162.md) — arXiv:2605.13162
+      - ["KVM: Block-Recurrent Compressed Memory for Transformers"](concepts/agent-memory/memory-compression/kvm-block-recurrent-compressed-memory-2605.09877.md) — arXiv:2605.09877
       - ["FadeMem: Biologically-Inspired Forgetting"](concepts/agent-memory/memory-compression/fademem-biologically-inspired-2601.18642.md) — arXiv:2601.18642
       - ["RISE: Zeroth-Order Adaptation May Forget Less"](concepts/agent-memory/memory-compression/rise-zeroth-order-2605.10658.md) — arXiv:2605.10658
       - ["SE-GA: Memory-Augmented Self-Evolution for GUI Agents"](concepts/agent-memory/memory-compression/se-ga-memory-self-evolution-2605.16883.md) — arXiv:2605.16883
@@ -309,6 +311,7 @@ nav:
       - ["Visual Agentic Memory: Online Long Video Understanding"](concepts/agent-memory/multimodal-memory/visual-agentic-memory-2605.16481.md) — arXiv:2605.16481
       - ["AtlasVA: Self-Evolving Visual Skill Memory for Teacher-Free VLM Agents"](concepts/agent-memory/multimodal-memory/atlasva-visual-skill-memory-2605.17933.md) — arXiv:2605.17933
       - ["PyraVid: Hierarchical Multimodal Memory for Long-Horizon Video Reasoning"](concepts/agent-memory/multimodal-memory/pyravid-hierarchical-multimodal-memory-2605.17065.md) — arXiv:2605.17065
+      - ["ECHO: Continuous Hierarchical Memory for VLA Models"](concepts/agent-memory/multimodal-memory/echo-continuous-hierarchical-memory-2605.10993.md) — arXiv:2605.10993
       - ["Secure Forgetting: Privacy-Driven Unlearning in LLM Agents"](concepts/agent-memory/memory-privacy/secure-forgetting-unlearning-2604.00430.md) — arXiv:2604.00430
       - ["TFGN: Task-Free, Replay-Free Continual Pre-Training"](concepts/agent-memory/continual-learning/tfgn-task-free-continual-pretraining-2605.15053.md) — arXiv:2605.15053
       - ["Forgetful but Faithful: Cognitive Memory for Privacy-Aware Agents"](concepts/agent-memory/memory-privacy/forgetful-but-faithful-2512.12856.md) — arXiv:2512.12856
