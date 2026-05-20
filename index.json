@@ -1,5 +1,8 @@
 {
   "recently_processed_titles": [
+    "MMoA: An AI-Agent Framework with Recurrence for Memoried Mixture-of-Agents",
+    "Memory-Augmented Reinforcement Learning Agent for CAD Generation",
+    "Rethinking How to Remember: Beyond Atomic Facts in Lifelong Language Learning",
     "Reasoning Portability: Guiding Continual Learning for MLLMs in the RLVR Era",
     "MANGO: Meta-Adaptive Network Gradient Optimization for Online Continual Learning",
     "On-Device Continual Learning with Dual-Stage Buffer and Dynamic Loss for Point-of-Care Pneumonia Diagnosis",
@@ -2343,6 +2346,30 @@
         "Qiuhe Liu",
         "Yuyang Liu",
         "Shuo Yang"
+      ]
+    },
+    "2605.19952": {
+      "title": "Rethinking How to Remember: Beyond Atomic Facts in Lifelong Language Learning",
+      "date": "2026-05-20",
+      "tags": [
+        "agent-memory",
+        "continual-learning"
+      ]
+    },
+    "2605.19748": {
+      "title": "Memory-Augmented Reinforcement Learning Agent for CAD Generation",
+      "date": "2026-05-20",
+      "tags": [
+        "agent-memory",
+        "memory-retrieval"
+      ]
+    },
+    "2605.19194": {
+      "title": "MMoA: An AI-Agent Framework with Recurrence for Memoried Mixture-of-Agents",
+      "date": "2026-05-20",
+      "tags": [
+        "agent-memory",
+        "multiagent-memory"
       ]
     }
   }
