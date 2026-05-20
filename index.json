@@ -1,5 +1,9 @@
 {
   "recently_processed_titles": [
+    "Reasoning Portability: Guiding Continual Learning for MLLMs in the RLVR Era",
+    "MANGO: Meta-Adaptive Network Gradient Optimization for Online Continual Learning",
+    "On-Device Continual Learning with Dual-Stage Buffer and Dynamic Loss for Point-of-Care Pneumonia Diagnosis",
+    "iGSP: Implicit Gradient Subspace Projection for Efficient Continual Learning of Vision-Language Models",
     "Continual Learning of Domain-Invariant Representations",
     "PyraVid: Hierarchical Multimodal Memory for Long-Horizon Video Reasoning",
     "Codebase-Memory: Tree-Sitter-Based Knowledge Graphs for LLM Code Exploration via MCP",
@@ -95,8 +99,7 @@
     "MemRepair: Hierarchical Memory for Agentic Repository-Level Vulnerability Repair",
     "Episodic-Semantic Memory Architecture for Long-Horizon Scientific Agents",
     "SE-GA: Memory-Augmented Self-Evolution for GUI Agents",
-    "Visual Agentic Memory: Enabling Online Long Video Understanding via Online Indexing, Hierarchical Memory, and Agentic Retrieval",
-    "State Contamination in Memory-Augmented LLM Agents"
+    "Visual Agentic Memory: Enabling Online Long Video Understanding via Online Indexing, Hierarchical Memory, and Agentic Retrieval"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -2310,6 +2313,36 @@
       "tags": [
         "continual-learning",
         "domain-invariant-representation"
+      ]
+    },
+    "2605.19301": {
+      "title": "iGSP: Implicit Gradient Subspace Projection for Efficient Continual Learning of Vision-Language Models",
+      "authors": [
+        "Xuezhi Cui",
+        "Dongbo Zhou",
+        "Wang Guo"
+      ]
+    },
+    "2605.19201": {
+      "title": "On-Device Continual Learning with Dual-Stage Buffer and Dynamic Loss for Point-of-Care Pneumonia Diagnosis",
+      "authors": [
+        "Danu Kim"
+      ]
+    },
+    "2605.19080": {
+      "title": "MANGO: Meta-Adaptive Network Gradient Optimization for Online Continual Learning",
+      "authors": [
+        "Ankita Awasthi",
+        "Marco Apolinario",
+        "Kaushik Roy"
+      ]
+    },
+    "2605.18903": {
+      "title": "Reasoning Portability: Guiding Continual Learning for MLLMs in the RLVR Era",
+      "authors": [
+        "Qiuhe Liu",
+        "Yuyang Liu",
+        "Shuo Yang"
       ]
     }
   }
