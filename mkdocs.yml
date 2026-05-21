@@ -250,6 +250,8 @@ nav:
       - ["MementoGUI: Multimodal Memory for GUI Agents"](concepts/agent-memory/memory-retrieval/mementogui-multimodal-memory-gui-2605.18652.md) — arXiv:2605.18652
       - ["LongMINT: Memory under Multi-Target Interference"](concepts/agent-memory/memory-retrieval/longmint-memory-interference-2605.18565.md) — arXiv:2605.18565
       - ["EvoMemBench: Self-Evolving Memory Benchmark"](concepts/agent-memory/memory-retrieval/evomembench-self-evolving-memory-2605.18421.md) — arXiv:2605.18421
+      - ["MemConflict: Evaluating Long-Term Memory Systems Under Memory Conflicts"](concepts/agent-memory/memory-retrieval/memconflict-memory-conflict-2605.20926.md) — arXiv:2605.20926
+      - ["SocialMemBench: Are AI Memory Systems Ready for Social Group Settings?"](concepts/agent-memory/memory-retrieval/socialmembench-social-group-memory-2605.17789.md) — arXiv:2605.17789
       - ["Mesh Memory Protocol: Semantic Infrastructure for Multi-Agent LLM Systems"](concepts/agent-memory/memory-retrieval/mesh-memory-protocol-2604.19540.md) — arXiv:2604.19540
       - ["FORGE: Self-Evolving Agent Memory via Population Broadcast"](concepts/agent-memory/memory-retrieval/forge-self-evolving-agent-memory-2605.16233.md) — arXiv:2605.16233
       - ["DimMem: Dimensional Structuring for Long-Term Agent Memory"](concepts/agent-memory/memory-retrieval/dimmem-dimensional-structuring-memory-2605.15759.md) — arXiv:2605.15759
