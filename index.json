@@ -1,5 +1,6 @@
 {
   "recently_processed_titles": [
+    "Tunable MAGMAX: Preference-Aware Model Merging for Continual Learning",
     "GRID: Graph Representation of Intelligence Data for Security Text Knowledge Graph Construction",
     "RAGA: Reading-And-Graph-building-Agent for Autonomous Knowledge Graph Construction and Retrieval-Augmented Generation",
     "MMoA: An AI-Agent Framework with Recurrence for Memoried Mixture-of-Agents",
@@ -2455,6 +2456,7 @@
     "2605.20348": "Memory-Induced Supra-Competitive Outcomes Between Deep Reinforcement Learning Agents in Optimal Trade Execution",
     "2605.20247": "CP-MoE: Consistency-Preserving Mixture-of-Experts for Continual Learning",
     "2605.17729": "Domain Incremental Learning for Pandemic-Resilient Chest X-Ray Analysis",
-    "2605.17571": "Stable Routing for Mixture-of-Experts in Class-Incremental Learning"
+    "2605.17571": "Stable Routing for Mixture-of-Experts in Class-Incremental Learning",
+    "2605.20803": "Tunable MAGMAX: Preference-Aware Model Merging for Continual Learning"
   }
 }

@@ -312,6 +312,7 @@ nav:
       - ["PneumoNet: On-Device CL for Point-of-Care Pneumonia Diagnosis"](concepts/agent-memory/continual-learning/pneumonet-ondevice-2605.19201.md) — arXiv:2605.19201
       - ["MANGO: Meta-Adaptive Network Gradient for Online CL"](concepts/agent-memory/continual-learning/mango-meta-adaptive-2605.19080.md) — arXiv:2605.19080
       - ["Reasoning Portability: Guiding CL for MLLMs in RLVR Era"](concepts/agent-memory/continual-learning/reasoning-portability-2605.18903.md) — arXiv:2605.18903
+      - ["Tunable MAGMAX: Preference-Aware Model Merging for CL"](concepts/agent-memory/continual-learning/tunable-magmax-preference-aware-2605.20803.md) — arXiv:2605.20803
       - ["Lost or Hidden: Concept-Level Forgetting in Supervised CL"](concepts/agent-memory/continual-learning/lost-or-hidden-concept-forgotten-2605.16374.md) — arXiv:2605.16374
       - ["KIT-TIP-NLP: Multilingual CL for Reclaimed Slur Detection"](concepts/agent-memory/continual-learning/kit-tip-nlp-multilingual-continual-2605.13415.md) — arXiv:2605.13415
       - ["Scaling Few-Shot Spoken Word via Generative Meta-CL"](concepts/agent-memory/continual-learning/scaling-few-shot-spoken-gmcl-2605.13075.md) — arXiv:2605.13075
