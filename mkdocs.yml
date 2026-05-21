@@ -312,6 +312,8 @@ nav:
       - ["PneumoNet: On-Device CL for Point-of-Care Pneumonia Diagnosis"](concepts/agent-memory/continual-learning/pneumonet-ondevice-2605.19201.md) — arXiv:2605.19201
       - ["MANGO: Meta-Adaptive Network Gradient for Online CL"](concepts/agent-memory/continual-learning/mango-meta-adaptive-2605.19080.md) — arXiv:2605.19080
       - ["Reasoning Portability: Guiding CL for MLLMs in RLVR Era"](concepts/agent-memory/continual-learning/reasoning-portability-2605.18903.md) — arXiv:2605.18903
+      - ["PMF-CL: Pareto-Minimal-Forgetting Continual Learner"](concepts/agent-memory/continual-learning/pmfcl-pareto-minimal-forgetting-2605.19145.md) — arXiv:2605.19145
+      - ["FINCH: Fine-Tuning Without Forgetting via Loss-Adaptive LR"](concepts/agent-memory/continual-learning/finch-loss-adaptive-finetuning-2605.20005.md) — arXiv:2605.20005
       - ["Tunable MAGMAX: Preference-Aware Model Merging for CL"](concepts/agent-memory/continual-learning/tunable-magmax-preference-aware-2605.20803.md) — arXiv:2605.20803
       - ["Lost or Hidden: Concept-Level Forgetting in Supervised CL"](concepts/agent-memory/continual-learning/lost-or-hidden-concept-forgotten-2605.16374.md) — arXiv:2605.16374
       - ["KIT-TIP-NLP: Multilingual CL for Reclaimed Slur Detection"](concepts/agent-memory/continual-learning/kit-tip-nlp-multilingual-continual-2605.13415.md) — arXiv:2605.13415
@@ -323,6 +325,9 @@ nav:
       - ["AtlasVA: Self-Evolving Visual Skill Memory for Teacher-Free VLM Agents"](concepts/agent-memory/multimodal-memory/atlasva-visual-skill-memory-2605.17933.md) — arXiv:2605.17933
       - ["PyraVid: Hierarchical Multimodal Memory for Long-Horizon Video Reasoning"](concepts/agent-memory/multimodal-memory/pyravid-hierarchical-multimodal-memory-2605.17065.md) — arXiv:2605.17065
       - ["ECHO: Continuous Hierarchical Memory for VLA Models"](concepts/agent-memory/multimodal-memory/echo-continuous-hierarchical-memory-2605.10993.md) — arXiv:2605.10993
+      - ["OSGNet+MLLM: Ego4D Episodic Memory Challenge 2026"](concepts/agent-memory/multimodal-memory/osgnet-ego4d-episodic-memory-2605.20818.md) — arXiv:2605.20818
+      - ["FlexMem: Scaling Long Video Understanding via Visual Memory"](concepts/agent-memory/multimodal-memory/flexmem-visual-memory-long-video-2603.29252.md) — arXiv:2603.29252
+      - ["CurveStream: Curvature-Aware Hierarchical Visual Memory"](concepts/agent-memory/multimodal-memory/curvestream-visual-memory-streaming-2603.19571.md) — arXiv:2603.19571
       - ["Secure Forgetting: Privacy-Driven Unlearning in LLM Agents"](concepts/agent-memory/memory-privacy/secure-forgetting-unlearning-2604.00430.md) — arXiv:2604.00430
       - ["TFGN: Task-Free, Replay-Free Continual Pre-Training"](concepts/agent-memory/continual-learning/tfgn-task-free-continual-pretraining-2605.15053.md) — arXiv:2605.15053
       - ["Forgetful but Faithful: Cognitive Memory for Privacy-Aware Agents"](concepts/agent-memory/memory-privacy/forgetful-but-faithful-2512.12856.md) — arXiv:2512.12856

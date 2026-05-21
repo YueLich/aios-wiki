@@ -108,7 +108,12 @@
     "Visual Agentic Memory: Enabling Online Long Video Understanding via Online Indexing, Hierarchical Memory, and Agentic Retrieval",
     "Continual Fine-Tuning of Large Language Models via Program Memory",
     "ECHO: Continuous Hierarchical Memory for Vision-Language-Action Models",
-    "Key-Value Means: Transformers with Expandable Block-Recurrent Compressed Memory"
+    "Key-Value Means: Transformers with Expandable Block-Recurrent Compressed Memory",
+    "OSGNet with MLLM Reranking @ Ego4D Episodic Memory Challenge 2026",
+    "Fine-Tuning Without Forgetting via Loss-Adaptive Learning Rates",
+    "PMF-CL: Pareto-Minimal-Forgetting Continual Learner for Conflicting Tasks",
+    "CurveStream: Boosting Streaming Video Understanding in MLLMs via Curvature-Aware Hierarchical Visual Memory Management",
+    "Scaling Long Video Understanding via Visual Memory Mechanism"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -2457,6 +2462,26 @@
     "2605.20247": "CP-MoE: Consistency-Preserving Mixture-of-Experts for Continual Learning",
     "2605.17729": "Domain Incremental Learning for Pandemic-Resilient Chest X-Ray Analysis",
     "2605.17571": "Stable Routing for Mixture-of-Experts in Class-Incremental Learning",
-    "2605.20803": "Tunable MAGMAX: Preference-Aware Model Merging for Continual Learning"
+    "2605.20803": "Tunable MAGMAX: Preference-Aware Model Merging for Continual Learning",
+    "2605.20818": {
+      "title": "OSGNet with MLLM Reranking @ Ego4D Episodic Memory Challenge 2026",
+      "date": "2026-05-21"
+    },
+    "2605.20005": {
+      "title": "Fine-Tuning Without Forgetting via Loss-Adaptive Learning Rates",
+      "date": "2026-05-21"
+    },
+    "2605.19145": {
+      "title": "PMF-CL: Pareto-Minimal-Forgetting Continual Learner for Conflicting Tasks",
+      "date": "2026-05-21"
+    },
+    "2603.19571": {
+      "title": "CurveStream: Boosting Streaming Video Understanding in MLLMs via Curvature-Aware Hierarchical Visual Memory Management",
+      "date": "2026-05-21"
+    },
+    "2603.29252": {
+      "title": "Scaling Long Video Understanding via Visual Memory Mechanism",
+      "date": "2026-05-21"
+    }
   }
 }
