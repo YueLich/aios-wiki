@@ -2449,6 +2449,12 @@
         "knowledge-graph",
         "security"
       ]
-    }
+    },
+    "2605.20833": "MemGym: a Long-Horizon Memory Environment for LLM Agents",
+    "2605.20616": "Auto-Dreamer: Learning Offline Memory Consolidation for Language Agents",
+    "2605.20348": "Memory-Induced Supra-Competitive Outcomes Between Deep Reinforcement Learning Agents in Optimal Trade Execution",
+    "2605.20247": "CP-MoE: Consistency-Preserving Mixture-of-Experts for Continual Learning",
+    "2605.17729": "Domain Incremental Learning for Pandemic-Resilient Chest X-Ray Analysis",
+    "2605.17571": "Stable Routing for Mixture-of-Experts in Class-Incremental Learning"
   }
 }

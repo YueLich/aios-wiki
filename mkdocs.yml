@@ -217,6 +217,9 @@ nav:
       - ["NanoResearch: Personalized Research with Co-Evolving Memory"](concepts/agent-memory/memory-retrieval/nanoresearch-personalized-research-2605.10813.md) — arXiv:2605.10813
       - ["LongMemEval-V2: Evaluating Long-Term Agent Memory Toward Experienced Colleagues"](concepts/agent-memory/memory-retrieval/longmemeval-v2-2605.12493.md) — arXiv:2605.12493
       - ["PRISM: Pareto-Efficient Retrieval over Intent-Aware Structured Memory"](concepts/agent-memory/memory-retrieval/prism-pareto-efficient-intent-aware-memory-2605.12260.md) — arXiv:2605.12260
+      - ["MemGym: Long-Horizon Memory Environment for LLM Agents"](concepts/agent-memory/memory-retrieval/memgym-long-horizon-memory-2605.20833.md) — arXiv:2605.20833
+      - ["Auto-Dreamer: Offline Memory Consolidation for Language Agents"](concepts/agent-memory/memory-retrieval/auto-dreamer-offline-memory-2605.20616.md) — arXiv:2605.20616
+      - ["Memory-Induced Supra-Competitive Outcomes in DRL Agents"](concepts/agent-memory/memory-retrieval/memory-supra-competitive-rl-2605.20348.md) — arXiv:2605.20348
       - ["Goal-Mem: Goal-Oriented Reasoning for RAG-based Memory in Conversational Agentic LLM Systems"](concepts/agent-memory/memory-retrieval/goal-mem-rag-memory-2605.12213.md) — arXiv:2605.12213
       - ["MedMemoryBench: Benchmarking Agent Memory in Personalized Healthcare"](concepts/agent-memory/memory-retrieval/medmemorybench-benchmark-2605.11814.md) — arXiv:2605.11814
       - ["MemReread: Enhancing Agentic Long-Context Reasoning via Memory-Guided Rereading"](concepts/agent-memory/memory-retrieval/memreread-2605.10268.md) — arXiv:2605.10268
@@ -280,6 +283,9 @@ nav:
       - ["Learning Fast and Slow: Towards LLMs That Adapt Continually"](continual-learning/fast-slow-llm-continual-adaptation-2605.12484.md) — arXiv:2605.12484
       - ["MIST: Streaming Decision Trees for Online Class-Incremental Learning"](concepts/agent-memory/continual-learning/mist-streaming-decision-trees-2605.11617.md) — arXiv:2605.11617
       - ["Self-Evolving Agents Forget: CPE Capability Preservation"](concepts/agent-memory/continual-learning/self-evolving-agents-forget-cpe-2605.09315.md) — arXiv:2605.09315
+      - ["CP-MoE: Consistency-Preserving MoE for Continual Learning"](concepts/agent-memory/continual-learning/cp-moe-consistency-preserving-2605.20247.md) — arXiv:2605.20247
+      - ["Domain Incremental Learning for Pandemic-Resilient Chest X-Ray"](concepts/agent-memory/continual-learning/domain-incremental-chest-xray-2605.17729.md) — arXiv:2605.17729
+      - ["Stable Routing for MoE in Class-Incremental Learning"](concepts/agent-memory/continual-learning/stable-routing-moe-cil-2605.17571.md) — arXiv:2605.17571
       - ["Modular Memory: Key to Continual Learning Agents"](concepts/agent-memory/continual-learning/modular-memory-continual-learning-2603.01761.md) — arXiv:2603.01761
       - ["Prototypical Exemplar Condensation for CL"](concepts/agent-memory/continual-learning/prototypical-exemplar-condensation-2603.13804.md) — arXiv:2603.13804
       - ["Abstraction as Memory-Efficient Inductive Bias for CL"](concepts/agent-memory/continual-learning/abstraction-memory-efficient-2603.17198.md) — arXiv:2603.17198
