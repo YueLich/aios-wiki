@@ -260,6 +260,12 @@ nav:
       - ["Memory-Augmented RL Agent for CAD Generation"](concepts/agent-memory/memory-retrieval/memory-augmented-rl-cad-generation-2605.19748.md) — arXiv:2605.19748
       - ["MMoA: Recurrent Memoried Mixture-of-Agent"](concepts/agent-memory/memory-retrieval/mmoa-recurrent-mixture-of-agents-2605.19194.md) — arXiv:2605.19194
       - ["Causal Intervention-Based Memory Selection for Long-Horizon LLM Agents"](concepts/agent-memory/memory-retrieval/causal-memory-selection-2605.17641.md) — arXiv:2605.17641
+      - [MemReward: Graph-Based Experience Memory for LLM Reward Prediction](concepts/agent-memory/memory-retrieval/memreward-graph-experience-memory-2603.19310.md) — arXiv:2603.19310
+      - [AMemGym: Interactive Memory Benchmarking for Assistants in Long-Horizon Conversations](concepts/agent-memory/memory-retrieval/amemgym-interactive-memory-benchmark-2603.01966.md) — arXiv:2603.01966
+      - [Memex(RL): Indexed Experience Memory for Long-Horizon LLM Agents](concepts/agent-memory/memory-retrieval/memex-rl-indexed-experience-2603.04257.md) — arXiv:2603.04257
+      - [FactorMiner: Self-Evolving Agent with Skills and Experience Memory](concepts/agent-memory/memory-retrieval/factorminer-skills-experience-2602.14670.md) — arXiv:2602.14670
+      - [UI-Mem: Self-Evolving Experience Memory for Mobile GUI Agents](concepts/agent-memory/memory-retrieval/ui-mem-experience-memory-gui-2602.05832.md) — arXiv:2602.05832
+      - [StackPlanner: Hierarchical Multi-Agent with Task-Experience Memory Management](concepts/agent-memory/memory-retrieval/stackplanner-hierarchical-memory-2601.05890.md) — arXiv:2601.05890
       - 持续学习: concepts/agent-memory/continual-learning/index.md
       - ["NGM: Plug-and-Play Training-Free Memory Module for LLMs"](concepts/agent-memory/memory-compression/ngm-plug-and-play-memory-2605.16893.md) — arXiv:2605.16893
       - ["RecMem: Recurrence-based Memory Consolidation"](concepts/agent-memory/memory-retrieval/recmem-recurrence-based-memory-2605.16045.md) — arXiv:2605.16045
