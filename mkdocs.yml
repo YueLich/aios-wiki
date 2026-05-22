@@ -222,6 +222,8 @@ nav:
       - ["Memory-Induced Supra-Competitive Outcomes in DRL Agents"](concepts/agent-memory/memory-retrieval/memory-supra-competitive-rl-2605.20348.md) — arXiv:2605.20348
       - ["Goal-Mem: Goal-Oriented Reasoning for RAG-based Memory in Conversational Agentic LLM Systems"](concepts/agent-memory/memory-retrieval/goal-mem-rag-memory-2605.12213.md) — arXiv:2605.12213
       - ["MedMemoryBench: Benchmarking Agent Memory in Personalized Healthcare"](concepts/agent-memory/memory-retrieval/medmemorybench-benchmark-2605.11814.md) — arXiv:2605.11814
+      - ["Chronos: Temporal-Aware Agents with Structured Event Retrieval for Long-Term Memory"](concepts/agent-memory/memory-retrieval/chronos-temporal-event-memory-2603.16862.md) — arXiv:2603.16862
+      - ["VehicleMemBench: Multi-User Long-Term Memory in In-Vehicle Agents"](concepts/agent-memory/benchmark/vehiclemembench-multiuser-memory-2603.23840.md) — arXiv:2603.23840
       - ["MemReread: Enhancing Agentic Long-Context Reasoning via Memory-Guided Rereading"](concepts/agent-memory/memory-retrieval/memreread-2605.10268.md) — arXiv:2605.10268
       - ["HAGE: Harnessing Agentic Memory via RL-Driven Weighted Graph Evolution"](concepts/agent-memory/memory-retrieval/hage-weighted-graph-memory-2605.09942.md) — arXiv:2605.09942
       - ["Trap of Trajectory: Spurious Correlations in Agentic Memory"](concepts/agent-memory/memory-retrieval/trap-of-trajectory-spurious-correlations-2605.09330.md) — arXiv:2605.09330
