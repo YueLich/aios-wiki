@@ -224,6 +224,9 @@ nav:
       - ["MedMemoryBench: Benchmarking Agent Memory in Personalized Healthcare"](concepts/agent-memory/memory-retrieval/medmemorybench-benchmark-2605.11814.md) — arXiv:2605.11814
       - ["Chronos: Temporal-Aware Agents with Structured Event Retrieval for Long-Term Memory"](concepts/agent-memory/memory-retrieval/chronos-temporal-event-memory-2603.16862.md) — arXiv:2603.16862
       - ["VehicleMemBench: Multi-User Long-Term Memory in In-Vehicle Agents"](concepts/agent-memory/benchmark/vehiclemembench-multiuser-memory-2603.23840.md) — arXiv:2603.23840
+      - ["TA-Mem: Tool-Augmented Autonomous Memory Retrieval for LLM"](concepts/agent-memory/memory-retrieval/ta-mem-tool-augmented-memory-retrieval-2603.09297.md) — arXiv:2603.09297
+      - ["REMem: Reasoning with Episodic Memory in Language Agent"](concepts/agent-memory/memory-retrieval/remem-reasoning-episodic-memory-2602.13530.md) — arXiv:2602.13530
+      - ["Predictive Associative Memory: Retrieval Beyond Similarity"](concepts/agent-memory/memory-retrieval/predictive-associative-memory-2602.11322.md) — arXiv:2602.11322
       - ["MEME: Multi-Entity & Evolving Memory Evaluation"](concepts/agent-memory/benchmark/meme-multi-entity-memory-eval-2605.12477.md) — arXiv:2605.12477
       - ["MemReread: Enhancing Agentic Long-Context Reasoning via Memory-Guided Rereading"](concepts/agent-memory/memory-retrieval/memreread-2605.10268.md) — arXiv:2605.10268
       - ["HAGE: Harnessing Agentic Memory via RL-Driven Weighted Graph Evolution"](concepts/agent-memory/memory-retrieval/hage-weighted-graph-memory-2605.09942.md) — arXiv:2605.09942
@@ -340,6 +343,7 @@ nav:
       - ["ECHO: Continuous Hierarchical Memory for VLA Models"](concepts/agent-memory/multimodal-memory/echo-continuous-hierarchical-memory-2605.10993.md) — arXiv:2605.10993
       - ["OSGNet+MLLM: Ego4D Episodic Memory Challenge 2026"](concepts/agent-memory/multimodal-memory/osgnet-ego4d-episodic-memory-2605.20818.md) — arXiv:2605.20818
       - ["FlexMem: Scaling Long Video Understanding via Visual Memory"](concepts/agent-memory/multimodal-memory/flexmem-visual-memory-long-video-2603.29252.md) — arXiv:2603.29252
+      - ["Multimodal LMMs for Online Episodic Memory QA on the Edge"](concepts/agent-memory/multimodal-memory/multimodal-edge-episodic-memory-2602.22455.md) — arXiv:2602.22455
       - ["CurveStream: Curvature-Aware Hierarchical Visual Memory"](concepts/agent-memory/multimodal-memory/curvestream-visual-memory-streaming-2603.19571.md) — arXiv:2603.19571
       - ["Secure Forgetting: Privacy-Driven Unlearning in LLM Agents"](concepts/agent-memory/memory-privacy/secure-forgetting-unlearning-2604.00430.md) — arXiv:2604.00430
       - ["TFGN: Task-Free, Replay-Free Continual Pre-Training"](concepts/agent-memory/continual-learning/tfgn-task-free-continual-pretraining-2605.15053.md) — arXiv:2605.15053

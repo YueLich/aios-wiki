@@ -1,5 +1,9 @@
 {
   "recently_processed_titles": [
+    "Exploring Multimodal LMMs for Online Episodic Memory Question Answering on the Edge",
+    "Predictive Associative Memory: Retrieval Beyond Similarity Through Temporal Co-occurrence",
+    "REMem: Reasoning with Episodic Memory in Language Agent",
+    "TA-Mem: Tool-Augmented Autonomous Memory Retrieval for LLM in Long-Term Conversational QA",
     "MemReward: Graph-Based Experience Memory for LLM Reward Prediction with Limited Labels",
     "AMemGym: Interactive Memory Benchmarking for Assistants in Long-Horizon Conversations",
     "FactorMiner: A Self-Evolving Agent with Skills and Experience Memory for Financial Alpha Discovery",
@@ -45,11 +49,7 @@
     "Predicting Plasticity in Deep Continual Learning: A Theoretical Perspective",
     "Cross-Sample Relational Fusion: Unifying Domain Generalization and Class-Incremental Learning",
     "MemReread: Enhancing Agentic Long-Context Reasoning via Memory-Guided Rereading",
-    "Bridging the Cognitive Gap: A Unified Memory Paradigm for 6G Agentic AI-RAN",
-    "Mem-W: Latent Memory-Native GUI Agents",
-    "EquiMem: Calibrating Shared Memory in Multi-Agent Debate via Game-Theoretic Equilibrium",
-    "Human-Inspired Memory Architecture for LLM Agents",
-    "MASS-RAG: Multi-Agent Synthesis Retrieval-Augmented Generation"
+    "Bridging the Cognitive Gap: A Unified Memory Paradigm for 6G Agentic AI-RAN"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -2424,6 +2424,10 @@
     "2602.05832": "UI-Mem: Self-Evolving Experience Memory for Online Reinforcement Learning in Mobile GUI Agents",
     "2602.14670": "FactorMiner: A Self-Evolving Agent with Skills and Experience Memory for Financial Alpha Discovery",
     "2603.01966": "AMemGym: Interactive Memory Benchmarking for Assistants in Long-Horizon Conversations",
-    "2603.19310": "MemReward: Graph-Based Experience Memory for LLM Reward Prediction with Limited Labels"
+    "2603.19310": "MemReward: Graph-Based Experience Memory for LLM Reward Prediction with Limited Labels",
+    "2603.09297": "TA-Mem: Tool-Augmented Autonomous Memory Retrieval for LLM in Long-Term Conversational QA",
+    "2602.13530": "REMem: Reasoning with Episodic Memory in Language Agent",
+    "2602.11322": "Predictive Associative Memory: Retrieval Beyond Similarity Through Temporal Co-occurrence",
+    "2602.22455": "Exploring Multimodal LMMs for Online Episodic Memory Question Answering on the Edge"
   }
 }
