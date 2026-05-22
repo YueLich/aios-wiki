@@ -218,6 +218,8 @@ nav:
       - ["LongMemEval-V2: Evaluating Long-Term Agent Memory Toward Experienced Colleagues"](concepts/agent-memory/memory-retrieval/longmemeval-v2-2605.12493.md) — arXiv:2605.12493
       - ["PRISM: Pareto-Efficient Retrieval over Intent-Aware Structured Memory"](concepts/agent-memory/memory-retrieval/prism-pareto-efficient-intent-aware-memory-2605.12260.md) — arXiv:2605.12260
       - ["MemGym: Long-Horizon Memory Environment for LLM Agents"](concepts/agent-memory/memory-retrieval/memgym-long-horizon-memory-2605.20833.md) — arXiv:2605.20833
+      - ["WorldKV: Efficient World Memory with World Retrieval and Compression"](concepts/agent-memory/memory-retrieval/worldkv-world-memory-2605.22718.md) — arXiv:2605.22718
+      - ["MAQIU: Memory-Augmented Query Intent Understanding for Chat-based Image Retrieval"](concepts/agent-memory/memory-retrieval/maqiu-memory-augmented-intent-2605.17365.md) — arXiv:2605.17365
       - ["Auto-Dreamer: Offline Memory Consolidation for Language Agents"](concepts/agent-memory/memory-retrieval/auto-dreamer-offline-memory-2605.20616.md) — arXiv:2605.20616
       - ["Memory-Induced Supra-Competitive Outcomes in DRL Agents"](concepts/agent-memory/memory-retrieval/memory-supra-competitive-rl-2605.20348.md) — arXiv:2605.20348
       - ["Goal-Mem: Goal-Oriented Reasoning for RAG-based Memory in Conversational Agentic LLM Systems"](concepts/agent-memory/memory-retrieval/goal-mem-rag-memory-2605.12213.md) — arXiv:2605.12213
