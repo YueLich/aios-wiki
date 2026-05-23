@@ -192,6 +192,10 @@ nav:
     - 记忆与状态:
       - 记忆总览: concepts/agent-memory/index.md
       - 记忆表示: concepts/agent-memory/memory-representation/index.md
+      - ["Cognitive Algorithms: Episodic & Semantic Memory"](concepts/agent-memory/memory-representation/cognitive-algorithms-episodic-semantic-memory-2602.07261.md) — arXiv:2602.07261
+      - ["Spatial Memory Survey for Robot Navigation"](concepts/agent-memory/memory-representation/spatial-memory-robot-navigation-2604.16482.md) — arXiv:2604.16482
+      - ["Memanto: Typed Semantic Memory"](concepts/agent-memory/memory-representation/memanto-typed-semantic-memory-2604.22085.md) — arXiv:2604.22085
+      - ["HLTM: LinkedIn Hiring Agent Temporal Memory"](concepts/agent-memory/memory-representation/hltm-linkedin-hiring-agent-2604.26197.md) — arXiv:2604.26197
       - ["Memory Transfer Learning: Cross-Domain Memory in Coding Agents"](concepts/agent-memory/memory-representation/memory-transfer-learning-2604.14004.md) — arXiv:2604.14004
       - ["IdeaForge: KG-Grounded Multi-Agent for Innovation Analysis"](concepts/agent-memory/memory-representation/ideaforge-kg-innovation-2605.13311.md) — arXiv:2605.13311
       - ["PersonalAI 2.0: KG-Traversal Memory for Personalized LLM Agents"](concepts/agent-memory/memory-representation/personalai-kg-memory-2605.13481.md) — arXiv:2605.13481
@@ -206,6 +210,9 @@ nav:
       - ["Portable Agent Memory: Cryptographically-Verified Transfer Across Heterogeneous AI Agents"](concepts/agent-memory/memory-representation/portable-agent-memory-2605.11032.md) — arXiv:2605.11032
       - ["Mem-W: Latent Memory-Native GUI Agents"](concepts/agent-memory/memory-representation/mem-w-2605.09317.md) — arXiv:2605.09317
       - 记忆检索: concepts/agent-memory/memory-retrieval/index.md
+      - ["VimRAG: Visual Multimodal Memory RAG"](concepts/agent-memory/memory-retrieval/vimrag-visual-multimodal-memory-2602.12735.md) — arXiv:2602.12735
+      - ["Semantic Memory Foraging in LLMs"](concepts/agent-memory/memory-retrieval/semantic-memory-foraging-2603.01822.md) — arXiv:2603.01822
+      - ["CIG: Conversational Information Gain"](concepts/agent-memory/memory-retrieval/cig-conversational-information-gain-2604.15647.md) — arXiv:2604.15647
       - ["Remember Your Trace: Memory-Guided Code Documentation"](concepts/agent-memory/memory-representation/remember-your-trace-2605.14563.md) — arXiv:2605.14563
       - ["Episodic-Semantic Memory Architecture for Long-Horizon Scientific Agents"](concepts/agent-memory/memory-representation/episodic-semantic-memory-2605.17625.md) — arXiv:2605.17625
       - ["MemRepair: Hierarchical Memory for Agentic Repository-Level Vulnerability Repair"](concepts/agent-memory/memory-representation/memrepair-hierarchical-memory-2605.17444.md) — arXiv:2605.17444
@@ -243,6 +250,7 @@ nav:
       - ["MAGMA: Stochastic Consensus Multi-Agent RAG with Uncertainty Quantification"](concepts/agent-memory/memory-retrieval/magma-uncertainty-stochastic-rag-2605.08385.md) — arXiv:2605.08385
       - ["EPIC: Preference-Aligned Memory for On-Device RAG"](concepts/agent-memory/memory-retrieval/epic-preference-aligned-ondevice-rag-2605.18271.md) — arXiv:2605.18271
       - 记忆压缩与遗忘: concepts/agent-memory/memory-compression/index.md
+      - ["Price of Meaning: Semantic Memory Forgetting"](concepts/agent-memory/memory-compression/price-meaning-semantic-forgetting-2603.27116.md) — arXiv:2603.27116
       - ["MemEye: Visual-Centric Multimodal Agent Memory Eval"](concepts/agent-memory/memory-retrieval/memeye-visual-centric-eval-2605.15128.md) — arXiv:2605.15128
       - ["MemLens: Multimodal LVLM Memory Benchmark"](concepts/agent-memory/memory-retrieval/memlens-multimodal-lvlm-memory-2605.14906.md) — arXiv:2605.14906
       - ["GroupMemBench: Multi-Party Conversation Memory"](concepts/agent-memory/memory-retrieval/groupmembench-multi-party-2605.14498.md) — arXiv:2605.14498
@@ -349,6 +357,8 @@ nav:
       - ["OSGNet+MLLM: Ego4D Episodic Memory Challenge 2026"](concepts/agent-memory/multimodal-memory/osgnet-ego4d-episodic-memory-2605.20818.md) — arXiv:2605.20818
       - ["FlexMem: Scaling Long Video Understanding via Visual Memory"](concepts/agent-memory/multimodal-memory/flexmem-visual-memory-long-video-2603.29252.md) — arXiv:2603.29252
       - ["Multimodal LMMs for Online Episodic Memory QA on the Edge"](concepts/agent-memory/multimodal-memory/multimodal-edge-episodic-memory-2602.22455.md) — arXiv:2602.22455
+      - ["M2A: Multimodal Memory Agent"](concepts/agent-memory/multimodal-memory/m2a-multimodal-memory-agent-2602.07624.md) — arXiv:2602.07624
+      - ["IMPACT-CYCLE: Long-Video Semantic Memory"](concepts/agent-memory/multimodal-memory/impact-cycle-long-video-memory-2604.20136.md) — arXiv:2604.20136
       - ["MMA Multimodal Memory Agent"](concepts/agent-memory/multimodal-memory/mma-multimodal-memory-agent-2602.16493.md) — arXiv:2602.16493
       - ["From Verbatim to Gist"](concepts/agent-memory/multimodal-memory/mm-mem-pyramidal-multimodal-memory-2603.01455.md) — arXiv:2603.01455
       - ["MEM Multi-Scale Embodied Memory"](concepts/agent-memory/multimodal-memory/mem-multi-scale-embodied-memory-2603.03596.md) — arXiv:2603.03596
@@ -360,6 +370,7 @@ nav:
       - ["TFGN: Task-Free, Replay-Free Continual Pre-Training"](concepts/agent-memory/continual-learning/tfgn-task-free-continual-pretraining-2605.15053.md) — arXiv:2605.15053
       - ["Forgetful but Faithful: Cognitive Memory for Privacy-Aware Agents"](concepts/agent-memory/memory-privacy/forgetful-but-faithful-2512.12856.md) — arXiv:2512.12856
       - 记忆隐私: concepts/agent-memory/memory-privacy/index.md
+      - ["System 1 & 2 Semantic Memory Bias"](concepts/agent-memory/memory-privacy/system1-system2-semantic-memory-bias-2604.12816.md) — arXiv:2604.12816
       - ["MemLineage: Lineage-Guided Memory Enforcement"](concepts/agent-memory/memory-privacy/memlineage-lineage-guided-2605.14421.md) — arXiv:2605.14421
       - ["Forgetting That Sticks: Quantization-Permanent Unlearning"](concepts/agent-memory/memory-privacy/forgetting-quantization-permanent-2605.15138.md) — arXiv:2605.15138
       - ["ARPM: Heterogeneous Temporal Memory Governance for LLM Persona Consistency"](concepts/agent-memory/memory-privacy/arpm-temporal-memory-governance-2605.14802.md) — arXiv:2605.14802
