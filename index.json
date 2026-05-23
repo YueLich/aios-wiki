@@ -1,5 +1,6 @@
 {
   "recently_processed_titles": [
+    "From Volume to Value: Preference-Aligned Memory Construction for On-Device RAG",
     "Exploring Multimodal LMMs for Online Episodic Memory Question Answering on the Edge",
     "Predictive Associative Memory: Retrieval Beyond Similarity Through Temporal Co-occurrence",
     "REMem: Reasoning with Episodic Memory in Language Agent",
@@ -48,8 +49,7 @@
     "Revitalizing the Beginning: Avoiding Storage Dependency for Model Merging in Continual Learning",
     "Predicting Plasticity in Deep Continual Learning: A Theoretical Perspective",
     "Cross-Sample Relational Fusion: Unifying Domain Generalization and Class-Incremental Learning",
-    "MemReread: Enhancing Agentic Long-Context Reasoning via Memory-Guided Rereading",
-    "Bridging the Cognitive Gap: A Unified Memory Paradigm for 6G Agentic AI-RAN"
+    "MemReread: Enhancing Agentic Long-Context Reasoning via Memory-Guided Rereading"
   ],
   "known_topics": [
     "memory-worth-governance",
@@ -2428,6 +2428,16 @@
     "2603.09297": "TA-Mem: Tool-Augmented Autonomous Memory Retrieval for LLM in Long-Term Conversational QA",
     "2602.13530": "REMem: Reasoning with Episodic Memory in Language Agent",
     "2602.11322": "Predictive Associative Memory: Retrieval Beyond Similarity Through Temporal Co-occurrence",
-    "2602.22455": "Exploring Multimodal LMMs for Online Episodic Memory Question Answering on the Edge"
+    "2602.22455": "Exploring Multimodal LMMs for Online Episodic Memory Question Answering on the Edge",
+    "2605.18271": {
+      "title": "From Volume to Value: Preference-Aligned Memory Construction for On-Device RAG",
+      "authors": [
+        "Changmin Lee",
+        "Jaemin Kim",
+        "Taesik Gong"
+      ],
+      "date": "2026-05-18",
+      "category": "cs.CL"
+    }
   }
 }

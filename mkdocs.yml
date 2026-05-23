@@ -240,6 +240,7 @@ nav:
       - ["The Memory Curse: How Expanded Recall Erodes Cooperative Intent in LLM Agents"](concepts/agent-memory/memory-retrieval/memory-curse-erosion-cooperation-2605.08060.md) — arXiv:2605.08060
       - ["CuSearch: Curriculum Rollout Sampling via Agentic RAG"](concepts/agent-memory/memory-retrieval/cusearch-curriculum-rollout-agentic-rag-2605.11611.md) — arXiv:2605.11611
       - ["MAGMA: Stochastic Consensus Multi-Agent RAG with Uncertainty Quantification"](concepts/agent-memory/memory-retrieval/magma-uncertainty-stochastic-rag-2605.08385.md) — arXiv:2605.08385
+      - ["EPIC: Preference-Aligned Memory for On-Device RAG"](concepts/agent-memory/memory-retrieval/epic-preference-aligned-ondevice-rag-2605.18271.md) — arXiv:2605.18271
       - 记忆压缩与遗忘: concepts/agent-memory/memory-compression/index.md
       - ["MemEye: Visual-Centric Multimodal Agent Memory Eval"](concepts/agent-memory/memory-retrieval/memeye-visual-centric-eval-2605.15128.md) — arXiv:2605.15128
       - ["MemLens: Multimodal LVLM Memory Benchmark"](concepts/agent-memory/memory-retrieval/memlens-multimodal-lvlm-memory-2605.14906.md) — arXiv:2605.14906
