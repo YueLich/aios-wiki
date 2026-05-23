@@ -349,6 +349,12 @@ nav:
       - ["OSGNet+MLLM: Ego4D Episodic Memory Challenge 2026"](concepts/agent-memory/multimodal-memory/osgnet-ego4d-episodic-memory-2605.20818.md) — arXiv:2605.20818
       - ["FlexMem: Scaling Long Video Understanding via Visual Memory"](concepts/agent-memory/multimodal-memory/flexmem-visual-memory-long-video-2603.29252.md) — arXiv:2603.29252
       - ["Multimodal LMMs for Online Episodic Memory QA on the Edge"](concepts/agent-memory/multimodal-memory/multimodal-edge-episodic-memory-2602.22455.md) — arXiv:2602.22455
+      - ["MMA Multimodal Memory Agent"](concepts/agent-memory/multimodal-memory/mma-multimodal-memory-agent-2602.16493.md) — arXiv:2602.16493
+      - ["From Verbatim to Gist"](concepts/agent-memory/multimodal-memory/mm-mem-pyramidal-multimodal-memory-2603.01455.md) — arXiv:2603.01455
+      - ["MEM Multi-Scale Embodied Memory"](concepts/agent-memory/multimodal-memory/mem-multi-scale-embodied-memory-2603.03596.md) — arXiv:2603.03596
+      - ["CMMR-VLN Vision-Language Navigation"](concepts/agent-memory/multimodal-memory/cmmr-vln-multimodal-memory-2603.07997.md) — arXiv:2603.07997
+      - ["Human-Inspired Multimodal Memory Social Robots"](concepts/agent-memory/multimodal-memory/human-inspired-multimodal-memory-social-robots-2604.12081.md) — arXiv:2604.12081
+      - ["Visual Inception Memory Poisoning"](concepts/agent-memory/memory-privacy/visual-inception-memory-poisoning-2604.16966.md) — arXiv:2604.16966
       - ["CurveStream: Curvature-Aware Hierarchical Visual Memory"](concepts/agent-memory/multimodal-memory/curvestream-visual-memory-streaming-2603.19571.md) — arXiv:2603.19571
       - ["Secure Forgetting: Privacy-Driven Unlearning in LLM Agents"](concepts/agent-memory/memory-privacy/secure-forgetting-unlearning-2604.00430.md) — arXiv:2604.00430
       - ["TFGN: Task-Free, Replay-Free Continual Pre-Training"](concepts/agent-memory/continual-learning/tfgn-task-free-continual-pretraining-2605.15053.md) — arXiv:2605.15053

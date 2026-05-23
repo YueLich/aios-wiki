@@ -2438,6 +2438,15 @@
       ],
       "date": "2026-05-18",
       "category": "cs.CL"
+    },
+    "2604.12081": {
+      "title": "Human-Inspired Context-Selective Multimodal Memory for Social Robots",
+      "authors": [],
+      "date": "2026-02-01",
+      "tags": [
+        "multimodal-memory"
+      ],
+      "source": "arXiv"
     }
   }
 }
