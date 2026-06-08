@@ -65,14 +65,6 @@ LLM agents are increasingly deployed on long-horizon tasks requiring sustained r
 - **Update（更新）**: 如何更新记忆（append-only, summarize, selective update）
 - **Control Flow（控制流）**: 记忆如何影响 Agent 行为（agentic control flows）
 
-### 10条系统建议（概述）
-
-1. 记忆构建的调度策略
-2. 能力下限的确定
-3. 通过查询量摊销成本
-4. 新鲜度与延迟的权衡
-5. Fleet级管理建议
-
 ## 参考文献
 
 （参考文献待从原文补充）
