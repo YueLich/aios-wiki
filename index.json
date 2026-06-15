@@ -1,5 +1,6 @@
 {
   "recently_processed_titles": [
+    "Agent Memory: Characterization and System Implications of Stateful Long-Horizon Workloads",
     "From Volume to Value: Preference-Aligned Memory Construction for On-Device RAG",
     "Exploring Multimodal LMMs for Online Episodic Memory Question Answering on the Edge",
     "Predictive Associative Memory: Retrieval Beyond Similarity Through Temporal Co-occurrence",
@@ -2447,6 +2448,25 @@
         "multimodal-memory"
       ],
       "source": "arXiv"
+    },
+    "2606.06448": {
+      "title": "Agent Memory: Characterization and System Implications of Stateful Long-Horizon Workloads",
+      "authors": [
+        "Yasmine Omri",
+        "Ziyu Gan",
+        "Zachary Broveak",
+        "Robin Geens",
+        "Zexue He",
+        "Alex Pentland",
+        "Marian Verhelst",
+        "Tsachy Weissman",
+        "Thierry Tambe"
+      ],
+      "date": "2026-06-04",
+      "tags": [
+        "agent-memory",
+        "memory-retrieval"
+      ]
     }
   }
 }
