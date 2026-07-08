@@ -1,0 +1,1123 @@
+<!DOCTYPE html>
+<!-- saved from url=(0253)https://4903d47a-1bbf-43c7-bede-78a8c99e6460.frame.claudeusercontent.com/_f/1783503282-f519/?__frame_t=e2cL4HakJvqiGEkOiAWVE0jl.c9f09200-a30e-4c61-a65d-a0e422e08f33.21892c2b-cca0-470a-b147-ec7e72f1ec37.1783506960&__frame_v=manifest.bd9446110d1c7761.json -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><!-- frame-runtime --><!--<base href="/_f/1783503282-f519/">--><base href="."><script>window.__FRAME_PREAMBLE={"capabilities":{"mcp":"mcp.BQqQVVN_.js"},"transforms":"_transforms.DYk1Ltlh.js"}</script><script>(function(){"use strict";const X="modulepreload",Y=function(e){return"/"+e},Z={},U=function(t,n,u){let o=Promise.resolve();function i(f){const a=new Event("vite:preloadError",{cancelable:!0});if(a.payload=f,window.dispatchEvent(a),!a.defaultPrevented)throw f}return o.then(f=>{for(const a of f||[])a.status==="rejected"&&i(a.reason);return t().catch(i)})},D=["light","dark","system"];function $(e){if(e==null||typeof e!="object")return!1;const t=e.__frame_init;return t!=null&&typeof t=="object"}function q(e){if(e==null||typeof e!="object")return!1;const t=e.__frame_theme;if(t==null||typeof t!="object")return!1;const n=t.theme;return typeof n=="string"&&D.includes(n)}function M(e){if(window===top||e.type==="auxclick"&&e.button!==1)return;const t=e.composedPath?e.composedPath():[e.target];let n=null;for(let f=0;f<t.length;f++){const a=t[f];if(a&&a.matches&&a.matches("a[href],area[href]")){n=a;break}}if(!n&&e.target&&e.target.closest&&(n=e.target.closest("a[href],area[href]")),!n)return;const u=n.getAttribute("href");if(!u)return;let o,i;try{o=new URL(u,document.baseURI),i=new URL(document.baseURI).origin}catch{return}(o.protocol==="http:"||o.protocol==="https:")&&o.origin!==i&&(e.preventDefault(),parent.postMessage({__frame_nav:!0,url:o.href},"*"))}const L={};function y(e){if(window===top)return;const t=Date.now();t-(L[e]||0)<500||(L[e]=t,parent.postMessage({__frame_engaged:!0,kind:e},"*"))}const F=2e3,T=["wheel","touchstart","touchmove","keydown","pointerdown"];let k=0;function B(e){e.isTrusted&&(k=Date.now())}function z(){addEventListener("click",M,!0),addEventListener("auxclick",M,!0)}function W(){for(let e=0;e<T.length;e++)addEventListener(T[e],B,{capture:!0,passive:!0});addEventListener("scroll",e=>{e.isTrusted&&Date.now()-k<F&&y("scroll")},{capture:!0,passive:!0}),addEventListener("pointermove",e=>{e.isTrusted&&y("pointer")},{capture:!0,passive:!0}),addEventListener("click",e=>{e.isTrusted&&y("click")},{capture:!0,passive:!0})}function x(e,t,n){const u=[...t.values()].filter(o=>o.targets.some(i=>i.startsWith(e+".")));return{wrap(o,i){const f=`${e}.${o}`,a=u.filter(s=>s.targets.includes(f));return a.length===0?(...s)=>{try{return i(...s)}catch(d){return Promise.reject(d)}}:(...s)=>{let d=s;for(const c of a){const l=c.module.parameters;if(l)try{d=l(d)}catch{return Promise.reject({code:"transform_error",id:c.id,scope:e,message:"parameters transform failed"})}}let m;try{m=i(...d)}catch(c){m=Promise.reject(c)}return m.then(c=>{for(let l=a.length-1;l>=0;l--){const h=a[l],p=h.module.returns;if(p)try{c=p(c)}catch{return n({id:h.id,scope:e,leg:"returns"}),c}}return c},c=>{for(let l=a.length-1;l>=0;l--){const h=a[l],p=h.module.throws;if(p)try{c=p(c)}catch{return n({id:h.id,scope:e,leg:"throws"}),Promise.reject(c)}}return Promise.reject(c)})}}}}function H(e,t,n,u=()=>{}){const o=new Set(e.changes??[]),i=new Map;for(const f of o){const a=t[f];a&&i.set(f,a)}return{contract:e.contract,changes:o,flags:new Set(e.flags??[]),capabilities:e.capabilities??{},transforms:i,shellOrigin:n.shellOrigin,mount:n.mount,pipe:f=>x(f,i,u)}}(function(){const e=Object.defineProperty,t=globalThis,n=["RTCPeerConnection","webkitRTCPeerConnection","RTCDataChannel","RTCIceCandidate","RTCSessionDescription","RTCRtpSender","RTCRtpReceiver"];let u=0;for(let o=0;o<n.length;o++){const i=n[o];try{e(t,i,{value:void 0,writable:!1,configurable:!1})}catch{try{delete t[i]}catch{}try{e(t,i,{value:void 0,writable:!1,configurable:!0})}catch{}}typeof t[i]=="function"&&u++}if(u&&window!==top)try{parent.postMessage({__frame_rtc_lockdown_failed:u},"*")}catch{}})();const K=1e4,G=Object.freeze([...window.__FRAME_PREAMBLE?.origins??["https://claude.ai","https://preview.claude.ai"]]);function J(e){for(const t of G)if(t.endsWith(":*"))try{const n=new URL(e);if(`${n.protocol}//${n.hostname}:*`===t)return!0}catch{}else if(e===t)return!0;return!1}const w=Object.freeze({...window.__FRAME_PREAMBLE?.capabilities??{}}),E=window.__FRAME_PREAMBLE?.transforms,C=/^[\w.-]+\.js$/,V=/^[a-z][a-z0-9_-]{0,63}$/;let A=null,g=null;function P(e,t,n){try{Object.defineProperty(e,t,{value:n,writable:!1,configurable:!1,enumerable:!0})}catch{try{Object.defineProperty(e,t,{value:n,writable:!1,configurable:!0,enumerable:!0})}catch{}}}let R=!1;function N(e){const t=document.documentElement;e==="light"||e==="dark"?(t.dataset.theme=e,t.style.colorScheme=e,R=!0):R&&(delete t.dataset.theme,t.style.colorScheme="",R=!1)}const _=new Map;function Q(e,t){const n=_.get(e);if(!n)return;Object.assign(n.impl,t),n.impl.__settled=()=>Promise.reject({code:"capability_removed",message:`${e}: method not in this runtime`});const u=n.queue;n.queue=[];for(const o of u){const i=t[o.method];i?i(...o.args).then(o.resolve,o.reject):o.reject({code:"capability_removed",message:`${e}.${o.method} is not in this runtime`})}}function O(e,t){const n=_.get(e);if(!n)return;n.impl.__settled=()=>Promise.reject(t);const u=n.queue;n.queue=[];for(const o of u)o.reject(t)}const j=Object.getOwnPropertyDescriptor(window,"claude");if(window!==top&&!(j&&j.writable===!1)){z(),W();const e=j?.value??{};P(window,"claude",e);const t=s=>{const d={impl:Object.create(null),queue:[]};_.set(s,d);const m=new Proxy(d.impl,{get:(c,l)=>{if(typeof l=="string"&&!(l==="then"||l==="toJSON"||l==="valueOf"))return l==="toString"?Object.prototype.toString:(...h)=>{const p=c[l]??c.__settled;return p?p(...h):new Promise((b,S)=>{d.queue.push({method:l,args:h,resolve:b,reject:S})})}},set:()=>!1});P(e,s,m)};for(const s of Object.keys(w)){if(e[s]!==void 0){P(e,s,e[s]);continue}t(s)}let n=null,u=null,o=0;const i=s=>{s.source!==parent||!J(s.origin)||$(s.data)&&(n=s.data.__frame_init,g=s.origin,removeEventListener("message",i),clearTimeout(o),u?.())};addEventListener("message",i),parent.postMessage({__frame_connect:!0},"*");const f=new Promise(s=>{u=s,o=setTimeout(()=>{removeEventListener("message",i),s()},K)}),a=document.readyState==="loading"?new Promise(s=>document.addEventListener("DOMContentLoaded",()=>s(),{once:!0})):Promise.resolve();f.then(async()=>{if(!n||!g){for(const r of _.keys())O(r,{code:"not_granted",message:"frame initialization did not arrive - capability unavailable"});return}N(n.theme);const s=g;addEventListener("message",r=>{r.source!==parent||r.origin!==s||q(r.data)&&N(r.data.__frame_theme.theme)});const d=r=>U(()=>import("/_runtime/"+r),void 0),m=Object.keys(n.capabilities??{});for(const r of m)Object.hasOwn(w,r)||V.test(r)&&e[r]===void 0&&(t(r),O(r,{code:"capability_disabled",message:"capability not in this runtime generation"}));const c=m.filter(r=>Object.hasOwn(w,r)).map(r=>[r,w[r]]).filter(r=>typeof r[1]=="string"&&C.test(r[1])),[l,...h]=await Promise.allSettled([E&&C.test(E)?d(E):Promise.resolve({}),...c.map(([,r])=>d(r))]),p=g;A=H(n,l.status==="fulfilled"&&l.value?.TRANSFORMS||{},{shellOrigin:p,mount:Q},r=>parent.postMessage({__frame_cap_telemetry:r},p));const b=r=>parent.postMessage({__frame_cap_telemetry:{kind:"cap-load-error",cap:r}},p),S=A;h.forEach((r,v)=>{const I=c[v][0];if(r.status!=="fulfilled"){b(I);return}try{r.value?.install?.(S)}catch{b(I)}});for(const[r,v]of _)v.queue.length===0&&Object.keys(v.impl).length>0||O(r,{code:m.includes(r)?"capability_disabled":"not_granted",message:"capability not available in this session"});await a,parent.postMessage({__frame_ready:!0},g)})}})();</script><!-- /frame-runtime --><meta name="viewport" content="width=device-width,initial-scale=1"><style>:root{color-scheme:light}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}</style></head><body>
+<title>OS情感计算竞品分析报告 2026</title>
+<style>
+:root{
+  --bg:#faf8f3; --surface:#ffffff; --surface-2:#f2efe6; --text:#211d16; --text-dim:#6f6a5e;
+  --border:#e2dcc9; --accent:#3d5a80; --accent-dim:#7893ab; --accent-bg:#e8eef4;
+  --ok:#2f7a4f; --ok-bg:#e6f2ea; --bad:#b3392c; --bad-bg:#fbe9e6; --warn:#a8790a; --warn-bg:#f7edd8;
+  --unk:#7a7466; --unk-bg:#efece3;
+}
+:root[data-theme="dark"]{
+  --bg:#17150f; --surface:#1e1c15; --surface-2:#262319; --text:#ede8db; --text-dim:#a29c8c;
+  --border:#3a3527; --accent:#8fb0d1; --accent-dim:#5f7d99; --accent-bg:#232c34;
+  --ok:#6fbf8b; --ok-bg:#1c2b21; --bad:#e2857a; --bad-bg:#332019; --warn:#e0b45a; --warn-bg:#332a15;
+  --unk:#a49e8e; --unk-bg:#242119;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#17150f; --surface:#1e1c15; --surface-2:#262319; --text:#ede8db; --text-dim:#a29c8c;
+    --border:#3a3527; --accent:#8fb0d1; --accent-dim:#5f7d99; --accent-bg:#232c34;
+    --ok:#6fbf8b; --ok-bg:#1c2b21; --bad:#e2857a; --bad-bg:#332019; --warn:#e0b45a; --warn-bg:#332a15;
+    --unk:#a49e8e; --unk-bg:#242119;
+  }
+}
+*{box-sizing:border-box;}
+body{
+  background:var(--bg); color:var(--text); margin:0; padding:0;
+  font-family:ui-sans-serif,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;
+  line-height:1.55;
+}
+.wrap{max-width:1000px;margin:0 auto;padding:2.5rem 1.5rem 5rem;}
+h1{
+  font-family:ui-serif,Georgia,"Songti SC","Noto Serif SC",serif;
+  font-size:1.95rem; font-weight:600; margin:0 0 .3rem; text-wrap:balance; letter-spacing:-.01em;
+}
+h2{
+  font-family:ui-serif,Georgia,"Songti SC","Noto Serif SC",serif;
+  font-size:1.35rem; font-weight:600; margin:0 0 .6rem; letter-spacing:-.005em;
+}
+h3{ font-size:1.1rem; font-weight:700; margin:0; }
+.subtitle{color:var(--text-dim); font-size:.95rem; margin:0 0 2rem;}
+.lede{
+  background:var(--surface-2); border:1px solid var(--border); border-radius:10px;
+  padding:1rem 1.2rem; font-size:.92rem; color:var(--text-dim); margin-bottom:2rem;
+}
+.lede strong{color:var(--text); font-weight:600;}
+section{margin-bottom:2.8rem;}
+.eyebrow{
+  font-size:.72rem; text-transform:uppercase; letter-spacing:.09em; color:var(--accent-dim);
+  font-weight:700; margin-bottom:.3rem;
+}
+
+/* definition strip */
+.modal-strip{display:grid; grid-template-columns:repeat(5,1fr); gap:.6rem; margin:1rem 0;}
+.modal-card{background:var(--surface); border:1px solid var(--border); border-radius:10px; padding:.7rem .6rem; text-align:center;}
+.modal-card .ic{font-size:1.3rem; margin-bottom:.25rem;}
+.modal-card .nm{font-weight:700; font-size:.85rem;}
+.modal-card .dt{font-size:.7rem; color:var(--text-dim); margin-top:.15rem;}
+.task-strip{display:grid; grid-template-columns:repeat(3,1fr); gap:.6rem; margin:1rem 0;}
+.task-card{background:var(--surface); border:1px solid var(--border); border-radius:10px; padding:.8rem .9rem;}
+.task-card .nm{font-weight:700; font-size:.85rem; color:var(--accent);}
+.task-card .dt{font-size:.78rem; color:var(--text-dim); margin-top:.2rem;}
+
+/* layer stack */
+.layer-stack{display:flex; flex-direction:column; gap:.4rem; margin:1rem 0;}
+.layer-row{
+  display:grid; grid-template-columns:110px 1fr; gap:.8rem; align-items:center;
+  background:var(--surface); border:1px solid var(--border); border-radius:9px; padding:.6rem .9rem;
+}
+.layer-row .tag{font-weight:700; font-size:.8rem; color:var(--accent);}
+.layer-row .desc{font-size:.82rem; color:var(--text-dim);}
+.layer-row .desc b{color:var(--text); font-weight:600;}
+
+/* cross-check grid table */
+.crosscheck-wrap{overflow-x:auto; border:1px solid var(--border); border-radius:11px; background:var(--surface);}
+table.crosscheck{border-collapse:collapse; width:100%; font-size:.78rem; min-width:920px;}
+table.crosscheck th, table.crosscheck td{padding:.55rem .65rem; text-align:left; border-bottom:1px solid var(--border); vertical-align:top;}
+table.crosscheck th{font-size:.68rem; text-transform:uppercase; letter-spacing:.04em; color:var(--text-dim); font-weight:700; background:var(--surface-2); white-space:nowrap;}
+table.crosscheck td:first-child, table.crosscheck th:first-child{font-weight:700; white-space:nowrap; position:sticky; left:0; background:var(--surface);}
+table.crosscheck th:first-child{background:var(--surface-2);}
+table.crosscheck tr:last-child td{border-bottom:none;}
+table.crosscheck tr.grp td{background:var(--surface-2); font-weight:700; color:var(--accent-dim); font-size:.7rem; text-transform:uppercase; letter-spacing:.05em;}
+.xtag{display:inline-block; font-size:.63rem; font-weight:700; padding:.05rem .4rem; border-radius:99px; white-space:nowrap; margin-right:.35rem; vertical-align:middle;}
+.xtag.yes{background:var(--ok-bg); color:var(--ok);}
+.xtag.limited{background:var(--warn-bg); color:var(--warn);}
+.xtag.no{background:var(--unk-bg); color:var(--unk);}
+
+.callout{
+  border:1px solid var(--border); border-left:3px solid var(--accent); border-radius:0 10px 10px 0;
+  background:var(--accent-bg); padding:.9rem 1.1rem; font-size:.88rem; margin:1rem 0;
+}
+.callout b{color:var(--text);}
+
+/* company deep-dive */
+.cluster-heading{margin:2rem 0 1rem; display:flex; align-items:baseline; gap:.6rem;}
+.cluster-heading .tag{
+  font-size:.68rem; font-weight:700; text-transform:uppercase; letter-spacing:.05em;
+  background:var(--accent-bg); color:var(--accent); padding:.2rem .55rem; border-radius:5px;
+}
+.co-card{
+  background:var(--surface); border:1px solid var(--border); border-radius:13px;
+  margin-bottom:.9rem; overflow:hidden;
+}
+.co-card summary{
+  list-style:none; cursor:pointer; padding:1rem 1.3rem; display:flex; align-items:center;
+  gap:.8rem; user-select:none;
+}
+.co-card summary::-webkit-details-marker{display:none;}
+.co-card summary:focus-visible{outline:2px solid var(--accent); outline-offset:-2px;}
+.co-card summary::before{
+  content:"›"; display:inline-block; transform:rotate(0deg); transition:transform .15s ease;
+  font-size:1.4rem; color:var(--text-dim); width:.8rem; flex:0 0 auto;
+}
+.co-card[open] summary::before{transform:rotate(90deg);}
+.co-card summary h3{flex:0 0 auto;}
+.co-card summary .mainline-preview{font-size:.82rem; color:var(--text-dim); flex:1; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+.co-body{padding:0 1.3rem 1.3rem; border-top:1px solid var(--border);}
+.co-lines{display:grid; grid-template-columns:auto 1fr; gap:.35rem 1rem; font-size:.86rem; margin:1rem 0 1.3rem;}
+.co-lines dt{font-weight:700; color:var(--accent-dim); font-size:.72rem; text-transform:uppercase; letter-spacing:.04em; white-space:nowrap; padding-top:.15rem;}
+.co-lines dd{margin:0; color:var(--text);}
+.modality-block{margin-bottom:1.1rem;}
+.modality-block:last-child{margin-bottom:0;}
+.modality-title{font-size:.78rem; font-weight:700; text-transform:uppercase; letter-spacing:.05em; color:var(--accent); margin-bottom:.4rem;}
+table.l1l4{border-collapse:collapse; width:100%; font-size:.81rem;}
+table.l1l4 th, table.l1l4 td{padding:.42rem .6rem; text-align:left; border-bottom:1px solid var(--border); vertical-align:top;}
+table.l1l4 th{font-size:.66rem; text-transform:uppercase; letter-spacing:.04em; color:var(--text-dim); font-weight:700;}
+table.l1l4 tr:last-child td{border-bottom:none;}
+table.l1l4 td.layer{font-weight:700; color:var(--accent-dim); white-space:nowrap; font-size:.76rem;}
+.userstate-line{font-size:.78rem; color:var(--text-dim); margin-top:.4rem;}
+.userstate-line .xtag{margin-right:.4rem;}
+
+/* grid table: rows=L1-L4, columns=5 modalities */
+.grid-wrap{overflow-x:auto; margin-bottom:1rem;}
+table.modgrid{border-collapse:collapse; width:100%; font-size:.79rem; min-width:640px;}
+table.modgrid th, table.modgrid td{padding:.5rem .55rem; text-align:left; border:1px solid var(--border); vertical-align:top;}
+table.modgrid th{font-size:.68rem; text-transform:uppercase; letter-spacing:.03em; color:var(--text-dim); font-weight:700; background:var(--surface-2);}
+table.modgrid td:first-child{font-weight:700; color:var(--accent-dim); white-space:nowrap; background:var(--surface-2); font-size:.72rem;}
+
+.feat-title{font-size:.78rem; font-weight:700; text-transform:uppercase; letter-spacing:.05em; color:var(--accent); margin:0 0 .5rem;}
+.feat-list{display:flex; flex-direction:column; gap:.4rem; margin-bottom:.3rem;}
+.feat-item{font-size:.82rem; color:var(--text-dim); padding-left:.9rem; border-left:2px solid var(--border);}
+.feat-item b{color:var(--text);}
+.feat-item .loc{color:var(--accent-dim); font-weight:600;}
+.feat-item.cross{border-left-color:var(--accent); background:var(--accent-bg); padding:.5rem .7rem; border-radius:0 8px 8px 0; border-left-width:3px;}
+
+/* feature color palette for modgrid cells (8 hues, cycle per company) */
+:root{
+  --cg1-bg:#dbe7f5; --cg1-tx:#1f4068; --cg2-bg:#dcece0; --cg2-tx:#215a37;
+  --cg3-bg:#f5e9cf; --cg3-tx:#7a5a15; --cg4-bg:#e6def5; --cg4-tx:#4a3785;
+  --cg5-bg:#f5dde4; --cg5-tx:#8a3352; --cg6-bg:#d3ece9; --cg6-tx:#1c6b60;
+  --cg7-bg:#f5e0cf; --cg7-tx:#8a4d15; --cg8-bg:#e3e3df; --cg8-tx:#57564c;
+}
+:root[data-theme="dark"]{
+  --cg1-bg:#22344a; --cg1-tx:#a9c6e8; --cg2-bg:#1f3327; --cg2-tx:#a3d6b3;
+  --cg3-bg:#3a2f16; --cg3-tx:#e8c977; --cg4-bg:#2c2540; --cg4-tx:#c6b6ea;
+  --cg5-bg:#3a2029; --cg5-tx:#eaadc2; --cg6-bg:#173330; --cg6-tx:#8fd6cb;
+  --cg7-bg:#3a2716; --cg7-tx:#eab27f; --cg8-bg:#2c2b25; --cg8-tx:#c3c1b6;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --cg1-bg:#22344a; --cg1-tx:#a9c6e8; --cg2-bg:#1f3327; --cg2-tx:#a3d6b3;
+    --cg3-bg:#3a2f16; --cg3-tx:#e8c977; --cg4-bg:#2c2540; --cg4-tx:#c6b6ea;
+    --cg5-bg:#3a2029; --cg5-tx:#eaadc2; --cg6-bg:#173330; --cg6-tx:#8fd6cb;
+    --cg7-bg:#3a2716; --cg7-tx:#eab27f; --cg8-bg:#2c2b25; --cg8-tx:#c3c1b6;
+  }
+}
+table.modgrid td.cg1{background:var(--cg1-bg); color:var(--cg1-tx);}
+table.modgrid td.cg2{background:var(--cg2-bg); color:var(--cg2-tx);}
+table.modgrid td.cg3{background:var(--cg3-bg); color:var(--cg3-tx);}
+table.modgrid td.cg4{background:var(--cg4-bg); color:var(--cg4-tx);}
+table.modgrid td.cg5{background:var(--cg5-bg); color:var(--cg5-tx);}
+table.modgrid td.cg6{background:var(--cg6-bg); color:var(--cg6-tx);}
+table.modgrid td.cg7{background:var(--cg7-bg); color:var(--cg7-tx);}
+table.modgrid td.cg8{background:var(--cg8-bg); color:var(--cg8-tx);}
+table.modgrid td.cgx{background:var(--surface-2); color:var(--text-dim);}
+
+/* merged feature blocks: same-color adjacent cells (border removed between them) combining 特性+功能+层级技术点, one real cell per L4-L1 row for perfect alignment */
+table.fgrid{border-collapse:collapse; width:100%; font-size:.79rem; min-width:680px;}
+table.fgrid{table-layout:fixed;}
+table.fgrid th{padding:.5rem .55rem; text-align:left; border:1px solid var(--border); vertical-align:top;
+  font-size:.68rem; text-transform:uppercase; letter-spacing:.03em; color:var(--text-dim); font-weight:700; background:var(--surface-2);}
+table.fgrid th:first-child{width:2.6rem;}
+table.fgrid td{padding:0; border:1px solid var(--border); vertical-align:top;}
+table.fgrid td.layer-lbl{padding:.5rem .4rem; font-weight:700; color:var(--accent-dim); white-space:nowrap; background:var(--surface-2); font-size:.72rem; text-align:center;}
+/* seamless join between rows belonging to the same feature span */
+table.fgrid td.span-top{border-bottom:none;}
+table.fgrid td.span-mid{border-top:none; border-bottom:none;}
+table.fgrid td.span-bottom{border-top:none;}
+.fblock{padding:.5rem .6rem; height:100%;}
+.fblock .fb-name{font-weight:700; font-size:.82rem; margin-bottom:.15rem;}
+.fblock .fb-func{font-size:.73rem; opacity:.85; margin-bottom:.4rem; line-height:1.4;}
+.fblock .fb-row{font-size:.74rem; display:flex; gap:.4rem;}
+.fblock .fb-row b{font-weight:700; flex:0 0 auto; opacity:.7; font-size:.68rem; padding-top:.1rem;}
+.fblock .fb-cont{font-size:.74rem;}
+table.fgrid td.cg1{background:var(--cg1-bg); color:var(--cg1-tx);}
+table.fgrid td.cg2{background:var(--cg2-bg); color:var(--cg2-tx);}
+table.fgrid td.cg3{background:var(--cg3-bg); color:var(--cg3-tx);}
+table.fgrid td.cg4{background:var(--cg4-bg); color:var(--cg4-tx);}
+table.fgrid td.cg5{background:var(--cg5-bg); color:var(--cg5-tx);}
+table.fgrid td.cg6{background:var(--cg6-bg); color:var(--cg6-tx);}
+table.fgrid td.cg7{background:var(--cg7-bg); color:var(--cg7-tx);}
+table.fgrid td.cg8{background:var(--cg8-bg); color:var(--cg8-tx);}
+table.fgrid td.cgx{background:var(--surface-2); color:var(--text-dim);}
+table.fgrid td.cross{box-shadow:inset 0 0 0 2px var(--accent);}
+.fblock.blank{color:var(--text-dim); font-size:.78rem; text-align:center; padding:.6rem;}
+.cross-note{font-size:.78rem; color:var(--text-dim); margin-top:.6rem;}
+
+.legend-title{font-size:.78rem; font-weight:700; text-transform:uppercase; letter-spacing:.05em; color:var(--accent); margin:0 0 .5rem;}
+.legend-list{display:flex; flex-direction:column; gap:.35rem; margin-bottom:.3rem;}
+.legend-item{display:flex; align-items:baseline; gap:.5rem; font-size:.82rem; color:var(--text-dim);}
+.legend-item b{color:var(--text);}
+.swatch{flex:0 0 auto; width:.85rem; height:.85rem; border-radius:3px; margin-top:.15rem;}
+.swatch.cg1{background:var(--cg1-bg); border:1px solid var(--cg1-tx);}
+.swatch.cg2{background:var(--cg2-bg); border:1px solid var(--cg2-tx);}
+.swatch.cg3{background:var(--cg3-bg); border:1px solid var(--cg3-tx);}
+.swatch.cg4{background:var(--cg4-bg); border:1px solid var(--cg4-tx);}
+.swatch.cg5{background:var(--cg5-bg); border:1px solid var(--cg5-tx);}
+.swatch.cg6{background:var(--cg6-bg); border:1px solid var(--cg6-tx);}
+.swatch.cg7{background:var(--cg7-bg); border:1px solid var(--cg7-tx);}
+.swatch.cg8{background:var(--cg8-bg); border:1px solid var(--cg8-tx);}
+.legend-item.cross b::after{content:" ⤭ 跨模态"; font-size:.68rem; color:var(--accent-dim); font-weight:600;}
+
+/* opportunity section */
+.opp-para{font-size:.9rem; margin-bottom:1rem;}
+.opp-co{background:var(--surface); border:1px solid var(--border); border-radius:11px; padding:1rem 1.2rem; margin-bottom:.8rem;}
+.opp-co h3{font-size:.95rem; margin-bottom:.4rem;}
+.opp-co p{font-size:.86rem; margin:0; color:var(--text-dim);}
+.opp-co p b{color:var(--text);}
+
+.numbered{counter-reset:step; display:flex; flex-direction:column; gap:.9rem;}
+.step{display:grid; grid-template-columns:2.1rem 1fr; gap:.7rem;}
+.step .num{
+  counter-increment:step; width:2.1rem; height:2.1rem; border-radius:50%; background:var(--surface-2);
+  border:1px solid var(--border); display:flex; align-items:center; justify-content:center; font-weight:700;
+  font-size:.85rem; color:var(--accent);
+}
+.step .num::before{content:counter(step);}
+.step .txt{font-size:.88rem; padding-top:.15rem;}
+.step .txt b{color:var(--text);}
+
+footer{margin-top:2.5rem; font-size:.78rem; color:var(--text-dim); text-align:center;}
+@media(max-width:640px){
+  .modal-strip{grid-template-columns:repeat(3,1fr);}
+  .task-strip{grid-template-columns:1fr;}
+  .co-lines{grid-template-columns:1fr;}
+  table.l1l4{font-size:.74rem;}
+}
+</style>
+
+<div class="wrap">
+  <h1>OS情感计算竞品分析报告</h1>
+  <p class="subtitle">Affective Computing on Mobile OS · 2026 · 基于13家公司/团队底表（核查修正版）+ 技术地图框架</p>
+
+  <div class="lede">
+    <strong>核心结论先说：</strong>13家样本里，没有一家把"识别人类情绪状态"作为独立主线产品——情绪相关能力普遍是更大战略（任务执行助手、健康硬件生态、具身机器人控制）里的一条支线。本报告基于《OS情感计算竞品分析内容底表》13个公司/团队标签页（已完成溯源核查修正），沿用同一份材料"技术地图 PART 1"的L1-L4四层架构与五大感知模态框架，先讲清每家公司的主线任务是什么，再逐一拆解其5个模态在L1-L4每一层具体做了什么，最后给出OS厂商的机会点判断。
+  </div>
+
+  <section>
+    <div class="eyebrow">背景 · 定义回顾</div>
+    <h2>什么是情感计算</h2>
+    <p style="font-size:.9rem;color:var(--text-dim);max-width:70ch;">Affective Computing 由 MIT Rosalind Picard 1997年提出，核心目标是让系统识别用户情绪状态并据此调整行为——从被动执行指令，到主动适应人的状态。</p>
+    <div class="task-strip">
+      <div class="task-card"><div class="nm">识别 Recognition</div><div class="dt">从信号推断情绪</div></div>
+      <div class="task-card"><div class="nm">建模 Modeling</div><div class="dt">情绪状态内部表征</div></div>
+      <div class="task-card"><div class="nm">响应 Response</div><div class="dt">自适应调整行为</div></div>
+    </div>
+    <p style="font-size:.9rem;color:var(--text-dim);max-width:70ch;margin-top:1rem;">本次分析沿用底表的五大感知模态划分：</p>
+    <div class="modal-strip">
+      <div class="modal-card"><div class="ic">💬</div><div class="nm">文本</div><div class="dt">用词/语气/句式</div></div>
+      <div class="modal-card"><div class="ic">🎙️</div><div class="nm">语音</div><div class="dt">音调/节奏/语速</div></div>
+      <div class="modal-card"><div class="ic">👁️</div><div class="nm">视觉</div><div class="dt">表情/姿态/眼动</div></div>
+      <div class="modal-card"><div class="ic">💓</div><div class="nm">生理</div><div class="dt">心率/皮电/HRV</div></div>
+      <div class="modal-card"><div class="ic">📱</div><div class="nm">行为</div><div class="dt">触屏/App切换/解锁</div></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="eyebrow">技术地图 · PART 1</div>
+    <h2>四层架构：从信号到响应</h2>
+    <p style="font-size:.9rem;color:var(--text-dim);max-width:70ch;">底表按此四层结构逐一记录13家公司的特性/功能/技术点，本报告的横向比较与逐家拆解也按此结构展开。</p>
+    <div class="layer-stack">
+      <div class="layer-row"><div class="tag">L4 响应执行</div><div class="desc">状态+意图+安全边界 → <b>回复/服务/动作</b>。真正决定用户体感的一层——是否有持续情绪响应，还是仅规则触发。</div></div>
+      <div class="layer-row"><div class="tag">L3 状态推断</div><div class="desc">融合特征+上下文 → <b>情绪/意图/风险判断</b>。多数公司在此层把"意图推断"和"情绪推断"混用，需要仔细区分。</div></div>
+      <div class="layer-row"><div class="tag">L2 特征处理</div><div class="desc">多源原始信号 → <b>嵌入/基线/上下文表征</b>。个人基线建模（睡眠、使用习惯、韵律）是这层的关键资产。</div></div>
+      <div class="layer-row"><div class="tag">L1 信号采集</div><div class="desc">人/设备/环境 → <b>原始多模态信号流</b>。硬件生态（穿戴设备、麦克风阵列、摄像头）决定了这层的天花板。</div></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="eyebrow">交叉核验</div>
+    <h2>回归Picard三大任务：谁在真正"识别用户状态"</h2>
+    <p style="font-size:.87rem;color:var(--text-dim);max-width:72ch;">情感计算的核心定义是"识别—建模—响应<b style="color:var(--text)">用户</b>的情绪/生理/行为状态"。下面逐模态核对13家公司，区分这项能力分析的对象是<b style="color:var(--text)">人类用户</b>本身，还是模型自身的回复语气、设备/机器人自身状态、或环境与物体——只列出"有/有限"的公司及依据，其余记为"无"并统一给出原因，避免篇幅铺开。</p>
+    <div class="crosscheck-wrap">
+      <table class="crosscheck">
+        <tbody><tr><th>公司</th><th>💬 文本</th><th>🎙️ 语音</th><th>👁️ 视觉</th><th>💓 生理</th><th>📱 行为</th></tr>
+        <tr class="grp"><td colspan="6">OS与硬件平台</td></tr>
+        <tr><td>Google</td>
+          <td><span class="xtag limited">有限</span>Gemini生成式回复+长上下文/应用记忆，非情绪专用对话</td>
+          <td><span class="xtag yes">有</span>Hume EVI韵律情绪模型识别语气并调节回复（&lt;300ms），唯一具体情绪识别语音链路</td>
+          <td><span class="xtag no">无</span>Lens/Circle对象场景识别+MediaPipe FaceMesh关键点，功能自身标注非情绪</td>
+          <td><span class="xtag yes">有</span>cEDA+HR/HRV/皮温ML分类压力/恢复状态，Body Response压力检测</td>
+          <td><span class="xtag limited">有限</span>UsageStatsManager日/周/月/年聚合，仅规则触发无持续情绪响应</td>
+        </tr>
+        <tr><td>Apple</td>
+          <td><span class="xtag no">无</span>Apple模型+个人上下文推断意图，Writing Tools改写的是AI自身回复语气</td>
+          <td><span class="xtag no">无</span>Siri回复+App Intents意图推断，语气调节未见官方文档</td>
+          <td><span class="xtag no">无</span>Visual Intelligence屏幕/相机场景理解，功能自身标注非情绪</td>
+          <td><span class="xtag yes">有</span>State of Mind自评心境+PHQ-9/GAD-7量表，唯一带临床量表的生理情绪推断</td>
+          <td><span class="xtag limited">有限</span>Screen Time/DeviceActivity仅使用统计，功能自身标注非情绪</td>
+        </tr>
+        <tr><td>Samsung</td>
+          <td><span class="xtag no">无</span>云侧大模型（依赖Google）摘要/改写意图，无具体情绪判定</td>
+          <td><span class="xtag no">无</span>云侧大模型基于ASR文本摘要/翻译意图，无情绪识别</td>
+          <td><span class="xtag no">无</span>OCR/视觉检索/XR空间理解+Imagen 2生成编辑，功能自身标注非情绪</td>
+          <td><span class="xtag yes">有</span>Watch/Ring PPG/HRV/皮温/SpO2驱动压力趋势/睡眠恢复评分（Energy Score）</td>
+          <td><span class="xtag limited">有限</span>Digital Wellbeing统计Screen time/解锁/通知，无情绪推断</td>
+        </tr>
+        <tr><td>Microsoft</td>
+          <td><span class="xtag no">无</span>Copilot模型路由+Work IQ上下文推断意图，非情绪导向</td>
+          <td><span class="xtag no">无</span>Azure Speech流式ASR/TTS+Copilot Voice实时对话，无情绪识别环节</td>
+          <td><span class="xtag no">无</span>Emotion API已于2022下架，当前Click to Do/Recall仅OCR不识别情绪或看脸</td>
+          <td><span class="xtag no">无</span>Copilot Health仅问答/护栏导航，明确不做生理监测</td>
+          <td><span class="xtag limited">有限</span>Recall本地快照+OCR语义索引记忆使用行为，Clippy(1997)为主动响应失败先例</td>
+        </tr>
+        <tr><td>vivo</td>
+          <td><span class="xtag limited">有限</span>BlueLM意图理解/UI Agent执行跨App任务，未拆分出情绪成分</td>
+          <td><span class="xtag limited">有限</span>蓝心语音全双工/降噪/中断检测+对话状态管理，无具体情绪模型</td>
+          <td><span class="xtag no">无</span>OCR/图像理解+人因评估驱动舒适动效，功能自身标注非情绪</td>
+          <td><span class="xtag limited">有限</span>Watch/手机传感器采集睡眠/心率驱动AI舒眠建议，技术细节未见官方公开</td>
+          <td><span class="xtag limited">有限</span>OriginOS使用/作息记录聚合场景上下文，非情绪推断</td>
+        </tr>
+        <tr class="grp"><td colspan="6">前沿大模型</td></tr>
+        <tr><td>OpenAI</td>
+          <td><span class="xtag no">无</span>GPT-5.5生成对话/推理，非用户情绪识别</td>
+          <td><span class="xtag no">无</span>Realtime模型语音问答，非情绪韵律分析</td>
+          <td><span class="xtag no">无</span>图像问答/结构化解释，非表情识别</td>
+          <td><span class="xtag no">无</span>健康信息问答+拒答/转介策略，无生理监测</td>
+          <td><span class="xtag no">无</span>网页状态/工具结果采集，非用户行为状态推断</td>
+        </tr>
+        <tr><td>Anthropic</td>
+          <td><span class="xtag no">无</span>Claude模型生成/推理，非用户情绪识别</td>
+          <td><span class="xtag no">无</span>移动端语音入口+TTS，无韵律情绪分析</td>
+          <td><span class="xtag no">无</span>图像问答/图表解释，非表情识别</td>
+          <td><span class="xtag no">无</span>医疗场景合规建议/风险提示，无生理信号监测</td>
+          <td><span class="xtag no">无</span>Computer Use/终端浏览器状态，非用户行为画像</td>
+        </tr>
+        <tr><td>DeepSeek</td>
+          <td><span class="xtag no">无</span>Chat/Reasoner文本生成，无情绪识别功能</td>
+          <td><span class="xtag no">无</span>无官方端到端语音产品，情绪语音空白</td>
+          <td><span class="xtag no">无</span>DeepSeek-VL图文问答/识别，非表情/状态识别</td>
+          <td><span class="xtag no">无</span>无健康专用产品，无可穿戴生理信号入口</td>
+          <td><span class="xtag no">无</span>Agent工具后端兼容执行，非用户行为状态推断</td>
+        </tr>
+        <tr><td>Qwen</td>
+          <td><span class="xtag no">无</span>Qwen3对话生成/推理，非用户情绪识别</td>
+          <td><span class="xtag no">无</span>Omni实时语音+CosyVoice TTS，非情绪韵律分析</td>
+          <td><span class="xtag no">无</span>图像/视频理解结构化输出，非表情识别</td>
+          <td><span class="xtag no">无</span>行业应用安全策略/内容审核，无健康监测</td>
+          <td><span class="xtag no">无</span>百炼Agent/工具调用结果统计，非用户行为状态层</td>
+        </tr>
+        <tr><td>Doubao</td>
+          <td><span class="xtag no">无</span>Seed文本生成/深度思考，非用户情绪识别</td>
+          <td><span class="xtag no">无</span>音频理解+TTS语音播报，非情绪韵律分析</td>
+          <td><span class="xtag no">无</span>图片/视频/文档理解，非表情识别</td>
+          <td><span class="xtag no">无</span>行业场景安全策略/内容审核，无健康监测</td>
+          <td><span class="xtag no">无</span>火山方舟Agent/Session事件流，非用户行为状态层</td>
+        </tr>
+        <tr class="grp"><td colspan="6">具身机器人</td></tr>
+        <tr><td>Tesla Optimus</td>
+          <td><span class="xtag no">无</span>语言目标转任务计划，指令解析入口，非情感对话理解</td>
+          <td><span class="xtag no">无</span>ASR/TTS任务确认与澄清轮次，非情绪/韵律识别</td>
+          <td><span class="xtag no">无</span>多相机BEV+3D物体检测服务导航避障，非用户表情分析</td>
+          <td><span class="xtag no">无</span>IMU/关节编码器监测机器人自身姿态与故障，非人类用户生理指标</td>
+          <td><span class="xtag no">无</span>平衡/导航/抓取全身运动控制栈，聚焦机器人本体执行</td>
+        </tr>
+        <tr><td>Figure</td>
+          <td><span class="xtag no">无</span>语言目标经S2 VLM转为VLA行为序列，非情感对话</td>
+          <td><span class="xtag no">无</span>语音指令确认/状态播报+ASR前端，非情绪语音分析</td>
+          <td><span class="xtag no">无</span>S2 VLM场景理解+陌生物体抓取目标选择，服务抓取任务非人脸分析</td>
+          <td><span class="xtag no">无</span>腕姿/手指/躯干/头部姿态与触觉反馈机器人本体，非人类生理信号</td>
+          <td><span class="xtag no">无</span>S1视觉运动Transformer驱动200Hz全上身连续控制</td>
+        </tr>
+        <tr><td>Unitree</td>
+          <td><span class="xtag no">无</span>语义指令映射运动技能，依赖外接LLM/开发者SDK接入</td>
+          <td><span class="xtag no">无</span>ASR/TTS由开发者/上层应用接入，非官方情绪语音分析</td>
+          <td><span class="xtag no">无</span>深度相机+LiDAR障碍/物体识别服务导航避障，非人脸表情识别</td>
+          <td><span class="xtag no">无</span>IMU/关节编码器/电机温度监测机器人本体安全，非人类用户生理指标</td>
+          <td><span class="xtag no">无</span>全身控制+步态库+强化学习/模仿学习运动技能，聚焦机器人运动执行</td>
+        </tr>
+        <tr class="grp"><td colspan="6">补充案例（非13家核心底表，来源为pptx概述+官方页抽查，无逐格技术底表）</td></tr>
+        <tr><td>1X NEO<sup>†</sup></td>
+          <td><span class="xtag no">无</span>内置LLM任务对话/记忆，官方页未提情感纽带表述</td>
+          <td><span class="xtag no">无</span>音频识别判断"何时响应"，非情绪韵律分析</td>
+          <td><span class="xtag no">无</span>视觉上下文感知服务任务执行，非表情识别</td>
+          <td><span class="xtag no">无</span>官方页面未提及生理传感</td>
+          <td><span class="xtag limited">有限</span>创始人愿景强调"共情陪伴"定位，但官方产品页未列具体行为状态技术</td>
+        </tr>
+        <tr><td>UBTECH Alpha Mini<sup>†</sup></td>
+          <td><span class="xtag no">无</span>语音交互问答，非文字情绪判断</td>
+          <td><span class="xtag no">无</span>语音交互，官方页未提韵律/情绪识别技术细节</td>
+          <td><span class="xtag limited">有限</span>人脸识别+LCD表情输出，但官方页只描述"表达"情绪，未描述"识别"用户表情</td>
+          <td><span class="xtag no">无</span>无生理传感器</td>
+          <td><span class="xtag no">无</span>跌倒/动作交互为行为响应，非用户情绪行为分析</td>
+        </tr>
+      </tbody></table>
+    </div>
+    <p style="font-size:.78rem;color:var(--text-dim);margin-top:.4rem;">† 1X NEO与UBTECH Alpha Mini不在13家核心底表中，抽查了各自官方产品页——结论是即使这两家在第三方报道/宣传语境中被提及"情感陪伴"，官方页面本身也没有证实真正的用户情绪<b>识别</b>技术，与13家核心样本的结论一致。详见下方"补充案例"卡片。</p>
+    <div class="callout"><b>关键发现：</b>视觉模态上，13家<b>全部</b>不把"识别用户表情/情绪"作为在售能力（Microsoft的Emotion API做过，2022年已下架）。生理状态分析是硬件公司的专属能力，只有Google/Apple/Samsung三家真正做到，vivo有限布局。语音情绪识别的真实技术投入只有Google一家（联合Hume AI）。行为信号采集在OS五家平台覆盖面最广，但没有一家把统计信号升级为情绪推断。文本层面的"情绪判断"表述最容易与"意图判断"混淆，仔细拆分后也只有Google/vivo两家有含糊表述，其余均明确指向任务路由或模型自身回复语气。补充抽查的1X NEO、UBTECH Alpha Mini两家虽在市场语境中打"情感陪伴"标签，但官方页面同样未证实真正的情绪识别能力——这进一步印证核心发现的普适性。</div>
+  </section>
+
+  <section>
+    <div class="eyebrow">逐家拆解</div>
+    <h2>13家公司：5个模态 × L1-L4技术构成</h2>
+    <p style="font-size:.87rem;color:var(--text-dim);margin-bottom:0;">下面逐家给出主线任务/情感支线角色判断，并列出5个模态的L1-L4技术构成。每个模态默认按"一个特性覆盖全部4层"处理（同色标出该特性在各层级的具体技术点），只有当同一列内出现两个明确独立命名的产品时才拆分为多段；技术点已逐条核实，非真实技术名称的表述统一标注为"技术方案未公开"，不做无依据的技术命名。机器人部分额外补充了2家不在核心底表内的案例（1X NEO、UBTECH Alpha Mini），点击展开。</p>
+
+    <div class="cluster-heading"><h2 style="margin:0;">OS与硬件平台</h2><span class="tag">Google · Apple · Samsung · Microsoft · vivo</span></div>
+
+    <details class="co-card">
+      <summary><h3>Google</h3><span class="mainline-preview">让Gemini理解多模态上下文，驱动搜索/助手/Agent任务执行</span></summary>
+      <div class="co-body">
+        <dl class="co-lines">
+          <dt>主线任务</dt><dd>Google 2025-2026 的主线是让 Gemini 看到文本、语音、屏幕、相机与未来眼镜上下文后，帮用户完成搜索、解释、导航、调用服务和 Agent 任务。</dd>
+          <dt>情感支线</dt><dd>健康/压力监测（Body Response）和语音韵律（Hume EVI）是情感相关支线，服务于上下文理解与助手任务完成，而非持续情感分析。</dd>
+        </dl>
+
+        <div class="grid-wrap">
+          <table class="fgrid">
+            <tbody><tr><th>层级</th><th>文本</th><th>语音</th><th>视觉</th><th>生理</th><th>行为</th></tr>
+            <tr>
+              <td class="layer-lbl">L4</td>
+              <td class="cg1 span-top"><div class="fblock"><div class="fb-name">Gemini app / Gemini Live</div><div class="fb-func">Gemini生成式对话回复，驱动搜索/工具调用/应用入口</div><div class="fb-row"><b>L4</b><span>技术方案未公开（仅知为Gemini系列模型，无具体细节）</span></div></div></td>
+              <td class="cg2 span-top"><div class="fblock"><div class="fb-name">EVI情感语音</div><div class="fb-func">低延迟语音合成与情绪化语气调节，基于Hume EVI技术合作</div><div class="fb-row"><b>L4</b><span>eLLM情感语音合成</span></div></div></td>
+              <td class="cg3 span-top"><div class="fblock"><div class="fb-name">Android XR Glasses / Lens / Circle</div><div class="fb-func">相机/圈选/XR眼镜捕获视觉上下文，触发搜索、场景识别与AR提示动作</div><div class="fb-row"><b>L4</b><span>技术方案未公开（视觉触发搜索/提示机制未见具体命名，仅规则触发）</span></div></div></td>
+              <td class="cg4 span-top"><div class="fblock"><div class="fb-name">Google Health干预 / Body Response压力检测</div><div class="fb-func">基于cEDA/HR/HRV等生理信号检测压力与恢复状态，驱动呼吸引导与健康提醒推送</div><div class="fb-row"><b>L4</b><span>技术方案未公开（呼吸引导/提醒推送为功能描述）</span></div></div></td>
+              <td class="cg5 span-top"><div class="fblock"><div class="fb-name">Spark/Halo</div><div class="fb-func">基于使用统计与场景聚合识别行为模式，通过Pause Point等规则触发提示（非持续情绪响应）</div><div class="fb-row"><b>L4</b><span>云端Agent(Antigravity)+状态UI</span></div></div></td>
+            </tr>
+            <tr>
+              <td class="layer-lbl">L3</td>
+              <td class="cg1 span-mid"><div class="fblock"><div class="fb-row"><b>L3</b><span>技术方案未公开（原"对话语义+任务意图"为功能描述而非技术）</span></div></div></td>
+              <td class="cg2 span-mid"><div class="fblock"><div class="fb-row"><b>L3</b><span>Hume prosody情绪识别模型</span></div></div></td>
+              <td class="cg3 span-mid"><div class="fblock"><div class="fb-row"><b>L3</b><span>多模态视觉模型（Lens识物）</span></div></div></td>
+              <td class="cg4 span-mid"><div class="fblock"><div class="fb-row"><b>L3</b><span>cEDA+HR/HRV皮温ML分类模型</span></div></div></td>
+              <td class="cg5 span-mid"><div class="fblock"><div class="fb-row"><b>L3</b><span>技术方案未公开（"仅规则触发"为功能描述）</span></div></div></td>
+            </tr>
+            <tr>
+              <td class="layer-lbl">L2</td>
+              <td class="cg1 span-mid"><div class="fblock"><div class="fb-row"><b>L2</b><span>Gemini长上下文窗口</span></div></div></td>
+              <td class="cg2 span-mid"><div class="fblock"><div class="fb-row"><b>L2</b><span>prosody声学特征嵌入(pitch/rhythm/timbre)</span></div></div></td>
+              <td class="cg3 span-mid"><div class="fblock"><div class="fb-row"><b>L2</b><span>MediaPipe FaceMesh人脸关键点检测</span></div></div></td>
+              <td class="cg4 span-mid"><div class="fblock"><div class="fb-row"><b>L2</b><span>技术方案未公开（"首月基线学习"为功能描述）</span></div></div></td>
+              <td class="cg5 span-mid"><div class="fblock"><div class="fb-row"><b>L2</b><span>技术方案未公开（"日/周/月/年聚合"为功能描述）</span></div></div></td>
+            </tr>
+            <tr>
+              <td class="layer-lbl">L1</td>
+              <td class="cg1 span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>ASR文本转写</span></div></div></td>
+              <td class="cg2 span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>麦克风流采集</span></div></div></td>
+              <td class="cg3 span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>相机+Lens/Circle to Search采集</span></div></div></td>
+              <td class="cg4 span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>cEDA/PPG/皮温传感器</span></div></div></td>
+              <td class="cg5 span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>UsageStatsManager API</span></div></div></td>
+            </tr>
+          </tbody></table>
+        </div>
+        <p class="cross-note">Gemini app（文本）与EVI情感语音（语音）在L4共享同一Gemini/Hume对话生态，但分属两个独立命名产品，未强行合并颜色。</p>
+      </div>
+    </details>
+
+    <details class="co-card">
+      <summary><h3>Apple</h3><span class="mainline-preview">端侧隐私AI：创作辅助、个人上下文、跨App动作调度</span></summary>
+      <div class="co-body">
+        <dl class="co-lines">
+          <dt>主线任务</dt><dd>Apple的AI主线是端侧隐私、个人上下文、创作辅助与跨App动作，Apple Intelligence以Apple自研基础模型+Private Cloud Compute为核心叙事，ChatGPT为可选外部接入。</dd>
+          <dt>情感支线</dt><dd>情感计算被安放在Health/State of Mind这一独立入口，作为心境自评与健康趋势的隐私反馈闭环，是AI主线之外的支线功能。</dd>
+        </dl>
+
+        <div class="grid-wrap">
+          <table class="fgrid">
+            <tbody><tr><th>层级</th><th>文本</th><th>语音</th><th>视觉</th><th>生理</th><th>行为</th></tr>
+            <tr>
+              <td class="layer-lbl">L4</td>
+              <td class="cg1 span-top"><div class="fblock"><div class="fb-name">Apple Intelligence: Writing Tools</div><div class="fb-func">基于端侧Apple Foundation Models与个人上下文，为文本提供风格改写及情绪/意图推断（PCC云侧协同，ChatGPT可选接入）</div><div class="fb-row"><b>L4</b><span>技术方案未公开（Writing Tools改写机制未见具体模型命名）</span></div></div></td>
+              <td class="cg2 span-top"><div class="fblock"><div class="fb-name">Siri with Apple Intelligence</div><div class="fb-func">基于端侧语音识别与个人上下文理解生成对话回应，支持语速/口音等辅助功能设置</div><div class="fb-row"><b>L4</b><span>技术方案未公开（语气/风格调节机制未见具体模型命名）</span></div></div></td>
+              <td class="cg3 span-top"><div class="fblock"><div class="fb-name">Visual Intelligence / Photos Spatial</div><div class="fb-func">相机/屏幕内容识别后触发问答与动作（场景/对象理解，非情绪判断）</div><div class="fb-row"><b>L4</b><span>技术方案未公开（触发动作机制未见具体模型/API命名）</span></div></div></td>
+              <td class="cg5 span-top"><div class="fblock"><div class="fb-name">State of Mind</div><div class="fb-func">用户自评心境量表结合Health健康趋势数据，形成情绪反馈闭环</div><div class="fb-row"><b>L4</b><span>技术方案未公开（量表结果呈现机制未见具体命名）</span></div></div></td>
+              <td class="cgx span-top"><div class="fblock blank">空白<br>官方无对应特性/功能</div></td>
+            </tr>
+            <tr>
+              <td class="layer-lbl">L3</td>
+              <td class="cg1 span-mid"><div class="fblock"><div class="fb-row"><b>L3</b><span>Apple Foundation Models框架（含可选ChatGPT接入）</span></div></div></td>
+              <td class="cg2 span-mid"><div class="fblock"><div class="fb-row"><b>L3</b><span>App Intents框架+个人上下文检索</span></div></div></td>
+              <td class="cg3 span-bottom"><div class="fblock"><div class="fb-row"><b>L3</b><span>技术方案未公开（"屏幕感知+场景理解"为功能描述）</span></div></div></td>
+              <td class="cg5 span-mid"><div class="fblock"><div class="fb-row"><b>L3</b><span>PHQ-9/GAD-7临床量表</span></div></div></td>
+              <td class="cgx span-bottom"></td>
+            </tr>
+            <tr>
+              <td class="layer-lbl">L2</td>
+              <td class="cg1 span-mid"><div class="fblock"><div class="fb-row"><b>L2</b><span>Private Cloud Compute(PCC)</span></div></div></td>
+              <td class="cg2 span-mid"><div class="fblock"><div class="fb-row"><b>L2</b><span>Apple Speech框架(端侧ASR)</span></div></div></td>
+              <td class="cg4 span-top"><div class="fblock"><div class="fb-name">Photos Clean Up / Image Playground</div><div class="fb-func">对照片进行对象清除与生成式图像编辑</div><div class="fb-row"><b>L2</b><span>技术方案未公开（"深度估计+对象分割/生成编辑"为功能描述）</span></div></div></td>
+              <td class="cg5 span-mid"><div class="fblock"><div class="fb-row"><b>L2</b><span>技术方案未公开（"睡眠/活动/日照/正念关联"为功能描述）</span></div></div></td>
+              <td class="cg6 span-top"><div class="fblock"><div class="fb-name">Screen Time / DeviceActivity</div><div class="fb-func">基于DeviceActivity事件统计屏幕使用时长与应用行为（非情绪分析）</div><div class="fb-row"><b>L2</b><span>技术方案未公开（"使用统计"为功能描述）</span></div></div></td>
+            </tr>
+            <tr>
+              <td class="layer-lbl">L1</td>
+              <td class="cg1 span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>App Intents框架</span></div></div></td>
+              <td class="cg2 span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>麦克风采集(Siri/听写)</span></div></div></td>
+              <td class="cg4 span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>PhotoKit相册访问框架</span></div></div></td>
+              <td class="cg5 span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>HealthKit框架+Watch传感器</span></div></div></td>
+              <td class="cg6 span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>DeviceActivity框架</span></div></div></td>
+            </tr>
+          </tbody></table>
+        </div>
+        <p class="cross-note">视觉列拆分为两个独立产品：Visual Intelligence/Photos Spatial（相机/屏幕问答）与Photos Clean Up/Image Playground（生成式图像编辑），技术路径不同。未发现同一命名特性跨多模态列的情况。</p>
+      </div>
+    </details>
+
+    <details class="co-card">
+      <summary><h3>Samsung</h3><span class="mainline-preview">Galaxy AI硬件+Google模型协同的系统落地</span></summary>
+      <div class="co-body">
+        <dl class="co-lines">
+          <dt>主线任务</dt><dd>Samsung的优势在硬件健康生态与Galaxy AI的系统落地，模型层明显依赖Google——文本摘要/改写主要用Gemini Pro/Nano，生成式图像编辑用Imagen 2，搜索/圈选依赖Google Search/Circle to Search。</dd>
+          <dt>情感支线</dt><dd>Samsung Health承担压力/恢复/Energy Score等情感相关的健康反馈闭环，是硬件健康生态下的支线角色，AI叙事主线仍绑定Galaxy Unpacked与Google生态协作。</dd>
+        </dl>
+
+        <div class="grid-wrap">
+          <table class="fgrid">
+            <tbody><tr><th>层级</th><th>文本</th><th>语音</th><th>视觉</th><th>生理</th><th>行为</th></tr>
+            <tr>
+              <td class="layer-lbl">L4</td>
+              <td class="cg1 span-top"><div class="fblock"><div class="fb-name">Galaxy AI: Writing Assist</div><div class="fb-func">基于Google Gemini模型对文本进行摘要/改写生成，驱动Notes/Messages等场景</div><div class="fb-row"><b>L4</b><span>技术方案未公开（风格改写呈现机制未见具体命名）</span></div></div></td>
+              <td class="cg2 span-top"><div class="fblock"><div class="fb-name">Galaxy AI: Transcript Assist</div><div class="fb-func">通话/录音经ASR转写后，由云侧模型生成摘要与翻译</div><div class="fb-row"><b>L4</b><span>技术方案未公开（摘要/翻译呈现机制未见具体命名）</span></div></div></td>
+              <td class="cg3 span-top"><div class="fblock"><div class="fb-name">Galaxy AI: Circle / Android XR</div><div class="fb-func">圈选区域触发视觉搜索/AI Overviews及XR空间理解</div><div class="fb-row"><b>L4</b><span>技术方案未公开（"圈选搜索/AI Overviews/编辑"为功能描述）</span></div></div></td>
+              <td class="cg5 span-top"><div class="fblock"><div class="fb-name">Samsung Health（Energy Score）</div><div class="fb-func">基于Watch/Ring多项生理传感数据计算Energy Score并给出Wellness Tips</div><div class="fb-row"><b>L4</b><span>技术方案未公开（Energy Score解释呈现机制未见具体算法命名）</span></div></div></td>
+              <td class="cgx span-top"><div class="fblock blank">空白<br>官方无对应特性/功能</div></td>
+            </tr>
+            <tr>
+              <td class="layer-lbl">L3</td>
+              <td class="cg1 span-mid"><div class="fblock"><div class="fb-row"><b>L3</b><span>Gemini Pro（云侧大模型，据分析结论注）</span></div></div></td>
+              <td class="cg2 span-mid"><div class="fblock"><div class="fb-row"><b>L3</b><span>Gemini Pro（云侧大模型，据分析结论注）</span></div></div></td>
+              <td class="cg3 span-bottom"><div class="fblock"><div class="fb-row"><b>L3</b><span>OCR文字识别+XR空间理解</span></div></div></td>
+              <td class="cg5 span-mid"><div class="fblock"><div class="fb-row"><b>L3</b><span>技术方案未公开（"压力趋势/睡眠恢复评分"为功能描述）</span></div></div></td>
+              <td class="cgx span-bottom"></td>
+            </tr>
+            <tr>
+              <td class="layer-lbl">L2</td>
+              <td class="cg1 span-mid"><div class="fblock"><div class="fb-row"><b>L2</b><span>Gemini模型路由</span></div></div></td>
+              <td class="cg2 span-mid"><div class="fblock"><div class="fb-row"><b>L2</b><span>ASR/VAD/TTS管线</span></div></div></td>
+              <td class="cg4 span-top"><div class="fblock"><div class="fb-name">Galaxy AI: Photo Assist</div><div class="fb-func">基于Imagen 2生成式模型进行照片对象生成式编辑与视觉检索嵌入</div><div class="fb-row"><b>L2</b><span>Imagen 2生成模型</span></div></div></td>
+              <td class="cg5 span-mid"><div class="fblock"><div class="fb-row"><b>L2</b><span>HRV心率变异性特征</span></div></div></td>
+              <td class="cg6 span-top"><div class="fblock"><div class="fb-name">Digital Wellbeing</div><div class="fb-func">统计Screen Time/应用打开次数/通知等使用行为数据</div><div class="fb-row"><b>L2</b><span>技术方案未公开（统计聚合为功能描述）</span></div></div></td>
+            </tr>
+            <tr>
+              <td class="layer-lbl">L1</td>
+              <td class="cg1 span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>技术方案未公开（输入采集渠道描述，未见具体技术命名）</span></div></div></td>
+              <td class="cg2 span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>麦克风音频采集(Phone/Recorder)</span></div></div></td>
+              <td class="cg4 span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>技术方案未公开（采集渠道描述，未见具体传感/技术命名）</span></div></div></td>
+              <td class="cg5 span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>PPG/HRV/皮温/SpO2传感器</span></div></div></td>
+              <td class="cg6 span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>UsageStatsManager API</span></div></div></td>
+            </tr>
+          </tbody></table>
+        </div>
+        <p class="cross-note">Writing Assist/Transcript Assist/Circle/Photo Assist均挂在"Galaxy AI"品牌下，但技术路径互相独立（改写 vs 转写摘要 vs 视觉圈选/生成），且分别依赖不同底层模型（Gemini Pro/Nano、Imagen 2、Circle to Search），故未合并为同一颜色，仅作品牌关联说明。</p>
+      </div>
+    </details>
+
+    <details class="co-card">
+      <summary><h3>Microsoft</h3><span class="mainline-preview">M365 Copilot生产力助手 + Windows Recall效率回溯</span></summary>
+      <div class="co-body">
+        <dl class="co-lines">
+          <dt>主线任务</dt><dd>Microsoft的AI主线是围绕M365/Windows的生产力效率与上下文任务执行（Copilot、Recall、Click to Do等），核心是效率与本地/云端上下文记忆，而非情绪识别。</dd>
+          <dt>情感支线</dt><dd>历史上Clippy与Emotion API是"行为/视觉情绪识别"的两次失败尝试（分别因状态模型不准被判定为骚扰、及视觉情绪识别风险高而下线），当前Copilot Voice/Copilot Health仅承担情感化语气回应与健康问答护栏这类克制的支线角色。</dd>
+        </dl>
+
+        <div class="grid-wrap">
+          <table class="fgrid">
+            <tbody><tr><th>层级</th><th>文本</th><th>语音</th><th>视觉</th><th>生理</th><th>行为</th></tr>
+            <tr>
+              <td class="layer-lbl">L4</td>
+              <td class="cg1 span-top"><div class="fblock"><div class="fb-name">Microsoft 365 Copilot</div><div class="fb-func">基于M365文档/邮件/会议等内容，通过Copilot模型路由生成摘要/分析与内容生成</div><div class="fb-row"><b>L4</b><span>技术方案未公开（生成/摘要/分析呈现机制未见具体命名）</span></div></div></td>
+              <td class="cg2 span-top"><div class="fblock"><div class="fb-name">Copilot Voice</div><div class="fb-func">基于Azure Speech流式ASR/TTS实现Copilot实时语音对话</div><div class="fb-row"><b>L4</b><span>技术方案未公开（实时对话/TTS具体模型未见命名）</span></div></div></td>
+              <td class="cg3 cross span-top"><div class="fblock"><div class="fb-name">Click to Do（含Recall共享的视觉索引层）</div><div class="fb-func">屏幕内容经OCR识别与本地语义索引后，建议可执行动作（不含人脸/情绪识别；历史Emotion API已于2022下架，非当前技术）</div><div class="fb-row"><b>L4</b><span>技术方案未公开（"建议动作"呈现机制未见具体命名）</span></div></div></td>
+              <td class="cg4 span-top"><div class="fblock"><div class="fb-name">Copilot Health</div><div class="fb-func">提供健康问答与就医导航，PC端不做原生连续生理监测</div><div class="fb-row"><b>L4</b><span>技术方案未公开（问答/导航呈现机制未见具体模型命名）</span></div></div></td>
+              <td class="cgx span-top"><div class="fblock blank">空白<br>官方无对应特性/功能</div></td>
+            </tr>
+            <tr>
+              <td class="layer-lbl">L3</td>
+              <td class="cg1 span-mid"><div class="fblock"><div class="fb-row"><b>L3</b><span>Copilot模型路由+Work IQ上下文</span></div></div></td>
+              <td class="cg2 span-mid"><div class="fblock"><div class="fb-row"><b>L3</b><span>ASR转写+Copilot模型推理</span></div></div></td>
+              <td class="cg3 cross span-mid"><div class="fblock"><div class="fb-row"><b>L3</b><span>技术方案未公开（历史Emotion API 2015→2022已下架，非当前技术）</span></div></div></td>
+              <td class="cg4 span-mid"><div class="fblock"><div class="fb-row"><b>L3</b><span>技术方案未公开（"健康问答护栏"为安全策略描述）</span></div></div></td>
+              <td class="cgx span-bottom"></td>
+            </tr>
+            <tr>
+              <td class="layer-lbl">L2</td>
+              <td class="cg1 span-mid"><div class="fblock"><div class="fb-row"><b>L2</b><span>Microsoft Graph API</span></div></div></td>
+              <td class="cg2 span-mid"><div class="fblock"><div class="fb-row"><b>L2</b><span>Azure Speech流式ASR/TTS</span></div></div></td>
+              <td class="cg3 cross span-mid"><div class="fblock"><div class="fb-row"><b>L2</b><span>OCR+本地语义索引(与Recall共享)</span></div></div></td>
+              <td class="cg4 span-mid"><div class="fblock"><div class="fb-row"><b>L2</b><span>技术方案未公开（"健康资料连接器"未见具体协议命名）</span></div></div></td>
+              <td class="cg3 cross span-top"><div class="fblock"><div class="fb-name">Recall（与Click to Do共享视觉索引层）</div><div class="fb-func">通过本地屏幕快照与OCR语义索引，让用户回溯检索历史窗口活动（历史反面案例Clippy 1997-2007因缺乏准确状态模型被判定骚扰而下线，非当前技术）</div><div class="fb-row"><b>L2</b><span>OCR本地语义索引(Recall快照)</span></div></div></td>
+            </tr>
+            <tr>
+              <td class="layer-lbl">L1</td>
+              <td class="cg1 span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>技术方案未公开（数据来源描述，未见采集技术命名）</span></div></div></td>
+              <td class="cg2 span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>麦克风采集(Copilot应用)</span></div></div></td>
+              <td class="cg3 cross span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>屏幕截图采集(不含人脸识别)</span></div></div></td>
+              <td class="cg4 span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>不适用（PC端无原生连续生理传感）</span></div></div></td>
+              <td class="cg3 cross span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>屏幕快照+窗口活动事件采集</span></div></div></td>
+            </tr>
+          </tbody></table>
+        </div>
+        <p class="cross-note">视觉层"Click to Do"与行为层"Recall"共用同一OCR+本地语义索引技术底座（同一颜色标出），是本页唯一验证成立的跨模态关联。</p>
+      </div>
+    </details>
+
+    <details class="co-card">
+      <summary><h3>vivo</h3><span class="mainline-preview">蓝心大模型驱动OriginOS的"人因舒适工程"</span></summary>
+      <div class="co-body">
+        <dl class="co-lines">
+          <dt>主线任务</dt><dd>vivo的重点不是直接做情绪识别，而是把"舒适工程/人因体验"落实到视觉、音频、触觉、睡眠与系统动效，蓝心大模型和小V负责入口与任务编排。</dd>
+          <dt>情感支线</dt><dd>情感相关性来自降低认知负荷、减少感官不适和提升系统体验温度这一支线目标，而非直接的情绪识别能力。</dd>
+        </dl>
+
+        <div class="grid-wrap">
+          <table class="fgrid">
+            <tbody><tr><th>层级</th><th>文本</th><th>语音</th><th>视觉</th><th>生理</th><th>行为</th></tr>
+            <tr>
+              <td class="layer-lbl">L4</td>
+              <td class="cg1 span-top"><div class="fblock"><div class="fb-name">蓝心小V / 小V助手</div><div class="fb-func">基于BlueLM大模型理解意图，通过UI Agent驱动小V跨App任务执行</div><div class="fb-row"><b>L4</b><span>技术方案未公开（跨App任务执行呈现机制未见具体命名）</span></div></div></td>
+              <td class="cg2 span-top"><div class="fblock"><div class="fb-name">蓝心小V语音</div><div class="fb-func">基于蓝心(BlueLM)语音模型实现全双工对话理解与TTS舒适播报</div><div class="fb-row"><b>L4</b><span>技术方案未公开（TTS舒适播报呈现机制未见具体命名）</span></div></div></td>
+              <td class="cg3 span-top"><div class="fblock"><div class="fb-name">OriginOS舒适工程 / 小V圈搜</div><div class="fb-func">圈选触发搜索服务卡片，结合舒适动效与人因评估进行场景/图像理解（非情绪判断）</div><div class="fb-row"><b>L4</b><span>技术方案未公开（"舒适动效/服务卡片"为功能描述）</span></div></div></td>
+              <td class="cg5 span-top"><div class="fblock"><div class="fb-name">vivo健康 / AI舒眠</div><div class="fb-func">基于Watch/手机传感器记录睡眠与心率等生理数据，提供睡眠阶段分析与舒适参数提醒</div><div class="fb-row"><b>L4</b><span>技术方案未公开</span></div></div></td>
+              <td class="cgx span-top"><div class="fblock blank">空白<br>官方无对应特性/功能</div></td>
+            </tr>
+            <tr>
+              <td class="layer-lbl">L3</td>
+              <td class="cg1 span-mid"><div class="fblock"><div class="fb-row"><b>L3</b><span>BlueLM大模型+UI Agent</span></div></div></td>
+              <td class="cg2 span-mid"><div class="fblock"><div class="fb-row"><b>L3</b><span>蓝心(BlueLM)语音模型</span></div></div></td>
+              <td class="cg3 span-bottom"><div class="fblock"><div class="fb-row"><b>L3</b><span>OCR文字识别+人因评估</span></div></div></td>
+              <td class="cg5 span-mid"><div class="fblock"><div class="fb-row"><b>L3</b><span>技术方案未公开</span></div></div></td>
+              <td class="cgx span-bottom"></td>
+            </tr>
+            <tr>
+              <td class="layer-lbl">L2</td>
+              <td class="cg1 span-mid"><div class="fblock"><div class="fb-row"><b>L2</b><span>技术方案未公开（"原子能力"为平台功能描述）</span></div></div></td>
+              <td class="cg2 span-mid"><div class="fblock"><div class="fb-row"><b>L2</b><span>全双工ASR/VAD/TTS管线</span></div></div></td>
+              <td class="cg4 span-top"><div class="fblock"><div class="fb-name">相册AI消除 / 蓝心视觉</div><div class="fb-func">基于蓝心(BlueLM)视觉模型分析光影/色彩/动效参数，实现相册对象AI消除等生成式编辑</div><div class="fb-row"><b>L2</b><span>蓝心(BlueLM)视觉模型</span></div></div></td>
+              <td class="cg5 span-mid"><div class="fblock"><div class="fb-row"><b>L2</b><span>技术方案未公开</span></div></div></td>
+              <td class="cg6 span-top"><div class="fblock"><div class="fb-name">OriginOS使用与作息服务</div><div class="fb-func">聚合系统日志/日程/位置等使用与作息数据，形成个人场景基线</div><div class="fb-row"><b>L2</b><span>技术方案未公开（"作息/使用记录/场景聚合"为功能描述）</span></div></div></td>
+            </tr>
+            <tr>
+              <td class="layer-lbl">L1</td>
+              <td class="cg1 span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>技术方案未公开（输入采集描述，未见具体技术命名）</span></div></div></td>
+              <td class="cg2 span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>麦克风阵列采集(手机/车机)</span></div></div></td>
+              <td class="cg4 span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>技术方案未公开（采集渠道描述，未见具体技术命名）</span></div></div></td>
+              <td class="cg5 span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>技术方案未公开（未指明具体传感器型号/技术）</span></div></div></td>
+              <td class="cg6 span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>技术方案未公开（采集渠道描述，未见具体技术命名）</span></div></div></td>
+            </tr>
+          </tbody></table>
+        </div>
+        <p class="cross-note">文本/语音L4共享"小V"品牌与BlueLM统一入口，但底层技术栈（意图理解 vs 语音识别）不同，未强行合并颜色；视觉列拆分为舒适工程/圈搜（L4-L3）与AI消除/蓝心视觉（L2-L1）两个独立产品。</p>
+      </div>
+    </details>
+
+    <div class="cluster-heading"><h2 style="margin:0;">前沿大模型</h2><span class="tag">OpenAI · Anthropic · DeepSeek · Qwen · Doubao</span></div>
+
+    <details class="co-card">
+      <summary><h3>OpenAI</h3><span class="mainline-preview">全模态通用助手 + Agent/工具自动执行任务</span></summary>
+      <div class="co-body">
+        <dl class="co-lines">
+          <dt>主线任务</dt><dd>OpenAI的核心叙事是打造多模态通用助手，并通过ChatGPT Agent实现工具/浏览器层面的任务执行自动化。</dd>
+          <dt>情感支线</dt><dd>安全边界体现为拒答/转介策略与健康信息问答，未见面向"情绪状态"识别的独立产品线，情感计算支线基本缺失。</dd>
+        </dl>
+
+        <div class="grid-wrap">
+          <table class="fgrid">
+            <tbody><tr><th>层级</th><th>文本</th><th>语音</th><th>视觉</th><th>生理</th><th>行为</th></tr>
+            <tr>
+              <td class="layer-lbl">L4</td>
+              <td class="cg1 span-top"><div class="fblock"><div class="fb-name">ChatGPT / GPT-5.5</div><div class="fb-func">GPT-5.5/推理模型驱动的对话生成与长上下文任务处理</div><div class="fb-row"><b>L4</b><span>GPT-5.5推理模型</span></div></div></td>
+              <td class="cg2 span-top"><div class="fblock"><div class="fb-name">ChatGPT Voice / Realtime API</div><div class="fb-func">基于Realtime端到端音频模型的实时语音交互与语音合成回应</div><div class="fb-row"><b>L4</b><span>Realtime API/TTS</span></div></div></td>
+              <td class="cg3 span-top"><div class="fblock"><div class="fb-name">Vision / Image Understanding</div><div class="fb-func">图像/图表问答与结构化视觉信息提取</div><div class="fb-row"><b>L4</b><span>GPT多模态视觉模型</span></div></div></td>
+              <td class="cg5 span-top"><div class="fblock"><div class="fb-name">Health &amp; Wellness Guidance</div><div class="fb-func">健康信息问答的安全护栏，提供拒答/转介策略而非生理信号监测</div><div class="fb-row"><b>L4</b><span>技术方案未公开</span></div></div></td>
+              <td class="cgx span-top"><div class="fblock blank">空白<br>官方无对应特性/功能</div></td>
+            </tr>
+            <tr>
+              <td class="layer-lbl">L3</td>
+              <td class="cg1 span-mid"><div class="fblock"><div class="fb-row"><b>L3</b><span>工具调用(function calling)</span></div></div></td>
+              <td class="cg2 span-mid"><div class="fblock"><div class="fb-row"><b>L3</b><span>GPT Realtime音频模型</span></div></div></td>
+              <td class="cg3 span-bottom"><div class="fblock"><div class="fb-row"><b>L3</b><span>视觉编码器+推理</span></div></div></td>
+              <td class="cg5 span-mid"><div class="fblock"><div class="fb-row"><b>L3</b><span>技术方案未公开</span></div></div></td>
+              <td class="cgx span-bottom"></td>
+            </tr>
+            <tr>
+              <td class="layer-lbl">L2</td>
+              <td class="cg1 span-mid"><div class="fblock"><div class="fb-row"><b>L2</b><span>长上下文窗口/文件检索</span></div></div></td>
+              <td class="cg2 span-mid"><div class="fblock"><div class="fb-row"><b>L2</b><span>流式ASR/VAD</span></div></div></td>
+              <td class="cg4 span-top"><div class="fblock"><div class="fb-name">Image Generation</div><div class="fb-func">图像生成与编辑管线</div><div class="fb-row"><b>L2</b><span>OpenAI图像生成模型</span></div></div></td>
+              <td class="cg5 span-mid"><div class="fblock"><div class="fb-row"><b>L2</b><span>技术方案未公开</span></div></div></td>
+              <td class="cg6 span-top"><div class="fblock"><div class="fb-name">ChatGPT Agent / Connectors</div><div class="fb-func">通过Agent实现浏览器操作与工具调用，采集网页/工具事件作为行为上下文</div><div class="fb-row"><b>L2</b><span>浏览器控制/Function Calling</span></div></div></td>
+            </tr>
+            <tr>
+              <td class="layer-lbl">L1</td>
+              <td class="cg1 span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>网页/代码上下文解析</span></div></div></td>
+              <td class="cg2 span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>WebRTC/WebSocket</span></div></div></td>
+              <td class="cg4 span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>技术方案未公开</span></div></div></td>
+              <td class="cg5 span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>技术方案未公开</span></div></div></td>
+              <td class="cg6 span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>技术方案未公开</span></div></div></td>
+            </tr>
+          </tbody></table>
+        </div>
+        <p class="cross-note">视觉列拆分为Vision/Image Understanding（图像理解）与Image Generation（生成），两个独立命名产品。未发现同一命名特性跨多个模态列出现的情况。</p>
+      </div>
+    </details>
+
+    <details class="co-card">
+      <summary><h3>Anthropic</h3><span class="mainline-preview">长上下文安全推理 + 企业级Agent工具</span></summary>
+      <div class="co-body">
+        <dl class="co-lines">
+          <dt>主线任务</dt><dd>Anthropic强调长上下文安全推理与企业级Agent工具能力（Claude Code/MCP/Computer Use）。</dd>
+          <dt>情感支线</dt><dd>语音/视觉是交互入口而非情感识别，医疗/生命科学场景偏企业合规与安全护栏，情感计算支线基本缺失。</dd>
+        </dl>
+
+        <div class="grid-wrap">
+          <table class="fgrid">
+            <tbody><tr><th>层级</th><th>文本</th><th>语音</th><th>视觉</th><th>生理</th><th>行为</th></tr>
+            <tr>
+              <td class="layer-lbl">L4</td>
+              <td class="cg1 span-top"><div class="fblock"><div class="fb-name">Claude / Claude Fable 5</div><div class="fb-func">Claude模型驱动的对话生成与多模型路由推理，支持长上下文与企业级检索</div><div class="fb-row"><b>L4</b><span>Claude Fable 5模型</span></div></div></td>
+              <td class="cg2 span-top"><div class="fblock"><div class="fb-name">Claude mobile voice/text</div><div class="fb-func">移动端语音输入转文本后由Claude生成回复的语音交互入口（非独立韵律/情绪模型，来源为产品主页，技术细节未见专门文档）</div><div class="fb-row"><b>L4</b><span>技术方案未公开</span></div></div></td>
+              <td class="cg3 span-top"><div class="fblock"><div class="fb-name">Claude Vision</div><div class="fb-func">图像/图表问答与信息提取</div><div class="fb-row"><b>L4</b><span>Claude Vision图像模型</span></div></div></td>
+              <td class="cg5 span-top"><div class="fblock"><div class="fb-name">Claude for Healthcare/Life Sciences</div><div class="fb-func">面向医疗/生命科学场景的合规建议与安全护栏，非生理信号监测</div><div class="fb-row"><b>L4</b><span>技术方案未公开</span></div></div></td>
+              <td class="cgx span-top"><div class="fblock blank">空白<br>官方无对应特性/功能</div></td>
+            </tr>
+            <tr>
+              <td class="layer-lbl">L3</td>
+              <td class="cg1 span-mid"><div class="fblock"><div class="fb-row"><b>L3</b><span>Opus/Sonnet模型路由</span></div></div></td>
+              <td class="cg2 span-mid"><div class="fblock"><div class="fb-row"><b>L3</b><span>ASR语音转文本</span></div></div></td>
+              <td class="cg3 span-bottom"><div class="fblock"><div class="fb-row"><b>L3</b><span>视觉编码器</span></div></div></td>
+              <td class="cg5 span-mid"><div class="fblock"><div class="fb-row"><b>L3</b><span>Constitutional AI</span></div></div></td>
+              <td class="cgx span-bottom"></td>
+            </tr>
+            <tr>
+              <td class="layer-lbl">L2</td>
+              <td class="cg1 span-mid"><div class="fblock"><div class="fb-row"><b>L2</b><span>长上下文窗口/Projects</span></div></div></td>
+              <td class="cg2 span-mid"><div class="fblock"><div class="fb-row"><b>L2</b><span>移动端ASR接入</span></div></div></td>
+              <td class="cg4 span-top"><div class="fblock"><div class="fb-name">Artifacts / Document analysis</div><div class="fb-func">文档/代码结构化处理与可视化输出</div><div class="fb-row"><b>L2</b><span>Artifacts代码执行环境</span></div></div></td>
+              <td class="cg5 span-mid"><div class="fblock"><div class="fb-row"><b>L2</b><span>企业知识库/Connectors</span></div></div></td>
+              <td class="cg6 span-top"><div class="fblock"><div class="fb-name">Claude Code / MCP tools</div><div class="fb-func">通过Claude Code与MCP协议实现终端/浏览器工具调用及Computer Use自动化</div><div class="fb-row"><b>L2</b><span>MCP协议/Computer Use</span></div></div></td>
+            </tr>
+            <tr>
+              <td class="layer-lbl">L1</td>
+              <td class="cg1 span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>企业连接器(Connectors)</span></div></div></td>
+              <td class="cg2 span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>技术方案未公开</span></div></div></td>
+              <td class="cg4 span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>技术方案未公开</span></div></div></td>
+              <td class="cg5 span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>技术方案未公开</span></div></div></td>
+              <td class="cg6 span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>技术方案未公开</span></div></div></td>
+            </tr>
+          </tbody></table>
+        </div>
+        <p class="cross-note">视觉列拆分为Claude Vision（图像问答）与Artifacts/Document analysis（文档处理），两个独立产品。各命名特性均单列出现，未发现跨模态共享证据。</p>
+      </div>
+    </details>
+
+    <details class="co-card">
+      <summary><h3>DeepSeek</h3><span class="mainline-preview">R1开源推理模型 + 低成本兼容API生态</span></summary>
+      <div class="co-body">
+        <dl class="co-lines">
+          <dt>主线任务</dt><dd>DeepSeek聚焦推理模型能力与开源生态（R1/GRPO路线及开源蒸馏权重分发）及API效率。</dd>
+          <dt>情感支线</dt><dd>官方公开资料未见端到端语音产品或健康类应用，情感计算相关布局证据不足，支线基本不存在。</dd>
+        </dl>
+
+        <div class="grid-wrap">
+          <table class="fgrid">
+            <tbody><tr><th>层级</th><th>文本</th><th>语音</th><th>视觉</th><th>生理</th><th>行为</th></tr>
+            <tr>
+              <td class="layer-lbl">L4</td>
+              <td class="cg1 span-top"><div class="fblock"><div class="fb-name">DeepSeek Chat/Reasoner推理链路</div><div class="fb-func">DeepSeek Chat/Reasoner模型的强化学习推理式对话生成，兼容OpenAI/Anthropic API接入</div><div class="fb-row"><b>L4</b><span>DeepSeek Chat/Reasoner模型</span></div></div></td>
+              <td class="cg2 span-top"><div class="fblock"><div class="fb-name">无官方语音产品（第三方API兼容接入）</div><div class="fb-func">官方未提供端到端语音产品，依赖第三方前端采集与ASR转文字后接入模型推理</div><div class="fb-row"><b>L4</b><span>技术方案未公开</span></div></div></td>
+              <td class="cg3 span-top"><div class="fblock"><div class="fb-name">DeepSeek-VL</div><div class="fb-func">DeepSeek-VL视觉编码模型驱动的图文问答与识别，模型权重开源分发</div><div class="fb-row"><b>L4</b><span>DeepSeek-VL模型</span></div></div></td>
+              <td class="cg4 span-top"><div class="fblock"><div class="fb-name">安全与使用边界（无专用健康产品）</div><div class="fb-func">通用内容安全过滤与使用边界，无面向健康/生理监测的专门产品</div><div class="fb-row"><b>L4</b><span>技术方案未公开</span></div></div></td>
+              <td class="cgx span-top"><div class="fblock blank">空白<br>官方无对应特性/功能</div></td>
+            </tr>
+            <tr>
+              <td class="layer-lbl">L3</td>
+              <td class="cg1 span-mid"><div class="fblock"><div class="fb-row"><b>L3</b><span>GRPO强化学习/R1推理</span></div></div></td>
+              <td class="cg2 span-mid"><div class="fblock"><div class="fb-row"><b>L3</b><span>第三方ASR转文本</span></div></div></td>
+              <td class="cg3 span-mid"><div class="fblock"><div class="fb-row"><b>L3</b><span>视觉编码器+LLM对齐</span></div></div></td>
+              <td class="cg4 span-mid"><div class="fblock"><div class="fb-row"><b>L3</b><span>技术方案未公开</span></div></div></td>
+              <td class="cgx span-bottom"></td>
+            </tr>
+            <tr>
+              <td class="layer-lbl">L2</td>
+              <td class="cg1 span-mid"><div class="fblock"><div class="fb-row"><b>L2</b><span>OpenAI/Anthropic兼容API</span></div></div></td>
+              <td class="cg2 span-mid"><div class="fblock"><div class="fb-row"><b>L2</b><span>技术方案未公开</span></div></div></td>
+              <td class="cg3 span-mid"><div class="fblock"><div class="fb-row"><b>L2</b><span>R1蒸馏/Qwen/Llama开源权重</span></div></div></td>
+              <td class="cg4 span-mid"><div class="fblock"><div class="fb-row"><b>L2</b><span>技术方案未公开</span></div></div></td>
+              <td class="cg5 span-top"><div class="fblock"><div class="fb-name">Agent工具兼容（Function Calling生态接入）</div><div class="fb-func">通过Function Calling协议兼容Claude Code/GitHub Copilot等第三方Agent工具后端</div><div class="fb-row"><b>L2</b><span>Function Calling API</span></div></div></td>
+            </tr>
+            <tr>
+              <td class="layer-lbl">L1</td>
+              <td class="cg1 span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>技术方案未公开</span></div></div></td>
+              <td class="cg2 span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>技术方案未公开</span></div></div></td>
+              <td class="cg3 span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>技术方案未公开</span></div></div></td>
+              <td class="cg4 span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>技术方案未公开</span></div></div></td>
+              <td class="cg5 span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>技术方案未公开</span></div></div></td>
+            </tr>
+          </tbody></table>
+        </div>
+        <p class="cross-note">视觉列的图文理解（DeepSeek-VL模型/视觉编码器）与开源蒸馏分发（R1蒸馏进Qwen/Llama权重）技术性质不同，但底表仅标注同一特性名，未拆分。文本"R1强化学习推理"与视觉"R1蒸馏"均涉及R1但方向不同（前者是推理本身，后者是蒸馏进第三方模型），未强行合并颜色。</p>
+      </div>
+    </details>
+
+    <details class="co-card">
+      <summary><h3>Qwen</h3><span class="mainline-preview">阿里云百炼多模态开源模型矩阵 + Agent生态</span></summary>
+      <div class="co-body">
+        <dl class="co-lines">
+          <dt>主线任务</dt><dd>Qwen通过Qwen3-Omni覆盖语音/视觉多模态能力，并依托阿里云百炼平台构建工具生态。</dd>
+          <dt>情感支线</dt><dd>情感计算未形成独立状态服务，仍是通用模型能力的组合；百炼Agent/工具调用止步于任务执行统计，无情绪状态层，支线基本缺失。</dd>
+        </dl>
+
+        <div class="grid-wrap">
+          <table class="fgrid">
+            <tbody><tr><th>层级</th><th>文本</th><th>语音</th><th>视觉</th><th>生理</th><th>行为</th></tr>
+            <tr>
+              <td class="layer-lbl">L4</td>
+              <td class="cg1 span-top"><div class="fblock"><div class="fb-name">Qwen3对话推理</div><div class="fb-func">Qwen3模型驱动的对话生成与长上下文推理，依托百炼平台API</div><div class="fb-row"><b>L4</b><span>Qwen3模型</span></div></div></td>
+              <td class="cg2 cross span-top"><div class="fblock"><div class="fb-name">Qwen3-Omni / CosyVoice</div><div class="fb-func">Qwen3-Omni驱动的实时语音理解与CosyVoice语音合成，支持语音转语音交互</div><div class="fb-row"><b>L4</b><span>CosyVoice TTS</span></div></div></td>
+              <td class="cg2 cross span-top"><div class="fblock"><div class="fb-name">Qwen-VL / Omni</div><div class="fb-func">图像/视频的多模态理解与结构化问答</div><div class="fb-row"><b>L4</b><span>Qwen-VL/Omni多模态模型</span></div></div></td>
+              <td class="cg4 span-top"><div class="fblock"><div class="fb-name">医疗/安全应用边界</div><div class="fb-func">行业场景安全策略与内容审核，模型安全对齐，无生理监测产品</div><div class="fb-row"><b>L4</b><span>技术方案未公开</span></div></div></td>
+              <td class="cgx span-top"><div class="fblock blank">空白<br>官方无对应特性/功能</div></td>
+            </tr>
+            <tr>
+              <td class="layer-lbl">L3</td>
+              <td class="cg1 span-mid"><div class="fblock"><div class="fb-row"><b>L3</b><span>长上下文推理</span></div></div></td>
+              <td class="cg2 cross span-mid"><div class="fblock"><div class="fb-row"><b>L3</b><span>Qwen3-Omni音频模型</span></div></div></td>
+              <td class="cg2 cross span-bottom"><div class="fblock"><div class="fb-row"><b>L3</b><span>多模态视觉编码器</span></div></div></td>
+              <td class="cg4 span-mid"><div class="fblock"><div class="fb-row"><b>L3</b><span>技术方案未公开</span></div></div></td>
+              <td class="cgx span-bottom"></td>
+            </tr>
+            <tr>
+              <td class="layer-lbl">L2</td>
+              <td class="cg1 span-mid"><div class="fblock"><div class="fb-row"><b>L2</b><span>向量检索/Rerank/上下文缓存</span></div></div></td>
+              <td class="cg2 cross span-mid"><div class="fblock"><div class="fb-row"><b>L2</b><span>fun-asr实时ASR</span></div></div></td>
+              <td class="cg3 span-top"><div class="fblock"><div class="fb-name">Qwen-Image / Wan</div><div class="fb-func">图像与视频生成</div><div class="fb-row"><b>L2</b><span>Qwen-Image/Wan生成模型</span></div></div></td>
+              <td class="cg4 span-mid"><div class="fblock"><div class="fb-row"><b>L2</b><span>技术方案未公开</span></div></div></td>
+              <td class="cg5 span-top"><div class="fblock"><div class="fb-name">百炼Agent / 工具调用</div><div class="fb-func">百炼平台Agent通过MCP与Function Calling实现工具调用与任务执行</div><div class="fb-row"><b>L2</b><span>MCP协议/Function Calling</span></div></div></td>
+            </tr>
+            <tr>
+              <td class="layer-lbl">L1</td>
+              <td class="cg1 span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>技术方案未公开</span></div></div></td>
+              <td class="cg2 cross span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>技术方案未公开</span></div></div></td>
+              <td class="cg3 span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>技术方案未公开</span></div></div></td>
+              <td class="cg4 span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>技术方案未公开</span></div></div></td>
+              <td class="cg5 span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>技术方案未公开</span></div></div></td>
+            </tr>
+          </tbody></table>
+        </div>
+        <p class="cross-note">语音全链路"Qwen3-Omni/CosyVoice"与视觉理解层"Qwen-VL/Omni"（L4-L3）均由"Omni"多模态底座驱动，功能文本明确点名同一模型家族，同色标出；视觉生成层"Qwen-Image/Wan"为不同模型线，单独成色。</p>
+      </div>
+    </details>
+
+    <details class="co-card">
+      <summary><h3>Doubao</h3><span class="mainline-preview">火山引擎Ark平台的消费端语音/图像/视频生成</span></summary>
+      <div class="co-body">
+        <dl class="co-lines">
+          <dt>主线任务</dt><dd>豆包依托火山引擎Ark平台，强在消费端助手体验，尤其是语音交互与图像/视频生成。</dd>
+          <dt>情感支线</dt><dd>综合能力强但未见系统级情绪状态层，安全边界聚焦内容合规而非健康状态监测，Agent/Tools止步于任务执行统计，情感计算支线基本缺失。</dd>
+        </dl>
+
+        <div class="grid-wrap">
+          <table class="fgrid">
+            <tbody><tr><th>层级</th><th>文本</th><th>语音</th><th>视觉</th><th>生理</th><th>行为</th></tr>
+            <tr>
+              <td class="layer-lbl">L4</td>
+              <td class="cg1 span-top"><div class="fblock"><div class="fb-name">Doubao Seed</div><div class="fb-func">Doubao Seed模型驱动的深度思考对话生成，支持长上下文缓存与知识库接入</div><div class="fb-row"><b>L4</b><span>Doubao Seed模型</span></div></div></td>
+              <td class="cg2 span-top"><div class="fblock"><div class="fb-name">豆包语音理解与合成(TTS)</div><div class="fb-func">音频理解模型结合ASR/TTS实现语音交互与语音播报</div><div class="fb-row"><b>L4</b><span>TTS语音合成</span></div></div></td>
+              <td class="cg3 span-top"><div class="fblock"><div class="fb-name">图片/视频/文档理解</div><div class="fb-func">图片/视频/文档的多模态理解与结构化输出，支持视觉定位(Grounding)</div><div class="fb-row"><b>L4</b><span>多模态理解模型</span></div></div></td>
+              <td class="cg5 span-top"><div class="fblock"><div class="fb-name">安全与行业应用边界</div><div class="fb-func">行业场景安全策略与内容审核，无生理/健康监测专用产品</div><div class="fb-row"><b>L4</b><span>技术方案未公开</span></div></div></td>
+              <td class="cgx span-top"><div class="fblock blank">空白<br>官方无对应特性/功能</div></td>
+            </tr>
+            <tr>
+              <td class="layer-lbl">L3</td>
+              <td class="cg1 span-mid"><div class="fblock"><div class="fb-row"><b>L3</b><span>Responses API推理</span></div></div></td>
+              <td class="cg2 span-mid"><div class="fblock"><div class="fb-row"><b>L3</b><span>音频理解模型</span></div></div></td>
+              <td class="cg3 span-bottom"><div class="fblock"><div class="fb-row"><b>L3</b><span>视觉定位(Grounding)</span></div></div></td>
+              <td class="cg5 span-mid"><div class="fblock"><div class="fb-row"><b>L3</b><span>技术方案未公开</span></div></div></td>
+              <td class="cgx span-bottom"></td>
+            </tr>
+            <tr>
+              <td class="layer-lbl">L2</td>
+              <td class="cg1 span-mid"><div class="fblock"><div class="fb-row"><b>L2</b><span>上下文缓存</span></div></div></td>
+              <td class="cg2 span-mid"><div class="fblock"><div class="fb-row"><b>L2</b><span>ASR语音识别</span></div></div></td>
+              <td class="cg4 span-top"><div class="fblock"><div class="fb-name">Seedream / Seedance</div><div class="fb-func">Seedream图像生成与Seedance视频生成</div><div class="fb-row"><b>L2</b><span>Seedream/Seedance生成模型</span></div></div></td>
+              <td class="cg5 span-mid"><div class="fblock"><div class="fb-row"><b>L2</b><span>技术方案未公开</span></div></div></td>
+              <td class="cg6 span-top"><div class="fblock"><div class="fb-name">火山方舟Agent / Tools</div><div class="fb-func">火山方舟平台通过联网插件/知识库/MCP/Function Calling实现工具调用与任务执行</div><div class="fb-row"><b>L2</b><span>MCP协议/Function Calling</span></div></div></td>
+            </tr>
+            <tr>
+              <td class="layer-lbl">L1</td>
+              <td class="cg1 span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>技术方案未公开</span></div></div></td>
+              <td class="cg2 span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>技术方案未公开</span></div></div></td>
+              <td class="cg4 span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>技术方案未公开</span></div></div></td>
+              <td class="cg5 span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>技术方案未公开</span></div></div></td>
+              <td class="cg6 span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>技术方案未公开</span></div></div></td>
+            </tr>
+          </tbody></table>
+        </div>
+        <p class="cross-note">未发现跨模态共享同一命名特性的证据——文本"Doubao Seed"与视觉"Seedream/Seedance"仅命名前缀相近，来源未明确说明二者共享同一底层基础模型。视觉列拆分为理解（Grounding）与生成（Seedream/Seedance）两个独立产品。</p>
+      </div>
+    </details>
+
+    <div class="cluster-heading"><h2 style="margin:0;">具身机器人</h2><span class="tag">Tesla Optimus · Figure · Unitree</span><span class="tag" style="opacity:.7;">+ 1X NEO · UBTECH（补充案例）</span></div>
+
+    <details class="co-card">
+      <summary><h3>Tesla Optimus</h3><span class="mainline-preview">感知-规划-动作闭环的通用人形机器人基础模型</span></summary>
+      <div class="co-body">
+        <dl class="co-lines">
+          <dt>主线任务</dt><dd>Optimus的技术重心是视觉感知、本体状态估计与全身运动控制的闭环，语言/语音仅是任务下达入口，公开资料不支持独立情感识别能力的判断。</dd>
+          <dt>情感支线</dt><dd>情感计算（面向人类用户的情绪识别）在Optimus体系中基本缺位——生理列的IMU/关节编码器/力控/触觉信号服务于机器人自身的平衡、碰撞、故障检测等执行安全监控，行为列的运动控制栈服务于平衡/导航/抓取的全身控制，二者均未涉及对人类用户情绪状态的采集或推断。</dd>
+        </dl>
+
+        <div class="grid-wrap">
+          <table class="fgrid">
+            <tbody><tr><th>层级</th><th>文本</th><th>语音</th><th>视觉</th><th>生理</th><th>行为</th></tr>
+            <tr>
+              <td class="layer-lbl">L4</td>
+              <td class="cg1 span-top"><div class="fblock"><div class="fb-name">Optimus自然语言任务</div><div class="fb-func">将语言目标转化为机器人任务计划并执行</div><div class="fb-row"><b>L4</b><span>技术方案未公开</span></div></div></td>
+              <td class="cg2 span-top"><div class="fblock"><div class="fb-name">语音/交互入口</div><div class="fb-func">通过语音完成任务确认、澄清与指令理解</div><div class="fb-row"><b>L4</b><span>ASR/TTS</span></div></div></td>
+              <td class="cg3 span-top"><div class="fblock"><div class="fb-name">视觉感知网络</div><div class="fb-func">通过多相机网络完成语义分割、目标检测与3D场景理解</div><div class="fb-row"><b>L4</b><span>语义分割+目标检测+深度估计</span></div></div></td>
+              <td class="cg5 span-top"><div class="fblock"><div class="fb-name">传感与本体状态</div><div class="fb-func">融合多传感信号推断本体姿态并监控安全状态</div><div class="fb-row"><b>L4</b><span>技术方案未公开</span></div></div></td>
+              <td class="cgx span-top"><div class="fblock blank">空白<br>官方无对应特性/功能</div></td>
+            </tr>
+            <tr>
+              <td class="layer-lbl">L3</td>
+              <td class="cg1 span-mid"><div class="fblock"><div class="fb-row"><b>L3</b><span>大模型任务分解算法</span></div></div></td>
+              <td class="cg2 span-mid"><div class="fblock"><div class="fb-row"><b>L3</b><span>技术方案未公开</span></div></div></td>
+              <td class="cg3 span-bottom"><div class="fblock"><div class="fb-row"><b>L3</b><span>多相机BEV+3D物体预测</span></div></div></td>
+              <td class="cg5 span-mid"><div class="fblock"><div class="fb-row"><b>L3</b><span>技术方案未公开</span></div></div></td>
+              <td class="cgx span-bottom"></td>
+            </tr>
+            <tr>
+              <td class="layer-lbl">L2</td>
+              <td class="cg1 span-mid"><div class="fblock"><div class="fb-row"><b>L2</b><span>技术方案未公开</span></div></div></td>
+              <td class="cg2 span-mid"><div class="fblock"><div class="fb-row"><b>L2</b><span>麦克风阵列+ASR</span></div></div></td>
+              <td class="cg4"><div class="fblock"><div class="fb-name">世界模型</div><div class="fb-func">基于视觉特征构建世界表征以支持轨迹规划与避障</div><div class="fb-row"><b>L2</b><span>世界模型+轨迹规划</span></div></div></td>
+              <td class="cg5 span-mid"><div class="fblock"><div class="fb-row"><b>L2</b><span>IMU+关节编码器融合</span></div></div></td>
+              <td class="cg6 span-top"><div class="fblock"><div class="fb-name">全身运动控制</div><div class="fb-func">实现平衡、导航、抓取与全身协调的闭环控制（特性字段为空，标签由功能综合而来）</div><div class="fb-row"><b>L2</b><span>全身运动控制栈</span></div></div></td>
+            </tr>
+            <tr>
+              <td class="layer-lbl">L1</td>
+              <td class="cg1 span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>技术方案未公开</span></div></div></td>
+              <td class="cg2 span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>机身/遥控端麦克风</span></div></div></td>
+              <td class="cg3"><div class="fblock"><div class="fb-name">视觉感知网络（续）</div><div class="fb-func">摄像头阵列采集，供上方感知网络使用</div><div class="fb-row"><b>L1</b><span>摄像头传感器阵列</span></div></div></td>
+              <td class="cg5 span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>IMU+触觉+电流传感器</span></div></div></td>
+              <td class="cg6 span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>实时控制环+HIL测试</span></div></div></td>
+            </tr>
+          </tbody></table>
+        </div>
+        <p class="cross-note">视觉列的L4/L3"视觉感知网络"与L1采集层同属一套感知系统（同色标出），中间L2"世界模型"是独立命名的规划子系统，故单独插入。未见跨模态共享证据。</p>
+      </div>
+    </details>
+
+    <details class="co-card">
+      <summary><h3>Figure</h3><span class="mainline-preview">Helix架构：语言→高频（200Hz）精细动作控制</span></summary>
+      <div class="co-body">
+        <dl class="co-lines">
+          <dt>主线任务</dt><dd>Figure的Helix架构把语言、视觉与高频动作控制打通，本体/触觉反馈服务于执行稳定性而非情绪判断，语音是自然语言交互的前端。</dd>
+          <dt>情感支线</dt><dd>情感计算在Figure体系中基本缺位——本体/触觉反馈"用于执行稳定性，不等同情绪识别"；生理列的腕姿/手指/躯干/头部姿态及机器人状态融合服务于S1视觉运动策略的动作生成，行为列的200Hz全上身连续控制服务于执行闭环，均非面向人类用户的情绪状态。</dd>
+        </dl>
+
+        <div class="grid-wrap">
+          <table class="fgrid">
+            <tbody><tr><th>层级</th><th>文本</th><th>语音</th><th>视觉</th><th>生理</th><th>行为</th></tr>
+            <tr>
+              <td class="layer-lbl">L4</td>
+              <td class="cg1"><div class="fblock"><div class="fb-name">语言目标转VLA行为（特性字段为空，标签由功能综合而来）</div><div class="fb-func">将语言目标转化为VLA（视觉-语言-动作）行为序列</div><div class="fb-row"><b>L4</b><span>VLA架构</span></div></div></td>
+              <td class="cg3 span-top"><div class="fblock"><div class="fb-name">自然语言交互</div><div class="fb-func">通过语音完成指令确认、任务状态播报与语言条件转换</div><div class="fb-row"><b>L4</b><span>技术方案未公开</span></div></div></td>
+              <td class="cg4 span-top"><div class="fblock"><div class="fb-name">S2 VLM场景理解</div><div class="fb-func">S2 VLM识别陌生物体并选择抓取目标</div><div class="fb-row"><b>L4</b><span>S2 VLM抓取目标选择</span></div></div></td>
+              <td class="cg6 span-top"><div class="fblock"><div class="fb-name">机器人状态/触觉</div><div class="fb-func">融合视觉、姿态与状态信号反馈任务完成度与动作稳定性</div><div class="fb-row"><b>L4</b><span>技术方案未公开</span></div></div></td>
+              <td class="cgx span-top"><div class="fblock blank">空白<br>官方无对应特性/功能</div></td>
+            </tr>
+            <tr>
+              <td class="layer-lbl">L3</td>
+              <td class="cg8 cross span-top"><div class="fblock"><div class="fb-name">Helix S2语义理解</div><div class="fb-func">S2 VLM对场景与语言进行7-9Hz联合理解，并将语义latent传递给S1执行</div><div class="fb-row"><b>L3</b><span>S2 VLM架构(7-9Hz)</span></div></div></td>
+              <td class="cg3 span-mid"><div class="fblock"><div class="fb-row"><b>L3</b><span>ASR+Helix语言条件</span></div></div></td>
+              <td class="cg4 span-bottom"><div class="fblock"><div class="fb-row"><b>L3</b><span>开源VLM(S2)</span></div></div></td>
+              <td class="cg6 span-mid"><div class="fblock"><div class="fb-row"><b>L3</b><span>技术方案未公开</span></div></div></td>
+              <td class="cgx span-bottom"></td>
+            </tr>
+            <tr>
+              <td class="layer-lbl">L2</td>
+              <td class="cg8 cross span-bottom"><div class="fblock"><div class="fb-row"><b>L2</b><span>语义latent传递机制</span></div></div></td>
+              <td class="cg3 span-mid"><div class="fblock"><div class="fb-row"><b>L2</b><span>ASR前端(STT)</span></div></div></td>
+              <td class="cg8 cross"><div class="fblock"><div class="fb-name">S1视觉运动策略</div><div class="fb-func">80M参数视觉运动Transformer将视觉特征转化为动作</div><div class="fb-row"><b>L2</b><span>S1视觉运动Transformer(80M参数)</span></div></div></td>
+              <td class="cg6 span-mid"><div class="fblock"><div class="fb-row"><b>L2</b><span>技术方案未公开</span></div></div></td>
+              <td class="cg8 cross"><div class="fblock"><div class="fb-name">S1动作执行</div><div class="fb-func">S1以200Hz频率进行全上身连续动作控制</div><div class="fb-row"><b>L2</b><span>200Hz全上身连续控制(S1)</span></div></div></td>
+            </tr>
+            <tr>
+              <td class="layer-lbl">L1</td>
+              <td class="cg2"><div class="fblock"><div class="fb-name">自然语言指令采集（标签由功能综合而来）</div><div class="fb-func">采集自然语言指令与机器人状态输入</div><div class="fb-row"><b>L1</b><span>技术方案未公开</span></div></div></td>
+              <td class="cg3 span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>机载/控制端麦克风</span></div></div></td>
+              <td class="cg5"><div class="fblock"><div class="fb-name">视觉信号采集（标签由功能综合而来）</div><div class="fb-func">采集单目相机图像与机器人关节状态</div><div class="fb-row"><b>L1</b><span>单目相机传感器</span></div></div></td>
+              <td class="cg6 span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>腕部姿态+手指位置传感器</span></div></div></td>
+              <td class="cg7"><div class="fblock"><div class="fb-name">S1闭环控制采集（标签由功能综合而来）</div><div class="fb-func">采集S1实时闭环控制与双GPU流式推理数据</div><div class="fb-row"><b>L1</b><span>双GPU流式推理架构</span></div></div></td>
+            </tr>
+          </tbody></table>
+        </div>
+        <p class="cross-note"><b>Helix S1/S2双系统架构（cg8标出）</b>：文本L3"S2 VLM场景/语言理解"+文本L2"S2语义latent→S1传递"+视觉L2"S1视觉运动策略"+行为L2"200Hz全上身连续控制"，共同构成S2慢速语义理解（文本+视觉）→S1快速视觉运动执行（视觉+行为）的双系统闭环，是13家样本中唯一有明确文本依据的真实跨模态架构。</p>
+      </div>
+    </details>
+
+    <details class="co-card">
+      <summary><h3>Unitree</h3><span class="mainline-preview">低成本人形/四足机器人硬件 + 开放SDK生态</span></summary>
+      <div class="co-body">
+        <dl class="co-lines">
+          <dt>主线任务</dt><dd>Unitree核心优势是低成本硬件与开放SDK，语音/视觉/文本能力多依赖开发者二次集成，公开资料不足以证明其自带情绪状态服务。</dd>
+          <dt>情感支线</dt><dd>情感计算在Unitree体系中基本缺位——文本/语音/视觉更多依赖SDK/开发者二次开发，"公开资料不足以证明自带情绪状态服务"；生理列的IMU/关节编码器/力矩估计及行为列的全身控制/步态库均服务于机器人自身的姿态安全与运动技能执行，而非用户情绪感知。</dd>
+        </dl>
+
+        <div class="grid-wrap">
+          <table class="fgrid">
+            <tbody><tr><th>层级</th><th>文本</th><th>语音</th><th>视觉</th><th>生理</th><th>行为</th></tr>
+            <tr>
+              <td class="layer-lbl">L4</td>
+              <td class="cg1 span-top"><div class="fblock"><div class="fb-name">语义指令到运动技能映射（特性字段为空，标签由L4功能综合而来）</div><div class="fb-func">将语义指令映射为运动技能，依赖外部LLM与SDK/ROS接口</div><div class="fb-row"><b>L4</b><span>技术方案未公开</span></div></div></td>
+              <td class="cg2 span-top"><div class="fblock"><div class="fb-name">语音/开发者交互</div><div class="fb-func">由开发者或上层应用接入ASR/TTS完成语音指令转换</div><div class="fb-row"><b>L4</b><span>第三方ASR/TTS</span></div></div></td>
+              <td class="cg3 span-top"><div class="fblock"><div class="fb-name">视觉与环境感知</div><div class="fb-func">基于深度相机与激光雷达感知环境并生成运动策略</div><div class="fb-row"><b>L4</b><span>技术方案未公开</span></div></div></td>
+              <td class="cg4 span-top"><div class="fblock"><div class="fb-name">本体/力控状态</div><div class="fb-func">融合IMU、力矩与足端接触信号推断本体状态并监控安全</div><div class="fb-row"><b>L4</b><span>技术方案未公开</span></div></div></td>
+              <td class="cgx span-top"><div class="fblock blank">空白<br>官方无对应特性/功能</div></td>
+            </tr>
+            <tr>
+              <td class="layer-lbl">L3</td>
+              <td class="cg1 span-mid"><div class="fblock"><div class="fb-row"><b>L3</b><span>外接LLM(第三方)</span></div></div></td>
+              <td class="cg2 span-mid"><div class="fblock"><div class="fb-row"><b>L3</b><span>技术方案未公开</span></div></div></td>
+              <td class="cg3 span-mid"><div class="fblock"><div class="fb-row"><b>L3</b><span>深度相机+LiDAR</span></div></div></td>
+              <td class="cg4 span-mid"><div class="fblock"><div class="fb-row"><b>L3</b><span>IMU+编码器力矩估计</span></div></div></td>
+              <td class="cgx span-bottom"></td>
+            </tr>
+            <tr>
+              <td class="layer-lbl">L2</td>
+              <td class="cg1 span-mid"><div class="fblock"><div class="fb-row"><b>L2</b><span>SDK+ROS接口</span></div></div></td>
+              <td class="cg2 span-mid"><div class="fblock"><div class="fb-row"><b>L2</b><span>麦克风阵列+外部ASR</span></div></div></td>
+              <td class="cg3 span-mid"><div class="fblock"><div class="fb-row"><b>L2</b><span>强化学习+模仿学习</span></div></div></td>
+              <td class="cg4 span-mid"><div class="fblock"><div class="fb-row"><b>L2</b><span>多传感器融合(IMU/力矩/触地)</span></div></div></td>
+              <td class="cg5 span-top"><div class="fblock"><div class="fb-name">全身运动控制与步态库（特性字段为空，标签由L2功能综合而来）</div><div class="fb-func">通过步态库与实时控制环实现全身运动技能执行</div><div class="fb-row"><b>L2</b><span>全身控制+步态库</span></div></div></td>
+            </tr>
+            <tr>
+              <td class="layer-lbl">L1</td>
+              <td class="cg1 span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>技术方案未公开</span></div></div></td>
+              <td class="cg2 span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>机身/外接麦克风</span></div></div></td>
+              <td class="cg3 span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>头部相机+3D LiDAR</span></div></div></td>
+              <td class="cg4 span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>IMU+关节编码器+触地传感器</span></div></div></td>
+              <td class="cg5 span-bottom"><div class="fblock"><div class="fb-row"><b>L1</b><span>实时控制环+仿真训练数据</span></div></div></td>
+            </tr>
+          </tbody></table>
+        </div>
+        <p class="cross-note">三项命名特性均集中在L4响应层且高度依赖SDK/开发者二次集成（语音尤为明显），模态间未见官方文档支持的跨模态融合架构（区别于Figure的Helix S1/S2），故不做跨模态关联描述。</p>
+      </div>
+    </details>
+
+    <details class="co-card">
+      <summary><h3>1X NEO<span style="font-weight:400;">（补充案例）</span></h3><span class="mainline-preview">OpenAI系家庭人形机器人，创始人愿景强调"共情陪伴"</span></summary>
+      <div class="co-body">
+        <dl class="co-lines">
+          <dt>主线任务</dt><dd>1X NEO是面向家庭场景的人形机器人，官方产品页定位为"个性化助手"，2025年10月开放预订，2026年起量产交付，核心功能是开门、取物、关灯等家务协助。</dd>
+          <dt>情感支线</dt><dd>创始人Bernt Børnich在公开访谈/TED演讲中多次强调让NEO成为"家庭一员"、建立"共情连接"的愿景，pptx素材也引用了"building emotional bonds"的定位表述；但抽查NEO官方产品页本身，并未出现该确切表述，也没有描述任何面向用户情绪的识别机制——内置LLM的介绍集中在个性化助理、音频识别"判断何时响应"、视觉上下文感知、记忆与任务管理，均是任务导向而非情绪识别。情感支线目前更像是创始人层面的产品愿景，尚未落地为可查证的技术能力。</dd>
+        </dl>
+        <div class="callout"><b>核查结论：</b>官方页面提到内置LLM具备"音频识别以判断何时响应"和"视觉上下文感知"，但这些是任务触发机制，不是情绪状态识别；未提及任何情绪分类模型、传感器或API。"共情陪伴"目前是创始人访谈/媒体叙事层面的定位语言，尚未见诸产品技术文档。</div>
+      </div>
+    </details>
+
+    <details class="co-card">
+      <summary><h3>UBTECH Alpha Mini<span style="font-weight:400;">（补充案例）</span></h3><span class="mainline-preview">陪伴机器人，官方明确的是情绪"表达"而非情绪"识别"</span></summary>
+      <div class="co-body">
+        <dl class="co-lines">
+          <dt>主线任务</dt><dd>Alpha Mini是优必选面向儿童教育与陪伴场景的小型人形机器人，核心卖点是编程教育、才艺互动（跳舞、武术等）与语音对话。</dd>
+          <dt>情感支线</dt><dd>官方页面明确写"LCD眼睛可展现哭泣、开心等表情"，第三方报道也将其归类为"emotional"陪伴机器人；但这是机器人自身的情绪<b>表达</b>（输出），官方页面并未描述任何识别用户情绪状态的技术（无面部情绪分类算法、无语音情绪识别API的公开说明）。所列传感器（距离、加速度、陀螺仪、触摸、摄像头、麦克风阵列）均为通用交互/避障用途，未与情绪识别关联。UBTECH另在养老/教育解决方案页面提及"情感与心理支持"作为业务方向，但Alpha Mini产品页本身没有对应的技术细节。</dd>
+        </dl>
+        <div class="callout"><b>核查结论：</b>Alpha Mini是13家核心样本之外，pptx中唯一被明确称为"做情绪识别"的机器人产品；但官方产品页实际证实的只是情绪<b>表达</b>（LCD表情、语音语调），并未证实情绪<b>识别</b>——与本报告对13家核心样本"无一做用户情绪识别"的结论方向一致。</div>
+      </div>
+    </details>
+
+    <p style="font-size:.82rem;color:var(--text-dim);margin-top:.5rem;">以上两家为pptx素材中提及、但不在13家核心底表内的补充案例，未做逐格L1-L4技术拆解（无对应技术底表数据），仅列主线任务与情感支线的核查结论，供参考。</p>
+
+  </section>
+
+  <section>
+    <div class="eyebrow">机会点分析</div>
+    <h2>OS厂商下一步：谁最接近把"支线"接通</h2>
+
+    <p class="opp-para">五家OS/硬件平台的行为信号采集覆盖面很广——Google的UsageStatsManager、Apple的DeviceActivity、Samsung的Digital Wellbeing、Microsoft的Recall、vivo的作息服务——但无一例外停留在"统计聚合"层面，没有一家把这些行为信号接入情绪推断模型。视觉侧的用户情绪识别（识别人脸表情/情绪，而非场景/物体识别）目前是全行业空白：五家公司视觉列清一色是OCR、圈选搜索、场景理解、图像生成编辑，唯一真正做过"看脸识别情绪"的Microsoft Emotion API已在2022年下架，其分析结论明确把这段历史定性为"视觉情绪风险高"的前车之鉴。</p>
+    <p class="opp-para">这意味着现实的机会窗口不在"从零发明新信号源"，而在于<b>把已经采集但未被使用于情绪推断的信号，升级为持续状态模型</b>——尤其是那些"已经建了UI/API/命名功能，但明确写着仅规则触发、无持续响应"的半成品。这类功能的价值在于：企业已经完成了用户教育、隐私协议、系统权限这些最贵的前期工作，剩下的只是模型能力的迭代，而不是重新说服用户开放一个新入口。</p>
+
+    <div class="opp-co">
+      <h3>Google — Spark/Halo 与 Pause Point 规则引擎</h3>
+      <p>底表明确写出"无持续情绪响应；意图/风险分类：仅规则触发"，说明Google已经搭好了云端Agent(Antigravity)+状态UI的框架，只是触发逻辑还是硬编码规则，没有接入时序状态模型。若将Body Response压力检测（cEDA+HR/HRV+ML分类）的输出接入Spark/Halo的触发条件，就能从"规则触发"升级为"生理状态驱动的持续情绪响应"。<b>风险：</b>Google横跨搜索、健康、Agent三条线，一旦把压力/情绪状态用于任务调度或广告相关的Agent决策，容易引发数据用途扩张的隐私质疑。</p>
+    </div>
+    <div class="opp-co">
+      <h3>Apple — State of Mind 与 Screen Time 的割裂</h3>
+      <p>State of Mind目前是"自评量表+Health趋势"的隐私反馈闭环，行为列（Screen Time）只做统计不做推断，二者尚未打通。Apple已具备把两者拉通的技术基础（同一HealthKit生态、同一端侧隐私架构），下一步是把Screen Time的行为模式（解锁频率、App切换）作为被动信号，去补全State of Mind目前依赖主动自评（PHQ-9/GAD-7）的短板，从"用户自己填量表"升级为"系统被动推断+量表校验"。<b>风险：</b>Apple已把State of Mind定位为"正当入口"，一旦引入被动行为推断，容易触碰医疗器械监管边界，与其一贯回避医疗声明的策略冲突。</p>
+    </div>
+    <div class="opp-co">
+      <h3>Samsung — Energy Score 与 Digital Wellbeing 的模型缺口</h3>
+      <p>Energy Score已经是"隐私反馈闭环"型的成熟功能（压力趋势/睡眠恢复评分），技术上离情绪推断最近；但Digital Wellbeing仍是纯统计，两者未联动。Samsung的优势是硬件生态最全（Watch+Ring多传感器），下一步自然是把Energy Score的生理时序模型与Digital Wellbeing的行为数据做联合建模。<b>风险：</b>Samsung自己的结论写明模型层"明显依赖Google"，情绪推断一旦升级，数据流可能进一步绑定Google云端，加剧对第三方模型的依赖和数据出境争议。</p>
+    </div>
+    <div class="opp-co">
+      <h3>Microsoft — Recall 与 Clippy/Emotion API 的双重阴影</h3>
+      <p>Recall是"本地快照+OCR语义索引"，技术上已具备理解用户长期行为轨迹的能力，是五家里唯一明确写出历史失败案例对照的（Clippy因"缺乏准确状态模型被判定为骚扰而下线"，Emotion API因视觉情绪识别风险在2022年下架）。Recall若想往情绪感知方向延伸，必须先解决"状态模型不准=骚扰"这个Microsoft自己总结的教训，这也是其分析结论明确写"2024/25 Recall与Click to Do转向效率上下文，不推情绪"的原因——五家里对该方向最谨慎、几乎主动回避的一家。<b>风险：</b>一旦重蹈Clippy/Emotion API覆辙，品牌历史包袱会被反复提及。</p>
+    </div>
+    <div class="opp-co">
+      <h3>vivo — AI舒眠与OriginOS舒适工程的"人因"路线</h3>
+      <p>AI舒眠、OriginOS舒适工程走的是"人因体验"而非"情绪识别"路线，vivo自己的结论也明确写"重点不是直接做情绪识别"。但生理列已有"睡眠阶段/作息/压力趋势"的时序状态模型雏形，行为列的作息服务也在做个人基线聚合，两者尚未打通成持续状态追踪。vivo的机会在于以"舒适工程"为包装、以生理时序模型为底层，做一个不叫"情绪识别"但实质上做情绪状态推断的产品，规避正面命名带来的敏感度。<b>风险：</b>技术细节公开程度低，实际能力与宣传口径的落差可能成为可信度问题。</p>
+    </div>
+
+    <div class="callout">
+      <b>技术就绪度排序：</b>Samsung（Energy Score）和Google（Body Response接入Spark/Halo）最高——两者都已有成熟的生理时序ML分类模型，缺的只是把输出接到行为/响应层的"最后一公里"；Apple（State of Mind）次之，模型基础好但受限于一贯谨慎的医疗合规立场；Microsoft技术上具备条件（Recall本地语义索引能力不弱），但战略上最不愿意往这个方向走，属于"有能力、无意愿"；vivo技术公开程度最低，机会真实存在但难以验证成色。<br><br>
+      <b>共同的结构性缺口：</b>没有一家把语音韵律、生理信号、行为信号做成同一个持续状态模型——每类信号仍活在各自的产品孤岛里（韵律分析在语音助手里，压力检测在健康App里，行为聚合在系统统计里，三者互不联通）。即便某一家率先打通"规则触发→持续响应"，也大概率是单模态的局部升级，而不是真正的多模态融合情绪状态引擎——这是当前所有平台共同缺失、也是长期最大的技术与产品机会所在。
+    </div>
+  </section>
+
+  <footer>基于《OS情感计算竞品分析内容底表》13家公司标签页（核查修正版）与技术地图框架（Slide 1-4）生成 · 详细的逐格溯源过程见配套的《溯源核查报告》 · 2026 OS Platform Strategy</footer>
+</div>
+
+</body></html>
