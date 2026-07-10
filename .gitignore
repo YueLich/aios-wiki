@@ -4,9 +4,8 @@ __pycache__/
 *.pyc
 .DS_Store
 
-# Temp files
+# Crawler scratch/queue files — not committed, regenerated per run
 _*.json
 _*.txt
-*.pyc
-__pycache__/
-site/
+new_items.json
+_inbox/
