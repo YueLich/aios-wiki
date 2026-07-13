@@ -1,5 +1,5 @@
-site_name: ð± Mobile AIOS Wiki
-site_description: ææºç«¯ AI æä½ç³»ç»ç¥è¯åº
+site_name: 📱 Mobile AIOS Wiki
+site_description: 手机端 AI 操作系统知识库
 site_url: https://yuelich.github.io/aios-wiki/
 repo_url: https://github.com/YueLich/aios-wiki
 repo_name: YueLich/aios-wiki
@@ -14,14 +14,14 @@ theme:
       accent: amber
       toggle:
         icon: material/brightness-7
-        name: æè²æ¨¡å¼
+        name: 暗色模式
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: indigo
       accent: amber
       toggle:
         icon: material/brightness-4
-        name: äº®è²æ¨¡å¼
+        name: 亮色模式
   features:
     - navigation.instant
     - navigation.sections
@@ -52,33 +52,33 @@ markdown_extensions:
       permalink: true
 
 nav:
-  - é¦é¡µ: index.md
+  - 首页: index.md
 
-  # ââââââââââââââââââââââââââââââââââââââââââââââ
-  # å®ä½ï¼å·ä½çäº§å / å·¥å· / æ¨¡å
-  # ââââââââââââââââââââââââââââââââââââââââââââââ
-  - å®ä½:
-    - å®ä½æ»è§: entities/index.md
-    - æ¨çæ¡æ¶ä¸å·¥å·é¾:
-      - GGML ä¸ llama.cpp: entities/ggml-llamacpp-hf.md
-      - llama.cpp çæ¬è¿½è¸ª: entities/llamacpp.md
+  # ══════════════════════════════════════════════
+  # 实体：具体的产品 / 工具 / 模型
+  # ══════════════════════════════════════════════
+  - 实体:
+    - 实体总览: entities/index.md
+    - 推理框架与工具链:
+      - GGML 与 llama.cpp: entities/ggml-llamacpp-hf.md
+      - llama.cpp 版本追踪: entities/llamacpp.md
       - ARM ComputeLibrary v53.0.0: entities/arm-computelibrary-v53.md
       - MNN 3.5.0: entities/mnn-350.md
       - coremltools 9.0: entities/coremltools-9.md
       - AnyLanguageModel (Apple): entities/anylanguagemodel-apple.md
       - vllm-mlx Apple Silicon: entities/vllm-mlx-apple-silicon.md
-      - ç«¯ä¾§æµå¼ ASR: entities/ondevice-streaming-asr.md
-      - Xybrid ç«¯ä¾§ SDK: entities/xybrid-ondevice-ai-sdk.md
+      - 端侧流式 ASR: entities/ondevice-streaming-asr.md
+      - Xybrid 端侧 SDK: entities/xybrid-ondevice-ai-sdk.md
       - Lightning-SimulWhisper: entities/lightning-simulwhisper.md
       - TurboQuant WASM: entities/turboquant-wasm.md
       - NanoWakeWord: entities/nanowakeword.md
-      - NanoWakeWord å¤éè¯è®­ç»: entities/nanowakeword-wake-word.md
-      - SHIELD åå±åå­ LLM: entities/shield-hierarchical-memory-llm.md
+      - NanoWakeWord 唤醒词训练: entities/nanowakeword-wake-word.md
+      - SHIELD 分层内存 LLM: entities/shield-hierarchical-memory-llm.md
       - NVIDIA TensorRT-LLM v1.2.1: entities/tensorrt-llm-v121.md
-      - Kampala éåå·¥ç¨ä»£ç: entities/kampala-reverse-engineering.md
-    - ç«¯ä¾§æ¨¡å:
+      - Kampala 逆向工程代理: entities/kampala-reverse-engineering.md
+    - 端侧模型:
       - Gemma 4 AICore: entities/gemma4-aicore.md
-      - Gemma 4 ç«¯ä¾§: entities/gemma4-ondevice.md
+      - Gemma 4 端侧: entities/gemma4-ondevice.md
       - Gemma 4 Android Studio Agent: entities/gemma4-android-studio-agent.md
       - Gemini 3.1 Flash-Lite: entities/gemini-31-flash-lite.md
       - Gemini 3.1 Flash TTS: entities/gemini-31-flash-tts.md
@@ -91,551 +91,551 @@ nav:
       - MiniCPM 2.4.2: entities/minicpm-242.md
       - MobileLLM-Pro: entities/mobilellm-pro.md
       - Phi-4 reasoning-vision 15B: entities/phi4-reasoning-vision.md
-      - Imp ç§»å¨å¤æ¨¡æ: entities/imp-mobile-lmm.md
-      - HuoziIME ç«¯ä¾§è¾å¥æ³: entities/huoziime-ondevice-ime.md
+      - Imp 移动多模态: entities/imp-mobile-lmm.md
+      - HuoziIME 端侧输入法: entities/huoziime-ondevice-ime.md
       - LiteRT + Swift iOS: entities/litertlm-swift-ios.md
-      - Nano Banana 2 å¾åçæ: entities/nano-banana-2-imagegen.md
-      - Lyria 3 é³ä¹çæ: entities/lyria-3-gemini-music.md
-      - MUA è¶ç²¾ç» Avatar: entities/mua-mobile-ultradetailed-avatars.md
-    - è®¾å¤ä¸å¹³å°:
+      - Nano Banana 2 图像生成: entities/nano-banana-2-imagegen.md
+      - Lyria 3 音乐生成: entities/lyria-3-gemini-music.md
+      - MUA 超精细 Avatar: entities/mua-mobile-ultradetailed-avatars.md
+    - 设备与平台:
       - iPhone 17e: entities/iphone-17e.md
       - Android 17 Beta 4: entities/android-17-beta4.md
       - Android Studio Agent Mode: entities/android-studio-agent-mode.md
-      - Android CLI Agent å·¥ä½æµ: entities/android-cli-agent-workflow.md
+      - Android CLI Agent 工作流: entities/android-cli-agent-workflow.md
       - Google AI Edge Gallery: entities/google-ai-edge-gallery.md
       - Google Translate iOS: entities/google-translate-ios-live2.md
-      - Google ä¸ªäººæºè½: entities/personal-intelligence-google.md
-      - Gemini Live Android éå¡: entities/gemini-live-android-redesign.md
+      - Google 个人智能: entities/personal-intelligence-google.md
+      - Gemini Live Android 重塑: entities/gemini-live-android-redesign.md
       - Gemini Robotics-ER 1.6: entities/gemini-robotics-er-16.md
       - Chrome AI Mode: entities/chrome-ai-mode-2026.md
-      - Samsung Perplexity æµè§å¨: entities/samsung-perplexity-browser.md
+      - Samsung Perplexity 浏览器: entities/samsung-perplexity-browser.md
       - Google Fitbit Air: entities/fitbit-air-google-health.md
       - Paddle-Lite v2.14: entities/paddle-lite-v214.md
       - NaviMind: entities/navixmind.md
-      - Memorable ç«¯ä¾§ç§çæç´¢: entities/memorable-ondevice-photo-search.md
-      - Qiaohu ç¦»çº¿è¯­é³å©æ: entities/qiaohu-offline-multimodal-assistant.md
+      - Memorable 端侧照片搜索: entities/memorable-ondevice-photo-search.md
+      - Qiaohu 离线语音助手: entities/qiaohu-offline-multimodal-assistant.md
       - Kitten TTS v0.8: entities/kitten-tts.md
-      - LoudReader ç«¯ä¾§ TTS: entities/loudreader-ondevice-tts.md
-      - Cactus ç§»å¨æ¨çå¼æ: entities/cactus-mobile-inference.md
-      - Off Grid ç«¯ä¾§å¨åè½ AI: entities/off-grid-mobile-ai.md
-      - CyberWriter ç«¯ä¾§ç¼è¾å¨: entities/cyberwriter-ondevice-ai.md
-      - iappyxOS ç«¯ä¾§åºç¨çæ: entities/iappyxos-ondevice-apk.md
-      - Palmier Agent-ææºæ¡¥: entities/palmier.md
-      - Glimpse ç«¯ä¾§ Markdown éè¯»å¨: entities/glimpse.md
-      - Aide Android è¯­é³å©æ: entities/aide-android-assistant.md
-      - Zuver Agent æ¡æ¶: entities/zuver.md
+      - LoudReader 端侧 TTS: entities/loudreader-ondevice-tts.md
+      - Cactus 移动推理引擎: entities/cactus-mobile-inference.md
+      - Off Grid 端侧全功能 AI: entities/off-grid-mobile-ai.md
+      - CyberWriter 端侧编辑器: entities/cyberwriter-ondevice-ai.md
+      - iappyxOS 端侧应用生成: entities/iappyxos-ondevice-apk.md
+      - Palmier Agent-手机桥: entities/palmier.md
+      - Glimpse 端侧 Markdown 阅读器: entities/glimpse.md
+      - Aide Android 语音助手: entities/aide-android-assistant.md
+      - Zuver Agent 框架: entities/zuver.md
       - Sova AI Android Agent: entities/sova-ai-android-agent.md
-      - Cello ç«¯ä¾§å§¿æè¯ä¼°: entities/cello-evaluator-ondevice-cv.md
-      - DynamicsLLM Android ä»£ç å¼å³: entities/dynamicsllm-android-code-smells.md
-      - Android ç¡¬ä»¶æ¨çä¼å: entities/android-inference-hardware-optimization.md
-      - EdgeDetect èé¦å¥ä¾µæ£æµ: entities/edgedetect-federated-intrusion-detection.md
+      - Cello 端侧姿态评估: entities/cello-evaluator-ondevice-cv.md
+      - DynamicsLLM Android 代码异味: entities/dynamicsllm-android-code-smells.md
+      - Android 硬件推理优化: entities/android-inference-hardware-optimization.md
+      - EdgeDetect 联邦入侵检测: entities/edgedetect-federated-intrusion-detection.md
 
-  # ââââââââââââââââââââââââââââââââââââââââââââââ
-  # æ¦å¿µï¼æ Agent ç³»ç»æ¶æç»ç»
-  # ââââââââââââââââââââââââââââââââââââââââââââââ
-  - æ¦å¿µ:
-    - æ¦å¿µæ»è§: concepts/index.md
-    - Mobile AIOS å¨æ¯æ¦è¿°: concepts/mobile-aios-overview.md
+  # ══════════════════════════════════════════════
+  # 概念：按 Agent 系统架构组织
+  # ══════════════════════════════════════════════
+  - 概念:
+    - 概念总览: concepts/index.md
+    - Mobile AIOS 全景概述: concepts/mobile-aios-overview.md
     - Apple Intelligence: concepts/apple-intelligence.md
 
-    # ââ ç»´åº¦ä¸ï¼Agent æ ¸å¿å­ç³»ç» ââ
-    - Agent æ¶æä¸è®¤ç¥:
-      - World Leaks the Future æ¼åé¢æµ: concepts/world-leaks-future-prediction.md
-      - ç§»å¨ Agent æ¡æ¶: concepts/mobile-agent-framework.md
-      - ClawMobile åç Agent æ¶æ: concepts/clawmobile-agentic.md
-      - Tri-Spirit ä¸å±è®¤ç¥ç¡¬ä»¶åå: concepts/trispirit-cognitive-architecture.md
-      - Agent æä¹åèº«ä»½: concepts/agent-persistent-identity.md
-      - Synergy å¼æ¾ Agent ç½ç»æ¶æ: concepts/synergy-agentic-web-agent.md
-      - Synergy å¼æ¾ Agent ç½ç»åä½: concepts/synergy-open-agentic-web.md
-      - ExecTune Guide æ¨¡åå¼å¯¼ LLM: concepts/exectune-guide-core-policy.md
-      - LAMO è½»é GUI Agent å¤è§è²: concepts/lamo-scalable-gui-agents.md
-      - MCP çäº§é¨ç½²æ¨¡å¼: concepts/mcp-deployment-patterns.md
-      - ClawGUI GUI Agent å¨æ æ¡æ¶: concepts/clawgui-unified-framework.md
-      - ç§»å¨ Agent çææ©æ¦: concepts/mobile-agent-ecosystem-friction.md
-      - OpenMobile å¼æ¾ç§»å¨æ°æ®åæ: concepts/openmobile-agent-data-synthesis.md
-      - Long-Horizon Task Mirage é¿ç¨å¤±è´¥: concepts/long-horizon-task-mirage.md
-      - ATI äººå·¥ä¸åæºè½: concepts/artificial-tripartite-intelligence.md
-      - AgentRx Agent ç³»ç»åè°è¯: concepts/agentrx-debugging.md
-      - Google Assistant è³ Gemini è¿ç§»: concepts/google-assistant-gemini-transition.md
-      - PBRC é¢æ³¨åä¿¡å¿µä¿®æ­£: concepts/pbrc-belief-revision.md
-      - ä¸å®ç¾åä½äººæºäº¤äº: concepts/imperfectly-cooperative-human-ai.md
-      - PolicyBank Agent ç­ç¥èªæ¼å: concepts/policybank-agent-policy-understanding.md
-      - ARMove Agent æ¨çç§»å¨æ§é¢æµ: concepts/armove-agentic-mobility-prediction.md
-      - Google A2UI 0.9 çæå¼ UI: concepts/google-a2ui-generative-ui.md
+    # ── 维度一：Agent 核心子系统 ──
+    - Agent 架构与认知:
+      - World Leaks the Future 演化预测: concepts/world-leaks-future-prediction.md
+      - 移动 Agent 框架: concepts/mobile-agent-framework.md
+      - ClawMobile 原生 Agent 架构: concepts/clawmobile-agentic.md
+      - Tri-Spirit 三层认知硬件协同: concepts/trispirit-cognitive-architecture.md
+      - Agent 持久化身份: concepts/agent-persistent-identity.md
+      - Synergy 开放 Agent 网络架构: concepts/synergy-agentic-web-agent.md
+      - Synergy 开放 Agent 网络协作: concepts/synergy-open-agentic-web.md
+      - ExecTune Guide 模型引导 LLM: concepts/exectune-guide-core-policy.md
+      - LAMO 轻量 GUI Agent 多角色: concepts/lamo-scalable-gui-agents.md
+      - MCP 生产部署模式: concepts/mcp-deployment-patterns.md
+      - ClawGUI GUI Agent 全栈框架: concepts/clawgui-unified-framework.md
+      - 移动 Agent 生态摩擦: concepts/mobile-agent-ecosystem-friction.md
+      - OpenMobile 开放移动数据合成: concepts/openmobile-agent-data-synthesis.md
+      - Long-Horizon Task Mirage 长程失败: concepts/long-horizon-task-mirage.md
+      - ATI 人工三元智能: concepts/artificial-tripartite-intelligence.md
+      - AgentRx Agent 系统化调试: concepts/agentrx-debugging.md
+      - Google Assistant 至 Gemini 迁移: concepts/google-assistant-gemini-transition.md
+      - PBRC 预注册信念修正: concepts/pbrc-belief-revision.md
+      - 不完美合作人机交互: concepts/imperfectly-cooperative-human-ai.md
+      - PolicyBank Agent 策略自演化: concepts/policybank-agent-policy-understanding.md
+      - ARMove Agent 推理移动性预测: concepts/armove-agentic-mobility-prediction.md
+      - Google A2UI 0.9 生成式 UI: concepts/google-a2ui-generative-ui.md
       - Beyond Verifiable Rewards GRM: concepts/beyond-verifiable-rewards-rubric-grm.md
       - Agentic Reverse Engineering: concepts/agentic-reverse-engineering.md
       - App Store AI Growth: concepts/app-store-ai-growth.md
 
-    - æç¥ä¸çè§£:
-      - GUI æç¥:
-        - SecAgent è¯­ä¹ GUI çè§£: concepts/secagent-mobile-gui.md
-        - PSPA-Bench ä¸ªæ§å GUI è¯æµ: concepts/pspa-bench-gui-agent.md
-        - å¾çµæµè¯ GUI Agent è¯ä¼°: concepts/turing-test-mobile-gui.md
-        - MGA è®°å¿é©±å¨ GUI äº¤äº: concepts/mga-memory-gui-agent.md
-        - KnowU-Bench ä¸ªæ§åç§»å¨è¯æµ: concepts/knowu-bench-personalized-agent.md
-        - CORA å±å½¢é£é© GUI å®å¨: concepts/cora-mobile-gui-safety.md
-        - UI Agent çé¢æçä¼å: concepts/ui-to-agent-interface-efficiency.md
-      - è§è§æç¥:
-        - FaceLiVTv2 ç§»å¨ç«¯äººè¸è¯å«: concepts/facelivtv2-mobile-face.md
-        - LRD-Net è½»éäººè¸ä¼ªé æ£æµ: concepts/lrdnet-face-forgery-detection.md
-        - FastSHADE ç§»å¨ç«¯å¾åå»åª: concepts/fastshade-mobile-denoising.md
-        - DRIFT ç§»å¨ ISP æµæ°´çº¿: concepts/drift-mobile-isp-pipeline.md
-        - DroneScan-YOLO æ äººæºç®æ æ£æµ: concepts/dronescan-yolo.md
-        - VisionClaw æç»­æç¥å¯ç©¿æ´: concepts/visionclaw-always-on-wearable-agent.md
-      - å¤æ¨¡ææç¥:
-        - DERM-3R å¤æ¨¡æç®è¤çè¯æ­: concepts/derm3r-multimodal-agent.md
-        - Sense Less Infer More è¾¹ç¼å»ç: concepts/sense-less-infer-more.md
-        - Chain of Modality å¨æèå: concepts/chain-of-modality.md
-        - GIST å¤æ¨¡æç©ºé´æ¥å°: concepts/gist-spatial-grounding-topology.md
-        - DailyDroid GUI Agent å¤±è´¥åºå: concepts/dailydroid-failure-benchmark.md
+    - 感知与理解:
+      - GUI 感知:
+        - SecAgent 语义 GUI 理解: concepts/secagent-mobile-gui.md
+        - PSPA-Bench 个性化 GUI 评测: concepts/pspa-bench-gui-agent.md
+        - 图灵测试 GUI Agent 评估: concepts/turing-test-mobile-gui.md
+        - MGA 记忆驱动 GUI 交互: concepts/mga-memory-gui-agent.md
+        - KnowU-Bench 个性化移动评测: concepts/knowu-bench-personalized-agent.md
+        - CORA 共形风险 GUI 安全: concepts/cora-mobile-gui-safety.md
+        - UI Agent 界面效率优化: concepts/ui-to-agent-interface-efficiency.md
+      - 视觉感知:
+        - FaceLiVTv2 移动端人脸识别: concepts/facelivtv2-mobile-face.md
+        - LRD-Net 轻量人脸伪造检测: concepts/lrdnet-face-forgery-detection.md
+        - FastSHADE 移动端图像去噪: concepts/fastshade-mobile-denoising.md
+        - DRIFT 移动 ISP 流水线: concepts/drift-mobile-isp-pipeline.md
+        - DroneScan-YOLO 无人机目标检测: concepts/dronescan-yolo.md
+        - VisionClaw 持续感知可穿戴: concepts/visionclaw-always-on-wearable-agent.md
+      - 多模态感知:
+        - DERM-3R 多模态皮肤病诊断: concepts/derm3r-multimodal-agent.md
+        - Sense Less Infer More 边缘医疗: concepts/sense-less-infer-more.md
+        - Chain of Modality 动态融合: concepts/chain-of-modality.md
+        - GIST 多模态空间接地: concepts/gist-spatial-grounding-topology.md
+        - DailyDroid GUI Agent 失败基准: concepts/dailydroid-failure-benchmark.md
 
-    - è®°å¿ä¸ç¶æ:
-      - è®°å¿æ»è§: concepts/agent-memory/index.md
-      - è®°å¿è¡¨ç¤º: concepts/agent-memory/memory-representation/index.md
-      - ["Cognitive Algorithms: Episodic & Semantic Memory"](concepts/agent-memory/memory-representation/cognitive-algorithms-episodic-semantic-memory-2602.07261.md) â arXiv:2602.07261
-      - ["Spatial Memory Survey for Robot Navigation"](concepts/agent-memory/memory-representation/spatial-memory-robot-navigation-2604.16482.md) â arXiv:2604.16482
-      - ["Memanto: Typed Semantic Memory"](concepts/agent-memory/memory-representation/memanto-typed-semantic-memory-2604.22085.md) â arXiv:2604.22085
-      - ["HLTM: LinkedIn Hiring Agent Temporal Memory"](concepts/agent-memory/memory-representation/hltm-linkedin-hiring-agent-2604.26197.md) â arXiv:2604.26197
-      - ["Memory Transfer Learning: Cross-Domain Memory in Coding Agents"](concepts/agent-memory/memory-representation/memory-transfer-learning-2604.14004.md) â arXiv:2604.14004
-      - ["IdeaForge: KG-Grounded Multi-Agent for Innovation Analysis"](concepts/agent-memory/memory-representation/ideaforge-kg-innovation-2605.13311.md) â arXiv:2605.13311
-      - ["PersonalAI 2.0: KG-Traversal Memory for Personalized LLM Agents"](concepts/agent-memory/memory-representation/personalai-kg-memory-2605.13481.md) â arXiv:2605.13481
-      - ["EconAI: Dynamic Persona and Memory-Aware Agents in Economic Environments"](concepts/agent-memory/memory-representation/econai-dynamic-persona-memory-2605.13762.md) â arXiv:2605.13762
-      - ["PREPING: Building Agent Memory without Tasks"](concepts/agent-memory/memory-representation/preping-proposer-guided-memory-2605.13880.md) â arXiv:2605.13880
-      - ["Geometry of Forgetting: Temporal Knowledge Drift as Independent Axis"](concepts/agent-memory/memory-representation/geometry-forgetting-temporal-drift-2605.09195.md) â arXiv:2605.09195
-      - ["Engram Memory in AR Image Generation: Gated Side-Pathway"](concepts/agent-memory/memory-representation/engram-memory-image-generation-2605.13179.md) â arXiv:2605.13179
-      - ["Executable Agentic Memory for GUI Agents"](concepts/agent-memory/memory-representation/executable-agentic-memory-gui-2605.12294.md) â arXiv:2605.12294
-      - ["Adaptive Decay: Autodiscovery of Non-Uniform Forgetting in Knowledge Graphs"](concepts/agent-memory/memory-representation/adaptive-decay-kg-memory-2604.26970.md) â arXiv:2604.26970
-      - ["SAGE: Self-Evolving Agentic Graph-Memory Engine"](concepts/agent-memory/memory-representation/sage-self-evolving-graph-memory-2605.12061.md) â arXiv:2605.12061
-      - ["Bridging the Cognitive Gap: Unified Memory Paradigm for 6G AI-RAN"](concepts/agent-memory/memory-representation/bridging-2605.10036.md) â arXiv:2605.10036
-      - ["Portable Agent Memory: Cryptographically-Verified Transfer Across Heterogeneous AI Agents"](concepts/agent-memory/memory-representation/portable-agent-memory-2605.11032.md) â arXiv:2605.11032
-      - ["Mem-W: Latent Memory-Native GUI Agents"](concepts/agent-memory/memory-representation/mem-w-2605.09317.md) â arXiv:2605.09317
-      - è®°å¿æ£ç´¢: concepts/agent-memory/memory-retrieval/index.md
-      - ["VimRAG: Visual Multimodal Memory RAG"](concepts/agent-memory/memory-retrieval/vimrag-visual-multimodal-memory-2602.12735.md) â arXiv:2602.12735
-      - ["Semantic Memory Foraging in LLMs"](concepts/agent-memory/memory-retrieval/semantic-memory-foraging-2603.01822.md) â arXiv:2603.01822
-      - ["CIG: Conversational Information Gain"](concepts/agent-memory/memory-retrieval/cig-conversational-information-gain-2604.15647.md) â arXiv:2604.15647
-      - ["Remember Your Trace: Memory-Guided Code Documentation"](concepts/agent-memory/memory-representation/remember-your-trace-2605.14563.md) â arXiv:2605.14563
-      - ["Episodic-Semantic Memory Architecture for Long-Horizon Scientific Agents"](concepts/agent-memory/memory-representation/episodic-semantic-memory-2605.17625.md) â arXiv:2605.17625
-      - ["MemRepair: Hierarchical Memory for Agentic Repository-Level Vulnerability Repair"](concepts/agent-memory/memory-representation/memrepair-hierarchical-memory-2605.17444.md) â arXiv:2605.17444
-      - ["GRID: Security Text Knowledge Graph Construction for Agent Memory"](concepts/agent-memory/memory-representation/grid-security-knowledge-graph-2605.16714.md) â arXiv:2605.16714
-      - ["RAGA: Autonomous KG Construction and RAG for Agent Memory"](concepts/agent-memory/memory-representation/raga-autonomous-kg-rag-2605.17072.md) â arXiv:2605.17072
-      - ["MEMOIR: Memory-Guided Tree Search for LLM Solver Synthesis"](concepts/agent-memory/memory-retrieval/memooir-memory-tree-search-2605.17539.md) â arXiv:2605.17539
-      - ["NeuSymMS: Hybrid Neuro-Symbolic Memory System"](concepts/agent-memory/memory-representation/neusymms-neurosymbolic-memory-2605.17596.md) â arXiv:2605.17596
-      - ["Retrieve-then-Steer: Online Success Memory for Test-Time Adaptation of Generative VLAs"](memory-retrieval/retrieve-then-steer-success-memory-2605.10094.md) â arXiv:2605.10094
-      - ["NanoResearch: Personalized Research with Co-Evolving Memory"](concepts/agent-memory/memory-retrieval/nanoresearch-personalized-research-2605.10813.md) â arXiv:2605.10813
-      - ["LongMemEval-V2: Evaluating Long-Term Agent Memory Toward Experienced Colleagues"](concepts/agent-memory/memory-retrieval/longmemeval-v2-2605.12493.md) â arXiv:2605.12493
-      - ["Agent Memory: Characterization of Stateful Long-Horizon Workloads"](concepts/agent-memory/memory-retrieval/agent-memory-characterization-2606.06448.md) — arXiv:2606.06448
-      - ["PRISM: Pareto-Efficient Retrieval over Intent-Aware Structured Memory"](concepts/agent-memory/memory-retrieval/prism-pareto-efficient-intent-aware-memory-2605.12260.md) â arXiv:2605.12260
-      - ["MemGym: Long-Horizon Memory Environment for LLM Agents"](concepts/agent-memory/memory-retrieval/memgym-long-horizon-memory-2605.20833.md) â arXiv:2605.20833
-      - ["WorldKV: Efficient World Memory with World Retrieval and Compression"](concepts/agent-memory/memory-retrieval/worldkv-world-memory-2605.22718.md) â arXiv:2605.22718
-      - ["MAQIU: Memory-Augmented Query Intent Understanding for Chat-based Image Retrieval"](concepts/agent-memory/memory-retrieval/maqiu-memory-augmented-intent-2605.17365.md) â arXiv:2605.17365
-      - ["Auto-Dreamer: Offline Memory Consolidation for Language Agents"](concepts/agent-memory/memory-retrieval/auto-dreamer-offline-memory-2605.20616.md) â arXiv:2605.20616
-      - ["Memory-Induced Supra-Competitive Outcomes in DRL Agents"](concepts/agent-memory/memory-retrieval/memory-supra-competitive-rl-2605.20348.md) â arXiv:2605.20348
-      - ["Goal-Mem: Goal-Oriented Reasoning for RAG-based Memory in Conversational Agentic LLM Systems"](concepts/agent-memory/memory-retrieval/goal-mem-rag-memory-2605.12213.md) â arXiv:2605.12213
-      - ["MedMemoryBench: Benchmarking Agent Memory in Personalized Healthcare"](concepts/agent-memory/memory-retrieval/medmemorybench-benchmark-2605.11814.md) â arXiv:2605.11814
-      - ["Chronos: Temporal-Aware Agents with Structured Event Retrieval for Long-Term Memory"](concepts/agent-memory/memory-retrieval/chronos-temporal-event-memory-2603.16862.md) â arXiv:2603.16862
-      - ["VehicleMemBench: Multi-User Long-Term Memory in In-Vehicle Agents"](concepts/agent-memory/benchmark/vehiclemembench-multiuser-memory-2603.23840.md) â arXiv:2603.23840
-      - ["TA-Mem: Tool-Augmented Autonomous Memory Retrieval for LLM"](concepts/agent-memory/memory-retrieval/ta-mem-tool-augmented-memory-retrieval-2603.09297.md) â arXiv:2603.09297
-      - ["REMem: Reasoning with Episodic Memory in Language Agent"](concepts/agent-memory/memory-retrieval/remem-reasoning-episodic-memory-2602.13530.md) â arXiv:2602.13530
-      - ["Predictive Associative Memory: Retrieval Beyond Similarity"](concepts/agent-memory/memory-retrieval/predictive-associative-memory-2602.11322.md) â arXiv:2602.11322
-      - ["MEME: Multi-Entity & Evolving Memory Evaluation"](concepts/agent-memory/benchmark/meme-multi-entity-memory-eval-2605.12477.md) â arXiv:2605.12477
-      - ["MemReread: Enhancing Agentic Long-Context Reasoning via Memory-Guided Rereading"](concepts/agent-memory/memory-retrieval/memreread-2605.10268.md) â arXiv:2605.10268
-      - ["HAGE: Harnessing Agentic Memory via RL-Driven Weighted Graph Evolution"](concepts/agent-memory/memory-retrieval/hage-weighted-graph-memory-2605.09942.md) â arXiv:2605.09942
-      - ["Trap of Trajectory: Spurious Correlations in Agentic Memory"](concepts/agent-memory/memory-retrieval/trap-of-trajectory-spurious-correlations-2605.09330.md) â arXiv:2605.09330
-      - ["Beyond Similarity Search: Tenure and the Case for Structured Belief State in LLM Memory"](concepts/agent-memory/memory-retrieval/tenure-structured-belief-state-2605.11325.md) â arXiv:2605.11325
-      - ["EquiMem: Calibrating Shared Memory in Multi-Agent Debate via Game-Theoretic Equilibrium"](concepts/agent-memory/memory-retrieval/equimem-2605.09278.md) â arXiv:2605.09278
-      - ["PYTHALAB-MERA: Validation-Grounded Memory for Frozen-LLM Coding Agents"](concepts/agent-memory/memory-retrieval/pythalab-mera-validation-memory-frozen-llm-2605.08468.md) â arXiv:2605.08468
-      - ["STALE: Can LLM Agents Know When Their Memories Are No Longer Valid?"](concepts/agent-memory/memory-retrieval/stale-llm-agents-memory-validity-2605.06527.md) â arXiv:2605.06527
-      - ["MemReranker: Reasoning-Aware Reranking for Agent Memory Retrieval"](concepts/agent-memory/memory-retrieval/memreranker-reasoning-aware-reranking-2605.06132.md) â arXiv:2605.06132
-      - ["MemQ: Integrating Q-Learning into Self-Evolving Memory Agents over Provenance DAGs"](concepts/agent-memory/memory-retrieval/memq-q-learning-provenance-dag-2605.08374.md) â arXiv:2605.08374
-      - ["The Memory Curse: How Expanded Recall Erodes Cooperative Intent in LLM Agents"](concepts/agent-memory/memory-retrieval/memory-curse-erosion-cooperation-2605.08060.md) â arXiv:2605.08060
-      - ["CuSearch: Curriculum Rollout Sampling via Agentic RAG"](concepts/agent-memory/memory-retrieval/cusearch-curriculum-rollout-agentic-rag-2605.11611.md) â arXiv:2605.11611
-      - ["MAGMA: Stochastic Consensus Multi-Agent RAG with Uncertainty Quantification"](concepts/agent-memory/memory-retrieval/magma-uncertainty-stochastic-rag-2605.08385.md) â arXiv:2605.08385
-      - ["EPIC: Preference-Aligned Memory for On-Device RAG"](concepts/agent-memory/memory-retrieval/epic-preference-aligned-ondevice-rag-2605.18271.md) â arXiv:2605.18271
-      - è®°å¿åç¼©ä¸éå¿: concepts/agent-memory/memory-compression/index.md
-      - ["Price of Meaning: Semantic Memory Forgetting"](concepts/agent-memory/memory-compression/price-meaning-semantic-forgetting-2603.27116.md) â arXiv:2603.27116
-      - ["MemEye: Visual-Centric Multimodal Agent Memory Eval"](concepts/agent-memory/memory-retrieval/memeye-visual-centric-eval-2605.15128.md) â arXiv:2605.15128
-      - ["MemLens: Multimodal LVLM Memory Benchmark"](concepts/agent-memory/memory-retrieval/memlens-multimodal-lvlm-memory-2605.14906.md) â arXiv:2605.14906
-      - ["GroupMemBench: Multi-Party Conversation Memory"](concepts/agent-memory/memory-retrieval/groupmembench-multi-party-2605.14498.md) â arXiv:2605.14498
-      - ["MARS: Hierarchical Belief-State Memory for Recommender"](concepts/agent-memory/memory-retrieval/mars-hierarchical-belief-memory-2605.14401.md) â arXiv:2605.14401
-      - ["EvolveMem: Self-Evolving Memory Architecture"](concepts/agent-memory/memory-retrieval/evolvemem-self-evolving-memory-2605.13941.md) â arXiv:2605.13941
-      - ["KITE: Retrieval-Augmented Tutoring for Algorithm Tracing"](concepts/agent-memory/memory-retrieval/kite-retrieval-augmented-tutoring-2605.12988.md) â arXiv:2605.12988
-      - ["Clinical Timeline: Retrieval-Augmented Multimodal Alignment"](concepts/agent-memory/memory-retrieval/clinical-timeline-retrieval-augmented-2605.15168.md) â arXiv:2605.15168
-      - ["GAPE: Gated Adaptive Positional Encoding"](concepts/agent-memory/memory-retrieval/gape-gated-positional-encoding-2605.10414.md) â arXiv:2605.10414
-      - ["Prospection-Guided Retrieval: Thinking Ahead for Memory"](concepts/agent-memory/memory-retrieval/prospection-guided-retrieval-2605.14177.md) â arXiv:2605.14177
-      - ["Why RAG Fails: Graph Perspective"](concepts/agent-memory/memory-retrieval/why-rag-fails-graph-perspective-2605.14192.md) â arXiv:2605.14192
-      - ["RAM: Retrieval-Augmented Modeling for Relational Data Analytics"](concepts/agent-memory/memory-retrieval/ram-retrieval-augmented-modeling-2605.14464.md) â arXiv:2605.14464
-      - ["Deepchecks: Evaluating RAG Applications"](concepts/agent-memory/memory-retrieval/deepchecks-rag-evaluation-2605.14488.md) â arXiv:2605.14488
-      - ["Codebase-Memory: Tree-Sitter KG for LLM Code Exploration via MCP"](concepts/agent-memory/memory-retrieval/codebase-memory-kg-llm-2603.27277.md) â arXiv:2603.27277
-      - ["Robo-Cortex: Dual-Grain Cognitive Memory"](concepts/agent-memory/memory-retrieval/robo-cortex-dual-grain-memory-2605.18729.md) â arXiv:2605.18729
-      - ["MementoGUI: Multimodal Memory for GUI Agents"](concepts/agent-memory/memory-retrieval/mementogui-multimodal-memory-gui-2605.18652.md) â arXiv:2605.18652
-      - ["LongMINT: Memory under Multi-Target Interference"](concepts/agent-memory/memory-retrieval/longmint-memory-interference-2605.18565.md) â arXiv:2605.18565
-      - ["EvoMemBench: Self-Evolving Memory Benchmark"](concepts/agent-memory/memory-retrieval/evomembench-self-evolving-memory-2605.18421.md) â arXiv:2605.18421
-      - ["MemConflict: Evaluating Long-Term Memory Systems Under Memory Conflicts"](concepts/agent-memory/memory-retrieval/memconflict-memory-conflict-2605.20926.md) â arXiv:2605.20926
-- ["Memory-R2: Fair Credit Assignment for Memory-Augmented LLM Agents"](concepts/agent-memory/memory-retrieval/memory-r2-fair-credit-assignment-2605.21768.md) â arXiv:2605.21768
-      - ["SocialMemBench: Are AI Memory Systems Ready for Social Group Settings?"](concepts/agent-memory/memory-retrieval/socialmembench-social-group-memory-2605.17789.md) â arXiv:2605.17789
-      - ["Mesh Memory Protocol: Semantic Infrastructure for Multi-Agent LLM Systems"](concepts/agent-memory/memory-retrieval/mesh-memory-protocol-2604.19540.md) â arXiv:2604.19540
-      - ["FORGE: Self-Evolving Agent Memory via Population Broadcast"](concepts/agent-memory/memory-retrieval/forge-self-evolving-agent-memory-2605.16233.md) â arXiv:2605.16233
-      - ["DimMem: Dimensional Structuring for Long-Term Agent Memory"](concepts/agent-memory/memory-retrieval/dimmem-dimensional-structuring-memory-2605.15759.md) â arXiv:2605.15759
-      - ["H-Mem: Hybrid Tree+KG Memory for Evolving Agent Memory"](concepts/agent-memory/memory-retrieval/h-mem-hybrid-tree-kg-memory-2605.15701.md) â arXiv:2605.15701
-      - ["TriMem: Beyond Atomic Facts in Lifelong Agent Memory"](concepts/agent-memory/memory-retrieval/trimem-triple-memory-representation-2605.19952.md) â arXiv:2605.19952
-      - ["Memory-Augmented RL Agent for CAD Generation"](concepts/agent-memory/memory-retrieval/memory-augmented-rl-cad-generation-2605.19748.md) â arXiv:2605.19748
-- ["MoLEM: Dynamic Mixture of Latent Memory for Self-Evolving Agents"](concepts/agent-memory/memory-retrieval/molem-mixture-latent-memory-2605.21951.md) â arXiv:2605.21951
-      - ["MMoA: Recurrent Memoried Mixture-of-Agent"](concepts/agent-memory/memory-retrieval/mmoa-recurrent-mixture-of-agents-2605.19194.md) â arXiv:2605.19194
-- ["DecentMem: Decentralized Memory for Multi-Agent Systems"](concepts/agent-memory/memory-retrieval/decentmem-decentralized-memory-multiagent-2605.22721.md) â arXiv:2605.22721
-      - ["Causal Intervention-Based Memory Selection for Long-Horizon LLM Agents"](concepts/agent-memory/memory-retrieval/causal-memory-selection-2605.17641.md) â arXiv:2605.17641
-      - [MemReward: Graph-Based Experience Memory for LLM Reward Prediction](concepts/agent-memory/memory-retrieval/memreward-graph-experience-memory-2603.19310.md) â arXiv:2603.19310
-      - [AMemGym: Interactive Memory Benchmarking for Assistants in Long-Horizon Conversations](concepts/agent-memory/memory-retrieval/amemgym-interactive-memory-benchmark-2603.01966.md) â arXiv:2603.01966
-      - [Memex(RL): Indexed Experience Memory for Long-Horizon LLM Agents](concepts/agent-memory/memory-retrieval/memex-rl-indexed-experience-2603.04257.md) â arXiv:2603.04257
-      - [FactorMiner: Self-Evolving Agent with Skills and Experience Memory](concepts/agent-memory/memory-retrieval/factorminer-skills-experience-2602.14670.md) â arXiv:2602.14670
-      - [UI-Mem: Self-Evolving Experience Memory for Mobile GUI Agents](concepts/agent-memory/memory-retrieval/ui-mem-experience-memory-gui-2602.05832.md) â arXiv:2602.05832
-      - [StackPlanner: Hierarchical Multi-Agent with Task-Experience Memory Management](concepts/agent-memory/memory-retrieval/stackplanner-hierarchical-memory-2601.05890.md) â arXiv:2601.05890
-      - æç»­å­¦ä¹ : concepts/agent-memory/continual-learning/index.md
-      - ["NGM: Plug-and-Play Training-Free Memory Module for LLMs"](concepts/agent-memory/memory-compression/ngm-plug-and-play-memory-2605.16893.md) â arXiv:2605.16893
-      - ["RecMem: Recurrence-based Memory Consolidation"](concepts/agent-memory/memory-retrieval/recmem-recurrence-based-memory-2605.16045.md) â arXiv:2605.16045
-      - ["SMMBench: Source-Distributed Multimodal Agent Memory"](concepts/agent-memory/memory-retrieval/smmbench-source-distributed-multimodal-2605.15710.md) â arXiv:2605.15710
-      - ["Unlocking Compositional Generalization in Continual Few-Shot Learning"](continual-learning/unlock-compositional-generalization-2605.11710.md) â arXiv:2605.11710
-      - ["SCM: Sleep-Consolidated Memory"](concepts/agent-memory/memory-compression/scm-sleep-consolidated-memory-2604.20943.md) â arXiv:2604.20943
-      - ["Useful Memories Become Faulty When Continuously Updated by LLMs"](concepts/agent-memory/memory-consolidation/useful-memories-become-faulty-2605.12978.md) â arXiv:2605.12978
-      - ["DeMem: Remember the Decision, Not the Description - Rate-Distortion Agent Memory"](concepts/agent-memory/memory-compression/demem-decision-centric-memory-2605.10870.md) â arXiv:2605.10870
-      - ["ScrapMem: On-device Personalized Agent Memory via Optical Forgetting"](concepts/agent-memory/memory-compression/scrapmem-bio-inspired-on-device-2605.03804.md) â arXiv:2605.03804
-      - ["Human-Inspired Memory Architecture for LLM Agents"](concepts/agent-memory/memory-compression/human-inspired-2605.08538.md) â arXiv:2605.08538
-      - ["ProCL: Program Memory for Continual LoRA Fine-Tuning"](concepts/agent-memory/memory-compression/procl-program-memory-2605.13162.md) â arXiv:2605.13162
-      - ["KVM: Block-Recurrent Compressed Memory for Transformers"](concepts/agent-memory/memory-compression/kvm-block-recurrent-compressed-memory-2605.09877.md) â arXiv:2605.09877
-      - ["FadeMem: Biologically-Inspired Forgetting"](concepts/agent-memory/memory-compression/fademem-biologically-inspired-2601.18642.md) â arXiv:2601.18642
-      - ["RISE: Zeroth-Order Adaptation May Forget Less"](concepts/agent-memory/memory-compression/rise-zeroth-order-2605.10658.md) â arXiv:2605.10658
-      - ["SE-GA: Memory-Augmented Self-Evolution for GUI Agents"](concepts/agent-memory/memory-compression/se-ga-memory-self-evolution-2605.16883.md) â arXiv:2605.16883
-      - ["Context Codec: Verifiable Commitment-Level Context Compression"](concepts/agent-memory/memory-compression/context-codec-commitment-compression-2605.17304.md) â arXiv:2605.17304
-      - ["Mela: Test-Time Memory Consolidation based on Transformation Hypotheses"](concepts/agent-memory/memory-compression/mela-test-time-memory-consolidation-2605.10537.md) â arXiv:2605.10537
-      - ["SeCo: Semantic-Driven Context Compression"](concepts/agent-memory/memory-compression/seco-semantic-context-compression-2605.09463.md) â arXiv:2605.09463
-      - ["Memory Condensation for Coding Agents"](concepts/agent-memory/memory-compression/memory-condensation-coding-agents-2605.18854.md) â arXiv:2605.18854
-      - ["Implicit Context Compression Problems for SE Agents"](concepts/agent-memory/memory-compression/implicit-context-compression-se-agents-2605.11051.md) â arXiv:2605.11051
-      - ["STL Memory Transfer: Short-Term to Long-Term KG Memory"](concepts/agent-memory/memory-compression/stl-memory-transfer-kg-2605.22142.md) â arXiv:2605.22142
-      - ["Hybrid Graph Context Compression"](concepts/agent-memory/memory-compression/hybrid-graph-context-compression-2604.23277.md) â arXiv:2604.23277
-      - ["TACO: Terminal Agent Compression"](concepts/agent-memory/memory-compression/taco-terminal-agent-compression-2604.19572.md) â arXiv:2604.19572
-      - ["Context Compression for Repository-Level Tasks"](concepts/agent-memory/memory-compression/context-compression-repo-level-2604.13725.md) â arXiv:2604.13725
-      - ["Multi-Tier KV Cache Memory Management"](concepts/agent-memory/memory-management/multi-tier-kv-cache-memory-2604.26968.md) â arXiv:2604.26968
-      - ["Learning Fast and Slow: Towards LLMs That Adapt Continually"](continual-learning/fast-slow-llm-continual-adaptation-2605.12484.md) â arXiv:2605.12484
-      - ["MIST: Streaming Decision Trees for Online Class-Incremental Learning"](concepts/agent-memory/continual-learning/mist-streaming-decision-trees-2605.11617.md) â arXiv:2605.11617
-      - ["Self-Evolving Agents Forget: CPE Capability Preservation"](concepts/agent-memory/continual-learning/self-evolving-agents-forget-cpe-2605.09315.md) â arXiv:2605.09315
-      - ["CP-MoE: Consistency-Preserving MoE for Continual Learning"](concepts/agent-memory/continual-learning/cp-moe-consistency-preserving-2605.20247.md) â arXiv:2605.20247
-      - ["Domain Incremental Learning for Pandemic-Resilient Chest X-Ray"](concepts/agent-memory/continual-learning/domain-incremental-chest-xray-2605.17729.md) â arXiv:2605.17729
-      - ["Stable Routing for MoE in Class-Incremental Learning"](concepts/agent-memory/continual-learning/stable-routing-moe-cil-2605.17571.md) â arXiv:2605.17571
-      - ["Modular Memory: Key to Continual Learning Agents"](concepts/agent-memory/continual-learning/modular-memory-continual-learning-2603.01761.md) â arXiv:2603.01761
-      - ["Prototypical Exemplar Condensation for CL"](concepts/agent-memory/continual-learning/prototypical-exemplar-condensation-2603.13804.md) â arXiv:2603.13804
-      - ["Abstraction as Memory-Efficient Inductive Bias for CL"](concepts/agent-memory/continual-learning/abstraction-memory-efficient-2603.17198.md) â arXiv:2603.17198
-      - ["Mistake Gating: Energy-Efficient Continual Learning"](concepts/agent-memory/continual-learning/mistake-gating-continual-learning-2604.14336.md) â arXiv:2604.14336
-      - ["Recovery Guarantees for Continual Learning of Dependent Tasks"](concepts/agent-memory/continual-learning/recovery-guarantees-dependent-tasks-2604.17578.md) â arXiv:2604.17578
-      - ["SLICE: Gradient Surgery LoRA Initialization"](concepts/agent-memory/continual-learning/slice-lora-continual-learning-2605.12752.md) â arXiv:2605.12752
-      - ["InfoSFT: Token Weighting for SFT Forgetting"](concepts/agent-memory/continual-learning/infosft-token-weighting-sft-2605.14967.md) â arXiv:2605.14967
-      - ["Imbalanced Forgetting in Rehearsal CIL"](concepts/agent-memory/continual-learning/imbalanced-forgetting-rehearsal-2605.14785.md) â arXiv:2605.14785
-      - ["Geometry Conflict: Controlling Forgetting in LLM Continual Post-Training"](concepts/agent-memory/continual-learning/geometry-conflict-llm-continual-2605.09608.md) â arXiv:2605.09608
-      - ["PsychAgent: Experience-Driven Lifelong Learning Agent for Psychological Counselor"](concepts/agent-memory/continual-learning/psychagent-experience-driven-lifelong-2604.00931.md) â arXiv:2604.00931
-      - ["LLMA-Mem: Memory Enabled Lifelong Learning in LLM Multi-Agent Systems"](concepts/agent-memory/continual-learning/llma-mem-scaling-teams-time-2604.03295.md) â arXiv:2604.03295
-      - ["KAN-CL: Per-Knot Importance Regularization for Continual Learning"](concepts/agent-memory/continual-learning/kan-cl-per-knot-importance-2605.12306.md) â arXiv:2605.12306
-      - ["REMIX: Laplace Kernel for Data-Free Continual Learning"](concepts/agent-memory/continual-learning/remix-laplace-kernel-dfcil-2605.11804.md) â arXiv:2605.11804
-      - ["DHOCL: Dynamic Hierarchies for Online Continual Learning"](concepts/agent-memory/continual-learning/dhocl-dynamic-hierarchies-2605.11742.md) â arXiv:2605.11742
-      - ["CMKL: Modality-Aware Continual Learning for Biomedical KGs"](concepts/agent-memory/continual-learning/cmkl-modality-aware-kg-continual-2605.10510.md) â arXiv:2605.10510
-      - ["SNV: Shapley Neuron Values for Continual Learning"](concepts/agent-memory/continual-learning/snv-shapley-neuron-continual-learning-2605.15877.md) â arXiv:2605.15877
-      - ["UAM: Dual-Stream VLA Forgetting"](concepts/agent-memory/continual-learning/uam-dual-stream-vla-forgetting-2605.15735.md) â arXiv:2605.15735
-      - ["Continual Learning of Domain-Invariant Representations"](concepts/agent-memory/continual-learning/domain-invariant-representation-continual-2605.15775.md) â arXiv:2605.15775
-      - å¤æ¨¡æè®°å¿: concepts/agent-memory/multimodal-memory/index.md
-      - ["Anytime PAC-Bayes: Constrained Density-Ratio with CL Guarantees"](concepts/agent-memory/continual-learning/anytime-pacbayes-continual-2605.17212.md) â arXiv:2605.17212
-      - ["iGSP: Implicit Gradient Subspace Projection for VLM CL"](concepts/agent-memory/continual-learning/igsp-gradient-subspace-2605.19301.md) â arXiv:2605.19301
-      - ["PneumoNet: On-Device CL for Point-of-Care Pneumonia Diagnosis"](concepts/agent-memory/continual-learning/pneumonet-ondevice-2605.19201.md) â arXiv:2605.19201
-      - ["MANGO: Meta-Adaptive Network Gradient for Online CL"](concepts/agent-memory/continual-learning/mango-meta-adaptive-2605.19080.md) â arXiv:2605.19080
-      - ["Reasoning Portability: Guiding CL for MLLMs in RLVR Era"](concepts/agent-memory/continual-learning/reasoning-portability-2605.18903.md) â arXiv:2605.18903
-      - ["PMF-CL: Pareto-Minimal-Forgetting Continual Learner"](concepts/agent-memory/continual-learning/pmfcl-pareto-minimal-forgetting-2605.19145.md) â arXiv:2605.19145
-      - ["FINCH: Fine-Tuning Without Forgetting via Loss-Adaptive LR"](concepts/agent-memory/continual-learning/finch-loss-adaptive-finetuning-2605.20005.md) â arXiv:2605.20005
-      - ["Tunable MAGMAX: Preference-Aware Model Merging for CL"](concepts/agent-memory/continual-learning/tunable-magmax-preference-aware-2605.20803.md) â arXiv:2605.20803
-      - ["Lost or Hidden: Concept-Level Forgetting in Supervised CL"](concepts/agent-memory/continual-learning/lost-or-hidden-concept-forgotten-2605.16374.md) â arXiv:2605.16374
-      - ["KIT-TIP-NLP: Multilingual CL for Reclaimed Slur Detection"](concepts/agent-memory/continual-learning/kit-tip-nlp-multilingual-continual-2605.13415.md) â arXiv:2605.13415
-      - ["Scaling Few-Shot Spoken Word via Generative Meta-CL"](concepts/agent-memory/continual-learning/scaling-few-shot-spoken-gmcl-2605.13075.md) â arXiv:2605.13075
-      - ["Lifelong Learning in VLMs: Enhanced EWC Cross-Modal"](concepts/agent-memory/continual-learning/lifelong-learning-vlm-cross-modal-2605.12789.md) â arXiv:2605.12789
-      - ["GSMem: 3D Gaussian Splatting as Persistent Spatial Memory for Embodied Agents"](concepts/agent-memory/multimodal-memory/gsmem-3dgs-spatial-memory-2603.19137.md) â arXiv:2603.19137
-      - ["SpaMEM: Benchmarking Dynamic Spatial Reasoning via Perception-Memory Integration"](concepts/agent-memory/multimodal-memory/spamem-spatial-belief-evolution-2604.22409.md) â arXiv:2604.22409
-      - ["Visual Agentic Memory: Online Long Video Understanding"](concepts/agent-memory/multimodal-memory/visual-agentic-memory-2605.16481.md) â arXiv:2605.16481
-      - ["AtlasVA: Self-Evolving Visual Skill Memory for Teacher-Free VLM Agents"](concepts/agent-memory/multimodal-memory/atlasva-visual-skill-memory-2605.17933.md) â arXiv:2605.17933
-      - ["PyraVid: Hierarchical Multimodal Memory for Long-Horizon Video Reasoning"](concepts/agent-memory/multimodal-memory/pyravid-hierarchical-multimodal-memory-2605.17065.md) â arXiv:2605.17065
-      - ["ECHO: Continuous Hierarchical Memory for VLA Models"](concepts/agent-memory/multimodal-memory/echo-continuous-hierarchical-memory-2605.10993.md) â arXiv:2605.10993
-      - ["OSGNet+MLLM: Ego4D Episodic Memory Challenge 2026"](concepts/agent-memory/multimodal-memory/osgnet-ego4d-episodic-memory-2605.20818.md) â arXiv:2605.20818
-      - ["FlexMem: Scaling Long Video Understanding via Visual Memory"](concepts/agent-memory/multimodal-memory/flexmem-visual-memory-long-video-2603.29252.md) â arXiv:2603.29252
-      - ["Multimodal LMMs for Online Episodic Memory QA on the Edge"](concepts/agent-memory/multimodal-memory/multimodal-edge-episodic-memory-2602.22455.md) â arXiv:2602.22455
-      - ["M2A: Multimodal Memory Agent"](concepts/agent-memory/multimodal-memory/m2a-multimodal-memory-agent-2602.07624.md) â arXiv:2602.07624
-      - ["IMPACT-CYCLE: Long-Video Semantic Memory"](concepts/agent-memory/multimodal-memory/impact-cycle-long-video-memory-2604.20136.md) â arXiv:2604.20136
-      - ["MMA Multimodal Memory Agent"](concepts/agent-memory/multimodal-memory/mma-multimodal-memory-agent-2602.16493.md) â arXiv:2602.16493
-      - ["From Verbatim to Gist"](concepts/agent-memory/multimodal-memory/mm-mem-pyramidal-multimodal-memory-2603.01455.md) â arXiv:2603.01455
-      - ["MEM Multi-Scale Embodied Memory"](concepts/agent-memory/multimodal-memory/mem-multi-scale-embodied-memory-2603.03596.md) â arXiv:2603.03596
-      - ["CMMR-VLN Vision-Language Navigation"](concepts/agent-memory/multimodal-memory/cmmr-vln-multimodal-memory-2603.07997.md) â arXiv:2603.07997
-      - ["Human-Inspired Multimodal Memory Social Robots"](concepts/agent-memory/multimodal-memory/human-inspired-multimodal-memory-social-robots-2604.12081.md) â arXiv:2604.12081
-      - ["Visual Inception Memory Poisoning"](concepts/agent-memory/memory-privacy/visual-inception-memory-poisoning-2604.16966.md) â arXiv:2604.16966
-      - ["CurveStream: Curvature-Aware Hierarchical Visual Memory"](concepts/agent-memory/multimodal-memory/curvestream-visual-memory-streaming-2603.19571.md) â arXiv:2603.19571
-      - ["Secure Forgetting: Privacy-Driven Unlearning in LLM Agents"](concepts/agent-memory/memory-privacy/secure-forgetting-unlearning-2604.00430.md) â arXiv:2604.00430
-      - ["TFGN: Task-Free, Replay-Free Continual Pre-Training"](concepts/agent-memory/continual-learning/tfgn-task-free-continual-pretraining-2605.15053.md) â arXiv:2605.15053
-      - ["Forgetful but Faithful: Cognitive Memory for Privacy-Aware Agents"](concepts/agent-memory/memory-privacy/forgetful-but-faithful-2512.12856.md) â arXiv:2512.12856
-      - è®°å¿éç§: concepts/agent-memory/memory-privacy/index.md
-      - ["System 1 & 2 Semantic Memory Bias"](concepts/agent-memory/memory-privacy/system1-system2-semantic-memory-bias-2604.12816.md) â arXiv:2604.12816
-      - ["MemLineage: Lineage-Guided Memory Enforcement"](concepts/agent-memory/memory-privacy/memlineage-lineage-guided-2605.14421.md) â arXiv:2605.14421
-      - ["Forgetting That Sticks: Quantization-Permanent Unlearning"](concepts/agent-memory/memory-privacy/forgetting-quantization-permanent-2605.15138.md) â arXiv:2605.15138
-      - ["ARPM: Heterogeneous Temporal Memory Governance for LLM Persona Consistency"](concepts/agent-memory/memory-privacy/arpm-temporal-memory-governance-2605.14802.md) â arXiv:2605.14802
-      - ["Veritas: Semantic Grounded Binary Vulnerability Detection"](concepts/agent-memory/memory-privacy/veritas-semantic-grounded-binary-vuln-2605.15097.md) â arXiv:2605.15097
-      - ["ICED: Concept-Level VLM Unlearning"](concepts/agent-memory/memory-privacy/iced-concept-level-vlm-unlearning-2605.14309.md) â arXiv:2605.14309
-      - ["Multilingual Machine Unlearning Evaluation"](concepts/agent-memory/memory-privacy/multilingual-machine-unlearning-2605.14404.md) â arXiv:2605.14404
-      - ["MemPrivacy: Privacy-Preserving Personalized Memory Management for Edge-Cloud Agents"](concepts/agent-memory/memory-privacy/memprivacy-privacy-preserving-edge-cloud-2605.09530.md) â arXiv:2605.09530
-      - ["Defense Effectiveness across Architectural Layers: Memory Attacks on Stateful LLM Agents"](concepts/agent-memory/memory-privacy/defense-effectiveness-memory-attacks-2605.08442.md) â arXiv:2605.08442
-      - ["State Contamination in Memory-Augmented LLM Agents"](concepts/agent-memory/memory-privacy/state-contamination-memory-2605.16746.md) â arXiv:2605.16746
-      - ["Remembering More, Risking More: Longitudinal Safety Risks in Memory-Equipped LLM Agents"](concepts/agent-memory/memory-privacy/memory-safety-risks-2605.17830.md) â arXiv:2605.17830
-      - ["BLAgent: Agentic RAG for File-Level Bug Localization"](concepts/agent-memory/memory-retrieval/blagent-agentic-rag-bug-local-2605.17965.md) â arXiv:2605.17965
-      - ["SEMA-RAG: Self-Evolving Multi-Agent RAG for Medical Reasoning"](concepts/agent-memory/memory-retrieval/sema-rag-self-evolving-medical-2605.17101.md) â arXiv:2605.17101
-      - è®°å¿å®å¨: concepts/agent-memory/memory-security/index.md
-      - ["Octopus: History-Free Gradient Orthogonalization for CL in MLLMs"](concepts/agent-memory/continual-learning/octopus-hifgo-continual-mllm-2605.14938.md) â arXiv:2605.14938
-      - ["ShadowMerge: Poisoning Attack on Graph-Based Agent Memory"](concepts/agent-memory/memory-security/shadowmerge-poisoning-attack-graph-memory-2605.09033.md) â arXiv:2605.09033
-      - ["Sleeper Memory Poisoning: Hidden Memory Attacks on Stateful LLM Agents"](concepts/agent-memory/memory-security/sleeper-memory-poisoning-attack-2605.15338.md) â arXiv:2605.15338
-    - å·¥å·è°ç¨ä¸æ§è¡:
-      - ç«¯ä¾§ vs äºç«¯ Agentic å·¥å·è°ç¨: concepts/on-device-vs-cloud-agentic-tool-calling.md
-      - Mobile-MCP Android å¨æå·¥å·: concepts/mobile-mcp.md
-      - MANA å¤æ¨¡æå¹¿åæ£æµ: concepts/mana-mobile-ad-detection.md
-      - COMLLM å¤è½®æ¨çè¾¹ç¼å¸è½½: concepts/comllm-mec-offloading.md
-      - ç½ç»æç¥ Agent æ¨çè½æ: concepts/networking-energy-agentic.md
-      - GAAT æ²»çæç¥é¥æµ: concepts/gaat-agent-governance.md
-      - GAT Agent é¥æµ: concepts/gat-agent-telemetry.md
+    - 记忆与状态:
+      - 记忆总览: concepts/agent-memory/index.md
+      - 记忆表示: concepts/agent-memory/memory-representation/index.md
+      - "Cognitive Algorithms: Episodic & Semantic Memory — arXiv:2602.07261": concepts/agent-memory/memory-representation/cognitive-algorithms-episodic-semantic-memory-2602.07261.md
+      - "Spatial Memory Survey for Robot Navigation — arXiv:2604.16482": concepts/agent-memory/memory-representation/spatial-memory-robot-navigation-2604.16482.md
+      - "Memanto: Typed Semantic Memory — arXiv:2604.22085": concepts/agent-memory/memory-representation/memanto-typed-semantic-memory-2604.22085.md
+      - "HLTM: LinkedIn Hiring Agent Temporal Memory — arXiv:2604.26197": concepts/agent-memory/memory-representation/hltm-linkedin-hiring-agent-2604.26197.md
+      - "Memory Transfer Learning: Cross-Domain Memory in Coding Agents — arXiv:2604.14004": concepts/agent-memory/memory-representation/memory-transfer-learning-2604.14004.md
+      - "IdeaForge: KG-Grounded Multi-Agent for Innovation Analysis — arXiv:2605.13311": concepts/agent-memory/memory-representation/ideaforge-kg-innovation-2605.13311.md
+      - "PersonalAI 2.0: KG-Traversal Memory for Personalized LLM Agents — arXiv:2605.13481": concepts/agent-memory/memory-representation/personalai-kg-memory-2605.13481.md
+      - "EconAI: Dynamic Persona and Memory-Aware Agents in Economic Environments — arXiv:2605.13762": concepts/agent-memory/memory-representation/econai-dynamic-persona-memory-2605.13762.md
+      - "PREPING: Building Agent Memory without Tasks — arXiv:2605.13880": concepts/agent-memory/memory-representation/preping-proposer-guided-memory-2605.13880.md
+      - "Geometry of Forgetting: Temporal Knowledge Drift as Independent Axis — arXiv:2605.09195": concepts/agent-memory/memory-representation/geometry-forgetting-temporal-drift-2605.09195.md
+      - "Engram Memory in AR Image Generation: Gated Side-Pathway — arXiv:2605.13179": concepts/agent-memory/memory-representation/engram-memory-image-generation-2605.13179.md
+      - "Executable Agentic Memory for GUI Agents — arXiv:2605.12294": concepts/agent-memory/memory-representation/executable-agentic-memory-gui-2605.12294.md
+      - "Adaptive Decay: Autodiscovery of Non-Uniform Forgetting in Knowledge Graphs — arXiv:2604.26970": concepts/agent-memory/memory-representation/adaptive-decay-kg-memory-2604.26970.md
+      - "SAGE: Self-Evolving Agentic Graph-Memory Engine — arXiv:2605.12061": concepts/agent-memory/memory-representation/sage-self-evolving-graph-memory-2605.12061.md
+      - "Bridging the Cognitive Gap: Unified Memory Paradigm for 6G AI-RAN — arXiv:2605.10036": concepts/agent-memory/memory-representation/bridging-2605.10036.md
+      - "Portable Agent Memory: Cryptographically-Verified Transfer Across Heterogeneous AI Agents — arXiv:2605.11032": concepts/agent-memory/memory-representation/portable-agent-memory-2605.11032.md
+      - "Mem-W: Latent Memory-Native GUI Agents — arXiv:2605.09317": concepts/agent-memory/memory-representation/mem-w-2605.09317.md
+      - 记忆检索: concepts/agent-memory/memory-retrieval/index.md
+      - "VimRAG: Visual Multimodal Memory RAG — arXiv:2602.12735": concepts/agent-memory/memory-retrieval/vimrag-visual-multimodal-memory-2602.12735.md
+      - "Semantic Memory Foraging in LLMs — arXiv:2603.01822": concepts/agent-memory/memory-retrieval/semantic-memory-foraging-2603.01822.md
+      - "CIG: Conversational Information Gain — arXiv:2604.15647": concepts/agent-memory/memory-retrieval/cig-conversational-information-gain-2604.15647.md
+      - "Remember Your Trace: Memory-Guided Code Documentation — arXiv:2605.14563": concepts/agent-memory/memory-representation/remember-your-trace-2605.14563.md
+      - "Episodic-Semantic Memory Architecture for Long-Horizon Scientific Agents — arXiv:2605.17625": concepts/agent-memory/memory-representation/episodic-semantic-memory-2605.17625.md
+      - "MemRepair: Hierarchical Memory for Agentic Repository-Level Vulnerability Repair — arXiv:2605.17444": concepts/agent-memory/memory-representation/memrepair-hierarchical-memory-2605.17444.md
+      - "GRID: Security Text Knowledge Graph Construction for Agent Memory — arXiv:2605.16714": concepts/agent-memory/memory-representation/grid-security-knowledge-graph-2605.16714.md
+      - "RAGA: Autonomous KG Construction and RAG for Agent Memory — arXiv:2605.17072": concepts/agent-memory/memory-representation/raga-autonomous-kg-rag-2605.17072.md
+      - "MEMOIR: Memory-Guided Tree Search for LLM Solver Synthesis — arXiv:2605.17539": concepts/agent-memory/memory-retrieval/memooir-memory-tree-search-2605.17539.md
+      - "NeuSymMS: Hybrid Neuro-Symbolic Memory System — arXiv:2605.17596": concepts/agent-memory/memory-representation/neusymms-neurosymbolic-memory-2605.17596.md
+      - "Retrieve-then-Steer: Online Success Memory for Test-Time Adaptation of Generative VLAs — arXiv:2605.10094": concepts/agent-memory/memory-retrieval/retrieve-then-steer-success-memory-2605.10094.md
+      - "NanoResearch: Personalized Research with Co-Evolving Memory — arXiv:2605.10813": concepts/agent-memory/memory-retrieval/nanoresearch-personalized-research-2605.10813.md
+      - "LongMemEval-V2: Evaluating Long-Term Agent Memory Toward Experienced Colleagues — arXiv:2605.12493": concepts/agent-memory/memory-retrieval/longmemeval-v2-2605.12493.md
+      - "Agent Memory: Characterization of Stateful Long-Horizon Workloads — arXiv:2606.06448": concepts/agent-memory/memory-retrieval/agent-memory-characterization-2606.06448.md
+      - "PRISM: Pareto-Efficient Retrieval over Intent-Aware Structured Memory — arXiv:2605.12260": concepts/agent-memory/memory-retrieval/prism-pareto-efficient-intent-aware-memory-2605.12260.md
+      - "MemGym: Long-Horizon Memory Environment for LLM Agents — arXiv:2605.20833": concepts/agent-memory/memory-retrieval/memgym-long-horizon-memory-2605.20833.md
+      - "WorldKV: Efficient World Memory with World Retrieval and Compression — arXiv:2605.22718": concepts/agent-memory/memory-retrieval/worldkv-world-memory-2605.22718.md
+      - "MAQIU: Memory-Augmented Query Intent Understanding for Chat-based Image Retrieval — arXiv:2605.17365": concepts/agent-memory/memory-retrieval/maqiu-memory-augmented-intent-2605.17365.md
+      - "Auto-Dreamer: Offline Memory Consolidation for Language Agents — arXiv:2605.20616": concepts/agent-memory/memory-retrieval/auto-dreamer-offline-memory-2605.20616.md
+      - "Memory-Induced Supra-Competitive Outcomes in DRL Agents — arXiv:2605.20348": concepts/agent-memory/memory-retrieval/memory-supra-competitive-rl-2605.20348.md
+      - "Goal-Mem: Goal-Oriented Reasoning for RAG-based Memory in Conversational Agentic LLM Systems — arXiv:2605.12213": concepts/agent-memory/memory-retrieval/goal-mem-rag-memory-2605.12213.md
+      - "MedMemoryBench: Benchmarking Agent Memory in Personalized Healthcare — arXiv:2605.11814": concepts/agent-memory/memory-retrieval/medmemorybench-benchmark-2605.11814.md
+      - "Chronos: Temporal-Aware Agents with Structured Event Retrieval for Long-Term Memory — arXiv:2603.16862": concepts/agent-memory/memory-retrieval/chronos-temporal-event-memory-2603.16862.md
+      - "VehicleMemBench: Multi-User Long-Term Memory in In-Vehicle Agents — arXiv:2603.23840": concepts/agent-memory/benchmark/vehiclemembench-multiuser-memory-2603.23840.md
+      - "TA-Mem: Tool-Augmented Autonomous Memory Retrieval for LLM — arXiv:2603.09297": concepts/agent-memory/memory-retrieval/ta-mem-tool-augmented-memory-retrieval-2603.09297.md
+      - "REMem: Reasoning with Episodic Memory in Language Agent — arXiv:2602.13530": concepts/agent-memory/memory-retrieval/remem-reasoning-episodic-memory-2602.13530.md
+      - "Predictive Associative Memory: Retrieval Beyond Similarity — arXiv:2602.11322": concepts/agent-memory/memory-retrieval/predictive-associative-memory-2602.11322.md
+      - "MEME: Multi-Entity & Evolving Memory Evaluation — arXiv:2605.12477": concepts/agent-memory/benchmark/meme-multi-entity-memory-eval-2605.12477.md
+      - "MemReread: Enhancing Agentic Long-Context Reasoning via Memory-Guided Rereading — arXiv:2605.10268": concepts/agent-memory/memory-retrieval/memreread-2605.10268.md
+      - "HAGE: Harnessing Agentic Memory via RL-Driven Weighted Graph Evolution — arXiv:2605.09942": concepts/agent-memory/memory-retrieval/hage-weighted-graph-memory-2605.09942.md
+      - "Trap of Trajectory: Spurious Correlations in Agentic Memory — arXiv:2605.09330": concepts/agent-memory/memory-retrieval/trap-of-trajectory-spurious-correlations-2605.09330.md
+      - "Beyond Similarity Search: Tenure and the Case for Structured Belief State in LLM Memory — arXiv:2605.11325": concepts/agent-memory/memory-retrieval/tenure-structured-belief-state-2605.11325.md
+      - "EquiMem: Calibrating Shared Memory in Multi-Agent Debate via Game-Theoretic Equilibrium — arXiv:2605.09278": concepts/agent-memory/memory-retrieval/equimem-2605.09278.md
+      - "PYTHALAB-MERA: Validation-Grounded Memory for Frozen-LLM Coding Agents — arXiv:2605.08468": concepts/agent-memory/memory-retrieval/pythalab-mera-validation-memory-frozen-llm-2605.08468.md
+      - "STALE: Can LLM Agents Know When Their Memories Are No Longer Valid? — arXiv:2605.06527": concepts/agent-memory/memory-retrieval/stale-llm-agents-memory-validity-2605.06527.md
+      - "MemReranker: Reasoning-Aware Reranking for Agent Memory Retrieval — arXiv:2605.06132": concepts/agent-memory/memory-retrieval/memreranker-reasoning-aware-reranking-2605.06132.md
+      - "MemQ: Integrating Q-Learning into Self-Evolving Memory Agents over Provenance DAGs — arXiv:2605.08374": concepts/agent-memory/memory-retrieval/memq-q-learning-provenance-dag-2605.08374.md
+      - "The Memory Curse: How Expanded Recall Erodes Cooperative Intent in LLM Agents — arXiv:2605.08060": concepts/agent-memory/memory-retrieval/memory-curse-erosion-cooperation-2605.08060.md
+      - "CuSearch: Curriculum Rollout Sampling via Agentic RAG — arXiv:2605.11611": concepts/agent-memory/memory-retrieval/cusearch-curriculum-rollout-agentic-rag-2605.11611.md
+      - "MAGMA: Stochastic Consensus Multi-Agent RAG with Uncertainty Quantification — arXiv:2605.08385": concepts/agent-memory/memory-retrieval/magma-uncertainty-stochastic-rag-2605.08385.md
+      - "EPIC: Preference-Aligned Memory for On-Device RAG — arXiv:2605.18271": concepts/agent-memory/memory-retrieval/epic-preference-aligned-ondevice-rag-2605.18271.md
+      - 记忆压缩与遗忘: concepts/agent-memory/memory-compression/index.md
+      - "Price of Meaning: Semantic Memory Forgetting — arXiv:2603.27116": concepts/agent-memory/memory-compression/price-meaning-semantic-forgetting-2603.27116.md
+      - "MemEye: Visual-Centric Multimodal Agent Memory Eval — arXiv:2605.15128": concepts/agent-memory/memory-retrieval/memeye-visual-centric-eval-2605.15128.md
+      - "MemLens: Multimodal LVLM Memory Benchmark — arXiv:2605.14906": concepts/agent-memory/memory-retrieval/memlens-multimodal-lvlm-memory-2605.14906.md
+      - "GroupMemBench: Multi-Party Conversation Memory — arXiv:2605.14498": concepts/agent-memory/memory-retrieval/groupmembench-multi-party-2605.14498.md
+      - "MARS: Hierarchical Belief-State Memory for Recommender — arXiv:2605.14401": concepts/agent-memory/memory-retrieval/mars-hierarchical-belief-memory-2605.14401.md
+      - "EvolveMem: Self-Evolving Memory Architecture — arXiv:2605.13941": concepts/agent-memory/memory-retrieval/evolvemem-self-evolving-memory-2605.13941.md
+      - "KITE: Retrieval-Augmented Tutoring for Algorithm Tracing — arXiv:2605.12988": concepts/agent-memory/memory-retrieval/kite-retrieval-augmented-tutoring-2605.12988.md
+      - "Clinical Timeline: Retrieval-Augmented Multimodal Alignment — arXiv:2605.15168": concepts/agent-memory/memory-retrieval/clinical-timeline-retrieval-augmented-2605.15168.md
+      - "GAPE: Gated Adaptive Positional Encoding — arXiv:2605.10414": concepts/agent-memory/memory-retrieval/gape-gated-positional-encoding-2605.10414.md
+      - "Prospection-Guided Retrieval: Thinking Ahead for Memory — arXiv:2605.14177": concepts/agent-memory/memory-retrieval/prospection-guided-retrieval-2605.14177.md
+      - "Why RAG Fails: Graph Perspective — arXiv:2605.14192": concepts/agent-memory/memory-retrieval/why-rag-fails-graph-perspective-2605.14192.md
+      - "RAM: Retrieval-Augmented Modeling for Relational Data Analytics — arXiv:2605.14464": concepts/agent-memory/memory-retrieval/ram-retrieval-augmented-modeling-2605.14464.md
+      - "Deepchecks: Evaluating RAG Applications — arXiv:2605.14488": concepts/agent-memory/memory-retrieval/deepchecks-rag-evaluation-2605.14488.md
+      - "Codebase-Memory: Tree-Sitter KG for LLM Code Exploration via MCP — arXiv:2603.27277": concepts/agent-memory/memory-retrieval/codebase-memory-kg-llm-2603.27277.md
+      - "Robo-Cortex: Dual-Grain Cognitive Memory — arXiv:2605.18729": concepts/agent-memory/memory-retrieval/robo-cortex-dual-grain-memory-2605.18729.md
+      - "MementoGUI: Multimodal Memory for GUI Agents — arXiv:2605.18652": concepts/agent-memory/memory-retrieval/mementogui-multimodal-memory-gui-2605.18652.md
+      - "LongMINT: Memory under Multi-Target Interference — arXiv:2605.18565": concepts/agent-memory/memory-retrieval/longmint-memory-interference-2605.18565.md
+      - "EvoMemBench: Self-Evolving Memory Benchmark — arXiv:2605.18421": concepts/agent-memory/memory-retrieval/evomembench-self-evolving-memory-2605.18421.md
+      - "MemConflict: Evaluating Long-Term Memory Systems Under Memory Conflicts — arXiv:2605.20926": concepts/agent-memory/memory-retrieval/memconflict-memory-conflict-2605.20926.md
+      - "Memory-R2: Fair Credit Assignment for Memory-Augmented LLM Agents — arXiv:2605.21768": concepts/agent-memory/memory-retrieval/memory-r2-fair-credit-assignment-2605.21768.md
+      - "SocialMemBench: Are AI Memory Systems Ready for Social Group Settings? — arXiv:2605.17789": concepts/agent-memory/memory-retrieval/socialmembench-social-group-memory-2605.17789.md
+      - "Mesh Memory Protocol: Semantic Infrastructure for Multi-Agent LLM Systems — arXiv:2604.19540": concepts/agent-memory/memory-retrieval/mesh-memory-protocol-2604.19540.md
+      - "FORGE: Self-Evolving Agent Memory via Population Broadcast — arXiv:2605.16233": concepts/agent-memory/memory-retrieval/forge-self-evolving-agent-memory-2605.16233.md
+      - "DimMem: Dimensional Structuring for Long-Term Agent Memory — arXiv:2605.15759": concepts/agent-memory/memory-retrieval/dimmem-dimensional-structuring-memory-2605.15759.md
+      - "H-Mem: Hybrid Tree+KG Memory for Evolving Agent Memory — arXiv:2605.15701": concepts/agent-memory/memory-retrieval/h-mem-hybrid-tree-kg-memory-2605.15701.md
+      - "TriMem: Beyond Atomic Facts in Lifelong Agent Memory — arXiv:2605.19952": concepts/agent-memory/memory-retrieval/trimem-triple-memory-representation-2605.19952.md
+      - "Memory-Augmented RL Agent for CAD Generation — arXiv:2605.19748": concepts/agent-memory/memory-retrieval/memory-augmented-rl-cad-generation-2605.19748.md
+      - "MoLEM: Dynamic Mixture of Latent Memory for Self-Evolving Agents — arXiv:2605.21951": concepts/agent-memory/memory-retrieval/molem-mixture-latent-memory-2605.21951.md
+      - "MMoA: Recurrent Memoried Mixture-of-Agent — arXiv:2605.19194": concepts/agent-memory/memory-retrieval/mmoa-recurrent-mixture-of-agents-2605.19194.md
+      - "DecentMem: Decentralized Memory for Multi-Agent Systems — arXiv:2605.22721": concepts/agent-memory/memory-retrieval/decentmem-decentralized-memory-multiagent-2605.22721.md
+      - "Causal Intervention-Based Memory Selection for Long-Horizon LLM Agents — arXiv:2605.17641": concepts/agent-memory/memory-retrieval/causal-memory-selection-2605.17641.md
+      - "MemReward: Graph-Based Experience Memory for LLM Reward Prediction — arXiv:2603.19310": concepts/agent-memory/memory-retrieval/memreward-graph-experience-memory-2603.19310.md
+      - "AMemGym: Interactive Memory Benchmarking for Assistants in Long-Horizon Conversations — arXiv:2603.01966": concepts/agent-memory/memory-retrieval/amemgym-interactive-memory-benchmark-2603.01966.md
+      - "Memex(RL): Indexed Experience Memory for Long-Horizon LLM Agents — arXiv:2603.04257": concepts/agent-memory/memory-retrieval/memex-rl-indexed-experience-2603.04257.md
+      - "FactorMiner: Self-Evolving Agent with Skills and Experience Memory — arXiv:2602.14670": concepts/agent-memory/memory-retrieval/factorminer-skills-experience-2602.14670.md
+      - "UI-Mem: Self-Evolving Experience Memory for Mobile GUI Agents — arXiv:2602.05832": concepts/agent-memory/memory-retrieval/ui-mem-experience-memory-gui-2602.05832.md
+      - "StackPlanner: Hierarchical Multi-Agent with Task-Experience Memory Management — arXiv:2601.05890": concepts/agent-memory/memory-retrieval/stackplanner-hierarchical-memory-2601.05890.md
+      - 持续学习: concepts/agent-memory/continual-learning/index.md
+      - "NGM: Plug-and-Play Training-Free Memory Module for LLMs — arXiv:2605.16893": concepts/agent-memory/memory-compression/ngm-plug-and-play-memory-2605.16893.md
+      - "RecMem: Recurrence-based Memory Consolidation — arXiv:2605.16045": concepts/agent-memory/memory-retrieval/recmem-recurrence-based-memory-2605.16045.md
+      - "SMMBench: Source-Distributed Multimodal Agent Memory — arXiv:2605.15710": concepts/agent-memory/memory-retrieval/smmbench-source-distributed-multimodal-2605.15710.md
+      - "Unlocking Compositional Generalization in Continual Few-Shot Learning — arXiv:2605.11710": concepts/agent-memory/continual-learning/unlock-compositional-generalization-2605.11710.md
+      - "SCM: Sleep-Consolidated Memory — arXiv:2604.20943": concepts/agent-memory/memory-compression/scm-sleep-consolidated-memory-2604.20943.md
+      - "Useful Memories Become Faulty When Continuously Updated by LLMs — arXiv:2605.12978": concepts/agent-memory/memory-consolidation/useful-memories-become-faulty-2605.12978.md
+      - "DeMem: Remember the Decision, Not the Description - Rate-Distortion Agent Memory — arXiv:2605.10870": concepts/agent-memory/memory-compression/demem-decision-centric-memory-2605.10870.md
+      - "ScrapMem: On-device Personalized Agent Memory via Optical Forgetting — arXiv:2605.03804": concepts/agent-memory/memory-compression/scrapmem-bio-inspired-on-device-2605.03804.md
+      - "Human-Inspired Memory Architecture for LLM Agents — arXiv:2605.08538": concepts/agent-memory/memory-compression/human-inspired-2605.08538.md
+      - "ProCL: Program Memory for Continual LoRA Fine-Tuning — arXiv:2605.13162": concepts/agent-memory/memory-compression/procl-program-memory-2605.13162.md
+      - "KVM: Block-Recurrent Compressed Memory for Transformers — arXiv:2605.09877": concepts/agent-memory/memory-compression/kvm-block-recurrent-compressed-memory-2605.09877.md
+      - "FadeMem: Biologically-Inspired Forgetting — arXiv:2601.18642": concepts/agent-memory/memory-compression/fademem-biologically-inspired-2601.18642.md
+      - "RISE: Zeroth-Order Adaptation May Forget Less — arXiv:2605.10658": concepts/agent-memory/memory-compression/rise-zeroth-order-2605.10658.md
+      - "SE-GA: Memory-Augmented Self-Evolution for GUI Agents — arXiv:2605.16883": concepts/agent-memory/memory-compression/se-ga-memory-self-evolution-2605.16883.md
+      - "Context Codec: Verifiable Commitment-Level Context Compression — arXiv:2605.17304": concepts/agent-memory/memory-compression/context-codec-commitment-compression-2605.17304.md
+      - "Mela: Test-Time Memory Consolidation based on Transformation Hypotheses — arXiv:2605.10537": concepts/agent-memory/memory-compression/mela-test-time-memory-consolidation-2605.10537.md
+      - "SeCo: Semantic-Driven Context Compression — arXiv:2605.09463": concepts/agent-memory/memory-compression/seco-semantic-context-compression-2605.09463.md
+      - "Memory Condensation for Coding Agents — arXiv:2605.18854": concepts/agent-memory/memory-compression/memory-condensation-coding-agents-2605.18854.md
+      - "Implicit Context Compression Problems for SE Agents — arXiv:2605.11051": concepts/agent-memory/memory-compression/implicit-context-compression-se-agents-2605.11051.md
+      - "STL Memory Transfer: Short-Term to Long-Term KG Memory — arXiv:2605.22142": concepts/agent-memory/memory-compression/stl-memory-transfer-kg-2605.22142.md
+      - "Hybrid Graph Context Compression — arXiv:2604.23277": concepts/agent-memory/memory-compression/hybrid-graph-context-compression-2604.23277.md
+      - "TACO: Terminal Agent Compression — arXiv:2604.19572": concepts/agent-memory/memory-compression/taco-terminal-agent-compression-2604.19572.md
+      - "Context Compression for Repository-Level Tasks — arXiv:2604.13725": concepts/agent-memory/memory-compression/context-compression-repo-level-2604.13725.md
+      - "Multi-Tier KV Cache Memory Management — arXiv:2604.26968": concepts/agent-memory/memory-management/multi-tier-kv-cache-memory-2604.26968.md
+      - "Learning Fast and Slow: Towards LLMs That Adapt Continually — arXiv:2605.12484": concepts/agent-memory/continual-learning/fast-slow-llm-continual-adaptation-2605.12484.md
+      - "MIST: Streaming Decision Trees for Online Class-Incremental Learning — arXiv:2605.11617": concepts/agent-memory/continual-learning/mist-streaming-decision-trees-2605.11617.md
+      - "Self-Evolving Agents Forget: CPE Capability Preservation — arXiv:2605.09315": concepts/agent-memory/continual-learning/self-evolving-agents-forget-cpe-2605.09315.md
+      - "CP-MoE: Consistency-Preserving MoE for Continual Learning — arXiv:2605.20247": concepts/agent-memory/continual-learning/cp-moe-consistency-preserving-2605.20247.md
+      - "Domain Incremental Learning for Pandemic-Resilient Chest X-Ray — arXiv:2605.17729": concepts/agent-memory/continual-learning/domain-incremental-chest-xray-2605.17729.md
+      - "Stable Routing for MoE in Class-Incremental Learning — arXiv:2605.17571": concepts/agent-memory/continual-learning/stable-routing-moe-cil-2605.17571.md
+      - "Modular Memory: Key to Continual Learning Agents — arXiv:2603.01761": concepts/agent-memory/continual-learning/modular-memory-continual-learning-2603.01761.md
+      - "Prototypical Exemplar Condensation for CL — arXiv:2603.13804": concepts/agent-memory/continual-learning/prototypical-exemplar-condensation-2603.13804.md
+      - "Abstraction as Memory-Efficient Inductive Bias for CL — arXiv:2603.17198": concepts/agent-memory/continual-learning/abstraction-memory-efficient-2603.17198.md
+      - "Mistake Gating: Energy-Efficient Continual Learning — arXiv:2604.14336": concepts/agent-memory/continual-learning/mistake-gating-continual-learning-2604.14336.md
+      - "Recovery Guarantees for Continual Learning of Dependent Tasks — arXiv:2604.17578": concepts/agent-memory/continual-learning/recovery-guarantees-dependent-tasks-2604.17578.md
+      - "SLICE: Gradient Surgery LoRA Initialization — arXiv:2605.12752": concepts/agent-memory/continual-learning/slice-lora-continual-learning-2605.12752.md
+      - "InfoSFT: Token Weighting for SFT Forgetting — arXiv:2605.14967": concepts/agent-memory/continual-learning/infosft-token-weighting-sft-2605.14967.md
+      - "Imbalanced Forgetting in Rehearsal CIL — arXiv:2605.14785": concepts/agent-memory/continual-learning/imbalanced-forgetting-rehearsal-2605.14785.md
+      - "Geometry Conflict: Controlling Forgetting in LLM Continual Post-Training — arXiv:2605.09608": concepts/agent-memory/continual-learning/geometry-conflict-llm-continual-2605.09608.md
+      - "PsychAgent: Experience-Driven Lifelong Learning Agent for Psychological Counselor — arXiv:2604.00931": concepts/agent-memory/continual-learning/psychagent-experience-driven-lifelong-2604.00931.md
+      - "LLMA-Mem: Memory Enabled Lifelong Learning in LLM Multi-Agent Systems — arXiv:2604.03295": concepts/agent-memory/continual-learning/llma-mem-scaling-teams-time-2604.03295.md
+      - "KAN-CL: Per-Knot Importance Regularization for Continual Learning — arXiv:2605.12306": concepts/agent-memory/continual-learning/kan-cl-per-knot-importance-2605.12306.md
+      - "REMIX: Laplace Kernel for Data-Free Continual Learning — arXiv:2605.11804": concepts/agent-memory/continual-learning/remix-laplace-kernel-dfcil-2605.11804.md
+      - "DHOCL: Dynamic Hierarchies for Online Continual Learning — arXiv:2605.11742": concepts/agent-memory/continual-learning/dhocl-dynamic-hierarchies-2605.11742.md
+      - "CMKL: Modality-Aware Continual Learning for Biomedical KGs — arXiv:2605.10510": concepts/agent-memory/continual-learning/cmkl-modality-aware-kg-continual-2605.10510.md
+      - "SNV: Shapley Neuron Values for Continual Learning — arXiv:2605.15877": concepts/agent-memory/continual-learning/snv-shapley-neuron-continual-learning-2605.15877.md
+      - "UAM: Dual-Stream VLA Forgetting — arXiv:2605.15735": concepts/agent-memory/continual-learning/uam-dual-stream-vla-forgetting-2605.15735.md
+      - "Continual Learning of Domain-Invariant Representations — arXiv:2605.15775": concepts/agent-memory/continual-learning/domain-invariant-representation-continual-2605.15775.md
+      - 多模态记忆: concepts/agent-memory/multimodal-memory/index.md
+      - "Anytime PAC-Bayes: Constrained Density-Ratio with CL Guarantees — arXiv:2605.17212": concepts/agent-memory/continual-learning/anytime-pacbayes-continual-2605.17212.md
+      - "iGSP: Implicit Gradient Subspace Projection for VLM CL — arXiv:2605.19301": concepts/agent-memory/continual-learning/igsp-gradient-subspace-2605.19301.md
+      - "PneumoNet: On-Device CL for Point-of-Care Pneumonia Diagnosis — arXiv:2605.19201": concepts/agent-memory/continual-learning/pneumonet-ondevice-2605.19201.md
+      - "MANGO: Meta-Adaptive Network Gradient for Online CL — arXiv:2605.19080": concepts/agent-memory/continual-learning/mango-meta-adaptive-2605.19080.md
+      - "Reasoning Portability: Guiding CL for MLLMs in RLVR Era — arXiv:2605.18903": concepts/agent-memory/continual-learning/reasoning-portability-2605.18903.md
+      - "PMF-CL: Pareto-Minimal-Forgetting Continual Learner — arXiv:2605.19145": concepts/agent-memory/continual-learning/pmfcl-pareto-minimal-forgetting-2605.19145.md
+      - "FINCH: Fine-Tuning Without Forgetting via Loss-Adaptive LR — arXiv:2605.20005": concepts/agent-memory/continual-learning/finch-loss-adaptive-finetuning-2605.20005.md
+      - "Tunable MAGMAX: Preference-Aware Model Merging for CL — arXiv:2605.20803": concepts/agent-memory/continual-learning/tunable-magmax-preference-aware-2605.20803.md
+      - "Lost or Hidden: Concept-Level Forgetting in Supervised CL — arXiv:2605.16374": concepts/agent-memory/continual-learning/lost-or-hidden-concept-forgotten-2605.16374.md
+      - "KIT-TIP-NLP: Multilingual CL for Reclaimed Slur Detection — arXiv:2605.13415": concepts/agent-memory/continual-learning/kit-tip-nlp-multilingual-continual-2605.13415.md
+      - "Scaling Few-Shot Spoken Word via Generative Meta-CL — arXiv:2605.13075": concepts/agent-memory/continual-learning/scaling-few-shot-spoken-gmcl-2605.13075.md
+      - "Lifelong Learning in VLMs: Enhanced EWC Cross-Modal — arXiv:2605.12789": concepts/agent-memory/continual-learning/lifelong-learning-vlm-cross-modal-2605.12789.md
+      - "GSMem: 3D Gaussian Splatting as Persistent Spatial Memory for Embodied Agents — arXiv:2603.19137": concepts/agent-memory/multimodal-memory/gsmem-3dgs-spatial-memory-2603.19137.md
+      - "SpaMEM: Benchmarking Dynamic Spatial Reasoning via Perception-Memory Integration — arXiv:2604.22409": concepts/agent-memory/multimodal-memory/spamem-spatial-belief-evolution-2604.22409.md
+      - "Visual Agentic Memory: Online Long Video Understanding — arXiv:2605.16481": concepts/agent-memory/multimodal-memory/visual-agentic-memory-2605.16481.md
+      - "AtlasVA: Self-Evolving Visual Skill Memory for Teacher-Free VLM Agents — arXiv:2605.17933": concepts/agent-memory/multimodal-memory/atlasva-visual-skill-memory-2605.17933.md
+      - "PyraVid: Hierarchical Multimodal Memory for Long-Horizon Video Reasoning — arXiv:2605.17065": concepts/agent-memory/multimodal-memory/pyravid-hierarchical-multimodal-memory-2605.17065.md
+      - "ECHO: Continuous Hierarchical Memory for VLA Models — arXiv:2605.10993": concepts/agent-memory/multimodal-memory/echo-continuous-hierarchical-memory-2605.10993.md
+      - "OSGNet+MLLM: Ego4D Episodic Memory Challenge 2026 — arXiv:2605.20818": concepts/agent-memory/multimodal-memory/osgnet-ego4d-episodic-memory-2605.20818.md
+      - "FlexMem: Scaling Long Video Understanding via Visual Memory — arXiv:2603.29252": concepts/agent-memory/multimodal-memory/flexmem-visual-memory-long-video-2603.29252.md
+      - "Multimodal LMMs for Online Episodic Memory QA on the Edge — arXiv:2602.22455": concepts/agent-memory/multimodal-memory/multimodal-edge-episodic-memory-2602.22455.md
+      - "M2A: Multimodal Memory Agent — arXiv:2602.07624": concepts/agent-memory/multimodal-memory/m2a-multimodal-memory-agent-2602.07624.md
+      - "IMPACT-CYCLE: Long-Video Semantic Memory — arXiv:2604.20136": concepts/agent-memory/multimodal-memory/impact-cycle-long-video-memory-2604.20136.md
+      - "MMA Multimodal Memory Agent — arXiv:2602.16493": concepts/agent-memory/multimodal-memory/mma-multimodal-memory-agent-2602.16493.md
+      - "From Verbatim to Gist — arXiv:2603.01455": concepts/agent-memory/multimodal-memory/mm-mem-pyramidal-multimodal-memory-2603.01455.md
+      - "MEM Multi-Scale Embodied Memory — arXiv:2603.03596": concepts/agent-memory/multimodal-memory/mem-multi-scale-embodied-memory-2603.03596.md
+      - "CMMR-VLN Vision-Language Navigation — arXiv:2603.07997": concepts/agent-memory/multimodal-memory/cmmr-vln-multimodal-memory-2603.07997.md
+      - "Human-Inspired Multimodal Memory Social Robots — arXiv:2604.12081": concepts/agent-memory/multimodal-memory/human-inspired-multimodal-memory-social-robots-2604.12081.md
+      - "Visual Inception Memory Poisoning — arXiv:2604.16966": concepts/agent-memory/memory-privacy/visual-inception-memory-poisoning-2604.16966.md
+      - "CurveStream: Curvature-Aware Hierarchical Visual Memory — arXiv:2603.19571": concepts/agent-memory/multimodal-memory/curvestream-visual-memory-streaming-2603.19571.md
+      - "Secure Forgetting: Privacy-Driven Unlearning in LLM Agents — arXiv:2604.00430": concepts/agent-memory/memory-privacy/secure-forgetting-unlearning-2604.00430.md
+      - "TFGN: Task-Free, Replay-Free Continual Pre-Training — arXiv:2605.15053": concepts/agent-memory/continual-learning/tfgn-task-free-continual-pretraining-2605.15053.md
+      - "Forgetful but Faithful: Cognitive Memory for Privacy-Aware Agents — arXiv:2512.12856": concepts/agent-memory/memory-privacy/forgetful-but-faithful-2512.12856.md
+      - 记忆隐私: concepts/agent-memory/memory-privacy/index.md
+      - "System 1 & 2 Semantic Memory Bias — arXiv:2604.12816": concepts/agent-memory/memory-privacy/system1-system2-semantic-memory-bias-2604.12816.md
+      - "MemLineage: Lineage-Guided Memory Enforcement — arXiv:2605.14421": concepts/agent-memory/memory-privacy/memlineage-lineage-guided-2605.14421.md
+      - "Forgetting That Sticks: Quantization-Permanent Unlearning — arXiv:2605.15138": concepts/agent-memory/memory-privacy/forgetting-quantization-permanent-2605.15138.md
+      - "ARPM: Heterogeneous Temporal Memory Governance for LLM Persona Consistency — arXiv:2605.14802": concepts/agent-memory/memory-privacy/arpm-temporal-memory-governance-2605.14802.md
+      - "Veritas: Semantic Grounded Binary Vulnerability Detection — arXiv:2605.15097": concepts/agent-memory/memory-privacy/veritas-semantic-grounded-binary-vuln-2605.15097.md
+      - "ICED: Concept-Level VLM Unlearning — arXiv:2605.14309": concepts/agent-memory/memory-privacy/iced-concept-level-vlm-unlearning-2605.14309.md
+      - "Multilingual Machine Unlearning Evaluation — arXiv:2605.14404": concepts/agent-memory/memory-privacy/multilingual-machine-unlearning-2605.14404.md
+      - "MemPrivacy: Privacy-Preserving Personalized Memory Management for Edge-Cloud Agents — arXiv:2605.09530": concepts/agent-memory/memory-privacy/memprivacy-privacy-preserving-edge-cloud-2605.09530.md
+      - "Defense Effectiveness across Architectural Layers: Memory Attacks on Stateful LLM Agents — arXiv:2605.08442": concepts/agent-memory/memory-privacy/defense-effectiveness-memory-attacks-2605.08442.md
+      - "State Contamination in Memory-Augmented LLM Agents — arXiv:2605.16746": concepts/agent-memory/memory-privacy/state-contamination-memory-2605.16746.md
+      - "Remembering More, Risking More: Longitudinal Safety Risks in Memory-Equipped LLM Agents — arXiv:2605.17830": concepts/agent-memory/memory-privacy/memory-safety-risks-2605.17830.md
+      - "BLAgent: Agentic RAG for File-Level Bug Localization — arXiv:2605.17965": concepts/agent-memory/memory-retrieval/blagent-agentic-rag-bug-local-2605.17965.md
+      - "SEMA-RAG: Self-Evolving Multi-Agent RAG for Medical Reasoning — arXiv:2605.17101": concepts/agent-memory/memory-retrieval/sema-rag-self-evolving-medical-2605.17101.md
+      - 记忆安全: concepts/agent-memory/memory-security/index.md
+      - "Octopus: History-Free Gradient Orthogonalization for CL in MLLMs — arXiv:2605.14938": concepts/agent-memory/continual-learning/octopus-hifgo-continual-mllm-2605.14938.md
+      - "ShadowMerge: Poisoning Attack on Graph-Based Agent Memory — arXiv:2605.09033": concepts/agent-memory/memory-security/shadowmerge-poisoning-attack-graph-memory-2605.09033.md
+      - "Sleeper Memory Poisoning: Hidden Memory Attacks on Stateful LLM Agents — arXiv:2605.15338": concepts/agent-memory/memory-security/sleeper-memory-poisoning-attack-2605.15338.md
+    - 工具调用与执行:
+      - 端侧 vs 云端 Agentic 工具调用: concepts/on-device-vs-cloud-agentic-tool-calling.md
+      - Mobile-MCP Android 动态工具: concepts/mobile-mcp.md
+      - MANA 多模态广告检测: concepts/mana-mobile-ad-detection.md
+      - COMLLM 多轮推理边缘卸载: concepts/comllm-mec-offloading.md
+      - 网络感知 Agent 推理能效: concepts/networking-energy-agentic.md
+      - GAAT 治理感知遥测: concepts/gaat-agent-governance.md
+      - GAT Agent 遥测: concepts/gat-agent-telemetry.md
       - Cloudflare Agent Cloud: concepts/cloudflare-agent-cloud-openai.md
-      - Multi-Turn Reasoning MEC å¸è½½: concepts/multi-turn-reasoning-task-offloading.md
-      - MoPHES ç«¯ä¾§å¿çå¥åº· Agent: concepts/mophes-ondevice-mental-health.md
-      - A1gent Open RAN å¯å®¡è®¡æ§å¶: concepts/a1gent-agentic-open-ran.md
-      - Self-adaptive MEC æºå¨äºº: concepts/self-adaptive-mec-robotics.md
-      - MCP å·¥å·æè¿°è´¨é: concepts/mcp-tool-description-smells.md
-      - LLM å§æç¼è¾ææ¡£æå: concepts/llm-delegation-document-corruption.md
-      - MobileFineTuner ææºç«¯å¾®è°: concepts/mobilefinetuner.md
+      - Multi-Turn Reasoning MEC 卸载: concepts/multi-turn-reasoning-task-offloading.md
+      - MoPHES 端侧心理健康 Agent: concepts/mophes-ondevice-mental-health.md
+      - A1gent Open RAN 可审计控制: concepts/a1gent-agentic-open-ran.md
+      - Self-adaptive MEC 机器人: concepts/self-adaptive-mec-robotics.md
+      - MCP 工具描述质量: concepts/mcp-tool-description-smells.md
+      - LLM 委托编辑文档损坏: concepts/llm-delegation-document-corruption.md
+      - MobileFineTuner 手机端微调: concepts/mobilefinetuner.md
 
-    - å¤ Agent åä½:
-      - EmoMAS æææç¥è¾¹ç¼åå: concepts/emommas-edge-negotiation.md
-      - EmoMAS æææç¥å¤ Agent: concepts/emommas-emotion-aware-multi-agent.md
-      - AgentComm å·èº«è¯­ä¹éä¿¡: concepts/agentcomm-semantic-communication.md
-      - pAirZero æ çº¿èé¦ä¸é¾é¢: concepts/pairzero-wireless-llm-fl.md
-      - pAirZero èé¦å¾®è°æ¡æ¶: concepts/pAirZero-federated-finetuning.md
-      - æ±è§£å¨-éæ ·å¨éé: concepts/solver-sampler-mismatch-negotiation.md
-      - MLLM å¤æºå¨äººç½ç»: concepts/mllm-multi-robot-networks.md
-      - FedGUI èé¦ GUI Agent åºå: concepts/fedgui-federated-gui-agents.md
-      - Interlat Agent éç©ºé´éä¿¡: concepts/interlat-latent-communication.md
-      - CoDaS ç©¿æ´çç©æ å¿ç©: concepts/codas-wearable-biomarker.md
-      - NaviNote ç©ºé´æ éç¢æ æ³¨: concepts/navinote-spatial-annotation.md
-      - Theory of Mind äººæºåä½: concepts/theory-of-mind-action-instruction-inference.md
-      - MMA2A æ¨¡æåç A2A è·¯ç±: concepts/mma2a-modality-native-routing.md
-      - GLP æºè½ææºå¤ Agent é»è¾: concepts/grassroots-logic-programs-smartphone-multiagent.md
-      - CAMO å¤ Agent å æåç°: concepts/camo-agent-causal-discovery.md
-      - Agent è¸é¦ä¸å®å¨ä¼ é: concepts/subliminal-transfer-agent-distillation.md
-      - NeuroMesh å»ä¸­å¿åå¤æºå¨äºº: concepts/neuromesh-multi-robot-inference.md
-      - ChemGraph-XANES Agentic ç§å­¦ä»¿ç: concepts/chemgraph-xanes-agentic.md
+    - 多 Agent 协作:
+      - EmoMAS 情感感知边缘协商: concepts/emommas-edge-negotiation.md
+      - EmoMAS 情感感知多 Agent: concepts/emommas-emotion-aware-multi-agent.md
+      - AgentComm 具身语义通信: concepts/agentcomm-semantic-communication.md
+      - pAirZero 无线联邦三难题: concepts/pairzero-wireless-llm-fl.md
+      - pAirZero 联邦微调框架: concepts/pAirZero-federated-finetuning.md
+      - 求解器-采样器错配: concepts/solver-sampler-mismatch-negotiation.md
+      - MLLM 多机器人网络: concepts/mllm-multi-robot-networks.md
+      - FedGUI 联邦 GUI Agent 基准: concepts/fedgui-federated-gui-agents.md
+      - Interlat Agent 隐空间通信: concepts/interlat-latent-communication.md
+      - CoDaS 穿戴生物标志物: concepts/codas-wearable-biomarker.md
+      - NaviNote 空间无障碍标注: concepts/navinote-spatial-annotation.md
+      - Theory of Mind 人机协作: concepts/theory-of-mind-action-instruction-inference.md
+      - MMA2A 模态原生 A2A 路由: concepts/mma2a-modality-native-routing.md
+      - GLP 智能手机多 Agent 逻辑: concepts/grassroots-logic-programs-smartphone-multiagent.md
+      - CAMO 多 Agent 因果发现: concepts/camo-agent-causal-discovery.md
+      - Agent 蒸馏不安全传递: concepts/subliminal-transfer-agent-distillation.md
+      - NeuroMesh 去中心化多机器人: concepts/neuromesh-multi-robot-inference.md
+      - ChemGraph-XANES Agentic 科学仿真: concepts/chemgraph-xanes-agentic.md
       - Agentic Enterprise Governance: concepts/agentic-enterprise-governance.md
       - Semantic Consensus Multi Agent: concepts/semantic-consensus-multi-agent.md
       - Diversity Collapse Multi Agent: concepts/diversity-collapse-multi-agent.md
       - Self Improving Error Diag Multi Agent: concepts/self-improving-error-diagnosis-multi-agent.md
       - Conjunctive Prompt Attacks Multi Agent: concepts/conjunctive-prompt-attacks-multi-agent.md
-      - Kimi K2.6 300 Agent å¹¶è¡ç¼ç : concepts/kimi-k26-agent-swarm.md
-      - Logic-Based Verification å¤ Agent: concepts/logic-verification-multi-agent-manufacturing.md
-      - Weak-Link å¤ Agent æ¨çä¼å: concepts/weaklink-multi-agent-reasoning.md
+      - Kimi K2.6 300 Agent 并行编码: concepts/kimi-k26-agent-swarm.md
+      - Logic-Based Verification 多 Agent: concepts/logic-verification-multi-agent-manufacturing.md
+      - Weak-Link 多 Agent 推理优化: concepts/weaklink-multi-agent-reasoning.md
 
-    # ââ ç»´åº¦äºï¼æ¨çä¸ä¼åææ¯æ  ââ
-    - æ¨çä¼å:
-      - LLM æ¨çæ¯éå¼ç: concepts/llm-reasoning-is-latent.md
-      - Weak-to-Strong ç¥è¯è¸é¦: concepts/weak-to-strong-knowledge-distillation.md
-      - ç«¯ä¾§æ¨çä¼åææ¯: concepts/edge-optimization.md
-      - ç«¯ä¾§æµå¼ ASR æé: concepts/on-device-streaming-asr-compact.md
-      - DharmaOCR ä¸ç¨ SLM OCR: concepts/dharmaocr-specialized-slm-ocr.md
-      - LLM æ°å¼ä¸ç¨³å®æ§: concepts/llm-numerical-instability.md
-      - TrigReason è§¦åå¼åä½: concepts/trigreason-trigger-collaboration.md
-      - SpecGuard éªè¯æç¥ææºè§£ç : concepts/specguard-speculative-decoding.md
-      - Driftwood Apple Silicon é¶æ·è´: concepts/driftwood-zero-copy-apple-silicon.md
-      - React Native LLM ç¼ç æç: concepts/react-native-llm-coding-eval.md
-      - æ¨¡åéå:
-        - KV-Cache èªéåºéå: concepts/kv-cache-quantization-ondevice.md
-        - SEPTQ åè®­ç»éå: concepts/septq-post-training-quantization.md
-        - KL æ£åº¦éå SSM-Transformer: concepts/kl-quantization-ssm-transformer.md
-        - DeFakeQ ååéå Deepfake: concepts/defakeq-edge-deepfake.md
-        - DeFakeQ ç«¯ä¾§é¨ç½²: concepts/defakeq-edge-deepfake-detection.md
-        - ä»£ç æ¬åå§åæä½æ¯ç¹: concepts/codebook-init-extreme-llm-quantization.md
-        - INT4 éåå´©æº: concepts/int4-quantization-collapse.md
-        - SNN éåè¯ä¼°: concepts/snn-quantization-beyond-accuracy.md
-        - DASH-Q è¶ä½ä½éå: concepts/dash-q-ultralowbit-llm-quantization.md
-        - MUXQ ä½ç§©ç¦»ç¾¤å¼åè§£: concepts/muxq-quantization.md
-        - TurboQuant WebGPU KV åç¼©: concepts/turboquant-gemma4-browser-inference.md
-        - KV-Cache FP16 ç²¾åº¦é·é±: concepts/kv-cache-fp16-divergence-illusion.md
-      - AIPC Qualcomm Agent é¨ç½²: concepts/aipc-qualcomm-deployment-agent.md
-      - åå­ä¸æç:
-        - åç¼©æç¥å¨æç¼©å: concepts/compressed-sensing-dynamic-reduction.md
-        - LCSB ç«¯ä¾§å¾®è°: concepts/lcsb-finetuning-ondevice.md
-        - EdgeFlow ç§»å¨ç«¯å·å¯å¨: concepts/edgeflow-cold-start.md
-        - KV Packet åéè®¡ç®: concepts/kv-packet-kv-caching.md
-        - æ ææç¤ºè¯åç¼©: concepts/lossless-prompt-compression.md
-        - K-Token Merging æ½å¨åç¼©: concepts/k-token-merging-latent-compression.md
+    # ── 维度二：推理与优化技术栈 ──
+    - 推理优化:
+      - LLM 推理是隐式的: concepts/llm-reasoning-is-latent.md
+      - Weak-to-Strong 知识蒸馏: concepts/weak-to-strong-knowledge-distillation.md
+      - 端侧推理优化技术: concepts/edge-optimization.md
+      - 端侧流式 ASR 极限: concepts/on-device-streaming-asr-compact.md
+      - DharmaOCR 专用 SLM OCR: concepts/dharmaocr-specialized-slm-ocr.md
+      - LLM 数值不稳定性: concepts/llm-numerical-instability.md
+      - TrigReason 触发式协作: concepts/trigreason-trigger-collaboration.md
+      - SpecGuard 验证感知投机解码: concepts/specguard-speculative-decoding.md
+      - Driftwood Apple Silicon 零拷贝: concepts/driftwood-zero-copy-apple-silicon.md
+      - React Native LLM 编码效率: concepts/react-native-llm-coding-eval.md
+      - 模型量化:
+        - KV-Cache 自适应量化: concepts/kv-cache-quantization-ondevice.md
+        - SEPTQ 后训练量化: concepts/septq-post-training-quantization.md
+        - KL 散度量化 SSM-Transformer: concepts/kl-quantization-ssm-transformer.md
+        - DeFakeQ 双向量化 Deepfake: concepts/defakeq-edge-deepfake.md
+        - DeFakeQ 端侧部署: concepts/defakeq-edge-deepfake-detection.md
+        - 代码本初始化极低比特: concepts/codebook-init-extreme-llm-quantization.md
+        - INT4 量化崩溃: concepts/int4-quantization-collapse.md
+        - SNN 量化评估: concepts/snn-quantization-beyond-accuracy.md
+        - DASH-Q 超低位量化: concepts/dash-q-ultralowbit-llm-quantization.md
+        - MUXQ 低秩离群值分解: concepts/muxq-quantization.md
+        - TurboQuant WebGPU KV 压缩: concepts/turboquant-gemma4-browser-inference.md
+        - KV-Cache FP16 精度陷阱: concepts/kv-cache-fp16-divergence-illusion.md
+      - AIPC Qualcomm Agent 部署: concepts/aipc-qualcomm-deployment-agent.md
+      - 内存与效率:
+        - 压缩感知动态缩减: concepts/compressed-sensing-dynamic-reduction.md
+        - LCSB 端侧微调: concepts/lcsb-finetuning-ondevice.md
+        - EdgeFlow 移动端冷启动: concepts/edgeflow-cold-start.md
+        - KV Packet 免重计算: concepts/kv-packet-kv-caching.md
+        - 无损提示词压缩: concepts/lossless-prompt-compression.md
+        - K-Token Merging 潜在压缩: concepts/k-token-merging-latent-compression.md
         - Token Compression ViT: concepts/token-compression-vit-acceleration.md
-        - ProfInfer eBPF æ¨çåæ: concepts/profinfer-llm-profiling.md
-        - OSPO åæ­¥å¤æºè½ä½: concepts/onestep-marl-ride-sharing.md
-        - GroupDPO åå­é«æåå¥½: concepts/groupdpo-memory-efficient-preference-optimization.md
-        - TopoVLM æææç¥åªæ: concepts/topovlm-layer-pruning.md
-        - å¤ LoRA ç«¯ä¾§é¨ç½²: concepts/multilora-edge-deployment.md
-        - SOLAR PEFT å­ç©ºé´åç¼©: concepts/solar-peft-compression.md
+        - ProfInfer eBPF 推理分析: concepts/profinfer-llm-profiling.md
+        - OSPO 单步多智能体: concepts/onestep-marl-ride-sharing.md
+        - GroupDPO 内存高效偏好: concepts/groupdpo-memory-efficient-preference-optimization.md
+        - TopoVLM 拓扑感知剪枝: concepts/topovlm-layer-pruning.md
+        - 多 LoRA 端侧部署: concepts/multilora-edge-deployment.md
+        - SOLAR PEFT 子空间压缩: concepts/solar-peft-compression.md
         - Dispatch-Aware Ragged Attention: concepts/triton-dispatch-ragged-attention.md
-      - Edge LLM Handover èåä¼ è¾: concepts/edge-llm-handover.md
-      - ç«¯ä¾§é«ææ¨ç: concepts/efficient-reasoning-edge.md
-      - æ¨¡åè·¯ç±ä¸èªè¯ä¼°:
-        - RPRA LLM-Judge é«ææ¨ç: concepts/rpra-self-assessment-inference.md
-        - LaCy å°æ¨¡å Token éæ©: concepts/lacy-small-model-token-selection.md
-        - E-GRM é«æå¥å±å»ºæ¨¡: concepts/e-grm-efficient-generative-reward-modeling.md
-        - Calibrate-Then-Delegate å®å¨: concepts/calibrate-then-delegate-safety-cascade.md
-        - å°æ¨¡å vs å¤§æ¨¡åéå: concepts/slms-vs-llms.md
-      - Agent ä¼å:
-        - AgentOpt å®¢æ·ç«¯ä¼å: concepts/agentopt-client-side-optimization.md
-      - åå¸å¼ä¸è¾¹ç¼æ¨ç:
-        - DanceMoE åå¸å¼ MoE: concepts/dancemoe-distributed-moe-edge.md
-        - å¤æ¨¡æé¶æ ·æ¬åªæ: concepts/multimodal-edge-pruning.md
-        - AHC MCU åå­¦ä¹ åç¼©: concepts/ahc-mcu-continual-detection.md
-        - gemma.cpp æ¨çå¼æ: concepts/gemma-cpp-inference.md
-        - LLMOrbit åå½¢åç±»ä½ç³»: concepts/llmorbit-llm-taxonomy.md
+      - Edge LLM Handover 联合传输: concepts/edge-llm-handover.md
+      - 端侧高效推理: concepts/efficient-reasoning-edge.md
+      - 模型路由与自评估:
+        - RPRA LLM-Judge 高效推理: concepts/rpra-self-assessment-inference.md
+        - LaCy 小模型 Token 选择: concepts/lacy-small-model-token-selection.md
+        - E-GRM 高效奖励建模: concepts/e-grm-efficient-generative-reward-modeling.md
+        - Calibrate-Then-Delegate 安全: concepts/calibrate-then-delegate-safety-cascade.md
+        - 小模型 vs 大模型选型: concepts/slms-vs-llms.md
+      - Agent 优化:
+        - AgentOpt 客户端优化: concepts/agentopt-client-side-optimization.md
+      - 分布式与边缘推理:
+        - DanceMoE 分布式 MoE: concepts/dancemoe-distributed-moe-edge.md
+        - 多模态零样本剪枝: concepts/multimodal-edge-pruning.md
+        - AHC MCU 元学习压缩: concepts/ahc-mcu-continual-detection.md
+        - gemma.cpp 推理引擎: concepts/gemma-cpp-inference.md
+        - LLMOrbit 圆形分类体系: concepts/llmorbit-llm-taxonomy.md
         - Android Hybrid Inference: concepts/android-hybrid-inference.md
-        - CNN Early-Exit è¾¹ç¼ä¼å: concepts/cnn-optimization-edge-ai-early-exits.md
-      - LLM è¾¹ç¼æ¨ç Mobile NPU GPU: concepts/llm-inference-edge-mobile-npu-gpu.md
-      - DAT èªéåºä¼ è¾å¤æ¨¡æ: concepts/dat-adaptive-transmission-multimodal.md
-      - ç­åå­¦æ©æ£æ¨ç: concepts/thermodynamic-diffusion-inference.md
-      - Fast-HaMeR æé¨éå»ºè¸é¦: concepts/fast-hamer.md
-      - ç§»å¨ç«¯ NPU æµè¯æ¶æ©å±: concepts/scaling-llm-npu-mobile.md
-      - A-IO NPU èªéåºæ¨ç: concepts/a-io-adaptive-inference.md
-      - ANVIL NPU è§é¢æå¸§: concepts/anvil-video-interpolation-npu.md
-      - è½»é Transformer è¾¹ç¼é¨ç½²: concepts/lightweight-transformer-edge-deployment.md
+        - CNN Early-Exit 边缘优化: concepts/cnn-optimization-edge-ai-early-exits.md
+      - LLM 边缘推理 Mobile NPU GPU: concepts/llm-inference-edge-mobile-npu-gpu.md
+      - DAT 自适应传输多模态: concepts/dat-adaptive-transmission-multimodal.md
+      - 热力学扩散推理: concepts/thermodynamic-diffusion-inference.md
+      - Fast-HaMeR 手部重建蒸馏: concepts/fast-hamer.md
+      - 移动端 NPU 测试时扩展: concepts/scaling-llm-npu-mobile.md
+      - A-IO NPU 自适应推理: concepts/a-io-adaptive-inference.md
+      - ANVIL NPU 视频插帧: concepts/anvil-video-interpolation-npu.md
+      - 轻量 Transformer 边缘部署: concepts/lightweight-transformer-edge-deployment.md
       - Orion Apple Neural Engine: concepts/orion-apple-neural-engine-llm.md
-      - pAirZero è¾¹ç¼ LLM èé¦å¾®è°: concepts/pairzero-edge-llm-finetuning.md
-      - è½»éçº§ Transformer ç»¼è¿°: concepts/lightweight-transformer-edge-survey.md
-      - AdaVFM èªéåº VFM è¾¹ç¼: concepts/adavfm-adaptive-vfm-edge.md
-      - KV Cache æ¦ç Trie åç¼©: concepts/kv-cache-probabilistic-tries.md
-      - FLAME CPU-GPU é¢çè¦å: concepts/flame-cpu-gpu-frequency-latency.md
-      - Agentic AI CPU æ§è¡ä¼å: concepts/agentic-ai-cpu-execution.md
-      - SFT è¯±å¯¼å¹»è§æç»­å­¦ä¹ : concepts/sft-hallucinations-continual-learning.md
+      - pAirZero 边缘 LLM 联邦微调: concepts/pairzero-edge-llm-finetuning.md
+      - 轻量级 Transformer 综述: concepts/lightweight-transformer-edge-survey.md
+      - AdaVFM 自适应 VFM 边缘: concepts/adavfm-adaptive-vfm-edge.md
+      - KV Cache 概率 Trie 压缩: concepts/kv-cache-probabilistic-tries.md
+      - FLAME CPU-GPU 频率耦合: concepts/flame-cpu-gpu-frequency-latency.md
+      - Agentic AI CPU 执行优化: concepts/agentic-ai-cpu-execution.md
+      - SFT 诱导幻觉持续学习: concepts/sft-hallucinations-continual-learning.md
       - llama.cpp Vulkan ARM Bug: concepts/llamacpp-vulkan-arm-bug.md
-      - TinyML CNN å éå¨åå: concepts/tinyml-cnn-accelerator-approx-matrix-decomp.md
-      - TinyML å° LLM è½æåå: concepts/energy-efficient-sw-hw-codesign-tinyml.md
-      - Fast-dVLM åæ©æ£ VLM: concepts/fast-dvlm-block-diffusion-vlm.md
-      - ESsEN ç´§åå¤å«å¼ VLM è®­ç»: concepts/essen-compact-vlm-training.md
-      - è¶åè¯­ SLM Test-Time Scaling: concepts/vietnamese-slm-test-time-scaling.md
-      - SFT å¹»è§èªè¸é¦ä¿®å¤: concepts/sft-hallucinations-self-distillation.md
-      - å¹»è§å³è½¨è¿¹æ¿è¯º: concepts/hallucination-trajectory-commitment.md
-      - ProtoTTA æµè¯æ¶èªéåº: concepts/prototta-test-time-adaptation.md
-      - ç«¯ä¾§ RAG ç»ä¸è¡¨å¾: concepts/ondevice-rag-unified-representation.md
-      - WISV è®¾å¤-è¾¹ç¼æ¨æµè§£ç : concepts/wisv-device-edge-speculative-decoding.md
-      - EvoComp OPPO è§è§åç¼©: concepts/evocomp-visual-token-compression-mllm.md
-      - HalfV è§è§åä½ MLLM å é: concepts/halfv-visual-redundancy-mllm.md
-      - è·¨å®¶æææºè§£ç  Apple: concepts/cross-family-speculative-decoding-apple-silicon.md
-      - KAIROS Agentic æ¨çåè: concepts/kairos-agentic-inference-power.md
+      - TinyML CNN 加速器协同: concepts/tinyml-cnn-accelerator-approx-matrix-decomp.md
+      - TinyML 到 LLM 能效协同: concepts/energy-efficient-sw-hw-codesign-tinyml.md
+      - Fast-dVLM 块扩散 VLM: concepts/fast-dvlm-block-diffusion-vlm.md
+      - ESsEN 紧凑判别式 VLM 训练: concepts/essen-compact-vlm-training.md
+      - 越南语 SLM Test-Time Scaling: concepts/vietnamese-slm-test-time-scaling.md
+      - SFT 幻觉自蒸馏修复: concepts/sft-hallucinations-self-distillation.md
+      - 幻觉即轨迹承诺: concepts/hallucination-trajectory-commitment.md
+      - ProtoTTA 测试时自适应: concepts/prototta-test-time-adaptation.md
+      - 端侧 RAG 统一表征: concepts/ondevice-rag-unified-representation.md
+      - WISV 设备-边缘推测解码: concepts/wisv-device-edge-speculative-decoding.md
+      - EvoComp OPPO 视觉压缩: concepts/evocomp-visual-token-compression-mllm.md
+      - HalfV 视觉冗余 MLLM 加速: concepts/halfv-visual-redundancy-mllm.md
+      - 跨家族投机解码 Apple: concepts/cross-family-speculative-decoding-apple-silicon.md
+      - KAIROS Agentic 推理功耗: concepts/kairos-agentic-inference-power.md
       - LayerCache Flow Matching: concepts/layercache-flow-matching-cache.md
-      - èå²é©±å¨ LLM: concepts/spike-driven-llm.md
-      - VS-WNO Jetson èå²ç¨ç: concepts/vs-wno-jetson-orin-nano.md
-      - Î¼LMs è¶ç´§åè¯­è¨æ¨¡å: concepts/micro-language-models-edge.md
-      - SAGE ç«¯äºæ¨çè¯­ä¹åæ: concepts/sage-edge-cloud-inference.md
-      - ChipLight è¯ç²åäºè¿: concepts/chiplight-chiplet-optical-llm.md
-      - EdgeDiT ç¡¬ä»¶æç¥ DiT: concepts/edgedit.md
+      - 脉冲驱动 LLM: concepts/spike-driven-llm.md
+      - VS-WNO Jetson 脉冲稀疏: concepts/vs-wno-jetson-orin-nano.md
+      - μLMs 超紧凑语言模型: concepts/micro-language-models-edge.md
+      - SAGE 端云推理语义合成: concepts/sage-edge-cloud-inference.md
+      - ChipLight 芯粒光互连: concepts/chiplight-chiplet-optical-llm.md
+      - EdgeDiT 硬件感知 DiT: concepts/edgedit.md
 
-    # ââ ç»´åº¦ä¸ï¼ç¡¬ä»¶ä¸å¹³å° ââ
-    - ç¡¬ä»¶ä¸å¹³å°:
-      - è®¾å¤éé:
-        - Wear OS 64-bit æ¶æ: concepts/wearos-64bit.md
-        - ç«¯ä¾§æ¨çåå­åå: concepts/on-device-inference-memory-pressure.md
-        - å¯æç»­æ§æ§è½è½èéç§: concepts/sustainability-ondevice-intelligence.md
-        - MCU ç«¯ä¾§å¨ç½ç»è®­ç»: concepts/biotrain-ondevice-finetuning-mcu.md
-        - Biotrain ç«¯ä¾§çç©ä¿¡å·å¾®è°: concepts/biotrain-ondevice-finetuning-biosignals.md
-        - æ¨¡ååè¾¹ç¼æ°æ®ä¸­å¿: concepts/modular-edge-datacenters.md
-        - GreenFLag ç»¿è²èé¦å­¦ä¹ : concepts/greenflag-energy-efficient-fl.md
-      - è¯çä¸å éå¨:
-        - EdgeCIM å­ç®ä¸ä½: concepts/edgecim-hardware-codesign.md
-        - CIMple SRAM CIM å éå¨: concepts/cimple-cim-attention-acceleration.md
-        - RL é©±å¨ ASIC æ¶ææ¢ç´¢: concepts/rl-asic-exploration.md
-        - LSTM æ­¥æ ASIC å éå¨: concepts/lstm-gait-asic-accelerator.md
-        - Strix NPU å¯é æ§: concepts/strix-npu-reliability.md
-        - MemExplorer å¼æ NPU åæ: concepts/memexplorer-npu-memory-synthesis.md
-        - BFP NPU å¯é æ§: concepts/bfp-npu-reliability.md
-      - è¯­ä¹ä¸å·èº«:
-        - PC2IM å­åè®¡ç®ç¹äº: concepts/pc2im-cim-point-cloud.md
-        - AEG è£¸æº AI å é: concepts/aeg-baremetal-ai-acceleration.md
-        - è¯­ä¹ååºå°å¾ç§»å¨æºå¨äºº: concepts/semantic-zone-map-management-mobile-robot.md
-        - ATI ä»¿çä¼ æå¨å·èº« AI: concepts/ati-physical-ai.md
-        - Gearbox-PHY è½æç§»å¨éä¿¡: concepts/gearbox-phy-energy-mobile.md
+    # ── 维度三：硬件与平台 ──
+    - 硬件与平台:
+      - 设备适配:
+        - Wear OS 64-bit 架构: concepts/wearos-64bit.md
+        - 端侧推理内存压力: concepts/on-device-inference-memory-pressure.md
+        - 可持续性性能能耗隐私: concepts/sustainability-ondevice-intelligence.md
+        - MCU 端侧全网络训练: concepts/biotrain-ondevice-finetuning-mcu.md
+        - Biotrain 端侧生物信号微调: concepts/biotrain-ondevice-finetuning-biosignals.md
+        - 模块化边缘数据中心: concepts/modular-edge-datacenters.md
+        - GreenFLag 绿色联邦学习: concepts/greenflag-energy-efficient-fl.md
+      - 芯片与加速器:
+        - EdgeCIM 存算一体: concepts/edgecim-hardware-codesign.md
+        - CIMple SRAM CIM 加速器: concepts/cimple-cim-attention-acceleration.md
+        - RL 驱动 ASIC 架构探索: concepts/rl-asic-exploration.md
+        - LSTM 步态 ASIC 加速器: concepts/lstm-gait-asic-accelerator.md
+        - Strix NPU 可靠性: concepts/strix-npu-reliability.md
+        - MemExplorer 异构 NPU 合成: concepts/memexplorer-npu-memory-synthesis.md
+        - BFP NPU 可靠性: concepts/bfp-npu-reliability.md
+      - 语义与具身:
+        - PC2IM 存内计算点云: concepts/pc2im-cim-point-cloud.md
+        - AEG 裸机 AI 加速: concepts/aeg-baremetal-ai-acceleration.md
+        - 语义分区地图移动机器人: concepts/semantic-zone-map-management-mobile-robot.md
+        - ATI 仿生传感器具身 AI: concepts/ati-physical-ai.md
+        - Gearbox-PHY 能效移动通信: concepts/gearbox-phy-energy-mobile.md
 
-    # ââ ç»´åº¦åï¼åºç¨åºæ¯ ââ
-    - åºç¨åºæ¯:
+    # ── 维度四：应用场景 ──
+    - 应用场景:
       - Google I/O 2026: concepts/google-io-2026.md
-      - LifeDialBench çæ´»æ¥å¿è®°å¿: concepts/lifedialbench-lifelog-memory.md
-      - GalaxyBrain æ¬å°ä¿¡æ¯ OS: concepts/galaxybrain-local-info-os.md
-      - é³é¢ä¸å¤åªä½:
-        - Gemma 4 é³é¢ MLX: concepts/gemma4-audio-mlx.md
-        - MeloTune ç«¯ä¾§é³ä¹æ¨è: concepts/melotune-ondevice-music.md
-        - TinyMU ç´§åé³ä¹è¯­è¨: concepts/tinymu-music-language-model.md
-      - ç©¿æ´ä¸å¥åº·:
-        - ç©¿æ´ LLM å¿çå¥åº·: concepts/wearable-llm-stress-support.md
-        - BadgeX å¯ç©¿æ´åä½å­¦ä¹ : concepts/badgex-wearable-llm-learning.md
-        - ç©¿æ´å¼ AI å¤§ä¼ æå¨æ¨¡å: concepts/wearable-large-sensor-models.md
-        - ç«¯ä¾§å»ç AI éç§è½¬å½: concepts/on-device-medical-transcription.md
-        - Wearable-Triggered LLM å¿ç: concepts/wearable-triggered-llm-stress.md
-      - æ¡æ¶ä¸éæ:
-        - Qwen 3.5 Small ç«¯ä¾§å¤æ¨¡æ: concepts/qwen35-small.md
-        - React Native ç«¯ä¾§ LLM: concepts/react-native-llm-edge.md
-        - è¾¹ç¼å¸è½½ç´§å LLM: concepts/edge-cloud-offloading.md
-        - Gemini ä¸ªæ§åå¾åçæ: concepts/gemini-personalized-images-nanobanana.md
-        - Edge AI è£ç¼åå²: concepts/edge-ai-crack-segmentation.md
-        - DFR-Gemma å°çç©ºé´æ¨ç: concepts/dfr-gemma-geospatial-reasoning.md
-        - LEAN-3D ç§»å¨ç¹äº: concepts/lean-3d-mobile-point-cloud.md
-        - RoboPocket ææºæ¹è¿æºå¨äºº: concepts/robopocket.md
-      - å®å¨æ£æµ:
-        - DeFakeQ ç«¯ä¾§ Deepfake: concepts/defakeq-edge-deepfake.md
-      - å¶ä»åºæ¯:
-        - T2T å å¯æµéæè¿°æ´»å¨: concepts/t2t-captioning-smartphone-activities.md
-        - Bouncer ç«¯ä¾§ä¿¡æ¯æµæ²»ç: concepts/bouncer-ondevice-feed-curator.md
-        - MCU åç®æ·±åº¦ä¼°è®¡: concepts/ondevice-depth-mcu-learning.md
-        - DENALI ä½ææ¬ LiDAR: concepts/denali-nlos-lidar-dataset.md
-        - æºè½ææºå°éé¢è­¦: concepts/smartphone-eew-user-perception.md
-        - AoE ç¬¬ä¸äººç§°å·èº« AI: concepts/aoe-egocentric-video-embodied.md
-        - PropGen LLM é©±å¨æµè¯: concepts/propgen-mobile-testing.md
-        - ALADDIN å¯å¡æ§åºç¨æµè¯: concepts/aladdin-malleable-mobile-testing.md
-        - HyCal å°æ ·æ¬ååæ ¡å: concepts/hycal-prototype-calibration.md
-        - PixDLM UAV æ¨çåå²: concepts/pixdlm-uav-reasoning-segmentation.md
-        - SocialWise å¯¹è¯çæ³: concepts/socialwise-asd-therapy.md
-        - LLM-MARL P2P è½æºäº¤æ: concepts/llm-marl-p2p-energy.md
-        - GUI Grounding ç³»ç»èå¼±æ§: concepts/gui-perturbed-grounding-brittleness.md
-        - NTIRE 2026 ç§»å¨è¶åè¾¨ç: concepts/ntire-2026-mobile-super-resolution.md
-        - SAGE ä¼ æå¨å¢å¼ºç¡ç æ¤ç: concepts/sage-sleep-care-agent.md
-        - MemFactory è®°å¿ RL: concepts/memfactory-unified-memory-rl.md
+      - LifeDialBench 生活日志记忆: concepts/lifedialbench-lifelog-memory.md
+      - GalaxyBrain 本地信息 OS: concepts/galaxybrain-local-info-os.md
+      - 音频与多媒体:
+        - Gemma 4 音频 MLX: concepts/gemma4-audio-mlx.md
+        - MeloTune 端侧音乐推荐: concepts/melotune-ondevice-music.md
+        - TinyMU 紧凑音乐语言: concepts/tinymu-music-language-model.md
+      - 穿戴与健康:
+        - 穿戴 LLM 心理健康: concepts/wearable-llm-stress-support.md
+        - BadgeX 可穿戴协作学习: concepts/badgex-wearable-llm-learning.md
+        - 穿戴式 AI 大传感器模型: concepts/wearable-large-sensor-models.md
+        - 端侧医疗 AI 隐私转录: concepts/on-device-medical-transcription.md
+        - Wearable-Triggered LLM 心理: concepts/wearable-triggered-llm-stress.md
+      - 框架与集成:
+        - Qwen 3.5 Small 端侧多模态: concepts/qwen35-small.md
+        - React Native 端侧 LLM: concepts/react-native-llm-edge.md
+        - 边缘卸载紧凑 LLM: concepts/edge-cloud-offloading.md
+        - Gemini 个性化图像生成: concepts/gemini-personalized-images-nanobanana.md
+        - Edge AI 裂缝分割: concepts/edge-ai-crack-segmentation.md
+        - DFR-Gemma 地理空间推理: concepts/dfr-gemma-geospatial-reasoning.md
+        - LEAN-3D 移动点云: concepts/lean-3d-mobile-point-cloud.md
+        - RoboPocket 手机改进机器人: concepts/robopocket.md
+      - 安全检测:
+        - DeFakeQ 端侧 Deepfake: concepts/defakeq-edge-deepfake.md
+      - 其他场景:
+        - T2T 加密流量描述活动: concepts/t2t-captioning-smartphone-activities.md
+        - Bouncer 端侧信息流治理: concepts/bouncer-ondevice-feed-curator.md
+        - MCU 单目深度估计: concepts/ondevice-depth-mcu-learning.md
+        - DENALI 低成本 LiDAR: concepts/denali-nlos-lidar-dataset.md
+        - 智能手机地震预警: concepts/smartphone-eew-user-perception.md
+        - AoE 第一人称具身 AI: concepts/aoe-egocentric-video-embodied.md
+        - PropGen LLM 驱动测试: concepts/propgen-mobile-testing.md
+        - ALADDIN 可塑性应用测试: concepts/aladdin-malleable-mobile-testing.md
+        - HyCal 少样本原型校准: concepts/hycal-prototype-calibration.md
+        - PixDLM UAV 推理分割: concepts/pixdlm-uav-reasoning-segmentation.md
+        - SocialWise 对话疗法: concepts/socialwise-asd-therapy.md
+        - LLM-MARL P2P 能源交易: concepts/llm-marl-p2p-energy.md
+        - GUI Grounding 系统脆弱性: concepts/gui-perturbed-grounding-brittleness.md
+        - NTIRE 2026 移动超分辨率: concepts/ntire-2026-mobile-super-resolution.md
+        - SAGE 传感器增强睡眠护理: concepts/sage-sleep-care-agent.md
+        - MemFactory 记忆 RL: concepts/memfactory-unified-memory-rl.md
 
-    # ââ ç»´åº¦äºï¼å®å¨ä¸éç§ ââ
-    - å®å¨ä¸éç§:
-      - åé¨æ»å»:
-        - Follow My Eyes VLM åé¨: concepts/followmyeyes-vlm-backdoor.md
-      - éç§ä¸æ°æ®:
-        - GenAI æºè½ææºéç§æç¥: concepts/genai-smartphone-privacy-perception.md
-        - GUI Agent éç§ä¿æ¤: concepts/gui-agent-privacy.md
-        - RePAIR äº¤äºå¼éå¿ä¿®å¤: concepts/repair-interactive-unlearning.md
-        - å¤æ¨¡æåµå¥ä¸éæ: concepts/multimodal-sentence-transformers.md
-        - FedDetox èé¦ SLM å¯¹é½: concepts/feddetox-federated-slm-alignment.md
-        - GUI Agent æ³¨æååæ£æ»å»: concepts/gui-agent-focused-distraction-attack.md
-        - MixAtlas å¤æ¨¡ææ°æ®æ··å: concepts/mixatlas-multimodal-data-mixture.md
-        - P-GRPO ä¸ªæ§ååå¥½å¯¹é½: concepts/personalized-grpo-alignment.md
-        - PolicyGapper éç§åè§éªè¯: concepts/policygapper-app-privacy-verification.md
-        - LLM å·®åéç§æ°æ®çæ: concepts/llm-simulator-differential-privacy.md
-        - Zero-Egress ç²¾ç¥ç§ AI: concepts/zero-egress-psychiatric-ai.md
-      - è¾¹ç¼ä¸ç©èç½å®å¨:
-        - 5G åºå¸¦è¯­ä¹æ¼æ´: concepts/5g-baseband-semantic-vulnerabilities.md
-        - è¾¹ç¼ Agent IoT æ»å»é¢: concepts/edge-agent-iot-security-attack-surface.md
-        - CPU çç©åå­¦ç®¡éä¼å: concepts/cpu-biomechanics-pipeline-optimization.md
-      - å¥åº·ä¸å»ç:
-        - ECG åºç¡æ¨¡åè¾¹ç¼: concepts/ecg-foundation-models-edge.md
-        - LLM å¥åº·æ°æ®çè§£èå¹´: concepts/llm-health-data-sensemaking-older-adults.md
-      - åºç¡è®¾æ½ä¸è¯ä¼°:
-        - GAAT Agent æ²»çé¥æµ: concepts/gaat-agent-governance.md
-        - SoK Agentic Commerce å®å¨: concepts/sok-security-agentic-commerce.md
-        - TOPCELL LLM ææä¼å: concepts/topcell-llm-hardware-topology.md
-        - Agent æ¢ç´¢å©ç¨è¯¯å·®: concepts/agent-exploration-exploitation-errors.md
-        - Corpus2Skill Agent ç¥è¯å¯¼èª: concepts/corpus2skill-agent-knowledge-navigation.md
-        - VAKRA Agent å¤±è´¥æ¨¡å¼: concepts/vakra-agent-failure-modes.md
-        - Android CLI Agent å¼å: concepts/android-cli-agentic-development.md
-        - AromaGen å¯ç©¿æ´åè§ LLM: concepts/aromagen-wearable-olfactory-llm.md
-        - AgenTEE è¾¹ç¼æºå¯ LLM: concepts/agentee-confidential-edge-agent.md
+    # ── 维度五：安全与隐私 ──
+    - 安全与隐私:
+      - 后门攻击:
+        - Follow My Eyes VLM 后门: concepts/followmyeyes-vlm-backdoor.md
+      - 隐私与数据:
+        - GenAI 智能手机隐私感知: concepts/genai-smartphone-privacy-perception.md
+        - GUI Agent 隐私保护: concepts/gui-agent-privacy.md
+        - RePAIR 交互式遗忘修复: concepts/repair-interactive-unlearning.md
+        - 多模态嵌入与重排: concepts/multimodal-sentence-transformers.md
+        - FedDetox 联邦 SLM 对齐: concepts/feddetox-federated-slm-alignment.md
+        - GUI Agent 注意力分散攻击: concepts/gui-agent-focused-distraction-attack.md
+        - MixAtlas 多模态数据混合: concepts/mixatlas-multimodal-data-mixture.md
+        - P-GRPO 个性化偏好对齐: concepts/personalized-grpo-alignment.md
+        - PolicyGapper 隐私合规验证: concepts/policygapper-app-privacy-verification.md
+        - LLM 差分隐私数据生成: concepts/llm-simulator-differential-privacy.md
+        - Zero-Egress 精神科 AI: concepts/zero-egress-psychiatric-ai.md
+      - 边缘与物联网安全:
+        - 5G 基带语义漏洞: concepts/5g-baseband-semantic-vulnerabilities.md
+        - 边缘 Agent IoT 攻击面: concepts/edge-agent-iot-security-attack-surface.md
+        - CPU 生物力学管道优化: concepts/cpu-biomechanics-pipeline-optimization.md
+      - 健康与医疗:
+        - ECG 基础模型边缘: concepts/ecg-foundation-models-edge.md
+        - LLM 健康数据理解老年: concepts/llm-health-data-sensemaking-older-adults.md
+      - 基础设施与评估:
+        - GAAT Agent 治理遥测: concepts/gaat-agent-governance.md
+        - SoK Agentic Commerce 安全: concepts/sok-security-agentic-commerce.md
+        - TOPCELL LLM 拓扑优化: concepts/topcell-llm-hardware-topology.md
+        - Agent 探索利用误差: concepts/agent-exploration-exploitation-errors.md
+        - Corpus2Skill Agent 知识导航: concepts/corpus2skill-agent-knowledge-navigation.md
+        - VAKRA Agent 失败模式: concepts/vakra-agent-failure-modes.md
+        - Android CLI Agent 开发: concepts/android-cli-agentic-development.md
+        - AromaGen 可穿戴嗅觉 LLM: concepts/aromagen-wearable-olfactory-llm.md
+        - AgenTEE 边缘机密 LLM: concepts/agentee-confidential-edge-agent.md
 
-  - å¯¹æ¯: comparisons/index.md
-  - éæ¥: queries/index.md
-  - ç¥è¯å¾è°±: knowledge-graph.md
+  - 对比: comparisons/index.md
+  - 速查: queries/index.md
+  - 知识图谱: knowledge-graph.md

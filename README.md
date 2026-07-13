@@ -1,67 +1,71 @@
 # 📱 Mobile AIOS Wiki
 
 <!-- PLACEHOLDER_BADGES -->
+[![Star History Chart](https://api.star-history.com/svg?repos=YueLich/aios-wiki&type=Date)](https://star-history.com/#YueLich/aios-wiki&Date)
 
-> **手机端 AI 操作系统的全景知识库** — 334+ 篇深度页面，覆盖端侧大模型、AI Agent、芯片适配、推理优化，持续自动更新
+**A curated knowledge base on mobile/on-device AI operating systems** — agent architectures, on-device LLMs, chip-level inference optimization, and the frameworks that run them.
 
-🌐 **在线阅读: [yuelich.github.io/aios-wiki](https://yuelich.github.io/aios-wiki/)**
+🌐 **Read online: [yuelich.github.io/aios-wiki](https://yuelich.github.io/aios-wiki/)**
+
+[中文说明见下](#-mobile-aios-wiki-中文)
 
 ---
 
-## 为什么做这个
+## Why this exists
 
-手机上的 AI 正在爆发——从端侧大模型到 AI 原生操作系统，信息碎片散落在 arXiv、博客、GitHub release notes 和科技媒体中。
+Mobile AI is moving fast — on-device LLMs, GUI agents, edge inference engines — and the coverage is scattered across arXiv, GitHub release notes, and tech blogs. This wiki curates that firehose into pages you can actually trust: each entry cites its sources, links to related concepts via wikilinks, and is either **reviewed** (cross-checked against ≥2 independent sources) or clearly marked as a **draft** awaiting review — see [AGENTS.md](AGENTS.md) for the exact bar.
 
-Mobile AIOS Wiki 把这些碎片**系统化**了：
+## Featured: on-device inference engines, 2026
 
-- 📖 **深度页面**，不是摘要——每篇包含论文全文解读 + 实验数据 + 技术细节
-- 🔗 **知识图谱**导航——通过 wikilink 自动关联实体、概念、对比
-- 🤖 **AI 自动维护**——每小时扫描 50+ 来源，筛选去重后写入 wiki
-- 🌏 **中英双语内容**——覆盖国内外技术社区
+| Engine | Maintainer | Platform focus | Notable in latest release | Notes |
+|---|---|---|---|---|
+| [llama.cpp](docs/entities/llamacpp.md) | ggml-org (OSS) | Cross-platform — CPU, Metal, Vulkan, OpenCL, Android/iOS | Continuous quantization + backend work across 30+ tracked builds (b8791–b8880) | The reference runtime most other engines get compared against |
+| [MNN 3.5.0](docs/entities/mnn-350.md) | Alibaba | Mobile-first — Android/iOS, any Vulkan-capable GPU | Vulkan LLM inference without vendor SDKs; TurboQuant TQ3/TQ4 KV-cache quantization | Full LLM inference stack, not just a generic tensor runtime |
+| [coremltools 9.0](docs/entities/coremltools-9.md) | Apple | iOS/macOS | Python 3.13 support | A **model converter**, not a runtime — bridges PyTorch/TF models into Core ML |
+| [TensorRT-LLM v1.2.1](docs/entities/tensorrt-llm-v121.md) | NVIDIA | Server GPU (not mobile) | PagedAttention, continuous batching, FP8/INT8/INT4 | Included for reference — its quantization/batching techniques inform mobile engine design |
 
-## 涵盖领域
+More comparisons live in [docs/comparisons/](docs/comparisons/) as the wiki grows.
 
-| 方向 | 典型内容 |
-|------|---------|
-| 🧠 Agent 架构 | ClawMobile、Tri-Spirit、Synergy、MCP 模式 |
-| 👁️ 感知与理解 | GUI 感知 (SecAgent)、视觉 (FaceLiVTv2)、多模态 |
-| 💾 记忆与状态 | AMC、SkillDroid、Memory as Metabolism |
-| 🔧 工具调用 | Mobile-MCP、MANA、COMLLM |
-| 🤝 多 Agent 协作 | EmoMAS、AgentComm、FedGUI |
-| ⚡ 推理优化 | 量化 (KV-Cache, SEPTQ)、路由 (RPRA)、端侧分布式 |
-| 🏭 硬件与平台 | Wear OS、EdgeCIM、RL-driven ASIC |
-| 🛡️ 安全隐私 | VLM 后门、隐私感知、GAAT |
-| 📱 设备与平台 | iPhone 17e、Google AI Edge Gallery、Android Studio Agent Mode |
-| 🏗️ 推理框架 | llama.cpp、MNN、mlc-llm、coremltools、TensorRT-LLM |
+## What's covered
 
-## 仓库结构
+| Area | Examples |
+|---|---|
+| 🧠 Agent architecture | ClawMobile, Tri-Spirit, Synergy, MCP patterns |
+| 👁️ Perception | GUI perception (SecAgent), vision (FaceLiVTv2), multimodal |
+| 💾 Memory & state | AMC, SkillDroid, Memory as Metabolism |
+| 🔧 Tool calling | Mobile-MCP, MANA, COMLLM |
+| 🤝 Multi-agent | EmoMAS, AgentComm, FedGUI |
+| ⚡ Inference optimization | Quantization (KV-Cache, SEPTQ), routing (RPRA), on-device distribution |
+| 🏭 Hardware & platforms | Wear OS, EdgeCIM, RL-driven ASIC |
+| 🛡️ Security & privacy | VLM backdoors, privacy-aware inference, GAAT |
+| 📱 Devices & platforms | iPhone 17e, Google AI Edge Gallery, Android Studio Agent Mode |
+| 🏗️ Inference frameworks | llama.cpp, MNN, mlc-llm, coremltools, TensorRT-LLM |
+
+## Repository layout
 
 ```
 aios-wiki/
-├── entities/           # 实体 — 产品、模型、公司
-├── concepts/           # 概念 — 技术、方法、架构（按 Agent 子系统 × 优化维度分类）
-│   ├── 🧠 agent-architecture/
-│   ├── 👁️ perception/
-│   ├── 💾 memory-state/
-│   ├── 🔧 tool-calling/
-│   ├── 🤝 multi-agent/
-│   ├── ⚡ inference-optimization/
-│   ├── 🏭 hardware-platforms/
-│   ├── 🎯 use-cases/
-│   └── 🛡️ security-privacy/
-├── comparisons/        # 产品/技术横向对比
-├── queries/            # 速查 — 常见问题快速参考
-├── index.md            # 完整页面目录
-└── knowledge-graph.md  # 知识图谱可视化
+├── docs/                # the wiki — this is what mkdocs builds and deploys
+│   ├── entities/        # products, models, companies
+│   ├── concepts/        # techniques, methods, architectures
+│   ├── comparisons/      # head-to-head comparisons
+│   ├── queries/          # quick-reference lookups
+│   ├── index.md          # full page index
+│   └── knowledge-graph.md
+├── overview/            # standalone reports (PPTX/HTML)
+├── .meta/               # crawler config (sources.json) — not wiki content
+├── AGENTS.md            # rules the maintenance agent follows
+├── CONTRIBUTING.md
+└── mkdocs.yml
 ```
 
-每个页面遵循统一格式，包含 YAML frontmatter + wikilink 交叉引用：
+Every page follows a consistent format — YAML frontmatter + wikilink cross-references:
 
 ```yaml
 ---
 type: entity | concept
-tags: [端侧推理, 量化, ...]
-related: [[其他页面]], [[关联概念]]
+tags: [on-device-inference, quantization, ...]
+related: [[other-page]], [[related-concept]]
 sources:
   - url: https://arxiv.org/...
     date: 2026-04-18
@@ -69,57 +73,30 @@ sources:
 ---
 ```
 
-## 快速开始
+## Getting started
 
-**方式一：在线阅读**（推荐）
+**Read online** (recommended): [yuelich.github.io/aios-wiki](https://yuelich.github.io/aios-wiki/)
 
-直接访问 👉 [yuelich.github.io/aios-wiki](https://yuelich.github.io/aios-wiki/)
-
-**方式二：本地浏览**（支持 wikilink）
+**Browse locally with backlinks**: clone the repo and open the `docs/` folder in [Obsidian](https://obsidian.md/) for full bidirectional-link navigation.
 
 ```bash
 git clone https://github.com/YueLich/aios-wiki.git
 ```
 
-用 [Obsidian](https://obsidian.md/) 打开仓库目录，获得完整的双向链接 + 知识图谱导航。
+**Follow updates**: Watch this repo (top-right → Watch → Custom → Releases) to get the weekly digest without the commit noise.
 
-**方式三：订阅更新**
+## Contributing
 
-```bash
-# Watch 本仓库，获取每次自动更新的通知
-# 点击页面右上角 Watch → All Activity
-```
+See [CONTRIBUTING.md](CONTRIBUTING.md) for how to suggest a source, report an error, or submit a page. Short version:
 
-## 数据来源
+- ⭐ Star the repo — helps others find it
+- 🐛 [Open an issue](https://github.com/YueLich/aios-wiki/issues) to report an error or suggest a topic
+- 🔀 PRs welcome for corrections and formatting fixes
+- 💡 Tell us about RSS feeds / blogs / sources we're missing
 
-自动扫描 6 层信息源，确保覆盖面和深度：
+## Maintenance
 
-| 层级 | 来源 | 示例 |
-|------|------|------|
-| Tier 1 | arXiv API | on-device LLM、mobile agent、edge inference |
-| Tier 2 | RSS 订阅 | Google AI Blog、HuggingFace、arXiv cs.AI/CL/LG |
-| Tier 3 | GitHub Releases | llama.cpp、MNN、mlc-llm、MiniCPM |
-| Tier 4 | 英文科技媒体 | The Decoder、9to5Google、VentureBeat AI |
-| Tier 5 | 中文科技媒体 | 机器之心、量子位 |
-| Tier 6 | 专家博客 | Karpathy、Jim Fan、Lilian Weng、Chip Huyen |
-
-## 更新机制
-
-- ⏰ **每小时**自动运行（Hermes Agent cron job）
-- 🔍 扫描所有来源最新内容
-- 🧹 基于标题去重，跳过已处理内容
-- 📝 创建 wiki 页面（含 YAML frontmatter + wikilink）
-- 📤 自动 commit + push
-- 📊 [查看更新日志 →](log.md)
-
-## 贡献
-
-欢迎通过以下方式参与：
-
-- ⭐ **Star 本仓库** — 帮助更多人发现
-- 🐛 [提 Issue](https://github.com/YueLich/aios-wiki/issues) — 报告错误或建议主题
-- 🔀 提交 PR — 补充内容、修正错误、改善格式
-- 💡 推荐来源 — 告诉我们还应该关注哪些 RSS / 博客 / 数据源
+This wiki is drafted by an automated agent and curated by hand — see [AGENTS.md](AGENTS.md) for the full maintenance contract (draft/review gates, dedup rules, cadence). In short: new pages land as drafts, get promoted only after source cross-checking, and a weekly digest is published as a [GitHub Release](https://github.com/YueLich/aios-wiki/releases).
 
 ## License
 
@@ -127,7 +104,56 @@ git clone https://github.com/YueLich/aios-wiki.git
 
 ---
 
-<p align="center">
-  <b>由 <a href="https://github.com/nicepkg/hermes-agent">Hermes Agent</a> 自动维护</b><br>
-  <sub>每小时自动更新 · 334+ 篇深度页面 · 持续增长中</sub>
-</p>
+# 📱 Mobile AIOS Wiki（中文）
+
+**手机端 AI 操作系统的精选知识库** — 覆盖 Agent 架构、端侧大模型、芯片级推理优化，以及支撑它们的推理框架。
+
+🌐 在线阅读：[yuelich.github.io/aios-wiki](https://yuelich.github.io/aios-wiki/)
+
+## 为什么做这个
+
+手机上的 AI 正在爆发，信息碎片散落在 arXiv、博客、GitHub release notes 和科技媒体中。这个 wiki 把碎片**筛选、验证**成可信的知识页面：每篇标注来源，通过 wikilink 关联相关实体/概念，并明确区分**已审核**（交叉验证过 ≥2 个独立来源）和**草稿**（等待审核）两种状态——具体标准见 [AGENTS.md](AGENTS.md)。
+
+## 仓库结构
+
+```
+aios-wiki/
+├── docs/                # wiki 正文 —— mkdocs 构建/部署的就是这里
+│   ├── entities/         # 实体 — 产品、模型、公司
+│   ├── concepts/         # 概念 — 技术、方法、架构
+│   ├── comparisons/       # 横向对比
+│   ├── queries/           # 速查
+│   └── index.md
+├── overview/             # 独立报告（PPTX/HTML）
+├── .meta/                # 抓取器配置（sources.json），非 wiki 内容
+├── AGENTS.md             # 维护 agent 遵循的规则
+└── CONTRIBUTING.md
+```
+
+## 快速开始
+
+**在线阅读**（推荐）：[yuelich.github.io/aios-wiki](https://yuelich.github.io/aios-wiki/)
+
+**本地浏览**（支持 wikilink）：用 [Obsidian](https://obsidian.md/) 打开 `docs/` 目录。
+
+```bash
+git clone https://github.com/YueLich/aios-wiki.git
+```
+
+**订阅更新**：Watch 本仓库并选择 Custom → Releases，即可只收到每周精选摘要，不受逐日 commit 打扰。
+
+## 数据来源
+
+自动扫描分层信息源，配置见 [.meta/sources.json](.meta/sources.json)：arXiv API、RSS（Google AI Blog、HuggingFace 等）、GitHub Releases（llama.cpp、MNN、mlc-llm...）、中英文科技媒体、专家博客。
+
+## 贡献
+
+欢迎 star、提 issue、提 PR 修正内容或推荐来源，详见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+
+## 维护机制
+
+内容由自动化 agent 起草、人工把关，完整规则见 [AGENTS.md](AGENTS.md)：新页面先进草稿区，交叉验证后才晋升正文；每周日发布一次精选摘要（GitHub Release）。
+
+## License
+
+[MIT](LICENSE)
