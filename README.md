@@ -1,3 +1,5 @@
+
+
 # 📱 Mobile AIOS Wiki
 
 <!-- PLACEHOLDER_BADGES -->
@@ -70,6 +72,8 @@ sources:
   - url: https://arxiv.org/...
     date: 2026-04-18
     reliability: high
+created: 2026-04-18
+updated: 2026-04-20
 ---
 ```
 
